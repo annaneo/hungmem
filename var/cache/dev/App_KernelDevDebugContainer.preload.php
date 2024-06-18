@@ -201,8 +201,3 @@ $classes[] = 'Symfony\Bundle\WebProfilerBundle\Csp\NonceGenerator';
 $classes[] = 'Symfony\Bundle\WebProfilerBundle\Controller\RouterController';
 
 $preloaded = Preloader::preload($classes);
-
-$classes = [];
-$classes[] = 'Symfony\\Component\\Routing\\Generator\\CompiledUrlGenerator';
-$classes[] = 'Symfony\\Bundle\\FrameworkBundle\\Routing\\RedirectableCompiledUrlMatcher';
-$preloaded = Preloader::preload($classes, $preloaded);

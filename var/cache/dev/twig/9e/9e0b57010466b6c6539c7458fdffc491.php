@@ -77,7 +77,7 @@ class __TwigTemplate_f2263877e4f5ed9f2b9829dd160647ed extends Template
             <li class=\"nav-item\">
                 <a href=\"";
         // line 23
-        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_usage");
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_sources");
         yield "\" class=\"nav-link\" title=\"Informationen zu Nutzung und Lizenzierung\">Quellen</a>
             </li>
             <li class=\"nav-item\">
@@ -85,14 +85,14 @@ class __TwigTemplate_f2263877e4f5ed9f2b9829dd160647ed extends Template
         // line 26
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_context");
         yield "\" class=\"nav-link\"
-                   title=\"Historischer Kontext zu jüdischem Leben in Hamburg\">Historischer Kontext</a>
+                   title=\"Historischer Kontext\">Historischer Kontext</a>
             </li>
             <li class=\"nav-item\">
                 <a href=\"";
         // line 30
-        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_context");
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_about");
         yield "\" class=\"nav-link\"
-                   title=\"Historischer Kontext zu jüdischem Leben in Hamburg\">HUNGMEM</a>
+                   title=\"Projektkontext\">HUNGMEM</a>
             </li>
 
         </ul>
@@ -162,15 +162,15 @@ class __TwigTemplate_f2263877e4f5ed9f2b9829dd160647ed extends Template
                    title=\"Historischer Kontext zu jüdischem Leben in Hamburg\">Biografien</a>
             </li>
             <li class=\"nav-item\">
-                <a href=\"{{ path('app_usage') }}\" class=\"nav-link\" title=\"Informationen zu Nutzung und Lizenzierung\">Quellen</a>
+                <a href=\"{{ path('app_sources') }}\" class=\"nav-link\" title=\"Informationen zu Nutzung und Lizenzierung\">Quellen</a>
             </li>
             <li class=\"nav-item\">
                 <a href=\"{{ path('app_context') }}\" class=\"nav-link\"
-                   title=\"Historischer Kontext zu jüdischem Leben in Hamburg\">Historischer Kontext</a>
+                   title=\"Historischer Kontext\">Historischer Kontext</a>
             </li>
             <li class=\"nav-item\">
-                <a href=\"{{ path('app_context') }}\" class=\"nav-link\"
-                   title=\"Historischer Kontext zu jüdischem Leben in Hamburg\">HUNGMEM</a>
+                <a href=\"{{ path('app_about') }}\" class=\"nav-link\"
+                   title=\"Projektkontext\">HUNGMEM</a>
             </li>
 
         </ul>
