@@ -43,7 +43,7 @@ class __TwigTemplate_6a295c3a7609ea95fa8215339b46c7da extends Template
         // line 1
         yield "<div class=\"container\">
     <footer class=\"d-flex flex-wrap justify-content-between align-items-center pt-4 py-3 my-4 mt-5 border-top\">
-        <p class=\"col-md-6 text-muted\">&copy; 2022 Institut für die Geschichte der deutschen Juden </p>
+        <p class=\"col-md-6 text-muted\">&copy; 2024 Institut für die Geschichte der deutschen Juden </p>
 
         <ul class=\"nav col-md-4 justify-content-end\">
             <li class=\"nav-item\"><a href=\"";
@@ -94,7 +94,7 @@ class __TwigTemplate_6a295c3a7609ea95fa8215339b46c7da extends Template
     {
         return new Source("<div class=\"container\">
     <footer class=\"d-flex flex-wrap justify-content-between align-items-center pt-4 py-3 my-4 mt-5 border-top\">
-        <p class=\"col-md-6 text-muted\">&copy; 2022 Institut für die Geschichte der deutschen Juden </p>
+        <p class=\"col-md-6 text-muted\">&copy; 2024 Institut für die Geschichte der deutschen Juden </p>
 
         <ul class=\"nav col-md-4 justify-content-end\">
             <li class=\"nav-item\"><a href=\"{{ path('app_imprint') }}\" class=\"nav-link\">Impressum</a></li>

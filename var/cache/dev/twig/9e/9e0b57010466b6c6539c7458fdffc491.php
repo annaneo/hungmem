@@ -52,33 +52,33 @@ class __TwigTemplate_f2263877e4f5ed9f2b9829dd160647ed extends Template
                 <a href=\"";
         // line 9
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_home");
-        yield "\" class=\"nav-link\" title=\"Übersicht aller Interviews\">Home</a>
+        yield "\" class=\"nav-link\" title=\"Startseite\">Home</a>
             </li>
             <li class=\"nav-item\">
                 <a href=\"";
         // line 12
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_map");
         yield "\" class=\"nav-link\"
-                   title=\"Kartenansicht von in den Interviews genannten Orten\">Orte</a>
+                   title=\"Kartenansicht\">Orte</a>
             </li>
             <li class=\"nav-item\">
                 <a href=\"";
         // line 16
-        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_about");
-        yield "\" class=\"nav-link\" title=\"Informationen zum Interview-Projekt\">Deportationsrouten</a>
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation");
+        yield "\" class=\"nav-link\" title=\"Deportationsrouten\">Deportationsrouten</a>
             </li>
             <li class=\"nav-item\">
                 <a href=\"";
         // line 19
-        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_context");
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographies");
         yield "\" class=\"nav-link\"
-                   title=\"Historischer Kontext zu jüdischem Leben in Hamburg\">Biografien</a>
+                   title=\"Biografien\">Biografien</a>
             </li>
             <li class=\"nav-item\">
                 <a href=\"";
         // line 23
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_sources");
-        yield "\" class=\"nav-link\" title=\"Informationen zu Nutzung und Lizenzierung\">Quellen</a>
+        yield "\" class=\"nav-link\" title=\"Was wir wissen und was wir nicht wissen\">Quellen</a>
             </li>
             <li class=\"nav-item\">
                 <a href=\"";
@@ -148,21 +148,21 @@ class __TwigTemplate_f2263877e4f5ed9f2b9829dd160647ed extends Template
     <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">
         <ul class=\"navbar-nav mr-auto nav-pills\">
             <li class=\"nav-item\">
-                <a href=\"{{ path('app_home') }}\" class=\"nav-link\" title=\"Übersicht aller Interviews\">Home</a>
+                <a href=\"{{ path('app_home') }}\" class=\"nav-link\" title=\"Startseite\">Home</a>
             </li>
             <li class=\"nav-item\">
                 <a href=\"{{ path('app_map') }}\" class=\"nav-link\"
-                   title=\"Kartenansicht von in den Interviews genannten Orten\">Orte</a>
+                   title=\"Kartenansicht\">Orte</a>
             </li>
             <li class=\"nav-item\">
-                <a href=\"{{ path('app_about') }}\" class=\"nav-link\" title=\"Informationen zum Interview-Projekt\">Deportationsrouten</a>
+                <a href=\"{{ path('app_deportation') }}\" class=\"nav-link\" title=\"Deportationsrouten\">Deportationsrouten</a>
             </li>
             <li class=\"nav-item\">
-                <a href=\"{{ path('app_context') }}\" class=\"nav-link\"
-                   title=\"Historischer Kontext zu jüdischem Leben in Hamburg\">Biografien</a>
+                <a href=\"{{ path('app_biographies') }}\" class=\"nav-link\"
+                   title=\"Biografien\">Biografien</a>
             </li>
             <li class=\"nav-item\">
-                <a href=\"{{ path('app_sources') }}\" class=\"nav-link\" title=\"Informationen zu Nutzung und Lizenzierung\">Quellen</a>
+                <a href=\"{{ path('app_sources') }}\" class=\"nav-link\" title=\"Was wir wissen und was wir nicht wissen\">Quellen</a>
             </li>
             <li class=\"nav-item\">
                 <a href=\"{{ path('app_context') }}\" class=\"nav-link\"

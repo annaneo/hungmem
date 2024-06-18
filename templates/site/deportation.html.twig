@@ -1,0 +1,96 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} {{ parent() }} | Übersicht Interviews {% endblock %}
+
+{% block body %}
+
+    <div class="container g-4 py-5">
+
+        <div class="row row-cols-1 row-cols-md-2 g-3">
+            <div class="col">
+                <div class="card shadow-sm mt-5">
+                    <a href="" title="">
+                        <img class="img-fluid" src="{{ asset('images/') }}"
+                             alt="">
+                    </a>
+                    <div class="card-body">
+                        <h3>
+                            <a href="{{ path('app_studytemplate') }}" title="">
+                                Fallstudie VW
+                        </a>
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing
+                            elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum ...
+                            <a href="{{ path('app_studytemplate') }}" title="Weiterlesen">[mehr]</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm mt-5">
+                    <a href="{{ path('app_studytemplate') }}" title="">
+                        <img class="img-fluid" src="{{ asset('images/') }}"
+                             alt="">
+                    </a>
+                    <div class="card-body">
+                        <h3>
+                            <a href="{{ path('app_studytemplate') }}" title="">
+                                Fallstudie Dessauer Ufer
+                        </a>
+                        </h3>
+                        <p>Dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                            ...
+                            <a href="{{ path('app_studytemplate') }}" title="Weiterlesen">[mehr]</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-2 g-3">
+            <div class="col">
+                <div class="card shadow-sm mt-5">
+                    <a href="{{ path('app_studytemplate') }}" title="">
+                        <img class="img-fluid" src="{{ asset('images/') }}"
+                             alt="">
+                    </a>
+                    <div class="card-body">
+                        <h3>
+                            <a href="{{ path('app_studytemplate') }}" title="">
+                                Fallstudie Außenlager Salzwedel
+                            </a>
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing
+                            elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum ...
+                            <a href="{{ path('app_studytemplate') }}" title="Weiterlesen">[mehr]</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm mt-5">
+                    <a href="{{ path('app_studytemplate') }}" title="">
+                        <img class="img-fluid" src="{{ asset('images/') }}"
+                             alt="">
+                    </a>
+                    <div class="card-body">
+                        <h3>
+                            <a href="{{ path('app_studytemplate') }}" title="">
+                                Fallstudie Außenlager
+                            </a>
+                        </h3>
+                        <p>Dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                            ...
+                            <a href="{{ path('app_studytemplate') }}" title="Weiterlesen">[mehr]</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+{% endblock %}

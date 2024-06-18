@@ -13,7 +13,7 @@ class SiteController extends AbstractController
     #[Route('/', name: 'app_home')]
     public function home(): Response
     {
-        return $this->render('collection/home.html.twig', [
+        return $this->render('site/home.html.twig', [
             'title' => 'Startseite'
         ]);
     }
@@ -22,7 +22,7 @@ class SiteController extends AbstractController
     #[Route('/map', name: 'app_map')]
     public function map()
     {
-        return $this->render('collection/map.html.twig', [
+        return $this->render('site/map.html.twig', [
             ''
         ]);
     }
@@ -30,7 +30,7 @@ class SiteController extends AbstractController
     #[Route('/deportationen/', name: 'app_deportation')]
     public function deportation(): Response
     {
-        return $this->render('collection/deportation.html.twig', [
+        return $this->render('site/deportation.html.twig', [
             'title' => 'Deportationsrouten'
         ]);
     }
@@ -38,31 +38,29 @@ class SiteController extends AbstractController
     #[Route('/biographien/', name: 'app_biographies')]
     public function biographies(): Response
     {
-        return $this->render('collection/biographies.html.twig', [
+        return $this->render('site/biographies.html.twig', [
             'title' => 'Biographien'
         ]);
     }
 
-
-    #[Route('/hungmem/', name: 'app_about')]
-    public function about()
+    #[Route('/quellen', name: 'app_sources')]
+    public function sources()
     {
-        return $this->render('collection/about.html.twig');
+        return $this->render('site/sources.html.twig');
     }
-
 
     #[Route('/context', name: 'app_context')]
     public function context()
     {
-        return $this->render('collection/context.html.twig');
+        return $this->render('site/context.html.twig');
     }
 
-
-    #[Route('/quellen', name: 'app_sources')]
-    public function sources()
+    #[Route('/hungmem', name: 'app_about')]
+    public function about()
     {
-        return $this->render('sources.html.twig');
+        return $this->render('site/about.html.twig');
     }
+
 
     /**
      * Imprint.
@@ -72,7 +70,7 @@ class SiteController extends AbstractController
     #[Route('/impressum', name: 'app_imprint')]
     public function imprint()
     {
-        return $this->render('collection/imprint.html.twig');
+        return $this->render('site/imprint.html.twig');
     }
 
 
@@ -84,14 +82,17 @@ class SiteController extends AbstractController
         return JsonResponse::fromJsonString($jsonData);
     }
 
-    /**
-     * Interview template
-     *
-     * @Route("/interview/template", name="template")
-     */
-    public function template()
+
+    #[Route('/studytemplate', name: 'app_studytemplate')]
+    public function studytemplate()
     {
-        return $this->render('biographies/template.html.twig');
+        return $this->render('studies/study.html.twig');
+    }
+
+    #[Route('/biographytemplate', name: 'app_biographytemplate')]
+    public function biographytemplate()
+    {
+        return $this->render('biographies/study.html.twig');
     }
 
     /**
