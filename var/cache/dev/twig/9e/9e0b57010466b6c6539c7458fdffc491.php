@@ -41,9 +41,9 @@ class __TwigTemplate_f2263877e4f5ed9f2b9829dd160647ed extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "template", "elements/navigation.html.twig"));
 
         // line 1
-        yield "
-<nav class=\"navbar navbar-expand-md navbar-light nav nav-pills\">
-    <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
+        yield "<nav class=\"navbar navbar-expand-md navbar-light nav nav-pills\">
+    <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\"
+            aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
         <span class=\"navbar-toggler-icon\"></span>
     </button>
     <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">
@@ -52,38 +52,54 @@ class __TwigTemplate_f2263877e4f5ed9f2b9829dd160647ed extends Template
                 <a href=\"";
         // line 9
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_home");
-        yield "\" class=\"nav-link\" title=\"Übersicht aller Interviews\">Interviews</a>
+        yield "\" class=\"nav-link\" title=\"Übersicht aller Interviews\">Home</a>
             </li>
             <li class=\"nav-item\">
                 <a href=\"";
         // line 12
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_map");
-        yield "\" class=\"nav-link\" title=\"Kartenansicht von in den Interviews genannten Orten\">Karte</a>
+        yield "\" class=\"nav-link\"
+                   title=\"Kartenansicht von in den Interviews genannten Orten\">Orte</a>
             </li>
             <li class=\"nav-item\">
                 <a href=\"";
-        // line 15
+        // line 16
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_about");
-        yield "\" class=\"nav-link\" title=\"Informationen zum Interview-Projekt\">Über&nbsp;das&nbsp;Projekt</a>
+        yield "\" class=\"nav-link\" title=\"Informationen zum Interview-Projekt\">Deportationsrouten</a>
             </li>
             <li class=\"nav-item\">
                 <a href=\"";
-        // line 18
+        // line 19
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_context");
-        yield "\" class=\"nav-link\" title=\"Historischer Kontext zu jüdischem Leben in Hamburg\">Das&nbsp;jüdische&nbsp;Hamburg</a>
+        yield "\" class=\"nav-link\"
+                   title=\"Historischer Kontext zu jüdischem Leben in Hamburg\">Biografien</a>
             </li>
             <li class=\"nav-item\">
                 <a href=\"";
-        // line 21
+        // line 23
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_usage");
-        yield "\" class=\"nav-link\" title=\"Informationen zu Nutzung und Lizenzierung\">Nutzung</a>
+        yield "\" class=\"nav-link\" title=\"Informationen zu Nutzung und Lizenzierung\">Quellen</a>
             </li>
-            
+            <li class=\"nav-item\">
+                <a href=\"";
+        // line 26
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_context");
+        yield "\" class=\"nav-link\"
+                   title=\"Historischer Kontext zu jüdischem Leben in Hamburg\">Historischer Kontext</a>
+            </li>
+            <li class=\"nav-item\">
+                <a href=\"";
+        // line 30
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_context");
+        yield "\" class=\"nav-link\"
+                   title=\"Historischer Kontext zu jüdischem Leben in Hamburg\">HUNGMEM</a>
+            </li>
+
         </ul>
     </div>
     <a href=\"\">
         <img class=\"institute\" width=\"45%\" src=\"";
-        // line 27
+        // line 37
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/IGdJ-Logo.svg"), "html", null, true);
         yield "\"
              alt=\"Logo des Instituts für die Geschichte des deutschen Juden\"/>
@@ -119,34 +135,44 @@ class __TwigTemplate_f2263877e4f5ed9f2b9829dd160647ed extends Template
      */
     public function getDebugInfo()
     {
-        return array (  87 => 27,  78 => 21,  72 => 18,  66 => 15,  60 => 12,  54 => 9,  44 => 1,);
+        return array (  103 => 37,  93 => 30,  86 => 26,  80 => 23,  73 => 19,  67 => 16,  60 => 12,  54 => 9,  44 => 1,);
     }
 
     public function getSourceContext()
     {
-        return new Source("
-<nav class=\"navbar navbar-expand-md navbar-light nav nav-pills\">
-    <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
+        return new Source("<nav class=\"navbar navbar-expand-md navbar-light nav nav-pills\">
+    <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\"
+            aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
         <span class=\"navbar-toggler-icon\"></span>
     </button>
     <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">
         <ul class=\"navbar-nav mr-auto nav-pills\">
             <li class=\"nav-item\">
-                <a href=\"{{ path('app_home') }}\" class=\"nav-link\" title=\"Übersicht aller Interviews\">Interviews</a>
+                <a href=\"{{ path('app_home') }}\" class=\"nav-link\" title=\"Übersicht aller Interviews\">Home</a>
             </li>
             <li class=\"nav-item\">
-                <a href=\"{{ path('app_map') }}\" class=\"nav-link\" title=\"Kartenansicht von in den Interviews genannten Orten\">Karte</a>
+                <a href=\"{{ path('app_map') }}\" class=\"nav-link\"
+                   title=\"Kartenansicht von in den Interviews genannten Orten\">Orte</a>
             </li>
             <li class=\"nav-item\">
-                <a href=\"{{ path('app_about') }}\" class=\"nav-link\" title=\"Informationen zum Interview-Projekt\">Über&nbsp;das&nbsp;Projekt</a>
+                <a href=\"{{ path('app_about') }}\" class=\"nav-link\" title=\"Informationen zum Interview-Projekt\">Deportationsrouten</a>
             </li>
             <li class=\"nav-item\">
-                <a href=\"{{ path('app_context') }}\" class=\"nav-link\" title=\"Historischer Kontext zu jüdischem Leben in Hamburg\">Das&nbsp;jüdische&nbsp;Hamburg</a>
+                <a href=\"{{ path('app_context') }}\" class=\"nav-link\"
+                   title=\"Historischer Kontext zu jüdischem Leben in Hamburg\">Biografien</a>
             </li>
             <li class=\"nav-item\">
-                <a href=\"{{ path('app_usage') }}\" class=\"nav-link\" title=\"Informationen zu Nutzung und Lizenzierung\">Nutzung</a>
+                <a href=\"{{ path('app_usage') }}\" class=\"nav-link\" title=\"Informationen zu Nutzung und Lizenzierung\">Quellen</a>
             </li>
-            
+            <li class=\"nav-item\">
+                <a href=\"{{ path('app_context') }}\" class=\"nav-link\"
+                   title=\"Historischer Kontext zu jüdischem Leben in Hamburg\">Historischer Kontext</a>
+            </li>
+            <li class=\"nav-item\">
+                <a href=\"{{ path('app_context') }}\" class=\"nav-link\"
+                   title=\"Historischer Kontext zu jüdischem Leben in Hamburg\">HUNGMEM</a>
+            </li>
+
         </ul>
     </div>
     <a href=\"\">

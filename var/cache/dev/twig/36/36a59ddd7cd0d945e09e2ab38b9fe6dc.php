@@ -58,39 +58,39 @@ class __TwigTemplate_d6fd14a705faa8121d6bcd8b2ebbdf8a extends Template
     ";
         // line 8
         yield from $this->unwrap()->yieldBlock('stylesheets', $context, $blocks);
-        // line 33
+        // line 31
         yield "</head>
 <body>
 
 ";
+        // line 34
+        yield from         $this->loadTemplate("elements/navigation.html.twig", "base.html.twig", 34)->unwrap()->yield($context);
+        // line 35
+        yield from         $this->loadTemplate("elements/hero.html.twig", "base.html.twig", 35)->unwrap()->yield($context);
         // line 36
-        yield from         $this->loadTemplate("elements/navigation.html.twig", "base.html.twig", 36)->unwrap()->yield($context);
-        // line 37
-        yield from         $this->loadTemplate("elements/hero.html.twig", "base.html.twig", 37)->unwrap()->yield($context);
-        // line 38
         yield "
 
 ";
-        // line 40
+        // line 38
         yield from $this->unwrap()->yieldBlock('body', $context, $blocks);
+        // line 40
+        yield "
+";
+        // line 41
+        yield from         $this->loadTemplate("elements/footer.html.twig", "base.html.twig", 41)->unwrap()->yield($context);
         // line 42
         yield "
 ";
         // line 43
-        yield from         $this->loadTemplate("elements/footer.html.twig", "base.html.twig", 43)->unwrap()->yield($context);
+        yield from $this->unwrap()->yieldBlock('javascripts', $context, $blocks);
         // line 44
         yield "
-";
-        // line 45
-        yield from $this->unwrap()->yieldBlock('javascripts', $context, $blocks);
-        // line 46
-        yield "
 <script src=\"";
-        // line 47
+        // line 45
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("js/app.js"), "html", null, true);
         yield "\"></script>
 <script src=\"";
-        // line 48
+        // line 46
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("js/lightbox-and-jquery.js"), "html", null, true);
         yield "\"></script>
 <script src=\"https://code.jquery.com/jquery-3.2.1.slim.min.js\" integrity=\"sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN\" crossorigin=\"anonymous\"></script>
@@ -140,18 +140,16 @@ class __TwigTemplate_d6fd14a705faa8121d6bcd8b2ebbdf8a extends Template
 
         // line 9
         yield "
-        <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css\"
-              integrity=\"sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh\"
-              crossorigin=\"anonymous\">
+        <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH\" crossorigin=\"anonymous\">
         <link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/images/favicon-32x32.png\">
         <link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/images/favicon-16x16.png\">
 
         <link rel=\"stylesheet\" href=\"";
-        // line 16
+        // line 14
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("css/app.css"), "html", null, true);
         yield "\">
         <link rel=\"stylesheet\" href=\"";
-        // line 17
+        // line 15
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("css/lightbox.css"), "html", null, true);
         yield "\">
 
@@ -178,7 +176,7 @@ class __TwigTemplate_d6fd14a705faa8121d6bcd8b2ebbdf8a extends Template
         return; yield '';
     }
 
-    // line 40
+    // line 38
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -197,7 +195,7 @@ class __TwigTemplate_d6fd14a705faa8121d6bcd8b2ebbdf8a extends Template
         return; yield '';
     }
 
-    // line 45
+    // line 43
     public function block_javascripts($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -237,7 +235,7 @@ class __TwigTemplate_d6fd14a705faa8121d6bcd8b2ebbdf8a extends Template
      */
     public function getDebugInfo()
     {
-        return array (  201 => 45,  182 => 40,  155 => 17,  151 => 16,  142 => 9,  132 => 8,  112 => 7,  94 => 48,  90 => 47,  87 => 46,  85 => 45,  82 => 44,  80 => 43,  77 => 42,  75 => 40,  71 => 38,  69 => 37,  67 => 36,  62 => 33,  60 => 8,  56 => 7,  48 => 1,);
+        return array (  199 => 43,  180 => 38,  153 => 15,  149 => 14,  142 => 9,  132 => 8,  112 => 7,  94 => 46,  90 => 45,  87 => 44,  85 => 43,  82 => 42,  80 => 41,  77 => 40,  75 => 38,  71 => 36,  69 => 35,  67 => 34,  62 => 31,  60 => 8,  56 => 7,  48 => 1,);
     }
 
     public function getSourceContext()
@@ -251,9 +249,7 @@ class __TwigTemplate_d6fd14a705faa8121d6bcd8b2ebbdf8a extends Template
     <title>{% block title %}Jüdische Geschichte erzählen{% endblock %}</title>
     {% block stylesheets %}
 
-        <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css\"
-              integrity=\"sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh\"
-              crossorigin=\"anonymous\">
+        <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH\" crossorigin=\"anonymous\">
         <link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/images/favicon-32x32.png\">
         <link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/images/favicon-16x16.png\">
 
