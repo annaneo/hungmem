@@ -1,0 +1,65 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} Heimann | {{ parent() }} {% endblock %}
+
+{% block body %}
+    <div class="container mt-5">
+        <div class="row align-items-start pt-4">
+            <div class="col-lg-6 col-xl-6">
+                <video width="100%"   height="100%" controls poster="{{ asset('images/poster/Heimann.jpg') }}">
+                    <source src="{{ asset('videos/Heimann.mp4') }}" type="video/mp4">
+                </video>
+                <div>
+                    <p>Michael Heimann über seine (Familien-)Geschichte und sein Selbstverständnis als Jude in Deutschland. © IGdJ, 2022.</p>
+                </div>
+                <div class="pt-5">
+                    <p class="quote pt-4">„Da fing ich an, bewusst Jude zu sein und auch selbstbewusst Jude zu sein.“</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-xl-6">
+                <div class="metadata p-4">
+                    <p>Gesamtlänge des Interviews: 39:01</p>
+                    <p>Gezeigter Ausschnitt: 04:49</p>
+                    <p>Interviewerin: Karen Körber, Anna Menny</p>
+                    <p>Ort des Interviews: Hamburg</p>
+                    <p>Interview geführt am: 13.12.21</p>
+                    <p>Schnitt: Anna Menny, Aline Philippen</p>
+                    <p>Objekt(e): –</p>
+                    <p>Schlagwort(e): Jüdische Gemeinde Hamburg,
+                        Kindertransport,
+                        Antisemitismus,
+                        Fremdheit,
+                        Zweite Generation,
+                        Migration,
+                        Jüdische Identität,
+                        Zweiter Weltkrieg,
+                        Nationalsozialismus,
+                        Holocaust,
+                        Israel</p>
+                    <p>Genannte Orte: Haifa,
+                        Halstenbek,
+                        Hamburg,
+                        Israel
+                    </p>
+                    <p>Lizenz: <a href="https://creativecommons.org/licenses/by/4.0/deed.de">CC BY 4.0</a> (Text), <a
+                                href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.de">CC BY-NC-ND 4.0</a>
+                        (Video)</p>
+                </div>
+            </div>
+        </div>
+        <div class="row align-items-start pt-4">
+            <div class="col-md-6 col-xl-6">
+                <h2 class="title-show">Michael Heimann</h2>
+                <p>
+                    Michael Heimanns Mutter stammt aus Wien, sein Vater aus Breslau. Beide konnten während der Zeit des
+                    Nationalsozialismus mit Kindertransporten nach Schweden gelangen, wo sie sich kennenlernten und
+                    beschlossen, nach Palästina auszuwandern. Dort wurde Michael Heimann 1955 in Haifa geboren. Etwa
+                    drei Jahre später zog die Familie nach Berlin, wo die Eltern studierten. Mit zwölf Jahren kam Michael
+                    Heimann dann, gemeinsam mit seinen Eltern, zunächst nach Halstenbek, später nach Hamburg. Die
+                    Gesprächsausschnitte geben unter anderem Einblicke in Heimanns Aushandlungsprozess mit seiner
+                    eigenen jüdischen Identität in einer nichtjüdischen deutschen Mehrheitsgesellschaft.
+                </p>
+            </div>
+        </div>
+    </div>
+{% endblock %}

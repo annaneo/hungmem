@@ -1,0 +1,51 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} Lohse | {{ parent() }} {% endblock %}
+
+{% block body %}
+    <div class="container mt-5">
+        <div class="row align-items-start pt-4">
+            <div class="col-lg-6 col-xl-6">
+                <video width="100%"  height="100%" controls poster="{{ asset('images/poster/Lohse.jpg') }}">
+                    <source src="{{ asset('videos/Lohse_konvertiert.mp4') }}" type="video/mp4">
+                </video>
+                <div>
+                    <p>Ulrich Michael Lohse über seine Konversion und die Bedeutung seines Glaubens. © IGdJ,
+                        2022.</p>
+                </div>
+                <div class="pt-5">
+                    <p class="quote">„Was mir unvergesslich ist, ist der Tag, an dem ich das erste Mal zur Tora aufgerufen wurde.“</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-xl-6">
+                <div class="metadata p-4">
+                    <p>Gesamtlänge des Interviews: 23:09</p>
+                    <p>Gezeigter Ausschnitt: 05:09</p>
+                    <p>Interviewerin: Anna Menny, Sonja Dickow</p>
+                    <p>Ort des Interviews: Hamburg</p>
+                    <p>Interview geführt am: 4.10.2021</p>
+                    <p>Schnitt: Anna Menny, Aline Philippen</p>
+                    <p>Objekt(e): –</p>
+                    <p>Schlagwort(e): Jüdische Speisegesetze,
+                        Halacha</p>
+                    <p>Genannte Orte: Antwerpen, Hamburg</p>
+                    <p>Lizenz: <a href="https://creativecommons.org/licenses/by/4.0/deed.de">CC BY 4.0</a> (Text), <a
+                                href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.de">CC BY-NC-ND 4.0</a>
+                        (Video)</p>
+                </div>
+            </div>
+        </div>
+        <div class="row align-items-start pt-4">
+            <div class="col-lg-6 col-xl-6">
+                <h2 class="title-show">Ulrich Michael Lohse</h2>
+                <p>
+                    In dem Interviewausschnitt erzählt der in Hamburg geborene Ulrich Michael Lohse über seine jüdische
+                    Familienherkunft, seine Hinwendung zum jüdischen Glauben und die Rolle der Religion im Alltag.
+                    Lohse besucht regelmäßig die Gemeindegottesdienste und hatte verschiedene Funktionen innherhalb der
+                    Gemeinde inne, unter anderem gehörte er dem Vorstand und dem Beirat an.
+                </p>
+            </div>
+
+        </div>
+    </div>
+{% endblock %}

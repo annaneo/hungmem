@@ -1,0 +1,61 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} Wittenberg | {{ parent() }} {% endblock %}
+
+{% block body %}
+    <div class="container mt-5">
+        <div class="row align-items-start pt-4">
+            <div class="col">
+                <video width="100%"  height="100%" controls poster="{{ asset('images/poster/Wittenberg.jpg') }}">
+                    <source src="{{ asset('videos/Wittenberg.mp4') }}" type="video/mp4">
+                </video>
+                <div class="pr-2">
+                    <p>Andreas Wittenberg über die Geschichte seiner Eltern und sein Aufwachsen in Hamburg. © IGdJ, 2022.</p>
+                </div>
+                <div class="pt-5">
+                    <p class="quote">„Ich habe mich immer durchaus als Jude verstanden. Im dem Sinne, Teil einer Schicksalsgemeinschaft zu sein.“</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="metadata p-4">
+                    <p>Gesamtlänge des Interviews: 01:05:45</p>
+                    <p>Gezeigter Ausschnitt: 06:57</p>
+                    <p>Interviewerin: Karen Körber, Anna Menny</p>
+                    <p>Ort des Interviews: Hamburg</p>
+                    <p>Interview geführt am: 16.11.2022</p>
+                    <p>Schnitt: Anna Menny, Aline Philippen</p>
+                    <p>Objekt(e): –</p>
+                    <p>Schlagwort(e): Migration,
+                        Vereinigung der Verfolgten des Naziregimes,
+                        politisches Engagement,
+                        Umgang mit Vergangenheit
+                        Urugay</p>
+                    <p>Genannte Orte:
+                        Montevideo,
+                        Ostpreußen,
+                        Hamburg,
+                        Texas (USA),
+                        Uruguay
+                    </p>
+                    <p>Lizenz: <a href="https://creativecommons.org/licenses/by/4.0/deed.de">CC BY 4.0</a> (Text), <a
+                                href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.de">CC BY-NC-ND 4.0</a>
+                        (Video)</p>
+                </div>
+            </div>
+        </div>
+        <div class="row align-items-start pt-4">
+            <div class="col-md-6">
+                <h2 class="title-show">Andreas Wittenberg</h2>
+                <p>
+                    Andreas Wittenberg wurde 1955 in Hamburg geboren. Seine Eltern, Steffi und Kurt Wittenberg, hatten
+                    sich als jüdische Geflüchtete in Montevideo kennengelernt, nach Übersiedlung in die USA dort 1948 geheiratet und waren 1951 nach
+                    Hamburg, in die Geburtsstadt Steffi Wittenbergs, zurückgekehrt. In den präsentierten
+                    Interviewausschnitten berichtet Andreas Wittenberg von seiner politischen und jüdischen
+                    Sozialisierung und der Geschichte seiner Eltern, die auch in der Online-Ausstellung <em>„Nichts. Nur Fort!“ Flucht und Neuanfang in Buenos Aires, Montevideo und São Paulo</em> behandelt wird: <a
+                            href="https://juedische-geschichte-online.net/ausstellung/emigration-suedamerika">https://juedische-geschichte-online.net/ausstellung/emigration-suedamerika</a>
+                </p>
+            </div>
+
+        </div>
+    </div>
+{% endblock %}

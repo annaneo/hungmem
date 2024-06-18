@@ -1,0 +1,76 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} Lubinska | {{ parent() }} {% endblock %}
+
+{% block body %}
+    <div class="container mt-5">
+        <div class="row align-items-start pt-4">
+            <div class="col-lg-6 col-xl-6">
+                <video width="100%"  height="100%" controls poster="{{ asset('images/poster/Lubinska.jpg') }}">
+                    <source src="{{ asset('videos/Lubinska.mov') }}" type="video/mp4">
+                </video>
+                <div>
+                    <p>Elsara Lubinska über ihre Einwanderung nach Deutschland 1991. © IGdJ, 2022.</p>
+                </div>
+                <div class="pt-5">
+                    <p class="quote">„Da rief mich eine Frau aus der Botschaft an […] und dann hat sie gesagt, dass die
+                        ersten Zwanzig die [Einreise-]Erlaubnis bekommen haben […] und ich bin auch dabei.“</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-xl-6">
+                <div class="metadata p-4">
+                    <p>Gesamtlänge des Interviews: 07:40</p>
+                    <p>Gezeigter Ausschnitt: 04:30</p>
+                    <p>Interviewerin: Karen Körber</p>
+                    <p>Ort des Interviews: Hamburg</p>
+                    <p>Interview geführt am: 14.4.2022</p>
+                    <p>Schnitt: Anna Menny, Aline Philippen</p>
+                    <p>Objekt(e): Dokument des Bundesverwaltungsamts zur Aufnahme jüdischer Immigranten aus der
+                        Sowjetunion in der Bundesrepublik Deutschland sowie Kopien der Pässe von Elsara Lubinska und
+                        ihrem Sohn</p>
+                    <p>Schlagwort(e): Sowjetunion,
+                        Kontingentflüchtlingsgesetz,
+                        Migration</p>
+                    <p>Genannte Orte: Moskau,
+                        Buchara,
+                        Nowosibirsk,
+                        Hamburg
+                    </p>
+                    <p>Lizenz: <a href="https://creativecommons.org/licenses/by/4.0/deed.de">CC BY 4.0</a> (Text), <a
+                                href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.de">CC BY-NC-ND 4.0</a>
+                        (Video)</p>
+                </div>
+            </div>
+        </div>
+        <div class="row align-items-start pt-4">
+            <div class="col-lg-6 col-xl-6">
+                <h2 class="title-show">Elsara Lubinksa</h2>
+                <p>
+                    Elsara Lubinksa wurde 1945 in Buchara, Usbekistan, geboren und wuchs in der Ukraine auf. Nach einem
+                    Studium in Nowosibirsk wohnte sie in Moskau, von wo aus sie als eine der ersten sogenannten
+                    Kontingentflüchtlinge im Dezember 1991 – gemeinsam mit ihrem Sohn – nach Hamburg kam. In dem
+                    Interviewausschnitt berichtet Lubinska von ihren Erinnerungen an die Vorbereitungen zur Auswanderung
+                    nach Deutschland bis hin zur Ankunft und dem Zurechtfinden in der Hansestadt.
+                </p>
+            </div>
+            <div class="col-lg-6 col-xl-6col">
+                <a href="{{ asset('images/objekte/Lubinska_Pass.jpg') }}"
+                   data-lightbox="lubinska"
+                   data-title="Aufnahmezusage für Hamburg (Scan). IGdJ.">
+                    <img class="gallery"
+                         src="{{ asset('images/objekte/Lubinska_Pass_Voransicht.jpg') }}"
+                         alt="Aufnahmezusage für Hamburg (Scan) IGdJ"/>
+                </a>
+                <a href="{{ asset('images/objekte/Lubinska_Aufnahme.jpg') }}"
+                   data-lightbox="lubinska"
+                   data-title="Sowjetischer Pass (Scan). Mit freundlicher Genehmigung.">
+                    <img class="gallery"
+                         src="{{ asset('images/objekte/Lubinska_Aufnahme_Voransicht.jpg') }}"
+                         alt="Sowjetischer Pass (Scan). Mit freundlicher Genehmigung."/>
+                </a>
+                <p class="caption img-fluid">Pass und Aufnahmezusage von Elsara Lubinksa. Mit freundlicher Genehmigung.</p>
+            </div>
+
+        </div>
+    </div>
+{% endblock %}

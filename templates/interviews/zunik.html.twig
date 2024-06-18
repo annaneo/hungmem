@@ -1,0 +1,80 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} Zunik | {{ parent() }} {% endblock %}
+
+{% block body %}
+    <div class="container mt-5">
+        <div class="row align-items-start pt-4">
+            <div class="col-lg-6 col-xl-6">
+                <video width="100%" height="100%" controls poster="{{ asset('images/poster/Zunik.jpg') }}">
+                    <source src="{{ asset('videos/Zunik.mp4') }}" type="video/mp4">
+                </video>
+                <div>
+                    <p class="pr-2">Igor Zunik über das Olympia-Maskottchen seiner Großeltern. © IGdJ, 2022.</p>
+                    <p class="pt-5 quote">„Ein bisschen der Kampfgeist der Olympischen Spiele, der sich natürlich auch auf
+                        das Leben übertragen ließ.“</p>
+                </div>
+                <div class="pt-5">
+                </div>
+            </div>
+            <div class="col-lg-6 col-xl-6">
+                <div class="metadata p-4">
+                    <p>Gesamtlänge des Interviews: 07:49</p>
+                    <p>Gezeigter Ausschnitt: 05:03</p>
+                    <p>Interviewerin: Karen Körber</p>
+                    <p>Ort des Interviews: Hamburg</p>
+                    <p>Interview geführt am: 19.6.2022 (Objekttag in Kooperation mit dem Jüdischen Museum Berlin)</p>
+                    <p>Schnitt: Anna Menny, Aline Philippen</p>
+                    <p>Objekt(e): Olympia-Maskottchen der
+                        Olympischen Spiele von 1980</p>
+                    <p>Schlagworte: Objekttag,
+                        Sowjetunion,
+                        Kontingentflüchtlingsgesetz</p>
+                    <p>Genannte Orte: Staubing,
+                        Würzburg,
+                        Bayreuth,
+                        Kiew,
+                        Brody,
+                        Hamburg,
+                        Ukraine
+                    </p>
+                    <p>Lizenz: <a href="https://creativecommons.org/licenses/by/4.0/deed.de">CC BY 4.0</a> (Text), <a
+                                href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.de">CC BY-NC-ND 4.0</a>
+                        (Video)</p>
+                </div>
+            </div>
+        </div>
+        <div class="row align-items-start pt-4">
+            <div class="col-md-6 col-xl-6">
+                <h2 class="title-show">Igor Zunik</h2>
+                <p>
+                    Igor Zunik, 1985 in Kiew geboren, kam als Neunjähriger gemeinsam mit seinen Eltern und seiner
+                    Großmutter im Rahmen des Kontingentflüchtlingsgesetzes aus der heutigen Ukraine nach Deutschland. Das
+                    Olympia-Maskottchen der Olympischen Spiele von 1980, ein kleiner Bär, ist der Ausgangspunkt des
+                    Interviews, das anlässlich des gemeinsam mit dem Jüdischen Museum Berlin ausgerichteten Hamburger
+                    Objekttages geführt wurde. Zunik erzählt, warum der Bär für ihn von hohem emotionalen Wert ist
+                    und warum er symbolhaft für das Ankommen in Deutschland steht.
+                </p>
+            </div>
+            <div class="col-md-6 col-xl-6">
+                <a href="{{ asset('images/objekte/Zunik_mit_Objekt.jpg') }}"
+                   data-lightbox="zunik"
+                   data-title="Igor Zunik mit dem Maskottchen der Olympischen Spiele von 1980. Foto: Stephan Pramme,
+                    Jüdisches Museum Berlin">
+                    <img class="gallery img-fluid"
+                         src="{{ asset('images/objekte/Zunik_mit_Objekt_Voransicht.jpg') }}"
+                         alt="Das Maskottchen der Olympischen Spiele von 1980, das Igor Zunik von seiner Großmutter bekommen hat. Foto: Stephan Pramme,
+                    Jüdisches Museum Berlin"/>
+                </a>
+                <a href="{{ asset('images/objekte/Zunik_Objekt_Maskottchen.jpg') }}"
+                   data-lightbox="zunik"
+                   data-title="Maskottchen der Olympischen Spiele von 1980. Foto: Stephan Pramme,
+                    Jüdisches Museum Berlin">
+                </a>
+                <p class="caption" style="width:350px;">Igor Zunik mit dem Maskottchen der Olympischen Spiele von 1980. Foto: Stephan Pramme,
+                    Jüdisches Museum Berlin. [Bildergalerie]</p>
+            </div>
+
+        </div>
+    </div>
+{% endblock %}

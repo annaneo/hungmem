@@ -1,0 +1,63 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}  | {{ parent() }} {% endblock %}
+
+{% block body %}
+    <div class="container mt-5">
+        <div class="row align-items-start pt-4">
+            <div class="col-lg-6 col-xl-6">
+                <video width="100%"  height="100%" controls poster="{{ asset('images/poster/') }}">
+                    <source src="{{ asset('videos/Heimann.mp4') }}" type="video/mp4">
+                </video>
+                <div>
+                    <p>Untertitel © IGdJ, 2022.</p>
+                </div>
+                <div class="pt-5">
+                    <p class="quote">„“</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-xl-6">
+                <div class="metadata p-4">
+                    <p>Gesamtlänge des Interviews: </p>
+                    <p>Gezeigter Ausschnitt: </p>
+                    <p>Interviewerin: Karen Körber, Anna Menny</p>
+                    <p>Ort des Interviews: Hamburg</p>
+                    <p>Interview geführt am: </p>
+                    <p>Schnitt: Anna Menny, Aline Philippen</p>
+                    <p>Objekt(e): </p>
+                    <p>Schlagwort(e): </p>
+                    <p>Genannte Orte:
+                    </p>
+                    <p>Lizenz: <a href="https://creativecommons.org/licenses/by/4.0/deed.de">CC BY 4.0</a> (Text), <a
+                                href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.de">CC BY-NC-ND 4.0</a>
+                        (Video)</p>
+                </div>
+            </div>
+        </div>
+        <div class="row align-items-start pt-4">
+            <div class="col-md-6 col-xl-6">
+                <h2 class="title-show">Name</h2>
+                <p>
+                </p>
+            </div>
+            <div class="col-md-6 col-xl-6">
+                <a href="{{ asset('images/objekte/') }}"
+                   data-lightbox="name"
+                   data-title="">
+                    <img class="img-fluid" class="gallery"
+                         src="{{ asset('images/objekte/') }}"
+                         alt=""/>
+                </a>
+                <a href="{{ asset('images/objekte/') }}"
+                   data-lightbox="name"
+                   data-title="">
+                    <img class="img-fluid" class="gallery"
+                         src="{{ asset('images/objekte/') }}"
+                         alt="" />
+                </a>
+                <p class="caption">Untertitel</p>
+            </div>
+
+        </div>
+    </div>
+{% endblock %}

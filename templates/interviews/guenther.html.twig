@@ -1,0 +1,58 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} Guenther | {{ parent() }} {% endblock %}
+
+{% block body %}
+    <div class="container mt-5">
+        <div class="row align-items-start pt-4">
+            <div class="col-lg-6 col-xl-6">
+                <video width="100%"  height="100%" controls poster="{{ asset('images/poster/Guenther.jpg') }}">
+                    <source src="{{ asset('videos/John_Guenther-Kurzinterview.mp4') }}" type="video/mp4">
+                </video>
+                <div>
+                    <p>John Guenther über seine (Konversions-)Geschichte. © IGdJ, 2022.</p>
+                </div>
+                <div class="pt-5">
+                    <p class="quote">„In Hamburg kam immer wieder der Wunsch in mir auf, überzutreten.“</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-xl-6">
+                <div class="metadata p-4">
+                    <p>Gesamtlänge des Interviews: 01:40:00</p>
+                    <p>Gezeigter Ausschnitt: 08:18</p>
+                    <p>Interviewerin: Karen Körber, Björn Siegel</p>
+                    <p>Ort des Interviews: Hamburg</p>
+                    <p>Interview geführt am: 14.9.2022</p>
+                    <p>Schnitt: Anna Menny, Aline Philippen</p>
+                    <p>Objekt(e): –</p>
+                    <p>Schlagwort(e): Jüdische Gemeinde Hamburg,
+                        Konversion</p>
+                    <p>Genannte Orte: Israel,
+                        Hamburg,
+                        San Francisco,
+                        Odessa,
+                        Minsk,
+                        Kopenhagen
+                    </p>
+                    <p>Lizenz: <a href="https://creativecommons.org/licenses/by/4.0/deed.de">CC BY 4.0</a> (Text), <a
+                                href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.de">CC BY-NC-ND 4.0</a>
+                        (Audio)</p>
+                </div>
+            </div>
+        </div>
+        <div class="row align-items-start pt-4">
+            <div class="col-lg-6 col-xl-6">
+                <h2 class="title-show">John Guenther</h2>
+                <p>
+                    John Guenther wurde 1935 in Stuttgart geboren, wo er an der Akademie der Bildenden Künste studierte.
+                    1961 lernte er in Israel seinen späteren Ehemann, Alfred Kaine,
+                    kennen. Aus beruflichen Gründen zog das Paar 1968 nach Hamburg, wo Guenther bis heute lebt. Die
+                    präsentierten Interviewausschnitte geben Einblicke in den Prozess der Konversion Guenthers, vom
+                    ersten Gedanken an einen religiösen Übertritt bis hin zur Aufnahme in der Jüdischen Gemeinde
+                    Hamburgs.
+                </p>
+            </div>
+
+        </div>
+    </div>
+{% endblock %}

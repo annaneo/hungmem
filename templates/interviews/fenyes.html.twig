@@ -1,0 +1,75 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} Fenyes | {{ parent() }} {% endblock %}
+
+{% block body %}
+    <div class="container mt-5">
+        <div class="row align-items-start pt-4">
+            <div class="col-lg-6 col-xl-6">
+                <video width="100%"  height="100%" controls poster="{{ asset('images/poster/Fenyes.jpg') }}">
+                    <source src="{{ asset('videos/Fenyes.mp4') }}" type="video/mp4">
+                </video>
+                <div>
+                    <p>Gabriela Fenyes über ihre (Familien-)Geschichte. © IGdJ, 2022.</p>
+                </div>
+                <div class="pt-5">
+                    <p class="quote">„Ich war ja auch dann das erste Mädchen überhaupt nach dem Holocaust, das in Hannover Bat Mitzwa hatte.“</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-xl-6">
+                <div class="metadata p-4">
+                    <p>Gesamtlänge des Interviews: 18:16</p>
+                    <p>Gezeigter Ausschnitt: 08:32</p>
+                    <p>Interviewerin: Karen Körber, Anna Menny</p>
+                    <p>Ort des Interviews: Hamburg</p>
+                    <p>Interview geführt am: 18.01.2023</p>
+                    <p>Schnitt: Anna Menny, Aline Philippen</p>
+                    <p>Objekt(e): –</p>
+                    <p>Schlagwort(e): Migration,
+                        KZ Auschwitz,
+                        KZ Stuhr-Obernheide,
+                        KZ-Außenlager Hannover-Ahlem,
+                        Holocaust,
+                        Nachkriegszeit,
+                        Bat Mitzwa,
+                        jüdische Gemeinde</p>
+                    <p>Genannte Orte:
+                        Budapest,
+                        Hannover,
+                        Bremen,
+                        Oświęcim,
+                        Hamburg,
+                        Slowakei
+                    </p>
+                    <p>Lizenz: <a href="https://creativecommons.org/licenses/by/4.0/deed.de">CC BY 4.0</a> (Text), <a
+                                href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.de">CC BY-NC-ND 4.0</a>
+                        (Video)</p>
+                </div>
+            </div>
+        </div>
+        <div class="row align-items-start pt-4">
+            <div class="col-lg-6 col-xl-6">
+                <h2 class="title-show">Gabriela Fenyes</h2>
+                <p>
+                    Gabriela Fenyes war die erste Frau im Vorstand der Jüdischen Gemeinde Hamburg. In dem
+                    Interviewausschnitt berichtet sie über ihre Gemeindearbeit und das jüdische Leben in Hamburg zu
+                    Beginn der 1980er-Jahre ebenso wie über der ersten Kinder, die Lebensgeschichte ihrer Eltern, die
+                    aus der Slowakei und Ungarn stammten, sich in Bergen Belsen kennenlernten und in der Nachkriegszeit
+                    in Hannover eine neue Familie gründeten. Hier wurde Gabriela Fenyes 1947 geboren und feierte als
+                    erstes Mädchen nach dem Holocaust ihre Bat Mizwa in der Jüdischen Gemeinde.
+                </p>
+            </div>
+            <div class="col-lg-6 col-xl-6">
+                <a href="{{ asset('images/objekte/Fenyes_Familienbild.jpg') }}"
+                   data-lightbox="fenyes"
+                   data-title="Aufnahme der Großfamilie der Mutter, etwa 1938/39. Privatbesitz Gabriela Fenyes. Mit freundlicher Genehmigung.">
+                    <img class="img-fluid" class="gallery"
+                         src="{{ asset('images/objekte/Fenyes_Familienbild_Voransicht.jpg') }}"
+                         alt="Aufnahme der Großfamilie der Mutter, etwa 1938/39. Privatbesitz Gabriela Fenyes. Mit freundlicher Genehmigung"/>
+                </a>
+                <p class="caption img-fluid" style="width:450px;">Aufnahme der Großfamilie der Mutter, etwa 1938/39. Privatbesitz Gabriela Fenyes. Mit freundlicher Genehmigung.</p>
+            </div>
+
+        </div>
+    </div>
+{% endblock %}

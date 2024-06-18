@@ -1,0 +1,100 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} Wallenstein | {{ parent() }} {% endblock %}
+
+{% block body %}
+    <div class="container mt-5">
+        <div class="row align-items-start pt-4">
+            <div class="col-lg-6 col-xl-6">
+                <video width="100%"  height="100%" controls poster="{{ asset('images/poster/Wallenstein.jpg') }}">
+                    <source src="{{ asset('videos/Wallenstein.mp4') }}" type="video/mp4">
+                </video>
+                <div>
+                    <p>Abi Wallenstein über seine Familiengeschichte © IGdJ, 2022.</p>
+                </div>
+                <div class="pt-5">
+                    <p class="pt-5 quote">„Wenn man mich fragt, wo meine Heimat ist, dann sage ich immer, meine Heimat
+                        ist die Musik.“</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-xl-6">
+                <div class="metadata p-4">
+                    <p>Gesamtlänge des Interviews: 1:03:55</p>
+                    <p>Gezeigter Ausschnitt: 06:59</p>
+                    <p>Interviewerin: Karen Körber, Anna Menny</p>
+                    <p>Ort des Interviews: Hamburg</p>
+                    <p>Interview geführt am: 30.5.2022</p>
+                    <p>Schnitt: Anna Menny, Aline Philippen</p>
+                    <p>Objekt(e): Buch <em>200 Worte Zeitungs Hebräisch</em>,
+                        Fotografie von Großmutter
+                    </p>
+                    <p>Schlagwort(e):
+                        Antisemitismus,
+                        Philosemitismus,
+                        Jüdische Gemeinde Düsseldorf,
+                        Jüdische Gemeinde Hamburg,
+                        Zionismus,
+                        Nationalsozialismus,
+                        Zweiter Weltkrieg,
+                        Holocaust</p>
+                    <p>Genannte Orte: Hamburg-Wandsbek,
+                        Nidda,
+                        Bad Kissingen,
+                        Würzburg,
+                        Gießen,
+                        Neuss,
+                        Oświęcim (Auschwitz),
+                        Terezín (Theresienstadt),
+                        Düsseldorf,
+                        Hamburg,
+                        Jerusalem,
+                        Tel Aviv,
+                        Haifa,
+                        Prag,
+                        Lübeck,
+                        Elmshorn,
+                        Heinrichstraße (Hamburg),
+                        Hamburg,
+                        Palästina / Israel
+                    </p>
+                    <p>Lizenz: <a href="https://creativecommons.org/licenses/by/4.0/deed.de">CC BY 4.0</a> (Text), <a
+                                href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.de">CC BY-NC-ND 4.0</a>
+                        (Audio)</p>
+                </div>
+            </div>
+        </div>
+        <div class="row align-items-start pt-4">
+            <div class="col-lg-6 col-xl-6">
+                <h2 class="title-show">Abi Wallenstein</h2>
+                <p>
+                    Abi Wallenstein wurde 1945 in Jerusalem geboren. Mit 13 Jahren zogen seine Eltern und er nach Neuss,
+                    wo der Vater vor dem Krieg eine Praxis besessen hatte und dessen Räumlichkeiten er wieder übernehmen
+                    konnte. Zum Studieren ging Abi Wallenstein 1975 nach Hamburg und war dort
+                    in der linken Bewegung sowie musikalischen Szene der Stadt aktiv.
+                </p>
+            </div>
+            <div class="col-lg-6 col-xl-6">
+                <a href="{{ asset('images/objekte/Wallenstein_mit_Bild.jpg') }}"
+                   data-lightbox="wallenstein"
+                   data-title="Abi Wallenstein mit der Fotografie seiner Großmutter. Fotos: IGdJ.">
+                    <img class="gallery"
+                         src="{{ asset('images/objekte/Wallenstein_mit_Bild_Voransicht.jpg') }}"
+                         alt="Abi Wallenstein mit der Fotografie seiner Großmutter. Fotos: IGdJ"/>
+                </a>
+                <a href="{{ asset('images/objekte/Wallenstein-Bild.jpg') }}"
+                   data-lightbox="wallenstein"
+                   data-title="Fotografie der Großmutter Abi Wallensteins. Foto: IGdJ.">
+                </a>
+                <a href="{{ asset('images/objekte/Wallstenstein-Wörterbuch.jpg') }}"
+                   data-lightbox="wallenstein"
+                   data-title="Buch 200 Worte Zeitungs Hebräisch Foto: IGdJ.">
+                    <img class="gallery"
+                         src="{{ asset('images/objekte/Wallstenstein-Wörterbuch_Voransicht.jpg') }}"
+                         alt="Buch 200 Worte Zeitungs Hebräisch Foto: IGdJ"/>
+                </a>
+                <p class="caption img-fluid" style="width:350px;">Abi Wallenstein mit der Fotografie seiner Großmutter und dem Buch <em>200 Worte
+                        Zeitungs Hebräisch</em>. Fotos: IGdJ</p>
+            </div>
+        </div>
+    </div>
+{% endblock %}

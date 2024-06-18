@@ -1,0 +1,59 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} Rosenblum | {{ parent() }} {% endblock %}
+
+{% block body %}
+    <div class="container mt-5">
+        <div class="row align-items-start pt-4">
+            <div class="col-lg-6 col-xl-6">
+                <video width="100%"  height="100%" controls poster="{{ asset('images/poster/Rosenblum.jpg') }}">
+                    <source src="{{ asset('videos/Rosenblum.mp4') }}" type="video/mp4">
+                </video>
+                <div>
+                    <p>Avi Rosenblum über seine Migrationsgeschichte und sein kulturelles Engagement. © IGdJ,
+                        2022.</p>
+                </div>
+                <div class="pt-5">
+                    <p class="quote">„Menschen zusammenzubringen und ihnen zu zeigen, dass wir mehr gemeinsam haben als fremd.“</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-xl-6">
+                <div class="metadata p-4">
+                    <p>Gesamtlänge des Interviews: 20:15</p>
+                    <p>Gezeigter Ausschnitt: 05:18</p>
+                    <p>Interviewerin: Karen Körber, Anna Menny</p>
+                    <p>Ort des Interviews: Hamburg</p>
+                    <p>Interview geführt am: 9.1.2023</p>
+                    <p>Schnitt: Anna Menny, Aline Philippen</p>
+                    <p>Objekt(e): –</p>
+                    <p>Schlagwort(e): Israelis in Hamburg,
+                        Migration,
+                        Israel,
+                        Kulturarbeit</p>
+                    <p>Genannte Orte: Jerusalem,
+                        Israel,
+                        Hamburg
+                    </p>
+                    <p>Lizenz: <a href="https://creativecommons.org/licenses/by/4.0/deed.de">CC BY 4.0</a> (Text), <a
+                                href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.de">CC BY-NC-ND 4.0</a>
+                        (Video)</p>
+                </div>
+            </div>
+        </div>
+        <div class="row align-items-start pt-4">
+            <div class="col-lg-6 col-xl-6">
+                <h2 class="title-show">Avi Rosenblum</h2>
+                <p>
+                    Persönliche und politische Gründe führten Avi Rosenblum vor 15 Jahren von Haifa nach Hamburg. Hier
+                    engagiert er sich im soziokulturellen Bereich und versucht – auch vor dem Hintergrund seiner eigenen
+                    Erfahrungen – in verschiedenen Projekten, Begegnungen zwischen Menschen zu ermöglichen. Unter
+                    anderem hat er das Projekt Hummustopia, das unter dem Motto „Lecker streiten“ Menschen zu
+                    unterschiedlichen Themen bei einem Teller Hummus ins Gespräch bringen soll, initiiert. Die
+                    Interviewausschnitte beleuchten insbesondere die Gründe für Avi Rosenblums Auswanderung und sein
+                    kulturelles Engagement in Hamburg.
+                </p>
+            </div>
+
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,63 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} Nasirzadeh | {{ parent() }} {% endblock %}
+
+{% block body %}
+    <div class="container mt-5">
+        <div class="row align-items-start pt-4">
+            <div class="col-lg-6 col-xl-6">
+                <video width="100%"  height="100%" controls poster="{{ asset('images/poster/Nasirzadeh.jpg') }}">
+                    <source src="{{ asset('videos/Nasirzadeh.mov') }}" type="video/mp4">
+                </video>
+                <div>
+                    <p>Mona Nasirzadeh über die Hochzeitsfotografie ihrer Eltern und die familiäre (Migrations-)Geschichte. © IGdJ, 2022.</p>
+                </div>
+                <div class="pt-5">
+                    <p class="quote">„Es gehört zu mir, wie mein Leben. Es hat die ganze Geschichte mitgemacht.“</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-xl-6">
+                <div class="metadata p-4">
+                    <p>Gesamtlänge des Interviews: 13:59</p>
+                    <p>Gezeigter Ausschnitt: 06:49</p>
+                    <p>Interviewerin: Karen Körber</p>
+                    <p>Ort des Interviews: Hamburg</p>
+                    <p>Interview geführt am: 19.6.2022 (Objekttag in Kooperation mit dem Jüdischen Museum Berlin)</p>
+                    <p>Schnitt: Anna Menny, Aline Philippen</p>
+                    <p>Objekt(e): Hochzeitsfotografie der Eltern</p>
+                    <p>Schlagwort(e): Objekttag,
+                        persische Jüdinnen und Juden in Hamburg,
+                        Migration,
+                        jüdische Identität
+                    </p>
+                    <p>Genannte Orte: Hamburg-Poppenbüttel,
+                        Teheran,
+                        Hamburg,
+                        Israel
+                    </p>
+                    <p>Lizenz: <a href="https://creativecommons.org/licenses/by/4.0/deed.de">CC BY 4.0</a> (Text), <a
+                                href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.de">CC BY-NC-ND 4.0</a>
+                        (Video)</p>
+                </div>
+            </div>
+        </div>
+        <div class="row align-items-start pt-4">
+            <div class="col-md-6 col-xl-6">
+                <h2 class="title-show">Mona Nasirzadeh</h2>
+                <p>
+                    Anhand einer Fotografie ihrer Eltern, aufgenommen am Hochzeitstag, gibt Mona Nasirzadeh, 1975 in
+                    Teheran geboren, Einblicke in die Geschichte ihrer Familie, die 1979 aus dem Iran und über Israel
+                    nach Hamburg kam.
+                </p>
+            </div>
+            <div class="col-md-6 col-xl-6">
+                    <img class="gallery img-fluid"
+                         src="{{ asset('images/objekte/Nasirzadeh_Hochzeit_Voransicht.jpg') }}"
+                         alt="Eingerahmte Hochzeitsfotografie der Eltern von Mona Nasirzadeh"/>
+                <p class="caption img-fluid" style="width:420px;">Eingerahmte Hochzeitsfotografie der Eltern von Mona Nasirzadeh. Foto: Stephan Pramme,
+                    Jüdisches Museum Berlin.</p>
+            </div>
+
+        </div>
+    </div>
+{% endblock %}

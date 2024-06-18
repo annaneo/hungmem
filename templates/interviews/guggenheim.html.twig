@@ -1,0 +1,85 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} Guggenheim | {{ parent() }} {% endblock %}
+
+{% block body %}
+    <div class="container mt-5">
+        <div class="row align-items-start pt-4">
+            <div class="col-lg-6 col-xl-6">
+                <video width="100%"  height="100%" controls poster="{{ asset('images/poster/Guggenheim.jpg') }}">
+                    <source src="{{ asset('videos/Guggenheim.mp4') }}" type="video/mp4">
+                </video>
+                <div>
+                    <p>Barbara Guggenheim über den Wandteppich ihrer Ururgroßmutter. © IGdJ, 2022.</p>
+                </div>
+                <div class="pt-5">
+                    <p class="quote pt-4">„Umso schöner, dass es mit meiner Familie etwas zu tun hat.“</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-xl-6">
+                <div class="metadata p-4">
+                    <p>Gesamtlänge des Interviews: 04:59</p>
+                    <p>Gezeigter Ausschnitt: 04:13</p>
+                    <p>Interviewerin: Karen Körber</p>
+                    <p>Ort des Interviews: Hamburg</p>
+                    <p>Interview geführt am: 19.6.2022, Objekttag Hamburg, in Kooperation mit dem Jüdischen Museum
+                        Berlin</p>
+                    <p>Schnitt: Anna Menny, Aline Philippen</p>
+                    <p>Objekt(e): Wandstickerei der
+                        Ururgroßmutter</p>
+                    <p>Schlagwort(e): Objekttag,
+                        Migration</p>
+                    <p>Genannte Orte: Gailingen,
+                        Stuttgart,
+                        Schweiz
+                    </p>
+                    <p>Lizenz: <a href="https://creativecommons.org/licenses/by/4.0/deed.de">CC BY 4.0</a> (Text), <a
+                                href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.de">CC BY-NC-ND 4.0</a>
+                        (Video)</p>
+                </div>
+            </div>
+        </div>
+        <div class="row align-items-start pt-4">
+            <div class="col-lg-6 col-xl-6">
+                <h2 class="title-show align-top">Barbara Guggenheim</h2>
+                <p>
+                    Barbara Guggenheim wurde 1957 in Zürich geboren und ist ehemalige Literaturagentin und
+                    Gründungsmitglied des Jüdischen Salons am Grindel in Hamburg. In diesem Interview, das
+                    im Rahmen des gemeinsam mit dem Jüdischen Museum Berlin organisierten Hamburger Objekttages
+                    geführt wurde, erläutert Barbara Guggenheim die Hintergründe einer Wandstickerei, auf der der
+                    Name ihrer Ururgroßmutter Florina Guggenheim zu lesen ist. Laut Angabe auf dem Objekt wurde
+                    dieses im Jahr 1868 angefertigt, vermutlich in Gailingen, dem Wohnort der Ururgroßmutter.
+                    Florina Guggenheim zog später, gemeinsam mit
+                    ihrem Ehemann, nach Stuttgart, wo die Großmutter Barbara Guggenheims geboren wurde. Letztere
+                    heiratete in den 1920er-Jahren in die Schweiz. Nach dem Tod der Großmutter übernahmen
+                    zunächst die Eltern Guggenheims das Objekt. Inzwischen befindet sich die Wandstickerei in
+                    Hamburg im Besitz von Barbara Guggenheim.
+                </p>
+            </div>
+            <div class="col-lg-6 col-xl-6col">
+                <a href="{{ asset('images/objekte/Guggenheim_mit_Wandteppich.jpg') }}"
+                   data-lightbox="guggenheim"
+                   data-title="Barbara Guggenheim mit dem Wandteppich ihrer Ururgroßmutter.">
+                    <img class="gallery"
+                         style="width: 265px"
+                         src="{{ asset('images/objekte/Guggenheim_mit_Wandteppich_Voransicht.jpg') }}"
+                         alt="Barbara Guggenheim mit dem Wandteppich ihrer Ururgroßmutter"/>
+                </a>
+                <a href="{{ asset('images/objekte/Guggenheim_Objekt_Wandteppich.jpg') }}"
+                   data-lightbox="guggenheim"
+                   data-title="Wandteppich von Barbara Guggenheims Ururgroßmutter.">
+                    <img class="gallery"
+                         style="width: 235px"
+                         src="{{ asset('images/objekte/Guggenheim_Objekt_Wandteppich_Voransicht.jpg') }}"
+                         alt="Wandteppich von Barbara Guggenheims Ururgroßmutter"/>
+                </a>
+                <a href="{{ asset('images/objekte/Guggenheim_Objekt_Wandteppich-Ausschnitt.jpg') }}"
+                   data-lightbox="guggenheim"
+                   data-title="Detail des Wandteppichs von Barbara Guggenheims Ururgroßmutter.">
+                </a>
+                <p class="caption img-fluid" style="width:450px;">Barbara Guggenheim mit dem Wandteppich ihrer Ururgroßmutter und Wandteppich. Foto: Stephan Pramme,
+                    Jüdisches Museum Berlin. [Bildergalerie]</p>
+            </div>
+        </div>
+    </div>
+{% endblock %}

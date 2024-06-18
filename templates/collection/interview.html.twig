@@ -1,0 +1,55 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} {{ person }}{% endblock %}
+
+{% block body %}
+    <div class="container">
+        <div class="row align-items-center pt-4">
+            <div class="col">
+                {# TODO: make video responsive #}
+                <video width="500" height="100%" controls>
+                    <source src="{{ asset('videos/Guggenheim.mp4') }}" type="video/mp4">
+                </video>
+                <div>
+                    <p>Ausschnitt aus einem Gespräch mit Barbara Guggenheim.</p>
+                    <p class="quote">„Umso schöner, dass es mit meiner Familie etwas zu tun hat.“</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="metadata p-4">
+                    <p>Gesamtlänge des Interviews: 04:59</p>
+                    <p>Gezeigter Ausschnitt: 04:59</p>
+                    <p>Interviewerin: Dr. Karen Körber</p>
+                    <p>Ort des Interviews: Hamburg</p>
+                    <p>Interview geführt am: Keine Angabe</p>
+                    <p>Genannte Orte: Gailingen,
+                        Stuttgart,
+                        Schweiz
+                    </p>
+                    <p>Lizenz: <a href="https://creativecommons.org/licenses/by/4.0/deed.de">CC BY 4.0</a> (Texte), <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.de">CC BY-NC-ND 4.0</a> (Videos)</p>
+                </div>
+            </div>
+        </div>
+        <div class="row align-items-center pt-4">
+            <div class="col-md-6">
+                <h2 class="title-show">Barbara Guggenheim</h2>
+                <p>
+                    Barbara Guggenheim wurde 1957 in Zürich geboren, sie hemalige Literaturagentin und ist
+                    Gründungsmitglied des Jüdischen Salons am Grindel in Hamburg. In diesem Interview, das im
+                    Rahmen des gemeinsam mit dem Jüdischen Museum Berlin durchgeführten Hamburger Objekttages
+                    geführt wurde, erläutert Barbara Guggenheim die Hintergründe einer Wandstickerei ihrer
+                    Ururgroßmutter Florina Guggenheim. Diese soll sie laut Jahresangabe auf dem Objekt (1868)
+                    mit 13 Jahren in Gailingen angefertigt haben. Florina Guggenheim zog später, gemeinsam mit
+                    ihrem Ehemann, nach Stuttgart, wo die Großmutter Barbara Guggenheims geboren wurde. Letztere
+                    heiratete in den 1920er-Jahren in die Schweiz. Nach dem Tod der Großmutter übernahmen
+                    zunächst die Eltern Guggenheims das Objekt. Inzwischen befindet sich die Wandstickerei in
+                    Hamburg im Besitz von Barbara Guggenheims. Das Objekt steht für die (Migrations-)Geschichte
+                    der Familie und ist ein wichtiges Erinnerungsstück, wie Barabra Guggenheim berichtet.
+                </p>
+            </div>
+            <div class="col">
+                <img src="{{ asset('images/Guggenheim_mit_Wandteppich.jpg') }}" width="280" height="100%">
+            </div>
+        </div>
+    </div>
+{% endblock %}

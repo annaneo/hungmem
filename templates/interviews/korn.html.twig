@@ -1,0 +1,58 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} Korn | {{ parent() }} {% endblock %}
+
+{% block body %}
+    <div class="container mt-5">
+        <div class="row align-items-start pt-4">
+            <div class="col-lg-6 col-xl-6">
+                <video width="100%"  height="100%" controls poster="{{ asset('images/poster/Korn.jpg') }}">
+                    <source src="{{ asset('videos/Korn.mp4') }}" type="video/mp4">
+                </video>
+                <div>
+                    <p>Eliana Korn über ihr jüdisches Familienleben in Frankfurt und Hamburg. © IGdJ, 2022.</p>
+                </div>
+                <div class="pt-5">
+                    <p class="quote">„Es ist für mich einfach sehr wichtig, etwas dazu beizutragen, dass das Leben, das
+                        meine Vorfahren, meine Großeltern, in Deutschland wieder aufgebaut haben, auch noch an die
+                        nächsten Generationen weitergegeben werden kann.“</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-xl-6">
+                <div class="metadata p-4">
+                    <p>Gesamtlänge des Interviews: 13:00</p>
+                    <p>Gezeigter Ausschnitt: 05:44</p>
+                    <p>Interviewerin: Karen Körber, Anna Menny</p>
+                    <p>Ort des Interviews: Online</p>
+                    <p>Interview geführt am: 23.11.2022</p>
+                    <p>Schnitt: Anna Menny, Aline Philippen</p>
+                    <p>Objekt(e): –</p>
+                    <p>Schlagwort(e): Jüdische Gemeinde Frankfurt,
+                        Jüdische Gemeinde Hamburg,
+                        Verband Jüdischer Studierender Nord,
+                        jüdische Identiät</p>
+                    <p>Genannte Orte: Frankfurt,
+                        Hamburg
+                    </p>
+                    <p>Lizenz: <a href="https://creativecommons.org/licenses/by/4.0/deed.de">CC BY 4.0</a> (Text), <a
+                                href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.de">CC BY-NC-ND 4.0</a>
+                        (Video)</p>
+                </div>
+            </div>
+        </div>
+        <div class="row align-items-start pt-4">
+            <div class="col-lg-6 col-xl-6">
+                <h2 class="title-show">Eliana Korn</h2>
+                <p>
+                    Eliana Korn wurde in Frankfurt am Main geboren, wo sie einen jüdischen Kindergarten sowie
+                    anschließend eine jüdische Schule besuchte und Mitglied der Jüdischen Gemeinde Frankfurt war. 2019
+                    entschied sie sich für ein Jura-Studium an der Bucerius Law School und den damit verbundenen Umzug
+                    nach Hamburg. Hier engagiert sie sich im Verband Jüdischer Studierender Nord, dessen Umfeld ihr
+                    insbesondere in der Anfangszeit half, ihre jüdische Identität in der neuen Stadt zu verorten. In den
+                    präsentierten Interviewausschnitten erzählt Korn vom Suchen und Finden jüdischer Bezugspunkte in
+                    Hamburg sowie von ihrem jüdischen (Familien-)Leben in Frankfurt.
+                </p>
+            </div>
+        </div>
+    </div>
+{% endblock %}

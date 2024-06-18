@@ -1,0 +1,98 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} Landshut | {{ parent() }} {% endblock %}
+
+{% block body %}
+    <div class="container mt-5">
+        <div class="row align-items-start pt-4">
+            <div class="col-lg-6 col-xl-6">
+                <video width="100%"  height="100%" controls poster="{{ asset('images/poster/Landshut.jpg') }}">
+                    <source src="{{ asset('videos/Landshut.mp4') }}" type="video/mp4">
+                </video>
+                <div>
+                    <p>Judith Landshut über eine Skijacke und ihre Migrationsgeschichte. © IGdJ,
+                        2022.</p>
+                </div>
+                <div class="pt-5">
+                    <p class="quote">„Es ist eine wunderbare Erinnerung und ich bin mir selbst auch dankbar, dass ich es
+                        aufbewahrt habe.“</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-xl-6">
+                <div class="metadata p-4">
+                    <p>Gesamtlänge des Interviews: 35:37</p>
+                    <p>Gezeigter Ausschnitt: 07:56</p>
+                    <p>Interviewerin: Karen Körber</p>
+                    <p>Ort des Interviews: Hamburg</p>
+                    <p>Interview geführt am: 19.6.2022 (Objekttag in Kooperation mit dem Jüdischen Museum Berlin)</p>
+                    <p>Schnitt: Anna Menny, Aline Philippen</p>
+                    <p>Objekt(e): Ski-Sonnenbrille, Skijacke, zwei Fotografien,
+                        kleine Tasche der Großmutter</p>
+                    <p>Schlagwort(e): Objekttag,
+                        Migration,
+                        Antisemitismus,
+                        Israel</p>
+                    <p>Genannte Orte: Haifa,
+                        Jerusalem,
+                        Tel Aviv,
+                        Kirjat Schmona,
+                        Hamburg,
+                        London,
+                        Budapest,
+                        New York,
+                        Australien,
+                        Amerika,
+                        Tschechoslowakei
+                    </p>
+                    <p>Lizenz: <a href="https://creativecommons.org/licenses/by/4.0/deed.de">CC BY 4.0</a> (Text), <a
+                                href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.de">CC BY-NC-ND 4.0</a>
+                        (Video)</p>
+                </div>
+            </div>
+        </div>
+        <div class="row align-items-start pt-4">
+            <div class="col-md-6 col-xl-66">
+                <h2 class="title-show">Judith Landshut</h2>
+                <p>
+                    Judith Landshut wurde 1950 in der Tschechoslowakei geboren. 1969 floh sie – gemeinsam mit ihrer
+                    Schwester und ohne ihre Eltern – nach Israel, wo sie zunächst in einem Kibbuz und dann in Jerusalem
+                    lebte. In Jerusalem lernte sie ihren Ehemann kennen. Wegen des bevorstehenden Wehrdienstes ihres
+                    Mannes und seiner deutschen Staatsbürgerschaft emigrierte das Paar 1971 nach Hamburg. Dort bekam das
+                    Paar drei Söhne. Obwohl Judith Landshut sich eine Zukunft in Deutschland zunächst nicht vorstellen
+                    konnte, lebt sie bis heute in der Hansestadt.
+                </p>
+            </div>
+            <div class="col-md-6 col-xl-6">
+                <a href="{{ asset('images/objekte/Landshut_Objekt_Skijacke-und-brille.jpg') }}"
+                   data-lightbox="landshut"
+                   data-title="Jacke und Skibrille. Foto: Stephan Pramme,
+                    Jüdisches Museum Berlin-">
+                    <img class="gallery"
+                         src="{{ asset('images/objekte/Landshut_Objekt_Skijacke-und-brille_Voransicht.jpg') }}"
+                         alt="Jacke und Skibrille. Foto: Stephan Pramme,
+                    Jüdisches Museum Berlin."/>
+                </a>
+                <a href="{{ asset('images/objekte/Landshut_Objekt_Beutel.jpg') }}"
+                   data-lightbox="landshut"
+                   data-title="Tasche. Foto: Stephan Pramme,
+                    Jüdisches Museum Berlin.">
+                    <img class="gallery"
+                         src="{{ asset('images/objekte/Landshut_Objekt_Beutel _Voransicht.jpg') }}"
+                         alt="Tasche. Foto: Stephan Pramme,
+                    Jüdisches Museum Berlin"/>
+                </a>
+                <a href="{{ asset('images/objekte/Landshut_Objekt_Fotos_Skijacken.jpg') }}"
+                   data-lightbox="landshut"
+                   data-title="Zwei gerahmte Fotografien. Foto: Stephan Pramme,
+                    Jüdisches Museum Berlin.">
+                    <img class="gallery"
+                         src="{{ asset('images/objekte/Landshut_Objekt_Fotos_Skijacken_Voransicht.jpg') }}"
+                         alt="Zwei gerahmte Fotografien. Foto: Stephan Pramme,
+                    Jüdisches Museum Berlin"/>
+                </a>
+                <p class="caption img-fluid" style="width:450px;">Eine Tasche, zwei eingerahmte Fotografien, eine Jacke sowie eine Skibrille sind die fünf familiengeschichtlichen Objekte, die Judith Landshut anlässlich des mit dem Jüdischen Museum Berlin ausgerichteten Hamburger Objekttages für das Interview mitgebracht hat. Fotos: Stephan Pramme, Jüdisches Museum Berlin.</p>
+            </div>
+
+        </div>
+    </div>
+{% endblock %}
