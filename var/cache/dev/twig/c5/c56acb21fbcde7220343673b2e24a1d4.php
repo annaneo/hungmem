@@ -66,7 +66,7 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "title"));
 
-        yield " Deportationen | ";
+        yield " Startseite | ";
         yield from $this->yieldParentBlock("title", $context, $blocks);
         yield " ";
         
@@ -92,60 +92,64 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
         yield "
     <div class=\"container g-4 py-5\">
 
-        <div class=\"row row-cols-1 row-cols-md-2 g-3\">
-            <div class=\"col\">
-                <div class=\"card shadow-sm mt-5\">
+        <div class=\"row justify-content-end\">
+            <div class=\"col-sm\">
+                <div>
                     <a href=\"\" title=\"\">
                         <img class=\"img-fluid\" src=\"";
         // line 13
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/"), "html", null, true);
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder_840x560.jpg"), "html", null, true);
         yield "\"
                              alt=\"\">
                     </a>
-                    <div class=\"card-body\">
-                        <h3>
+                    <div class=\"studiesoveriew\">
+                        <h2>
                             <a href=\"";
         // line 18
-        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_studytemplate");
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_vw");
         yield "\" title=\"\">
                                 Fallstudie VW
-                        </a>
-                        </h3>
+                            </a>
+                        </h2>
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing
                             elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum ...
-                            <a href=\"";
-        // line 24
-        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_studytemplate");
+                        </p>
+                        <p>
+                            <a class=\"more\" href=\"";
+        // line 26
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_vw");
         yield "\" title=\"Weiterlesen\">[mehr]</a>
                         </p>
                     </div>
                 </div>
             </div>
-            <div class=\"col\">
-                <div class=\"card shadow-sm mt-5\">
+            <div class=\"col-sm offset-lg-1\">
+                <div>
                     <a href=\"";
-        // line 31
-        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_studytemplate");
+        // line 33
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_sources");
         yield "\" title=\"\">
                         <img class=\"img-fluid\" src=\"";
-        // line 32
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/"), "html", null, true);
+        // line 34
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder_840x560.jpg"), "html", null, true);
         yield "\"
                              alt=\"\">
                     </a>
-                    <div class=\"card-body\">
-                        <h3>
+                    <div class=\"studiesoveriew\">
+                        <h2>
                             <a href=\"";
-        // line 37
+        // line 39
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_studytemplate");
         yield "\" title=\"\">
                                 Fallstudie Dessauer Ufer
-                        </a>
-                        </h3>
+                            </a>
+                        </h2>
                         <p>Dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
                             ...
-                            <a href=\"";
-        // line 43
+                        </p>
+                        <p>
+                            <a class=\"more\" href=\"";
+        // line 47
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_studytemplate");
         yield "\" title=\"Weiterlesen\">[mehr]</a>
                         </p>
@@ -154,72 +158,73 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
             </div>
         </div>
 
-        <div class=\"row row-cols-1 row-cols-md-2 g-3\">
-            <div class=\"col\">
-                <div class=\"card shadow-sm mt-5\">
+        <div class=\"row g-4 mt-2\">
+            <div class=\"col-sm\">
+                <div>
                     <a href=\"";
-        // line 53
+        // line 57
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_studytemplate");
         yield "\" title=\"\">
                         <img class=\"img-fluid\" src=\"";
-        // line 54
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/"), "html", null, true);
+        // line 58
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder_840x560.jpg"), "html", null, true);
         yield "\"
                              alt=\"\">
                     </a>
-                    <div class=\"card-body\">
-                        <h3>
+                    <div class=\"studiesoveriew\">
+                        <h2>
                             <a href=\"";
-        // line 59
+        // line 63
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_studytemplate");
         yield "\" title=\"\">
                                 Fallstudie Außenlager Salzwedel
                             </a>
-                        </h3>
+                        </h2>
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing
                             elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum ...
-                            <a href=\"";
-        // line 65
+                        </p>
+                        <p>
+                            <a class=\"more\" href=\"";
+        // line 71
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_studytemplate");
         yield "\" title=\"Weiterlesen\">[mehr]</a>
+
                         </p>
                     </div>
                 </div>
             </div>
-            <div class=\"col\">
-                <div class=\"card shadow-sm mt-5\">
+            <div class=\"col-sm offset-lg-1\">
+                <div>
                     <a href=\"";
-        // line 72
+        // line 79
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_studytemplate");
         yield "\" title=\"\">
                         <img class=\"img-fluid\" src=\"";
-        // line 73
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/"), "html", null, true);
+        // line 80
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder_840x560.jpg"), "html", null, true);
         yield "\"
                              alt=\"\">
                     </a>
-                    <div class=\"card-body\">
-                        <h3>
+                    <div class=\"studiesoveriew\">
+                        <h2>
                             <a href=\"";
-        // line 78
+        // line 85
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_studytemplate");
         yield "\" title=\"\">
                                 Fallstudie Außenlager
                             </a>
-                        </h3>
+                        </h2>
                         <p>Dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
                             ...
-                            <a href=\"";
-        // line 84
+                        </p>
+                        <a class=\"more\" href=\"";
+        // line 92
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_studytemplate");
         yield "\" title=\"Weiterlesen\">[mehr]</a>
-                        </p>
                     </div>
                 </div>
             </div>
         </div>
-
-
 
 
     </div>
@@ -255,102 +260,107 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
      */
     public function getDebugInfo()
     {
-        return array (  214 => 84,  205 => 78,  197 => 73,  193 => 72,  183 => 65,  174 => 59,  166 => 54,  162 => 53,  149 => 43,  140 => 37,  132 => 32,  128 => 31,  118 => 24,  109 => 18,  101 => 13,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
+        return array (  222 => 92,  212 => 85,  204 => 80,  200 => 79,  189 => 71,  178 => 63,  170 => 58,  166 => 57,  153 => 47,  142 => 39,  134 => 34,  130 => 33,  120 => 26,  109 => 18,  101 => 13,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
     {
         return new Source("{% extends 'base.html.twig' %}
 
-{% block title %} Deportationen | {{ parent() }} {% endblock %}
+{% block title %} Startseite | {{ parent() }} {% endblock %}
 
 {% block body %}
 
     <div class=\"container g-4 py-5\">
 
-        <div class=\"row row-cols-1 row-cols-md-2 g-3\">
-            <div class=\"col\">
-                <div class=\"card shadow-sm mt-5\">
+        <div class=\"row justify-content-end\">
+            <div class=\"col-sm\">
+                <div>
                     <a href=\"\" title=\"\">
-                        <img class=\"img-fluid\" src=\"{{ asset('images/') }}\"
+                        <img class=\"img-fluid\" src=\"{{ asset('images/placeholder_840x560.jpg') }}\"
                              alt=\"\">
                     </a>
-                    <div class=\"card-body\">
-                        <h3>
-                            <a href=\"{{ path('app_studytemplate') }}\" title=\"\">
+                    <div class=\"studiesoveriew\">
+                        <h2>
+                            <a href=\"{{ path('app_deportation_vw') }}\" title=\"\">
                                 Fallstudie VW
-                        </a>
-                        </h3>
+                            </a>
+                        </h2>
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing
                             elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum ...
-                            <a href=\"{{ path('app_studytemplate') }}\" title=\"Weiterlesen\">[mehr]</a>
+                        </p>
+                        <p>
+                            <a class=\"more\" href=\"{{ path('app_deportation_vw') }}\" title=\"Weiterlesen\">[mehr]</a>
                         </p>
                     </div>
                 </div>
             </div>
-            <div class=\"col\">
-                <div class=\"card shadow-sm mt-5\">
-                    <a href=\"{{ path('app_studytemplate') }}\" title=\"\">
-                        <img class=\"img-fluid\" src=\"{{ asset('images/') }}\"
+            <div class=\"col-sm offset-lg-1\">
+                <div>
+                    <a href=\"{{ path('app_sources') }}\" title=\"\">
+                        <img class=\"img-fluid\" src=\"{{ asset('images/placeholder_840x560.jpg') }}\"
                              alt=\"\">
                     </a>
-                    <div class=\"card-body\">
-                        <h3>
+                    <div class=\"studiesoveriew\">
+                        <h2>
                             <a href=\"{{ path('app_studytemplate') }}\" title=\"\">
                                 Fallstudie Dessauer Ufer
-                        </a>
-                        </h3>
+                            </a>
+                        </h2>
                         <p>Dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
                             ...
-                            <a href=\"{{ path('app_studytemplate') }}\" title=\"Weiterlesen\">[mehr]</a>
+                        </p>
+                        <p>
+                            <a class=\"more\" href=\"{{ path('app_studytemplate') }}\" title=\"Weiterlesen\">[mehr]</a>
                         </p>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class=\"row row-cols-1 row-cols-md-2 g-3\">
-            <div class=\"col\">
-                <div class=\"card shadow-sm mt-5\">
+        <div class=\"row g-4 mt-2\">
+            <div class=\"col-sm\">
+                <div>
                     <a href=\"{{ path('app_studytemplate') }}\" title=\"\">
-                        <img class=\"img-fluid\" src=\"{{ asset('images/') }}\"
+                        <img class=\"img-fluid\" src=\"{{ asset('images/placeholder_840x560.jpg') }}\"
                              alt=\"\">
                     </a>
-                    <div class=\"card-body\">
-                        <h3>
+                    <div class=\"studiesoveriew\">
+                        <h2>
                             <a href=\"{{ path('app_studytemplate') }}\" title=\"\">
                                 Fallstudie Außenlager Salzwedel
                             </a>
-                        </h3>
+                        </h2>
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing
                             elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum ...
-                            <a href=\"{{ path('app_studytemplate') }}\" title=\"Weiterlesen\">[mehr]</a>
+                        </p>
+                        <p>
+                            <a class=\"more\" href=\"{{ path('app_studytemplate') }}\" title=\"Weiterlesen\">[mehr]</a>
+
                         </p>
                     </div>
                 </div>
             </div>
-            <div class=\"col\">
-                <div class=\"card shadow-sm mt-5\">
+            <div class=\"col-sm offset-lg-1\">
+                <div>
                     <a href=\"{{ path('app_studytemplate') }}\" title=\"\">
-                        <img class=\"img-fluid\" src=\"{{ asset('images/') }}\"
+                        <img class=\"img-fluid\" src=\"{{ asset('images/placeholder_840x560.jpg') }}\"
                              alt=\"\">
                     </a>
-                    <div class=\"card-body\">
-                        <h3>
+                    <div class=\"studiesoveriew\">
+                        <h2>
                             <a href=\"{{ path('app_studytemplate') }}\" title=\"\">
                                 Fallstudie Außenlager
                             </a>
-                        </h3>
+                        </h2>
                         <p>Dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
                             ...
-                            <a href=\"{{ path('app_studytemplate') }}\" title=\"Weiterlesen\">[mehr]</a>
                         </p>
+                        <a class=\"more\" href=\"{{ path('app_studytemplate') }}\" title=\"Weiterlesen\">[mehr]</a>
                     </div>
                 </div>
             </div>
         </div>
-
-
 
 
     </div>

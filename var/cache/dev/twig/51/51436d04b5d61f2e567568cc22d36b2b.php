@@ -103,14 +103,14 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
                              alt=\"\">
                     </a>
                     <div class=\"studiesoveriew\">
-                        <h3>
+                        <h2>
                             <a href=\"";
         // line 18
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_map");
         yield "\" title=\"\">
                             Orte und Geografische Einordnung
                         </a>
-                        </h3>
+                        </h2>
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing
                             elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum ...
                         </p>
@@ -136,14 +136,14 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
                              alt=\"\">
                     </a>
                     <div class=\"studiesoveriew\">
-                        <h3>
+                        <h2>
                             <a href=\"";
         // line 39
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_context");
         yield "\" title=\"\">
                             (Un)bekannte Daten und Quellen
                         </a>
-                        </h3>
+                        </h2>
                         <p>Dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
                             ...
                         </p>
@@ -163,7 +163,7 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
                 <div>
                     <a href=\"";
         // line 57
-        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_context");
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation");
         yield "\" title=\"\">
                         <img class=\"img-fluid\" src=\"";
         // line 58
@@ -172,14 +172,14 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
                              alt=\"\">
                     </a>
                     <div class=\"studiesoveriew\">
-                        <h3>
+                        <h2>
                             <a href=\"";
         // line 63
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation");
         yield "\" title=\"\">
                                 Fallstudien zu Deportationsrouten
                             </a>
-                        </h3>
+                        </h2>
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing
                             elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum ...
                         </p>
@@ -197,7 +197,7 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
                 <div>
                     <a href=\"";
         // line 79
-        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_context");
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographies");
         yield "\" title=\"\">
                         <img class=\"img-fluid\" src=\"";
         // line 80
@@ -206,14 +206,14 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
                              alt=\"\">
                     </a>
                     <div class=\"studiesoveriew\">
-                        <h3>
+                        <h2>
                             <a href=\"";
         // line 85
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographies");
         yield "\" title=\"\">
                                 Biografische Einzelfallstudien
                             </a>
-                        </h3>
+                        </h2>
                         <p>Dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
                             ...
                         </p>
@@ -281,11 +281,11 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
                              alt=\"\">
                     </a>
                     <div class=\"studiesoveriew\">
-                        <h3>
+                        <h2>
                             <a href=\"{{ path('app_map') }}\" title=\"\">
                             Orte und Geografische Einordnung
                         </a>
-                        </h3>
+                        </h2>
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing
                             elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum ...
                         </p>
@@ -302,11 +302,11 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
                              alt=\"\">
                     </a>
                     <div class=\"studiesoveriew\">
-                        <h3>
+                        <h2>
                             <a href=\"{{ path('app_context') }}\" title=\"\">
                             (Un)bekannte Daten und Quellen
                         </a>
-                        </h3>
+                        </h2>
                         <p>Dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
                             ...
                         </p>
@@ -321,16 +321,16 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
         <div class=\"row g-4 mt-2\">
             <div class=\"col-sm\">
                 <div>
-                    <a href=\"{{ path('app_context') }}\" title=\"\">
+                    <a href=\"{{ path('app_deportation') }}\" title=\"\">
                         <img class=\"img-fluid\" src=\"{{ asset('images/placeholder_840x560.jpg') }}\"
                              alt=\"\">
                     </a>
                     <div class=\"studiesoveriew\">
-                        <h3>
+                        <h2>
                             <a href=\"{{ path('app_deportation') }}\" title=\"\">
                                 Fallstudien zu Deportationsrouten
                             </a>
-                        </h3>
+                        </h2>
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing
                             elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum ...
                         </p>
@@ -343,16 +343,16 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
             </div>
             <div class=\"col-sm offset-lg-1\">
                 <div>
-                    <a href=\"{{ path('app_context') }}\" title=\"\">
+                    <a href=\"{{ path('app_biographies') }}\" title=\"\">
                         <img class=\"img-fluid\" src=\"{{ asset('images/placeholder_840x560.jpg') }}\"
                              alt=\"\">
                     </a>
                     <div class=\"studiesoveriew\">
-                        <h3>
+                        <h2>
                             <a href=\"{{ path('app_biographies') }}\" title=\"\">
                                 Biografische Einzelfallstudien
                             </a>
-                        </h3>
+                        </h2>
                         <p>Dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
                             ...
                         </p>

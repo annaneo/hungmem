@@ -13,8 +13,8 @@ use Twig\Sandbox\SecurityNotAllowedFunctionError;
 use Twig\Source;
 use Twig\Template;
 
-/* studies/study.html.twig */
-class __TwigTemplate_159059b59ec408517eb1da56d3806dcf extends Template
+/* biographies/study.html.twig */
+class __TwigTemplate_c92dcb9f7191437120b4d673cb128ea3 extends Template
 {
     private $source;
     private $macros = [];
@@ -41,12 +41,12 @@ class __TwigTemplate_159059b59ec408517eb1da56d3806dcf extends Template
     {
         $macros = $this->macros;
         $__internal_5a27a8ba21ca79b61932376b2fa922d2 = $this->extensions["Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension"];
-        $__internal_5a27a8ba21ca79b61932376b2fa922d2->enter($__internal_5a27a8ba21ca79b61932376b2fa922d2_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "template", "studies/study.html.twig"));
+        $__internal_5a27a8ba21ca79b61932376b2fa922d2->enter($__internal_5a27a8ba21ca79b61932376b2fa922d2_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "template", "biographies/study.html.twig"));
 
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
-        $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "template", "studies/study.html.twig"));
+        $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "template", "biographies/study.html.twig"));
 
-        $this->parent = $this->loadTemplate("base.html.twig", "studies/study.html.twig", 1);
+        $this->parent = $this->loadTemplate("base.html.twig", "biographies/study.html.twig", 1);
         yield from $this->parent->unwrap()->yield($context, array_merge($this->blocks, $blocks));
         
         $__internal_5a27a8ba21ca79b61932376b2fa922d2->leave($__internal_5a27a8ba21ca79b61932376b2fa922d2_prof);
@@ -92,8 +92,8 @@ class __TwigTemplate_159059b59ec408517eb1da56d3806dcf extends Template
         yield "
 
     <div class=\"container mt-5\">
-        <h2>Fallstudie</h2>
-        <h3 class=\"mt-4\">Überschrift 1</h3>
+        <h2>Biografie</h2>
+        <h3 class=\"mt-4\">Überschrift</h3>
         <div class=\"row\">
             <div class=\"col-md-6\">
                 <p>
@@ -421,7 +421,7 @@ class __TwigTemplate_159059b59ec408517eb1da56d3806dcf extends Template
      */
     public function getTemplateName()
     {
-        return "studies/study.html.twig";
+        return "biographies/study.html.twig";
     }
 
     /**
@@ -451,8 +451,8 @@ class __TwigTemplate_159059b59ec408517eb1da56d3806dcf extends Template
 
 
     <div class=\"container mt-5\">
-        <h2>Fallstudie</h2>
-        <h3 class=\"mt-4\">Überschrift 1</h3>
+        <h2>Biografie</h2>
+        <h3 class=\"mt-4\">Überschrift</h3>
         <div class=\"row\">
             <div class=\"col-md-6\">
                 <p>
@@ -735,6 +735,6 @@ class __TwigTemplate_159059b59ec408517eb1da56d3806dcf extends Template
     </div>
 
 
-{% endblock %}", "studies/study.html.twig", "/Users/neovesky/CodingFriends/holocaust-ungarn/templates/studies/study.html.twig");
+{% endblock %}", "biographies/study.html.twig", "/Users/neovesky/CodingFriends/holocaust-ungarn/templates/biographies/study.html.twig");
     }
 }

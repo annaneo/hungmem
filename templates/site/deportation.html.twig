@@ -1,94 +1,99 @@
 {% extends 'base.html.twig' %}
 
-{% block title %} Deportationen | {{ parent() }} {% endblock %}
+{% block title %} Startseite | {{ parent() }} {% endblock %}
 
 {% block body %}
 
     <div class="container g-4 py-5">
 
-        <div class="row row-cols-1 row-cols-md-2 g-3">
-            <div class="col">
-                <div class="card shadow-sm mt-5">
+        <div class="row justify-content-end">
+            <div class="col-sm">
+                <div>
                     <a href="" title="">
-                        <img class="img-fluid" src="{{ asset('images/') }}"
+                        <img class="img-fluid" src="{{ asset('images/placeholder_840x560.jpg') }}"
                              alt="">
                     </a>
-                    <div class="card-body">
-                        <h3>
-                            <a href="{{ path('app_studytemplate') }}" title="">
+                    <div class="studiesoveriew">
+                        <h2>
+                            <a href="{{ path('app_deportation_vw') }}" title="">
                                 Fallstudie VW
-                        </a>
-                        </h3>
+                            </a>
+                        </h2>
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing
                             elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum ...
-                            <a href="{{ path('app_studytemplate') }}" title="Weiterlesen">[mehr]</a>
+                        </p>
+                        <p>
+                            <a class="more" href="{{ path('app_deportation_vw') }}" title="Weiterlesen">[mehr]</a>
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="col">
-                <div class="card shadow-sm mt-5">
-                    <a href="{{ path('app_studytemplate') }}" title="">
-                        <img class="img-fluid" src="{{ asset('images/') }}"
+            <div class="col-sm offset-lg-1">
+                <div>
+                    <a href="{{ path('app_sources') }}" title="">
+                        <img class="img-fluid" src="{{ asset('images/placeholder_840x560.jpg') }}"
                              alt="">
                     </a>
-                    <div class="card-body">
-                        <h3>
+                    <div class="studiesoveriew">
+                        <h2>
                             <a href="{{ path('app_studytemplate') }}" title="">
                                 Fallstudie Dessauer Ufer
-                        </a>
-                        </h3>
+                            </a>
+                        </h2>
                         <p>Dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
                             ...
-                            <a href="{{ path('app_studytemplate') }}" title="Weiterlesen">[mehr]</a>
+                        </p>
+                        <p>
+                            <a class="more" href="{{ path('app_studytemplate') }}" title="Weiterlesen">[mehr]</a>
                         </p>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="row row-cols-1 row-cols-md-2 g-3">
-            <div class="col">
-                <div class="card shadow-sm mt-5">
+        <div class="row g-4 mt-2">
+            <div class="col-sm">
+                <div>
                     <a href="{{ path('app_studytemplate') }}" title="">
-                        <img class="img-fluid" src="{{ asset('images/') }}"
+                        <img class="img-fluid" src="{{ asset('images/placeholder_840x560.jpg') }}"
                              alt="">
                     </a>
-                    <div class="card-body">
-                        <h3>
+                    <div class="studiesoveriew">
+                        <h2>
                             <a href="{{ path('app_studytemplate') }}" title="">
                                 Fallstudie Außenlager Salzwedel
                             </a>
-                        </h3>
+                        </h2>
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing
                             elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum ...
-                            <a href="{{ path('app_studytemplate') }}" title="Weiterlesen">[mehr]</a>
+                        </p>
+                        <p>
+                            <a class="more" href="{{ path('app_studytemplate') }}" title="Weiterlesen">[mehr]</a>
+
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="col">
-                <div class="card shadow-sm mt-5">
+            <div class="col-sm offset-lg-1">
+                <div>
                     <a href="{{ path('app_studytemplate') }}" title="">
-                        <img class="img-fluid" src="{{ asset('images/') }}"
+                        <img class="img-fluid" src="{{ asset('images/placeholder_840x560.jpg') }}"
                              alt="">
                     </a>
-                    <div class="card-body">
-                        <h3>
+                    <div class="studiesoveriew">
+                        <h2>
                             <a href="{{ path('app_studytemplate') }}" title="">
                                 Fallstudie Außenlager
                             </a>
-                        </h3>
+                        </h2>
                         <p>Dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
                             ...
-                            <a href="{{ path('app_studytemplate') }}" title="Weiterlesen">[mehr]</a>
                         </p>
+                        <a class="more" href="{{ path('app_studytemplate') }}" title="Weiterlesen">[mehr]</a>
                     </div>
                 </div>
             </div>
         </div>
-
-
 
 
     </div>

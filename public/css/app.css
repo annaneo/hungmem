@@ -20,7 +20,7 @@ h1, h1 a {
 }
 
 
-h2 {
+h2, h2 a {
 	font-family: 'Bebas Neue', sans-serif;
 	font-size: 1.75rem;
 	font-weight: bold;
@@ -96,6 +96,10 @@ h3, h3 a {
 	padding: 0.4rem;
 	border-radius: 0.5rem;
 /* TODO: hover state with text or black rectangle in highlight color */
+}
+
+.biographies {
+	padding:1rem;
 }
 
 .metadata {
