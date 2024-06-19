@@ -66,7 +66,7 @@ class __TwigTemplate_66d4196d21ab5e5ec253c4177bba0bcb extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "title"));
 
-        yield " Nutzung | ";
+        yield " Quellen | ";
         yield from $this->yieldParentBlock("title", $context, $blocks);
         yield " ";
         
@@ -214,7 +214,7 @@ class __TwigTemplate_66d4196d21ab5e5ec253c4177bba0bcb extends Template
     {
         return new Source("{% extends 'base.html.twig' %}
 
-{% block title %} Nutzung | {{ parent() }} {% endblock %}
+{% block title %} Quellen | {{ parent() }} {% endblock %}
 
 {% block body %}
 

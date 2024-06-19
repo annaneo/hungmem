@@ -41,7 +41,9 @@ class __TwigTemplate_f2263877e4f5ed9f2b9829dd160647ed extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "template", "elements/navigation.html.twig"));
 
         // line 1
-        yield "<nav class=\"navbar navbar-expand-md navbar-light nav nav-pills\">
+        yield "<div class=\"container\">
+
+<nav class=\"navbar navbar-expand-md navbar-light nav nav-pills\">
     <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\"
             aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
         <span class=\"navbar-toggler-icon\"></span>
@@ -50,46 +52,46 @@ class __TwigTemplate_f2263877e4f5ed9f2b9829dd160647ed extends Template
         <ul class=\"navbar-nav mr-auto nav-pills\">
             <li class=\"nav-item\">
                 <a href=\"";
-        // line 9
+        // line 11
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_home");
         yield "\" class=\"nav-link\" title=\"Startseite\">Home</a>
             </li>
             <li class=\"nav-item\">
                 <a href=\"";
-        // line 12
+        // line 14
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_map");
         yield "\" class=\"nav-link\"
                    title=\"Kartenansicht\">Orte</a>
             </li>
             <li class=\"nav-item\">
                 <a href=\"";
-        // line 16
+        // line 18
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation");
         yield "\" class=\"nav-link\" title=\"Deportationsrouten\">Deportationsrouten</a>
             </li>
             <li class=\"nav-item\">
                 <a href=\"";
-        // line 19
+        // line 21
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographies");
         yield "\" class=\"nav-link\"
                    title=\"Biografien\">Biografien</a>
             </li>
             <li class=\"nav-item\">
                 <a href=\"";
-        // line 23
+        // line 25
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_sources");
         yield "\" class=\"nav-link\" title=\"Was wir wissen und was wir nicht wissen\">Quellen</a>
             </li>
             <li class=\"nav-item\">
                 <a href=\"";
-        // line 26
+        // line 28
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_context");
         yield "\" class=\"nav-link\"
                    title=\"Historischer Kontext\">Historischer&nbsp;Kontext</a>
             </li>
             <li class=\"nav-item\">
                 <a href=\"";
-        // line 30
+        // line 32
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_about");
         yield "\" class=\"nav-link\"
                    title=\"Projektkontext\">HUNGMEM</a>
@@ -99,12 +101,14 @@ class __TwigTemplate_f2263877e4f5ed9f2b9829dd160647ed extends Template
     </div>
     <a href=\"https://www.igdj-hh.de/\" title=\"Webauftritt des Instituts für die Geschichte der deutschen Juden\">
         <img class=\"institute\" width=\"160rem\" src=\"";
-        // line 37
+        // line 39
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/igdj-logo.png"), "html", null, true);
         yield "\"
              alt=\"Logo des Instituts für die Geschichte des deutschen Juden\"/>
     </a>
-</nav>";
+</nav>
+
+</div>";
         
         $__internal_5a27a8ba21ca79b61932376b2fa922d2->leave($__internal_5a27a8ba21ca79b61932376b2fa922d2_prof);
 
@@ -135,12 +139,14 @@ class __TwigTemplate_f2263877e4f5ed9f2b9829dd160647ed extends Template
      */
     public function getDebugInfo()
     {
-        return array (  103 => 37,  93 => 30,  86 => 26,  80 => 23,  73 => 19,  67 => 16,  60 => 12,  54 => 9,  44 => 1,);
+        return array (  105 => 39,  95 => 32,  88 => 28,  82 => 25,  75 => 21,  69 => 18,  62 => 14,  56 => 11,  44 => 1,);
     }
 
     public function getSourceContext()
     {
-        return new Source("<nav class=\"navbar navbar-expand-md navbar-light nav nav-pills\">
+        return new Source("<div class=\"container\">
+
+<nav class=\"navbar navbar-expand-md navbar-light nav nav-pills\">
     <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\"
             aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
         <span class=\"navbar-toggler-icon\"></span>
@@ -179,6 +185,8 @@ class __TwigTemplate_f2263877e4f5ed9f2b9829dd160647ed extends Template
         <img class=\"institute\" width=\"160rem\" src=\"{{ asset('images/igdj-logo.png') }}\"
              alt=\"Logo des Instituts für die Geschichte des deutschen Juden\"/>
     </a>
-</nav>", "elements/navigation.html.twig", "/Users/neovesky/CodingFriends/holocaust-ungarn/templates/elements/navigation.html.twig");
+</nav>
+
+</div>", "elements/navigation.html.twig", "/Users/neovesky/CodingFriends/holocaust-ungarn/templates/elements/navigation.html.twig");
     }
 }

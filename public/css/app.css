@@ -9,13 +9,14 @@ p {
 	font-family: 'Roboto', sans-serif;
 }
 
-h1 {
+h1, h1 a {
 	font-family: 'Bebas Neue', sans-serif;
 	font-size: 3rem;
 	font-weight: bold;
 	padding-top: 40px;
 	color: black;
 	text-transform: uppercase;
+	text-decoration: none;
 }
 
 
@@ -23,16 +24,18 @@ h2 {
 	font-family: 'Bebas Neue', sans-serif;
 	font-size: 1.75rem;
 	font-weight: bold;
+	color: black;
 }
 
 h3, h3 a {
 	font-family: 'Bebas Neue', sans-serif;
 	font-size: 1.5rem;
 	font-weight: bold;
+	color: black;
 }
 
 .lead {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
 .nav-link {
@@ -53,7 +56,7 @@ h3, h3 a {
 }
 
 .nav-link:hover {
-
+	color: black;
 }
 
 .highlight-link  {
