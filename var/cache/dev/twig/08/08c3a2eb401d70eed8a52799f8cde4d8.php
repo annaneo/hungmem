@@ -66,7 +66,7 @@ class __TwigTemplate_1df0856fcf984f666fb35853e1a67e8e extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "title"));
 
-        yield "Über das Projekt | ";
+        yield " Projekt HUNGMEM | ";
         yield from $this->yieldParentBlock("title", $context, $blocks);
         yield " ";
         
@@ -328,7 +328,7 @@ class __TwigTemplate_1df0856fcf984f666fb35853e1a67e8e extends Template
     {
         return new Source("{% extends 'base.html.twig' %}
 
-{% block title %}Über das Projekt | {{ parent() }} {% endblock %}
+{% block title %} Projekt HUNGMEM | {{ parent() }} {% endblock %}
 
 {% block body %}
 

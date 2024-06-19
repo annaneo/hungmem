@@ -85,7 +85,7 @@ class __TwigTemplate_f2263877e4f5ed9f2b9829dd160647ed extends Template
         // line 26
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_context");
         yield "\" class=\"nav-link\"
-                   title=\"Historischer Kontext\">Historischer Kontext</a>
+                   title=\"Historischer Kontext\">Historischer&nbsp;Kontext</a>
             </li>
             <li class=\"nav-item\">
                 <a href=\"";
@@ -97,10 +97,10 @@ class __TwigTemplate_f2263877e4f5ed9f2b9829dd160647ed extends Template
 
         </ul>
     </div>
-    <a href=\"\">
-        <img class=\"institute\" width=\"45%\" src=\"";
+    <a href=\"https://www.igdj-hh.de/\" title=\"Webauftritt des Instituts für die Geschichte der deutschen Juden\">
+        <img class=\"institute\" width=\"160rem\" src=\"";
         // line 37
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/IGdJ-Logo.svg"), "html", null, true);
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/igdj-logo.png"), "html", null, true);
         yield "\"
              alt=\"Logo des Instituts für die Geschichte des deutschen Juden\"/>
     </a>
@@ -166,7 +166,7 @@ class __TwigTemplate_f2263877e4f5ed9f2b9829dd160647ed extends Template
             </li>
             <li class=\"nav-item\">
                 <a href=\"{{ path('app_context') }}\" class=\"nav-link\"
-                   title=\"Historischer Kontext\">Historischer Kontext</a>
+                   title=\"Historischer Kontext\">Historischer&nbsp;Kontext</a>
             </li>
             <li class=\"nav-item\">
                 <a href=\"{{ path('app_about') }}\" class=\"nav-link\"
@@ -175,8 +175,8 @@ class __TwigTemplate_f2263877e4f5ed9f2b9829dd160647ed extends Template
 
         </ul>
     </div>
-    <a href=\"\">
-        <img class=\"institute\" width=\"45%\" src=\"{{ asset('images/IGdJ-Logo.svg') }}\"
+    <a href=\"https://www.igdj-hh.de/\" title=\"Webauftritt des Instituts für die Geschichte der deutschen Juden\">
+        <img class=\"institute\" width=\"160rem\" src=\"{{ asset('images/igdj-logo.png') }}\"
              alt=\"Logo des Instituts für die Geschichte des deutschen Juden\"/>
     </a>
 </nav>", "elements/navigation.html.twig", "/Users/neovesky/CodingFriends/holocaust-ungarn/templates/elements/navigation.html.twig");

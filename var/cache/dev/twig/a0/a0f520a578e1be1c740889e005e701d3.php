@@ -66,7 +66,7 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "title"));
 
-        yield " Das jüdische Hamburg | ";
+        yield " Kontext | ";
         yield from $this->yieldParentBlock("title", $context, $blocks);
         yield " ";
         
@@ -444,7 +444,7 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
     {
         return new Source("{% extends 'base.html.twig' %}
 
-{% block title %} Das jüdische Hamburg | {{ parent() }} {% endblock %}
+{% block title %} Kontext | {{ parent() }} {% endblock %}
 
 
 {% block body %}

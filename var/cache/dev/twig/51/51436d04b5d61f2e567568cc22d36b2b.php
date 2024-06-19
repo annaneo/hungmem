@@ -66,9 +66,9 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "title"));
 
-        yield " ";
+        yield " Startseite | ";
         yield from $this->yieldParentBlock("title", $context, $blocks);
-        yield " | Übersicht Interviews ";
+        yield " ";
         
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->leave($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof);
 
@@ -262,7 +262,7 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
     {
         return new Source("{% extends 'base.html.twig' %}
 
-{% block title %} {{ parent() }} | Übersicht Interviews {% endblock %}
+{% block title %} Startseite | {{ parent() }} {% endblock %}
 
 {% block body %}
 
