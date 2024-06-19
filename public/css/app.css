@@ -38,6 +38,7 @@ h3, h3 a {
 	font-family: 'Roboto Condensed', sans-serif;
 }
 
+
 .nav-link {
 	padding-left: 10px !important;
 }
@@ -83,6 +84,18 @@ h3, h3 a {
 
 .hero {
 
+}
+
+.studiesoveriew {
+	margin-top: 1rem;
+}
+
+.studiesoveriew .more {
+	background-color: black;
+	color: white;
+	padding: 0.4rem;
+	border-radius: 0.5rem;
+/* TODO: hover state with text or black rectangle in highlight color */
 }
 
 .metadata {

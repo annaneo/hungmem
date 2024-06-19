@@ -92,17 +92,17 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
         yield "
     <div class=\"container g-4 py-5\">
 
-        <div class=\"row row-cols-1 row-cols-md-2 g-3\">
-            <div class=\"col\">
-                <div class=\"card shadow-sm mt-5\">
+        <div class=\"row justify-content-end\">
+            <div class=\"col-sm\">
+                <div>
                     <a href=\"\" title=\"\">
                         <img class=\"img-fluid\" src=\"";
         // line 13
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/"), "html", null, true);
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder_840x560.jpg"), "html", null, true);
         yield "\"
                              alt=\"\">
                     </a>
-                    <div class=\"card-body\">
+                    <div class=\"studiesoveriew\">
                         <h3>
                             <a href=\"";
         // line 18
@@ -113,30 +113,32 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
                         </h3>
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing
                             elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum ...
-                            <a href=\"";
-        // line 24
-        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_camargo");
+                        </p>
+                        <p>
+                            <a class=\"more\" href=\"";
+        // line 26
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_map");
         yield "\" title=\"Weiterlesen\">[mehr]</a>
                         </p>
                     </div>
                 </div>
             </div>
-            <div class=\"col\">
-                <div class=\"card shadow-sm mt-5\">
+            <div class=\"col-sm offset-lg-1\">
+                <div>
                     <a href=\"";
-        // line 31
+        // line 33
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_sources");
         yield "\" title=\"\">
                         <img class=\"img-fluid\" src=\"";
-        // line 32
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/"), "html", null, true);
+        // line 34
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder_840x560.jpg"), "html", null, true);
         yield "\"
                              alt=\"\">
                     </a>
-                    <div class=\"card-body\">
+                    <div class=\"studiesoveriew\">
                         <h3>
                             <a href=\"";
-        // line 37
+        // line 39
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_context");
         yield "\" title=\"\">
                             (Un)bekannte Daten und Quellen
@@ -144,9 +146,11 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
                         </h3>
                         <p>Dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
                             ...
-                            <a href=\"";
-        // line 43
-        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_fenyes");
+                        </p>
+                        <p>
+                            <a class=\"more\" href=\"";
+        // line 47
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_context");
         yield "\" title=\"Weiterlesen\">[mehr]</a>
                         </p>
                     </div>
@@ -154,23 +158,23 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
             </div>
         </div>
 
-        <div class=\"row row-cols-1 row-cols-md-2 g-3\">
-            <div class=\"col\">
-                <div class=\"card shadow-sm mt-5\">
+        <div class=\"row g-4 mt-2\">
+            <div class=\"col-sm\">
+                <div>
                     <a href=\"";
-        // line 53
+        // line 57
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_context");
         yield "\" title=\"\">
                         <img class=\"img-fluid\" src=\"";
-        // line 54
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/"), "html", null, true);
+        // line 58
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder_840x560.jpg"), "html", null, true);
         yield "\"
                              alt=\"\">
                     </a>
-                    <div class=\"card-body\">
+                    <div class=\"studiesoveriew\">
                         <h3>
                             <a href=\"";
-        // line 59
+        // line 63
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation");
         yield "\" title=\"\">
                                 Fallstudien zu Deportationsrouten
@@ -178,30 +182,33 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
                         </h3>
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing
                             elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum ...
-                            <a href=\"";
-        // line 65
-        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_camargo");
+                        </p>
+                        <p>
+                            <a class=\"more\" href=\"";
+        // line 71
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation");
         yield "\" title=\"Weiterlesen\">[mehr]</a>
+
                         </p>
                     </div>
                 </div>
             </div>
-            <div class=\"col\">
-                <div class=\"card shadow-sm mt-5\">
+            <div class=\"col-sm offset-lg-1\">
+                <div>
                     <a href=\"";
-        // line 72
+        // line 79
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_context");
         yield "\" title=\"\">
                         <img class=\"img-fluid\" src=\"";
-        // line 73
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/"), "html", null, true);
+        // line 80
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder_840x560.jpg"), "html", null, true);
         yield "\"
                              alt=\"\">
                     </a>
-                    <div class=\"card-body\">
+                    <div class=\"studiesoveriew\">
                         <h3>
                             <a href=\"";
-        // line 78
+        // line 85
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographies");
         yield "\" title=\"\">
                                 Biografische Einzelfallstudien
@@ -209,17 +216,15 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
                         </h3>
                         <p>Dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
                             ...
-                            <a href=\"";
-        // line 84
-        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_fenyes");
-        yield "\" title=\"Weiterlesen\">[mehr]</a>
                         </p>
+                        <a class=\"more\" href=\"";
+        // line 92
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographies");
+        yield "\" title=\"Weiterlesen\">[mehr]</a>
                     </div>
                 </div>
             </div>
         </div>
-
-
 
 
     </div>
@@ -255,7 +260,7 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
      */
     public function getDebugInfo()
     {
-        return array (  214 => 84,  205 => 78,  197 => 73,  193 => 72,  183 => 65,  174 => 59,  166 => 54,  162 => 53,  149 => 43,  140 => 37,  132 => 32,  128 => 31,  118 => 24,  109 => 18,  101 => 13,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
+        return array (  222 => 92,  212 => 85,  204 => 80,  200 => 79,  189 => 71,  178 => 63,  170 => 58,  166 => 57,  153 => 47,  142 => 39,  134 => 34,  130 => 33,  120 => 26,  109 => 18,  101 => 13,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -268,14 +273,14 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
 
     <div class=\"container g-4 py-5\">
 
-        <div class=\"row row-cols-1 row-cols-md-2 g-3\">
-            <div class=\"col\">
-                <div class=\"card shadow-sm mt-5\">
+        <div class=\"row justify-content-end\">
+            <div class=\"col-sm\">
+                <div>
                     <a href=\"\" title=\"\">
-                        <img class=\"img-fluid\" src=\"{{ asset('images/') }}\"
+                        <img class=\"img-fluid\" src=\"{{ asset('images/placeholder_840x560.jpg') }}\"
                              alt=\"\">
                     </a>
-                    <div class=\"card-body\">
+                    <div class=\"studiesoveriew\">
                         <h3>
                             <a href=\"{{ path('app_map') }}\" title=\"\">
                             Orte und Geografische Einordnung
@@ -283,18 +288,20 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
                         </h3>
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing
                             elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum ...
-                            <a href=\"{{ path('app_camargo') }}\" title=\"Weiterlesen\">[mehr]</a>
+                        </p>
+                        <p>
+                            <a class=\"more\" href=\"{{ path('app_map') }}\" title=\"Weiterlesen\">[mehr]</a>
                         </p>
                     </div>
                 </div>
             </div>
-            <div class=\"col\">
-                <div class=\"card shadow-sm mt-5\">
+            <div class=\"col-sm offset-lg-1\">
+                <div>
                     <a href=\"{{ path('app_sources') }}\" title=\"\">
-                        <img class=\"img-fluid\" src=\"{{ asset('images/') }}\"
+                        <img class=\"img-fluid\" src=\"{{ asset('images/placeholder_840x560.jpg') }}\"
                              alt=\"\">
                     </a>
-                    <div class=\"card-body\">
+                    <div class=\"studiesoveriew\">
                         <h3>
                             <a href=\"{{ path('app_context') }}\" title=\"\">
                             (Un)bekannte Daten und Quellen
@@ -302,21 +309,23 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
                         </h3>
                         <p>Dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
                             ...
-                            <a href=\"{{ path('app_fenyes') }}\" title=\"Weiterlesen\">[mehr]</a>
+                        </p>
+                        <p>
+                            <a class=\"more\" href=\"{{ path('app_context') }}\" title=\"Weiterlesen\">[mehr]</a>
                         </p>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class=\"row row-cols-1 row-cols-md-2 g-3\">
-            <div class=\"col\">
-                <div class=\"card shadow-sm mt-5\">
+        <div class=\"row g-4 mt-2\">
+            <div class=\"col-sm\">
+                <div>
                     <a href=\"{{ path('app_context') }}\" title=\"\">
-                        <img class=\"img-fluid\" src=\"{{ asset('images/') }}\"
+                        <img class=\"img-fluid\" src=\"{{ asset('images/placeholder_840x560.jpg') }}\"
                              alt=\"\">
                     </a>
-                    <div class=\"card-body\">
+                    <div class=\"studiesoveriew\">
                         <h3>
                             <a href=\"{{ path('app_deportation') }}\" title=\"\">
                                 Fallstudien zu Deportationsrouten
@@ -324,18 +333,21 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
                         </h3>
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing
                             elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum ...
-                            <a href=\"{{ path('app_camargo') }}\" title=\"Weiterlesen\">[mehr]</a>
+                        </p>
+                        <p>
+                            <a class=\"more\" href=\"{{ path('app_deportation') }}\" title=\"Weiterlesen\">[mehr]</a>
+
                         </p>
                     </div>
                 </div>
             </div>
-            <div class=\"col\">
-                <div class=\"card shadow-sm mt-5\">
+            <div class=\"col-sm offset-lg-1\">
+                <div>
                     <a href=\"{{ path('app_context') }}\" title=\"\">
-                        <img class=\"img-fluid\" src=\"{{ asset('images/') }}\"
+                        <img class=\"img-fluid\" src=\"{{ asset('images/placeholder_840x560.jpg') }}\"
                              alt=\"\">
                     </a>
-                    <div class=\"card-body\">
+                    <div class=\"studiesoveriew\">
                         <h3>
                             <a href=\"{{ path('app_biographies') }}\" title=\"\">
                                 Biografische Einzelfallstudien
@@ -343,14 +355,12 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
                         </h3>
                         <p>Dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
                             ...
-                            <a href=\"{{ path('app_fenyes') }}\" title=\"Weiterlesen\">[mehr]</a>
                         </p>
+                        <a class=\"more\" href=\"{{ path('app_biographies') }}\" title=\"Weiterlesen\">[mehr]</a>
                     </div>
                 </div>
             </div>
         </div>
-
-
 
 
     </div>
