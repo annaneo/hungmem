@@ -217,10 +217,12 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
                         <p>Dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
                             ...
                         </p>
-                        <a class=\"more\" href=\"";
-        // line 92
+                        <p>
+                            <a class=\"more\" href=\"";
+        // line 93
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_studytemplate");
         yield "\" title=\"Weiterlesen\">[mehr]</a>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -260,7 +262,7 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
      */
     public function getDebugInfo()
     {
-        return array (  222 => 92,  212 => 85,  204 => 80,  200 => 79,  189 => 71,  178 => 63,  170 => 58,  166 => 57,  153 => 47,  142 => 39,  134 => 34,  130 => 33,  120 => 26,  109 => 18,  101 => 13,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
+        return array (  223 => 93,  212 => 85,  204 => 80,  200 => 79,  189 => 71,  178 => 63,  170 => 58,  166 => 57,  153 => 47,  142 => 39,  134 => 34,  130 => 33,  120 => 26,  109 => 18,  101 => 13,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -356,7 +358,9 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
                         <p>Dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
                             ...
                         </p>
-                        <a class=\"more\" href=\"{{ path('app_studytemplate') }}\" title=\"Weiterlesen\">[mehr]</a>
+                        <p>
+                            <a class=\"more\" href=\"{{ path('app_studytemplate') }}\" title=\"Weiterlesen\">[mehr]</a>
+                        </p>
                     </div>
                 </div>
             </div>

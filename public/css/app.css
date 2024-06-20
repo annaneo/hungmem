@@ -39,7 +39,7 @@ h3, h3 a {
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 }
 
-p a {
+nav p a, footer p a, .studiesoveriew p a, .biographies p a {
 	font-family: 'Roboto Condensed', sans-serif;
 }
 
