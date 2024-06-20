@@ -92,7 +92,7 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
         yield "
 
     <div class=\"container mt-5\">
-        <h2>Das jüdische Hamburg – ein kurzer zeitgeschichtlicher Überblick von 1945 bis heute</h2>
+        <h2>Historischer Kontext</h2>
         <h3 class=\"mt-4\">Situation nach 1945 und Neugründung der Gemeinde</h3>
         <div class=\"row\">
             <div class=\"col-md-6\">
@@ -451,7 +451,7 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
 
 
     <div class=\"container mt-5\">
-        <h2>Das jüdische Hamburg – ein kurzer zeitgeschichtlicher Überblick von 1945 bis heute</h2>
+        <h2>Historischer Kontext</h2>
         <h3 class=\"mt-4\">Situation nach 1945 und Neugründung der Gemeinde</h3>
         <div class=\"row\">
             <div class=\"col-md-6\">

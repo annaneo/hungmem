@@ -5,143 +5,53 @@
 {% block body %}
 
     <div class="container mt-5">
-        <h2>HUNGMEM</h2>
-        <h3 class="mt-4">Überblick</h3>
+        <h2>„Digitale Gedenk- und Forschungsinfrastruktur – Der Holocaust in Ungarn 80 Jahre später“ (HUNGMEM) </h2>
+        <h3 class="mt-4">Hintergrund und Ziele des Projektes</h3>
         <div class="row">
             <div class="col-lg">
                 <p>
-                    Das Wissen darüber, wie Jüdinnen und Juden in unserer Stadt leben, welche Erfahrungen sie im Alltag
-                    machen und welche Geschichten sie zu erzählen haben, ist gering. Oft nimmt die Mehrheitsgesellschaft
-                    sie pauschal als „die anderen“ oder als Opfer antisemitischer Diskriminierung und Gewalt wahr. Das
-                    <a href="https://www.igdj-hh.de/" target="_blank"
-                       title="Homepage des Instituts für die Geschichte der deutschen Juden">Institut für die Geschichte
-                        der deutschen Juden (IGdJ)</a> möchte mit der Online-Plattform „Jüdisches Hamburg erzählen“ dazu
-                    beitragen, diese Wahrnehmung zu ändern. Hamburger Jüdinnen und Juden, die in dieser Stadt studieren,
-                    sich gesellschaftspolitisch und kulturell engagieren, als Volkswirtin, Juristen oder Journalistinnen
-                    tätig waren oder als Lehrer:innen, Musiker und Selbstständige arbeiten, ergreifen das Wort.
-                    Die <a href="{{ path('app_home') }}">Sammlung von Kurzinterviews</a> gibt exemplarische Einblicke in die
-                    vielfältigen (Über-)Lebenswege, Herkünfte und Selbstverständnisse, die das jüdische Leben in Hamburg
-                    in der jüngsten Vergangenheit und Gegenwart auszeichnen. </p>
+                    One in ten Holocaust victims came from Hungary within its borders at the time. 500,000-600,000 Jews and Roma*nja were murdered by the National Socialists and their Hungarian allies. The names of most of these persecuted people are still unknown today. 80 years after the Holocaust in Hungary, a transnational research and remembrance project has set itself the goal of researching the fate of the deported women, men and children, coming to terms with it and preventing it from being forgotten. Together with partner institutions in Hungary, Romania and Slovakia, the Institute for the History of German Jews (IGdJ) will establish a digital commemoration and research infrastructure.</p>
             </div>
             <div class="col-lg">
-                <img class="img-fluid" src="{{ asset('images/projekt/Institut-Geschichte-der-deutschen-Juden-Hamburg.png') }}"
-                     alt="Außenansicht des Gebäudes in dem das Institut für die Geschichte der deutschen Juden angesiedelt ist"/>
-                <div class="caption">
-                    Das Institut für die Geschichte der deutschen Juden Hamburg. Foto: Felix Matthies © IGdJ.
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container mt-2">
-        <h3>Die Interviews</h3>
-        <div class="row">
-            <div class="col-sm">
                 <p>
-                    Während das Interview von <a href="{{ path('app_melamed') }}">Carmen Melamed</a> stellvertretend für die kleine Minderheit steht, der es gelang
-                den Nationalsozialismus in Hamburg zu überleben, erzählen <a href="{{ path('app_heimann') }}">Michael
-                    Heimann</a> und <a
-                        href="{{ path('app_horwitz') }}">Daphna Horwitz</a> von den Erfahrungen ihrer Eltern
-                bei der Rückkehr nach Hamburg in der frühen Nachkriegszeit und davon, welche Spuren diese Schicksale in
-                den Familien hinterlassen haben. Von denjenigen, denen eine Flucht gelang,
-                kehrten aus den unterschiedlichsten Gründen (Klima, Gesundheit, Familie, Beruf) und zu unterschiedlichen
-                Zeitpunkten einige in ihre ehemalige Heimat zurück. Darunter befand sich
-                <a href="{{ path('app_parnass') }}">Peggy Parnass</a> ebenso wie die
-                Familie von <a href="{{ path('app_wallenstein') }}">Abi Wallenstein</a>
-                oder <a href="{{ path('app_wittenberg') }}">Andreas Wittenberg</a>.<br/>
+                    The IGdJ is coordinating the archive research to collect as many names and stories as possible of those who were deported to the concentration camps in northern Germany. Thanks to the good cooperation with the Neuengamme and Bergen-Belsen concentration camp memorials and the intensive research of the two project team members, comprehensive data has already been collected in recent months and new information could be added in some cases.
                 </p>
                 <p>
-                <a href="{{ path('app_nasirzadeh') }}">Mona Nasirzadeh</a> gibt exemplarisch Einblick in das Leben der
-                persischen Jüdinnen und Juden, die seit den 1950er-Jahren – vor allem aus wirtschaftlichen Motiven –
-                nach Hamburg kamen und hier einige Jahrzehnte lang eine lebendige und gut vernetzte Gemeinschaft
-                bildeten. Die größte Gruppe der hier lebenden Jüdinnen und Juden stammt aus der Sowjetunion und ihren
-                Nachfolgestaaten und ist im Zuge des Kontingentverfahrens ab 1991 bis 2005 nach Deutschland
-                eingewandert. Die Interviews mit <a href="{{ path('app_lubinska') }}">Elsara Lubinska</a>,
-                <a href="{{ path('app_camargo') }}">Julia Camargo</a> oder <a href="{{ path('app_zunik') }}">Igor Zunik</a> zeigen wie divers die
-                Migrationswege und -erfahrungen innerhalb dieser Gruppe sind.
-                </p>
-            </div>
-            <div class="col-sm">
-                <p>
-                    In der jüngsten Vergangenheit
-                    wanderten
-                    vermehrt junge Israelis nach Hamburg, von denen sich wiederum einige als Teil der jüdischen
-                    Gemeinschaft
-                    verstehen und hier durch das Interview mit <a href="{{ path('app_rosenblum') }}">Avi Rosenblum</a> stellvertretend präsentiert werden. <a href="{{ path('app_pestov') }}">Elias
-                        Pestov</a> oder <a href="{{ path('app_korn') }}">Eliana Korn</a> geben Einblicke in die Lebenswelten junger jüdischer Hamburger:innen.
-                    Die
-                    Interviews von <a href="{{ path('app_guggenheim') }}">Barbara Guggenheim</a> oder
-                    <a href="{{ path('app_landshut') }}">Judith Landshut</a> zeigen, dass
-                    (Migrations-)Geschichten individuell verlaufen und sich nicht immer einer größeren Strömung zuordnen
-                    lassen, ebenso wie sie oftmals nicht linear verlaufen, also auch durch Hin- und
-                    Rückwanderungsbewegungen
-                    gekennzeichnet sein können.
-                    Um Fragen von Zugehörigkeit und Identität geht es in den Interviews mit
-                    <a href="{{ path('app_lohse') }}">Ulrich Michael Lohse</a> und
-                    <a href="{{ path('app_guenther') }}">John Guenther</a>, die beide über Konversionsprozesse berichten.
-                </p>
-                <p>
-                    Die hier präsentierten Kurzinterviews nehmen dabei keineswegs für sich in Anspruch, die jüdische
-                    Gemeinschaft abzubilden oder die Geschichte einer bestimmten Gruppe zu erzählen. Es handelt sich um
-                    rein
-                    subjektive Erzählungen, die aber in ihrer Gesamtheit ein Mosaikbild entstehen lassen, das die
-                    Vielfalt
-                    und Pluralität des Hamburger Judentums sichtbar macht, das einfache Zuschreibungen, klischeehafte
-                    Darstellungen oder monokausale Erklärungen hinterfragt und auf die Komplexität von Zugehörigkeiten
-                    und
-                    Geschichte(n) verweist, die eine diverse Einwanderungsgesellschaft ausmachen.
+                    The aim now is to bring together the findings and make them accessible in a public presentation.
                 </p>
             </div>
         </div>
     </div>
 
+
     <div class="container mt-2">
-        <h3>Das Projekt</h3>
+        <h3>Kooperationspartner</h3>
         <div class="row">
-            <div class="col-sm">
+            <div class="col-md">
                 <p>
-                    Die hier präsentierten Interviews wurden im Rahmen eines am Institut für die Geschichte der
-                    deutschen Juden angesiedelten Projektes durchgeführt. Das Projekt wurde vom Referat
-                    <em>Förderung des jüdischen Lebens</em> der Behörde für Wissenschaft, Forschung, Gleichstellung
-                    und Bezirke gefördert und in Teilen in Kooperation mit der Jüdischen Gemeinde in Hamburg umgesetzt.
-                    Eine weitere Kooperation ergab sich mit dem Jüdischen Museum Berlin bei der Durchführung des
-                    Objekttages im Juni 2022 in Hamburg. Während des Objekttages wurden mehreren Kurzinterviews aufgenommen,
-                    die ausgehend von einem konkreten Gegenstand persönliche Erfahrungen und familiäre Hintergründe beleuchten.
-                </p>
-                <p>Die Interviews sind so vielfältig, wie die erzählten Geschichten, das betrifft die Inhalte, die
-                    Aufnahme- und Erzählsituation ebenso wie die Dauer des Gespräches.
-                </p>
-                <p>
-                    In der Regel wurden die Interviews im Institut für die Geschichte der deutschen Juden oder bei den
-                    Interviewten zuhause geführt, in Ausnahmefällen auch über ein Videokonferenzprogramm. Während die
-                    Originalaufnahmen (Dauer etwa 15–90 Minuten) im Archiv des IGdJ archiviert werden, wurden für die
-                    Präsentation auf der Website in Rücksprache mit den Interviewten den Online-Sehgewohnheiten
-                    entsprechende Kurzversionen (ungefähre Dauer: 3–8 Minuten) erstellt. Um den Gesprächsverlauf
-                    zumindest skizzenhaft nachzeichnen zu können, wurde die Chronologie der Interviews nicht
-                    aufgebrochen.
-                </p>
-                <p>
-                    Die Interviews geben Einblicke in sehr persönliche Geschichten, ihre Nutzung erfordert ein hohes Maß
-                    an
-                    Sensibilität um den Interviewten mit dem nötigen Respekt zu begegnen. Für alle Interviews gilt, dass
-                    sie
-                    ausschließlich für private und wissenschaftliche Zwecke genutzt werden dürfen und eine kommerzielle
-                    Nutzung verboten ist. Jedem Interview ist eine Lizenz an die Seite gestellt, die die Nachnutzung
-                    ausdrücklich regelt. In der Regel handelt es sich dabei um die <a
-                            href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.de" target="_blank"
-                            title="Erläuterungen zur Lizenz auf der Creative Commons Website">Creative Commons Lizenz
-                        CC-BY-NC-ND 4.0</a>.
-                    Diese Lizenz erlaubt eine Nachnutzung zu nicht-kommerziellen Zwecken unter der Bedingung der
-                    Namensnennung. Eine Bearbeitung des Materials ist nicht gestattet. Ein Verstoß gegen die
-                    Persönlichkeitsrechte der Interviewten wird geahndet.
+                    The project "Digital Commemoration and Research Infrastructure - The Holocaust in Hungary 80 Years Later" (HUNGMEM) is being carried out in cooperation with the Hungarian Jewish Museum and Archive in Budapest, the Romanian Institute for Research on National Minorities and the Jewish Community in Komárno. The project is supported by the EU Commission as part of the CERV - Citizens, Equality, Rights and Values funding program. The international cooperation offers the unique opportunity to provide new impulses for research on the Holocaust by evaluating scattered sources in various archives in order to reconstruct transportation routes and individual biographies.
                 </p>
             </div>
-            <div class="col-sm">
-                <img class="img-fluid" src="{{ asset('images/projekt/Kamera.jpg') }}"
-                     alt="Kamera auf Stativ mit der die Aufnahmen in den Räumen des Instituts durchgeführt wurden"/>
-                <div class="caption">
-                    Kameraausrüstung für die Interviewaufnahmen, Foto: IGdJ.
+            <div class="col-md">
+                <div class="container">
+                    <div class="row">
+                        <img class="img-fluid" src="{{ asset('images/') }}"
+                             alt="Logo des Hungarian Jewish Museum and Archive in Budapest"/>
+                    </div>
+                    <div class="row">
+                        <img class="img-fluid" src="{{ asset('images/') }}"
+                             alt="Logo des Romanian Institute for Research on National Minorities"/>
+                    </div>
+                    <div class="row">
+                        <img class="img-fluid" src="{{ asset('images/') }}"
+                             alt="Logo der Jewish Community in Komárno"/>
+                    </div>
+                    <div class="row">
+                        <img class="img-fluid" src="{{ asset('images/') }}"
+                             alt="Logo der EU Commission"/>
+                    </div>
                 </div>
+
             </div>
         </div>
     </div>
