@@ -108,7 +108,7 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
         // line 18
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_vw");
         yield "\" title=\"\">
-                                Fallstudie VW
+                                „Gruppe der 300“ bei VW
                             </a>
                         </h2>
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing
@@ -141,7 +141,7 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
         // line 39
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_studytemplate");
         yield "\" title=\"\">
-                                Fallstudie Dessauer Ufer
+                                „Ungarische“ Frauen am Dessauer Ufer, Wedel und Eidelstedt
                             </a>
                         </h2>
                         <p>Dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
@@ -177,7 +177,7 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
         // line 63
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_studytemplate");
         yield "\" title=\"\">
-                                Fallstudie Außenlager Salzwedel
+                                Überlebende Frauen im Außenlager Salzwedel
                             </a>
                         </h2>
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing
@@ -211,7 +211,8 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
         // line 85
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_studytemplate");
         yield "\" title=\"\">
-                                Fallstudie Außenlager
+                                Frauen im Außenlager Lübberstedt, Räumungstransport Eutin
+
                             </a>
                         </h2>
                         <p>Dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
@@ -219,7 +220,7 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
                         </p>
                         <p>
                             <a class=\"more\" href=\"";
-        // line 93
+        // line 94
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_studytemplate");
         yield "\" title=\"Weiterlesen\">[mehr]</a>
                         </p>
@@ -262,7 +263,7 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
      */
     public function getDebugInfo()
     {
-        return array (  223 => 93,  212 => 85,  204 => 80,  200 => 79,  189 => 71,  178 => 63,  170 => 58,  166 => 57,  153 => 47,  142 => 39,  134 => 34,  130 => 33,  120 => 26,  109 => 18,  101 => 13,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
+        return array (  224 => 94,  212 => 85,  204 => 80,  200 => 79,  189 => 71,  178 => 63,  170 => 58,  166 => 57,  153 => 47,  142 => 39,  134 => 34,  130 => 33,  120 => 26,  109 => 18,  101 => 13,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -285,7 +286,7 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
                     <div class=\"studiesoveriew\">
                         <h2>
                             <a href=\"{{ path('app_deportation_vw') }}\" title=\"\">
-                                Fallstudie VW
+                                „Gruppe der 300“ bei VW
                             </a>
                         </h2>
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing
@@ -306,7 +307,7 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
                     <div class=\"studiesoveriew\">
                         <h2>
                             <a href=\"{{ path('app_studytemplate') }}\" title=\"\">
-                                Fallstudie Dessauer Ufer
+                                „Ungarische“ Frauen am Dessauer Ufer, Wedel und Eidelstedt
                             </a>
                         </h2>
                         <p>Dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
@@ -330,7 +331,7 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
                     <div class=\"studiesoveriew\">
                         <h2>
                             <a href=\"{{ path('app_studytemplate') }}\" title=\"\">
-                                Fallstudie Außenlager Salzwedel
+                                Überlebende Frauen im Außenlager Salzwedel
                             </a>
                         </h2>
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing
@@ -352,7 +353,8 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
                     <div class=\"studiesoveriew\">
                         <h2>
                             <a href=\"{{ path('app_studytemplate') }}\" title=\"\">
-                                Fallstudie Außenlager
+                                Frauen im Außenlager Lübberstedt, Räumungstransport Eutin
+
                             </a>
                         </h2>
                         <p>Dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.

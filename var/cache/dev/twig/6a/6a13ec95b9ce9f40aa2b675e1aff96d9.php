@@ -117,44 +117,12 @@ class __TwigTemplate_c92dcb9f7191437120b4d673cb128ea3 extends Template
                 </p>
             </div>
 
-            <div class=\"col-md-5\">
-                <div class=\"col\">
-                    <a href=\"";
-        // line 37
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/historischer-kontext/Juedische Gemeinde nach 1945 - StAHH, 522-2 Juedische Gemeinde in Hamburg, Nr. 1364_1.jpg"), "html", null, true);
-        yield "\"
-                       data-lightbox=\"horwitz\"
-                       data-title=\"Niederschrift einer Zusammenkunft zur Neugründung der Jüdischen Gemeinde in Hamburg im Juli 1945.\">
-                        <img class=\"gallery\" style=\"width: 200px;\"
-                             src=\"";
-        // line 41
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/historischer-kontext/Juedische Gemeinde nach 1945 - StAHH, 522-2 Juedische Gemeinde in Hamburg, Nr. 1364_1.jpg"), "html", null, true);
-        yield "\"
-                             alt=\"Niederschrift einer Zusammenkunft zur Neugründung der Jüdischen Gemeinde in Hamburg im Juli 1945\"/>
-                    </a>
-                    <a href=\"";
-        // line 44
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/historischer-kontext/Juedische Gemeinde nach 1945 - StAHH, 522-2 Juedische Gemeinde in Hamburg, Nr. 1364_2.jpg"), "html", null, true);
-        yield "\"
-                       data-lightbox=\"horwitz\"
-                       data-title=\"Niederschrift einer Zusammenkunft zur Neugründung der Juedischen Gemeinde in Hamburg im Juli 1945 Seite 2.\">
-                        <img class=\"gallery\" style=\"width: 200px;\"
-                             src=\"";
-        // line 48
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/historischer-kontext/Juedische Gemeinde nach 1945 - StAHH, 522-2 Juedische Gemeinde in Hamburg, Nr. 1364_2.jpg"), "html", null, true);
-        yield "\"
-                             alt=\"Niederschrift einer Zusammenkunft zur Neugründung der Jüdischen Gemeinde in Hamburg im Juli 1945 Seite\" />
-                    </a>
-
-                    <p class=\"caption\"> Niederschrift einer Zusammenkunft zur Neugründung der Jüdischen Gemeinde in Hamburg im Juli 1945. ©
-                        Staatsarchiv Hamburg und Jüdische Gemeinde Hamburg.
-                        <a href=\"https://juedische-geschichte-online.net/quelle/jgo:source-69\" traget=\"_blank\">
-                            [Zur Quelle in der
-                            Online-Edition <em>Hamburger Schlüsseldokumente</em> zur deutsch-jüdischen Geschichte]
-                        </a></p>
-                </div>
+            <h3>Image Set</h3>
+            <div>
+                <a class=\"example-image-link\" href=\"http://lokeshdhakar.com/projects/lightbox2/images/image-3.jpg\" data-lightbox=\"example-set\" data-title=\"Click the right half of the image to move forward.\"><img class=\"example-image\" src=\"http://lokeshdhakar.com/projects/lightbox2/images/thumb-3.jpg\" alt=\"\"/></a>
+                <a class=\"example-image-link\" href=\"http://lokeshdhakar.com/projects/lightbox2/images/image-4.jpg\" data-lightbox=\"example-set\" data-title=\"Or press the right arrow on your keyboard.\"><img class=\"example-image\" src=\"http://lokeshdhakar.com/projects/lightbox2/images/thumb-4.jpg\" alt=\"\" /></a>
             </div>
-        </div>
+            </section>
 
     <div class=\"row mt-2\">
         <div class=\"col-md-6\">
@@ -204,7 +172,7 @@ class __TwigTemplate_c92dcb9f7191437120b4d673cb128ea3 extends Template
         </div>
         <div class=\"col-md-5\">
             <img class=\"img-fluid\" style=\"width: 400px;\" src=\"";
-        // line 109
+        // line 89
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/historischer-kontext/Gemeindezentrum_Joseph-Carlebach-Bildungshaus-Voransicht.jpg"), "html", null, true);
         yield "\"
                  alt=\"Foto des heutigen Joseph-Carlebach-Bildungshauses\"/>
@@ -212,7 +180,7 @@ class __TwigTemplate_c92dcb9f7191437120b4d673cb128ea3 extends Template
                 Das Gebäude der einstigen Talmud-Tora-Schule, in dem sich heute das Joseph-Carlebach-Bildungshaus befindet. IGdJ Bilddatenbank, NEU00038_2. Foto: Paula Oppermann.
             </div>
             <img class=\"img-fluid\" class=\"mt-2\" style=\"width: 400px;\" src=\"";
-        // line 114
+        // line 94
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/historischer-kontext/Talmud-Tora-Schule.jpg"), "html", null, true);
         yield "\"
                  alt=\"Foto der Talmud-Tora-Schule im Jahr 1914\"/>
@@ -257,7 +225,7 @@ class __TwigTemplate_c92dcb9f7191437120b4d673cb128ea3 extends Template
             </div>
             <div class=\"col-md-5\">
                 <img class=\"img-fluid\" style=\"width: 440px;\" src=\"";
-        // line 156
+        // line 136
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/historischer-kontext/Gedenktafel.jpg"), "html", null, true);
         yield "\"
                      alt=\"Foto der Gedenktafel für das Auswandererschiff Exodus\"/>
@@ -292,7 +260,7 @@ class __TwigTemplate_c92dcb9f7191437120b4d673cb128ea3 extends Template
             </div>
             <div class=\"col-md-5\">
                 <img class=\"img-fluid\" style=\"width: 440px;\" src=\"";
-        // line 188
+        // line 168
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/historischer-kontext/Persisch-juedische_Zuwanderung_Kinder.jpg"), "html", null, true);
         yield "\"
                      alt=\"Foto mehrerer persisch-jüdischer Kinder, die an einem Tisch sitzen\"/>
@@ -334,7 +302,7 @@ class __TwigTemplate_c92dcb9f7191437120b4d673cb128ea3 extends Template
             </div>
             <div class=\"col-md-5\">
                 <img class=\"img-fluid\" style=\"width: 440px;\" src=\"";
-        // line 227
+        // line 207
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/historischer-kontext/Sowjetisch-juedische_Zuwanderung_Aufnahme_Lubinska.jpg"), "html", null, true);
         yield "\"
                      alt=\"Scan des genehmigten Visumsantrag\"/>
@@ -343,7 +311,7 @@ class __TwigTemplate_c92dcb9f7191437120b4d673cb128ea3 extends Template
                 </div>
 
                 <img class=\"img-fluid\" style=\"width: 440px;\" src=\"";
-        // line 233
+        // line 213
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/historischer-kontext/Sowjetisch-juedische_Zuwanderung_Pass_Lubinska.jpg"), "html", null, true);
         yield "\"
                      alt=\"Scan des sowjetischen Passes\"/>
@@ -404,7 +372,7 @@ class __TwigTemplate_c92dcb9f7191437120b4d673cb128ea3 extends Template
             </div>
         </div>
     </div>
-
+    </div>
 
 ";
         
@@ -437,7 +405,7 @@ class __TwigTemplate_c92dcb9f7191437120b4d673cb128ea3 extends Template
      */
     public function getDebugInfo()
     {
-        return array (  347 => 233,  338 => 227,  296 => 188,  261 => 156,  216 => 114,  208 => 109,  144 => 48,  137 => 44,  131 => 41,  124 => 37,  92 => 7,  82 => 6,  60 => 3,  37 => 1,);
+        return array (  315 => 213,  306 => 207,  264 => 168,  229 => 136,  184 => 94,  176 => 89,  92 => 7,  82 => 6,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -476,32 +444,12 @@ class __TwigTemplate_c92dcb9f7191437120b4d673cb128ea3 extends Template
                 </p>
             </div>
 
-            <div class=\"col-md-5\">
-                <div class=\"col\">
-                    <a href=\"{{ asset('images/historischer-kontext/Juedische Gemeinde nach 1945 - StAHH, 522-2 Juedische Gemeinde in Hamburg, Nr. 1364_1.jpg') }}\"
-                       data-lightbox=\"horwitz\"
-                       data-title=\"Niederschrift einer Zusammenkunft zur Neugründung der Jüdischen Gemeinde in Hamburg im Juli 1945.\">
-                        <img class=\"gallery\" style=\"width: 200px;\"
-                             src=\"{{ asset('images/historischer-kontext/Juedische Gemeinde nach 1945 - StAHH, 522-2 Juedische Gemeinde in Hamburg, Nr. 1364_1.jpg') }}\"
-                             alt=\"Niederschrift einer Zusammenkunft zur Neugründung der Jüdischen Gemeinde in Hamburg im Juli 1945\"/>
-                    </a>
-                    <a href=\"{{ asset('images/historischer-kontext/Juedische Gemeinde nach 1945 - StAHH, 522-2 Juedische Gemeinde in Hamburg, Nr. 1364_2.jpg') }}\"
-                       data-lightbox=\"horwitz\"
-                       data-title=\"Niederschrift einer Zusammenkunft zur Neugründung der Juedischen Gemeinde in Hamburg im Juli 1945 Seite 2.\">
-                        <img class=\"gallery\" style=\"width: 200px;\"
-                             src=\"{{ asset('images/historischer-kontext/Juedische Gemeinde nach 1945 - StAHH, 522-2 Juedische Gemeinde in Hamburg, Nr. 1364_2.jpg') }}\"
-                             alt=\"Niederschrift einer Zusammenkunft zur Neugründung der Jüdischen Gemeinde in Hamburg im Juli 1945 Seite\" />
-                    </a>
-
-                    <p class=\"caption\"> Niederschrift einer Zusammenkunft zur Neugründung der Jüdischen Gemeinde in Hamburg im Juli 1945. ©
-                        Staatsarchiv Hamburg und Jüdische Gemeinde Hamburg.
-                        <a href=\"https://juedische-geschichte-online.net/quelle/jgo:source-69\" traget=\"_blank\">
-                            [Zur Quelle in der
-                            Online-Edition <em>Hamburger Schlüsseldokumente</em> zur deutsch-jüdischen Geschichte]
-                        </a></p>
-                </div>
+            <h3>Image Set</h3>
+            <div>
+                <a class=\"example-image-link\" href=\"http://lokeshdhakar.com/projects/lightbox2/images/image-3.jpg\" data-lightbox=\"example-set\" data-title=\"Click the right half of the image to move forward.\"><img class=\"example-image\" src=\"http://lokeshdhakar.com/projects/lightbox2/images/thumb-3.jpg\" alt=\"\"/></a>
+                <a class=\"example-image-link\" href=\"http://lokeshdhakar.com/projects/lightbox2/images/image-4.jpg\" data-lightbox=\"example-set\" data-title=\"Or press the right arrow on your keyboard.\"><img class=\"example-image\" src=\"http://lokeshdhakar.com/projects/lightbox2/images/thumb-4.jpg\" alt=\"\" /></a>
             </div>
-        </div>
+            </section>
 
     <div class=\"row mt-2\">
         <div class=\"col-md-6\">
@@ -733,7 +681,7 @@ class __TwigTemplate_c92dcb9f7191437120b4d673cb128ea3 extends Template
             </div>
         </div>
     </div>
-
+    </div>
 
 {% endblock %}", "biographies/study.html.twig", "/Users/neovesky/CodingFriends/holocaust-ungarn/templates/biographies/study.html.twig");
     }

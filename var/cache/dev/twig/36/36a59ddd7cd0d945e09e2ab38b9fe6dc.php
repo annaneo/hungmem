@@ -58,44 +58,35 @@ class __TwigTemplate_d6fd14a705faa8121d6bcd8b2ebbdf8a extends Template
     ";
         // line 8
         yield from $this->unwrap()->yieldBlock('stylesheets', $context, $blocks);
-        // line 33
+        // line 35
         yield "</head>
 <body>
 
 ";
-        // line 36
-        yield from         $this->loadTemplate("elements/navigation.html.twig", "base.html.twig", 36)->unwrap()->yield($context);
-        // line 37
-        yield from         $this->loadTemplate("elements/hero.html.twig", "base.html.twig", 37)->unwrap()->yield($context);
         // line 38
+        yield from         $this->loadTemplate("elements/navigation.html.twig", "base.html.twig", 38)->unwrap()->yield($context);
+        // line 39
+        yield from         $this->loadTemplate("elements/hero.html.twig", "base.html.twig", 39)->unwrap()->yield($context);
+        // line 40
         yield "
 
 ";
-        // line 40
-        yield from $this->unwrap()->yieldBlock('body', $context, $blocks);
         // line 42
-        yield "
-";
-        // line 43
-        yield from         $this->loadTemplate("elements/footer.html.twig", "base.html.twig", 43)->unwrap()->yield($context);
+        yield from $this->unwrap()->yieldBlock('body', $context, $blocks);
         // line 44
         yield "
 ";
         // line 45
-        yield from $this->unwrap()->yieldBlock('javascripts', $context, $blocks);
+        yield from         $this->loadTemplate("elements/footer.html.twig", "base.html.twig", 45)->unwrap()->yield($context);
         // line 46
         yield "
-<script src=\"";
+";
         // line 47
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("js/app.js"), "html", null, true);
-        yield "\"></script>
-<script src=\"";
-        // line 48
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("js/lightbox-and-jquery.js"), "html", null, true);
-        yield "\"></script>
-<script src=\"https://code.jquery.com/jquery-3.2.1.slim.min.js\" integrity=\"sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN\" crossorigin=\"anonymous\"></script>
-<script src=\"https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js\" integrity=\"sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q\" crossorigin=\"anonymous\"></script>
-<script src=\"https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js\" integrity=\"sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl\" crossorigin=\"anonymous\"></script>
+        yield from $this->unwrap()->yieldBlock('javascripts', $context, $blocks);
+        // line 50
+        yield "
+
+
 </body>
 </html>
 ";
@@ -141,15 +132,17 @@ class __TwigTemplate_d6fd14a705faa8121d6bcd8b2ebbdf8a extends Template
         // line 9
         yield "
         <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH\" crossorigin=\"anonymous\">
+        <link rel=\"stylesheet\" href=\"public/css/lightbox.min.css\">
+
         <link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/images/favicon-32x32.png\">
         <link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/images/favicon-16x16.png\">
 
         <link rel=\"stylesheet\" href=\"";
-        // line 14
+        // line 16
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("css/app.css"), "html", null, true);
         yield "\">
         <link rel=\"stylesheet\" href=\"";
-        // line 15
+        // line 17
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("css/lightbox.css"), "html", null, true);
         yield "\">
 
@@ -161,7 +154,7 @@ class __TwigTemplate_d6fd14a705faa8121d6bcd8b2ebbdf8a extends Template
 
         <link rel=\"preload\" href=\"\" as=\"font\" type=\"font/truetype\" crossorigin>
         <link rel=\"preload\" href=\"../public/fonts/Roboto_Condensed\" as=\"font\" type=\"font/truetype\" crossorigin>
-        <link rel=\"preload\" href=\"/fonts/Unna-BoldItalic.ttf\" as=\"font\" type=\"font/truetype\" crossorigin>
+        <link rel=\"preload\" href=\"../public/fonts/Unna\" as=\"font\" type=\"font/truetype\" crossorigin>
 
         <script src=\"https://cdn.usefathom.com/script.js\" data-site=\"BYGJTVOD\" defer></script>
 
@@ -178,7 +171,7 @@ class __TwigTemplate_d6fd14a705faa8121d6bcd8b2ebbdf8a extends Template
         return; yield '';
     }
 
-    // line 40
+    // line 42
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -197,7 +190,7 @@ class __TwigTemplate_d6fd14a705faa8121d6bcd8b2ebbdf8a extends Template
         return; yield '';
     }
 
-    // line 45
+    // line 47
     public function block_javascripts($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -207,6 +200,11 @@ class __TwigTemplate_d6fd14a705faa8121d6bcd8b2ebbdf8a extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "javascripts"));
 
+        // line 48
+        yield "    <script src=\"";
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("js/lightbox-plus-jquery.min.js"), "html", null, true);
+        yield "\"></script>
+";
         
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->leave($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof);
 
@@ -237,7 +235,7 @@ class __TwigTemplate_d6fd14a705faa8121d6bcd8b2ebbdf8a extends Template
      */
     public function getDebugInfo()
     {
-        return array (  201 => 45,  182 => 40,  153 => 15,  149 => 14,  142 => 9,  132 => 8,  112 => 7,  94 => 48,  90 => 47,  87 => 46,  85 => 45,  82 => 44,  80 => 43,  77 => 42,  75 => 40,  71 => 38,  69 => 37,  67 => 36,  62 => 33,  60 => 8,  56 => 7,  48 => 1,);
+        return array (  204 => 48,  194 => 47,  175 => 42,  146 => 17,  142 => 16,  133 => 9,  123 => 8,  103 => 7,  87 => 50,  85 => 47,  82 => 46,  80 => 45,  77 => 44,  75 => 42,  71 => 40,  69 => 39,  67 => 38,  62 => 35,  60 => 8,  56 => 7,  48 => 1,);
     }
 
     public function getSourceContext()
@@ -252,6 +250,8 @@ class __TwigTemplate_d6fd14a705faa8121d6bcd8b2ebbdf8a extends Template
     {% block stylesheets %}
 
         <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH\" crossorigin=\"anonymous\">
+        <link rel=\"stylesheet\" href=\"public/css/lightbox.min.css\">
+
         <link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/images/favicon-32x32.png\">
         <link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/images/favicon-16x16.png\">
 
@@ -266,7 +266,7 @@ class __TwigTemplate_d6fd14a705faa8121d6bcd8b2ebbdf8a extends Template
 
         <link rel=\"preload\" href=\"\" as=\"font\" type=\"font/truetype\" crossorigin>
         <link rel=\"preload\" href=\"../public/fonts/Roboto_Condensed\" as=\"font\" type=\"font/truetype\" crossorigin>
-        <link rel=\"preload\" href=\"/fonts/Unna-BoldItalic.ttf\" as=\"font\" type=\"font/truetype\" crossorigin>
+        <link rel=\"preload\" href=\"../public/fonts/Unna\" as=\"font\" type=\"font/truetype\" crossorigin>
 
         <script src=\"https://cdn.usefathom.com/script.js\" data-site=\"BYGJTVOD\" defer></script>
 
@@ -286,13 +286,12 @@ class __TwigTemplate_d6fd14a705faa8121d6bcd8b2ebbdf8a extends Template
 
 {% include 'elements/footer.html.twig' %}
 
-{% block javascripts %}{% endblock %}
+{% block javascripts %}
+    <script src=\"{{ asset('js/lightbox-plus-jquery.min.js') }}\"></script>
+{% endblock %}
 
-<script src=\"{{ asset('js/app.js') }}\"></script>
-<script src=\"{{ asset('js/lightbox-and-jquery.js') }}\"></script>
-<script src=\"https://code.jquery.com/jquery-3.2.1.slim.min.js\" integrity=\"sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN\" crossorigin=\"anonymous\"></script>
-<script src=\"https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js\" integrity=\"sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q\" crossorigin=\"anonymous\"></script>
-<script src=\"https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js\" integrity=\"sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl\" crossorigin=\"anonymous\"></script>
+
+
 </body>
 </html>
 ", "base.html.twig", "/Users/neovesky/CodingFriends/holocaust-ungarn/templates/base.html.twig");
