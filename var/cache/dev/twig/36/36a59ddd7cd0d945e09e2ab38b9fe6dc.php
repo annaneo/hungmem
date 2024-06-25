@@ -58,32 +58,32 @@ class __TwigTemplate_d6fd14a705faa8121d6bcd8b2ebbdf8a extends Template
     ";
         // line 8
         yield from $this->unwrap()->yieldBlock('stylesheets', $context, $blocks);
-        // line 35
+        // line 34
         yield "</head>
 <body>
 
 ";
+        // line 37
+        yield from         $this->loadTemplate("elements/navigation.html.twig", "base.html.twig", 37)->unwrap()->yield($context);
         // line 38
-        yield from         $this->loadTemplate("elements/navigation.html.twig", "base.html.twig", 38)->unwrap()->yield($context);
+        yield from         $this->loadTemplate("elements/hero.html.twig", "base.html.twig", 38)->unwrap()->yield($context);
         // line 39
-        yield from         $this->loadTemplate("elements/hero.html.twig", "base.html.twig", 39)->unwrap()->yield($context);
-        // line 40
         yield "
 
 ";
-        // line 42
+        // line 41
         yield from $this->unwrap()->yieldBlock('body', $context, $blocks);
+        // line 43
+        yield "
+";
         // line 44
-        yield "
-";
+        yield from         $this->loadTemplate("elements/footer.html.twig", "base.html.twig", 44)->unwrap()->yield($context);
         // line 45
-        yield from         $this->loadTemplate("elements/footer.html.twig", "base.html.twig", 45)->unwrap()->yield($context);
-        // line 46
         yield "
 ";
-        // line 47
+        // line 46
         yield from $this->unwrap()->yieldBlock('javascripts', $context, $blocks);
-        // line 50
+        // line 49
         yield "
 
 
@@ -132,17 +132,16 @@ class __TwigTemplate_d6fd14a705faa8121d6bcd8b2ebbdf8a extends Template
         // line 9
         yield "
         <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH\" crossorigin=\"anonymous\">
-        <link rel=\"stylesheet\" href=\"public/css/lightbox.min.css\">
 
         <link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/images/favicon-32x32.png\">
         <link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/images/favicon-16x16.png\">
 
         <link rel=\"stylesheet\" href=\"";
-        // line 16
+        // line 15
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("css/app.css"), "html", null, true);
         yield "\">
         <link rel=\"stylesheet\" href=\"";
-        // line 17
+        // line 16
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("css/lightbox.css"), "html", null, true);
         yield "\">
 
@@ -171,7 +170,7 @@ class __TwigTemplate_d6fd14a705faa8121d6bcd8b2ebbdf8a extends Template
         return; yield '';
     }
 
-    // line 42
+    // line 41
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -190,7 +189,7 @@ class __TwigTemplate_d6fd14a705faa8121d6bcd8b2ebbdf8a extends Template
         return; yield '';
     }
 
-    // line 47
+    // line 46
     public function block_javascripts($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -200,7 +199,7 @@ class __TwigTemplate_d6fd14a705faa8121d6bcd8b2ebbdf8a extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "javascripts"));
 
-        // line 48
+        // line 47
         yield "    <script src=\"";
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("js/lightbox-plus-jquery.min.js"), "html", null, true);
         yield "\"></script>
@@ -235,7 +234,7 @@ class __TwigTemplate_d6fd14a705faa8121d6bcd8b2ebbdf8a extends Template
      */
     public function getDebugInfo()
     {
-        return array (  204 => 48,  194 => 47,  175 => 42,  146 => 17,  142 => 16,  133 => 9,  123 => 8,  103 => 7,  87 => 50,  85 => 47,  82 => 46,  80 => 45,  77 => 44,  75 => 42,  71 => 40,  69 => 39,  67 => 38,  62 => 35,  60 => 8,  56 => 7,  48 => 1,);
+        return array (  203 => 47,  193 => 46,  174 => 41,  145 => 16,  141 => 15,  133 => 9,  123 => 8,  103 => 7,  87 => 49,  85 => 46,  82 => 45,  80 => 44,  77 => 43,  75 => 41,  71 => 39,  69 => 38,  67 => 37,  62 => 34,  60 => 8,  56 => 7,  48 => 1,);
     }
 
     public function getSourceContext()
@@ -250,7 +249,6 @@ class __TwigTemplate_d6fd14a705faa8121d6bcd8b2ebbdf8a extends Template
     {% block stylesheets %}
 
         <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH\" crossorigin=\"anonymous\">
-        <link rel=\"stylesheet\" href=\"public/css/lightbox.min.css\">
 
         <link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/images/favicon-32x32.png\">
         <link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/images/favicon-16x16.png\">
