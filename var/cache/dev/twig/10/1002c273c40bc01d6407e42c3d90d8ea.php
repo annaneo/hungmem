@@ -481,6 +481,15 @@ class __TwigTemplate_159059b59ec408517eb1da56d3806dcf extends Template
             </div>
         </div>
 
+        <h3 class=\"mt-4\">Zitierhinweis</h3>
+        <div class=\"row\">
+            <div class=\"col-lg-8\">
+                <p>
+                    Autor/in: Titel, in: Holocaust in Ungarn und Deportationen nach Norddeutschland 1944, hrsg. vom Institut für die Geschichte der deutschen Juden, URL: www.url.de, DATUM.
+                </p>
+            </div>
+        </div>
+
     </div>
 
 ";
@@ -892,6 +901,15 @@ class __TwigTemplate_159059b59ec408517eb1da56d3806dcf extends Template
             </div>
             <div class=\"col-lg-4\">
                 <p>
+                </p>
+            </div>
+        </div>
+
+        <h3 class=\"mt-4\">Zitierhinweis</h3>
+        <div class=\"row\">
+            <div class=\"col-lg-8\">
+                <p>
+                    Autor/in: Titel, in: Holocaust in Ungarn und Deportationen nach Norddeutschland 1944, hrsg. vom Institut für die Geschichte der deutschen Juden, URL: www.url.de, DATUM.
                 </p>
             </div>
         </div>
