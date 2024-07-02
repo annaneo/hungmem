@@ -153,7 +153,7 @@ class __TwigTemplate_9fd10a5becac467aa0d11ad2d4000e9d extends Template
                  alt=\"\"/>
         </p>
 
-        <h3>Nutzungsrechte</h3>
+        <h3 id=\"usage\">Nutzungsrechte</h3>
         <p>
             Die Inhalte stehen unter einer CC BY 4.0 Lizenz und können unter Namensnennung weitergenutzt werden.
         </p>
@@ -282,7 +282,7 @@ class __TwigTemplate_9fd10a5becac467aa0d11ad2d4000e9d extends Template
                  alt=\"\"/>
         </p>
 
-        <h3>Nutzungsrechte</h3>
+        <h3 id=\"usage\">Nutzungsrechte</h3>
         <p>
             Die Inhalte stehen unter einer CC BY 4.0 Lizenz und können unter Namensnennung weitergenutzt werden.
         </p>

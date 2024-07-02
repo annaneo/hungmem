@@ -32,6 +32,13 @@ h3, h3 a {
 	color: black;
 }
 
+h4 {
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: black;
+}
+
 .lead {
 	font-family: 'Roboto Condensed', sans-serif;
 }
@@ -119,6 +126,31 @@ footer, footer p {
 	font-size: 18px;
 }
 
+/* Studies & Biographies */
+
+.study {
+	font-size: 1.2rem;
+}
+
+.abstract {
+	font-family: 'Roboto Condensed', sans-serif;
+	background: rgba(2, 18, 115, .05);
+	padding: 1rem;
+}
+
+.infobox {
+	border-style: solid;
+	border-color: black;
+	border-width: 0.1rem;
+	padding: 0.5rem;
+}
+
+.infobox p {
+	font-size: 0.9rem
+}
+
+
+/* Mobile styles */
 
 @media (max-width: 768px) {
 	.hideOnMobile {
