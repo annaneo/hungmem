@@ -31,7 +31,6 @@ a:hover {
 }
 
 
-
 p {
 	font-family: 'Roboto', sans-serif;
 }
@@ -90,6 +89,7 @@ footer, footer p {
 	}
 }
 
+
 @media (max-width: 991.98px) { /* Bootstrap 'lg' breakpoint */
 	.title-lg {
 		display: none;
@@ -128,6 +128,11 @@ footer, footer p {
 	padding: 10px;
 	border-left: 15px solid;
 	border-color: #f1f2f3;
+}
+
+.partner {
+	width: 15rem;
+	margin-bottom: 1rem;
 }
 
 /* Studies & Biographies */

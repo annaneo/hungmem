@@ -49,7 +49,7 @@ class __TwigTemplate_f2263877e4f5ed9f2b9829dd160647ed extends Template
                 <a href=\"https://www.igdj-hh.de/\" title=\"Website des Instituts für die Geschichte der deutschen Juden\">
                      <img class=\"brand-image\" src=\"";
         // line 7
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/igdj-logo.png"), "html", null, true);
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/logos/igdj-logo.png"), "html", null, true);
         yield "\" width=\"160\" height=\"90\" alt=\"Logo des Instituts für die Geschichte des deutschen Juden\">
                 </a>
                 <h1 class=\"brand-text\">Holocaust in Ungarn und Deportationen<br/> nach Norddeutschland 1944</h1>
@@ -152,7 +152,7 @@ class __TwigTemplate_f2263877e4f5ed9f2b9829dd160647ed extends Template
         <div class=\"container-fluid\">
             <span class=\"navbar-brand\">
                 <a href=\"https://www.igdj-hh.de/\" title=\"Website des Instituts für die Geschichte der deutschen Juden\">
-                     <img class=\"brand-image\" src=\"{{ asset('images/igdj-logo.png') }}\" width=\"160\" height=\"90\" alt=\"Logo des Instituts für die Geschichte des deutschen Juden\">
+                     <img class=\"brand-image\" src=\"{{ asset('images/logos/igdj-logo.png') }}\" width=\"160\" height=\"90\" alt=\"Logo des Instituts für die Geschichte des deutschen Juden\">
                 </a>
                 <h1 class=\"brand-text\">Holocaust in Ungarn und Deportationen<br/> nach Norddeutschland 1944</h1>
             </span>

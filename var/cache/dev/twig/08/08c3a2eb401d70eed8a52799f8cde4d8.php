@@ -120,33 +120,59 @@ class __TwigTemplate_1df0856fcf984f666fb35853e1a67e8e extends Template
             </div>
             <div class=\"col-md\">
                 <div class=\"container\">
-                    <div class=\"row\">
+                    <div class=\"row partner\">
+                        <a href=\"https://www.milev.hu\" tilte=\"Website des Museums\">
                         <img class=\"img-fluid\" src=\"";
-        // line 38
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/"), "html", null, true);
+        // line 39
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/logos/hjma-logo.png"), "html", null, true);
         yield "\"
                              alt=\"Logo des Hungarian Jewish Museum and Archive in Budapest\"/>
+                        </a>
                     </div>
-                    <div class=\"row\">
+                    <div class=\"row partner\">
+                        <a href=\"https://ispmn.gov.ro/\" tilte=\"Website des Instituts\">
                         <img class=\"img-fluid\" src=\"";
-        // line 42
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/"), "html", null, true);
+        // line 45
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/logos/ispmn.jpg"), "html", null, true);
         yield "\"
                              alt=\"Logo des Romanian Institute for Research on National Minorities\"/>
+                        </a>
                     </div>
-                    <div class=\"row\">
+                    <div class=\"row partner\">
+                        <a href=\"https://kehreg.com/\" tilte=\"Website der Gemeinde\">
                         <img class=\"img-fluid\" src=\"";
-        // line 46
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/"), "html", null, true);
+        // line 51
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/logos/komarno.jpg"), "html", null, true);
         yield "\"
                              alt=\"Logo der Jewish Community in Komárno\"/>
+                        </a>
                     </div>
-                    <div class=\"row\">
+                    <div class=\"row partner\">
+                        <a href=\"https://commission.europa.eu/index_de\" tilte=\"Website der Europäischen Kommission\">
                         <img class=\"img-fluid\" src=\"";
-        // line 50
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/"), "html", null, true);
+        // line 57
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/logos/European_Commission_logo.png"), "html", null, true);
         yield "\"
                              alt=\"Logo der EU Commission\"/>
+                        </a>
+                    </div>
+                    <div class=\"row partner\">
+                        <a href=\"https://www.kz-gedenkstaette-neuengamme.de/\" tilte=\"Website der Gedenkstätte\">
+                        <img class=\"img-fluid\" src=\"";
+        // line 63
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/logos/neuengamme.png"), "html", null, true);
+        yield "\"
+                             alt=\"Logo der Gedenkstätte KZ Neuengamme\"/>
+                        </a>
+                    </div>
+                    <div class=\"row partner\">
+                        <a href=\"https://bergen-belsen.stiftung-ng.de/de/\" tilte=\"Website der Gedenkstätte\">
+                        <img class=\"img-fluid\" src=\"";
+        // line 69
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/logos/bergen-belsen.png"), "html", null, true);
+        yield "\"
+                             alt=\"Logo der Gedenkstätte KZ Bergen Belsen\"/>
+                        </a>
                     </div>
                 </div>
 
@@ -185,7 +211,7 @@ class __TwigTemplate_1df0856fcf984f666fb35853e1a67e8e extends Template
      */
     public function getDebugInfo()
     {
-        return array (  147 => 50,  140 => 46,  133 => 42,  126 => 38,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
+        return array (  172 => 69,  163 => 63,  154 => 57,  145 => 51,  136 => 45,  127 => 39,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -226,21 +252,41 @@ class __TwigTemplate_1df0856fcf984f666fb35853e1a67e8e extends Template
             </div>
             <div class=\"col-md\">
                 <div class=\"container\">
-                    <div class=\"row\">
-                        <img class=\"img-fluid\" src=\"{{ asset('images/') }}\"
+                    <div class=\"row partner\">
+                        <a href=\"https://www.milev.hu\" tilte=\"Website des Museums\">
+                        <img class=\"img-fluid\" src=\"{{ asset('images/logos/hjma-logo.png') }}\"
                              alt=\"Logo des Hungarian Jewish Museum and Archive in Budapest\"/>
+                        </a>
                     </div>
-                    <div class=\"row\">
-                        <img class=\"img-fluid\" src=\"{{ asset('images/') }}\"
+                    <div class=\"row partner\">
+                        <a href=\"https://ispmn.gov.ro/\" tilte=\"Website des Instituts\">
+                        <img class=\"img-fluid\" src=\"{{ asset('images/logos/ispmn.jpg') }}\"
                              alt=\"Logo des Romanian Institute for Research on National Minorities\"/>
+                        </a>
                     </div>
-                    <div class=\"row\">
-                        <img class=\"img-fluid\" src=\"{{ asset('images/') }}\"
+                    <div class=\"row partner\">
+                        <a href=\"https://kehreg.com/\" tilte=\"Website der Gemeinde\">
+                        <img class=\"img-fluid\" src=\"{{ asset('images/logos/komarno.jpg') }}\"
                              alt=\"Logo der Jewish Community in Komárno\"/>
+                        </a>
                     </div>
-                    <div class=\"row\">
-                        <img class=\"img-fluid\" src=\"{{ asset('images/') }}\"
+                    <div class=\"row partner\">
+                        <a href=\"https://commission.europa.eu/index_de\" tilte=\"Website der Europäischen Kommission\">
+                        <img class=\"img-fluid\" src=\"{{ asset('images/logos/European_Commission_logo.png') }}\"
                              alt=\"Logo der EU Commission\"/>
+                        </a>
+                    </div>
+                    <div class=\"row partner\">
+                        <a href=\"https://www.kz-gedenkstaette-neuengamme.de/\" tilte=\"Website der Gedenkstätte\">
+                        <img class=\"img-fluid\" src=\"{{ asset('images/logos/neuengamme.png') }}\"
+                             alt=\"Logo der Gedenkstätte KZ Neuengamme\"/>
+                        </a>
+                    </div>
+                    <div class=\"row partner\">
+                        <a href=\"https://bergen-belsen.stiftung-ng.de/de/\" tilte=\"Website der Gedenkstätte\">
+                        <img class=\"img-fluid\" src=\"{{ asset('images/logos/bergen-belsen.png') }}\"
+                             alt=\"Logo der Gedenkstätte KZ Bergen Belsen\"/>
+                        </a>
                     </div>
                 </div>
 
