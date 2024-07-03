@@ -115,11 +115,9 @@ class __TwigTemplate_4bf3c07e898c90defc8949409c392250 extends Template
                             </a>
                         </h2>
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua
-                        </p>
-                        <p>
+                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua...
                             <a class=\"more\" href=\"";
-        // line 26
+        // line 24
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographytemplate");
         yield "\" title=\"Weiterlesen\">[mehr]</a>
                         </p>
@@ -129,11 +127,11 @@ class __TwigTemplate_4bf3c07e898c90defc8949409c392250 extends Template
             <div class=\"col\">
                 <div class=\"biographies\">
                     <a href=\"";
-        // line 33
+        // line 31
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographytemplate");
         yield "\" title=\"Biografie lesen\">
                         <img class=\"img-fluid\" src=\"";
-        // line 34
+        // line 32
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder-person_698x440.png"), "html", null, true);
         yield "\"
                              alt=\"Foto\">
@@ -141,7 +139,7 @@ class __TwigTemplate_4bf3c07e898c90defc8949409c392250 extends Template
                     <div class=\"studiesoverview\">
                         <h2>
                             <a href=\"";
-        // line 39
+        // line 37
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographytemplate");
         yield "\" title=\"Biographie lesen\">
                                 Biografie
@@ -150,10 +148,8 @@ class __TwigTemplate_4bf3c07e898c90defc8949409c392250 extends Template
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
                             invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua
                             ...
-                        </p>
-                        <p>
                             <a class=\"more\" href=\"";
-        // line 48
+        // line 44
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographytemplate");
         yield "\" title=\"Weiterlesen\">[mehr]</a>
                         </p>
@@ -163,11 +159,11 @@ class __TwigTemplate_4bf3c07e898c90defc8949409c392250 extends Template
             <div class=\"col\">
                 <div class=\"biographies\">
                     <a href=\"";
-        // line 55
+        // line 51
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographytemplate");
         yield "\" title=\"Biografie lesen\">
                         <img class=\"img-fluid\" src=\"";
-        // line 56
+        // line 52
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder-person_698x440.png"), "html", null, true);
         yield "\"
                              alt=\"Foto\">
@@ -175,7 +171,7 @@ class __TwigTemplate_4bf3c07e898c90defc8949409c392250 extends Template
                     <div class=\"studiesoverview\">
                         <h2>
                             <a href=\"";
-        // line 61
+        // line 57
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographytemplate");
         yield "\" title=\"Biografie lesen\">
                                 Biografie
@@ -183,10 +179,8 @@ class __TwigTemplate_4bf3c07e898c90defc8949409c392250 extends Template
                         </h2>
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
                             invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua ...
-                        </p>
-                        <p>
                             <a class=\"more\" href=\"";
-        // line 69
+        // line 63
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographytemplate");
         yield "\" title=\"Weiterlesen\">[mehr]</a>
                         </p>
@@ -199,11 +193,11 @@ class __TwigTemplate_4bf3c07e898c90defc8949409c392250 extends Template
             <div class=\"col\">
                 <div class=\"biographies\">
                     <a href=\"";
-        // line 79
+        // line 73
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographytemplate");
         yield "\" title=\"Biografie lesen\">
                         <img class=\"img-fluid\" src=\"";
-        // line 80
+        // line 74
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder-person_698x440.png"), "html", null, true);
         yield "\"
                              alt=\"Foto\">
@@ -211,7 +205,7 @@ class __TwigTemplate_4bf3c07e898c90defc8949409c392250 extends Template
                     <div class=\"studiesoverview\">
                         <h2>
                             <a href=\"";
-        // line 85
+        // line 79
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographytemplate");
         yield "\"
                                title=\"Interview mit Barbara Guggenheim ansehen\">
@@ -220,10 +214,8 @@ class __TwigTemplate_4bf3c07e898c90defc8949409c392250 extends Template
                         </h2>
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
                             invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua ...
-                        </p>
-                        <p>
                             <a class=\"more\" href=\"";
-        // line 94
+        // line 86
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographytemplate");
         yield "\" title=\"Weiterlesen\">[mehr]</a>
                         </p>
@@ -233,11 +225,11 @@ class __TwigTemplate_4bf3c07e898c90defc8949409c392250 extends Template
             <div class=\"col\">
                 <div class=\"biographies\">
                     <a href=\"";
-        // line 101
+        // line 93
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographytemplate");
         yield "\" title=\"Biografie lesen\">
                         <img class=\"img-fluid\" src=\"";
-        // line 102
+        // line 94
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder-person_698x440.png"), "html", null, true);
         yield "\"
                              alt=\"Foto\">
@@ -245,17 +237,15 @@ class __TwigTemplate_4bf3c07e898c90defc8949409c392250 extends Template
                     <div class=\"studiesoverview\">
                         <h2>
                             <a href=\"";
-        // line 107
+        // line 99
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographytemplate");
         yield "\" title=\"Biografie lesen\">
                                 Biografie</a>
                         </h2>
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
                             invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua ...
-                        </p>
-                        <p>
                             <a class=\"more\" href=\"";
-        // line 114
+        // line 104
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographytemplate");
         yield "\" title=\"Weiterlesen\">[mehr]</a>
                         </p>
@@ -265,11 +255,11 @@ class __TwigTemplate_4bf3c07e898c90defc8949409c392250 extends Template
             <div class=\"col\">
                 <div class=\"biographies\">
                     <a href=\"";
-        // line 121
+        // line 111
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographytemplate");
         yield "\" title=\"Biografie lesen\">
                         <img class=\"img-fluid\" src=\"";
-        // line 122
+        // line 112
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder-person_698x440.png"), "html", null, true);
         yield "\"
                              alt=\"Foto\">
@@ -277,17 +267,15 @@ class __TwigTemplate_4bf3c07e898c90defc8949409c392250 extends Template
                     <div class=\"studiesoverview\">
                         <h2>
                             <a href=\"";
-        // line 127
+        // line 117
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographytemplate");
         yield "\" title=\"Biografie lesen\"\">
                                 Biografie</a>
                         </h2>
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
                             invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua ...
-                        </p>
-                        <p>
                             <a class=\"more\" href=\"";
-        // line 134
+        // line 122
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographytemplate");
         yield "\" title=\"Weiterlesen\">[mehr]</a>
                         </p>
@@ -330,7 +318,7 @@ class __TwigTemplate_4bf3c07e898c90defc8949409c392250 extends Template
      */
     public function getDebugInfo()
     {
-        return array (  291 => 134,  281 => 127,  273 => 122,  269 => 121,  259 => 114,  249 => 107,  241 => 102,  237 => 101,  227 => 94,  215 => 85,  207 => 80,  203 => 79,  190 => 69,  179 => 61,  171 => 56,  167 => 55,  157 => 48,  145 => 39,  137 => 34,  133 => 33,  123 => 26,  112 => 18,  104 => 13,  100 => 12,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
+        return array (  279 => 122,  271 => 117,  263 => 112,  259 => 111,  249 => 104,  241 => 99,  233 => 94,  229 => 93,  219 => 86,  209 => 79,  201 => 74,  197 => 73,  184 => 63,  175 => 57,  167 => 52,  163 => 51,  153 => 44,  143 => 37,  135 => 32,  131 => 31,  121 => 24,  112 => 18,  104 => 13,  100 => 12,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -357,9 +345,7 @@ class __TwigTemplate_4bf3c07e898c90defc8949409c392250 extends Template
                             </a>
                         </h2>
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua
-                        </p>
-                        <p>
+                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua...
                             <a class=\"more\" href=\"{{ path('app_biographytemplate') }}\" title=\"Weiterlesen\">[mehr]</a>
                         </p>
                     </div>
@@ -380,8 +366,6 @@ class __TwigTemplate_4bf3c07e898c90defc8949409c392250 extends Template
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
                             invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua
                             ...
-                        </p>
-                        <p>
                             <a class=\"more\" href=\"{{ path('app_biographytemplate') }}\" title=\"Weiterlesen\">[mehr]</a>
                         </p>
                     </div>
@@ -401,8 +385,6 @@ class __TwigTemplate_4bf3c07e898c90defc8949409c392250 extends Template
                         </h2>
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
                             invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua ...
-                        </p>
-                        <p>
                             <a class=\"more\" href=\"{{ path('app_biographytemplate') }}\" title=\"Weiterlesen\">[mehr]</a>
                         </p>
                     </div>
@@ -426,8 +408,6 @@ class __TwigTemplate_4bf3c07e898c90defc8949409c392250 extends Template
                         </h2>
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
                             invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua ...
-                        </p>
-                        <p>
                             <a class=\"more\" href=\"{{ path('app_biographytemplate') }}\" title=\"Weiterlesen\">[mehr]</a>
                         </p>
                     </div>
@@ -446,8 +426,6 @@ class __TwigTemplate_4bf3c07e898c90defc8949409c392250 extends Template
                         </h2>
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
                             invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua ...
-                        </p>
-                        <p>
                             <a class=\"more\" href=\"{{ path('app_biographytemplate') }}\" title=\"Weiterlesen\">[mehr]</a>
                         </p>
                     </div>
@@ -466,8 +444,6 @@ class __TwigTemplate_4bf3c07e898c90defc8949409c392250 extends Template
                         </h2>
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
                             invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua ...
-                        </p>
-                        <p>
                             <a class=\"more\" href=\"{{ path('app_biographytemplate') }}\" title=\"Weiterlesen\">[mehr]</a>
                         </p>
                     </div>

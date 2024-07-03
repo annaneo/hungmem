@@ -113,10 +113,8 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
                         </h2>
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing
                             elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum ...
-                        </p>
-                        <p>
                             <a class=\"more\" href=\"";
-        // line 26
+        // line 24
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_map");
         yield "\" title=\"Weiterlesen\">[mehr]</a>
                         </p>
@@ -126,11 +124,11 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
             <div class=\"col-sm offset-lg-1\">
                 <div>
                     <a href=\"";
-        // line 33
+        // line 31
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_sources");
         yield "\" title=\"\">
                         <img class=\"img-fluid\" src=\"";
-        // line 34
+        // line 32
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder_840x560.jpg"), "html", null, true);
         yield "\"
                              alt=\"\">
@@ -138,7 +136,7 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
                     <div class=\"studiesoverview\">
                         <h2>
                             <a href=\"";
-        // line 39
+        // line 37
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_context");
         yield "\" title=\"\">
                             (Un)bekannte Daten und Quellen
@@ -146,10 +144,8 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
                         </h2>
                         <p>Dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
                             ...
-                        </p>
-                        <p>
                             <a class=\"more\" href=\"";
-        // line 47
+        // line 43
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_context");
         yield "\" title=\"Weiterlesen\">[mehr]</a>
                         </p>
@@ -162,11 +158,11 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
             <div class=\"col-sm\">
                 <div>
                     <a href=\"";
-        // line 57
+        // line 53
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation");
         yield "\" title=\"\">
                         <img class=\"img-fluid\" src=\"";
-        // line 58
+        // line 54
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder_840x560.jpg"), "html", null, true);
         yield "\"
                              alt=\"\">
@@ -174,7 +170,7 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
                     <div class=\"studiesoverview\">
                         <h2>
                             <a href=\"";
-        // line 63
+        // line 59
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation");
         yield "\" title=\"\">
                                 Fallstudien zu Deportationsrouten
@@ -182,10 +178,8 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
                         </h2>
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing
                             elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum ...
-                        </p>
-                        <p>
                             <a class=\"more\" href=\"";
-        // line 71
+        // line 65
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation");
         yield "\" title=\"Weiterlesen\">[mehr]</a>
 
@@ -196,11 +190,11 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
             <div class=\"col-sm offset-lg-1\">
                 <div>
                     <a href=\"";
-        // line 79
+        // line 73
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographies");
         yield "\" title=\"\">
                         <img class=\"img-fluid\" src=\"";
-        // line 80
+        // line 74
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder_840x560.jpg"), "html", null, true);
         yield "\"
                              alt=\"\">
@@ -208,7 +202,7 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
                     <div class=\"studiesoverview\">
                         <h2>
                             <a href=\"";
-        // line 85
+        // line 79
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographies");
         yield "\" title=\"\">
                                 Biografische Einzelfallstudien
@@ -216,10 +210,8 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
                         </h2>
                         <p>Dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
                             ...
-                        </p>
-                        <p>
                             <a class=\"more\" href=\"";
-        // line 93
+        // line 85
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographies");
         yield "\" title=\"Weiterlesen\">[mehr]</a>
                         </p>
@@ -262,7 +254,7 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
      */
     public function getDebugInfo()
     {
-        return array (  223 => 93,  212 => 85,  204 => 80,  200 => 79,  189 => 71,  178 => 63,  170 => 58,  166 => 57,  153 => 47,  142 => 39,  134 => 34,  130 => 33,  120 => 26,  109 => 18,  101 => 13,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
+        return array (  215 => 85,  206 => 79,  198 => 74,  194 => 73,  183 => 65,  174 => 59,  166 => 54,  162 => 53,  149 => 43,  140 => 37,  132 => 32,  128 => 31,  118 => 24,  109 => 18,  101 => 13,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -290,8 +282,6 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
                         </h2>
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing
                             elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum ...
-                        </p>
-                        <p>
                             <a class=\"more\" href=\"{{ path('app_map') }}\" title=\"Weiterlesen\">[mehr]</a>
                         </p>
                     </div>
@@ -311,8 +301,6 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
                         </h2>
                         <p>Dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
                             ...
-                        </p>
-                        <p>
                             <a class=\"more\" href=\"{{ path('app_context') }}\" title=\"Weiterlesen\">[mehr]</a>
                         </p>
                     </div>
@@ -335,8 +323,6 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
                         </h2>
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing
                             elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum ...
-                        </p>
-                        <p>
                             <a class=\"more\" href=\"{{ path('app_deportation') }}\" title=\"Weiterlesen\">[mehr]</a>
 
                         </p>
@@ -357,8 +343,6 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
                         </h2>
                         <p>Dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
                             ...
-                        </p>
-                        <p>
                             <a class=\"more\" href=\"{{ path('app_biographies') }}\" title=\"Weiterlesen\">[mehr]</a>
                         </p>
                     </div>
