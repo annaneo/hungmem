@@ -43,7 +43,7 @@ class __TwigTemplate_f2263877e4f5ed9f2b9829dd160647ed extends Template
         // line 1
         yield "<div class=\"container\">
 
-    <nav class=\"navbar navbar-expand-lg navbar-light\">
+    <nav class=\"navbar navbar-expand-lg navbar-light\" >
         <div class=\"container-fluid\">
             <span class=\"navbar-brand\">
                 <a href=\"https://www.igdj-hh.de/\" title=\"Website des Instituts für die Geschichte der deutschen Juden\">
@@ -148,7 +148,7 @@ class __TwigTemplate_f2263877e4f5ed9f2b9829dd160647ed extends Template
     {
         return new Source("<div class=\"container\">
 
-    <nav class=\"navbar navbar-expand-lg navbar-light\">
+    <nav class=\"navbar navbar-expand-lg navbar-light\" >
         <div class=\"container-fluid\">
             <span class=\"navbar-brand\">
                 <a href=\"https://www.igdj-hh.de/\" title=\"Website des Instituts für die Geschichte der deutschen Juden\">

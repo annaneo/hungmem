@@ -124,37 +124,18 @@ class __TwigTemplate_8c385939753e07d05b6e9c10a975c74f extends Template
         ";
         // line 40
         yield "
-        const nuernberg = L.marker([49.455556, 11.078611]).bindPopup('<strong>Nürnberg</strong><br/>');
-        const hamburg = L.marker([53.550556, 9.993333]).bindPopup('Das Frauenaußenlager Porta-Westfalica-Hausberge war erst im Februar 1945 eingerichtet worden. In Porta-Westfalica befanden sich zu diesem Zeitpunkt bereits zwei Männeraußenlager des KZ-Neuengamme, die alte Bergmannsstollen zur unterirdischen Produktionsstätten umbauen sollten. In einem dieser Stollen sollten die etwa 1.000 Frauen des neuen Frauenaußenlagers Radioröhren für dieFirma Philipps und ihre Tochterfirmen herstellen. Die Häftlinge waren vor allen als Jüdinnen verfolgteFrauen die aus den Niederlande und Ungarn nach Auschwitz deportiert worden waren. Ein Teil von ihnen hatte bereits in einem Außenlager des KZ Groß Rosen im heutigen Polen Radioröhren produzieren müssen, bis diese Produktionsstätte im Januar 1945 angesichts der sich nähernden sowjetischen Armee geräumt wurde.<br/> <a href=\"";
-        // line 42
+        const bergenbelsen = L.marker([52.757778, 9.907778]).bindPopup('<strong>KZ Bergen Belsen</strong><br/>');
+        const budapest = L.marker([47.5, 19.05]).bindPopup('<strong>Budapest</strong><br/>');
+        const neuengamme = L.marker([53.430556, 10.233611]).bindPopup('<strong>Neuengamme</strong><br/>');
+        const portawestfalica = L.marker([52.246275, 8.912079]).bindPopup('<strong>KZ-Außenlager Porta Westfalica</strong><br/>Das Frauenaußenlager Porta-Westfalica-Hausberge war erst im Februar 1945 eingerichtet worden. In Porta-Westfalica befanden sich zu diesem Zeitpunkt bereits zwei Männeraußenlager des KZ-Neuengamme, die alte Bergmannsstollen zur unterirdischen Produktionsstätten umbauen sollten. In einem dieser Stollen sollten die etwa 1.000 Frauen des neuen Frauenaußenlagers Radioröhren für dieFirma Philipps und ihre Tochterfirmen herstellen. Die Häftlinge waren vor allen als Jüdinnen verfolgteFrauen die aus den Niederlande und Ungarn nach Auschwitz deportiert worden waren. Ein Teil von ihnen hatte bereits in einem Außenlager des KZ Groß Rosen im heutigen Polen Radioröhren produzieren müssen, bis diese Produktionsstätte im Januar 1945 angesichts der sich nähernden sowjetischen Armee geräumt wurde.<br/> <a href=\"";
+        // line 44
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_imprint");
         yield "#usage\">Weiterlesen</a>');
-        const usbekistan = L.marker([41.666667, 64.066667]).bindPopup('<strong>Usbekistan</strong><br/>genannt im Gespräch mit<br/><a href=\"";
-        // line 43
-        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_map");
-        yield "\">Julia Camargo</a>');
-        const ukraine = L.marker([49.8, 30.833333]).bindPopup('<strong>Ukraine</strong><br/>genannt in den Gesprächen mit<br/> <a href=\"";
-        // line 44
-        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_map");
-        yield "\">Julia Camargo</a><br/> <a href=\"";
-        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_map");
-        yield "\">Igor Zunik</a>');
-        const gailingen = L.marker([47.696944, 8.755]).bindPopup('<strong>Gailingen</strong><br/>genannt im Gespräch mit<br/><a href=\"";
-        // line 45
-        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_map");
-        yield "\">Barbara Guggenheim</a>');
-        const stuttgart = L.marker([48.775556, 9.182778]).bindPopup('<strong>Stuttgart</strong><br/>genannt im Gespräch mit<br/><a href=\"";
-        // line 46
-        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_map");
-        yield "\">Barbara Guggenheim</a>');
-        const schweiz = L.marker([46.8, 8.233333]).bindPopup('<strong>Schweiz</strong><br/>genannt im Gespräch mit<br/><a href=\"";
-        // line 47
-        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_map");
-        yield "\">Barbara Guggenheim</a>');
 
 
-        const camargo = L.layerGroup([nuernberg, hamburg, usbekistan, ukraine]);
-        const guggenheim = L.layerGroup([gailingen, stuttgart, schweiz]);
+
+        const biografie1 = L.layerGroup([bergenbelsen, portawestfalica]);
+        const studie1 = L.layerGroup([portawestfalica]);
 
 
         const mbAttr = 'Map data &copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors, Imagery © <a href=\"https://www.mapbox.com/\">Mapbox</a>';
@@ -173,11 +154,13 @@ class __TwigTemplate_8c385939753e07d05b6e9c10a975c74f extends Template
         });
 
         const map = L.map('map', {
-            center: [53.550556, 9.993333],
-            zoom: 5,
+            center: [50.832222, 12.924167],
+            zoom: 6,
             layers: [osm,
-                camargo,
-                guggenheim,
+                bergenbelsen,
+                budapest,
+                neuengamme,
+                portawestfalica,
             ]
         });
 
@@ -186,8 +169,8 @@ class __TwigTemplate_8c385939753e07d05b6e9c10a975c74f extends Template
         };
 
         const overlays = {
-            'Julia Camargo': camargo,
-            'Barbara Guggenheim': guggenheim,
+            'Biografie 1': bergenbelsen,
+            'Studie 1': portawestfalica, neuengamme
         };
 
         const layerControl = L.control.layers(baseLayers, overlays).addTo(map);
@@ -225,7 +208,7 @@ class __TwigTemplate_8c385939753e07d05b6e9c10a975c74f extends Template
      */
     public function getDebugInfo()
     {
-        return array (  152 => 47,  148 => 46,  144 => 45,  138 => 44,  134 => 43,  130 => 42,  126 => 40,  123 => 36,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
+        return array (  132 => 44,  126 => 40,  123 => 36,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -264,23 +247,21 @@ class __TwigTemplate_8c385939753e07d05b6e9c10a975c74f extends Template
         </div>
     </div>
 
-    {# Coordinates set to Hamburg 53.550556, 9.993333], 5 #}
+    {# Coordinates set to Chemnitz [50.832222, 12.924167] as that allows to see Hamburg as well as Hungary #}
     <script>
         {# Leaflet does not allow to add one const to more than one layerGroup
         (see more here: https://stackoverflow.com/questions/66391786/add-marker-to-multiple-layer-groups.
         As workaround, more than one instance of a city is created when necessary #}
 
-        const nuernberg = L.marker([49.455556, 11.078611]).bindPopup('<strong>Nürnberg</strong><br/>');
-        const hamburg = L.marker([53.550556, 9.993333]).bindPopup('Das Frauenaußenlager Porta-Westfalica-Hausberge war erst im Februar 1945 eingerichtet worden. In Porta-Westfalica befanden sich zu diesem Zeitpunkt bereits zwei Männeraußenlager des KZ-Neuengamme, die alte Bergmannsstollen zur unterirdischen Produktionsstätten umbauen sollten. In einem dieser Stollen sollten die etwa 1.000 Frauen des neuen Frauenaußenlagers Radioröhren für dieFirma Philipps und ihre Tochterfirmen herstellen. Die Häftlinge waren vor allen als Jüdinnen verfolgteFrauen die aus den Niederlande und Ungarn nach Auschwitz deportiert worden waren. Ein Teil von ihnen hatte bereits in einem Außenlager des KZ Groß Rosen im heutigen Polen Radioröhren produzieren müssen, bis diese Produktionsstätte im Januar 1945 angesichts der sich nähernden sowjetischen Armee geräumt wurde.<br/> <a href=\"{{ path('app_imprint') }}#usage\">Weiterlesen</a>');
-        const usbekistan = L.marker([41.666667, 64.066667]).bindPopup('<strong>Usbekistan</strong><br/>genannt im Gespräch mit<br/><a href=\"{{ path('app_map') }}\">Julia Camargo</a>');
-        const ukraine = L.marker([49.8, 30.833333]).bindPopup('<strong>Ukraine</strong><br/>genannt in den Gesprächen mit<br/> <a href=\"{{ path('app_map') }}\">Julia Camargo</a><br/> <a href=\"{{ path('app_map') }}\">Igor Zunik</a>');
-        const gailingen = L.marker([47.696944, 8.755]).bindPopup('<strong>Gailingen</strong><br/>genannt im Gespräch mit<br/><a href=\"{{ path('app_map') }}\">Barbara Guggenheim</a>');
-        const stuttgart = L.marker([48.775556, 9.182778]).bindPopup('<strong>Stuttgart</strong><br/>genannt im Gespräch mit<br/><a href=\"{{ path('app_map') }}\">Barbara Guggenheim</a>');
-        const schweiz = L.marker([46.8, 8.233333]).bindPopup('<strong>Schweiz</strong><br/>genannt im Gespräch mit<br/><a href=\"{{ path('app_map') }}\">Barbara Guggenheim</a>');
+        const bergenbelsen = L.marker([52.757778, 9.907778]).bindPopup('<strong>KZ Bergen Belsen</strong><br/>');
+        const budapest = L.marker([47.5, 19.05]).bindPopup('<strong>Budapest</strong><br/>');
+        const neuengamme = L.marker([53.430556, 10.233611]).bindPopup('<strong>Neuengamme</strong><br/>');
+        const portawestfalica = L.marker([52.246275, 8.912079]).bindPopup('<strong>KZ-Außenlager Porta Westfalica</strong><br/>Das Frauenaußenlager Porta-Westfalica-Hausberge war erst im Februar 1945 eingerichtet worden. In Porta-Westfalica befanden sich zu diesem Zeitpunkt bereits zwei Männeraußenlager des KZ-Neuengamme, die alte Bergmannsstollen zur unterirdischen Produktionsstätten umbauen sollten. In einem dieser Stollen sollten die etwa 1.000 Frauen des neuen Frauenaußenlagers Radioröhren für dieFirma Philipps und ihre Tochterfirmen herstellen. Die Häftlinge waren vor allen als Jüdinnen verfolgteFrauen die aus den Niederlande und Ungarn nach Auschwitz deportiert worden waren. Ein Teil von ihnen hatte bereits in einem Außenlager des KZ Groß Rosen im heutigen Polen Radioröhren produzieren müssen, bis diese Produktionsstätte im Januar 1945 angesichts der sich nähernden sowjetischen Armee geräumt wurde.<br/> <a href=\"{{ path('app_imprint') }}#usage\">Weiterlesen</a>');
 
 
-        const camargo = L.layerGroup([nuernberg, hamburg, usbekistan, ukraine]);
-        const guggenheim = L.layerGroup([gailingen, stuttgart, schweiz]);
+
+        const biografie1 = L.layerGroup([bergenbelsen, portawestfalica]);
+        const studie1 = L.layerGroup([portawestfalica]);
 
 
         const mbAttr = 'Map data &copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors, Imagery © <a href=\"https://www.mapbox.com/\">Mapbox</a>';
@@ -299,11 +280,13 @@ class __TwigTemplate_8c385939753e07d05b6e9c10a975c74f extends Template
         });
 
         const map = L.map('map', {
-            center: [53.550556, 9.993333],
-            zoom: 5,
+            center: [50.832222, 12.924167],
+            zoom: 6,
             layers: [osm,
-                camargo,
-                guggenheim,
+                bergenbelsen,
+                budapest,
+                neuengamme,
+                portawestfalica,
             ]
         });
 
@@ -312,8 +295,8 @@ class __TwigTemplate_8c385939753e07d05b6e9c10a975c74f extends Template
         };
 
         const overlays = {
-            'Julia Camargo': camargo,
-            'Barbara Guggenheim': guggenheim,
+            'Biografie 1': bergenbelsen,
+            'Studie 1': portawestfalica, neuengamme
         };
 
         const layerControl = L.control.layers(baseLayers, overlays).addTo(map);
