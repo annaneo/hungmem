@@ -83,7 +83,7 @@ class __TwigTemplate_d6fd14a705faa8121d6bcd8b2ebbdf8a extends Template
 ";
         // line 50
         yield from $this->unwrap()->yieldBlock('javascripts', $context, $blocks);
-        // line 59
+        // line 53
         yield "
 
 
@@ -204,16 +204,9 @@ class __TwigTemplate_d6fd14a705faa8121d6bcd8b2ebbdf8a extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "javascripts"));
 
         // line 51
-        yield "    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src=\"https://code.jquery.com/jquery-3.2.1.slim.min.js\" integrity=\"sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN\" crossorigin=\"anonymous\"></script>
-    <script src=\"https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js\" integrity=\"sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q\" crossorigin=\"anonymous\"></script>
-    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js\" integrity=\"sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl\" crossorigin=\"anonymous\"></script>
-
-    <script src=\"";
-        // line 56
+        yield "    <script src=\"";
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("js/lightbox-plus-jquery.min.js"), "html", null, true);
         yield "\"></script>
-
 ";
         
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->leave($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof);
@@ -245,7 +238,7 @@ class __TwigTemplate_d6fd14a705faa8121d6bcd8b2ebbdf8a extends Template
      */
     public function getDebugInfo()
     {
-        return array (  214 => 56,  207 => 51,  197 => 50,  178 => 45,  145 => 16,  141 => 15,  133 => 9,  123 => 8,  103 => 7,  87 => 59,  85 => 50,  82 => 49,  80 => 48,  77 => 47,  75 => 45,  71 => 43,  69 => 42,  67 => 41,  62 => 38,  60 => 8,  56 => 7,  48 => 1,);
+        return array (  207 => 51,  197 => 50,  178 => 45,  145 => 16,  141 => 15,  133 => 9,  123 => 8,  103 => 7,  87 => 53,  85 => 50,  82 => 49,  80 => 48,  77 => 47,  75 => 45,  71 => 43,  69 => 42,  67 => 41,  62 => 38,  60 => 8,  56 => 7,  48 => 1,);
     }
 
     public function getSourceContext()
@@ -300,13 +293,7 @@ class __TwigTemplate_d6fd14a705faa8121d6bcd8b2ebbdf8a extends Template
 {% include 'elements/footer.html.twig' %}
 
 {% block javascripts %}
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src=\"https://code.jquery.com/jquery-3.2.1.slim.min.js\" integrity=\"sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN\" crossorigin=\"anonymous\"></script>
-    <script src=\"https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js\" integrity=\"sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q\" crossorigin=\"anonymous\"></script>
-    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js\" integrity=\"sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl\" crossorigin=\"anonymous\"></script>
-
     <script src=\"{{ asset('js/lightbox-plus-jquery.min.js') }}\"></script>
-
 {% endblock %}
 
 
