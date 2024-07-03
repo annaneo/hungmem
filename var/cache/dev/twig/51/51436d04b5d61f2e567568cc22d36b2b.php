@@ -102,7 +102,7 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
         yield "\"
                              alt=\"\">
                     </a>
-                    <div class=\"studiesoveriew\">
+                    <div class=\"studiesoverview\">
                         <h2>
                             <a href=\"";
         // line 18
@@ -135,7 +135,7 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
         yield "\"
                              alt=\"\">
                     </a>
-                    <div class=\"studiesoveriew\">
+                    <div class=\"studiesoverview\">
                         <h2>
                             <a href=\"";
         // line 39
@@ -171,7 +171,7 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
         yield "\"
                              alt=\"\">
                     </a>
-                    <div class=\"studiesoveriew\">
+                    <div class=\"studiesoverview\">
                         <h2>
                             <a href=\"";
         // line 63
@@ -205,7 +205,7 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
         yield "\"
                              alt=\"\">
                     </a>
-                    <div class=\"studiesoveriew\">
+                    <div class=\"studiesoverview\">
                         <h2>
                             <a href=\"";
         // line 85
@@ -282,7 +282,7 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
                         <img class=\"img-fluid\" src=\"{{ asset('images/placeholder_840x560.jpg') }}\"
                              alt=\"\">
                     </a>
-                    <div class=\"studiesoveriew\">
+                    <div class=\"studiesoverview\">
                         <h2>
                             <a href=\"{{ path('app_map') }}\" title=\"\">
                             Orte und Geografische Einordnung
@@ -303,7 +303,7 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
                         <img class=\"img-fluid\" src=\"{{ asset('images/placeholder_840x560.jpg') }}\"
                              alt=\"\">
                     </a>
-                    <div class=\"studiesoveriew\">
+                    <div class=\"studiesoverview\">
                         <h2>
                             <a href=\"{{ path('app_context') }}\" title=\"\">
                             (Un)bekannte Daten und Quellen
@@ -327,7 +327,7 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
                         <img class=\"img-fluid\" src=\"{{ asset('images/placeholder_840x560.jpg') }}\"
                              alt=\"\">
                     </a>
-                    <div class=\"studiesoveriew\">
+                    <div class=\"studiesoverview\">
                         <h2>
                             <a href=\"{{ path('app_deportation') }}\" title=\"\">
                                 Fallstudien zu Deportationsrouten
@@ -349,7 +349,7 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
                         <img class=\"img-fluid\" src=\"{{ asset('images/placeholder_840x560.jpg') }}\"
                              alt=\"\">
                     </a>
-                    <div class=\"studiesoveriew\">
+                    <div class=\"studiesoverview\">
                         <h2>
                             <a href=\"{{ path('app_biographies') }}\" title=\"\">
                                 Biografische Einzelfallstudien

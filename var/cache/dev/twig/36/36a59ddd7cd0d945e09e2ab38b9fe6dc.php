@@ -58,32 +58,32 @@ class __TwigTemplate_d6fd14a705faa8121d6bcd8b2ebbdf8a extends Template
     ";
         // line 8
         yield from $this->unwrap()->yieldBlock('stylesheets', $context, $blocks);
-        // line 40
+        // line 38
         yield "</head>
 <body>
 
 ";
+        // line 41
+        yield from         $this->loadTemplate("elements/navigation.html.twig", "base.html.twig", 41)->unwrap()->yield($context);
+        // line 42
+        yield from         $this->loadTemplate("elements/hero.html.twig", "base.html.twig", 42)->unwrap()->yield($context);
         // line 43
-        yield from         $this->loadTemplate("elements/navigation.html.twig", "base.html.twig", 43)->unwrap()->yield($context);
-        // line 44
-        yield from         $this->loadTemplate("elements/hero.html.twig", "base.html.twig", 44)->unwrap()->yield($context);
-        // line 45
         yield "
 
 ";
-        // line 47
+        // line 45
         yield from $this->unwrap()->yieldBlock('body', $context, $blocks);
+        // line 47
+        yield "
+";
+        // line 48
+        yield from         $this->loadTemplate("elements/footer.html.twig", "base.html.twig", 48)->unwrap()->yield($context);
         // line 49
         yield "
 ";
         // line 50
-        yield from         $this->loadTemplate("elements/footer.html.twig", "base.html.twig", 50)->unwrap()->yield($context);
-        // line 51
-        yield "
-";
-        // line 52
         yield from $this->unwrap()->yieldBlock('javascripts', $context, $blocks);
-        // line 58
+        // line 56
         yield "
 
 
@@ -131,20 +131,17 @@ class __TwigTemplate_d6fd14a705faa8121d6bcd8b2ebbdf8a extends Template
 
         // line 9
         yield "
-        <script src=\"https://code.jquery.com/jquery-3.2.1.slim.min.js\" integrity=\"sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN\" crossorigin=\"anonymous\"></script>
-        <script src=\"https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js\" integrity=\"sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q\" crossorigin=\"anonymous\"></script>
-
-        <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css\" integrity=\"sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N\" crossorigin=\"anonymous\">
-
         <link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/images/favicon-32x32.png\">
         <link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/images/favicon-16x16.png\">
 
+        <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC\" crossorigin=\"anonymous\">
+
         <link rel=\"stylesheet\" href=\"";
-        // line 18
+        // line 15
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("css/app.css"), "html", null, true);
         yield "\">
         <link rel=\"stylesheet\" href=\"";
-        // line 19
+        // line 16
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("css/lightbox.css"), "html", null, true);
         yield "\">
 
@@ -156,15 +153,16 @@ class __TwigTemplate_d6fd14a705faa8121d6bcd8b2ebbdf8a extends Template
 
         <link rel=\"preload\" href=\"\" as=\"font\" type=\"font/truetype\" crossorigin>
         <link rel=\"preload\" href=\"../public/fonts/Roboto\" as=\"font\" type=\"font/truetype\" crossorigin>
-
         <link rel=\"preload\" href=\"../public/fonts/Roboto_Condensed\" as=\"font\" type=\"font/truetype\" crossorigin>
         <link rel=\"preload\" href=\"../public/fonts/Unna\" as=\"font\" type=\"font/truetype\" crossorigin>
 
+        <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM\" crossorigin=\"anonymous\"></script>
 
         <!-- If leaflet.js in the JavaScript block -->
         <script src=\"https://unpkg.com/leaflet@1.9.3/dist/leaflet.js\"
                 integrity=\"sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=\"
                 crossorigin=\"\"></script>
+
 
     ";
         
@@ -176,7 +174,7 @@ class __TwigTemplate_d6fd14a705faa8121d6bcd8b2ebbdf8a extends Template
         return; yield '';
     }
 
-    // line 47
+    // line 45
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -195,7 +193,7 @@ class __TwigTemplate_d6fd14a705faa8121d6bcd8b2ebbdf8a extends Template
         return; yield '';
     }
 
-    // line 52
+    // line 50
     public function block_javascripts($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -205,7 +203,7 @@ class __TwigTemplate_d6fd14a705faa8121d6bcd8b2ebbdf8a extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "javascripts"));
 
-        // line 53
+        // line 51
         yield "    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src=\"https://code.jquery.com/jquery-3.2.1.slim.min.js\" integrity=\"sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN\" crossorigin=\"anonymous\"></script>
     <script src=\"https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js\" integrity=\"sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q\" crossorigin=\"anonymous\"></script>
@@ -241,7 +239,7 @@ class __TwigTemplate_d6fd14a705faa8121d6bcd8b2ebbdf8a extends Template
      */
     public function getDebugInfo()
     {
-        return array (  209 => 53,  199 => 52,  180 => 47,  148 => 19,  144 => 18,  133 => 9,  123 => 8,  103 => 7,  87 => 58,  85 => 52,  82 => 51,  80 => 50,  77 => 49,  75 => 47,  71 => 45,  69 => 44,  67 => 43,  62 => 40,  60 => 8,  56 => 7,  48 => 1,);
+        return array (  207 => 51,  197 => 50,  178 => 45,  145 => 16,  141 => 15,  133 => 9,  123 => 8,  103 => 7,  87 => 56,  85 => 50,  82 => 49,  80 => 48,  77 => 47,  75 => 45,  71 => 43,  69 => 42,  67 => 41,  62 => 38,  60 => 8,  56 => 7,  48 => 1,);
     }
 
     public function getSourceContext()
@@ -255,13 +253,10 @@ class __TwigTemplate_d6fd14a705faa8121d6bcd8b2ebbdf8a extends Template
     <title>{% block title %}Holocaust in Ungarn{% endblock %}</title>
     {% block stylesheets %}
 
-        <script src=\"https://code.jquery.com/jquery-3.2.1.slim.min.js\" integrity=\"sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN\" crossorigin=\"anonymous\"></script>
-        <script src=\"https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js\" integrity=\"sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q\" crossorigin=\"anonymous\"></script>
-
-        <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css\" integrity=\"sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N\" crossorigin=\"anonymous\">
-
         <link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/images/favicon-32x32.png\">
         <link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/images/favicon-16x16.png\">
+
+        <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC\" crossorigin=\"anonymous\">
 
         <link rel=\"stylesheet\" href=\"{{ asset('css/app.css') }}\">
         <link rel=\"stylesheet\" href=\"{{ asset('css/lightbox.css') }}\">
@@ -274,15 +269,16 @@ class __TwigTemplate_d6fd14a705faa8121d6bcd8b2ebbdf8a extends Template
 
         <link rel=\"preload\" href=\"\" as=\"font\" type=\"font/truetype\" crossorigin>
         <link rel=\"preload\" href=\"../public/fonts/Roboto\" as=\"font\" type=\"font/truetype\" crossorigin>
-
         <link rel=\"preload\" href=\"../public/fonts/Roboto_Condensed\" as=\"font\" type=\"font/truetype\" crossorigin>
         <link rel=\"preload\" href=\"../public/fonts/Unna\" as=\"font\" type=\"font/truetype\" crossorigin>
 
+        <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM\" crossorigin=\"anonymous\"></script>
 
         <!-- If leaflet.js in the JavaScript block -->
         <script src=\"https://unpkg.com/leaflet@1.9.3/dist/leaflet.js\"
                 integrity=\"sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=\"
                 crossorigin=\"\"></script>
+
 
     {% endblock %}
 </head>

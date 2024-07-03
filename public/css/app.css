@@ -43,23 +43,6 @@ h4 {
 	font-family: 'Roboto Condensed', sans-serif;
 }
 
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-}
-
-nav p a, footer p a, .studiesoveriew p a, .biographies p a {
-	font-family: 'Roboto Condensed', sans-serif;
-}
-
-.nav-link {
-	margin-right: 1rem;
-	font-family: 'Roboto Condensed', sans-serif;
-
-}
-
-.nav-link:hover {
-	color: black;
-}
-
 .highlight-link  {
 	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 1rem;
@@ -82,19 +65,15 @@ nav p a, footer p a, .studiesoveriew p a, .biographies p a {
 	border-color: #f1f2f3;
 }
 
-.hero {
-
-}
-
 footer, footer p {
 	font-family: 'Roboto Condensed', sans-serif;
 }
 
-.studiesoveriew {
+.studiesoverview {
 	margin-top: 1rem;
 }
 
-.studiesoveriew .more {
+.studiesoverview .more {
 	background-color: black;
 	color: white;
 	padding: 0.4rem;
@@ -111,19 +90,7 @@ footer, footer p {
 }
 
 .gallery {
-	padding-top: 5px;
-}
-
-.nomargin-b {
-	margin-bottom: 0px;
-}
-
-.navitem {
-	border: none;
-	outline: none;
-	padding: 10px 16px;
-	cursor: pointer;
-	font-size: 18px;
+	padding-top: 1rem;
 }
 
 /* Studies & Biographies */
@@ -136,16 +103,18 @@ footer, footer p {
 	font-family: 'Roboto Condensed', sans-serif;
 	background: rgba(2, 18, 115, .05);
 	padding: 1rem;
+	border-left: 0.4rem solid black;
 }
 
 .infobox {
 	border-style: solid;
 	border-color: black;
-	border-width: 0.1rem;
+	border-width: 0.2rem;
 	padding: 0.5rem;
 }
 
 .infobox p {
+	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 0.9rem
 }
 
