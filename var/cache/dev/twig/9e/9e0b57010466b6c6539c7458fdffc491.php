@@ -43,55 +43,61 @@ class __TwigTemplate_f2263877e4f5ed9f2b9829dd160647ed extends Template
         // line 1
         yield "<div class=\"container\">
 
-<nav class=\"navbar navbar-expand-md navbar-light nav nav-pills\">
-    <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\"
-            aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
-        <span class=\"navbar-toggler-icon\"></span>
-    </button>
+    <nav class=\"navbar navbar-expand-lg navbar-light\">
+        <a class=\"navbar-brand\" href=\"https://www.igdj-hh.de/\">
+            <img src=\"";
+        // line 5
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/igdj-logo.png"), "html", null, true);
+        yield "\" width=\"140\" height=\"80\" alt=\"Logo des Instituts für die Geschichte des deutschen Juden\">
+        </a>
+        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNavAltMarkup\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
+            <span class=\"navbar-toggler-icon\"></span>
+        </button>
+
     <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">
         <ul class=\"navbar-nav mr-auto nav-pills\">
             <li class=\"nav-item\">
                 <a href=\"";
-        // line 11
+        // line 14
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_home");
         yield "\" class=\"nav-link\" title=\"Startseite\">Home</a>
             </li>
             <li class=\"nav-item\">
                 <a href=\"";
-        // line 14
+        // line 17
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_map");
         yield "\" class=\"nav-link\"
                    title=\"Kartenansicht\">Orte</a>
             </li>
             <li class=\"nav-item\">
                 <a href=\"";
-        // line 18
+        // line 21
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation");
         yield "\" class=\"nav-link\" title=\"Deportationsrouten\">Deportationsrouten</a>
             </li>
             <li class=\"nav-item\">
                 <a href=\"";
-        // line 21
+        // line 24
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographies");
         yield "\" class=\"nav-link\"
                    title=\"Biografien\">Biografien</a>
             </li>
             <li class=\"nav-item\">
                 <a href=\"";
-        // line 25
+        // line 28
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_sources");
         yield "\" class=\"nav-link\" title=\"Was wir wissen und was wir nicht wissen\">Quellen</a>
             </li>
             <li class=\"nav-item\">
                 <a href=\"";
-        // line 28
+        // line 31
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_context");
         yield "\" class=\"nav-link\"
                    title=\"Historischer Kontext\">Historischer&nbsp;Kontext</a>
             </li>
             <li class=\"nav-item\">
                 <a href=\"";
-        // line 32
+        // line 35
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_about");
         yield "\" class=\"nav-link\"
                    title=\"Projektkontext\">HUNGMEM</a>
@@ -99,13 +105,7 @@ class __TwigTemplate_f2263877e4f5ed9f2b9829dd160647ed extends Template
 
         </ul>
     </div>
-    <a href=\"https://www.igdj-hh.de/\" title=\"Webauftritt des Instituts für die Geschichte der deutschen Juden\">
-        <img class=\"institute\" width=\"160rem\" src=\"";
-        // line 39
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/igdj-logo.png"), "html", null, true);
-        yield "\"
-             alt=\"Logo des Instituts für die Geschichte des deutschen Juden\"/>
-    </a>
+
 </nav>
 
 </div>";
@@ -139,18 +139,21 @@ class __TwigTemplate_f2263877e4f5ed9f2b9829dd160647ed extends Template
      */
     public function getDebugInfo()
     {
-        return array (  105 => 39,  95 => 32,  88 => 28,  82 => 25,  75 => 21,  69 => 18,  62 => 14,  56 => 11,  44 => 1,);
+        return array (  101 => 35,  94 => 31,  88 => 28,  81 => 24,  75 => 21,  68 => 17,  62 => 14,  50 => 5,  44 => 1,);
     }
 
     public function getSourceContext()
     {
         return new Source("<div class=\"container\">
 
-<nav class=\"navbar navbar-expand-md navbar-light nav nav-pills\">
-    <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\"
-            aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
-        <span class=\"navbar-toggler-icon\"></span>
-    </button>
+    <nav class=\"navbar navbar-expand-lg navbar-light\">
+        <a class=\"navbar-brand\" href=\"https://www.igdj-hh.de/\">
+            <img src=\"{{ asset('images/igdj-logo.png') }}\" width=\"140\" height=\"80\" alt=\"Logo des Instituts für die Geschichte des deutschen Juden\">
+        </a>
+        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNavAltMarkup\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
+            <span class=\"navbar-toggler-icon\"></span>
+        </button>
+
     <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">
         <ul class=\"navbar-nav mr-auto nav-pills\">
             <li class=\"nav-item\">
@@ -181,10 +184,7 @@ class __TwigTemplate_f2263877e4f5ed9f2b9829dd160647ed extends Template
 
         </ul>
     </div>
-    <a href=\"https://www.igdj-hh.de/\" title=\"Webauftritt des Instituts für die Geschichte der deutschen Juden\">
-        <img class=\"institute\" width=\"160rem\" src=\"{{ asset('images/igdj-logo.png') }}\"
-             alt=\"Logo des Instituts für die Geschichte des deutschen Juden\"/>
-    </a>
+
 </nav>
 
 </div>", "elements/navigation.html.twig", "/Users/neovesky/CodingFriends/holocaust-ungarn/templates/elements/navigation.html.twig");
