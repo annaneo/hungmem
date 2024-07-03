@@ -41,7 +41,7 @@ class __TwigTemplate_611c99aa835972ea0f546b89645674b8 extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "template", "elements/hero.html.twig"));
 
         // line 1
-        yield "<div class=\"hero device\">
+        yield "<div class=\"hero device title-lg\">
 <div class=\"container mt-5\">
     <div class=\"row pt-1 pb-1\">
         <div class=\"col\">
@@ -53,7 +53,7 @@ class __TwigTemplate_611c99aa835972ea0f546b89645674b8 extends Template
                     Holocaust in Ungarn und Deportationen nach Norddeutschland 1944
                 </a>
             </h1>
-            <p class=\"lead\">Fallstudien zu Deportationsouten, Lagern und Deportierten</p>
+            <p class=\"subtitle\">Fallstudien zu Deportationsouten, Lagern und Deportierten</p>
         </div>
     </div>
 </div>
@@ -93,7 +93,7 @@ class __TwigTemplate_611c99aa835972ea0f546b89645674b8 extends Template
 
     public function getSourceContext()
     {
-        return new Source("<div class=\"hero device\">
+        return new Source("<div class=\"hero device title-lg\">
 <div class=\"container mt-5\">
     <div class=\"row pt-1 pb-1\">
         <div class=\"col\">
@@ -102,7 +102,7 @@ class __TwigTemplate_611c99aa835972ea0f546b89645674b8 extends Template
                     Holocaust in Ungarn und Deportationen nach Norddeutschland 1944
                 </a>
             </h1>
-            <p class=\"lead\">Fallstudien zu Deportationsouten, Lagern und Deportierten</p>
+            <p class=\"subtitle\">Fallstudien zu Deportationsouten, Lagern und Deportierten</p>
         </div>
     </div>
 </div>

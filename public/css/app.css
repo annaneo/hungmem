@@ -5,11 +5,23 @@ body {
 	margin-right: 2.5rem;
 }
 
+a, .footer-link {
+	color: rgb(94,33,216);
+}
+
+a:hover {
+	color: rgb(229,21,221);
+}
+
+footer-link:hover {
+	color: rgb(229,21,221) !important;
+}
+
 p {
 	font-family: 'Roboto', sans-serif;
 }
 
-h1, h1 a {
+h1, h1 a, h1 a:hover {
 	font-family: 'Bebas Neue', sans-serif;
 	font-weight: bold;
 	color: black;
@@ -39,35 +51,37 @@ h4 {
 	color: black;
 }
 
-.lead {
+.subtitle {
 	font-family: 'Roboto Condensed', sans-serif;
-}
-
-.highlight-link  {
-	font-family: 'Roboto Condensed', sans-serif;
-	font-size: 1rem;
-	color: #276CEA;
-}
-
-.caption {
-	font-family: 'Roboto Condensed', sans-serif;
-	font-size: 0.85rem;
-	color: #4B4B4B;
-}
-
-.quote {
-	font-family: 'Unna', serif;
 	font-size: 1.3rem;
-	font-style: italic;
 	font-weight: lighter;
-	padding: 10px;
-	border-left: 15px solid;
-	border-color: #f1f2f3;
 }
 
 footer, footer p {
 	font-family: 'Roboto Condensed', sans-serif;
 }
+
+
+/* Navigation: Image on big size, title of the website on mobile */
+.navbar-brand .brand-text {
+	display: none;
+}
+@media (max-width: 991.98px) { /* Bootstrap 'lg' breakpoint */
+	.navbar-brand .brand-text {
+		display: inline;
+	}
+	.navbar-brand .brand-image {
+		display: none;
+	}
+}
+
+@media (max-width: 991.98px) { /* Bootstrap 'lg' breakpoint */
+	.title-lg {
+		display: none;
+	}
+}
+
+/* Site specific elements */
 
 .studiesoverview {
 	margin-top: 1rem;
@@ -93,6 +107,22 @@ footer, footer p {
 	padding-top: 1rem;
 }
 
+.caption {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 1rem;
+	color: #4B4B4B;
+}
+
+.quote {
+	font-family: 'Unna', serif;
+	font-size: 1.3rem;
+	font-style: italic;
+	font-weight: lighter;
+	padding: 10px;
+	border-left: 15px solid;
+	border-color: #f1f2f3;
+}
+
 /* Studies & Biographies */
 
 .study {
@@ -101,7 +131,7 @@ footer, footer p {
 
 .abstract {
 	font-family: 'Roboto Condensed', sans-serif;
-	background: rgba(2, 18, 115, .05);
+	background: rgba(94, 33, 216, .05);
 	padding: 1rem;
 	border-left: 0.4rem solid black;
 }
@@ -118,7 +148,6 @@ footer, footer p {
 	font-size: 0.9rem
 }
 
-
 /* Mobile styles */
 
 @media (max-width: 768px) {
@@ -133,28 +162,13 @@ footer, footer p {
 	}
 }
 
-/* Device specific display of hero */
+/* Device specific display of hero: Project title gets smaller */
 @media only screen and (max-width: 768px) {
-	.device {
-		display: block;
-	}
 	h1 {
-		font-size: 1.5rem;
-		padding-top: 5px;
-		padding-bottom: 5px;
-	}
-	.lead {
-		font-size: 1rem;
-	}
-
-}
-
-/* Device specific display of hero */
-@media only screen and (max-width: 992px) {
-	.institute {
-		display: none;
+		font-size: 1.6rem;
 	}
 }
+
 
 /* Leaflet */
 

@@ -105,7 +105,7 @@ class __TwigTemplate_4bf3c07e898c90defc8949409c392250 extends Template
         yield "\"
                              alt=\"Foto\">
                     </a>
-                    <div class=\"studiesoveriew\">
+                    <div class=\"studiesoverview\">
                         <h2>
                             <a href=\"";
         // line 18
@@ -138,7 +138,7 @@ class __TwigTemplate_4bf3c07e898c90defc8949409c392250 extends Template
         yield "\"
                              alt=\"Foto\">
                     </a>
-                    <div class=\"studiesoveriew\">
+                    <div class=\"studiesoverview\">
                         <h2>
                             <a href=\"";
         // line 39
@@ -172,7 +172,7 @@ class __TwigTemplate_4bf3c07e898c90defc8949409c392250 extends Template
         yield "\"
                              alt=\"Foto\">
                     </a>
-                    <div class=\"studiesoveriew\">
+                    <div class=\"studiesoverview\">
                         <h2>
                             <a href=\"";
         // line 61
@@ -208,7 +208,7 @@ class __TwigTemplate_4bf3c07e898c90defc8949409c392250 extends Template
         yield "\"
                              alt=\"Foto\">
                     </a>
-                    <div class=\"studiesoveriew\">
+                    <div class=\"studiesoverview\">
                         <h2>
                             <a href=\"";
         // line 85
@@ -242,7 +242,7 @@ class __TwigTemplate_4bf3c07e898c90defc8949409c392250 extends Template
         yield "\"
                              alt=\"Foto\">
                     </a>
-                    <div class=\"studiesoveriew\">
+                    <div class=\"studiesoverview\">
                         <h2>
                             <a href=\"";
         // line 107
@@ -274,7 +274,7 @@ class __TwigTemplate_4bf3c07e898c90defc8949409c392250 extends Template
         yield "\"
                              alt=\"Foto\">
                     </a>
-                    <div class=\"studiesoveriew\">
+                    <div class=\"studiesoverview\">
                         <h2>
                             <a href=\"";
         // line 127
@@ -350,7 +350,7 @@ class __TwigTemplate_4bf3c07e898c90defc8949409c392250 extends Template
                         <img class=\"img-fluid\" src=\"{{ asset('images/placeholder-person_698x440.png') }}\"
                              alt=\"Foto\">
                     </a>
-                    <div class=\"studiesoveriew\">
+                    <div class=\"studiesoverview\">
                         <h2>
                             <a href=\"{{ path('app_biographytemplate') }}\" title=\"Interview mit Julia Camargo ansehen\">
                                 Biografie
@@ -371,7 +371,7 @@ class __TwigTemplate_4bf3c07e898c90defc8949409c392250 extends Template
                         <img class=\"img-fluid\" src=\"{{ asset('images/placeholder-person_698x440.png') }}\"
                              alt=\"Foto\">
                     </a>
-                    <div class=\"studiesoveriew\">
+                    <div class=\"studiesoverview\">
                         <h2>
                             <a href=\"{{ path('app_biographytemplate') }}\" title=\"Biographie lesen\">
                                 Biografie
@@ -393,7 +393,7 @@ class __TwigTemplate_4bf3c07e898c90defc8949409c392250 extends Template
                         <img class=\"img-fluid\" src=\"{{ asset('images/placeholder-person_698x440.png') }}\"
                              alt=\"Foto\">
                     </a>
-                    <div class=\"studiesoveriew\">
+                    <div class=\"studiesoverview\">
                         <h2>
                             <a href=\"{{ path('app_biographytemplate') }}\" title=\"Biografie lesen\">
                                 Biografie
@@ -417,7 +417,7 @@ class __TwigTemplate_4bf3c07e898c90defc8949409c392250 extends Template
                         <img class=\"img-fluid\" src=\"{{ asset('images/placeholder-person_698x440.png') }}\"
                              alt=\"Foto\">
                     </a>
-                    <div class=\"studiesoveriew\">
+                    <div class=\"studiesoverview\">
                         <h2>
                             <a href=\"{{ path('app_biographytemplate') }}\"
                                title=\"Interview mit Barbara Guggenheim ansehen\">
@@ -439,7 +439,7 @@ class __TwigTemplate_4bf3c07e898c90defc8949409c392250 extends Template
                         <img class=\"img-fluid\" src=\"{{ asset('images/placeholder-person_698x440.png') }}\"
                              alt=\"Foto\">
                     </a>
-                    <div class=\"studiesoveriew\">
+                    <div class=\"studiesoverview\">
                         <h2>
                             <a href=\"{{ path('app_biographytemplate') }}\" title=\"Biografie lesen\">
                                 Biografie</a>
@@ -459,7 +459,7 @@ class __TwigTemplate_4bf3c07e898c90defc8949409c392250 extends Template
                         <img class=\"img-fluid\" src=\"{{ asset('images/placeholder-person_698x440.png') }}\"
                              alt=\"Foto\">
                     </a>
-                    <div class=\"studiesoveriew\">
+                    <div class=\"studiesoverview\">
                         <h2>
                             <a href=\"{{ path('app_biographytemplate') }}\" title=\"Biografie lesen\"\">
                                 Biografie</a>

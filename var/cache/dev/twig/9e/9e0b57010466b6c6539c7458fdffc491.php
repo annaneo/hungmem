@@ -45,12 +45,15 @@ class __TwigTemplate_f2263877e4f5ed9f2b9829dd160647ed extends Template
 
     <nav class=\"navbar navbar-expand-lg navbar-light\">
         <div class=\"container-fluid\">
-            <a class=\"navbar-brand\" href=\"https://www.igdj-hh.de/\">
-                <img src=\"";
-        // line 6
+            <span class=\"navbar-brand\">
+                <a href=\"https://www.igdj-hh.de/\" title=\"Website des Instituts für die Geschichte der deutschen Juden\">
+                     <img class=\"brand-image\" src=\"";
+        // line 7
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/igdj-logo.png"), "html", null, true);
         yield "\" width=\"140\" height=\"80\" alt=\"Logo des Instituts für die Geschichte des deutschen Juden\">
-            </a>
+                </a>
+                <h1 class=\"brand-text\">Holocaust in Ungarn und Deportationen<br/> nach Norddeutschland 1944</h1>
+            </span>
             <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarNav\" aria-controls=\"navbarNav\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
                 <span class=\"navbar-toggler-icon\"></span>
             </button>
@@ -58,46 +61,46 @@ class __TwigTemplate_f2263877e4f5ed9f2b9829dd160647ed extends Template
                 <ul class=\"navbar-nav\">
                     <li class=\"nav-item\">
                         <a href=\"";
-        // line 14
+        // line 17
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_home");
         yield "\" class=\"nav-link\" title=\"Startseite\">Home</a>
                     </li>
                     <li class=\"nav-item\">
                         <a href=\"";
-        // line 17
+        // line 20
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_map");
         yield "\" class=\"nav-link\"
                            title=\"Kartenansicht\">Orte</a>
                     </li>
                     <li class=\"nav-item\">
                         <a href=\"";
-        // line 21
+        // line 24
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation");
         yield "\" class=\"nav-link\" title=\"Deportationsrouten\">Deportationsrouten</a>
                     </li>
                     <li class=\"nav-item\">
                         <a href=\"";
-        // line 24
+        // line 27
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographies");
         yield "\" class=\"nav-link\"
                            title=\"Biografien\">Biografien</a>
                     </li>
                     <li class=\"nav-item\">
                         <a href=\"";
-        // line 28
+        // line 31
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_sources");
         yield "\" class=\"nav-link\" title=\"Was wir wissen und was wir nicht wissen\">Quellen</a>
                     </li>
                     <li class=\"nav-item\">
                         <a href=\"";
-        // line 31
+        // line 34
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_context");
         yield "\" class=\"nav-link\"
                            title=\"Historischer Kontext\">Historischer&nbsp;Kontext</a>
                     </li>
                     <li class=\"nav-item\">
                         <a href=\"";
-        // line 35
+        // line 38
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_about");
         yield "\" class=\"nav-link\"
                            title=\"Projektkontext\">HUNGMEM</a>
@@ -106,7 +109,7 @@ class __TwigTemplate_f2263877e4f5ed9f2b9829dd160647ed extends Template
             </div>
         </div>
     </nav>
-    
+
 </div>";
         
         $__internal_5a27a8ba21ca79b61932376b2fa922d2->leave($__internal_5a27a8ba21ca79b61932376b2fa922d2_prof);
@@ -138,7 +141,7 @@ class __TwigTemplate_f2263877e4f5ed9f2b9829dd160647ed extends Template
      */
     public function getDebugInfo()
     {
-        return array (  101 => 35,  94 => 31,  88 => 28,  81 => 24,  75 => 21,  68 => 17,  62 => 14,  51 => 6,  44 => 1,);
+        return array (  104 => 38,  97 => 34,  91 => 31,  84 => 27,  78 => 24,  71 => 20,  65 => 17,  52 => 7,  44 => 1,);
     }
 
     public function getSourceContext()
@@ -147,9 +150,12 @@ class __TwigTemplate_f2263877e4f5ed9f2b9829dd160647ed extends Template
 
     <nav class=\"navbar navbar-expand-lg navbar-light\">
         <div class=\"container-fluid\">
-            <a class=\"navbar-brand\" href=\"https://www.igdj-hh.de/\">
-                <img src=\"{{ asset('images/igdj-logo.png') }}\" width=\"140\" height=\"80\" alt=\"Logo des Instituts für die Geschichte des deutschen Juden\">
-            </a>
+            <span class=\"navbar-brand\">
+                <a href=\"https://www.igdj-hh.de/\" title=\"Website des Instituts für die Geschichte der deutschen Juden\">
+                     <img class=\"brand-image\" src=\"{{ asset('images/igdj-logo.png') }}\" width=\"140\" height=\"80\" alt=\"Logo des Instituts für die Geschichte des deutschen Juden\">
+                </a>
+                <h1 class=\"brand-text\">Holocaust in Ungarn und Deportationen<br/> nach Norddeutschland 1944</h1>
+            </span>
             <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarNav\" aria-controls=\"navbarNav\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
                 <span class=\"navbar-toggler-icon\"></span>
             </button>
@@ -184,7 +190,7 @@ class __TwigTemplate_f2263877e4f5ed9f2b9829dd160647ed extends Template
             </div>
         </div>
     </nav>
-    
+
 </div>", "elements/navigation.html.twig", "/Users/neovesky/CodingFriends/holocaust-ungarn/templates/elements/navigation.html.twig");
     }
 }

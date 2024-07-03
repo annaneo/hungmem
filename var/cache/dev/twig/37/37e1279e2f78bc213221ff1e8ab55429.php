@@ -49,11 +49,11 @@ class __TwigTemplate_6a295c3a7609ea95fa8215339b46c7da extends Template
             <li class=\"nav-item\"><a href=\"";
         // line 6
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_imprint");
-        yield "\" class=\"nav-link\">Impressum</a></li>
+        yield "\" class=\"nav-link footer-link\" >Impressum</a></li>
             <li class=\"nav-item\"><a href=\"";
         // line 7
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_imprint");
-        yield "#datenschutz\" class=\"nav-link\">Datenschutz</a></li>
+        yield "#datenschutz\" class=\"nav-link footer-link\">Datenschutz</a></li>
         </ul>
     </footer>
 </div>";
@@ -97,8 +97,8 @@ class __TwigTemplate_6a295c3a7609ea95fa8215339b46c7da extends Template
         <p class=\"col-md-6 text-muted\">&copy; 2024 Institut für die Geschichte der deutschen Juden </p>
 
         <ul class=\"nav col-md-4 justify-content-end\">
-            <li class=\"nav-item\"><a href=\"{{ path('app_imprint') }}\" class=\"nav-link\">Impressum</a></li>
-            <li class=\"nav-item\"><a href=\"{{ path('app_imprint') }}#datenschutz\" class=\"nav-link\">Datenschutz</a></li>
+            <li class=\"nav-item\"><a href=\"{{ path('app_imprint') }}\" class=\"nav-link footer-link\" >Impressum</a></li>
+            <li class=\"nav-item\"><a href=\"{{ path('app_imprint') }}#datenschutz\" class=\"nav-link footer-link\">Datenschutz</a></li>
         </ul>
     </footer>
 </div>", "elements/footer.html.twig", "/Users/neovesky/CodingFriends/holocaust-ungarn/templates/elements/footer.html.twig");
