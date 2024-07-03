@@ -9,13 +9,28 @@ a, .footer-link {
 	color: rgb(94,33,216);
 }
 
+.nav-item a {
+	color: black !important;
+	font-family: 'Roboto Condensed', sans-serif;
+	margin: 0.1rem;
+	padding: 0rem;
+	border: 0.1rem solid black;
+}
+
 a:hover {
 	color: rgb(229,21,221);
 }
 
-footer-link:hover {
+.footer-link:hover {
 	color: rgb(229,21,221) !important;
 }
+
+.nav-item a:hover {
+	background-color: black;
+	color: white !important;
+}
+
+
 
 p {
 	font-family: 'Roboto', sans-serif;
@@ -87,14 +102,6 @@ footer, footer p {
 	margin-top: 1rem;
 }
 
-.studiesoverview .more {
-	background-color: black;
-	color: white;
-	padding: 0.4rem;
-	border-radius: 0.5rem;
-/* TODO: hover state with text or black rectangle in highlight color */
-}
-
 .biographies {
 	padding:1rem;
 }
@@ -139,7 +146,7 @@ footer, footer p {
 .infobox {
 	border-style: solid;
 	border-color: black;
-	border-width: 0.2rem;
+	border-width: 0.15rem;
 	padding: 0.5rem;
 }
 
@@ -166,6 +173,10 @@ footer, footer p {
 @media only screen and (max-width: 768px) {
 	h1 {
 		font-size: 1.6rem;
+	}
+
+	.study {
+		font-size: 1.1rem;
 	}
 }
 
