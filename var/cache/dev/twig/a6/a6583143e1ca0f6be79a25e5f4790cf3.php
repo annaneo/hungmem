@@ -90,7 +90,7 @@ class __TwigTemplate_9fd10a5becac467aa0d11ad2d4000e9d extends Template
 
         // line 6
         yield "
-    <div class=\"container mt-5\">
+    <div class=\"container g-4 py-5\">
     <h2>Impressum</h2>
     <div class=\"row\">
     <div class=\"col-lg-6\">
@@ -222,7 +222,7 @@ class __TwigTemplate_9fd10a5becac467aa0d11ad2d4000e9d extends Template
 
 {% block body %}
 
-    <div class=\"container mt-5\">
+    <div class=\"container g-4 py-5\">
     <h2>Impressum</h2>
     <div class=\"row\">
     <div class=\"col-lg-6\">

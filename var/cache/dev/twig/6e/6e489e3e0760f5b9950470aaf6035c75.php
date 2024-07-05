@@ -90,7 +90,7 @@ class __TwigTemplate_8c385939753e07d05b6e9c10a975c74f extends Template
 
         // line 6
         yield "
-    <div class=\"container mt-5\">
+    <div class=\"container g-4 py-5\">
         <h2>Orte und geografische Einordnung</h2>
 
         <div class=\"row\">
@@ -219,7 +219,7 @@ class __TwigTemplate_8c385939753e07d05b6e9c10a975c74f extends Template
 
 {% block body %}
 
-    <div class=\"container mt-5\">
+    <div class=\"container g-4 py-5\">
         <h2>Orte und geografische Einordnung</h2>
 
         <div class=\"row\">

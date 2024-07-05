@@ -90,7 +90,7 @@ class __TwigTemplate_1df0856fcf984f666fb35853e1a67e8e extends Template
 
         // line 6
         yield "
-    <div class=\"container mt-5\">
+    <div class=\"container g-4 py-5\">
         <h2>„Digitale Gedenk- und Forschungsinfrastruktur – Der Holocaust in Ungarn 80 Jahre später“ (HUNGMEM) </h2>
         <h3 class=\"mt-4\">Hintergrund und Ziele des Projektes</h3>
         <div class=\"row\">
@@ -222,7 +222,7 @@ class __TwigTemplate_1df0856fcf984f666fb35853e1a67e8e extends Template
 
 {% block body %}
 
-    <div class=\"container mt-5\">
+    <div class=\"container g-4 py-5\">
         <h2>„Digitale Gedenk- und Forschungsinfrastruktur – Der Holocaust in Ungarn 80 Jahre später“ (HUNGMEM) </h2>
         <h3 class=\"mt-4\">Hintergrund und Ziele des Projektes</h3>
         <div class=\"row\">

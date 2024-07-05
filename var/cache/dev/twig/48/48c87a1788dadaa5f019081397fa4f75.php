@@ -91,7 +91,7 @@ class __TwigTemplate_66d4196d21ab5e5ec253c4177bba0bcb extends Template
         // line 6
         yield "
 
-    <div class=\"container mt-5\">
+    <div class=\"container g-4 py-5\">
         <h2>Was wir wissen und was wir nicht wissen – Die Datenbasis dieser Präsentation</h2>
         <div class=\"row\">
             <div class=\"col-md-6\">
@@ -219,7 +219,7 @@ class __TwigTemplate_66d4196d21ab5e5ec253c4177bba0bcb extends Template
 {% block body %}
 
 
-    <div class=\"container mt-5\">
+    <div class=\"container g-4 py-5\">
         <h2>Was wir wissen und was wir nicht wissen – Die Datenbasis dieser Präsentation</h2>
         <div class=\"row\">
             <div class=\"col-md-6\">

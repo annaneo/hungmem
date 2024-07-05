@@ -91,7 +91,7 @@ class __TwigTemplate_c92dcb9f7191437120b4d673cb128ea3 extends Template
         // line 7
         yield "
 
-    <div class=\"container mt-5 study\">
+    <div class=\"container g-4 py-5 study\">
         <h2>Yehuda Blum und die Kasztner Gruppe</h2>
         <p>(Geboren am 02.10.1931 in Bratislava, Tschechoslowakei; lebt in Jerusalem)</p>
         <div class=\"row\">
@@ -393,7 +393,7 @@ class __TwigTemplate_c92dcb9f7191437120b4d673cb128ea3 extends Template
 {% block body %}
 
 
-    <div class=\"container mt-5 study\">
+    <div class=\"container g-4 py-5 study\">
         <h2>Yehuda Blum und die Kasztner Gruppe</h2>
         <p>(Geboren am 02.10.1931 in Bratislava, Tschechoslowakei; lebt in Jerusalem)</p>
         <div class=\"row\">

@@ -91,7 +91,7 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
         // line 7
         yield "
 
-    <div class=\"container mt-5\">
+    <div class=\"container g-4 py-5\">
         <h2>Historischer Kontext</h2>
         <h3 class=\"mt-4\">Situation nach 1945 und Neugründung der Gemeinde</h3>
         <div class=\"row\">
@@ -450,7 +450,7 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
 {% block body %}
 
 
-    <div class=\"container mt-5\">
+    <div class=\"container g-4 py-5\">
         <h2>Historischer Kontext</h2>
         <h3 class=\"mt-4\">Situation nach 1945 und Neugründung der Gemeinde</h3>
         <div class=\"row\">
