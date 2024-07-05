@@ -43,15 +43,27 @@ class __TwigTemplate_f2263877e4f5ed9f2b9829dd160647ed extends Template
         // line 1
         yield "<div class=\"container\">
 
+    <div class=\"hero device title-lg\">
+        <div class=\"container mt-5\">
+            <div class=\"row pt-1 pb-1\">
+                <div class=\"col\">
+                    <h1 class=\"fw-bold\">
+                        <a href=\"";
+        // line 8
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_home");
+        yield "\">
+                            Holocaust in Ungarn und Deportationen nach Norddeutschland&nbsp;1944.
+                        </a>
+                    </h1>
+                    <p class=\"subtitle\">Fallstudien zu Deportationsrouten, Lagern und Deportierten</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <nav class=\"navbar navbar-expand-lg navbar-light\" >
-        <div class=\"container-fluid\">
+        <div class=\"container-fluid setback\">
             <span class=\"navbar-brand\">
-                <a href=\"https://www.igdj-hh.de/\" title=\"Website des Instituts für die Geschichte der deutschen Juden\">
-                     <img class=\"brand-image\" src=\"";
-        // line 7
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/logos/igdj-logo.png"), "html", null, true);
-        yield "\" width=\"160\" height=\"90\" alt=\"Logo des Instituts für die Geschichte des deutschen Juden\">
-                </a>
                 <h1 class=\"brand-text\">Holocaust in Ungarn und Deportationen<br/> nach Norddeutschland 1944</h1>
             </span>
             <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarNav\" aria-controls=\"navbarNav\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
@@ -61,46 +73,46 @@ class __TwigTemplate_f2263877e4f5ed9f2b9829dd160647ed extends Template
                 <ul class=\"navbar-nav\">
                     <li class=\"nav-item\">
                         <a href=\"";
-        // line 17
+        // line 29
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_home");
         yield "\" class=\"nav-link\" title=\"Startseite\">Home</a>
                     </li>
                     <li class=\"nav-item\">
                         <a href=\"";
-        // line 20
+        // line 32
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_map");
         yield "\" class=\"nav-link\"
                            title=\"Kartenansicht\">Orte</a>
                     </li>
                     <li class=\"nav-item\">
                         <a href=\"";
-        // line 24
+        // line 36
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation");
         yield "\" class=\"nav-link\" title=\"Deportationsrouten\">Deportationsrouten</a>
                     </li>
                     <li class=\"nav-item\">
                         <a href=\"";
-        // line 27
+        // line 39
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographies");
         yield "\" class=\"nav-link\"
                            title=\"Biografien\">Biografien</a>
                     </li>
                     <li class=\"nav-item\">
                         <a href=\"";
-        // line 31
+        // line 43
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_sources");
         yield "\" class=\"nav-link\" title=\"Was wir wissen und was wir nicht wissen\">Quellen</a>
                     </li>
                     <li class=\"nav-item\">
                         <a href=\"";
-        // line 34
+        // line 46
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_context");
         yield "\" class=\"nav-link\"
                            title=\"Historischer Kontext\">Historischer&nbsp;Kontext</a>
                     </li>
                     <li class=\"nav-item\">
                         <a href=\"";
-        // line 38
+        // line 50
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_about");
         yield "\" class=\"nav-link\"
                            title=\"Projektkontext\">HUNGMEM</a>
@@ -141,19 +153,31 @@ class __TwigTemplate_f2263877e4f5ed9f2b9829dd160647ed extends Template
      */
     public function getDebugInfo()
     {
-        return array (  104 => 38,  97 => 34,  91 => 31,  84 => 27,  78 => 24,  71 => 20,  65 => 17,  52 => 7,  44 => 1,);
+        return array (  116 => 50,  109 => 46,  103 => 43,  96 => 39,  90 => 36,  83 => 32,  77 => 29,  53 => 8,  44 => 1,);
     }
 
     public function getSourceContext()
     {
         return new Source("<div class=\"container\">
 
+    <div class=\"hero device title-lg\">
+        <div class=\"container mt-5\">
+            <div class=\"row pt-1 pb-1\">
+                <div class=\"col\">
+                    <h1 class=\"fw-bold\">
+                        <a href=\"{{ path('app_home') }}\">
+                            Holocaust in Ungarn und Deportationen nach Norddeutschland&nbsp;1944.
+                        </a>
+                    </h1>
+                    <p class=\"subtitle\">Fallstudien zu Deportationsrouten, Lagern und Deportierten</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <nav class=\"navbar navbar-expand-lg navbar-light\" >
-        <div class=\"container-fluid\">
+        <div class=\"container-fluid setback\">
             <span class=\"navbar-brand\">
-                <a href=\"https://www.igdj-hh.de/\" title=\"Website des Instituts für die Geschichte der deutschen Juden\">
-                     <img class=\"brand-image\" src=\"{{ asset('images/logos/igdj-logo.png') }}\" width=\"160\" height=\"90\" alt=\"Logo des Instituts für die Geschichte des deutschen Juden\">
-                </a>
                 <h1 class=\"brand-text\">Holocaust in Ungarn und Deportationen<br/> nach Norddeutschland 1944</h1>
             </span>
             <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarNav\" aria-controls=\"navbarNav\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">

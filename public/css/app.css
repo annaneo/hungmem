@@ -85,12 +85,27 @@ footer, footer p {
 }
 @media (max-width: 991.98px) { /* Bootstrap 'lg' breakpoint */
 	.navbar-brand .brand-text {
-		display: inline;
-	}
-	.navbar-brand .brand-image {
-		display: none;
+		display: inline-block;
 	}
 }
+
+/* The switching between the title as hero and as part of and in line with
+ the burger-menu leads to a indented title. This is fixed by moving the margin of the nav bar when in desktop mode */
+
+.setback {
+	margin-left:-1.1rem;
+}
+
+@media (max-width: 991.98px) { /* Bootstrap 'lg' breakpoint */
+	.setback {
+		margin-left:0rem;
+	}
+}
+
+.navbar-toggler {
+	margin-bottom: 1rem;
+}
+
 
 
 @media (max-width: 991.98px) { /* Bootstrap 'lg' breakpoint */

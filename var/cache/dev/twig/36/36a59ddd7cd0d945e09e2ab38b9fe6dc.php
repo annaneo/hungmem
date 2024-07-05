@@ -66,24 +66,21 @@ class __TwigTemplate_d6fd14a705faa8121d6bcd8b2ebbdf8a extends Template
         // line 41
         yield from         $this->loadTemplate("elements/navigation.html.twig", "base.html.twig", 41)->unwrap()->yield($context);
         // line 42
-        yield from         $this->loadTemplate("elements/hero.html.twig", "base.html.twig", 42)->unwrap()->yield($context);
-        // line 43
         yield "
-
 ";
-        // line 45
+        // line 43
         yield from $this->unwrap()->yieldBlock('body', $context, $blocks);
+        // line 45
+        yield "
+";
+        // line 46
+        yield from         $this->loadTemplate("elements/footer.html.twig", "base.html.twig", 46)->unwrap()->yield($context);
         // line 47
         yield "
 ";
         // line 48
-        yield from         $this->loadTemplate("elements/footer.html.twig", "base.html.twig", 48)->unwrap()->yield($context);
-        // line 49
-        yield "
-";
-        // line 50
         yield from $this->unwrap()->yieldBlock('javascripts', $context, $blocks);
-        // line 53
+        // line 51
         yield "
 
 
@@ -174,7 +171,7 @@ class __TwigTemplate_d6fd14a705faa8121d6bcd8b2ebbdf8a extends Template
         return; yield '';
     }
 
-    // line 45
+    // line 43
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -193,7 +190,7 @@ class __TwigTemplate_d6fd14a705faa8121d6bcd8b2ebbdf8a extends Template
         return; yield '';
     }
 
-    // line 50
+    // line 48
     public function block_javascripts($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -203,7 +200,7 @@ class __TwigTemplate_d6fd14a705faa8121d6bcd8b2ebbdf8a extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "javascripts"));
 
-        // line 51
+        // line 49
         yield "    <script src=\"";
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("js/lightbox-plus-jquery.min.js"), "html", null, true);
         yield "\"></script>
@@ -238,7 +235,7 @@ class __TwigTemplate_d6fd14a705faa8121d6bcd8b2ebbdf8a extends Template
      */
     public function getDebugInfo()
     {
-        return array (  207 => 51,  197 => 50,  178 => 45,  145 => 16,  141 => 15,  133 => 9,  123 => 8,  103 => 7,  87 => 53,  85 => 50,  82 => 49,  80 => 48,  77 => 47,  75 => 45,  71 => 43,  69 => 42,  67 => 41,  62 => 38,  60 => 8,  56 => 7,  48 => 1,);
+        return array (  204 => 49,  194 => 48,  175 => 43,  142 => 16,  138 => 15,  130 => 9,  120 => 8,  100 => 7,  84 => 51,  82 => 48,  79 => 47,  77 => 46,  74 => 45,  72 => 43,  69 => 42,  67 => 41,  62 => 38,  60 => 8,  56 => 7,  48 => 1,);
     }
 
     public function getSourceContext()
@@ -284,8 +281,6 @@ class __TwigTemplate_d6fd14a705faa8121d6bcd8b2ebbdf8a extends Template
 <body>
 
 {% include 'elements/navigation.html.twig' %}
-{% include 'elements/hero.html.twig' %}
-
 
 {% block body %}
 {% endblock %}

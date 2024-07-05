@@ -41,7 +41,7 @@ class __TwigTemplate_611c99aa835972ea0f546b89645674b8 extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "template", "elements/hero.html.twig"));
 
         // line 1
-        yield "<div class=\"hero device title-lg\">
+        yield "<!--<div class=\"hero device title-lg\">
 <div class=\"container mt-5\">
     <div class=\"row pt-1 pb-1\">
         <div class=\"col\">
@@ -57,7 +57,7 @@ class __TwigTemplate_611c99aa835972ea0f546b89645674b8 extends Template
         </div>
     </div>
 </div>
-</div>";
+</div> -->";
         
         $__internal_5a27a8ba21ca79b61932376b2fa922d2->leave($__internal_5a27a8ba21ca79b61932376b2fa922d2_prof);
 
@@ -93,7 +93,7 @@ class __TwigTemplate_611c99aa835972ea0f546b89645674b8 extends Template
 
     public function getSourceContext()
     {
-        return new Source("<div class=\"hero device title-lg\">
+        return new Source("<!--<div class=\"hero device title-lg\">
 <div class=\"container mt-5\">
     <div class=\"row pt-1 pb-1\">
         <div class=\"col\">
@@ -106,6 +106,6 @@ class __TwigTemplate_611c99aa835972ea0f546b89645674b8 extends Template
         </div>
     </div>
 </div>
-</div>", "elements/hero.html.twig", "/Users/neovesky/CodingFriends/holocaust-ungarn/templates/elements/hero.html.twig");
+</div> -->", "elements/hero.html.twig", "/Users/neovesky/CodingFriends/holocaust-ungarn/templates/elements/hero.html.twig");
     }
 }
