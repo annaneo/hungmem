@@ -41,20 +41,36 @@ class __TwigTemplate_6a295c3a7609ea95fa8215339b46c7da extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "template", "elements/footer.html.twig"));
 
         // line 1
-        yield "<div class=\"container\">
-    <footer class=\"d-flex flex-wrap justify-content-between align-items-center pt-4 py-3 my-4 mt-5 border-top\">
-        <p class=\"col-md-6 text-muted\">&copy; 2024 Institut für die Geschichte der deutschen Juden </p>
-
-        <ul class=\"nav col-md-4 justify-content-end\">
-            <li><a href=\"";
+        yield "<div class=\"container mt-5\">
+    <footer class=\"pt-1 border-top\">
+        <div class=\"row\">
+            <div class=\"col-8 col-md-6 mb-6\">
+                <a href=\"https://www.igdj-hh.de/\" title=\"Zur Website des Instituts\">
+                <img class=\"img-fluid\" style=\"width: 200px;\" src=\"";
         // line 6
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/logos/igdj-logo.png"), "html", null, true);
+        yield "\"
+                     alt=\"Logo des Instituts für die Geschichte der deutschen Juden\">
+                </a>
+            </div>
+        </div>
+
+        <div class=\"row\">
+            <div class=\"d-flex flex-column flex-sm-row justify-content-between py-4 my-4 \">
+                <p style=\"padding-top: 8px;\">&copy; 2024 Institut für die Geschichte der deutschen Juden</p>
+                <ul class=\"list-unstyled d-flex\">
+                    <li><a href=\"";
+        // line 16
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_imprint");
         yield "\" class=\"nav-link footer-link\" >Impressum</a></li>
-            <li><a href=\"";
-        // line 7
+                    <li><a href=\"";
+        // line 17
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_imprint");
         yield "#datenschutz\" class=\"nav-link footer-link\">Datenschutz</a></li>
-        </ul>
+                </ul>
+            </div>
+        </div>
+
     </footer>
 </div>";
         
@@ -87,19 +103,32 @@ class __TwigTemplate_6a295c3a7609ea95fa8215339b46c7da extends Template
      */
     public function getDebugInfo()
     {
-        return array (  55 => 7,  51 => 6,  44 => 1,);
+        return array (  68 => 17,  64 => 16,  51 => 6,  44 => 1,);
     }
 
     public function getSourceContext()
     {
-        return new Source("<div class=\"container\">
-    <footer class=\"d-flex flex-wrap justify-content-between align-items-center pt-4 py-3 my-4 mt-5 border-top\">
-        <p class=\"col-md-6 text-muted\">&copy; 2024 Institut für die Geschichte der deutschen Juden </p>
+        return new Source("<div class=\"container mt-5\">
+    <footer class=\"pt-1 border-top\">
+        <div class=\"row\">
+            <div class=\"col-8 col-md-6 mb-6\">
+                <a href=\"https://www.igdj-hh.de/\" title=\"Zur Website des Instituts\">
+                <img class=\"img-fluid\" style=\"width: 200px;\" src=\"{{ asset('images/logos/igdj-logo.png') }}\"
+                     alt=\"Logo des Instituts für die Geschichte der deutschen Juden\">
+                </a>
+            </div>
+        </div>
 
-        <ul class=\"nav col-md-4 justify-content-end\">
-            <li><a href=\"{{ path('app_imprint') }}\" class=\"nav-link footer-link\" >Impressum</a></li>
-            <li><a href=\"{{ path('app_imprint') }}#datenschutz\" class=\"nav-link footer-link\">Datenschutz</a></li>
-        </ul>
+        <div class=\"row\">
+            <div class=\"d-flex flex-column flex-sm-row justify-content-between py-4 my-4 \">
+                <p style=\"padding-top: 8px;\">&copy; 2024 Institut für die Geschichte der deutschen Juden</p>
+                <ul class=\"list-unstyled d-flex\">
+                    <li><a href=\"{{ path('app_imprint') }}\" class=\"nav-link footer-link\" >Impressum</a></li>
+                    <li><a href=\"{{ path('app_imprint') }}#datenschutz\" class=\"nav-link footer-link\">Datenschutz</a></li>
+                </ul>
+            </div>
+        </div>
+
     </footer>
 </div>", "elements/footer.html.twig", "/Users/neovesky/CodingFriends/holocaust-ungarn/templates/elements/footer.html.twig");
     }

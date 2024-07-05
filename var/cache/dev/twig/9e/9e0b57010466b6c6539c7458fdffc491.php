@@ -52,7 +52,7 @@ class __TwigTemplate_f2263877e4f5ed9f2b9829dd160647ed extends Template
         // line 8
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_home");
         yield "\">
-                            Holocaust in Ungarn und Deportationen nach Norddeutschland&nbsp;1944.
+                            Holocaust in Ungarn und Deportationen nach Norddeutschland 1944.
                         </a>
                     </h1>
                     <p class=\"subtitle\">Fallstudien zu Deportationsrouten, Lagern und Deportierten</p>
@@ -166,7 +166,7 @@ class __TwigTemplate_f2263877e4f5ed9f2b9829dd160647ed extends Template
                 <div class=\"col\">
                     <h1 class=\"fw-bold\">
                         <a href=\"{{ path('app_home') }}\">
-                            Holocaust in Ungarn und Deportationen nach Norddeutschland&nbsp;1944.
+                            Holocaust in Ungarn und Deportationen nach Norddeutschland 1944.
                         </a>
                     </h1>
                     <p class=\"subtitle\">Fallstudien zu Deportationsrouten, Lagern und Deportierten</p>
