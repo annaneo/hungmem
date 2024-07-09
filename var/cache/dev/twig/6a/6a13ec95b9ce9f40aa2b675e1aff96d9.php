@@ -34,7 +34,7 @@ class __TwigTemplate_c92dcb9f7191437120b4d673cb128ea3 extends Template
     protected function doGetParent(array $context)
     {
         // line 1
-        return "base.html.twig";
+        return "base-map.html.twig";
     }
 
     protected function doDisplay(array $context, array $blocks = [])
@@ -46,7 +46,7 @@ class __TwigTemplate_c92dcb9f7191437120b4d673cb128ea3 extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "template", "biographies/study.html.twig"));
 
-        $this->parent = $this->loadTemplate("base.html.twig", "biographies/study.html.twig", 1);
+        $this->parent = $this->loadTemplate("base-map.html.twig", "biographies/study.html.twig", 1);
         yield from $this->parent->unwrap()->yield($context, array_merge($this->blocks, $blocks));
         
         $__internal_5a27a8ba21ca79b61932376b2fa922d2->leave($__internal_5a27a8ba21ca79b61932376b2fa922d2_prof);
@@ -95,11 +95,15 @@ class __TwigTemplate_c92dcb9f7191437120b4d673cb128ea3 extends Template
         <h2>Yehuda Blum und die Kasztner Gruppe</h2>
         <p>(Geboren am 02.10.1931 in Bratislava, Tschechoslowakei; lebt in Jerusalem)</p>
         <div class=\"row\">
-            <div class=\"col-xl-8\">
+            <div class=\"col-lg-8 mb-2\">
                 <p class=\"abstract\">
                     Yehuda Blum wurde am 02.10.1931 im damals tschechoslowakischen Bratislava geboren. Er war der Älteste von insgesamt drei Kindern. Er hatte einen Bruder (Amram Blum) und eine Schwester (Leah Blum).
                     Yehuda Blums Vater Joseph Blum kam aus dem Osten der Slowakei nach Bratislava und wurde dort der Direktor der Jewish Credit Bank. Blums Mutter Seldi Blum (geborene Dux) wurde in Transsilvanien geboren und zog gemeinsam mit ihrem Mann nach ihrer Hochzeit im Jahre 1930 nach Bratislava.
                 </p>
+            </div>
+            <div class=\"col-lg-4\">
+                <div id=\"map\">
+                </div>
             </div>
         </div>
 
@@ -265,7 +269,7 @@ class __TwigTemplate_c92dcb9f7191437120b4d673cb128ea3 extends Template
                     Krankenhaus überstellt.
                 </p>
                 <img class=\"img-fluid\" style=\"width: 640px;\" src=\"";
-        // line 182
+        // line 186
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder_840x560.jpg"), "html", null, true);
         yield "\"
                      alt=\"Deportationsroute\"/>
@@ -349,6 +353,41 @@ class __TwigTemplate_c92dcb9f7191437120b4d673cb128ea3 extends Template
 
     </div>
 
+    <script>
+
+        const bratislava = L.marker([ 48.144722,17.112778]).bindPopup('<strong>Bratislava</strong><br/>');
+
+        const mbAttr = 'Map data &copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors, Imagery © <a href=\"https://www.mapbox.com/\">Mapbox</a>';
+        const mbUrl = 'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw';
+
+        const streets = L.tileLayer(mbUrl, {
+            id: 'mapbox/streets-v11',
+            tileSize: 512,
+            zoomOffset: -1,
+            attribution: mbAttr
+        });
+
+        const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 11,
+            attribution: '&copy; <a href=\"http://www.openstreetmap.org/copyright\">OpenStreetMap</a>'
+        });
+
+        const map = L.map('map', {
+            center: [48.144722,17.112778],
+            zoom: 6,
+            layers: [osm,
+                bratislava,
+            ]
+        });
+
+        const baseLayers = {
+            'OpenStreetMap': osm,
+        };
+
+        const layerControl = L.control.layers(baseLayers, overlays).addTo(map);
+
+    </script>
+
 ";
         
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->leave($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof);
@@ -380,12 +419,12 @@ class __TwigTemplate_c92dcb9f7191437120b4d673cb128ea3 extends Template
      */
     public function getDebugInfo()
     {
-        return array (  269 => 182,  92 => 7,  82 => 6,  60 => 3,  37 => 1,);
+        return array (  273 => 186,  92 => 7,  82 => 6,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
     {
-        return new Source("{% extends 'base.html.twig' %}
+        return new Source("{% extends 'base-map.html.twig' %}
 
 {% block title %} Fallstudie | {{ parent() }} {% endblock %}
 
@@ -397,11 +436,15 @@ class __TwigTemplate_c92dcb9f7191437120b4d673cb128ea3 extends Template
         <h2>Yehuda Blum und die Kasztner Gruppe</h2>
         <p>(Geboren am 02.10.1931 in Bratislava, Tschechoslowakei; lebt in Jerusalem)</p>
         <div class=\"row\">
-            <div class=\"col-xl-8\">
+            <div class=\"col-lg-8 mb-2\">
                 <p class=\"abstract\">
                     Yehuda Blum wurde am 02.10.1931 im damals tschechoslowakischen Bratislava geboren. Er war der Älteste von insgesamt drei Kindern. Er hatte einen Bruder (Amram Blum) und eine Schwester (Leah Blum).
                     Yehuda Blums Vater Joseph Blum kam aus dem Osten der Slowakei nach Bratislava und wurde dort der Direktor der Jewish Credit Bank. Blums Mutter Seldi Blum (geborene Dux) wurde in Transsilvanien geboren und zog gemeinsam mit ihrem Mann nach ihrer Hochzeit im Jahre 1930 nach Bratislava.
                 </p>
+            </div>
+            <div class=\"col-lg-4\">
+                <div id=\"map\">
+                </div>
             </div>
         </div>
 
@@ -647,6 +690,41 @@ class __TwigTemplate_c92dcb9f7191437120b4d673cb128ea3 extends Template
         </div>
 
     </div>
+
+    <script>
+
+        const bratislava = L.marker([ 48.144722,17.112778]).bindPopup('<strong>Bratislava</strong><br/>');
+
+        const mbAttr = 'Map data &copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors, Imagery © <a href=\"https://www.mapbox.com/\">Mapbox</a>';
+        const mbUrl = 'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw';
+
+        const streets = L.tileLayer(mbUrl, {
+            id: 'mapbox/streets-v11',
+            tileSize: 512,
+            zoomOffset: -1,
+            attribution: mbAttr
+        });
+
+        const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 11,
+            attribution: '&copy; <a href=\"http://www.openstreetmap.org/copyright\">OpenStreetMap</a>'
+        });
+
+        const map = L.map('map', {
+            center: [48.144722,17.112778],
+            zoom: 6,
+            layers: [osm,
+                bratislava,
+            ]
+        });
+
+        const baseLayers = {
+            'OpenStreetMap': osm,
+        };
+
+        const layerControl = L.control.layers(baseLayers, overlays).addTo(map);
+
+    </script>
 
 {% endblock %}", "biographies/study.html.twig", "/Users/neovesky/CodingFriends/holocaust-ungarn/templates/biographies/study.html.twig");
     }

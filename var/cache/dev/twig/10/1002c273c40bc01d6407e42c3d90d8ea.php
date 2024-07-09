@@ -91,7 +91,7 @@ class __TwigTemplate_159059b59ec408517eb1da56d3806dcf extends Template
         // line 7
         yield "
 
-    <div class=\"container mt-5 study\">
+    <div class=\"container g-4 py-5 study\">
         <h2>Die 300er Gruppe bei Volkswagen</h2>
         <div class=\"row\">
             <div class=\"col-xl-8\">
@@ -536,7 +536,7 @@ class __TwigTemplate_159059b59ec408517eb1da56d3806dcf extends Template
 {% block body %}
 
 
-    <div class=\"container mt-5 study\">
+    <div class=\"container g-4 py-5 study\">
         <h2>Die 300er Gruppe bei Volkswagen</h2>
         <div class=\"row\">
             <div class=\"col-xl-8\">

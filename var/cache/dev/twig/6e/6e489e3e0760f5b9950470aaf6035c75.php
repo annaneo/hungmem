@@ -34,7 +34,7 @@ class __TwigTemplate_8c385939753e07d05b6e9c10a975c74f extends Template
     protected function doGetParent(array $context)
     {
         // line 1
-        return "base.html.twig";
+        return "base-map.html.twig";
     }
 
     protected function doDisplay(array $context, array $blocks = [])
@@ -46,7 +46,7 @@ class __TwigTemplate_8c385939753e07d05b6e9c10a975c74f extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "template", "site/map.html.twig"));
 
-        $this->parent = $this->loadTemplate("base.html.twig", "site/map.html.twig", 1);
+        $this->parent = $this->loadTemplate("base-map.html.twig", "site/map.html.twig", 1);
         yield from $this->parent->unwrap()->yield($context, array_merge($this->blocks, $blocks));
         
         $__internal_5a27a8ba21ca79b61932376b2fa922d2->leave($__internal_5a27a8ba21ca79b61932376b2fa922d2_prof);
@@ -213,7 +213,7 @@ class __TwigTemplate_8c385939753e07d05b6e9c10a975c74f extends Template
 
     public function getSourceContext()
     {
-        return new Source("{% extends 'base.html.twig' %}
+        return new Source("{% extends 'base-map.html.twig' %}
 
 {% block title %} Kartenansicht | {{ parent() }} {% endblock %}
 
