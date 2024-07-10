@@ -94,7 +94,7 @@ class __TwigTemplate_159059b59ec408517eb1da56d3806dcf extends Template
     <div class=\"container g-4 py-5 study\">
         <h2>Die 300er Gruppe bei Volkswagen</h2>
         <div class=\"row\">
-            <div class=\"col-xl-8\">
+            <div class=\"col-xl-8 mb-2\">
                 <p class=\"abstract\">
                     Über 13 Millionen Menschen wurden während des Zweiten Weltkrieges zu Zwangs- und Sklavenarbeit im
                     Deutschen Reich herangezogen. Die Aufrechterhaltung der Kriegswirtschaft war nur durch die
@@ -539,7 +539,7 @@ class __TwigTemplate_159059b59ec408517eb1da56d3806dcf extends Template
     <div class=\"container g-4 py-5 study\">
         <h2>Die 300er Gruppe bei Volkswagen</h2>
         <div class=\"row\">
-            <div class=\"col-xl-8\">
+            <div class=\"col-xl-8 mb-2\">
                 <p class=\"abstract\">
                     Über 13 Millionen Menschen wurden während des Zweiten Weltkrieges zu Zwangs- und Sklavenarbeit im
                     Deutschen Reich herangezogen. Die Aufrechterhaltung der Kriegswirtschaft war nur durch die
