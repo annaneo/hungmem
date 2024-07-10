@@ -98,7 +98,7 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
                     <a href=\"\" title=\"\">
                         <img class=\"img-fluid\" src=\"";
         // line 13
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder_840x560.jpg"), "html", null, true);
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/studies/Titelbild-300-V1-Produktion.png"), "html", null, true);
         yield "\"
                              alt=\"\">
                     </a>
@@ -129,7 +129,7 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
         yield "\" title=\"\">
                         <img class=\"img-fluid\" src=\"";
         // line 32
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder_840x560.jpg"), "html", null, true);
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/studies/Titelbild-Dessauer-Ufer.png"), "html", null, true);
         yield "\"
                              alt=\"\">
                     </a>
@@ -271,7 +271,7 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
             <div class=\"col-sm\">
                 <div>
                     <a href=\"\" title=\"\">
-                        <img class=\"img-fluid\" src=\"{{ asset('images/placeholder_840x560.jpg') }}\"
+                        <img class=\"img-fluid\" src=\"{{ asset('images/studies/Titelbild-300-V1-Produktion.png') }}\"
                              alt=\"\">
                     </a>
                     <div class=\"studiesoverview\">
@@ -290,7 +290,7 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
             <div class=\"col-sm offset-lg-1\">
                 <div>
                     <a href=\"{{ path('app_sources') }}\" title=\"\">
-                        <img class=\"img-fluid\" src=\"{{ asset('images/placeholder_840x560.jpg') }}\"
+                        <img class=\"img-fluid\" src=\"{{ asset('images/studies/Titelbild-Dessauer-Ufer.png') }}\"
                              alt=\"\">
                     </a>
                     <div class=\"studiesoverview\">
