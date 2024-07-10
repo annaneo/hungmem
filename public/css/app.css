@@ -206,13 +206,8 @@ footer, footer p {
 
 /* Leaflet */
 
-#allPlacesMap {
-	height: 600px;
-	width: 100%;
-}
-
 #map {
-	height: 15rem;
+	height: 600px;
 	width: 100%;
 }
 

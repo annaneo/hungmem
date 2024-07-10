@@ -102,7 +102,7 @@ class __TwigTemplate_c92dcb9f7191437120b4d673cb128ea3 extends Template
                 </p>
             </div>
             <div class=\"col-lg-4\">
-                <div id=\"map\">
+                <div id=\"map\" style=\"height: 15rem;\">
                 </div>
             </div>
         </div>
@@ -443,7 +443,7 @@ class __TwigTemplate_c92dcb9f7191437120b4d673cb128ea3 extends Template
                 </p>
             </div>
             <div class=\"col-lg-4\">
-                <div id=\"map\">
+                <div id=\"map\" style=\"height: 15rem;\">
                 </div>
             </div>
         </div>

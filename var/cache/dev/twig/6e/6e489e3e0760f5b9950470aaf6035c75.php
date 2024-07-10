@@ -131,7 +131,48 @@ class __TwigTemplate_8c385939753e07d05b6e9c10a975c74f extends Template
         // line 44
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_imprint");
         yield "#usage\">Weiterlesen</a>');
-
+        const BergenBelsen = L.marker([52.7965, 9.9061]).bindPopup('<strong>Bergen-Belsen</strong><br/>');
+        const Boizenburg = L.marker([53.3742, 10.7192]).bindPopup('<strong>Boizenburg</strong><br/>');
+        const BraunschweigBuessingNAG = L.marker([52.2611, 10.5260]).bindPopup('<strong>Braunschweig-Büssing-NAG</strong><br/>');
+        const BraunschweigVechelde = L.marker([52.2561, 10.3680]).bindPopup('<strong>Braunschweig-Vechelde</strong><br/>');
+        const BraunschweigSSReitschule = L.marker([52.2689, 10.5208]).bindPopup('<strong>Braunschweig-SS-Reitschule</strong><br/>');
+        const BremenFarge = L.marker([53.2100, 8.5200]).bindPopup('<strong>Bremen Farge</strong><br/>');
+        const BremenBlumenthal = L.marker([53.1836, 8.5944]).bindPopup('<strong>Bremen-Blumenthal</strong><br/>');
+        const BremenHindenburgkaserne = L.marker([53.0874, 8.8255]).bindPopup('<strong>Bremen-Hindenburgkaserne</strong><br/>');
+        const BremenObernheide = L.marker([53.1521, 8.7855]).bindPopup('<strong>Bremen-Obernheide</strong><br/>');
+        const BremenOsterort = L.marker([53.1437, 8.7372]).bindPopup('<strong>Bremen-Osterort</strong><br/>');
+        const BremenSchuetzenhof = L.marker([53.0966, 8.8007]).bindPopup('<strong>Bremen-Schützenhof</strong><br/>');
+        const FallerslebenFrauen = L.marker([52.4333, 10.7833]).bindPopup('<strong>Fallersleben (Frauen)</strong><br/>');
+        const HAhlem = L.marker([52.3647, 9.6616]).bindPopup('<strong>KZ-Außenlager Hannover-Ahlem</strong><br/>');
+        const HelmstedtBeendorfFrauen = L.marker([52.2550, 11.0406]).bindPopup('<strong>Helmstedt-Beendorf (Frauen)</strong><br/>');
+        const HHDessauerUfer = L.marker([53.5434, 9.9556]).bindPopup('<strong>HH-Dessauer Ufer</strong><br/>');
+        const HHEidelstedt = L.marker([53.5944, 9.9183]).bindPopup('<strong>HH-Eidelstedt</strong><br/>');
+        const HHHammerbrook = L.marker([53.5481, 10.0243]).bindPopup('<strong>HH-Hammerbrook (Spaldingstraße)</strong><br/>');
+        const HHLangenhorn = L.marker([53.6620, 10.0127]).bindPopup('<strong>HH-Langenhorn</strong><br/>');
+        const HHNeugraben = L.marker([53.4730, 9.8513]).bindPopup('<strong>HH-Neugraben</strong><br/>');
+        const HHSasel = L.marker([53.6490, 10.1276]).bindPopup('<strong>HH-Sasel</strong><br/>');
+        const HHSteinwerder = L.marker([53.5361, 9.9647]).bindPopup('<strong>HH-Steinwerder (Stülckenwerft)</strong><br/>');
+        const HHTiefstack = L.marker([53.5396, 10.0425]).bindPopup('<strong>HH-Tiefstack</strong><br/>');
+        const HHWandsbek = L.marker([53.5753, 10.0865]).bindPopup('<strong>HH-Wandsbek</strong><br/>');
+        const HLangenhagen = L.marker([52.4336, 9.7433]).bindPopup('<strong>H-Langenhagen</strong><br/>');
+        const HLimmer = L.marker([52.3747, 9.6975]).bindPopup('<strong>H-Limmer</strong><br/>');
+        const Hildesheim = L.marker([52.1508, 9.9511]).bindPopup('<strong>Hildesheim</strong><br/>');
+        const HMuehlenberg = L.marker([52.3475, 9.6897]).bindPopup('<strong>H-Mühlenberg</strong><br/>');
+        const Horneburg = L.marker([53.5063, 9.6169]).bindPopup('<strong>Horneburg</strong><br/>');
+        const Luebberstedt = L.marker([53.3058, 8.6825]).bindPopup('<strong>Lübberstedt</strong><br/>');
+        const MeppenVersen = L.marker([52.7269, 7.3006]).bindPopup('<strong>Meppen-Versen</strong><br/>');
+        const NeuengammeStammlager = L.marker([53.3975, 10.2200]).bindPopup('<strong>Neuengamme Stammlager</strong><br/>');
+        const PortaWestfalicaHausberge = L.marker([52.2347, 8.9186]).bindPopup('<strong>Porta-Westfalica-Hausberge</strong><br/>');
+        const SalzgitterDruette = L.marker([52.1358, 10.3664]).bindPopup('<strong>Salzgitter-Drütte</strong><br/>');
+        const Salzwedel = L.marker([52.8544, 11.1497]).bindPopup('<strong>Salzwedel</strong><br/>');
+        const Schandelah = L.marker([52.2547, 10.6547]).bindPopup('<strong>Schandelah</strong><br/>');
+        const VWWerkHalle1 = L.marker([52.4275, 10.7922]).bindPopup('<strong>VW-Werk Halle 1</strong><br/>');
+        const WatensteidtLeindeMen = L.marker([52.2642, 10.3911]).bindPopup('<strong>Watensteidt-Leinde (men)</strong><br/>');
+        const WatensteidtLeindeFrauen = L.marker([52.2667, 10.3964]).bindPopup('<strong>Watensteidt-Leinde (Frauen)</strong><br/>');
+        const WedelFrauen = L.marker([53.5814, 9.6978]).bindPopup('<strong>Wedel (Frauen)</strong><br/>');
+        const WilhelmshavenAlterBanterWeg = L.marker([53.5278, 8.1075]).bindPopup('<strong>Wilhelmshaven (Alter Banter Weg)</strong><br/>');
+        const Wittenberge = L.marker([53.0025, 11.7403]).bindPopup('<strong>Wittenberge</strong><br/>');
+        const Woebbelin = L.marker([53.4056, 11.5614]).bindPopup('<strong>Wöbbelin</strong><br/>');
 
 
         const biografie1 = L.layerGroup([bergenbelsen, portawestfalica]);
@@ -154,13 +195,51 @@ class __TwigTemplate_8c385939753e07d05b6e9c10a975c74f extends Template
         });
 
         const map = L.map('map', {
-            center: [50.832222, 12.924167],
-            zoom: 6,
+            center: [52.374444, 9.738611],
+            zoom: 7,
             layers: [osm,
-                bergenbelsen,
-                budapest,
-                neuengamme,
-                portawestfalica,
+                BergenBelsen,
+                Boizenburg,
+                BraunschweigBuessingNAG,
+                BraunschweigVechelde,
+                BraunschweigSSReitschule,
+                BremenFarge,
+                BremenBlumenthal,
+                BremenHindenburgkaserne,
+                BremenObernheide,
+                BremenOsterort,
+                BremenSchuetzenhof,
+                FallerslebenFrauen,
+                HAhlem,
+                HelmstedtBeendorfFrauen,
+                HHDessauerUfer,
+                HHEidelstedt,
+                HHHammerbrook,
+                HHLangenhorn,
+                HHNeugraben,
+                HHSasel,
+                HHSteinwerder,
+                HHTiefstack,
+                HHWandsbek,
+                HLangenhagen,
+                HLimmer,
+                Hildesheim,
+                HMuehlenberg,
+                Horneburg,
+                Luebberstedt,
+                MeppenVersen,
+                NeuengammeStammlager,
+                PortaWestfalicaHausberge,
+                SalzgitterDruette,
+                Salzwedel,
+                Schandelah,
+                VWWerkHalle1,
+                WatensteidtLeindeMen,
+                WatensteidtLeindeFrauen,
+                WedelFrauen,
+                WilhelmshavenAlterBanterWeg,
+                Wittenberge,
+                Woebbelin
             ]
         });
 
@@ -169,8 +248,8 @@ class __TwigTemplate_8c385939753e07d05b6e9c10a975c74f extends Template
         };
 
         const overlays = {
-            'Biografie 1': bergenbelsen,
-            'Studie 1': portawestfalica, neuengamme
+            'Biografie 1': Woebbelin,
+            'Studie 1': Wittenberge
         };
 
         const layerControl = L.control.layers(baseLayers, overlays).addTo(map);
@@ -247,7 +326,7 @@ class __TwigTemplate_8c385939753e07d05b6e9c10a975c74f extends Template
         </div>
     </div>
 
-    {# Coordinates set to Chemnitz [50.832222, 12.924167] as that allows to see Hamburg as well as Hungary #}
+    {# Coordinates set to Hannover [52.374444, 9.738611] as that allows to have a good overview of all camps #}
     <script>
         {# Leaflet does not allow to add one const to more than one layerGroup
         (see more here: https://stackoverflow.com/questions/66391786/add-marker-to-multiple-layer-groups.
@@ -257,7 +336,48 @@ class __TwigTemplate_8c385939753e07d05b6e9c10a975c74f extends Template
         const budapest = L.marker([47.5, 19.05]).bindPopup('<strong>Budapest</strong><br/>');
         const neuengamme = L.marker([53.430556, 10.233611]).bindPopup('<strong>Neuengamme</strong><br/>');
         const portawestfalica = L.marker([52.246275, 8.912079]).bindPopup('<strong>KZ-Außenlager Porta Westfalica</strong><br/>Das Frauenaußenlager Porta-Westfalica-Hausberge war erst im Februar 1945 eingerichtet worden. In Porta-Westfalica befanden sich zu diesem Zeitpunkt bereits zwei Männeraußenlager des KZ-Neuengamme, die alte Bergmannsstollen zur unterirdischen Produktionsstätten umbauen sollten. In einem dieser Stollen sollten die etwa 1.000 Frauen des neuen Frauenaußenlagers Radioröhren für dieFirma Philipps und ihre Tochterfirmen herstellen. Die Häftlinge waren vor allen als Jüdinnen verfolgteFrauen die aus den Niederlande und Ungarn nach Auschwitz deportiert worden waren. Ein Teil von ihnen hatte bereits in einem Außenlager des KZ Groß Rosen im heutigen Polen Radioröhren produzieren müssen, bis diese Produktionsstätte im Januar 1945 angesichts der sich nähernden sowjetischen Armee geräumt wurde.<br/> <a href=\"{{ path('app_imprint') }}#usage\">Weiterlesen</a>');
-
+        const BergenBelsen = L.marker([52.7965, 9.9061]).bindPopup('<strong>Bergen-Belsen</strong><br/>');
+        const Boizenburg = L.marker([53.3742, 10.7192]).bindPopup('<strong>Boizenburg</strong><br/>');
+        const BraunschweigBuessingNAG = L.marker([52.2611, 10.5260]).bindPopup('<strong>Braunschweig-Büssing-NAG</strong><br/>');
+        const BraunschweigVechelde = L.marker([52.2561, 10.3680]).bindPopup('<strong>Braunschweig-Vechelde</strong><br/>');
+        const BraunschweigSSReitschule = L.marker([52.2689, 10.5208]).bindPopup('<strong>Braunschweig-SS-Reitschule</strong><br/>');
+        const BremenFarge = L.marker([53.2100, 8.5200]).bindPopup('<strong>Bremen Farge</strong><br/>');
+        const BremenBlumenthal = L.marker([53.1836, 8.5944]).bindPopup('<strong>Bremen-Blumenthal</strong><br/>');
+        const BremenHindenburgkaserne = L.marker([53.0874, 8.8255]).bindPopup('<strong>Bremen-Hindenburgkaserne</strong><br/>');
+        const BremenObernheide = L.marker([53.1521, 8.7855]).bindPopup('<strong>Bremen-Obernheide</strong><br/>');
+        const BremenOsterort = L.marker([53.1437, 8.7372]).bindPopup('<strong>Bremen-Osterort</strong><br/>');
+        const BremenSchuetzenhof = L.marker([53.0966, 8.8007]).bindPopup('<strong>Bremen-Schützenhof</strong><br/>');
+        const FallerslebenFrauen = L.marker([52.4333, 10.7833]).bindPopup('<strong>Fallersleben (Frauen)</strong><br/>');
+        const HAhlem = L.marker([52.3647, 9.6616]).bindPopup('<strong>KZ-Außenlager Hannover-Ahlem</strong><br/>');
+        const HelmstedtBeendorfFrauen = L.marker([52.2550, 11.0406]).bindPopup('<strong>Helmstedt-Beendorf (Frauen)</strong><br/>');
+        const HHDessauerUfer = L.marker([53.5434, 9.9556]).bindPopup('<strong>HH-Dessauer Ufer</strong><br/>');
+        const HHEidelstedt = L.marker([53.5944, 9.9183]).bindPopup('<strong>HH-Eidelstedt</strong><br/>');
+        const HHHammerbrook = L.marker([53.5481, 10.0243]).bindPopup('<strong>HH-Hammerbrook (Spaldingstraße)</strong><br/>');
+        const HHLangenhorn = L.marker([53.6620, 10.0127]).bindPopup('<strong>HH-Langenhorn</strong><br/>');
+        const HHNeugraben = L.marker([53.4730, 9.8513]).bindPopup('<strong>HH-Neugraben</strong><br/>');
+        const HHSasel = L.marker([53.6490, 10.1276]).bindPopup('<strong>HH-Sasel</strong><br/>');
+        const HHSteinwerder = L.marker([53.5361, 9.9647]).bindPopup('<strong>HH-Steinwerder (Stülckenwerft)</strong><br/>');
+        const HHTiefstack = L.marker([53.5396, 10.0425]).bindPopup('<strong>HH-Tiefstack</strong><br/>');
+        const HHWandsbek = L.marker([53.5753, 10.0865]).bindPopup('<strong>HH-Wandsbek</strong><br/>');
+        const HLangenhagen = L.marker([52.4336, 9.7433]).bindPopup('<strong>H-Langenhagen</strong><br/>');
+        const HLimmer = L.marker([52.3747, 9.6975]).bindPopup('<strong>H-Limmer</strong><br/>');
+        const Hildesheim = L.marker([52.1508, 9.9511]).bindPopup('<strong>Hildesheim</strong><br/>');
+        const HMuehlenberg = L.marker([52.3475, 9.6897]).bindPopup('<strong>H-Mühlenberg</strong><br/>');
+        const Horneburg = L.marker([53.5063, 9.6169]).bindPopup('<strong>Horneburg</strong><br/>');
+        const Luebberstedt = L.marker([53.3058, 8.6825]).bindPopup('<strong>Lübberstedt</strong><br/>');
+        const MeppenVersen = L.marker([52.7269, 7.3006]).bindPopup('<strong>Meppen-Versen</strong><br/>');
+        const NeuengammeStammlager = L.marker([53.3975, 10.2200]).bindPopup('<strong>Neuengamme Stammlager</strong><br/>');
+        const PortaWestfalicaHausberge = L.marker([52.2347, 8.9186]).bindPopup('<strong>Porta-Westfalica-Hausberge</strong><br/>');
+        const SalzgitterDruette = L.marker([52.1358, 10.3664]).bindPopup('<strong>Salzgitter-Drütte</strong><br/>');
+        const Salzwedel = L.marker([52.8544, 11.1497]).bindPopup('<strong>Salzwedel</strong><br/>');
+        const Schandelah = L.marker([52.2547, 10.6547]).bindPopup('<strong>Schandelah</strong><br/>');
+        const VWWerkHalle1 = L.marker([52.4275, 10.7922]).bindPopup('<strong>VW-Werk Halle 1</strong><br/>');
+        const WatensteidtLeindeMen = L.marker([52.2642, 10.3911]).bindPopup('<strong>Watensteidt-Leinde (men)</strong><br/>');
+        const WatensteidtLeindeFrauen = L.marker([52.2667, 10.3964]).bindPopup('<strong>Watensteidt-Leinde (Frauen)</strong><br/>');
+        const WedelFrauen = L.marker([53.5814, 9.6978]).bindPopup('<strong>Wedel (Frauen)</strong><br/>');
+        const WilhelmshavenAlterBanterWeg = L.marker([53.5278, 8.1075]).bindPopup('<strong>Wilhelmshaven (Alter Banter Weg)</strong><br/>');
+        const Wittenberge = L.marker([53.0025, 11.7403]).bindPopup('<strong>Wittenberge</strong><br/>');
+        const Woebbelin = L.marker([53.4056, 11.5614]).bindPopup('<strong>Wöbbelin</strong><br/>');
 
 
         const biografie1 = L.layerGroup([bergenbelsen, portawestfalica]);
@@ -280,13 +400,51 @@ class __TwigTemplate_8c385939753e07d05b6e9c10a975c74f extends Template
         });
 
         const map = L.map('map', {
-            center: [50.832222, 12.924167],
-            zoom: 6,
+            center: [52.374444, 9.738611],
+            zoom: 7,
             layers: [osm,
-                bergenbelsen,
-                budapest,
-                neuengamme,
-                portawestfalica,
+                BergenBelsen,
+                Boizenburg,
+                BraunschweigBuessingNAG,
+                BraunschweigVechelde,
+                BraunschweigSSReitschule,
+                BremenFarge,
+                BremenBlumenthal,
+                BremenHindenburgkaserne,
+                BremenObernheide,
+                BremenOsterort,
+                BremenSchuetzenhof,
+                FallerslebenFrauen,
+                HAhlem,
+                HelmstedtBeendorfFrauen,
+                HHDessauerUfer,
+                HHEidelstedt,
+                HHHammerbrook,
+                HHLangenhorn,
+                HHNeugraben,
+                HHSasel,
+                HHSteinwerder,
+                HHTiefstack,
+                HHWandsbek,
+                HLangenhagen,
+                HLimmer,
+                Hildesheim,
+                HMuehlenberg,
+                Horneburg,
+                Luebberstedt,
+                MeppenVersen,
+                NeuengammeStammlager,
+                PortaWestfalicaHausberge,
+                SalzgitterDruette,
+                Salzwedel,
+                Schandelah,
+                VWWerkHalle1,
+                WatensteidtLeindeMen,
+                WatensteidtLeindeFrauen,
+                WedelFrauen,
+                WilhelmshavenAlterBanterWeg,
+                Wittenberge,
+                Woebbelin
             ]
         });
 
@@ -295,8 +453,8 @@ class __TwigTemplate_8c385939753e07d05b6e9c10a975c74f extends Template
         };
 
         const overlays = {
-            'Biografie 1': bergenbelsen,
-            'Studie 1': portawestfalica, neuengamme
+            'Biografie 1': Woebbelin,
+            'Studie 1': Wittenberge
         };
 
         const layerControl = L.control.layers(baseLayers, overlays).addTo(map);
