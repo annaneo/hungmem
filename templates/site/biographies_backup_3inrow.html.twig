@@ -1,0 +1,132 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} Biografien | {{ parent() }} {% endblock %}
+
+{% block body %}
+
+    <div class="container g-4 py-5">
+
+        <div class="row row-cols-1 row-cols-md-3 g-3">
+            <div class="col">
+                <div class="biographies">
+                    <a href="{{ path('app_biographytemplate') }}" title="Biografie lesen">
+                        <img class="img-fluid" src="{{ asset('images/placeholder-person_698x440.png') }}"
+                             alt="Foto">
+                    </a>
+                    <div class="studiesoverview">
+                        <h2>
+                            <a href="{{ path('app_biographytemplate') }}" title="Interview mit Julia Camargo ansehen">
+                                Biografie
+                            </a>
+                        </h2>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua...
+                            <a class="more" href="{{ path('app_biographytemplate') }}" title="Weiterlesen">[mehr]</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="biographies">
+                    <a href="{{ path('app_biographytemplate') }}" title="Biografie lesen">
+                        <img class="img-fluid" src="{{ asset('images/placeholder-person_698x440.png') }}"
+                             alt="Foto">
+                    </a>
+                    <div class="studiesoverview">
+                        <h2>
+                            <a href="{{ path('app_biographytemplate') }}" title="Biographie lesen">
+                                Biografie
+                            </a>
+                        </h2>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua
+                            ...
+                            <a class="more" href="{{ path('app_biographytemplate') }}" title="Weiterlesen">[mehr]</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="biographies">
+                    <a href="{{ path('app_biographytemplate') }}" title="Biografie lesen">
+                        <img class="img-fluid" src="{{ asset('images/placeholder-person_698x440.png') }}"
+                             alt="Foto">
+                    </a>
+                    <div class="studiesoverview">
+                        <h2>
+                            <a href="{{ path('app_biographytemplate') }}" title="Biografie lesen">
+                                Biografie
+                            </a>
+                        </h2>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua ...
+                            <a class="more" href="{{ path('app_biographytemplate') }}" title="Weiterlesen">[mehr]</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-3 g-3">
+            <div class="col">
+                <div class="biographies">
+                    <a href="{{ path('app_biographytemplate') }}" title="Biografie lesen">
+                        <img class="img-fluid" src="{{ asset('images/placeholder-person_698x440.png') }}"
+                             alt="Foto">
+                    </a>
+                    <div class="studiesoverview">
+                        <h2>
+                            <a href="{{ path('app_biographytemplate') }}"
+                               title="Interview mit Barbara Guggenheim ansehen">
+                                Biografie
+                            </a>
+                        </h2>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua ...
+                            <a class="more" href="{{ path('app_biographytemplate') }}" title="Weiterlesen">[mehr]</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="biographies">
+                    <a href="{{ path('app_biographytemplate') }}" title="Biografie lesen">
+                        <img class="img-fluid" src="{{ asset('images/placeholder-person_698x440.png') }}"
+                             alt="Foto">
+                    </a>
+                    <div class="studiesoverview">
+                        <h2>
+                            <a href="{{ path('app_biographytemplate') }}" title="Biografie lesen">
+                                Biografie</a>
+                        </h2>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua ...
+                            <a class="more" href="{{ path('app_biographytemplate') }}" title="Weiterlesen">[mehr]</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="biographies">
+                    <a href="{{ path('app_biographytemplate') }}" title="Biografie lesen">
+                        <img class="img-fluid" src="{{ asset('images/placeholder-person_698x440.png') }}"
+                             alt="Foto">
+                    </a>
+                    <div class="studiesoverview">
+                        <h2>
+                            <a href="{{ path('app_biographytemplate') }}" title="Biografie lesen"">
+                                Biografie</a>
+                        </h2>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua ...
+                            <a class="more" href="{{ path('app_biographytemplate') }}" title="Weiterlesen">[mehr]</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+{% endblock %}

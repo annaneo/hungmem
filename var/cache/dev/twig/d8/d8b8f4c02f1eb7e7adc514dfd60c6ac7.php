@@ -92,30 +92,27 @@ class __TwigTemplate_4bf3c07e898c90defc8949409c392250 extends Template
         yield "
     <div class=\"container g-4 py-5\">
 
-        <div class=\"row row-cols-1 row-cols-md-3 g-3\">
-            <div class=\"col\">
-                <div class=\"biographies\">
-                    <a href=\"";
-        // line 12
-        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographytemplate");
-        yield "\" title=\"Biografie lesen\">
+        <div class=\"row justify-content-end\">
+            <div class=\"col-sm\">
+                <div>
+                    <a href=\"\" title=\"\">
                         <img class=\"img-fluid\" src=\"";
         // line 13
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder-person_698x440.png"), "html", null, true);
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder_840x560.jpg"), "html", null, true);
         yield "\"
-                             alt=\"Foto\">
+                             alt=\"\">
                     </a>
                     <div class=\"studiesoverview\">
                         <h2>
                             <a href=\"";
         // line 18
-        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographytemplate");
-        yield "\" title=\"Interview mit Julia Camargo ansehen\">
-                                Biografie
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_vw");
+        yield "\" title=\"\">
+                                Yehuda Blum und die Kasztner Gruppe
                             </a>
                         </h2>
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua...
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing
+                            elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum ...
                             <a class=\"more\" href=\"";
         // line 24
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographytemplate");
@@ -124,63 +121,31 @@ class __TwigTemplate_4bf3c07e898c90defc8949409c392250 extends Template
                     </div>
                 </div>
             </div>
-            <div class=\"col\">
-                <div class=\"biographies\">
+            <div class=\"col-sm offset-lg-1\">
+                <div>
                     <a href=\"";
         // line 31
-        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographytemplate");
-        yield "\" title=\"Biografie lesen\">
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_sources");
+        yield "\" title=\"\">
                         <img class=\"img-fluid\" src=\"";
         // line 32
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder-person_698x440.png"), "html", null, true);
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder_840x560.jpg"), "html", null, true);
         yield "\"
-                             alt=\"Foto\">
+                             alt=\"\">
                     </a>
                     <div class=\"studiesoverview\">
                         <h2>
                             <a href=\"";
         // line 37
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographytemplate");
-        yield "\" title=\"Biographie lesen\">
-                                Biografie
+        yield "\" title=\"\">
+                                Gyula Fürst
                             </a>
                         </h2>
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua
+                        <p>Dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
                             ...
                             <a class=\"more\" href=\"";
-        // line 44
-        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographytemplate");
-        yield "\" title=\"Weiterlesen\">[mehr]</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class=\"col\">
-                <div class=\"biographies\">
-                    <a href=\"";
-        // line 51
-        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographytemplate");
-        yield "\" title=\"Biografie lesen\">
-                        <img class=\"img-fluid\" src=\"";
-        // line 52
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder-person_698x440.png"), "html", null, true);
-        yield "\"
-                             alt=\"Foto\">
-                    </a>
-                    <div class=\"studiesoverview\">
-                        <h2>
-                            <a href=\"";
-        // line 57
-        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographytemplate");
-        yield "\" title=\"Biografie lesen\">
-                                Biografie
-                            </a>
-                        </h2>
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua ...
-                            <a class=\"more\" href=\"";
-        // line 63
+        // line 43
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographytemplate");
         yield "\" title=\"Weiterlesen\">[mehr]</a>
                         </p>
@@ -189,93 +154,64 @@ class __TwigTemplate_4bf3c07e898c90defc8949409c392250 extends Template
             </div>
         </div>
 
-        <div class=\"row row-cols-1 row-cols-md-3 g-3\">
-            <div class=\"col\">
-                <div class=\"biographies\">
+        <div class=\"row g-4 mt-2\">
+            <div class=\"col-sm\">
+                <div>
+                    <a href=\"";
+        // line 53
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographytemplate");
+        yield "\" title=\"\">
+                        <img class=\"img-fluid\" src=\"";
+        // line 54
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder_840x560.jpg"), "html", null, true);
+        yield "\"
+                             alt=\"\">
+                    </a>
+                    <div class=\"studiesoverview\">
+                        <h2>
+                            <a href=\"";
+        // line 59
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographytemplate");
+        yield "\" title=\"\">
+                                Katharina Hardy - Das DP-Camp Bergen-Belsen
+                            </a>
+                        </h2>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing
+                            elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum ...
+                            <a class=\"more\" href=\"";
+        // line 65
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographytemplate");
+        yield "\" title=\"Weiterlesen\">[mehr]</a>
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class=\"col-sm offset-lg-1\">
+                <div>
                     <a href=\"";
         // line 73
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographytemplate");
-        yield "\" title=\"Biografie lesen\">
+        yield "\" title=\"\">
                         <img class=\"img-fluid\" src=\"";
         // line 74
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder-person_698x440.png"), "html", null, true);
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder_840x560.jpg"), "html", null, true);
         yield "\"
-                             alt=\"Foto\">
+                             alt=\"\">
                     </a>
                     <div class=\"studiesoverview\">
                         <h2>
                             <a href=\"";
         // line 79
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographytemplate");
-        yield "\"
-                               title=\"Interview mit Barbara Guggenheim ansehen\">
-                                Biografie
+        yield "\" title=\"\">
+                                Die Schwestern Lea und Zsuzsa Merényi
                             </a>
                         </h2>
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua ...
+                        <p>Dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                            ...
                             <a class=\"more\" href=\"";
-        // line 86
-        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographytemplate");
-        yield "\" title=\"Weiterlesen\">[mehr]</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class=\"col\">
-                <div class=\"biographies\">
-                    <a href=\"";
-        // line 93
-        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographytemplate");
-        yield "\" title=\"Biografie lesen\">
-                        <img class=\"img-fluid\" src=\"";
-        // line 94
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder-person_698x440.png"), "html", null, true);
-        yield "\"
-                             alt=\"Foto\">
-                    </a>
-                    <div class=\"studiesoverview\">
-                        <h2>
-                            <a href=\"";
-        // line 99
-        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographytemplate");
-        yield "\" title=\"Biografie lesen\">
-                                Biografie</a>
-                        </h2>
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua ...
-                            <a class=\"more\" href=\"";
-        // line 104
-        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographytemplate");
-        yield "\" title=\"Weiterlesen\">[mehr]</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class=\"col\">
-                <div class=\"biographies\">
-                    <a href=\"";
-        // line 111
-        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographytemplate");
-        yield "\" title=\"Biografie lesen\">
-                        <img class=\"img-fluid\" src=\"";
-        // line 112
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder-person_698x440.png"), "html", null, true);
-        yield "\"
-                             alt=\"Foto\">
-                    </a>
-                    <div class=\"studiesoverview\">
-                        <h2>
-                            <a href=\"";
-        // line 117
-        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographytemplate");
-        yield "\" title=\"Biografie lesen\"\">
-                                Biografie</a>
-                        </h2>
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua ...
-                            <a class=\"more\" href=\"";
-        // line 122
+        // line 85
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographytemplate");
         yield "\" title=\"Weiterlesen\">[mehr]</a>
                         </p>
@@ -318,7 +254,7 @@ class __TwigTemplate_4bf3c07e898c90defc8949409c392250 extends Template
      */
     public function getDebugInfo()
     {
-        return array (  279 => 122,  271 => 117,  263 => 112,  259 => 111,  249 => 104,  241 => 99,  233 => 94,  229 => 93,  219 => 86,  209 => 79,  201 => 74,  197 => 73,  184 => 63,  175 => 57,  167 => 52,  163 => 51,  153 => 44,  143 => 37,  135 => 32,  131 => 31,  121 => 24,  112 => 18,  104 => 13,  100 => 12,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
+        return array (  215 => 85,  206 => 79,  198 => 74,  194 => 73,  183 => 65,  174 => 59,  166 => 54,  162 => 53,  149 => 43,  140 => 37,  132 => 32,  128 => 31,  118 => 24,  109 => 18,  101 => 13,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -331,60 +267,40 @@ class __TwigTemplate_4bf3c07e898c90defc8949409c392250 extends Template
 
     <div class=\"container g-4 py-5\">
 
-        <div class=\"row row-cols-1 row-cols-md-3 g-3\">
-            <div class=\"col\">
-                <div class=\"biographies\">
-                    <a href=\"{{ path('app_biographytemplate') }}\" title=\"Biografie lesen\">
-                        <img class=\"img-fluid\" src=\"{{ asset('images/placeholder-person_698x440.png') }}\"
-                             alt=\"Foto\">
+        <div class=\"row justify-content-end\">
+            <div class=\"col-sm\">
+                <div>
+                    <a href=\"\" title=\"\">
+                        <img class=\"img-fluid\" src=\"{{ asset('images/placeholder_840x560.jpg') }}\"
+                             alt=\"\">
                     </a>
                     <div class=\"studiesoverview\">
                         <h2>
-                            <a href=\"{{ path('app_biographytemplate') }}\" title=\"Interview mit Julia Camargo ansehen\">
-                                Biografie
+                            <a href=\"{{ path('app_deportation_vw') }}\" title=\"\">
+                                Yehuda Blum und die Kasztner Gruppe
                             </a>
                         </h2>
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua...
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing
+                            elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum ...
                             <a class=\"more\" href=\"{{ path('app_biographytemplate') }}\" title=\"Weiterlesen\">[mehr]</a>
                         </p>
                     </div>
                 </div>
             </div>
-            <div class=\"col\">
-                <div class=\"biographies\">
-                    <a href=\"{{ path('app_biographytemplate') }}\" title=\"Biografie lesen\">
-                        <img class=\"img-fluid\" src=\"{{ asset('images/placeholder-person_698x440.png') }}\"
-                             alt=\"Foto\">
+            <div class=\"col-sm offset-lg-1\">
+                <div>
+                    <a href=\"{{ path('app_sources') }}\" title=\"\">
+                        <img class=\"img-fluid\" src=\"{{ asset('images/placeholder_840x560.jpg') }}\"
+                             alt=\"\">
                     </a>
                     <div class=\"studiesoverview\">
                         <h2>
-                            <a href=\"{{ path('app_biographytemplate') }}\" title=\"Biographie lesen\">
-                                Biografie
+                            <a href=\"{{ path('app_biographytemplate') }}\" title=\"\">
+                                Gyula Fürst
                             </a>
                         </h2>
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua
+                        <p>Dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
                             ...
-                            <a class=\"more\" href=\"{{ path('app_biographytemplate') }}\" title=\"Weiterlesen\">[mehr]</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class=\"col\">
-                <div class=\"biographies\">
-                    <a href=\"{{ path('app_biographytemplate') }}\" title=\"Biografie lesen\">
-                        <img class=\"img-fluid\" src=\"{{ asset('images/placeholder-person_698x440.png') }}\"
-                             alt=\"Foto\">
-                    </a>
-                    <div class=\"studiesoverview\">
-                        <h2>
-                            <a href=\"{{ path('app_biographytemplate') }}\" title=\"Biografie lesen\">
-                                Biografie
-                            </a>
-                        </h2>
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua ...
                             <a class=\"more\" href=\"{{ path('app_biographytemplate') }}\" title=\"Weiterlesen\">[mehr]</a>
                         </p>
                     </div>
@@ -392,58 +308,41 @@ class __TwigTemplate_4bf3c07e898c90defc8949409c392250 extends Template
             </div>
         </div>
 
-        <div class=\"row row-cols-1 row-cols-md-3 g-3\">
-            <div class=\"col\">
-                <div class=\"biographies\">
-                    <a href=\"{{ path('app_biographytemplate') }}\" title=\"Biografie lesen\">
-                        <img class=\"img-fluid\" src=\"{{ asset('images/placeholder-person_698x440.png') }}\"
-                             alt=\"Foto\">
+        <div class=\"row g-4 mt-2\">
+            <div class=\"col-sm\">
+                <div>
+                    <a href=\"{{ path('app_biographytemplate') }}\" title=\"\">
+                        <img class=\"img-fluid\" src=\"{{ asset('images/placeholder_840x560.jpg') }}\"
+                             alt=\"\">
                     </a>
                     <div class=\"studiesoverview\">
                         <h2>
-                            <a href=\"{{ path('app_biographytemplate') }}\"
-                               title=\"Interview mit Barbara Guggenheim ansehen\">
-                                Biografie
+                            <a href=\"{{ path('app_biographytemplate') }}\" title=\"\">
+                                Katharina Hardy - Das DP-Camp Bergen-Belsen
                             </a>
                         </h2>
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua ...
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing
+                            elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum ...
                             <a class=\"more\" href=\"{{ path('app_biographytemplate') }}\" title=\"Weiterlesen\">[mehr]</a>
+
                         </p>
                     </div>
                 </div>
             </div>
-            <div class=\"col\">
-                <div class=\"biographies\">
-                    <a href=\"{{ path('app_biographytemplate') }}\" title=\"Biografie lesen\">
-                        <img class=\"img-fluid\" src=\"{{ asset('images/placeholder-person_698x440.png') }}\"
-                             alt=\"Foto\">
+            <div class=\"col-sm offset-lg-1\">
+                <div>
+                    <a href=\"{{ path('app_biographytemplate') }}\" title=\"\">
+                        <img class=\"img-fluid\" src=\"{{ asset('images/placeholder_840x560.jpg') }}\"
+                             alt=\"\">
                     </a>
                     <div class=\"studiesoverview\">
                         <h2>
-                            <a href=\"{{ path('app_biographytemplate') }}\" title=\"Biografie lesen\">
-                                Biografie</a>
+                            <a href=\"{{ path('app_biographytemplate') }}\" title=\"\">
+                                Die Schwestern Lea und Zsuzsa Merényi
+                            </a>
                         </h2>
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua ...
-                            <a class=\"more\" href=\"{{ path('app_biographytemplate') }}\" title=\"Weiterlesen\">[mehr]</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class=\"col\">
-                <div class=\"biographies\">
-                    <a href=\"{{ path('app_biographytemplate') }}\" title=\"Biografie lesen\">
-                        <img class=\"img-fluid\" src=\"{{ asset('images/placeholder-person_698x440.png') }}\"
-                             alt=\"Foto\">
-                    </a>
-                    <div class=\"studiesoverview\">
-                        <h2>
-                            <a href=\"{{ path('app_biographytemplate') }}\" title=\"Biografie lesen\"\">
-                                Biografie</a>
-                        </h2>
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua ...
+                        <p>Dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                            ...
                             <a class=\"more\" href=\"{{ path('app_biographytemplate') }}\" title=\"Weiterlesen\">[mehr]</a>
                         </p>
                     </div>
