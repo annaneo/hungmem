@@ -111,10 +111,9 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
                             Orte und Geografische Einordnung
                         </a>
                         </h2>
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing
-                            elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum ...
+                        <p>Jedes zehnte Holocaust-Opfer stammte aus Ungarn in seinen damaligen Grenzen. Tausende von ihnen wurden zur Zwangsarbeit in Rüstungsbetrieben nach Norddeutschland deportiert. Die hier präsentierten Fallstudien beleuchten schlaglichtartig den Zusammenhang zwischen Holocaust und Kriegsverlauf im regionalen Kontext.
                             <a class=\"more\" href=\"";
-        // line 24
+        // line 23
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_map");
         yield "\" title=\"Weiterlesen\">[mehr]</a>
                         </p>
@@ -124,11 +123,11 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
             <div class=\"col-sm offset-lg-1\">
                 <div>
                     <a href=\"";
-        // line 31
+        // line 30
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_sources");
         yield "\" title=\"\">
                         <img class=\"img-fluid\" src=\"";
-        // line 32
+        // line 31
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder_840x560.jpg"), "html", null, true);
         yield "\"
                              alt=\"\">
@@ -136,7 +135,7 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
                     <div class=\"studiesoverview\">
                         <h2>
                             <a href=\"";
-        // line 37
+        // line 36
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_context");
         yield "\" title=\"\">
                             (Un)bekannte Daten und Quellen
@@ -145,7 +144,7 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
                         <p>Dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
                             ...
                             <a class=\"more\" href=\"";
-        // line 43
+        // line 42
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_context");
         yield "\" title=\"Weiterlesen\">[mehr]</a>
                         </p>
@@ -158,11 +157,11 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
             <div class=\"col-sm\">
                 <div>
                     <a href=\"";
-        // line 53
+        // line 52
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation");
         yield "\" title=\"\">
                         <img class=\"img-fluid\" src=\"";
-        // line 54
+        // line 53
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder_840x560.jpg"), "html", null, true);
         yield "\"
                              alt=\"\">
@@ -170,16 +169,15 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
                     <div class=\"studiesoverview\">
                         <h2>
                             <a href=\"";
-        // line 59
+        // line 58
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation");
         yield "\" title=\"\">
                                 Fallstudien zu Deportationsrouten
                             </a>
                         </h2>
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing
-                            elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum ...
+                        <p>In weniger als zwei Monaten verschleppten die Nationalsozialisten nach der deutschen Besatzung Ungarns im März 1944 etwa 440.000 Jüdinnen und Juden in das Konzentrations- und Vernichtungslager Auschwitz, wo der Großteil unmittelbar bei der Ankunft ermordet wurde. Nur etwa ein Drittel wurde bei den „Selektionen“ ausgewählt, um Zwangsarbeit für das Deutsche Reich zu leisten, unter anderem in einem der über tausend Außenlager des nationalsozialistischen KZ-Systems. Die hier präsentierten Fallstudien geben an konkreten Beispielen Einblicke in das System der NS-Zwangsarbeit, indem sie Deportationsrouten, Häftlingsgruppen und die Bedingungen in den Lagern beleuchten.
                             <a class=\"more\" href=\"";
-        // line 65
+        // line 63
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation");
         yield "\" title=\"Weiterlesen\">[mehr]</a>
 
@@ -190,11 +188,11 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
             <div class=\"col-sm offset-lg-1\">
                 <div>
                     <a href=\"";
-        // line 73
+        // line 71
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographies");
         yield "\" title=\"\">
                         <img class=\"img-fluid\" src=\"";
-        // line 74
+        // line 72
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder_840x560.jpg"), "html", null, true);
         yield "\"
                              alt=\"\">
@@ -202,16 +200,15 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
                     <div class=\"studiesoverview\">
                         <h2>
                             <a href=\"";
-        // line 79
+        // line 77
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographies");
         yield "\" title=\"\">
                                 Biografische Einzelfallstudien
                             </a>
                         </h2>
-                        <p>Dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-                            ...
+                        <p>Von einem Großteil der aus Ungarn deportierten Menschen sind bis heute keine Namen bekannt. Gleichzeitig bilden die Interviews der Überlebenden eine wichtige Grundlage für Forschung und Gedenken. Nur mit ihrer Hilfe lassen sich Deportationsroute, Haftbedingungen du individuelle (Über-)Lebenswegen rekonstruieren. Die hier präsentierten Fallstudien stellen ausgewählte Biografien vor, deren Schicksale zugleich stellvertretend für größere Gruppen stehen.
                             <a class=\"more\" href=\"";
-        // line 85
+        // line 82
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographies");
         yield "\" title=\"Weiterlesen\">[mehr]</a>
                         </p>
@@ -254,7 +251,7 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
      */
     public function getDebugInfo()
     {
-        return array (  215 => 85,  206 => 79,  198 => 74,  194 => 73,  183 => 65,  174 => 59,  166 => 54,  162 => 53,  149 => 43,  140 => 37,  132 => 32,  128 => 31,  118 => 24,  109 => 18,  101 => 13,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
+        return array (  212 => 82,  204 => 77,  196 => 72,  192 => 71,  181 => 63,  173 => 58,  165 => 53,  161 => 52,  148 => 42,  139 => 36,  131 => 31,  127 => 30,  117 => 23,  109 => 18,  101 => 13,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -280,8 +277,7 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
                             Orte und Geografische Einordnung
                         </a>
                         </h2>
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing
-                            elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum ...
+                        <p>Jedes zehnte Holocaust-Opfer stammte aus Ungarn in seinen damaligen Grenzen. Tausende von ihnen wurden zur Zwangsarbeit in Rüstungsbetrieben nach Norddeutschland deportiert. Die hier präsentierten Fallstudien beleuchten schlaglichtartig den Zusammenhang zwischen Holocaust und Kriegsverlauf im regionalen Kontext.
                             <a class=\"more\" href=\"{{ path('app_map') }}\" title=\"Weiterlesen\">[mehr]</a>
                         </p>
                     </div>
@@ -321,8 +317,7 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
                                 Fallstudien zu Deportationsrouten
                             </a>
                         </h2>
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing
-                            elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum ...
+                        <p>In weniger als zwei Monaten verschleppten die Nationalsozialisten nach der deutschen Besatzung Ungarns im März 1944 etwa 440.000 Jüdinnen und Juden in das Konzentrations- und Vernichtungslager Auschwitz, wo der Großteil unmittelbar bei der Ankunft ermordet wurde. Nur etwa ein Drittel wurde bei den „Selektionen“ ausgewählt, um Zwangsarbeit für das Deutsche Reich zu leisten, unter anderem in einem der über tausend Außenlager des nationalsozialistischen KZ-Systems. Die hier präsentierten Fallstudien geben an konkreten Beispielen Einblicke in das System der NS-Zwangsarbeit, indem sie Deportationsrouten, Häftlingsgruppen und die Bedingungen in den Lagern beleuchten.
                             <a class=\"more\" href=\"{{ path('app_deportation') }}\" title=\"Weiterlesen\">[mehr]</a>
 
                         </p>
@@ -341,8 +336,7 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
                                 Biografische Einzelfallstudien
                             </a>
                         </h2>
-                        <p>Dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-                            ...
+                        <p>Von einem Großteil der aus Ungarn deportierten Menschen sind bis heute keine Namen bekannt. Gleichzeitig bilden die Interviews der Überlebenden eine wichtige Grundlage für Forschung und Gedenken. Nur mit ihrer Hilfe lassen sich Deportationsroute, Haftbedingungen du individuelle (Über-)Lebenswegen rekonstruieren. Die hier präsentierten Fallstudien stellen ausgewählte Biografien vor, deren Schicksale zugleich stellvertretend für größere Gruppen stehen.
                             <a class=\"more\" href=\"{{ path('app_biographies') }}\" title=\"Weiterlesen\">[mehr]</a>
                         </p>
                     </div>
