@@ -475,8 +475,37 @@ class __TwigTemplate_159059b59ec408517eb1da56d3806dcf extends Template
         <h3 class=\"mt-4\">Bibliographie</h3>
         <div class=\"row\">
             <div class=\"col-lg-8\">
-                <p>
-                </p>
+                <ol>
+                    <li id=\"endnote1\"> <a href=\"#footnote1\">&uarr;</a></li>
+                    <li id=\"endnote2\"> <a href=\"#footnote2\">&uarr;</a></li>
+                    <li id=\"endnote3\"> <a href=\"#footnote3\">&uarr;</a></li>
+                    <li id=\"endnote4\"> <a href=\"#footnote4\">&uarr;</a></li>
+                    <li id=\"endnote5\"> <a href=\"#footnote5\">&uarr;</a></li>
+                    <li id=\"endnote6\"> <a href=\"#footnote6\">&uarr;</a></li>
+                    <li id=\"endnote7\"> <a href=\"#footnote7\">&uarr;</a></li>
+                    <li id=\"endnote8\"> <a href=\"#footnote8\">&uarr;</a></li>
+                    <li id=\"endnote9\"> <a href=\"#footnote9\">&uarr;</a></li>
+                    <li id=\"endnote10\"> <a href=\"#footnote10\">&uarr;</a></li>
+                    <li id=\"endnote11\"> <a href=\"#footnote11\">&uarr;</a></li>
+                    <li id=\"endnote12\"> <a href=\"#footnote12\">&uarr;</a></li>
+                    <li id=\"endnote13\"> <a href=\"#footnote13\">&uarr;</a></li>
+                    <li id=\"endnote14\"> <a href=\"#footnote14\">&uarr;</a></li>
+                    <li id=\"endnote15\"> <a href=\"#footnote15\">&uarr;</a></li>
+                    <li id=\"endnote16\"> <a href=\"#footnote16\">&uarr;</a></li>
+                    <li id=\"endnote17\"> <a href=\"#footnote17\">&uarr;</a></li>
+                    <li id=\"endnote18\"> <a href=\"#footnote18\">&uarr;</a></li>
+                    <li id=\"endnote19\"> <a href=\"#footnote19\">&uarr;</a></li>
+                    <li id=\"endnote20\"> <a href=\"#footnote20\">&uarr;</a></li>
+                    <li id=\"endnote21\"> <a href=\"#footnote21\">&uarr;</a></li>
+                    <li id=\"endnote22\"> <a href=\"#footnote22\">&uarr;</a></li>
+                    <li id=\"endnote23\"> <a href=\"#footnote23\">&uarr;</a></li>
+                    <li id=\"endnote24\"> <a href=\"#footnote24\">&uarr;</a></li>
+                    <li id=\"endnote25\"> <a href=\"#footnote25\">&uarr;</a></li>
+                    <li id=\"endnote26\"> <a href=\"#footnote26\">&uarr;</a></li>
+                    <li id=\"endnote27\"> <a href=\"#footnote27\">&uarr;</a></li>
+                    <li id=\"endnote28\"> <a href=\"#footnote28\">&uarr;</a></li>
+                    <li id=\"endnote29\"> <a href=\"#footnote29\">&uarr;</a></li>
+                </ol>
             </div>
             <div class=\"col-lg-4\">
                 <p>
@@ -488,7 +517,10 @@ class __TwigTemplate_159059b59ec408517eb1da56d3806dcf extends Template
         <div class=\"row\">
             <div class=\"col-lg-8\">
                 <p>
-                    Autor/in: Titel, in: Holocaust in Ungarn und Deportationen nach Norddeutschland 1944, hrsg. vom Institut für die Geschichte der deutschen Juden, URL: www.url.de, DATUM.
+                    Louis Wörner: Titel, in: Holocaust in Ungarn und Deportationen nach Norddeutschland 1944, hrsg. vom Institut für die Geschichte der deutschen Juden, URL: https://holocaust-ungarn-norddeutschland.de";
+        // line 411
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_vw");
+        yield ".
                 </p>
             </div>
         </div>
@@ -526,7 +558,7 @@ class __TwigTemplate_159059b59ec408517eb1da56d3806dcf extends Template
      */
     public function getDebugInfo()
     {
-        return array (  433 => 325,  330 => 225,  245 => 143,  239 => 140,  234 => 138,  228 => 135,  139 => 49,  95 => 7,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
+        return array (  522 => 411,  433 => 325,  330 => 225,  245 => 143,  239 => 140,  234 => 138,  228 => 135,  139 => 49,  95 => 7,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -899,8 +931,37 @@ class __TwigTemplate_159059b59ec408517eb1da56d3806dcf extends Template
         <h3 class=\"mt-4\">Bibliographie</h3>
         <div class=\"row\">
             <div class=\"col-lg-8\">
-                <p>
-                </p>
+                <ol>
+                    <li id=\"endnote1\"> <a href=\"#footnote1\">&uarr;</a></li>
+                    <li id=\"endnote2\"> <a href=\"#footnote2\">&uarr;</a></li>
+                    <li id=\"endnote3\"> <a href=\"#footnote3\">&uarr;</a></li>
+                    <li id=\"endnote4\"> <a href=\"#footnote4\">&uarr;</a></li>
+                    <li id=\"endnote5\"> <a href=\"#footnote5\">&uarr;</a></li>
+                    <li id=\"endnote6\"> <a href=\"#footnote6\">&uarr;</a></li>
+                    <li id=\"endnote7\"> <a href=\"#footnote7\">&uarr;</a></li>
+                    <li id=\"endnote8\"> <a href=\"#footnote8\">&uarr;</a></li>
+                    <li id=\"endnote9\"> <a href=\"#footnote9\">&uarr;</a></li>
+                    <li id=\"endnote10\"> <a href=\"#footnote10\">&uarr;</a></li>
+                    <li id=\"endnote11\"> <a href=\"#footnote11\">&uarr;</a></li>
+                    <li id=\"endnote12\"> <a href=\"#footnote12\">&uarr;</a></li>
+                    <li id=\"endnote13\"> <a href=\"#footnote13\">&uarr;</a></li>
+                    <li id=\"endnote14\"> <a href=\"#footnote14\">&uarr;</a></li>
+                    <li id=\"endnote15\"> <a href=\"#footnote15\">&uarr;</a></li>
+                    <li id=\"endnote16\"> <a href=\"#footnote16\">&uarr;</a></li>
+                    <li id=\"endnote17\"> <a href=\"#footnote17\">&uarr;</a></li>
+                    <li id=\"endnote18\"> <a href=\"#footnote18\">&uarr;</a></li>
+                    <li id=\"endnote19\"> <a href=\"#footnote19\">&uarr;</a></li>
+                    <li id=\"endnote20\"> <a href=\"#footnote20\">&uarr;</a></li>
+                    <li id=\"endnote21\"> <a href=\"#footnote21\">&uarr;</a></li>
+                    <li id=\"endnote22\"> <a href=\"#footnote22\">&uarr;</a></li>
+                    <li id=\"endnote23\"> <a href=\"#footnote23\">&uarr;</a></li>
+                    <li id=\"endnote24\"> <a href=\"#footnote24\">&uarr;</a></li>
+                    <li id=\"endnote25\"> <a href=\"#footnote25\">&uarr;</a></li>
+                    <li id=\"endnote26\"> <a href=\"#footnote26\">&uarr;</a></li>
+                    <li id=\"endnote27\"> <a href=\"#footnote27\">&uarr;</a></li>
+                    <li id=\"endnote28\"> <a href=\"#footnote28\">&uarr;</a></li>
+                    <li id=\"endnote29\"> <a href=\"#footnote29\">&uarr;</a></li>
+                </ol>
             </div>
             <div class=\"col-lg-4\">
                 <p>
@@ -912,7 +973,7 @@ class __TwigTemplate_159059b59ec408517eb1da56d3806dcf extends Template
         <div class=\"row\">
             <div class=\"col-lg-8\">
                 <p>
-                    Autor/in: Titel, in: Holocaust in Ungarn und Deportationen nach Norddeutschland 1944, hrsg. vom Institut für die Geschichte der deutschen Juden, URL: www.url.de, DATUM.
+                    Louis Wörner: Titel, in: Holocaust in Ungarn und Deportationen nach Norddeutschland 1944, hrsg. vom Institut für die Geschichte der deutschen Juden, URL: https://holocaust-ungarn-norddeutschland.de{{ path('app_deportation_vw') }}.
                 </p>
             </div>
         </div>

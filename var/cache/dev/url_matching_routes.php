@@ -20,7 +20,7 @@ return [
         '/hungmem' => [[['_route' => 'app_about', '_controller' => 'App\\Controller\\SiteController::about'], null, null, null, false, false, null]],
         '/impressum' => [[['_route' => 'app_imprint', '_controller' => 'App\\Controller\\SiteController::imprint'], null, null, null, false, false, null]],
         '/api/json' => [[['_route' => 'app_jsonapi', '_controller' => 'App\\Controller\\SiteController::jsonapi'], null, null, null, false, false, null]],
-        '/deportationen/vw' => [[['_route' => 'app_deportation_vw', '_controller' => 'App\\Controller\\SiteController::deportationVw'], null, null, null, false, false, null]],
+        '/deportationen/gruppe-der-300' => [[['_route' => 'app_deportation_vw', '_controller' => 'App\\Controller\\SiteController::deportationVw'], null, null, null, false, false, null]],
         '/deportationen/salzwedel' => [[['_route' => 'app_deportation_salzwedel', '_controller' => 'App\\Controller\\SiteController::deportationSalzwedel'], null, null, null, false, false, null]],
         '/studytemplate' => [[['_route' => 'app_studytemplate', '_controller' => 'App\\Controller\\SiteController::studytemplate'], null, null, null, false, false, null]],
         '/biographytemplate' => [[['_route' => 'app_biographytemplate', '_controller' => 'App\\Controller\\SiteController::biographytemplate'], null, null, null, false, false, null]],

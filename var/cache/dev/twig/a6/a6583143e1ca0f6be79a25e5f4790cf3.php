@@ -89,6 +89,9 @@ class __TwigTemplate_9fd10a5becac467aa0d11ad2d4000e9d extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
         // line 6
+        yield "    ";
+        yield from         $this->loadTemplate("elements/navigation.html.twig", "site/imprint.html.twig", 6)->unwrap()->yield($context);
+        // line 7
         yield "
     <div class=\"container g-4 py-5\">
     <h2>Impressum</h2>
@@ -133,7 +136,7 @@ class __TwigTemplate_9fd10a5becac467aa0d11ad2d4000e9d extends Template
         <div class=\"partner\">
             <a href=\"https://bergen-belsen.stiftung-ng.de/de/\" tilte=\"Website der Gedenkstätte\">
                 <img class=\"img-fluid\" src=\"";
-        // line 49
+        // line 50
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/logos/bergen-belsen.png"), "html", null, true);
         yield "\"
                      alt=\"Logo der Gedenkstätte KZ Bergen Belsen\"/>
@@ -143,7 +146,7 @@ class __TwigTemplate_9fd10a5becac467aa0d11ad2d4000e9d extends Template
         <div class=\"partner\">
             <a href=\"https://www.kz-gedenkstaette-neuengamme.de/\" tilte=\"Website der Gedenkstätte\">
                 <img class=\"img-fluid\" src=\"";
-        // line 56
+        // line 57
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/logos/neuengamme.png"), "html", null, true);
         yield "\"
                      alt=\"Logo der Gedenkstätte KZ Neuengamme\"/>
@@ -164,7 +167,7 @@ class __TwigTemplate_9fd10a5becac467aa0d11ad2d4000e9d extends Template
         <div class=\"row partner\">
             <a href=\"https://commission.europa.eu/index_de\" tilte=\"Website der Europäischen Kommission\">
                 <img class=\"img-fluid\" src=\"";
-        // line 74
+        // line 75
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/logos/European_Commission_logo.png"), "html", null, true);
         yield "\"
                      alt=\"Logo der EU Commission\"/>
@@ -229,7 +232,7 @@ class __TwigTemplate_9fd10a5becac467aa0d11ad2d4000e9d extends Template
      */
     public function getDebugInfo()
     {
-        return array (  168 => 74,  147 => 56,  137 => 49,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
+        return array (  171 => 75,  150 => 57,  140 => 50,  95 => 7,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -239,6 +242,7 @@ class __TwigTemplate_9fd10a5becac467aa0d11ad2d4000e9d extends Template
 {% block title %} Impressum | {{ parent() }} {% endblock %}
 
 {% block body %}
+    {% include 'elements/navigation.html.twig' %}
 
     <div class=\"container g-4 py-5\">
     <h2>Impressum</h2>

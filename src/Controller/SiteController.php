@@ -80,11 +80,11 @@ class SiteController extends AbstractController
 
     // SUBPAGES
 
-    #[Route('/deportationen/vw', name: 'app_deportation_vw')]
+    #[Route('/deportationen/gruppe-der-300', name: 'app_deportation_vw')]
     public function deportationVw(): Response
     {
-        return $this->render('studies/study.html.twig', [
-            'title' => 'Fallstudie VW'
+        return $this->render('studies/gruppe-der-300.html.twig', [
+            'title' => 'Fallstudie 300er-Gruppe'
         ]);
     }
 

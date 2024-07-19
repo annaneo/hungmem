@@ -98,19 +98,22 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
         <div class=\"row justify-content-end\">
             <div class=\"col-sm\">
                 <div>
-                    <a href=\"\" title=\"\">
+                    <a href=\"";
+        // line 13
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_vw");
+        yield "\" title=\"Zur Fallstudie der Gruppe der 300\">
                         <img class=\"img-fluid\" src=\"";
         // line 14
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/studies/Titelbild-300-V1-Produktion.png"), "html", null, true);
         yield "\"
-                             alt=\"\">
+                             alt=\"Produktion der V1-Rakete: Ansicht der unterirdischen Produktionsstätte\">
                     </a>
                     <div class=\"studiesoverview\">
                         <h2>
                             <a href=\"";
         // line 19
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_vw");
-        yield "\" title=\"\">
+        yield "\" title=\"Zur Fallstudie der Gruppe der 300\">
                                 „Gruppe der 300“ bei VW
                             </a>
                         </h2>
@@ -257,7 +260,7 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
      */
     public function getDebugInfo()
     {
-        return array (  218 => 86,  209 => 80,  201 => 75,  197 => 74,  186 => 66,  177 => 60,  169 => 55,  165 => 54,  152 => 44,  143 => 38,  135 => 33,  131 => 32,  121 => 25,  112 => 19,  104 => 14,  95 => 7,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
+        return array (  221 => 86,  212 => 80,  204 => 75,  200 => 74,  189 => 66,  180 => 60,  172 => 55,  168 => 54,  155 => 44,  146 => 38,  138 => 33,  134 => 32,  124 => 25,  115 => 19,  107 => 14,  103 => 13,  95 => 7,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -274,13 +277,13 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
         <div class=\"row justify-content-end\">
             <div class=\"col-sm\">
                 <div>
-                    <a href=\"\" title=\"\">
+                    <a href=\"{{ path('app_deportation_vw') }}\" title=\"Zur Fallstudie der Gruppe der 300\">
                         <img class=\"img-fluid\" src=\"{{ asset('images/studies/Titelbild-300-V1-Produktion.png') }}\"
-                             alt=\"\">
+                             alt=\"Produktion der V1-Rakete: Ansicht der unterirdischen Produktionsstätte\">
                     </a>
                     <div class=\"studiesoverview\">
                         <h2>
-                            <a href=\"{{ path('app_deportation_vw') }}\" title=\"\">
+                            <a href=\"{{ path('app_deportation_vw') }}\" title=\"Zur Fallstudie der Gruppe der 300\">
                                 „Gruppe der 300“ bei VW
                             </a>
                         </h2>
