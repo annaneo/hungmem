@@ -89,6 +89,9 @@ class __TwigTemplate_8c385939753e07d05b6e9c10a975c74f extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
         // line 6
+        yield "    ";
+        yield from         $this->loadTemplate("elements/navigation-map.html.twig", "site/map.html.twig", 6)->unwrap()->yield($context);
+        // line 7
         yield "
     <div class=\"container g-4 py-5\">
         <h2>Übersicht der Lager mit aus Ungarn Deportierten</h2>
@@ -147,12 +150,12 @@ class __TwigTemplate_8c385939753e07d05b6e9c10a975c74f extends Template
     </div>
 
     ";
-        // line 64
+        // line 65
         yield "    <script>
 
         var isStudyIcon = L.icon({
             iconUrl: '";
-        // line 67
+        // line 68
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/icon_lilac.png"), "html", null, true);
         yield "',
             iconSize:     [45, 45], // size of the icon
@@ -161,7 +164,7 @@ class __TwigTemplate_8c385939753e07d05b6e9c10a975c74f extends Template
         });
         var isInDataIcon = L.icon({
             iconUrl: '";
-        // line 73
+        // line 74
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/icon_blue.png"), "html", null, true);
         yield "',
             iconSize:     [45, 45], // size of the icon
@@ -286,7 +289,7 @@ class __TwigTemplate_8c385939753e07d05b6e9c10a975c74f extends Template
      */
     public function getDebugInfo()
     {
-        return array (  165 => 73,  156 => 67,  151 => 64,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
+        return array (  168 => 74,  159 => 68,  154 => 65,  95 => 7,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -296,6 +299,7 @@ class __TwigTemplate_8c385939753e07d05b6e9c10a975c74f extends Template
 {% block title %} Kartenansicht Konzentrationslager | {{ parent() }} {% endblock %}
 
 {% block body %}
+    {% include 'elements/navigation-map.html.twig' %}
 
     <div class=\"container g-4 py-5\">
         <h2>Übersicht der Lager mit aus Ungarn Deportierten</h2>

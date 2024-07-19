@@ -89,6 +89,9 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
         // line 7
+        yield "    ";
+        yield from         $this->loadTemplate("elements/navigation-context.html.twig", "site/context.html.twig", 7)->unwrap()->yield($context);
+        // line 8
         yield "
 
     <div class=\"container g-4 py-5\">
@@ -122,7 +125,7 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
                 <div class=\"col\">
 
                     <a href=\"";
-        // line 39
+        // line 40
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/history/ungarn-1944.png"), "html", null, true);
         yield "\"
                        title=\"Karte vergrößern\"
@@ -130,7 +133,7 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
                        data-title=\"Karte Ungarns im Jahr 1944 mit annektierten Gebieten in der Slowakei, Karpatenukraine, Siebenbürgen, Prekmurje, Medimurje und Baranya Bácska.\">
                         <img class=\"gallery img-fluid\" style=\"width: 600px;\"
                              src=\"";
-        // line 44
+        // line 45
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/history/ungarn-1944.png"), "html", null, true);
         yield "\"
                              alt=\"Karte Ungarns im Jahr 1944 mit annektierten Gebieten in der Slowakei, Karpatenukraine, Siebenbürgen, Prekmurje, Medimurje und Baranya Bácska\"/>
@@ -209,7 +212,7 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
             </div>
             <div class=\"col-md-5\">
                 <img class=\"img-fluid\" style=\"width: 400px;\" src=\"";
-        // line 120
+        // line 121
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/history/ungarn-1944.png"), "html", null, true);
         yield "\"
                      alt=\"Foto des heutigen Joseph-Carlebach-Bildungshauses\"/>
@@ -219,7 +222,7 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
                 </div>
                 <img class=\"img-fluid\" class=\"mt-2\" style=\"width: 400px;\"
                      src=\"";
-        // line 127
+        // line 128
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/history/ungarn-1944.pngg"), "html", null, true);
         yield "\"
                      alt=\"Foto der Talmud-Tora-Schule im Jahr 1914\"/>
@@ -265,7 +268,7 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
             </div>
             <div class=\"col-md-5\">
                 <img class=\"img-fluid\" style=\"width: 440px;\" src=\"";
-        // line 170
+        // line 171
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/history/ungarn-1944.png"), "html", null, true);
         yield "\"
                      alt=\"Foto der Gedenktafel für das Auswandererschiff Exodus\"/>
@@ -306,7 +309,7 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
             </div>
             <div class=\"col-md-5\">
                 <img class=\"img-fluid\" style=\"width: 440px;\" src=\"";
-        // line 208
+        // line 209
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/history/ungarn-1944.png"), "html", null, true);
         yield "\"
                      alt=\"Foto mehrerer persisch-jüdischer Kinder, die an einem Tisch sitzen\"/>
@@ -349,7 +352,7 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
             </div>
             <div class=\"col-md-5\">
                 <img class=\"img-fluid\" style=\"width: 440px;\" src=\"";
-        // line 248
+        // line 249
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/history/ungarn-1944.png"), "html", null, true);
         yield "\"
                      alt=\"Scan des genehmigten Visumsantrag\"/>
@@ -358,7 +361,7 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
                 </div>
 
                 <img class=\"img-fluid\" style=\"width: 440px;\" src=\"";
-        // line 254
+        // line 255
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/history/ungarn-1944.png"), "html", null, true);
         yield "\"
                      alt=\"Scan des sowjetischen Passes\"/>
@@ -458,7 +461,7 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
      */
     public function getDebugInfo()
     {
-        return array (  362 => 254,  353 => 248,  310 => 208,  269 => 170,  223 => 127,  213 => 120,  134 => 44,  126 => 39,  92 => 7,  82 => 6,  60 => 3,  37 => 1,);
+        return array (  365 => 255,  356 => 249,  313 => 209,  272 => 171,  226 => 128,  216 => 121,  137 => 45,  129 => 40,  95 => 8,  92 => 7,  82 => 6,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -469,6 +472,7 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
 
 
 {% block body %}
+    {% include 'elements/navigation-context.html.twig' %}
 
 
     <div class=\"container g-4 py-5\">

@@ -89,7 +89,11 @@ class __TwigTemplate_66d4196d21ab5e5ec253c4177bba0bcb extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
         // line 6
+        yield "    ";
+        yield from         $this->loadTemplate("elements/navigation-sources.html.twig", "site/sources.html.twig", 6)->unwrap()->yield($context);
+        // line 7
         yield "
+
 
     <div class=\"container g-4 py-5\">
         <h2>Was wir wissen und was wir nicht wissen – Die Datenbasis dieser Präsentation</h2>
@@ -143,12 +147,12 @@ class __TwigTemplate_66d4196d21ab5e5ec253c4177bba0bcb extends Template
             </div>
             <div class=\"col-md\">
                 <img src=\"";
-        // line 59
+        // line 61
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/cc-by-nc-sa.png"), "html", null, true);
         yield "\"
                      alt=\"Emblem der CC BY-NC-ND Lizenz\"/>
                 <img class=\"mt-2\" src=\"";
-        // line 61
+        // line 63
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/cc-by.png"), "html", null, true);
         yield "\"
                      alt=\"Emblem der CC BY Lizenz\"/>
@@ -168,7 +172,7 @@ class __TwigTemplate_66d4196d21ab5e5ec253c4177bba0bcb extends Template
                     BY 4.0</a> zur Verfügung und
                 können unter Namensnennung in jedem Format oder Medium genutzt werden. Über eine
                 <a href=\"";
-        // line 78
+        // line 80
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_jsonapi");
         yield "\" target=\"_blank\" title=\"Öffnet JSON Schnittstelle in neuem Fenster\">JSON-Schnittstelle</a>
                 können Metadaten zu allen Interviews maschinenlesbar bezogen werde.
@@ -207,7 +211,7 @@ class __TwigTemplate_66d4196d21ab5e5ec253c4177bba0bcb extends Template
      */
     public function getDebugInfo()
     {
-        return array (  172 => 78,  152 => 61,  147 => 59,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
+        return array (  176 => 80,  156 => 63,  151 => 61,  95 => 7,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -217,6 +221,8 @@ class __TwigTemplate_66d4196d21ab5e5ec253c4177bba0bcb extends Template
 {% block title %} Quellen | {{ parent() }} {% endblock %}
 
 {% block body %}
+    {% include 'elements/navigation-sources.html.twig' %}
+
 
 
     <div class=\"container g-4 py-5\">

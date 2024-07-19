@@ -89,7 +89,11 @@ class __TwigTemplate_4bf3c07e898c90defc8949409c392250 extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
         // line 6
+        yield "    ";
+        yield from         $this->loadTemplate("elements/navigation-biographies.html.twig", "site/biographies.html.twig", 6)->unwrap()->yield($context);
+        // line 7
         yield "
+
     <div class=\"container g-4 py-5\">
 
         <div class=\"row justify-content-end\">
@@ -97,7 +101,7 @@ class __TwigTemplate_4bf3c07e898c90defc8949409c392250 extends Template
                 <div>
                     <a href=\"\" title=\"\">
                         <img class=\"img-fluid\" src=\"";
-        // line 13
+        // line 15
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder_840x560.jpg"), "html", null, true);
         yield "\"
                              alt=\"\">
@@ -105,8 +109,8 @@ class __TwigTemplate_4bf3c07e898c90defc8949409c392250 extends Template
                     <div class=\"studiesoverview\">
                         <h2>
                             <a href=\"";
-        // line 18
-        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_vw");
+        // line 20
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographytemplate");
         yield "\" title=\"\">
                                 Yehuda Blum und die Kasztner Gruppe
                             </a>
@@ -114,7 +118,7 @@ class __TwigTemplate_4bf3c07e898c90defc8949409c392250 extends Template
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing
                             elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum ...
                             <a class=\"more\" href=\"";
-        // line 24
+        // line 26
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographytemplate");
         yield "\" title=\"Weiterlesen\">[mehr]</a>
                         </p>
@@ -124,11 +128,11 @@ class __TwigTemplate_4bf3c07e898c90defc8949409c392250 extends Template
             <div class=\"col-sm offset-lg-1\">
                 <div>
                     <a href=\"";
-        // line 31
+        // line 33
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_sources");
         yield "\" title=\"\">
                         <img class=\"img-fluid\" src=\"";
-        // line 32
+        // line 34
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder_840x560.jpg"), "html", null, true);
         yield "\"
                              alt=\"\">
@@ -136,7 +140,7 @@ class __TwigTemplate_4bf3c07e898c90defc8949409c392250 extends Template
                     <div class=\"studiesoverview\">
                         <h2>
                             <a href=\"";
-        // line 37
+        // line 39
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographytemplate");
         yield "\" title=\"\">
                                 Gyula Fürst
@@ -145,7 +149,7 @@ class __TwigTemplate_4bf3c07e898c90defc8949409c392250 extends Template
                         <p>Dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
                             ...
                             <a class=\"more\" href=\"";
-        // line 43
+        // line 45
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographytemplate");
         yield "\" title=\"Weiterlesen\">[mehr]</a>
                         </p>
@@ -158,11 +162,11 @@ class __TwigTemplate_4bf3c07e898c90defc8949409c392250 extends Template
             <div class=\"col-sm\">
                 <div>
                     <a href=\"";
-        // line 53
+        // line 55
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographytemplate");
         yield "\" title=\"\">
                         <img class=\"img-fluid\" src=\"";
-        // line 54
+        // line 56
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder_840x560.jpg"), "html", null, true);
         yield "\"
                              alt=\"\">
@@ -170,7 +174,7 @@ class __TwigTemplate_4bf3c07e898c90defc8949409c392250 extends Template
                     <div class=\"studiesoverview\">
                         <h2>
                             <a href=\"";
-        // line 59
+        // line 61
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographytemplate");
         yield "\" title=\"\">
                                 Katharina Hardy - Das DP-Camp Bergen-Belsen
@@ -179,7 +183,7 @@ class __TwigTemplate_4bf3c07e898c90defc8949409c392250 extends Template
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing
                             elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum ...
                             <a class=\"more\" href=\"";
-        // line 65
+        // line 67
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographytemplate");
         yield "\" title=\"Weiterlesen\">[mehr]</a>
 
@@ -190,11 +194,11 @@ class __TwigTemplate_4bf3c07e898c90defc8949409c392250 extends Template
             <div class=\"col-sm offset-lg-1\">
                 <div>
                     <a href=\"";
-        // line 73
+        // line 75
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographytemplate");
         yield "\" title=\"\">
                         <img class=\"img-fluid\" src=\"";
-        // line 74
+        // line 76
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder_840x560.jpg"), "html", null, true);
         yield "\"
                              alt=\"\">
@@ -202,7 +206,7 @@ class __TwigTemplate_4bf3c07e898c90defc8949409c392250 extends Template
                     <div class=\"studiesoverview\">
                         <h2>
                             <a href=\"";
-        // line 79
+        // line 81
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographytemplate");
         yield "\" title=\"\">
                                 Die Schwestern Lea und Zsuzsa Merényi
@@ -211,7 +215,7 @@ class __TwigTemplate_4bf3c07e898c90defc8949409c392250 extends Template
                         <p>Dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
                             ...
                             <a class=\"more\" href=\"";
-        // line 85
+        // line 87
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographytemplate");
         yield "\" title=\"Weiterlesen\">[mehr]</a>
                         </p>
@@ -254,7 +258,7 @@ class __TwigTemplate_4bf3c07e898c90defc8949409c392250 extends Template
      */
     public function getDebugInfo()
     {
-        return array (  215 => 85,  206 => 79,  198 => 74,  194 => 73,  183 => 65,  174 => 59,  166 => 54,  162 => 53,  149 => 43,  140 => 37,  132 => 32,  128 => 31,  118 => 24,  109 => 18,  101 => 13,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
+        return array (  219 => 87,  210 => 81,  202 => 76,  198 => 75,  187 => 67,  178 => 61,  170 => 56,  166 => 55,  153 => 45,  144 => 39,  136 => 34,  132 => 33,  122 => 26,  113 => 20,  105 => 15,  95 => 7,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -264,6 +268,8 @@ class __TwigTemplate_4bf3c07e898c90defc8949409c392250 extends Template
 {% block title %} Biografien | {{ parent() }} {% endblock %}
 
 {% block body %}
+    {% include 'elements/navigation-biographies.html.twig' %}
+
 
     <div class=\"container g-4 py-5\">
 
@@ -276,7 +282,7 @@ class __TwigTemplate_4bf3c07e898c90defc8949409c392250 extends Template
                     </a>
                     <div class=\"studiesoverview\">
                         <h2>
-                            <a href=\"{{ path('app_deportation_vw') }}\" title=\"\">
+                            <a href=\"{{ path('app_biographytemplate') }}\" title=\"\">
                                 Yehuda Blum und die Kasztner Gruppe
                             </a>
                         </h2>

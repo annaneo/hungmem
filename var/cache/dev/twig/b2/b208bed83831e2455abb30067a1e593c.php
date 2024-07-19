@@ -64,8 +64,6 @@ class __TwigTemplate_63f8b9ad56f27b7436b01c0bb7ca3db9 extends Template
 <body>
 
 ";
-        // line 43
-        yield from         $this->loadTemplate("elements/navigation.html.twig", "base-map.html.twig", 43)->unwrap()->yield($context);
         // line 44
         yield "
 ";
@@ -237,7 +235,7 @@ class __TwigTemplate_63f8b9ad56f27b7436b01c0bb7ca3db9 extends Template
      */
     public function getDebugInfo()
     {
-        return array (  206 => 51,  196 => 50,  177 => 45,  143 => 17,  139 => 16,  131 => 10,  121 => 9,  101 => 8,  85 => 53,  83 => 50,  80 => 49,  78 => 48,  75 => 47,  73 => 45,  70 => 44,  68 => 43,  63 => 40,  61 => 9,  57 => 8,  48 => 1,);
+        return array (  204 => 51,  194 => 50,  175 => 45,  141 => 17,  137 => 16,  129 => 10,  119 => 9,  99 => 8,  83 => 53,  81 => 50,  78 => 49,  76 => 48,  73 => 47,  71 => 45,  68 => 44,  63 => 40,  61 => 9,  57 => 8,  48 => 1,);
     }
 
     public function getSourceContext()
@@ -284,7 +282,7 @@ class __TwigTemplate_63f8b9ad56f27b7436b01c0bb7ca3db9 extends Template
 </head>
 <body>
 
-{% include 'elements/navigation.html.twig' %}
+{#  {% include 'elements/navigation.html.twig' %} #}
 
 {% block body %}
 {% endblock %}

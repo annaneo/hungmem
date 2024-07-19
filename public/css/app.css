@@ -10,7 +10,7 @@ a, .footer-link {
 }
 
 .nav-item a {
-	color: black !important;
+	color: black;
 	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 1.1rem;
 	margin: 0.1rem;
@@ -26,9 +26,14 @@ a:hover {
 	color: rgb(229,21,221) !important;
 }
 
-.nav-item a:hover {
+.nav-item a:hover, .selected {
 	background-color: black;
 	color: white !important;
+}
+
+.selected {
+	background-color: black;
+	color: white;
 }
 
 

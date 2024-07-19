@@ -3,6 +3,8 @@
 {% block title %} Biografien | {{ parent() }} {% endblock %}
 
 {% block body %}
+    {% include 'elements/navigation-biographies.html.twig' %}
+
 
     <div class="container g-4 py-5">
 
@@ -15,7 +17,7 @@
                     </a>
                     <div class="studiesoverview">
                         <h2>
-                            <a href="{{ path('app_deportation_vw') }}" title="">
+                            <a href="{{ path('app_biographytemplate') }}" title="">
                                 Yehuda Blum und die Kasztner Gruppe
                             </a>
                         </h2>

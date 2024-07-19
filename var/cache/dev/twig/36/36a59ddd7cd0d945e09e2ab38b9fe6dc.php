@@ -63,8 +63,6 @@ class __TwigTemplate_d6fd14a705faa8121d6bcd8b2ebbdf8a extends Template
 <body>
 
 ";
-        // line 31
-        yield from         $this->loadTemplate("elements/navigation.html.twig", "base.html.twig", 31)->unwrap()->yield($context);
         // line 32
         yield "
 ";
@@ -225,7 +223,7 @@ class __TwigTemplate_d6fd14a705faa8121d6bcd8b2ebbdf8a extends Template
      */
     public function getDebugInfo()
     {
-        return array (  194 => 39,  184 => 38,  165 => 33,  142 => 16,  138 => 15,  130 => 9,  120 => 8,  100 => 7,  84 => 41,  82 => 38,  79 => 37,  77 => 36,  74 => 35,  72 => 33,  69 => 32,  67 => 31,  62 => 28,  60 => 8,  56 => 7,  48 => 1,);
+        return array (  192 => 39,  182 => 38,  163 => 33,  140 => 16,  136 => 15,  128 => 9,  118 => 8,  98 => 7,  82 => 41,  80 => 38,  77 => 37,  75 => 36,  72 => 35,  70 => 33,  67 => 32,  62 => 28,  60 => 8,  56 => 7,  48 => 1,);
     }
 
     public function getSourceContext()
@@ -260,7 +258,7 @@ class __TwigTemplate_d6fd14a705faa8121d6bcd8b2ebbdf8a extends Template
 </head>
 <body>
 
-{% include 'elements/navigation.html.twig' %}
+{# Current solution to highlight current page in nav: individual nav-templates; replace with JavaScript {% include 'elements/navigation.html.twig' %} #}
 
 {% block body %}
 {% endblock %}

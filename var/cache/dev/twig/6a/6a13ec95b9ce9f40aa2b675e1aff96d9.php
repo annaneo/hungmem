@@ -89,6 +89,9 @@ class __TwigTemplate_c92dcb9f7191437120b4d673cb128ea3 extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
         // line 7
+        yield "    ";
+        yield from         $this->loadTemplate("elements/navigation-biographies.html.twig", "biographies/study.html.twig", 7)->unwrap()->yield($context);
+        // line 8
         yield "
 
     <div class=\"container g-4 py-5 study\">
@@ -269,7 +272,7 @@ class __TwigTemplate_c92dcb9f7191437120b4d673cb128ea3 extends Template
                     Krankenhaus überstellt.
                 </p>
                 <img class=\"img-fluid\" style=\"width: 640px;\" src=\"";
-        // line 186
+        // line 187
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder_840x560.jpg"), "html", null, true);
         yield "\"
                      alt=\"Deportationsroute\"/>
@@ -419,7 +422,7 @@ class __TwigTemplate_c92dcb9f7191437120b4d673cb128ea3 extends Template
      */
     public function getDebugInfo()
     {
-        return array (  273 => 186,  92 => 7,  82 => 6,  60 => 3,  37 => 1,);
+        return array (  276 => 187,  95 => 8,  92 => 7,  82 => 6,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -430,6 +433,7 @@ class __TwigTemplate_c92dcb9f7191437120b4d673cb128ea3 extends Template
 
 
 {% block body %}
+    {% include 'elements/navigation-biographies.html.twig' %}
 
 
     <div class=\"container g-4 py-5 study\">

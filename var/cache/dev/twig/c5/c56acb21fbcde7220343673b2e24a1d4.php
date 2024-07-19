@@ -89,6 +89,9 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
         // line 6
+        yield "    ";
+        yield from         $this->loadTemplate("elements/navigation-deportationen.html.twig", "site/deportation.html.twig", 6)->unwrap()->yield($context);
+        // line 7
         yield "
     <div class=\"container g-4 py-5\">
 
@@ -97,7 +100,7 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
                 <div>
                     <a href=\"\" title=\"\">
                         <img class=\"img-fluid\" src=\"";
-        // line 13
+        // line 14
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/studies/Titelbild-300-V1-Produktion.png"), "html", null, true);
         yield "\"
                              alt=\"\">
@@ -105,7 +108,7 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
                     <div class=\"studiesoverview\">
                         <h2>
                             <a href=\"";
-        // line 18
+        // line 19
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_vw");
         yield "\" title=\"\">
                                 „Gruppe der 300“ bei VW
@@ -114,7 +117,7 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing
                             elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum ...
                             <a class=\"more\" href=\"";
-        // line 24
+        // line 25
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_vw");
         yield "\" title=\"Weiterlesen\">[mehr]</a>
                         </p>
@@ -124,11 +127,11 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
             <div class=\"col-sm offset-lg-1\">
                 <div>
                     <a href=\"";
-        // line 31
+        // line 32
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_sources");
         yield "\" title=\"\">
                         <img class=\"img-fluid\" src=\"";
-        // line 32
+        // line 33
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/studies/Titelbild-Dessauer-Ufer.png"), "html", null, true);
         yield "\"
                              alt=\"\">
@@ -136,7 +139,7 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
                     <div class=\"studiesoverview\">
                         <h2>
                             <a href=\"";
-        // line 37
+        // line 38
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_studytemplate");
         yield "\" title=\"\">
                                 „Ungarische“ Frauen am Dessauer Ufer, Wedel und Eidelstedt
@@ -145,7 +148,7 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
                         <p>Dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
                             ...
                             <a class=\"more\" href=\"";
-        // line 43
+        // line 44
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_studytemplate");
         yield "\" title=\"Weiterlesen\">[mehr]</a>
                         </p>
@@ -158,11 +161,11 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
             <div class=\"col-sm\">
                 <div>
                     <a href=\"";
-        // line 53
+        // line 54
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_studytemplate");
         yield "\" title=\"\">
                         <img class=\"img-fluid\" src=\"";
-        // line 54
+        // line 55
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder_840x560.jpg"), "html", null, true);
         yield "\"
                              alt=\"\">
@@ -170,7 +173,7 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
                     <div class=\"studiesoverview\">
                         <h2>
                             <a href=\"";
-        // line 59
+        // line 60
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_studytemplate");
         yield "\" title=\"\">
                                 Überlebende Frauen im Außenlager Salzwedel
@@ -179,7 +182,7 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing
                             elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum ...
                             <a class=\"more\" href=\"";
-        // line 65
+        // line 66
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_studytemplate");
         yield "\" title=\"Weiterlesen\">[mehr]</a>
 
@@ -190,11 +193,11 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
             <div class=\"col-sm offset-lg-1\">
                 <div>
                     <a href=\"";
-        // line 73
+        // line 74
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_studytemplate");
         yield "\" title=\"\">
                         <img class=\"img-fluid\" src=\"";
-        // line 74
+        // line 75
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder_840x560.jpg"), "html", null, true);
         yield "\"
                              alt=\"\">
@@ -202,7 +205,7 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
                     <div class=\"studiesoverview\">
                         <h2>
                             <a href=\"";
-        // line 79
+        // line 80
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_studytemplate");
         yield "\" title=\"\">
                                 Frauen im Außenlager Lübberstedt, Räumungstransport Eutin
@@ -211,7 +214,7 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
                         <p>Dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
                             ...
                             <a class=\"more\" href=\"";
-        // line 85
+        // line 86
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_studytemplate");
         yield "\" title=\"Weiterlesen\">[mehr]</a>
                         </p>
@@ -254,7 +257,7 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
      */
     public function getDebugInfo()
     {
-        return array (  215 => 85,  206 => 79,  198 => 74,  194 => 73,  183 => 65,  174 => 59,  166 => 54,  162 => 53,  149 => 43,  140 => 37,  132 => 32,  128 => 31,  118 => 24,  109 => 18,  101 => 13,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
+        return array (  218 => 86,  209 => 80,  201 => 75,  197 => 74,  186 => 66,  177 => 60,  169 => 55,  165 => 54,  152 => 44,  143 => 38,  135 => 33,  131 => 32,  121 => 25,  112 => 19,  104 => 14,  95 => 7,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -264,6 +267,7 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
 {% block title %} Deportationen | {{ parent() }} {% endblock %}
 
 {% block body %}
+    {% include 'elements/navigation-deportationen.html.twig' %}
 
     <div class=\"container g-4 py-5\">
 

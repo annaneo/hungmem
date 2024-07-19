@@ -78,7 +78,7 @@ class __TwigTemplate_159059b59ec408517eb1da56d3806dcf extends Template
         return; yield '';
     }
 
-    // line 6
+    // line 5
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -88,6 +88,9 @@ class __TwigTemplate_159059b59ec408517eb1da56d3806dcf extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
+        // line 6
+        yield "    ";
+        yield from         $this->loadTemplate("elements/navigation-deportationen.html.twig", "studies/study.html.twig", 6)->unwrap()->yield($context);
         // line 7
         yield "
 
@@ -523,7 +526,7 @@ class __TwigTemplate_159059b59ec408517eb1da56d3806dcf extends Template
      */
     public function getDebugInfo()
     {
-        return array (  430 => 325,  327 => 225,  242 => 143,  236 => 140,  231 => 138,  225 => 135,  136 => 49,  92 => 7,  82 => 6,  60 => 3,  37 => 1,);
+        return array (  433 => 325,  330 => 225,  245 => 143,  239 => 140,  234 => 138,  228 => 135,  139 => 49,  95 => 7,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -532,8 +535,8 @@ class __TwigTemplate_159059b59ec408517eb1da56d3806dcf extends Template
 
 {% block title %} Fallstudie | {{ parent() }} {% endblock %}
 
-
 {% block body %}
+    {% include 'elements/navigation-deportationen.html.twig' %}
 
 
     <div class=\"container g-4 py-5 study\">
