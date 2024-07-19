@@ -166,7 +166,7 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
         yield "\" title=\"\">
                         <img class=\"img-fluid\" src=\"";
         // line 55
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder_840x560.jpg"), "html", null, true);
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/studies/Titelbild-Salzwedel.png"), "html", null, true);
         yield "\"
                              alt=\"\">
                     </a>
@@ -316,7 +316,7 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
             <div class=\"col-sm\">
                 <div>
                     <a href=\"{{ path('app_studytemplate') }}\" title=\"\">
-                        <img class=\"img-fluid\" src=\"{{ asset('images/placeholder_840x560.jpg') }}\"
+                        <img class=\"img-fluid\" src=\"{{ asset('images/studies/Titelbild-Salzwedel.png') }}\"
                              alt=\"\">
                     </a>
                     <div class=\"studiesoverview\">

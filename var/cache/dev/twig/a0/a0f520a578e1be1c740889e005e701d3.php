@@ -138,11 +138,8 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
         yield "\"
                              alt=\"Karte Ungarns im Jahr 1944 mit annektierten Gebieten in der Slowakei, Karpatenukraine, Siebenbürgen, Prekmurje, Medimurje und Baranya Bácska\"/>
                     </a>
-                    <p class=\"caption\">Karte der von Ungarn annektierten Gebiete 1938-1941. © Dr-Victor-von-Doom.
-                        Modifizierte Version der Karte <a
-                                href=\"https://commons.wikimedia.org/wiki/File:Hungary_map_1941.png\">Hungary map.png</a>
-                        der Autoren Mixx321 und User:PANONIAN, Wikimedia Commons, URL: <a
-                                href=\"https://commons.wikimedia.org/wiki/File:Ungarn_im_Zweiten_Weltkrieg.png\">https://commons.wikimedia.org/wiki/File:Ungarn_im_Zweiten_Weltkrieg.png</a>. GNU Free Documentation License.
+                    <p class=\"caption\">
+                        Ungarisches Staatsgebiet 1937 bis 1944/45. Quelle: <a href=\"http://www.kz-walldorf.de/g1110_grenzen.html\">http://www.kz-walldorf.de/g1110_grenzen.html</a>.
                     </p>
 
                     <p class=\"caption\"> Niederschrift einer Zusammenkunft zur Neugründung der Jüdischen Gemeinde in
@@ -212,7 +209,7 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
             </div>
             <div class=\"col-md-5\">
                 <img class=\"img-fluid\" style=\"width: 400px;\" src=\"";
-        // line 121
+        // line 118
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/history/ungarn-1944.png"), "html", null, true);
         yield "\"
                      alt=\"Foto des heutigen Joseph-Carlebach-Bildungshauses\"/>
@@ -222,7 +219,7 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
                 </div>
                 <img class=\"img-fluid\" class=\"mt-2\" style=\"width: 400px;\"
                      src=\"";
-        // line 128
+        // line 125
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/history/ungarn-1944.pngg"), "html", null, true);
         yield "\"
                      alt=\"Foto der Talmud-Tora-Schule im Jahr 1914\"/>
@@ -268,7 +265,7 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
             </div>
             <div class=\"col-md-5\">
                 <img class=\"img-fluid\" style=\"width: 440px;\" src=\"";
-        // line 171
+        // line 168
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/history/ungarn-1944.png"), "html", null, true);
         yield "\"
                      alt=\"Foto der Gedenktafel für das Auswandererschiff Exodus\"/>
@@ -309,7 +306,7 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
             </div>
             <div class=\"col-md-5\">
                 <img class=\"img-fluid\" style=\"width: 440px;\" src=\"";
-        // line 209
+        // line 206
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/history/ungarn-1944.png"), "html", null, true);
         yield "\"
                      alt=\"Foto mehrerer persisch-jüdischer Kinder, die an einem Tisch sitzen\"/>
@@ -352,7 +349,7 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
             </div>
             <div class=\"col-md-5\">
                 <img class=\"img-fluid\" style=\"width: 440px;\" src=\"";
-        // line 249
+        // line 246
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/history/ungarn-1944.png"), "html", null, true);
         yield "\"
                      alt=\"Scan des genehmigten Visumsantrag\"/>
@@ -361,7 +358,7 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
                 </div>
 
                 <img class=\"img-fluid\" style=\"width: 440px;\" src=\"";
-        // line 255
+        // line 252
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/history/ungarn-1944.png"), "html", null, true);
         yield "\"
                      alt=\"Scan des sowjetischen Passes\"/>
@@ -461,7 +458,7 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
      */
     public function getDebugInfo()
     {
-        return array (  365 => 255,  356 => 249,  313 => 209,  272 => 171,  226 => 128,  216 => 121,  137 => 45,  129 => 40,  95 => 8,  92 => 7,  82 => 6,  60 => 3,  37 => 1,);
+        return array (  362 => 252,  353 => 246,  310 => 206,  269 => 168,  223 => 125,  213 => 118,  137 => 45,  129 => 40,  95 => 8,  92 => 7,  82 => 6,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -513,11 +510,8 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
                              src=\"{{ asset('images/history/ungarn-1944.png') }}\"
                              alt=\"Karte Ungarns im Jahr 1944 mit annektierten Gebieten in der Slowakei, Karpatenukraine, Siebenbürgen, Prekmurje, Medimurje und Baranya Bácska\"/>
                     </a>
-                    <p class=\"caption\">Karte der von Ungarn annektierten Gebiete 1938-1941. © Dr-Victor-von-Doom.
-                        Modifizierte Version der Karte <a
-                                href=\"https://commons.wikimedia.org/wiki/File:Hungary_map_1941.png\">Hungary map.png</a>
-                        der Autoren Mixx321 und User:PANONIAN, Wikimedia Commons, URL: <a
-                                href=\"https://commons.wikimedia.org/wiki/File:Ungarn_im_Zweiten_Weltkrieg.png\">https://commons.wikimedia.org/wiki/File:Ungarn_im_Zweiten_Weltkrieg.png</a>. GNU Free Documentation License.
+                    <p class=\"caption\">
+                        Ungarisches Staatsgebiet 1937 bis 1944/45. Quelle: <a href=\"http://www.kz-walldorf.de/g1110_grenzen.html\">http://www.kz-walldorf.de/g1110_grenzen.html</a>.
                     </p>
 
                     <p class=\"caption\"> Niederschrift einer Zusammenkunft zur Neugründung der Jüdischen Gemeinde in

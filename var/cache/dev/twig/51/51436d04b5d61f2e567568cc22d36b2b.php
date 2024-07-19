@@ -101,7 +101,7 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
                     <a href=\"\" title=\"\">
                         <img class=\"img-fluid\" src=\"";
         // line 15
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder_840x560.jpg"), "html", null, true);
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/Titelbild-Orte.png"), "html", null, true);
         yield "\"
                              alt=\"\">
                     </a>
@@ -169,7 +169,7 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
         yield "\" title=\"\">
                         <img class=\"img-fluid\" src=\"";
         // line 59
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder_840x560.jpg"), "html", null, true);
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/studies/Titelbild-Dessauer-Ufer.png"), "html", null, true);
         yield "\"
                              alt=\"\">
                     </a>
@@ -289,7 +289,7 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
             <div class=\"col-sm\">
                 <div>
                     <a href=\"\" title=\"\">
-                        <img class=\"img-fluid\" src=\"{{ asset('images/placeholder_840x560.jpg') }}\"
+                        <img class=\"img-fluid\" src=\"{{ asset('images/Titelbild-Orte.png') }}\"
                              alt=\"\">
                     </a>
                     <div class=\"studiesoverview\">
@@ -333,7 +333,7 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
             <div class=\"col-sm\">
                 <div>
                     <a href=\"{{ path('app_deportation') }}\" title=\"\">
-                        <img class=\"img-fluid\" src=\"{{ asset('images/placeholder_840x560.jpg') }}\"
+                        <img class=\"img-fluid\" src=\"{{ asset('images/studies/Titelbild-Dessauer-Ufer.png') }}\"
                              alt=\"\">
                     </a>
                     <div class=\"studiesoverview\">
