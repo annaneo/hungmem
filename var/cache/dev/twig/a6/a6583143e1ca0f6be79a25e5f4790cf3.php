@@ -94,8 +94,7 @@ class __TwigTemplate_9fd10a5becac467aa0d11ad2d4000e9d extends Template
     <h2>Impressum</h2>
     <div class=\"row\">
     <div class=\"col-lg-6\">
-        <p>„Holocaust in Ungarn und Deportationen nach Norddeutschland 1944 “ ist ein Projekt des Instituts für die Geschichte der deutschen
-            Juden.</p>
+        <p>Die Website ist ein Angebot des Instituts für die Geschichte der deutschen Juden und präsentiert Projektergebnisse aus dem EU finanzierten Projekt „HUNGMEM- Digitale Gedenk- und Forschungsinfrastruktur – Der Holocaust in Ungarn 80 Jahre später“.</p>
         <p>
             Institut für die Geschichte der deutschen Juden<br/>
             Beim Schlump 83<br/>
@@ -110,53 +109,67 @@ class __TwigTemplate_9fd10a5becac467aa0d11ad2d4000e9d extends Template
             Freien und Hansestadt Hamburg und wird von der Behörde für Wissenschaft,
             Forschung, Gleichstellung und Bezirke der Freien und Hansestadt Hamburg gefördert.
         </p>
+        <h4>Vertretungsberechtigte Personen:</h4>
         <p>
-            Vertretungsberechtigte Personen:<br/>
             Direktorin Dr. Kim Wünschmann<br/>
             Stellvertretender Direktor: PD Dr. Andreas Brämer
         </p>
-
-        <h3>Projektbeteiligte</h3>
+        <h4>Inhaltlich Verantwortlich:</h4>
         <p>
-            Inhaltlich Verantwortlich:<br/>
-            Prof. Dr. Kim Wünschmann<br/>
-            Dr. Anna Menny
-        </p>
-        <p>
-            Technische Konzipierung und Umsetzung:<br/>
-            <a href=\"https://coding-friends.com\">Dr. Anna Neovesky</a>
-        </p>
-        <p>
-            Fallstudien:<br/>
-            Louis Wörner
-        </p>
-        <p>
-            Biografische Studien:<br/>
+            Louis Wörner<br/>
             Lara Meinert
         </p>
+        <h4>Konzeption und Koordination: </h4>
+        <p>
+            Dr. Anna Menny
+        </p>
+        <h4> Technische Konzipierung und Umsetzung:</h4>
+        <p>
+            Dr. Anna Neovesky
+        </p>
+        <h4>Kooperationspartner:</h4>
+        <p>
+            <a href=\"https://bergen-belsen.stiftung-ng.de/de/\">Stiftung niedersächsische Gedenkstätten / Gedenkstätte Bergen-Belsen</a>
+        <div class=\"partner\">
+            <a href=\"https://bergen-belsen.stiftung-ng.de/de/\" tilte=\"Website der Gedenkstätte\">
+                <img class=\"img-fluid\" src=\"";
+        // line 49
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/logos/bergen-belsen.png"), "html", null, true);
+        yield "\"
+                     alt=\"Logo der Gedenkstätte KZ Bergen Belsen\"/>
+            </a>
+        </div>
+            <a href=\"https://www.kz-gedenkstaette-neuengamme.de/\">KZ-Gedenkstätte Neuengamme</a>
+        <div class=\"partner\">
+            <a href=\"https://www.kz-gedenkstaette-neuengamme.de/\" tilte=\"Website der Gedenkstätte\">
+                <img class=\"img-fluid\" src=\"";
+        // line 56
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/logos/neuengamme.png"), "html", null, true);
+        yield "\"
+                     alt=\"Logo der Gedenkstätte KZ Neuengamme\"/>
+            </a>
+        </div>
+        </p>
+
 
         <h3>Danksagung</h3>
         <p>
-            Wir danken...
+            Wir danken allen beteiligten Institutionen und Personen für die Genehmigungen zur Nutzung von Bild- und Quellenmaterialien sowie für die Unterstützung bei den Recherchen.
         </p>
 
         <h3>Förderung</h3>
         <p>
-            Diese Publikation steht im Kontext des EU CERV-Projekts “Digital Memorial Knowledge Infrastructure – The Holocaust in Hungary 80
-            Years Later” (HUNGMEM)
+            Das Gesamt-Projekt „HUNGMEM“wird von der EU-Kommission im Rahmen des Förderprogramms CERV –Citizens, Equality, Rights and Values gefördert.
         </p>
-        <p>
-            <img class=\"img-fluid\" src=\"";
-        // line 63
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/"), "html", null, true);
+        <div class=\"row partner\">
+            <a href=\"https://commission.europa.eu/index_de\" tilte=\"Website der Europäischen Kommission\">
+                <img class=\"img-fluid\" src=\"";
+        // line 74
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/logos/European_Commission_logo.png"), "html", null, true);
         yield "\"
-                 alt=\"\"/>
-        </p>
-
-        <h3 id=\"usage\">Nutzungsrechte</h3>
-        <p>
-            Die Inhalte stehen unter einer CC BY 4.0 Lizenz und können unter Namensnennung weitergenutzt werden.
-        </p>
+                     alt=\"Logo der EU Commission\"/>
+            </a>
+        </div>
 
         <h2 class=\"pt-4\" id=\"datenschutz\">Datenschutz</h2>
         <p>
@@ -176,6 +189,11 @@ class __TwigTemplate_9fd10a5becac467aa0d11ad2d4000e9d extends Template
             <a href=\"https://usefathom.com/privacy\" alt=\"Datenschutzerklärung von Fathom Analytics\">Datenschutzerklärung des Dienstes</a>
             erhältlich.<br/>Verarbeitete personenbezogene Daten: Nutzungsdaten.
             Verarbeitungsort: Kanada.
+        </p>
+
+        <h3 id=\"usage\">Nutzungsrechte</h3>
+        <p>
+            Die Inhalte stehen unter einer CC BY 4.0 Lizenz und können unter Namensnennung weitergenutzt werden.
         </p>
 
     </div>
@@ -211,7 +229,7 @@ class __TwigTemplate_9fd10a5becac467aa0d11ad2d4000e9d extends Template
      */
     public function getDebugInfo()
     {
-        return array (  151 => 63,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
+        return array (  168 => 74,  147 => 56,  137 => 49,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -226,8 +244,7 @@ class __TwigTemplate_9fd10a5becac467aa0d11ad2d4000e9d extends Template
     <h2>Impressum</h2>
     <div class=\"row\">
     <div class=\"col-lg-6\">
-        <p>„Holocaust in Ungarn und Deportationen nach Norddeutschland 1944 “ ist ein Projekt des Instituts für die Geschichte der deutschen
-            Juden.</p>
+        <p>Die Website ist ein Angebot des Instituts für die Geschichte der deutschen Juden und präsentiert Projektergebnisse aus dem EU finanzierten Projekt „HUNGMEM- Digitale Gedenk- und Forschungsinfrastruktur – Der Holocaust in Ungarn 80 Jahre später“.</p>
         <p>
             Institut für die Geschichte der deutschen Juden<br/>
             Beim Schlump 83<br/>
@@ -242,50 +259,58 @@ class __TwigTemplate_9fd10a5becac467aa0d11ad2d4000e9d extends Template
             Freien und Hansestadt Hamburg und wird von der Behörde für Wissenschaft,
             Forschung, Gleichstellung und Bezirke der Freien und Hansestadt Hamburg gefördert.
         </p>
+        <h4>Vertretungsberechtigte Personen:</h4>
         <p>
-            Vertretungsberechtigte Personen:<br/>
             Direktorin Dr. Kim Wünschmann<br/>
             Stellvertretender Direktor: PD Dr. Andreas Brämer
         </p>
-
-        <h3>Projektbeteiligte</h3>
+        <h4>Inhaltlich Verantwortlich:</h4>
         <p>
-            Inhaltlich Verantwortlich:<br/>
-            Prof. Dr. Kim Wünschmann<br/>
-            Dr. Anna Menny
-        </p>
-        <p>
-            Technische Konzipierung und Umsetzung:<br/>
-            <a href=\"https://coding-friends.com\">Dr. Anna Neovesky</a>
-        </p>
-        <p>
-            Fallstudien:<br/>
-            Louis Wörner
-        </p>
-        <p>
-            Biografische Studien:<br/>
+            Louis Wörner<br/>
             Lara Meinert
         </p>
+        <h4>Konzeption und Koordination: </h4>
+        <p>
+            Dr. Anna Menny
+        </p>
+        <h4> Technische Konzipierung und Umsetzung:</h4>
+        <p>
+            Dr. Anna Neovesky
+        </p>
+        <h4>Kooperationspartner:</h4>
+        <p>
+            <a href=\"https://bergen-belsen.stiftung-ng.de/de/\">Stiftung niedersächsische Gedenkstätten / Gedenkstätte Bergen-Belsen</a>
+        <div class=\"partner\">
+            <a href=\"https://bergen-belsen.stiftung-ng.de/de/\" tilte=\"Website der Gedenkstätte\">
+                <img class=\"img-fluid\" src=\"{{ asset('images/logos/bergen-belsen.png') }}\"
+                     alt=\"Logo der Gedenkstätte KZ Bergen Belsen\"/>
+            </a>
+        </div>
+            <a href=\"https://www.kz-gedenkstaette-neuengamme.de/\">KZ-Gedenkstätte Neuengamme</a>
+        <div class=\"partner\">
+            <a href=\"https://www.kz-gedenkstaette-neuengamme.de/\" tilte=\"Website der Gedenkstätte\">
+                <img class=\"img-fluid\" src=\"{{ asset('images/logos/neuengamme.png') }}\"
+                     alt=\"Logo der Gedenkstätte KZ Neuengamme\"/>
+            </a>
+        </div>
+        </p>
+
 
         <h3>Danksagung</h3>
         <p>
-            Wir danken...
+            Wir danken allen beteiligten Institutionen und Personen für die Genehmigungen zur Nutzung von Bild- und Quellenmaterialien sowie für die Unterstützung bei den Recherchen.
         </p>
 
         <h3>Förderung</h3>
         <p>
-            Diese Publikation steht im Kontext des EU CERV-Projekts “Digital Memorial Knowledge Infrastructure – The Holocaust in Hungary 80
-            Years Later” (HUNGMEM)
+            Das Gesamt-Projekt „HUNGMEM“wird von der EU-Kommission im Rahmen des Förderprogramms CERV –Citizens, Equality, Rights and Values gefördert.
         </p>
-        <p>
-            <img class=\"img-fluid\" src=\"{{ asset('images/') }}\"
-                 alt=\"\"/>
-        </p>
-
-        <h3 id=\"usage\">Nutzungsrechte</h3>
-        <p>
-            Die Inhalte stehen unter einer CC BY 4.0 Lizenz und können unter Namensnennung weitergenutzt werden.
-        </p>
+        <div class=\"row partner\">
+            <a href=\"https://commission.europa.eu/index_de\" tilte=\"Website der Europäischen Kommission\">
+                <img class=\"img-fluid\" src=\"{{ asset('images/logos/European_Commission_logo.png') }}\"
+                     alt=\"Logo der EU Commission\"/>
+            </a>
+        </div>
 
         <h2 class=\"pt-4\" id=\"datenschutz\">Datenschutz</h2>
         <p>
@@ -305,6 +330,11 @@ class __TwigTemplate_9fd10a5becac467aa0d11ad2d4000e9d extends Template
             <a href=\"https://usefathom.com/privacy\" alt=\"Datenschutzerklärung von Fathom Analytics\">Datenschutzerklärung des Dienstes</a>
             erhältlich.<br/>Verarbeitete personenbezogene Daten: Nutzungsdaten.
             Verarbeitungsort: Kanada.
+        </p>
+
+        <h3 id=\"usage\">Nutzungsrechte</h3>
+        <p>
+            Die Inhalte stehen unter einer CC BY 4.0 Lizenz und können unter Namensnennung weitergenutzt werden.
         </p>
 
     </div>

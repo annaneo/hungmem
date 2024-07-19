@@ -96,12 +96,10 @@ class __TwigTemplate_1df0856fcf984f666fb35853e1a67e8e extends Template
         <div class=\"row\">
             <div class=\"col-lg\">
                 <p>
-                    One in ten Holocaust victims came from Hungary within its borders at the time. 500,000-600,000 Jews and Roma*nja were murdered by the National Socialists and their Hungarian allies. The names of most of these persecuted people are still unknown today. 80 years after the Holocaust in Hungary, a transnational research and remembrance project has set itself the goal of researching the fate of the deported women, men and children, coming to terms with it and preventing it from being forgotten. Together with partner institutions in Hungary, Romania and Slovakia, the Institute for the History of German Jews (IGdJ) will establish a digital commemoration and research infrastructure.</p>
-            </div>
+                    Jedes zehnte Holocaust-Opfer stammte aus Ungarn in seinen damaligen Grenzen. 500.000–600.000 Jüdinnen und Juden sowie Roma und Romnja wurden von den Nationalsozialisten und ihren ungarischen Verbündeten ermordet. Die Namen dieser Verfolgten sind bis heute mehrheitlich unbekannt. 80 Jahre nach dem Holocaust in Ungarn hat sich ein transnationales Forschungs-und Erinnerungsprojekt zum Ziel gesetzt, das Schicksal der deportierten Frauen, Männer und Kinder zu erforschen, aufzuarbeiten und vor dem Vergessen zu bewahren. Das Projekt wird von der EU-Kommission im Rahmen des Förderprogramms CERV –Citizens, Equality, Rights and Values unterstützt.            </div>
             <div class=\"col-lg\">
                 <p>
-                    The IGdJ is coordinating the archive research to collect as many names and stories as possible of those who were deported to the concentration camps in northern Germany. Thanks to the good cooperation with the Neuengamme and Bergen-Belsen concentration camp memorials and the intensive research of the two project team members, comprehensive data has already been collected in recent months and new information could be added in some cases.
-                </p>
+                    Im Projektverbund hat das IGdJ die Archivrecherchen zur Erfassung möglichst vieler Namen und Geschichten derjenigen koordiniert, die von der SS in die Konzentrationslager im norddeutschen Raum deportiert wurden. Dank der engen Zusammenarbeit mit den KZ-Gedenkstätten Bergen-Belsen und Neuengamme und den intensiven Recherchen der beiden Projektmitarbeitenden Lara Meinert (MA) und Louis Wörner (MA) konnten umfassende Daten zusammengeführt sowie teilweise neue Informationen ergänzt werden. Diese biografischen Daten fließen in eine am Jüdischen Museum und Archiv Budapest entwickelte digitale Gedenk-und Forschungsinfrastruktur ein. Weitere Daten zu Namen und Deportationswegen der Verfolgten kommen von den Partnerinstitutionen in Rumänien (Rumänisches Institut für Forschung über nationale Minderheiten) und der Slowakei (Jüdische Gemeinde in Komárno).                </p>
                 <p>
                     The aim now is to bring together the findings and make them accessible in a public presentation.
                 </p>
@@ -123,7 +121,7 @@ class __TwigTemplate_1df0856fcf984f666fb35853e1a67e8e extends Template
                     <div class=\"row partner\">
                         <a href=\"https://www.milev.hu\" tilte=\"Website des Museums\">
                         <img class=\"img-fluid\" src=\"";
-        // line 39
+        // line 37
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/logos/hjma-logo.png"), "html", null, true);
         yield "\"
                              alt=\"Logo des Hungarian Jewish Museum and Archive in Budapest\"/>
@@ -132,7 +130,7 @@ class __TwigTemplate_1df0856fcf984f666fb35853e1a67e8e extends Template
                     <div class=\"row partner\">
                         <a href=\"https://ispmn.gov.ro/\" tilte=\"Website des Instituts\">
                         <img class=\"img-fluid\" src=\"";
-        // line 45
+        // line 43
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/logos/ispmn.jpg"), "html", null, true);
         yield "\"
                              alt=\"Logo des Romanian Institute for Research on National Minorities\"/>
@@ -141,7 +139,7 @@ class __TwigTemplate_1df0856fcf984f666fb35853e1a67e8e extends Template
                     <div class=\"row partner\">
                         <a href=\"https://kehreg.com/\" tilte=\"Website der Gemeinde\">
                         <img class=\"img-fluid\" src=\"";
-        // line 51
+        // line 49
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/logos/komarno.jpg"), "html", null, true);
         yield "\"
                              alt=\"Logo der Jewish Community in Komárno\"/>
@@ -150,28 +148,10 @@ class __TwigTemplate_1df0856fcf984f666fb35853e1a67e8e extends Template
                     <div class=\"row partner\">
                         <a href=\"https://commission.europa.eu/index_de\" tilte=\"Website der Europäischen Kommission\">
                         <img class=\"img-fluid\" src=\"";
-        // line 57
+        // line 55
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/logos/European_Commission_logo.png"), "html", null, true);
         yield "\"
                              alt=\"Logo der EU Commission\"/>
-                        </a>
-                    </div>
-                    <div class=\"row partner\">
-                        <a href=\"https://www.kz-gedenkstaette-neuengamme.de/\" tilte=\"Website der Gedenkstätte\">
-                        <img class=\"img-fluid\" src=\"";
-        // line 63
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/logos/neuengamme.png"), "html", null, true);
-        yield "\"
-                             alt=\"Logo der Gedenkstätte KZ Neuengamme\"/>
-                        </a>
-                    </div>
-                    <div class=\"row partner\">
-                        <a href=\"https://bergen-belsen.stiftung-ng.de/de/\" tilte=\"Website der Gedenkstätte\">
-                        <img class=\"img-fluid\" src=\"";
-        // line 69
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/logos/bergen-belsen.png"), "html", null, true);
-        yield "\"
-                             alt=\"Logo der Gedenkstätte KZ Bergen Belsen\"/>
                         </a>
                     </div>
                 </div>
@@ -211,7 +191,7 @@ class __TwigTemplate_1df0856fcf984f666fb35853e1a67e8e extends Template
      */
     public function getDebugInfo()
     {
-        return array (  172 => 69,  163 => 63,  154 => 57,  145 => 51,  136 => 45,  127 => 39,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
+        return array (  152 => 55,  143 => 49,  134 => 43,  125 => 37,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -228,12 +208,10 @@ class __TwigTemplate_1df0856fcf984f666fb35853e1a67e8e extends Template
         <div class=\"row\">
             <div class=\"col-lg\">
                 <p>
-                    One in ten Holocaust victims came from Hungary within its borders at the time. 500,000-600,000 Jews and Roma*nja were murdered by the National Socialists and their Hungarian allies. The names of most of these persecuted people are still unknown today. 80 years after the Holocaust in Hungary, a transnational research and remembrance project has set itself the goal of researching the fate of the deported women, men and children, coming to terms with it and preventing it from being forgotten. Together with partner institutions in Hungary, Romania and Slovakia, the Institute for the History of German Jews (IGdJ) will establish a digital commemoration and research infrastructure.</p>
-            </div>
+                    Jedes zehnte Holocaust-Opfer stammte aus Ungarn in seinen damaligen Grenzen. 500.000–600.000 Jüdinnen und Juden sowie Roma und Romnja wurden von den Nationalsozialisten und ihren ungarischen Verbündeten ermordet. Die Namen dieser Verfolgten sind bis heute mehrheitlich unbekannt. 80 Jahre nach dem Holocaust in Ungarn hat sich ein transnationales Forschungs-und Erinnerungsprojekt zum Ziel gesetzt, das Schicksal der deportierten Frauen, Männer und Kinder zu erforschen, aufzuarbeiten und vor dem Vergessen zu bewahren. Das Projekt wird von der EU-Kommission im Rahmen des Förderprogramms CERV –Citizens, Equality, Rights and Values unterstützt.            </div>
             <div class=\"col-lg\">
                 <p>
-                    The IGdJ is coordinating the archive research to collect as many names and stories as possible of those who were deported to the concentration camps in northern Germany. Thanks to the good cooperation with the Neuengamme and Bergen-Belsen concentration camp memorials and the intensive research of the two project team members, comprehensive data has already been collected in recent months and new information could be added in some cases.
-                </p>
+                    Im Projektverbund hat das IGdJ die Archivrecherchen zur Erfassung möglichst vieler Namen und Geschichten derjenigen koordiniert, die von der SS in die Konzentrationslager im norddeutschen Raum deportiert wurden. Dank der engen Zusammenarbeit mit den KZ-Gedenkstätten Bergen-Belsen und Neuengamme und den intensiven Recherchen der beiden Projektmitarbeitenden Lara Meinert (MA) und Louis Wörner (MA) konnten umfassende Daten zusammengeführt sowie teilweise neue Informationen ergänzt werden. Diese biografischen Daten fließen in eine am Jüdischen Museum und Archiv Budapest entwickelte digitale Gedenk-und Forschungsinfrastruktur ein. Weitere Daten zu Namen und Deportationswegen der Verfolgten kommen von den Partnerinstitutionen in Rumänien (Rumänisches Institut für Forschung über nationale Minderheiten) und der Slowakei (Jüdische Gemeinde in Komárno).                </p>
                 <p>
                     The aim now is to bring together the findings and make them accessible in a public presentation.
                 </p>
@@ -274,18 +252,6 @@ class __TwigTemplate_1df0856fcf984f666fb35853e1a67e8e extends Template
                         <a href=\"https://commission.europa.eu/index_de\" tilte=\"Website der Europäischen Kommission\">
                         <img class=\"img-fluid\" src=\"{{ asset('images/logos/European_Commission_logo.png') }}\"
                              alt=\"Logo der EU Commission\"/>
-                        </a>
-                    </div>
-                    <div class=\"row partner\">
-                        <a href=\"https://www.kz-gedenkstaette-neuengamme.de/\" tilte=\"Website der Gedenkstätte\">
-                        <img class=\"img-fluid\" src=\"{{ asset('images/logos/neuengamme.png') }}\"
-                             alt=\"Logo der Gedenkstätte KZ Neuengamme\"/>
-                        </a>
-                    </div>
-                    <div class=\"row partner\">
-                        <a href=\"https://bergen-belsen.stiftung-ng.de/de/\" tilte=\"Website der Gedenkstätte\">
-                        <img class=\"img-fluid\" src=\"{{ asset('images/logos/bergen-belsen.png') }}\"
-                             alt=\"Logo der Gedenkstätte KZ Bergen Belsen\"/>
                         </a>
                     </div>
                 </div>
