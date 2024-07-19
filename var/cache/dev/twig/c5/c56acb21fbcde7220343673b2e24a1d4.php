@@ -66,7 +66,7 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "title"));
 
-        yield " Startseite | ";
+        yield " Deportationen | ";
         yield from $this->yieldParentBlock("title", $context, $blocks);
         yield " ";
         
@@ -261,7 +261,7 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
     {
         return new Source("{% extends 'base.html.twig' %}
 
-{% block title %} Startseite | {{ parent() }} {% endblock %}
+{% block title %} Deportationen | {{ parent() }} {% endblock %}
 
 {% block body %}
 
