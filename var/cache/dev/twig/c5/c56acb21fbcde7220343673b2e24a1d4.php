@@ -178,7 +178,7 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
                             <a href=\"";
         // line 60
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_studytemplate");
-        yield "\" title=\"\">
+        yield "\" title=\"Fallstudie Salzwedel\">
                                 Überlebende Frauen im Außenlager Salzwedel
                             </a>
                         </h2>
@@ -324,7 +324,7 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
                     </a>
                     <div class=\"studiesoverview\">
                         <h2>
-                            <a href=\"{{ path('app_studytemplate') }}\" title=\"\">
+                            <a href=\"{{ path('app_studytemplate') }}\" title=\"Fallstudie Salzwedel\">
                                 Überlebende Frauen im Außenlager Salzwedel
                             </a>
                         </h2>

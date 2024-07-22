@@ -188,15 +188,19 @@ class __TwigTemplate_9fd10a5becac467aa0d11ad2d4000e9d extends Template
             Fathom Analytics ist ein durch Conva Ventures Inc. angebotener Dienst für
             anonymisierte Analysen, durch den der Anbieter ermitteln kann, wie Nutzer diese Anwendung nutzen.
             Erhobene Daten werden durch Hashing-Vorgänge anonymisiert. Weitere Informationen sind
-            <a href=\"https://usefathom.com/data\" alt=\"Information zur Datenverarbeitung von Fathom Analytics\">hier</a> und über die
-            <a href=\"https://usefathom.com/privacy\" alt=\"Datenschutzerklärung von Fathom Analytics\">Datenschutzerklärung des Dienstes</a>
+            <a href=\"https://usefathom.com/data\" title=\"Information zur Datenverarbeitung von Fathom Analytics\">hier</a> und über die
+            <a href=\"https://usefathom.com/privacy\" title=\"Datenschutzerklärung von Fathom Analytics\">Datenschutzerklärung des Dienstes</a>
             erhältlich.<br/>Verarbeitete personenbezogene Daten: Nutzungsdaten.
             Verarbeitungsort: Kanada.
         </p>
 
         <h3 id=\"usage\">Nutzungsrechte</h3>
         <p>
-            Die Inhalte stehen unter einer CC BY 4.0 Lizenz und können unter Namensnennung weitergenutzt werden.
+            Die Texte stehen unter einer <a href=\"https://creativecommons.org/licenses/by/4.0/deed.de\" title=\"Lizenzbedingungen auf der Website von Creative Commons\">
+                CC BY 4.0 Lizenz</a> und können unter Namensnennung weitergenutzt werden.
+        </p>
+        <p>
+            Die Lizenzbedingungen der Abbildung können abweichen und sind jeweils an den Annbildungen angegeben.
         </p>
 
     </div>
@@ -330,15 +334,19 @@ class __TwigTemplate_9fd10a5becac467aa0d11ad2d4000e9d extends Template
             Fathom Analytics ist ein durch Conva Ventures Inc. angebotener Dienst für
             anonymisierte Analysen, durch den der Anbieter ermitteln kann, wie Nutzer diese Anwendung nutzen.
             Erhobene Daten werden durch Hashing-Vorgänge anonymisiert. Weitere Informationen sind
-            <a href=\"https://usefathom.com/data\" alt=\"Information zur Datenverarbeitung von Fathom Analytics\">hier</a> und über die
-            <a href=\"https://usefathom.com/privacy\" alt=\"Datenschutzerklärung von Fathom Analytics\">Datenschutzerklärung des Dienstes</a>
+            <a href=\"https://usefathom.com/data\" title=\"Information zur Datenverarbeitung von Fathom Analytics\">hier</a> und über die
+            <a href=\"https://usefathom.com/privacy\" title=\"Datenschutzerklärung von Fathom Analytics\">Datenschutzerklärung des Dienstes</a>
             erhältlich.<br/>Verarbeitete personenbezogene Daten: Nutzungsdaten.
             Verarbeitungsort: Kanada.
         </p>
 
         <h3 id=\"usage\">Nutzungsrechte</h3>
         <p>
-            Die Inhalte stehen unter einer CC BY 4.0 Lizenz und können unter Namensnennung weitergenutzt werden.
+            Die Texte stehen unter einer <a href=\"https://creativecommons.org/licenses/by/4.0/deed.de\" title=\"Lizenzbedingungen auf der Website von Creative Commons\">
+                CC BY 4.0 Lizenz</a> und können unter Namensnennung weitergenutzt werden.
+        </p>
+        <p>
+            Die Lizenzbedingungen der Abbildung können abweichen und sind jeweils an den Annbildungen angegeben.
         </p>
 
     </div>
