@@ -97,7 +97,9 @@ class __TwigTemplate_9fd10a5becac467aa0d11ad2d4000e9d extends Template
     <h2>Impressum</h2>
     <div class=\"row\">
     <div class=\"col-lg-6\">
-        <p>Die Website ist ein Angebot des Instituts für die Geschichte der deutschen Juden und präsentiert Projektergebnisse aus dem EU finanzierten Projekt „HUNGMEM- Digitale Gedenk- und Forschungsinfrastruktur – Der Holocaust in Ungarn 80 Jahre später“.</p>
+        <p>Die Website ist ein Angebot des Instituts für die Geschichte der deutschen Juden und präsentiert
+            Projektergebnisse aus dem EU finanzierten Projekt „HUNGMEM- Digitale Gedenk- und Forschungsinfrastruktur –
+            Der Holocaust in Ungarn 80 Jahre später“.</p>
         <p>
             Institut für die Geschichte der deutschen Juden<br/>
             Beim Schlump 83<br/>
@@ -132,21 +134,22 @@ class __TwigTemplate_9fd10a5becac467aa0d11ad2d4000e9d extends Template
         </p>
         <h4>Kooperationspartner:</h4>
         <p>
-            <a href=\"https://bergen-belsen.stiftung-ng.de/de/\">Stiftung niedersächsische Gedenkstätten / Gedenkstätte Bergen-Belsen</a>
+            <a href=\"https://bergen-belsen.stiftung-ng.de/de/\">Stiftung niedersächsische Gedenkstätten / Gedenkstätte
+                Bergen-Belsen</a>
         <div class=\"partner\">
             <a href=\"https://bergen-belsen.stiftung-ng.de/de/\" tilte=\"Website der Gedenkstätte\">
                 <img class=\"img-fluid\" src=\"";
-        // line 50
+        // line 53
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/logos/bergen-belsen.png"), "html", null, true);
         yield "\"
                      alt=\"Logo der Gedenkstätte KZ Bergen Belsen\"/>
             </a>
         </div>
-            <a href=\"https://www.kz-gedenkstaette-neuengamme.de/\">KZ-Gedenkstätte Neuengamme</a>
+        <a href=\"https://www.kz-gedenkstaette-neuengamme.de/\">KZ-Gedenkstätte Neuengamme</a>
         <div class=\"partner\">
             <a href=\"https://www.kz-gedenkstaette-neuengamme.de/\" tilte=\"Website der Gedenkstätte\">
                 <img class=\"img-fluid\" src=\"";
-        // line 57
+        // line 60
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/logos/neuengamme.png"), "html", null, true);
         yield "\"
                      alt=\"Logo der Gedenkstätte KZ Neuengamme\"/>
@@ -157,17 +160,19 @@ class __TwigTemplate_9fd10a5becac467aa0d11ad2d4000e9d extends Template
 
         <h3>Danksagung</h3>
         <p>
-            Wir danken allen beteiligten Institutionen und Personen für die Genehmigungen zur Nutzung von Bild- und Quellenmaterialien sowie für die Unterstützung bei den Recherchen.
+            Wir danken allen beteiligten Institutionen und Personen für die Genehmigungen zur Nutzung von Bild- und
+            Quellenmaterialien sowie für die Unterstützung bei den Recherchen.
         </p>
 
         <h3>Förderung</h3>
         <p>
-            Das Gesamt-Projekt „HUNGMEM“wird von der EU-Kommission im Rahmen des Förderprogramms CERV –Citizens, Equality, Rights and Values gefördert.
+            Das Gesamt-Projekt „HUNGMEM“wird von der EU-Kommission im Rahmen des Förderprogramms CERV –Citizens,
+            Equality, Rights and Values gefördert.
         </p>
         <div class=\"row partner\">
             <a href=\"https://commission.europa.eu/index_de\" tilte=\"Website der Europäischen Kommission\">
                 <img class=\"img-fluid\" src=\"";
-        // line 75
+        // line 80
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/logos/European_Commission_logo.png"), "html", null, true);
         yield "\"
                      alt=\"Logo der EU Commission\"/>
@@ -188,19 +193,22 @@ class __TwigTemplate_9fd10a5becac467aa0d11ad2d4000e9d extends Template
             Fathom Analytics ist ein durch Conva Ventures Inc. angebotener Dienst für
             anonymisierte Analysen, durch den der Anbieter ermitteln kann, wie Nutzer diese Anwendung nutzen.
             Erhobene Daten werden durch Hashing-Vorgänge anonymisiert. Weitere Informationen sind
-            <a href=\"https://usefathom.com/data\" title=\"Information zur Datenverarbeitung von Fathom Analytics\">hier</a> und über die
-            <a href=\"https://usefathom.com/privacy\" title=\"Datenschutzerklärung von Fathom Analytics\">Datenschutzerklärung des Dienstes</a>
+            <a href=\"https://usefathom.com/data\" title=\"Information zur Datenverarbeitung von Fathom Analytics\">hier</a>
+            und über die
+            <a href=\"https://usefathom.com/privacy\" title=\"Datenschutzerklärung von Fathom Analytics\">Datenschutzerklärung
+                des Dienstes</a>
             erhältlich.<br/>Verarbeitete personenbezogene Daten: Nutzungsdaten.
             Verarbeitungsort: Kanada.
         </p>
 
         <h3 id=\"usage\">Nutzungsrechte</h3>
         <p>
-            Die Texte stehen unter einer <a href=\"https://creativecommons.org/licenses/by/4.0/deed.de\" title=\"Lizenzbedingungen auf der Website von Creative Commons\">
+            Die Texte stehen unter einer <a href=\"https://creativecommons.org/licenses/by/4.0/deed.de\"
+                                            title=\"Lizenzbedingungen auf der Website von Creative Commons\">
                 CC BY 4.0 Lizenz</a> und können unter Namensnennung weitergenutzt werden.
         </p>
         <p>
-            Die Lizenzbedingungen der Abbildung können abweichen und sind jeweils an den Annbildungen angegeben.
+            Die Lizenzbedingungen der Abbildung können abweichen und sind jeweils an den Abbildungen angegeben.
         </p>
 
     </div>
@@ -236,7 +244,7 @@ class __TwigTemplate_9fd10a5becac467aa0d11ad2d4000e9d extends Template
      */
     public function getDebugInfo()
     {
-        return array (  171 => 75,  150 => 57,  140 => 50,  95 => 7,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
+        return array (  176 => 80,  153 => 60,  143 => 53,  95 => 7,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -252,7 +260,9 @@ class __TwigTemplate_9fd10a5becac467aa0d11ad2d4000e9d extends Template
     <h2>Impressum</h2>
     <div class=\"row\">
     <div class=\"col-lg-6\">
-        <p>Die Website ist ein Angebot des Instituts für die Geschichte der deutschen Juden und präsentiert Projektergebnisse aus dem EU finanzierten Projekt „HUNGMEM- Digitale Gedenk- und Forschungsinfrastruktur – Der Holocaust in Ungarn 80 Jahre später“.</p>
+        <p>Die Website ist ein Angebot des Instituts für die Geschichte der deutschen Juden und präsentiert
+            Projektergebnisse aus dem EU finanzierten Projekt „HUNGMEM- Digitale Gedenk- und Forschungsinfrastruktur –
+            Der Holocaust in Ungarn 80 Jahre später“.</p>
         <p>
             Institut für die Geschichte der deutschen Juden<br/>
             Beim Schlump 83<br/>
@@ -287,14 +297,15 @@ class __TwigTemplate_9fd10a5becac467aa0d11ad2d4000e9d extends Template
         </p>
         <h4>Kooperationspartner:</h4>
         <p>
-            <a href=\"https://bergen-belsen.stiftung-ng.de/de/\">Stiftung niedersächsische Gedenkstätten / Gedenkstätte Bergen-Belsen</a>
+            <a href=\"https://bergen-belsen.stiftung-ng.de/de/\">Stiftung niedersächsische Gedenkstätten / Gedenkstätte
+                Bergen-Belsen</a>
         <div class=\"partner\">
             <a href=\"https://bergen-belsen.stiftung-ng.de/de/\" tilte=\"Website der Gedenkstätte\">
                 <img class=\"img-fluid\" src=\"{{ asset('images/logos/bergen-belsen.png') }}\"
                      alt=\"Logo der Gedenkstätte KZ Bergen Belsen\"/>
             </a>
         </div>
-            <a href=\"https://www.kz-gedenkstaette-neuengamme.de/\">KZ-Gedenkstätte Neuengamme</a>
+        <a href=\"https://www.kz-gedenkstaette-neuengamme.de/\">KZ-Gedenkstätte Neuengamme</a>
         <div class=\"partner\">
             <a href=\"https://www.kz-gedenkstaette-neuengamme.de/\" tilte=\"Website der Gedenkstätte\">
                 <img class=\"img-fluid\" src=\"{{ asset('images/logos/neuengamme.png') }}\"
@@ -306,12 +317,14 @@ class __TwigTemplate_9fd10a5becac467aa0d11ad2d4000e9d extends Template
 
         <h3>Danksagung</h3>
         <p>
-            Wir danken allen beteiligten Institutionen und Personen für die Genehmigungen zur Nutzung von Bild- und Quellenmaterialien sowie für die Unterstützung bei den Recherchen.
+            Wir danken allen beteiligten Institutionen und Personen für die Genehmigungen zur Nutzung von Bild- und
+            Quellenmaterialien sowie für die Unterstützung bei den Recherchen.
         </p>
 
         <h3>Förderung</h3>
         <p>
-            Das Gesamt-Projekt „HUNGMEM“wird von der EU-Kommission im Rahmen des Förderprogramms CERV –Citizens, Equality, Rights and Values gefördert.
+            Das Gesamt-Projekt „HUNGMEM“wird von der EU-Kommission im Rahmen des Förderprogramms CERV –Citizens,
+            Equality, Rights and Values gefördert.
         </p>
         <div class=\"row partner\">
             <a href=\"https://commission.europa.eu/index_de\" tilte=\"Website der Europäischen Kommission\">
@@ -334,19 +347,22 @@ class __TwigTemplate_9fd10a5becac467aa0d11ad2d4000e9d extends Template
             Fathom Analytics ist ein durch Conva Ventures Inc. angebotener Dienst für
             anonymisierte Analysen, durch den der Anbieter ermitteln kann, wie Nutzer diese Anwendung nutzen.
             Erhobene Daten werden durch Hashing-Vorgänge anonymisiert. Weitere Informationen sind
-            <a href=\"https://usefathom.com/data\" title=\"Information zur Datenverarbeitung von Fathom Analytics\">hier</a> und über die
-            <a href=\"https://usefathom.com/privacy\" title=\"Datenschutzerklärung von Fathom Analytics\">Datenschutzerklärung des Dienstes</a>
+            <a href=\"https://usefathom.com/data\" title=\"Information zur Datenverarbeitung von Fathom Analytics\">hier</a>
+            und über die
+            <a href=\"https://usefathom.com/privacy\" title=\"Datenschutzerklärung von Fathom Analytics\">Datenschutzerklärung
+                des Dienstes</a>
             erhältlich.<br/>Verarbeitete personenbezogene Daten: Nutzungsdaten.
             Verarbeitungsort: Kanada.
         </p>
 
         <h3 id=\"usage\">Nutzungsrechte</h3>
         <p>
-            Die Texte stehen unter einer <a href=\"https://creativecommons.org/licenses/by/4.0/deed.de\" title=\"Lizenzbedingungen auf der Website von Creative Commons\">
+            Die Texte stehen unter einer <a href=\"https://creativecommons.org/licenses/by/4.0/deed.de\"
+                                            title=\"Lizenzbedingungen auf der Website von Creative Commons\">
                 CC BY 4.0 Lizenz</a> und können unter Namensnennung weitergenutzt werden.
         </p>
         <p>
-            Die Lizenzbedingungen der Abbildung können abweichen und sind jeweils an den Annbildungen angegeben.
+            Die Lizenzbedingungen der Abbildung können abweichen und sind jeweils an den Abbildungen angegeben.
         </p>
 
     </div>

@@ -183,15 +183,14 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
                             </a>
                         </h2>
                         <p>In weniger als zwei Monaten verschleppten die Nationalsozialisten nach der deutschen
-                            Besatzung Ungarns im März 1944 etwa 440.000 Jüdinnen und Juden in das Konzentrations- und
+                            Besetzung Ungarns im März 1944 etwa 440.000 Jüdinnen und Juden in das Konzentrations- und
                             Vernichtungslager Auschwitz, wo der Großteil unmittelbar bei der Ankunft ermordet wurde. Nur
                             etwa ein Drittel wurde bei den „Selektionen“ ausgewählt, um Zwangsarbeit für das Deutsche
-                            Reich zu leisten, unter anderem in einem der über tausend Außenlager des
-                            nationalsozialistischen KZ-Systems. Die hier präsentierten Fallstudien geben an konkreten
-                            Beispielen Einblicke in das System der NS-Zwangsarbeit, indem sie Deportationsrouten,
-                            Häftlingsgruppen und die Bedingungen in den Lagern beleuchten.
+                            Reich zu leisten. Die hier präsentierten Fallstudien geben an konkreten Beispielen Einblicke
+                            in das System der NS-Zwangsarbeit, indem sie Deportationsrouten, Häftlingsgruppen und die
+                            Bedingungen in den Lagern beleuchten.
                             <a class=\"more\" href=\"";
-        // line 76
+        // line 75
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation");
         yield "\" title=\"Weiterlesen\">[mehr]</a>
 
@@ -202,11 +201,11 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
             <div class=\"col-sm offset-lg-1\">
                 <div>
                     <a href=\"";
-        // line 84
+        // line 83
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographies");
         yield "\" title=\"\">
                         <img class=\"img-fluid\" src=\"";
-        // line 85
+        // line 84
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder_840x560.jpg"), "html", null, true);
         yield "\"
                              alt=\"\">
@@ -214,7 +213,7 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
                     <div class=\"studiesoverview\">
                         <h2>
                             <a href=\"";
-        // line 90
+        // line 89
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographies");
         yield "\" title=\"\">
                                 Biografische Einzelfallstudien
@@ -227,7 +226,7 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
                             ausgewählte Biografien vor, deren Schicksale zugleich stellvertretend für größere Gruppen
                             stehen.
                             <a class=\"more\" href=\"";
-        // line 100
+        // line 99
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographies");
         yield "\" title=\"Weiterlesen\">[mehr]</a>
                         </p>
@@ -270,7 +269,7 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
      */
     public function getDebugInfo()
     {
-        return array (  231 => 100,  218 => 90,  210 => 85,  206 => 84,  195 => 76,  180 => 64,  172 => 59,  168 => 58,  155 => 48,  145 => 41,  137 => 36,  133 => 35,  123 => 28,  112 => 20,  104 => 15,  95 => 8,  92 => 7,  82 => 6,  60 => 3,  37 => 1,);
+        return array (  230 => 99,  217 => 89,  209 => 84,  205 => 83,  194 => 75,  180 => 64,  172 => 59,  168 => 58,  155 => 48,  145 => 41,  137 => 36,  133 => 35,  123 => 28,  112 => 20,  104 => 15,  95 => 8,  92 => 7,  82 => 6,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -343,13 +342,12 @@ class __TwigTemplate_39d60226cf955577ab4a178fa29b8bfb extends Template
                             </a>
                         </h2>
                         <p>In weniger als zwei Monaten verschleppten die Nationalsozialisten nach der deutschen
-                            Besatzung Ungarns im März 1944 etwa 440.000 Jüdinnen und Juden in das Konzentrations- und
+                            Besetzung Ungarns im März 1944 etwa 440.000 Jüdinnen und Juden in das Konzentrations- und
                             Vernichtungslager Auschwitz, wo der Großteil unmittelbar bei der Ankunft ermordet wurde. Nur
                             etwa ein Drittel wurde bei den „Selektionen“ ausgewählt, um Zwangsarbeit für das Deutsche
-                            Reich zu leisten, unter anderem in einem der über tausend Außenlager des
-                            nationalsozialistischen KZ-Systems. Die hier präsentierten Fallstudien geben an konkreten
-                            Beispielen Einblicke in das System der NS-Zwangsarbeit, indem sie Deportationsrouten,
-                            Häftlingsgruppen und die Bedingungen in den Lagern beleuchten.
+                            Reich zu leisten. Die hier präsentierten Fallstudien geben an konkreten Beispielen Einblicke
+                            in das System der NS-Zwangsarbeit, indem sie Deportationsrouten, Häftlingsgruppen und die
+                            Bedingungen in den Lagern beleuchten.
                             <a class=\"more\" href=\"{{ path('app_deportation') }}\" title=\"Weiterlesen\">[mehr]</a>
 
                         </p>

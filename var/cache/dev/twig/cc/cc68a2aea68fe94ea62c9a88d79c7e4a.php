@@ -136,23 +136,24 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                     erkannt, dass die Zuteilung in ein Arbeitskommando außerhalb von Auschwitz eine größere Chance zum
                     Überleben bot.<sup><a href=\"#endnote3\" id=\"footnote3\">3</a></sup>
                 </p>
+                <p>
+                    <a href=\"";
+        // line 52
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/studies/Deportationsroute-Gruppe-der-300.jpg"), "html", null, true);
+        yield "\"
+                       data-lightbox=\"map-gruppe-300\"
+                       data-title=\"Deportationsroute der „Gruppe der 300“.\"><img class=\"gallery img-fluid\"
+                                                                                 src=\"";
+        // line 55
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/studies/Deportationsroute-Gruppe-der-300_preview.jpg"), "html", null, true);
+        yield "\"
+                                                                                 alt=\"Karte der Deportationsroute aus Oradea und Cluj-Napoca über Auschwitz und view weitere Lager ins Konzentrationslager Bergen-Belsen \"/></a>
+                <p class=\"caption\">
+                    Deportationsroute der „Gruppe der 300“. &copy; Institut für die Geschichte der deutschen Juden. Lizenz: CC BY 4.0 &#128269; Zum Vergrößern klicken.
+                </p>
+                </p>
             </div>
             <div class=\"col-lg-4\">
-                <a href=\"";
-        // line 53
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder_840x560.jpg"), "html", null, true);
-        yield "\"
-                   data-lightbox=\"map-gruppe-300\"
-                   data-title=\"Deportationsroute Gruppe der 300\"><img class=\"gallery img-fluid\"
-                                                                      src=\"";
-        // line 56
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder_840x560.jpg"), "html", null, true);
-        yield "\"
-                                                                      alt=\"Karte\"/></a>
-                <p class=\"caption\">
-                    Deportationsroute der „Gruppe der 300“. Die Orte und Daten finden sich hier:
-                    https://hidrive.ionos.com/lnk/VW9YvK3At
-                </p>
             </div>
         </div>
 
@@ -188,7 +189,7 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                     <h4>&#9432; Mehr zum historischen Hintergrund</h4>
                     <p>
                         <a href=\"";
-        // line 96
+        // line 97
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_context");
         yield "\" title=\"Text zum historischen Kontext\">
                             &#10149; Historischer
@@ -227,7 +228,7 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                     wobei sie alle zwei Wochen einen Tag frei bekamen. Zu dieser Zeit sahen sie kein Tageslicht, da sie
                     direkt im VW-Werk in ehemaligen Waschkauen im selben Gebäude untergebracht waren, in dem auch die
                     Produktion stattfand. <a href=\"";
-        // line 132
+        // line 133
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_studytemplate");
         yield "\" title=\"Fallstudie Salzwedel\">Später
                         wurden in denselben Räumen Jüdinnen aus Ungarn als KZ-Zwangsarbeiter
@@ -385,7 +386,7 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                     <h4>&#9432; Übersicht Zwangsarbeitslager</h4>
                     <p style=\"font-size: 0.9rem;\">
                         <a href=\"";
-        // line 287
+        // line 288
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_map");
         yield "\" title=\"Kartenübersicht\">
                             &#10149; Übersicht der Lager mit aus Ungarn deportierten Zwangsarbeitern und
@@ -410,7 +411,7 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                     wenig über 30 Kilo.<sup><a href=\"#endnote17\" id=\"footnote17\">17</a></sup>
                 </p>
                 <img class=\"img-fluid\" style=\"width: 640px;\" src=\"";
-        // line 309
+        // line 310
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/studies/V1-Produktion.jpg"), "html", null, true);
         yield "\"
                      alt=\"Blick in eine Produktionshalle der V1 im Konzentrationslager Mittelbau-Dora im Mai 1946\"/>
@@ -517,7 +518,7 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                     </p>
                     <p>
                         <a href=\"";
-        // line 413
+        // line 414
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_map");
         yield "\" title=\"Kartenübersicht\">
                             &#10149; Zur Karte
@@ -529,7 +530,7 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
 
         <h3 class=\"mt-4\">Quellen und Forschung</h3>
         <div class=\"row\">
-            <div class=\"col-lg-8 abstract\">
+            <div class=\"col-lg-8\">
                 <p>
                     Der Einsatz von KZ-Häftlingen in der Rüstungsindustrie und die Verhandlungen zwischen der SS und
                     Wirtschaftsunternehmen wie Volkswagen sind gut dokumentiert.<sup><a href=\"#endnote26\" id=\"footnote26\">26</a></sup>
@@ -545,7 +546,7 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                     ebenfalls die Häftlingsdaten enthält.<sup><a href=\"#endnote28\" id=\"footnote28\">28</a></sup>
                 </p>
                 <img class=\"img-fluid\" style=\"width: 640px;\" src=\"";
-        // line 438
+        // line 439
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder_840x560.jpg"), "html", null, true);
         yield "\"
                      alt=\"Häftlingsnummern\"/>
@@ -599,7 +600,7 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                         Konzentrationslager-System
                         bei Marienthal und Dernau, August bis Dezember 1944, Mainz 2021.
                     </li>
-                    <li>Hans Mommsen /Manfred Grieger, Das Volkswagenwerk im Dritten Reich, Düsseldorf 1996.</li>
+                    <li>Hans Mommsen / Manfred Grieger, Das Volkswagenwerk im Dritten Reich, Düsseldorf 1996.</li>
                     <li>Dezső Schön, As örökség- Elbeszélések, Tel Aviv 1960.</li>
                     <li>Moshe Shen, Überleben war für uns KZ-Häftlinge eine Frage der Zeit, in: Dieter Landenberger /
                         Jens-Christian Gutzmann (Hrsg.), Überleben in Angst. Vier Juden berichten über ihre Zeit im
@@ -710,8 +711,8 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                         Zugänge aus den KL Natzweiler (Außenlager Rebstock), 27.09.1944 und KL Dachau, 30.09.1944,
                         1.1.27.1 2257001, ITS Digital Archive, Arolsen Archives, online unter: <a
                                 href=\"https://collections.arolsen-archives.org/de/search/topic/1-1-27-1_2257001?s=Rebstock\"
-                                title=\"Sammlung Arolsen Archives\">https://collections.arolsen-archives.org/de/search/topic/1-1-27-1_2257001?s=Rebstock
-                            (letzter Zugriff: 19.7.2024)</a>. <a href=\"#footnote28\">&uarr;</a></li>
+                                title=\"Sammlung Arolsen Archives\">https://collections.arolsen-archives.org/de/search/topic/1-1-27-1_2257001?s=Rebstock</a>
+                            (letzter Zugriff: 19.7.2024). <a href=\"#footnote28\">&uarr;</a></li>
                 </ol>
             </div>
             <div class=\"col-lg-4\">
@@ -728,9 +729,9 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                     Norddeutschland 1944, hrsg. vom
                     Institut für die Geschichte der deutschen Juden, URL:
                     https://holocaust-ungarn-norddeutschland.de";
-        // line 618
+        // line 619
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_vw");
-        yield ".
+        yield ". Lizenz: CC BY 4.0.
                 </p>
             </div>
         </div>
@@ -768,7 +769,7 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
      */
     public function getDebugInfo()
     {
-        return array (  732 => 618,  549 => 438,  521 => 413,  414 => 309,  389 => 287,  231 => 132,  192 => 96,  149 => 56,  143 => 53,  95 => 7,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
+        return array (  733 => 619,  550 => 439,  522 => 414,  415 => 310,  390 => 288,  232 => 133,  193 => 97,  148 => 55,  142 => 52,  95 => 7,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -823,17 +824,18 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                     erkannt, dass die Zuteilung in ein Arbeitskommando außerhalb von Auschwitz eine größere Chance zum
                     Überleben bot.<sup><a href=\"#endnote3\" id=\"footnote3\">3</a></sup>
                 </p>
+                <p>
+                    <a href=\"{{ asset('images/studies/Deportationsroute-Gruppe-der-300.jpg') }}\"
+                       data-lightbox=\"map-gruppe-300\"
+                       data-title=\"Deportationsroute der „Gruppe der 300“.\"><img class=\"gallery img-fluid\"
+                                                                                 src=\"{{ asset('images/studies/Deportationsroute-Gruppe-der-300_preview.jpg') }}\"
+                                                                                 alt=\"Karte der Deportationsroute aus Oradea und Cluj-Napoca über Auschwitz und view weitere Lager ins Konzentrationslager Bergen-Belsen \"/></a>
+                <p class=\"caption\">
+                    Deportationsroute der „Gruppe der 300“. &copy; Institut für die Geschichte der deutschen Juden. Lizenz: CC BY 4.0 &#128269; Zum Vergrößern klicken.
+                </p>
+                </p>
             </div>
             <div class=\"col-lg-4\">
-                <a href=\"{{ asset('images/placeholder_840x560.jpg') }}\"
-                   data-lightbox=\"map-gruppe-300\"
-                   data-title=\"Deportationsroute Gruppe der 300\"><img class=\"gallery img-fluid\"
-                                                                      src=\"{{ asset('images/placeholder_840x560.jpg') }}\"
-                                                                      alt=\"Karte\"/></a>
-                <p class=\"caption\">
-                    Deportationsroute der „Gruppe der 300“. Die Orte und Daten finden sich hier:
-                    https://hidrive.ionos.com/lnk/VW9YvK3At
-                </p>
             </div>
         </div>
 
@@ -1195,7 +1197,7 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
 
         <h3 class=\"mt-4\">Quellen und Forschung</h3>
         <div class=\"row\">
-            <div class=\"col-lg-8 abstract\">
+            <div class=\"col-lg-8\">
                 <p>
                     Der Einsatz von KZ-Häftlingen in der Rüstungsindustrie und die Verhandlungen zwischen der SS und
                     Wirtschaftsunternehmen wie Volkswagen sind gut dokumentiert.<sup><a href=\"#endnote26\" id=\"footnote26\">26</a></sup>
@@ -1262,7 +1264,7 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                         Konzentrationslager-System
                         bei Marienthal und Dernau, August bis Dezember 1944, Mainz 2021.
                     </li>
-                    <li>Hans Mommsen /Manfred Grieger, Das Volkswagenwerk im Dritten Reich, Düsseldorf 1996.</li>
+                    <li>Hans Mommsen / Manfred Grieger, Das Volkswagenwerk im Dritten Reich, Düsseldorf 1996.</li>
                     <li>Dezső Schön, As örökség- Elbeszélések, Tel Aviv 1960.</li>
                     <li>Moshe Shen, Überleben war für uns KZ-Häftlinge eine Frage der Zeit, in: Dieter Landenberger /
                         Jens-Christian Gutzmann (Hrsg.), Überleben in Angst. Vier Juden berichten über ihre Zeit im
@@ -1373,8 +1375,8 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                         Zugänge aus den KL Natzweiler (Außenlager Rebstock), 27.09.1944 und KL Dachau, 30.09.1944,
                         1.1.27.1 2257001, ITS Digital Archive, Arolsen Archives, online unter: <a
                                 href=\"https://collections.arolsen-archives.org/de/search/topic/1-1-27-1_2257001?s=Rebstock\"
-                                title=\"Sammlung Arolsen Archives\">https://collections.arolsen-archives.org/de/search/topic/1-1-27-1_2257001?s=Rebstock
-                            (letzter Zugriff: 19.7.2024)</a>. <a href=\"#footnote28\">&uarr;</a></li>
+                                title=\"Sammlung Arolsen Archives\">https://collections.arolsen-archives.org/de/search/topic/1-1-27-1_2257001?s=Rebstock</a>
+                            (letzter Zugriff: 19.7.2024). <a href=\"#footnote28\">&uarr;</a></li>
                 </ol>
             </div>
             <div class=\"col-lg-4\">
@@ -1390,7 +1392,7 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                     Louis Wörner: Facharbeiter für Volkswagen, in: Holocaust in Ungarn und Deportationen nach
                     Norddeutschland 1944, hrsg. vom
                     Institut für die Geschichte der deutschen Juden, URL:
-                    https://holocaust-ungarn-norddeutschland.de{{ path('app_deportation_vw') }}.
+                    https://holocaust-ungarn-norddeutschland.de{{ path('app_deportation_vw') }}. Lizenz: CC BY 4.0.
                 </p>
             </div>
         </div>

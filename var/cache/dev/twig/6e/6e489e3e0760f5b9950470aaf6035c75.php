@@ -112,13 +112,14 @@ class __TwigTemplate_8c385939753e07d05b6e9c10a975c74f extends Template
                 <p>
                     Aufgrund von neuen Bedarfen an Zwangsarbeit sowie angesichts des Vorrückens der
                     Alliierten wurden die Häftlinge mitunter mehrfach in andere Lager verlegt.
-                <br>
+                    <br>
                     Nach der Räumung der Außenlager des KZ Neuengamme kamen viele der Häftlinge nach Bergen Belsen, das
                     sich aufgrund der unmenschlichen Bedingungen und der akuten Überfüllung zu einem Sterbelager
                     entwickelte. Gezeigt werden die Lager, die in den hier präsentierten Fallstudien erwähnt werden und
                     für die im Rahmen des Projektes die Anwesenheit für aus Ungarn deportierte Personen nachgewiesen
-                    werden konnte. Eine <a href=\"https://www.kz-gedenkstaette-neuengamme.de/geschichte/kz-aussenlager/aussenlagerliste/\"
-                        title=\"Website der KZ-Gedenkstätte Neuengamme\">
+                    werden konnte. Eine <a
+                            href=\"https://www.kz-gedenkstaette-neuengamme.de/geschichte/kz-aussenlager/aussenlagerliste/\"
+                            title=\"Website der KZ-Gedenkstätte Neuengamme\">
                         Übersicht aller Außenlager des KZ Neuengamme findet sich hier</a>, weitere
                     <a href=\"https://bergen-belsen.stiftung-ng.de/de/geschichte/konzentrationslager-1943-1945/\"
                        title=\"Website der KZ-Gedenkstätte Neuengamme\">
@@ -132,48 +133,192 @@ class __TwigTemplate_8c385939753e07d05b6e9c10a975c74f extends Template
             </div>
         </div>
 
-    <div class=\"row mt-5\">
-        <h3>Informationen zu ausgewählten Lagern</h3>
-    <div class=\"col-lg-6\">
-        <h4 id=\"#bergenbelsen\">Bergen-Belsen</h4>
-
-        <h4 id=\"#fallerlebenFrauen\">Fallersleben (Frauen)</h4>
-        <h4 id=\"#n\">Hannover-Ahlem</h4>
-        <h4 id=\"#n\"></h4>
-        <h4 id=\"#n\"></h4>
-        <h4 id=\"#n\"></h4>
-        <h4 id=\"#n\"></h4>
-        <h4 id=\"#n\"></h4>
-    </div>
-    </div>
+        <div class=\"row mt-5\">
+            <h3>Informationen zu ausgewählten Lagern</h3>
+            <div class=\"col-lg-6\">
+                <h4 id=\"bergenbelsenMore\">Bergen-Belsen</h4>
+                <p>Das KZ Bergen-Belsen war 1943 zunächst zur Unterbringung jüdischer Geiseln gegründet worden, die
+                    gegen deutsche Zivilpersonen im alliierten Gewahrsam ausgetauscht werden sollten. Von Juli bis
+                    September 1944 richtete die SS Teillager für verschiedene Häftlingsgruppen ein, dazu gehörte auch
+                    das sogenannte „Ungarnlager“. Schnell wurden ihm jedoch weitere Funktionen zugewiesen. Ende März
+                    1944 wurde ein Lagerteil für männliche Häftlinge anderer Konzentrationslager eingerichtet, die zu
+                    krank waren, um dort weiter Zwangsarbeit zu leisten. Die SS unternahm wenig, um ein Überleben der
+                    kranken Häftlinge zu ermöglichen, so dass ein Großteil von ihnen in Bergen-Belsen starb. Im August
+                    1944 wurde ein Lagerabschnitt für weibliche Häftlinge eingerichtet, die zur Arbeit in der deutschen
+                    Rüstungsindustrie gezwungen werden sollten.  Innerhalb von wenigen Monaten deportierte die SS etwa
+                    9.000 Häftlinge in das Frauenlager. Die Häftlinge stammten zunächst vor allem aus Polen, wo sie
+                    infolge des Warschauer Aufstands verhaftet worden waren; später waren unter ihnen auch viele
+                    polnische und ungarische Jüdinnen. Der Großteil der Frauen wurde nach kurzer Zeit in eines der
+                    KZ-Außenlager an Standorten deutscher Rüstungsfirmen deportiert. Ab Ende 1944 wurde das KZ
+                    Bergen-Belsen zum Ziel vieler Todesmärsche und Räumungstransporte aus den frontnahen
+                    Konzentrationslagern. Allein zwischen Dezember 1944 bis Mitte April 1945 kamen so zusätzlich 85.000
+                    Häftlinge nach Bergen-Belsen, so dass das Lager schnell völlig überbelegt war. Auch die
+                    Versorgungssituation war katastrophal. Unter diesen Umständen kam es zu einem Ausbruch einer Typhus-
+                    und Fleckfieberepidemie, die von der SS kaum bekämpft wurde. Das Konzentrationslager Bergen-Belsen
+                    wurde zu einem Sterbelager. Am Standort des ehemaligen Konzentrationslagers befindet sich heute eine
+                    Gedenkstätte. (Vgl. Stiftung niedersächsische Gedenkstätten: Bergen-Belsen. Kriegsgefangenenlager
+                    1940–1945. Konzentrationslager 1943–1945. Displaced Persons Camp 1945–1950. Katalog der
+                    Dauerausstellung, Celle 2009, S.144–295.)</p>
+                <h4 id=\"fallerlebenMore\">Fallersleben (Frauen)</h4>
+                <p>
+                    Das Frauenaußenlager Fallersleben war im Spätsommer 1944 im VW-Werk als Außenlager Neuengammes
+                    eingerichtet worden. In den Unterkünften der Frauen waren zuvor 300 als Metallfacharbeiter
+                    ausgewählte jüdische Männer untergebracht gewesen. Die ersten weiblichen Häftlinge waren Jüdinnen,
+                    die aus Ungarn nach Auschwitz deportiert und von der SS für einen Arbeitseinsatz ausgewählt worden
+                    waren.  Später kamen weitere Transporte aus Bergen-Belsen hinzu. Die Häftlinge mussten Panzerfäuste
+                    und Tellerminen im VW-Werk produzieren. Im März 1945 kamen etwa 200 Frauen zusätzlich aus dem
+                    Außenlager Porta Westfalica-Hausberge in Fallersleben an. Zusammen wurden beide Gruppen am 8. April
+                    nach Salzwedel deportiert, bevor alliierte Truppen das VW-Werk befreiten.
+                </p>
+                <h4 id=\"dessauerUferMore\">Hamburg-Dessauer Ufer</h4>
+                <p>
+                    Die etwa 1500 Frauen im KZ-Außenlager Dessauer Ufer (KZ Neuengamme) kamen mit zwei Transporten aus
+                    Auschwitz. Der erste Transport im Juli 1944 bestand etwa zur Hälfte aus als Jüdinnen verfolgten
+                    Frauen, die erst kurz zuvor aus dem Ghetto Theresienstadt in Auschwitz angekommen waren und
+                    überwiegend aus der damaligen Tschechoslowakei stammten. Die andere Hälfte bestand aus Jüdinnen, die
+                    aus dem kurz zuvor von den Deutschen besetzten Ungarn deportiert worden waren. Einige der Frauen aus
+                    dem besetzten Ungarn stammten aus Gebieten, die erst 1943 durch Ungarn selbst besetzt oder
+                    annektiert worden waren und zuvor zur Tschechoslowakei und zu Rumänien gehört hatten. Der zweite
+                    Transport im August 1944 bestand vor allem aus Jüdinnen, die zuvor aus dem Ghetto Litzmannstadt
+                    (Łódź) nach Auschwitz gekommen waren. Viele von ihnen stammten aus Polen, einige von ihnen aber auch
+                    aus Deutschland. Die Frauen mussten vor allem Trümmer im Hamburger Hafen räumen, der zum Ziel
+                    alliierter Bombardements geworden war.
+                </p>
+                <p>
+                    Im September 1944 wurde das Frauenaußenlager am Dessauer Ufer aufgelöst und die Frauen auf mehrere
+                    in diesem Zuge gegründete Frauenaußenlager in Sasel, Wedel und Neugraben verteilt. Kurz darauf wurde
+                    am selben Standort ein Männeraußenlager des KZ Neuengamme eingerichtet.
+                </p>
+                <h4 id=\"eidelstedtMore\">Hamburg-Eidelstedt</h4>
+                <p>
+                    Am 27. September 1944 wurden etwa 500 ungarische und tschechische Jüdinnen, die zuvor am Dessauer
+                    Ufer und in Wedel inhaftiert waren, in das Außenlager Eidelstedt des KZ Neuengamme deportiert. Hier
+                    mussten sie Zwangsarbeit beim Bau von Behelfswohnheimen für die Hamburger Zivilbevölkerung und bei
+                    Trümmer- und Schneeräumungen im Stadtgebiet leisten. Anfang April 1945 wurden in Erwartung der
+                    baldigen Befreiung Hamburgs die Hamburger Außenlager geräumt und die Häftlinge aus dem Stadtgebiet
+                    deportiert. Die Häftlinge des Außenlagers Eidelstedt wurden nach Bergen-Belsen deportiert, wo viele
+                    von ihnen starben.
+                </p>
+                <h4 id=\"ahlemMore\">Hannover-Ahlem</h4>
+                <p>
+                    Das Lager wurde von KZ-Häftlingen aus dem Außenlager Hannover-Stöcken auf dem Gelände der
+                    Continental-Gummiwerke im November 1944 errichtet. Es gehörte zum Außenlagersystem des KZ
+                    Neuengamme. Insgesamt waren etwa 840 zumeist jüdische Männer dort untergebracht, die größtenteils
+                    zuvor im Außenlager Hannover-Stöcken inhaftiert waren. Die Häftlinge mussten Zwangsarbeit für den
+                    Bau eines unterirdischen Stollens für die Continental-Gummiwerke und die Maschinenfabrik
+                    Niedersachsen Hannover leisten. Am 5. April wurde der Großteil der Häftlinge nach Bergen-Belsen
+                    getrieben. Die noch im Lager verbliebenen Häftlinge wurden am 10. April 1945 von amerikanischen
+                    Truppen befreit.
+                </p>
+                <h4 id=\"luebberstedtMore\">Lübberstedt</h4>
+                <p>
+                    In einem Forstgebiet an der Bahnstrecke Bremen–Bremerhaven befand sich während des Zweiten
+                    Weltkrieges eine Munitionsanstalt (Muna) der deutschen Luftwaffe. In Munitionsanstalten wurden
+                    Kampfmittel und Munition aus Zwischenprodukten zusammengesetzt und gelagert. In der Muna
+                    Lübberstedt-Bilohe mussten auch osteuropäische Zwangsarbeiter und Zwangsarbeiterinnen,
+                    Kriegsgefangene und italienische Militiärinternierte sowie KZ-Häftlinge arbeiten. Letztere kamen im
+                    Sommer 1944 aus Auschwitz, wohin sie fast alle kurz zuvor aus Ungarn deportiert worden waren. 500
+                    jüdische Frauen mussten hier bis Ende April Zwangsarbeit in den Produktionsanlagen leisten. Auch das
+                    Außenlager Lübberstedt-Bolihe (KZ Neuengamme) wurde geräumt, bevor alliierte Truppen das Lager
+                    befreien konnten. Die Frauen wurden in Viehwagons gezwungen, die eineinhalb Wochen durch
+                    Norddeutschland irrten, bis die überlebenden Frauen nach einem britischen Fliegerangriff in der Nähe
+                    Eutins befreit wurden.
+                </p>
+                <h4 id=\"hausbergeMore\">Porta Westfalica-Hausberge</h4>
+                <p>
+                    Das Frauenaußenlager Porta Westfalica-Hausberge war erst im Februar 1945 eingerichtet worden. In
+                    Porta Westfalica befanden sich zu diesem Zeitpunkt bereits zwei Männeraußenlager des KZ-Neuengamme,
+                    die Häftlinge sollten alte Bergmannsstollen zu unterirdischen Produktionsstätten umbauen. In einem
+                    dieser Stollen sollten die etwa 1.000 Frauen des neuen Frauenaußenlagers Radioröhren für die Firma
+                    Philipps und ihre Tochterfirmen herstellen. Die Häftlinge waren vor allem Jüdinnen, die aus den
+                    Niederlanden und Ungarn nach Auschwitz deportiert worden waren. Ein Teil von ihnen hatte bereits in
+                    einem Außenlager des KZ Groß Rosen Radioröhren produzieren müssen, bis diese Produktionsstätte im
+                    Januar 1945 angesichts der sich nähernden sowjetischen Armee geräumt wurde.
+                </p>
+                <h4 id=\"salzwedelMore\">Salzwedel</h4>
+                <p>
+                    In Salzwedel konnte die Draht- und Metallwarenfabrik vom deutschen Rüstungsboom profitieren; bereits
+                    1937 war sie mit 600 Beschäftigten zum großen Industriebetrieb in der Stadt gewachsen. Auch hier
+                    wurde auf ausländische Zwangsarbeiter zurückgegriffen. 1944 wurde ein Lager, das bis dahin für
+                    osteuropäische Zwangsarbeiterinnen genutzt worden war, zu einem Außenlager des KZ Neuengamme
+                    umgestaltet.Im Spätsommer 1944 kam hier der erste Transport von weiblichen KZ-Häftlingen an, die in
+                    Auschwitz für die Arbeit selektiert worden waren. Die Gruppe bestand vor allem aus Jüdinnen, die
+                    erst kurz zuvor aus Ungarn oder aus von Ungarn annektierten Gebieten deportiert worden waren. In der
+                    Folgezeit wurden weitere weibliche KZ-Häftlinge in das neue Außenlager deportiert. Anders als der
+                    erste Transport waren sie aber nicht direkt nach Salzwedel, sondern zunächst in das
+                    Konzentrationslager Bergen-Belsen deportiert und dort für die Arbeit in Salzwedel ausgewählt worden.
+                    Am 14. April 1945 wurde das Lager durch amerikanische Truppen befreit. Nur wenige Kilometer entfernt
+                    hatten SS, Wehrmacht und Volksturmeinheiten sowie Hitlerjungen am Tag zuvor 1.061 männliche
+                    KZ-Häftlinge beim Massaker von Gardelegen in einer Scheune verbrannt.
+                </p>
+                <h4 id=\"vwWerkMore\">VW-Werk Halle1</h4>
+                <p>
+                    1938/1939 hatte die ein Jahr zuvor gegründete Volkswagen GmbH ihr Werk in der Nähe von Fallersleben
+                    im heutigen Wolfsburg errichtet. Nach Kriegsbeginn wurden hier nicht, wie ursprünglich geplant,
+                    Autos für die deutsche Zivilbevölkerung produziert, sondern Rüstungsaufträge übernommen. Dabei griff
+                    der Volkswagen-Konzern auch auf die verschiedenen Formen nationalsozialistischer Zwangsarbeit
+                    zurück. Ende 1944 stellten Zwangsarbeiter und Zwangsarbeiterinnen zwei Drittel der Belegschaft,
+                    insgesamt mussten etwa 200.000 Menschen Zwangsarbeit bei Volkswagen leisten, viele von ihnen
+                    überlebten die Arbeitsbedingungen nicht. Neben zivilen Zwangsarbeitern und Zwangsarbeiterinnen,
+                    sowjetischen Kriegsgefangenen und italienischen Militärinternierten betraf dies auch insgesamt circa
+                    5.000 KZ-Häftlinge. 300 von ihnen waren als Metallfacharbeiter im KZ Auschwitz aus einer Gruppe aus
+                    Ungarn deportierter Juden ausgewählt worden, um die Kernbelegschaft einer unterirdischen
+                    Raketenproduktion einer VW-Tochter zu bilden. Hierzu wurden sie zunächst im VW-Werk ausgebildet, in
+                    dem sie auch untergebracht waren. Nachdem Teile des Werkes durch alliierte Bombardierung zerstört
+                    worden waren, wurden die 300 ins nordfranzösische Thil deportiert.
+                </p>
+                <h4 id=\"wedelMore\">Wedel (Frauen)</h4>
+                <p>
+                    Seit September 1944 wurden in dem Außenlager Wedel des KZ Neuengamme 500 ungarische und tschechische
+                    Jüdinnen inhaftiert, die zuvor am Dessauer Ufer gewesen waren und Zwangsarbeit bei Räumungsarbeiten
+                    im Stadtgebiet leisten mussten. Nach zwei Wochen wurde das Lager geräumt und die Frauen in das
+                    Außenlager Eidelstedt gebracht.
+                </p>
+            </div>
+        </div>
 
     </div>
 
     ";
-        // line 65
+        // line 195
         yield "    <script>
 
         var isStudyIcon = L.icon({
             iconUrl: '";
-        // line 68
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/icon_lilac.png"), "html", null, true);
+        // line 198
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/marker-icon.png"), "html", null, true);
         yield "',
-            iconSize:     [45, 45], // size of the icon
-            iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
-            popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+            iconSize: [30, 48,6], // size of the icon
+            iconAnchor: [19, 88], // point of the icon which will correspond to marker's location
+            popupAnchor: [-3, -76] // point from which the popup should open relative to the iconAnchor
         });
         var isInDataIcon = L.icon({
             iconUrl: '";
-        // line 74
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/icon_blue.png"), "html", null, true);
+        // line 204
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/marker-icon_grey.png"), "html", null, true);
         yield "',
-            iconSize:     [45, 45], // size of the icon
-            iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
-            popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+            iconSize: [30, 48,6], // size of the icon
+            iconAnchor: [19, 88], // point of the icon which will correspond to marker's location
+            popupAnchor: [-3, -76] // point from which the popup should open relative to the iconAnchor
         });
 
 
-        const BergenBelsen = L.marker([52.757778, 9.907778], {icon: isStudyIcon}).bindPopup('<strong>Bergen-Belsen</strong><br/>Das KZ Bergen-Belsen war 1943 zunächst zur Unterbringung jüdischer Geiseln gegründet worden, die gegen deutsche Zivilpersonen im alliierten Gewahrsam ausgetauscht werden sollten. Schnell wurden ihm jedoch weitere Funktionen zugewiesen. Im August 1944 wurde ein Lagerabschnitt für weibliche Häftlinge eingerichtet, die zur Arbeit in der deutschen Rüstungsindustrie gezwungen werden sollten. Innerhalb von wenigen Monaten deportierte die SS etwa 9.000 Häftlinge in das Frauenlager. Die Häftlinge stammten zunächst vor allem aus Polen, wo sie in Folge des Warschauer Aufstands verhaftet worden war, später waren unter ihnen auch viele polnische und ungarische Jüdinnen. Die Häftlinge wurden zunächst auf einer großen freien Fläche in Zelten untergebracht, erst nachdem diese durch einen Sturm zerstört worden waren, wurden die Frauen auch in Barracken untergebracht. Der Großteil der Frauen wurde nach kurzer Zeit in eines der KZ-Außenlager an Standorten deutscher Rüstungsfirmen deportiert. Ab Ende 1944 wurde das KZ Bergen-Belsen zum Ziel vieler Todesmärsche und Räumungstransport aus den frontnahen Konzentrationslagern. Allein zwischen Dezember 1944 bis Mitte April 1945 kamen so zusätzlich 85.000 Häftlinge nach Bergen-Belsen, so dass das Lager schnell völlig überbelegt war. Die Häftlinge wurden in Baracken untergebracht, die für diese hohe Zahl an Insassen nicht ausgelegt waren. Auch die Versorgungssituation war katastrophal. Unter diesen Umständen kam es zu einem Ausbruch einer Typhus- und Fleckfieberepidemie, die von der SS kaum bekämpft wurde. Das Konzentrationslager Bergen-Belsen wurde zu einem Sterbelager. Die etwa 15.000 Häftlinge aus Mittelbau-Dora, die noch im April 1945 in Bergen-Belsen eintrafen, wurden in ehemaligen Wehrmachtskasernen untergebracht. Am Standort des ehemaligen Konzentrationslagers befindet sich heute eine Gedenkstätte. (Vgl. Stiftung niedersächsische Gedenkstätten,: Bergen-Belsen. Kriegsgefangenenlager 1940-1945. Konzentrationslager 1943-1945. Displaced Persons Camp 1945-1950. Katalog der Dauerausstellung, Celle 2009, S.144-295.)');
+        const BergenBelsen = L.marker([52.757778, 9.907778], {icon: isStudyIcon}).bindPopup('<strong>Bergen-Belsen</strong><p>Das KZ Bergen-Belsen war 1943 zunächst als „Austauschlager“ für die Unterbringung jüdischer Geiseln gegründet worden. Schnell wurden ihm aber weitere Funktionen zugewiesen und ein Männer- sowie ein Frauenlager eingerichtet. Ab Ende 1944 wurde Bergen-Belsen Ziel vieler Todesmärsche und Räumungstransporte und entwickelte sich aufgrund der katastrophalen Bedingungen zu einem Sterbelager. Nach der Befreiung wurde in Bergen-Belsen ein polnisches und ein jüdisches Displaced Persons-Camp eingerichtet.</p><a href=\"#bergenBelsenMore\">Mehr zu Bergen-Belsen</a><br/><a href=\"";
+        // line 211
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_vw");
+        yield "\">Fallstudie 300er-Gruppe</a><br/><a href=\"";
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_dessauerUfer");
+        yield "\">Fallstudie Dessauer Ufer</a><br/> <a href=\"";
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_salzwedel");
+        yield "\">Fallstudie Salzwedel</a><br/> <a href=\"";
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_bio_fuerst");
+        yield "\">Fallstudie Gyula Fürst</a><br/><a href=\"";
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_bio_mereny");
+        yield "\">Fallstudie Schwestern Merény</a><br/><a href=\"";
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_bio_blum");
+        yield "\">Fallstudie Yehuda Blum</a><br/> <a href=\"";
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_bio_hardy");
+        yield "\">Fallstudie Katharina Hardy</a><br/>');
         const Boizenburg = L.marker([53.37507, 10.698472], {icon: isInDataIcon}).bindPopup('<strong>Boizenburg</strong><br/>');
         const BraunschweigBuessingNAG = L.marker([52.256667, 10.541111], {icon: isInDataIcon}).bindPopup('<strong>Braunschweig (Büssing-NAG) </strong><br/>');
         const BraunschweigVechelde = L.marker([52.260111, 10.376306], {icon: isInDataIcon}).bindPopup('<strong>Braunschweig-Vechelde</strong><br/>');
@@ -184,10 +329,19 @@ class __TwigTemplate_8c385939753e07d05b6e9c10a975c74f extends Template
         const BremenObernheide = L.marker([53.00101850934623, 8.745048757476429], {icon: isInDataIcon}).bindPopup('<strong>Bremen-Obernheide</strong><br/>');
         const BremenOsterort = L.marker([53.141951279652694, 8.691817452772783], {icon: isInDataIcon}).bindPopup('<strong>Bremen-Osterort</strong><br/>');
         const BremenSchuetzenhof = L.marker([53.118994, 8.768726], {icon: isInDataIcon}).bindPopup('<strong>Bremen-Schützenhof</strong><br/>');
-        const FallerslebenFrauen = L.marker([52.433333, 10.766667], {icon: isStudyIcon}).bindPopup('<strong>Fallersleben (Frauen)</strong><br/>');
-        const HAhlem = L.marker([52.37835, 9.65748], {icon: isStudyIcon}).bindPopup('<strong>Hannover-Ahlem</strong><br/>');
+        const FallerslebenFrauen = L.marker([52.433333, 10.766667], {icon: isStudyIcon}).bindPopup('<strong>Fallersleben (Frauen)</strong><p>Das Frauenlager Fallersleben war als Außenlager des KZ Neuengamme im Spätsommer 1944 im VW-Werk eingerichtet worden. Die etwa 650 Häftlinge mussten Panzerfäuste und Tellerminen im VW-Werk produzieren. Am 8. April 1945 wurde das Frauenaußenlager von der SS geräumt und die Frauen nach Salzwedel transportiert.</p> <a href=\"fallerslebenMore\">Mehr zu Fallersleben</a><br/><a href=\"";
+        // line 222
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_salzwedel");
+        yield "\">Fallstudie Salzwedel</a>');
+        const HAhlem = L.marker([52.37835, 9.65748], {icon: isStudyIcon}).bindPopup('<strong>Hannover-Ahlem</strong><p>Das Männeraußenlager Hannover-Ahlem war als Außenlager des KZ Neuengamme im November 1944 errichtet worden. Die etwa 840 Häftlinge mussten einen unterirdischen Stollen für die Continental-Gummiwerke und die Maschinenfabrik Niedersachsen anlegen. Am 5. April wurde der Großteil der Häftlinge nach Bergen-Belsen getrieben.</p><a href=\"ahlemMore\">Mehr zu Hannover-Ahlem</a><br/><a href=\"";
+        // line 223
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_bio_fuerst");
+        yield "\">Fallstudie Gyula Fürst</a>');
         const HelmstedtBeendorfFrauen = L.marker([52.23989233360328, 11.089496406413582], {icon: isInDataIcon}).bindPopup('<strong>Helmstedt-Beendorf (Frauen)</strong><br/>');
-        const HHDessauerUfer = L.marker([53.525, 10.010556], {icon: isStudyIcon}).bindPopup('<strong>Hamburg-Dessauer Ufer</strong><br/>Die Haftstätte im Lagerhaus Dessauer Ufer war als Außenlager dem Konzentrationslager Neuengamme unterstellt. Die Frauen im KZ-Außenlager Dessauer Ufer kamen mit zwei Transporten aus Auschwitz. Der erste Transport im Juli 1944 bestand etwa zur Hälfte aus als Jüdinnen verfolgten Frauen, die erst kurz zuvor aus dem Ghetto Theresienstadt in Auschwitz angekommen waren und überwiegend aus der damaligen Tschechoslowakei stammten. Die andere Hälfte bestand aus als Jüdinnen verfolgten Frauen, die aus dem kurz zuvor von den Deutschen besetzten Ungarn deportiert worden waren. Einige der Frauen aus dem besetzten Ungarn stammten aus Gebieten, die erst 1943 durch Ungarn selbst besetzt oder annektiert worden waren und zuvor zur Tschechoslowakei und zu Rumänien gehört hatten. Der zweite Transport im August 1944 bestand vor allem aus als Jüdinnen verfolgten Frauen die zuvor aus dem Ghetto Litzmannstadt (Łódź) nach Auschwitz gekommen waren. Viele von ihnen stammten aus Polen, einige von Ihnen aber auch aus Deutschland.Im September 1944 wurde das Frauenaußenlager am Dessauer Ufer aufgelöst und. Kurz darauf wurde am selben Standort ein Männeraußenlager des KZ Neuengamme eingerichtet.  ');
+        const HHDessauerUfer = L.marker([53.525, 10.010556], {icon: isStudyIcon}).bindPopup('<strong>Hamburg-Dessauer Ufer</strong><p>Das Außenlager des KZ Neuengamme war im September 1944 eingerichtet worden. Die etwa 500  Häftlinge waren zuvor im Außenlager Wedel inhaftiert und mussten insbesondere Zwangsarbeit beim Bau von Behelfswohnheimen leisten. Anfang April 1945 wurden die Häftlinge nach Bergen-Belsen deportiert.</p><a href=\"";
+        // line 225
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_map");
+        yield "#eidelstedtMore\">Mehr zu Hamburg-Dessauer Ufer</a><br/>');
         const HHEidelstedt = L.marker([53.60677, 9.87835], {icon: isStudyIcon}).bindPopup('<strong>Hamburg-Eidelstedt</strong><br/>');
         const HHHammerbrook = L.marker([53.55075, 10.022389], {icon: isInDataIcon}).bindPopup('<strong>Hamburg-Hammerbrook (Spaldingstraße)</strong><br/>');
         const HHLangenhorn = L.marker([53.672192, 9.99293], {icon: isInDataIcon}).bindPopup('<strong>Hamburg-Langenhorn</strong><br/>');
@@ -289,7 +443,7 @@ class __TwigTemplate_8c385939753e07d05b6e9c10a975c74f extends Template
      */
     public function getDebugInfo()
     {
-        return array (  168 => 74,  159 => 68,  154 => 65,  95 => 7,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
+        return array (  343 => 225,  338 => 223,  334 => 222,  308 => 211,  298 => 204,  289 => 198,  284 => 195,  95 => 7,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -320,13 +474,14 @@ class __TwigTemplate_8c385939753e07d05b6e9c10a975c74f extends Template
                 <p>
                     Aufgrund von neuen Bedarfen an Zwangsarbeit sowie angesichts des Vorrückens der
                     Alliierten wurden die Häftlinge mitunter mehrfach in andere Lager verlegt.
-                <br>
+                    <br>
                     Nach der Räumung der Außenlager des KZ Neuengamme kamen viele der Häftlinge nach Bergen Belsen, das
                     sich aufgrund der unmenschlichen Bedingungen und der akuten Überfüllung zu einem Sterbelager
                     entwickelte. Gezeigt werden die Lager, die in den hier präsentierten Fallstudien erwähnt werden und
                     für die im Rahmen des Projektes die Anwesenheit für aus Ungarn deportierte Personen nachgewiesen
-                    werden konnte. Eine <a href=\"https://www.kz-gedenkstaette-neuengamme.de/geschichte/kz-aussenlager/aussenlagerliste/\"
-                        title=\"Website der KZ-Gedenkstätte Neuengamme\">
+                    werden konnte. Eine <a
+                            href=\"https://www.kz-gedenkstaette-neuengamme.de/geschichte/kz-aussenlager/aussenlagerliste/\"
+                            title=\"Website der KZ-Gedenkstätte Neuengamme\">
                         Übersicht aller Außenlager des KZ Neuengamme findet sich hier</a>, weitere
                     <a href=\"https://bergen-belsen.stiftung-ng.de/de/geschichte/konzentrationslager-1943-1945/\"
                        title=\"Website der KZ-Gedenkstätte Neuengamme\">
@@ -340,20 +495,149 @@ class __TwigTemplate_8c385939753e07d05b6e9c10a975c74f extends Template
             </div>
         </div>
 
-    <div class=\"row mt-5\">
-        <h3>Informationen zu ausgewählten Lagern</h3>
-    <div class=\"col-lg-6\">
-        <h4 id=\"#bergenbelsen\">Bergen-Belsen</h4>
-
-        <h4 id=\"#fallerlebenFrauen\">Fallersleben (Frauen)</h4>
-        <h4 id=\"#n\">Hannover-Ahlem</h4>
-        <h4 id=\"#n\"></h4>
-        <h4 id=\"#n\"></h4>
-        <h4 id=\"#n\"></h4>
-        <h4 id=\"#n\"></h4>
-        <h4 id=\"#n\"></h4>
-    </div>
-    </div>
+        <div class=\"row mt-5\">
+            <h3>Informationen zu ausgewählten Lagern</h3>
+            <div class=\"col-lg-6\">
+                <h4 id=\"bergenbelsenMore\">Bergen-Belsen</h4>
+                <p>Das KZ Bergen-Belsen war 1943 zunächst zur Unterbringung jüdischer Geiseln gegründet worden, die
+                    gegen deutsche Zivilpersonen im alliierten Gewahrsam ausgetauscht werden sollten. Von Juli bis
+                    September 1944 richtete die SS Teillager für verschiedene Häftlingsgruppen ein, dazu gehörte auch
+                    das sogenannte „Ungarnlager“. Schnell wurden ihm jedoch weitere Funktionen zugewiesen. Ende März
+                    1944 wurde ein Lagerteil für männliche Häftlinge anderer Konzentrationslager eingerichtet, die zu
+                    krank waren, um dort weiter Zwangsarbeit zu leisten. Die SS unternahm wenig, um ein Überleben der
+                    kranken Häftlinge zu ermöglichen, so dass ein Großteil von ihnen in Bergen-Belsen starb. Im August
+                    1944 wurde ein Lagerabschnitt für weibliche Häftlinge eingerichtet, die zur Arbeit in der deutschen
+                    Rüstungsindustrie gezwungen werden sollten.  Innerhalb von wenigen Monaten deportierte die SS etwa
+                    9.000 Häftlinge in das Frauenlager. Die Häftlinge stammten zunächst vor allem aus Polen, wo sie
+                    infolge des Warschauer Aufstands verhaftet worden waren; später waren unter ihnen auch viele
+                    polnische und ungarische Jüdinnen. Der Großteil der Frauen wurde nach kurzer Zeit in eines der
+                    KZ-Außenlager an Standorten deutscher Rüstungsfirmen deportiert. Ab Ende 1944 wurde das KZ
+                    Bergen-Belsen zum Ziel vieler Todesmärsche und Räumungstransporte aus den frontnahen
+                    Konzentrationslagern. Allein zwischen Dezember 1944 bis Mitte April 1945 kamen so zusätzlich 85.000
+                    Häftlinge nach Bergen-Belsen, so dass das Lager schnell völlig überbelegt war. Auch die
+                    Versorgungssituation war katastrophal. Unter diesen Umständen kam es zu einem Ausbruch einer Typhus-
+                    und Fleckfieberepidemie, die von der SS kaum bekämpft wurde. Das Konzentrationslager Bergen-Belsen
+                    wurde zu einem Sterbelager. Am Standort des ehemaligen Konzentrationslagers befindet sich heute eine
+                    Gedenkstätte. (Vgl. Stiftung niedersächsische Gedenkstätten: Bergen-Belsen. Kriegsgefangenenlager
+                    1940–1945. Konzentrationslager 1943–1945. Displaced Persons Camp 1945–1950. Katalog der
+                    Dauerausstellung, Celle 2009, S.144–295.)</p>
+                <h4 id=\"fallerlebenMore\">Fallersleben (Frauen)</h4>
+                <p>
+                    Das Frauenaußenlager Fallersleben war im Spätsommer 1944 im VW-Werk als Außenlager Neuengammes
+                    eingerichtet worden. In den Unterkünften der Frauen waren zuvor 300 als Metallfacharbeiter
+                    ausgewählte jüdische Männer untergebracht gewesen. Die ersten weiblichen Häftlinge waren Jüdinnen,
+                    die aus Ungarn nach Auschwitz deportiert und von der SS für einen Arbeitseinsatz ausgewählt worden
+                    waren.  Später kamen weitere Transporte aus Bergen-Belsen hinzu. Die Häftlinge mussten Panzerfäuste
+                    und Tellerminen im VW-Werk produzieren. Im März 1945 kamen etwa 200 Frauen zusätzlich aus dem
+                    Außenlager Porta Westfalica-Hausberge in Fallersleben an. Zusammen wurden beide Gruppen am 8. April
+                    nach Salzwedel deportiert, bevor alliierte Truppen das VW-Werk befreiten.
+                </p>
+                <h4 id=\"dessauerUferMore\">Hamburg-Dessauer Ufer</h4>
+                <p>
+                    Die etwa 1500 Frauen im KZ-Außenlager Dessauer Ufer (KZ Neuengamme) kamen mit zwei Transporten aus
+                    Auschwitz. Der erste Transport im Juli 1944 bestand etwa zur Hälfte aus als Jüdinnen verfolgten
+                    Frauen, die erst kurz zuvor aus dem Ghetto Theresienstadt in Auschwitz angekommen waren und
+                    überwiegend aus der damaligen Tschechoslowakei stammten. Die andere Hälfte bestand aus Jüdinnen, die
+                    aus dem kurz zuvor von den Deutschen besetzten Ungarn deportiert worden waren. Einige der Frauen aus
+                    dem besetzten Ungarn stammten aus Gebieten, die erst 1943 durch Ungarn selbst besetzt oder
+                    annektiert worden waren und zuvor zur Tschechoslowakei und zu Rumänien gehört hatten. Der zweite
+                    Transport im August 1944 bestand vor allem aus Jüdinnen, die zuvor aus dem Ghetto Litzmannstadt
+                    (Łódź) nach Auschwitz gekommen waren. Viele von ihnen stammten aus Polen, einige von ihnen aber auch
+                    aus Deutschland. Die Frauen mussten vor allem Trümmer im Hamburger Hafen räumen, der zum Ziel
+                    alliierter Bombardements geworden war.
+                </p>
+                <p>
+                    Im September 1944 wurde das Frauenaußenlager am Dessauer Ufer aufgelöst und die Frauen auf mehrere
+                    in diesem Zuge gegründete Frauenaußenlager in Sasel, Wedel und Neugraben verteilt. Kurz darauf wurde
+                    am selben Standort ein Männeraußenlager des KZ Neuengamme eingerichtet.
+                </p>
+                <h4 id=\"eidelstedtMore\">Hamburg-Eidelstedt</h4>
+                <p>
+                    Am 27. September 1944 wurden etwa 500 ungarische und tschechische Jüdinnen, die zuvor am Dessauer
+                    Ufer und in Wedel inhaftiert waren, in das Außenlager Eidelstedt des KZ Neuengamme deportiert. Hier
+                    mussten sie Zwangsarbeit beim Bau von Behelfswohnheimen für die Hamburger Zivilbevölkerung und bei
+                    Trümmer- und Schneeräumungen im Stadtgebiet leisten. Anfang April 1945 wurden in Erwartung der
+                    baldigen Befreiung Hamburgs die Hamburger Außenlager geräumt und die Häftlinge aus dem Stadtgebiet
+                    deportiert. Die Häftlinge des Außenlagers Eidelstedt wurden nach Bergen-Belsen deportiert, wo viele
+                    von ihnen starben.
+                </p>
+                <h4 id=\"ahlemMore\">Hannover-Ahlem</h4>
+                <p>
+                    Das Lager wurde von KZ-Häftlingen aus dem Außenlager Hannover-Stöcken auf dem Gelände der
+                    Continental-Gummiwerke im November 1944 errichtet. Es gehörte zum Außenlagersystem des KZ
+                    Neuengamme. Insgesamt waren etwa 840 zumeist jüdische Männer dort untergebracht, die größtenteils
+                    zuvor im Außenlager Hannover-Stöcken inhaftiert waren. Die Häftlinge mussten Zwangsarbeit für den
+                    Bau eines unterirdischen Stollens für die Continental-Gummiwerke und die Maschinenfabrik
+                    Niedersachsen Hannover leisten. Am 5. April wurde der Großteil der Häftlinge nach Bergen-Belsen
+                    getrieben. Die noch im Lager verbliebenen Häftlinge wurden am 10. April 1945 von amerikanischen
+                    Truppen befreit.
+                </p>
+                <h4 id=\"luebberstedtMore\">Lübberstedt</h4>
+                <p>
+                    In einem Forstgebiet an der Bahnstrecke Bremen–Bremerhaven befand sich während des Zweiten
+                    Weltkrieges eine Munitionsanstalt (Muna) der deutschen Luftwaffe. In Munitionsanstalten wurden
+                    Kampfmittel und Munition aus Zwischenprodukten zusammengesetzt und gelagert. In der Muna
+                    Lübberstedt-Bilohe mussten auch osteuropäische Zwangsarbeiter und Zwangsarbeiterinnen,
+                    Kriegsgefangene und italienische Militiärinternierte sowie KZ-Häftlinge arbeiten. Letztere kamen im
+                    Sommer 1944 aus Auschwitz, wohin sie fast alle kurz zuvor aus Ungarn deportiert worden waren. 500
+                    jüdische Frauen mussten hier bis Ende April Zwangsarbeit in den Produktionsanlagen leisten. Auch das
+                    Außenlager Lübberstedt-Bolihe (KZ Neuengamme) wurde geräumt, bevor alliierte Truppen das Lager
+                    befreien konnten. Die Frauen wurden in Viehwagons gezwungen, die eineinhalb Wochen durch
+                    Norddeutschland irrten, bis die überlebenden Frauen nach einem britischen Fliegerangriff in der Nähe
+                    Eutins befreit wurden.
+                </p>
+                <h4 id=\"hausbergeMore\">Porta Westfalica-Hausberge</h4>
+                <p>
+                    Das Frauenaußenlager Porta Westfalica-Hausberge war erst im Februar 1945 eingerichtet worden. In
+                    Porta Westfalica befanden sich zu diesem Zeitpunkt bereits zwei Männeraußenlager des KZ-Neuengamme,
+                    die Häftlinge sollten alte Bergmannsstollen zu unterirdischen Produktionsstätten umbauen. In einem
+                    dieser Stollen sollten die etwa 1.000 Frauen des neuen Frauenaußenlagers Radioröhren für die Firma
+                    Philipps und ihre Tochterfirmen herstellen. Die Häftlinge waren vor allem Jüdinnen, die aus den
+                    Niederlanden und Ungarn nach Auschwitz deportiert worden waren. Ein Teil von ihnen hatte bereits in
+                    einem Außenlager des KZ Groß Rosen Radioröhren produzieren müssen, bis diese Produktionsstätte im
+                    Januar 1945 angesichts der sich nähernden sowjetischen Armee geräumt wurde.
+                </p>
+                <h4 id=\"salzwedelMore\">Salzwedel</h4>
+                <p>
+                    In Salzwedel konnte die Draht- und Metallwarenfabrik vom deutschen Rüstungsboom profitieren; bereits
+                    1937 war sie mit 600 Beschäftigten zum großen Industriebetrieb in der Stadt gewachsen. Auch hier
+                    wurde auf ausländische Zwangsarbeiter zurückgegriffen. 1944 wurde ein Lager, das bis dahin für
+                    osteuropäische Zwangsarbeiterinnen genutzt worden war, zu einem Außenlager des KZ Neuengamme
+                    umgestaltet.Im Spätsommer 1944 kam hier der erste Transport von weiblichen KZ-Häftlingen an, die in
+                    Auschwitz für die Arbeit selektiert worden waren. Die Gruppe bestand vor allem aus Jüdinnen, die
+                    erst kurz zuvor aus Ungarn oder aus von Ungarn annektierten Gebieten deportiert worden waren. In der
+                    Folgezeit wurden weitere weibliche KZ-Häftlinge in das neue Außenlager deportiert. Anders als der
+                    erste Transport waren sie aber nicht direkt nach Salzwedel, sondern zunächst in das
+                    Konzentrationslager Bergen-Belsen deportiert und dort für die Arbeit in Salzwedel ausgewählt worden.
+                    Am 14. April 1945 wurde das Lager durch amerikanische Truppen befreit. Nur wenige Kilometer entfernt
+                    hatten SS, Wehrmacht und Volksturmeinheiten sowie Hitlerjungen am Tag zuvor 1.061 männliche
+                    KZ-Häftlinge beim Massaker von Gardelegen in einer Scheune verbrannt.
+                </p>
+                <h4 id=\"vwWerkMore\">VW-Werk Halle1</h4>
+                <p>
+                    1938/1939 hatte die ein Jahr zuvor gegründete Volkswagen GmbH ihr Werk in der Nähe von Fallersleben
+                    im heutigen Wolfsburg errichtet. Nach Kriegsbeginn wurden hier nicht, wie ursprünglich geplant,
+                    Autos für die deutsche Zivilbevölkerung produziert, sondern Rüstungsaufträge übernommen. Dabei griff
+                    der Volkswagen-Konzern auch auf die verschiedenen Formen nationalsozialistischer Zwangsarbeit
+                    zurück. Ende 1944 stellten Zwangsarbeiter und Zwangsarbeiterinnen zwei Drittel der Belegschaft,
+                    insgesamt mussten etwa 200.000 Menschen Zwangsarbeit bei Volkswagen leisten, viele von ihnen
+                    überlebten die Arbeitsbedingungen nicht. Neben zivilen Zwangsarbeitern und Zwangsarbeiterinnen,
+                    sowjetischen Kriegsgefangenen und italienischen Militärinternierten betraf dies auch insgesamt circa
+                    5.000 KZ-Häftlinge. 300 von ihnen waren als Metallfacharbeiter im KZ Auschwitz aus einer Gruppe aus
+                    Ungarn deportierter Juden ausgewählt worden, um die Kernbelegschaft einer unterirdischen
+                    Raketenproduktion einer VW-Tochter zu bilden. Hierzu wurden sie zunächst im VW-Werk ausgebildet, in
+                    dem sie auch untergebracht waren. Nachdem Teile des Werkes durch alliierte Bombardierung zerstört
+                    worden waren, wurden die 300 ins nordfranzösische Thil deportiert.
+                </p>
+                <h4 id=\"wedelMore\">Wedel (Frauen)</h4>
+                <p>
+                    Seit September 1944 wurden in dem Außenlager Wedel des KZ Neuengamme 500 ungarische und tschechische
+                    Jüdinnen inhaftiert, die zuvor am Dessauer Ufer gewesen waren und Zwangsarbeit bei Räumungsarbeiten
+                    im Stadtgebiet leisten mussten. Nach zwei Wochen wurde das Lager geräumt und die Frauen in das
+                    Außenlager Eidelstedt gebracht.
+                </p>
+            </div>
+        </div>
 
     </div>
 
@@ -361,20 +645,20 @@ class __TwigTemplate_8c385939753e07d05b6e9c10a975c74f extends Template
     <script>
 
         var isStudyIcon = L.icon({
-            iconUrl: '{{ asset('images/icon_lilac.png') }}',
-            iconSize:     [45, 45], // size of the icon
-            iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
-            popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+            iconUrl: '{{ asset('images/marker-icon.png') }}',
+            iconSize: [30, 48,6], // size of the icon
+            iconAnchor: [19, 88], // point of the icon which will correspond to marker's location
+            popupAnchor: [-3, -76] // point from which the popup should open relative to the iconAnchor
         });
         var isInDataIcon = L.icon({
-            iconUrl: '{{ asset('images/icon_blue.png') }}',
-            iconSize:     [45, 45], // size of the icon
-            iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
-            popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+            iconUrl: '{{ asset('images/marker-icon_grey.png') }}',
+            iconSize: [30, 48,6], // size of the icon
+            iconAnchor: [19, 88], // point of the icon which will correspond to marker's location
+            popupAnchor: [-3, -76] // point from which the popup should open relative to the iconAnchor
         });
 
 
-        const BergenBelsen = L.marker([52.757778, 9.907778], {icon: isStudyIcon}).bindPopup('<strong>Bergen-Belsen</strong><br/>Das KZ Bergen-Belsen war 1943 zunächst zur Unterbringung jüdischer Geiseln gegründet worden, die gegen deutsche Zivilpersonen im alliierten Gewahrsam ausgetauscht werden sollten. Schnell wurden ihm jedoch weitere Funktionen zugewiesen. Im August 1944 wurde ein Lagerabschnitt für weibliche Häftlinge eingerichtet, die zur Arbeit in der deutschen Rüstungsindustrie gezwungen werden sollten. Innerhalb von wenigen Monaten deportierte die SS etwa 9.000 Häftlinge in das Frauenlager. Die Häftlinge stammten zunächst vor allem aus Polen, wo sie in Folge des Warschauer Aufstands verhaftet worden war, später waren unter ihnen auch viele polnische und ungarische Jüdinnen. Die Häftlinge wurden zunächst auf einer großen freien Fläche in Zelten untergebracht, erst nachdem diese durch einen Sturm zerstört worden waren, wurden die Frauen auch in Barracken untergebracht. Der Großteil der Frauen wurde nach kurzer Zeit in eines der KZ-Außenlager an Standorten deutscher Rüstungsfirmen deportiert. Ab Ende 1944 wurde das KZ Bergen-Belsen zum Ziel vieler Todesmärsche und Räumungstransport aus den frontnahen Konzentrationslagern. Allein zwischen Dezember 1944 bis Mitte April 1945 kamen so zusätzlich 85.000 Häftlinge nach Bergen-Belsen, so dass das Lager schnell völlig überbelegt war. Die Häftlinge wurden in Baracken untergebracht, die für diese hohe Zahl an Insassen nicht ausgelegt waren. Auch die Versorgungssituation war katastrophal. Unter diesen Umständen kam es zu einem Ausbruch einer Typhus- und Fleckfieberepidemie, die von der SS kaum bekämpft wurde. Das Konzentrationslager Bergen-Belsen wurde zu einem Sterbelager. Die etwa 15.000 Häftlinge aus Mittelbau-Dora, die noch im April 1945 in Bergen-Belsen eintrafen, wurden in ehemaligen Wehrmachtskasernen untergebracht. Am Standort des ehemaligen Konzentrationslagers befindet sich heute eine Gedenkstätte. (Vgl. Stiftung niedersächsische Gedenkstätten,: Bergen-Belsen. Kriegsgefangenenlager 1940-1945. Konzentrationslager 1943-1945. Displaced Persons Camp 1945-1950. Katalog der Dauerausstellung, Celle 2009, S.144-295.)');
+        const BergenBelsen = L.marker([52.757778, 9.907778], {icon: isStudyIcon}).bindPopup('<strong>Bergen-Belsen</strong><p>Das KZ Bergen-Belsen war 1943 zunächst als „Austauschlager“ für die Unterbringung jüdischer Geiseln gegründet worden. Schnell wurden ihm aber weitere Funktionen zugewiesen und ein Männer- sowie ein Frauenlager eingerichtet. Ab Ende 1944 wurde Bergen-Belsen Ziel vieler Todesmärsche und Räumungstransporte und entwickelte sich aufgrund der katastrophalen Bedingungen zu einem Sterbelager. Nach der Befreiung wurde in Bergen-Belsen ein polnisches und ein jüdisches Displaced Persons-Camp eingerichtet.</p><a href=\"#bergenBelsenMore\">Mehr zu Bergen-Belsen</a><br/><a href=\"{{ path('app_deportation_vw') }}\">Fallstudie 300er-Gruppe</a><br/><a href=\"{{ path('app_deportation_dessauerUfer') }}\">Fallstudie Dessauer Ufer</a><br/> <a href=\"{{ path('app_deportation_salzwedel') }}\">Fallstudie Salzwedel</a><br/> <a href=\"{{ path('app_bio_fuerst') }}\">Fallstudie Gyula Fürst</a><br/><a href=\"{{ path('app_bio_mereny') }}\">Fallstudie Schwestern Merény</a><br/><a href=\"{{ path('app_bio_blum') }}\">Fallstudie Yehuda Blum</a><br/> <a href=\"{{ path('app_bio_hardy') }}\">Fallstudie Katharina Hardy</a><br/>');
         const Boizenburg = L.marker([53.37507, 10.698472], {icon: isInDataIcon}).bindPopup('<strong>Boizenburg</strong><br/>');
         const BraunschweigBuessingNAG = L.marker([52.256667, 10.541111], {icon: isInDataIcon}).bindPopup('<strong>Braunschweig (Büssing-NAG) </strong><br/>');
         const BraunschweigVechelde = L.marker([52.260111, 10.376306], {icon: isInDataIcon}).bindPopup('<strong>Braunschweig-Vechelde</strong><br/>');
@@ -385,10 +669,10 @@ class __TwigTemplate_8c385939753e07d05b6e9c10a975c74f extends Template
         const BremenObernheide = L.marker([53.00101850934623, 8.745048757476429], {icon: isInDataIcon}).bindPopup('<strong>Bremen-Obernheide</strong><br/>');
         const BremenOsterort = L.marker([53.141951279652694, 8.691817452772783], {icon: isInDataIcon}).bindPopup('<strong>Bremen-Osterort</strong><br/>');
         const BremenSchuetzenhof = L.marker([53.118994, 8.768726], {icon: isInDataIcon}).bindPopup('<strong>Bremen-Schützenhof</strong><br/>');
-        const FallerslebenFrauen = L.marker([52.433333, 10.766667], {icon: isStudyIcon}).bindPopup('<strong>Fallersleben (Frauen)</strong><br/>');
-        const HAhlem = L.marker([52.37835, 9.65748], {icon: isStudyIcon}).bindPopup('<strong>Hannover-Ahlem</strong><br/>');
+        const FallerslebenFrauen = L.marker([52.433333, 10.766667], {icon: isStudyIcon}).bindPopup('<strong>Fallersleben (Frauen)</strong><p>Das Frauenlager Fallersleben war als Außenlager des KZ Neuengamme im Spätsommer 1944 im VW-Werk eingerichtet worden. Die etwa 650 Häftlinge mussten Panzerfäuste und Tellerminen im VW-Werk produzieren. Am 8. April 1945 wurde das Frauenaußenlager von der SS geräumt und die Frauen nach Salzwedel transportiert.</p> <a href=\"fallerslebenMore\">Mehr zu Fallersleben</a><br/><a href=\"{{ path('app_deportation_salzwedel') }}\">Fallstudie Salzwedel</a>');
+        const HAhlem = L.marker([52.37835, 9.65748], {icon: isStudyIcon}).bindPopup('<strong>Hannover-Ahlem</strong><p>Das Männeraußenlager Hannover-Ahlem war als Außenlager des KZ Neuengamme im November 1944 errichtet worden. Die etwa 840 Häftlinge mussten einen unterirdischen Stollen für die Continental-Gummiwerke und die Maschinenfabrik Niedersachsen anlegen. Am 5. April wurde der Großteil der Häftlinge nach Bergen-Belsen getrieben.</p><a href=\"ahlemMore\">Mehr zu Hannover-Ahlem</a><br/><a href=\"{{ path('app_bio_fuerst') }}\">Fallstudie Gyula Fürst</a>');
         const HelmstedtBeendorfFrauen = L.marker([52.23989233360328, 11.089496406413582], {icon: isInDataIcon}).bindPopup('<strong>Helmstedt-Beendorf (Frauen)</strong><br/>');
-        const HHDessauerUfer = L.marker([53.525, 10.010556], {icon: isStudyIcon}).bindPopup('<strong>Hamburg-Dessauer Ufer</strong><br/>Die Haftstätte im Lagerhaus Dessauer Ufer war als Außenlager dem Konzentrationslager Neuengamme unterstellt. Die Frauen im KZ-Außenlager Dessauer Ufer kamen mit zwei Transporten aus Auschwitz. Der erste Transport im Juli 1944 bestand etwa zur Hälfte aus als Jüdinnen verfolgten Frauen, die erst kurz zuvor aus dem Ghetto Theresienstadt in Auschwitz angekommen waren und überwiegend aus der damaligen Tschechoslowakei stammten. Die andere Hälfte bestand aus als Jüdinnen verfolgten Frauen, die aus dem kurz zuvor von den Deutschen besetzten Ungarn deportiert worden waren. Einige der Frauen aus dem besetzten Ungarn stammten aus Gebieten, die erst 1943 durch Ungarn selbst besetzt oder annektiert worden waren und zuvor zur Tschechoslowakei und zu Rumänien gehört hatten. Der zweite Transport im August 1944 bestand vor allem aus als Jüdinnen verfolgten Frauen die zuvor aus dem Ghetto Litzmannstadt (Łódź) nach Auschwitz gekommen waren. Viele von ihnen stammten aus Polen, einige von Ihnen aber auch aus Deutschland.Im September 1944 wurde das Frauenaußenlager am Dessauer Ufer aufgelöst und. Kurz darauf wurde am selben Standort ein Männeraußenlager des KZ Neuengamme eingerichtet.  ');
+        const HHDessauerUfer = L.marker([53.525, 10.010556], {icon: isStudyIcon}).bindPopup('<strong>Hamburg-Dessauer Ufer</strong><p>Das Außenlager des KZ Neuengamme war im September 1944 eingerichtet worden. Die etwa 500  Häftlinge waren zuvor im Außenlager Wedel inhaftiert und mussten insbesondere Zwangsarbeit beim Bau von Behelfswohnheimen leisten. Anfang April 1945 wurden die Häftlinge nach Bergen-Belsen deportiert.</p><a href=\"{{ path('app_map') }}#eidelstedtMore\">Mehr zu Hamburg-Dessauer Ufer</a><br/>');
         const HHEidelstedt = L.marker([53.60677, 9.87835], {icon: isStudyIcon}).bindPopup('<strong>Hamburg-Eidelstedt</strong><br/>');
         const HHHammerbrook = L.marker([53.55075, 10.022389], {icon: isInDataIcon}).bindPopup('<strong>Hamburg-Hammerbrook (Spaldingstraße)</strong><br/>');
         const HHLangenhorn = L.marker([53.672192, 9.99293], {icon: isInDataIcon}).bindPopup('<strong>Hamburg-Langenhorn</strong><br/>');

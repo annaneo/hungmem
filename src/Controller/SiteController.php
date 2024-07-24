@@ -36,11 +36,11 @@ class SiteController extends AbstractController
         ]);
     }
 
-    #[Route('/biographien/', name: 'app_biographies')]
+    #[Route('/biografien/', name: 'app_biographies')]
     public function biographies(): Response
     {
         return $this->render('site/biographies.html.twig', [
-            'title' => 'Biographien'
+            'title' => 'Biografien'
         ]);
     }
 
@@ -88,11 +88,59 @@ class SiteController extends AbstractController
         ]);
     }
 
+    #[Route('/deportationen/dessauer-ufer', name: 'app_deportation_dessauerUfer')]
+    public function deportationDessauerUfer(): Response
+    {
+        return $this->render('studies/study.html.twig', [
+            'title' => 'Fallstudie Dessauer Ufer'
+        ]);
+    }
+
     #[Route('/deportationen/salzwedel', name: 'app_deportation_salzwedel')]
     public function deportationSalzwedel(): Response
     {
         return $this->render('studies/study.html.twig', [
-            'title' => 'Fallstudie VW'
+            'title' => 'Fallstudie Salzwedel'
+        ]);
+    }
+
+    #[Route('/deportationen/luebberstedt', name: 'app_deportation_luebberstedt')]
+    public function deportationLuebberstedt(): Response
+    {
+        return $this->render('studies/study.html.twig', [
+            'title' => 'Fallstudie Luebberstedt'
+        ]);
+    }
+
+    #[Route('/biografien/gyula-fuerst', name: 'app_bio_fuerst')]
+    public function biographyFuerst(): Response
+    {
+        return $this->render('biographies/study.html.twig', [
+            'title' => 'Biografie Gyula Fürst'
+        ]);
+    }
+
+    #[Route('/biografien/schwestern-mereny', name: 'app_bio_mereny')]
+    public function biographyMereny(): Response
+    {
+        return $this->render('biographies/study.html.twig', [
+            'title' => 'Biografie Schwestern Merény'
+        ]);
+    }
+
+    #[Route('/biografien/yehuda-blum', name: 'app_bio_blum')]
+    public function biographyBlum(): Response
+    {
+        return $this->render('biographies/study.html.twig', [
+            'title' => 'Biografie Yehuda Blum'
+        ]);
+    }
+
+    #[Route('/biografien/katharina-hardy', name: 'app_bio_hardy')]
+    public function biographyHardy(): Response
+    {
+        return $this->render('biographies/study.html.twig', [
+            'title' => 'Biografie Katharina Hardy'
         ]);
     }
 
