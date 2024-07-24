@@ -395,8 +395,8 @@ class __TwigTemplate_8c385939753e07d05b6e9c10a975c74f extends Template
         };
 
         const map = L.map('map', {
-            center: [52.85, 11.15],
-            zoom: 7,
+            center: [53.23, 9.86],
+            zoom: 8,
             layers: [osm,
                 fallstudien,
                 datenrecherche,
@@ -726,8 +726,8 @@ class __TwigTemplate_8c385939753e07d05b6e9c10a975c74f extends Template
         };
 
         const map = L.map('map', {
-            center: [52.85, 11.15],
-            zoom: 7,
+            center: [53.23, 9.86],
+            zoom: 8,
             layers: [osm,
                 fallstudien,
                 datenrecherche,
