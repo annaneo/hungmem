@@ -147,7 +147,7 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
         // line 55
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/studies/Deportationsroute-Gruppe-der-300_preview.jpg"), "html", null, true);
         yield "\"
-                                                                                 alt=\"Karte der Deportationsroute aus Oradea und Cluj-Napoca über Auschwitz und view weitere Lager ins Konzentrationslager Bergen-Belsen \"/></a>
+                                                                                 alt=\"Karte der Deportationsroute aus Oradea und Cluj-Napoca über Auschwitz und vier weitere Lager ins Konzentrationslager Bergen-Belsen \"/></a>
                 <p class=\"caption\">
                     Deportationsroute der „Gruppe der 300“. &copy; Institut für die Geschichte der deutschen Juden. Lizenz: CC BY 4.0 &#128269; Zum Vergrößern klicken.
                 </p>
@@ -410,7 +410,7 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                     Viele der überlebenden Häftlinge wogen bei ihrer Befreiung nur
                     wenig über 30 Kilo.<sup><a href=\"#endnote17\" id=\"footnote17\">17</a></sup>
                 </p>
-                <img class=\"img-fluid\" style=\"width: 640px;\" src=\"";
+                <img class=\"img-fluid\" src=\"";
         // line 310
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/studies/V1-Produktion.jpg"), "html", null, true);
         yield "\"
@@ -492,8 +492,9 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                 <div class=\"infobox\">
                     <h4>&#9432; Das KZ Bergen-Belsen</h4>
                     <p style=\"font-size: 0.9rem;\">
-                        Das KZ Bergen-Belsen war 1943 zunächst zur Unterbringung jüdischer Geiseln gegründet worden, die
-                        gegen deutsche Zivilpersonen im alliierten Gewahrsam ausgetauscht werden sollten. Von Juli bis
+                        Das KZ Bergen-Belsen war 1943 nach Plänen der SS und des Auswärtigen Amtes
+                        zunächst zur Unterbringung jüdischer Geiseln gegründet worden, die gegen
+                        deutsche Zivilpersonen in alliiertem Gewahrsam ausgetauscht werden sollten. Von Juli bis
                         September 1944 richtete die SS Teillager für verschiedene Häftlingsgruppen ein, dazu gehörte
                         auch das sogenannte \"Ungarnlager\". Schnell wurden ihm jedoch weitere Funktionen zugewiesen. Ende
                         März 1944 wurde ein Lagerteil für männliche Häftlinge anderer Konzentrationslager eingerichtet,
@@ -518,10 +519,10 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                     </p>
                     <p>
                         <a href=\"";
-        // line 414
+        // line 415
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_map");
         yield "\" title=\"Kartenübersicht\">
-                            &#10149; Zur Karte
+                            &#10149; Zur Karte der Lager
                         </a>
                     </p>
                 </div>
@@ -545,8 +546,8 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                     angefertigt und mitgeführt hatte. Erhalten ist zudem eine Zugangsliste des Außenlagers Rebstock, die
                     ebenfalls die Häftlingsdaten enthält.<sup><a href=\"#endnote28\" id=\"footnote28\">28</a></sup>
                 </p>
-                <img class=\"img-fluid\" style=\"width: 640px;\" src=\"";
-        // line 439
+                <img class=\"img-fluid\" src=\"";
+        // line 440
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder_840x560.jpg"), "html", null, true);
         yield "\"
                      alt=\"Häftlingsnummern\"/>
@@ -729,7 +730,7 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                     Norddeutschland 1944, hrsg. vom
                     Institut für die Geschichte der deutschen Juden, URL:
                     https://holocaust-ungarn-norddeutschland.de";
-        // line 619
+        // line 620
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_vw");
         yield ". Lizenz: CC BY 4.0.
                 </p>
@@ -769,7 +770,7 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
      */
     public function getDebugInfo()
     {
-        return array (  733 => 619,  550 => 439,  522 => 414,  415 => 310,  390 => 288,  232 => 133,  193 => 97,  148 => 55,  142 => 52,  95 => 7,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
+        return array (  734 => 620,  551 => 440,  523 => 415,  415 => 310,  390 => 288,  232 => 133,  193 => 97,  148 => 55,  142 => 52,  95 => 7,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -829,7 +830,7 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                        data-lightbox=\"map-gruppe-300\"
                        data-title=\"Deportationsroute der „Gruppe der 300“.\"><img class=\"gallery img-fluid\"
                                                                                  src=\"{{ asset('images/studies/Deportationsroute-Gruppe-der-300_preview.jpg') }}\"
-                                                                                 alt=\"Karte der Deportationsroute aus Oradea und Cluj-Napoca über Auschwitz und view weitere Lager ins Konzentrationslager Bergen-Belsen \"/></a>
+                                                                                 alt=\"Karte der Deportationsroute aus Oradea und Cluj-Napoca über Auschwitz und vier weitere Lager ins Konzentrationslager Bergen-Belsen \"/></a>
                 <p class=\"caption\">
                     Deportationsroute der „Gruppe der 300“. &copy; Institut für die Geschichte der deutschen Juden. Lizenz: CC BY 4.0 &#128269; Zum Vergrößern klicken.
                 </p>
@@ -1083,7 +1084,7 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                     Viele der überlebenden Häftlinge wogen bei ihrer Befreiung nur
                     wenig über 30 Kilo.<sup><a href=\"#endnote17\" id=\"footnote17\">17</a></sup>
                 </p>
-                <img class=\"img-fluid\" style=\"width: 640px;\" src=\"{{ asset('images/studies/V1-Produktion.jpg') }}\"
+                <img class=\"img-fluid\" src=\"{{ asset('images/studies/V1-Produktion.jpg') }}\"
                      alt=\"Blick in eine Produktionshalle der V1 im Konzentrationslager Mittelbau-Dora im Mai 1946\"/>
                 <p class=\"caption\">
                     Blick in eine Produktionshalle der V1 im Konzentrationslager Mittelbau-Dora, Mai 1946, Fotograf:
@@ -1162,8 +1163,9 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                 <div class=\"infobox\">
                     <h4>&#9432; Das KZ Bergen-Belsen</h4>
                     <p style=\"font-size: 0.9rem;\">
-                        Das KZ Bergen-Belsen war 1943 zunächst zur Unterbringung jüdischer Geiseln gegründet worden, die
-                        gegen deutsche Zivilpersonen im alliierten Gewahrsam ausgetauscht werden sollten. Von Juli bis
+                        Das KZ Bergen-Belsen war 1943 nach Plänen der SS und des Auswärtigen Amtes
+                        zunächst zur Unterbringung jüdischer Geiseln gegründet worden, die gegen
+                        deutsche Zivilpersonen in alliiertem Gewahrsam ausgetauscht werden sollten. Von Juli bis
                         September 1944 richtete die SS Teillager für verschiedene Häftlingsgruppen ein, dazu gehörte
                         auch das sogenannte \"Ungarnlager\". Schnell wurden ihm jedoch weitere Funktionen zugewiesen. Ende
                         März 1944 wurde ein Lagerteil für männliche Häftlinge anderer Konzentrationslager eingerichtet,
@@ -1188,7 +1190,7 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                     </p>
                     <p>
                         <a href=\"{{ path('app_map') }}\" title=\"Kartenübersicht\">
-                            &#10149; Zur Karte
+                            &#10149; Zur Karte der Lager
                         </a>
                     </p>
                 </div>
@@ -1212,7 +1214,7 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                     angefertigt und mitgeführt hatte. Erhalten ist zudem eine Zugangsliste des Außenlagers Rebstock, die
                     ebenfalls die Häftlingsdaten enthält.<sup><a href=\"#endnote28\" id=\"footnote28\">28</a></sup>
                 </p>
-                <img class=\"img-fluid\" style=\"width: 640px;\" src=\"{{ asset('images/placeholder_840x560.jpg') }}\"
+                <img class=\"img-fluid\" src=\"{{ asset('images/placeholder_840x560.jpg') }}\"
                      alt=\"Häftlingsnummern\"/>
                 <p class=\"caption\">
                     Zugeteilte Häftlingsnummern des KL Buchenwald für Zugänge aus den KL Natzweiler (Außenlager

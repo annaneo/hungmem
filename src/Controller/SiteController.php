@@ -91,7 +91,7 @@ class SiteController extends AbstractController
     #[Route('/deportationen/dessauer-ufer', name: 'app_deportation_dessauerUfer')]
     public function deportationDessauerUfer(): Response
     {
-        return $this->render('studies/study.html.twig', [
+        return $this->render('studies/dessauer-ufer.html.twig', [
             'title' => 'Fallstudie Dessauer Ufer'
         ]);
     }
@@ -99,7 +99,7 @@ class SiteController extends AbstractController
     #[Route('/deportationen/salzwedel', name: 'app_deportation_salzwedel')]
     public function deportationSalzwedel(): Response
     {
-        return $this->render('studies/study.html.twig', [
+        return $this->render('studies/salzwedel.html.twig', [
             'title' => 'Fallstudie Salzwedel'
         ]);
     }
@@ -107,7 +107,7 @@ class SiteController extends AbstractController
     #[Route('/deportationen/luebberstedt', name: 'app_deportation_luebberstedt')]
     public function deportationLuebberstedt(): Response
     {
-        return $this->render('studies/study.html.twig', [
+        return $this->render('studies/luebberstedt.html.twig', [
             'title' => 'Fallstudie Luebberstedt'
         ]);
     }

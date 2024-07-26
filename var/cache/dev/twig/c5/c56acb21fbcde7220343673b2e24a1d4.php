@@ -131,7 +131,7 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
                 <div>
                     <a href=\"";
         // line 32
-        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_sources");
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_dessauerUfer");
         yield "\" title=\"\">
                         <img class=\"img-fluid\" src=\"";
         // line 33
@@ -143,7 +143,7 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
                         <h2>
                             <a href=\"";
         // line 38
-        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_studytemplate");
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_dessauerUfer");
         yield "\" title=\"\">
                                 „Ungarische“ Frauen am Dessauer Ufer, Wedel und Eidelstedt
                             </a>
@@ -152,7 +152,7 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
                             ...
                             <a class=\"more\" href=\"";
         // line 44
-        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_studytemplate");
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_dessauerUfer");
         yield "\" title=\"Weiterlesen\">[mehr]</a>
                         </p>
                     </div>
@@ -165,7 +165,7 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
                 <div>
                     <a href=\"";
         // line 54
-        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_studytemplate");
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_salzwedel");
         yield "\" title=\"\">
                         <img class=\"img-fluid\" src=\"";
         // line 55
@@ -177,7 +177,7 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
                         <h2>
                             <a href=\"";
         // line 60
-        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_studytemplate");
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_salzwedel");
         yield "\" title=\"Fallstudie Salzwedel\">
                                 Überlebende Frauen im Außenlager Salzwedel
                             </a>
@@ -186,7 +186,7 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
                             elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum ...
                             <a class=\"more\" href=\"";
         // line 66
-        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_studytemplate");
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_salzwedel");
         yield "\" title=\"Weiterlesen\">[mehr]</a>
 
                         </p>
@@ -197,7 +197,7 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
                 <div>
                     <a href=\"";
         // line 74
-        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_studytemplate");
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_luebberstedt");
         yield "\" title=\"\">
                         <img class=\"img-fluid\" src=\"";
         // line 75
@@ -209,7 +209,7 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
                         <h2>
                             <a href=\"";
         // line 80
-        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_studytemplate");
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_luebberstedt");
         yield "\" title=\"\">
                                 Frauen im Außenlager Lübberstedt, Räumungstransport Eutin
                             </a>
@@ -218,7 +218,7 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
                             ...
                             <a class=\"more\" href=\"";
         // line 86
-        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_studytemplate");
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_luebberstedt");
         yield "\" title=\"Weiterlesen\">[mehr]</a>
                         </p>
                     </div>
@@ -296,19 +296,19 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
             </div>
             <div class=\"col-sm offset-lg-1\">
                 <div>
-                    <a href=\"{{ path('app_sources') }}\" title=\"\">
+                    <a href=\"{{ path('app_deportation_dessauerUfer') }}\" title=\"\">
                         <img class=\"img-fluid\" src=\"{{ asset('images/studies/Titelbild-Dessauer-Ufer.png') }}\"
                              alt=\"\">
                     </a>
                     <div class=\"studiesoverview\">
                         <h2>
-                            <a href=\"{{ path('app_studytemplate') }}\" title=\"\">
+                            <a href=\"{{ path('app_deportation_dessauerUfer') }}\" title=\"\">
                                 „Ungarische“ Frauen am Dessauer Ufer, Wedel und Eidelstedt
                             </a>
                         </h2>
                         <p>Dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
                             ...
-                            <a class=\"more\" href=\"{{ path('app_studytemplate') }}\" title=\"Weiterlesen\">[mehr]</a>
+                            <a class=\"more\" href=\"{{ path('app_deportation_dessauerUfer') }}\" title=\"Weiterlesen\">[mehr]</a>
                         </p>
                     </div>
                 </div>
@@ -318,19 +318,19 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
         <div class=\"row g-4 mt-2\">
             <div class=\"col-sm\">
                 <div>
-                    <a href=\"{{ path('app_studytemplate') }}\" title=\"\">
+                    <a href=\"{{ path('app_deportation_salzwedel') }}\" title=\"\">
                         <img class=\"img-fluid\" src=\"{{ asset('images/studies/Titelbild-Salzwedel.png') }}\"
                              alt=\"\">
                     </a>
                     <div class=\"studiesoverview\">
                         <h2>
-                            <a href=\"{{ path('app_studytemplate') }}\" title=\"Fallstudie Salzwedel\">
+                            <a href=\"{{ path('app_deportation_salzwedel') }}\" title=\"Fallstudie Salzwedel\">
                                 Überlebende Frauen im Außenlager Salzwedel
                             </a>
                         </h2>
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing
                             elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum ...
-                            <a class=\"more\" href=\"{{ path('app_studytemplate') }}\" title=\"Weiterlesen\">[mehr]</a>
+                            <a class=\"more\" href=\"{{ path('app_deportation_salzwedel') }}\" title=\"Weiterlesen\">[mehr]</a>
 
                         </p>
                     </div>
@@ -338,19 +338,19 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
             </div>
             <div class=\"col-sm offset-lg-1\">
                 <div>
-                    <a href=\"{{ path('app_studytemplate') }}\" title=\"\">
+                    <a href=\"{{ path('app_deportation_luebberstedt') }}\" title=\"\">
                         <img class=\"img-fluid\" src=\"{{ asset('images/placeholder_840x560.jpg') }}\"
                              alt=\"\">
                     </a>
                     <div class=\"studiesoverview\">
                         <h2>
-                            <a href=\"{{ path('app_studytemplate') }}\" title=\"\">
+                            <a href=\"{{ path('app_deportation_luebberstedt') }}\" title=\"\">
                                 Frauen im Außenlager Lübberstedt, Räumungstransport Eutin
                             </a>
                         </h2>
                         <p>Dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
                             ...
-                            <a class=\"more\" href=\"{{ path('app_studytemplate') }}\" title=\"Weiterlesen\">[mehr]</a>
+                            <a class=\"more\" href=\"{{ path('app_deportation_luebberstedt') }}\" title=\"Weiterlesen\">[mehr]</a>
                         </p>
                     </div>
                 </div>
