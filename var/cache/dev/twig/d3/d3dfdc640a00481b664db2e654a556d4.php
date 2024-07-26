@@ -609,7 +609,6 @@ class __TwigTemplate_57ca88c14c1d2b9e9e951b0e4bdd63bd extends Template
         yield "\"
                      alt=\"Interaktive Karte der Herkunftsorte \"/>
                 <p class=\"caption\">
-                </p>
                 Karte der Herkunftsorte der Frauen
                 <p>
                     Der Großteil der Unterlagen der Verwaltung der Neuengammer Außenlager wurde vor der Befreiung
@@ -905,7 +904,7 @@ class __TwigTemplate_57ca88c14c1d2b9e9e951b0e4bdd63bd extends Template
                     Norddeutschland 1944, hrsg. vom
                     Institut für die Geschichte der deutschen Juden, URL:
                     https://holocaust-ungarn-norddeutschland.de";
-        // line 783
+        // line 782
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_salzwedel");
         yield ". Lizenz: CC BY
                     4.0.
@@ -946,7 +945,7 @@ class __TwigTemplate_57ca88c14c1d2b9e9e951b0e4bdd63bd extends Template
      */
     public function getDebugInfo()
     {
-        return array (  909 => 783,  608 => 485,  583 => 463,  575 => 458,  542 => 428,  495 => 384,  411 => 303,  383 => 278,  337 => 235,  315 => 216,  308 => 212,  256 => 163,  236 => 146,  95 => 7,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
+        return array (  908 => 782,  608 => 485,  583 => 463,  575 => 458,  542 => 428,  495 => 384,  411 => 303,  383 => 278,  337 => 235,  315 => 216,  308 => 212,  256 => 163,  236 => 146,  95 => 7,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -1438,7 +1437,6 @@ class __TwigTemplate_57ca88c14c1d2b9e9e951b0e4bdd63bd extends Template
                 <img class=\"img-fluid\" style=\"width: 640px;\" src=\"{{ asset('images/placeholder_840x560.jpg') }}\"
                      alt=\"Interaktive Karte der Herkunftsorte \"/>
                 <p class=\"caption\">
-                </p>
                 Karte der Herkunftsorte der Frauen
                 <p>
                     Der Großteil der Unterlagen der Verwaltung der Neuengammer Außenlager wurde vor der Befreiung
