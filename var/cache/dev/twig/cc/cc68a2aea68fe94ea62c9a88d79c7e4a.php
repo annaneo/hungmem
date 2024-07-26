@@ -284,19 +284,15 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                 <div class=\"infobox\">
                     <h4>&#9432; Zwangsarbeit</h4>
                     <p>
-                        1938/1939 hatte die ein Jahr zuvor gegründete Volkswagen GmbH ihr Werk in der Nähe von
-                        Fallersleben im heutigen Wolfsburg errichtet. Nach Kriegsbeginn wurden hier nicht wie
-                        ursprünglich geplant Autos für die deutsche Zivilbevölkerung produziert, sondern
-                        Rüstungsaufträge übernommen. Dabei griff der Volkswagen-Konzern auch auf die verschiedenen
-                        Formen nationalsozialistischer Zwangsarbeit zurück. Ende 1944 stellten Zwangsarbeiter und
-                        Zwangsarbeiterinnen zwei Drittel der Belegschaft, insgesamt mussten etwa 200.000 Menschen
-                        Zwangsarbeit bei Volkswagen leisten, viele von ihnen überlebten die Arbeitsbedingungen nicht.
-                        Neben zivilen Zwangsarbeitern und Zwangsarbeiterinnen, sowjetischen Kriegsgefangenen und
-                        italienischen Militärinternierten betraf dies auch insgesamt circa 5.000 KZ-Häftlinge. Nachdem
-                        die Geschichte des VW-Konzerns im Nationalsozialismus in den 1980er- und 1990er -Jahren
-                        öffentlich umfangreich thematisiert und wissenschaftlich untersucht wurde, befindet sich heute
-                        im VW-Werk eine Erinnerungsstätte an die Zwangsarbeit auf dem Gelände.
-                        <br/>
+                        Das nationalsozialistische Deutschland griff in hohem Maße auf Zwangsarbeit
+                        zurück um seinen Arbeitskräftebedarf zu decken, alleine im Deutschen Reich
+                        mussten während des Zweiten Weltkrieges über 13,5 Millionen Menschen
+                        Zwangsarbeit leisten. Zwangsarbeit wurde dabei in allen Industriezweigen aber
+                        auch in der Landwirtschaft und in Privathaushalten eingesetzt. Die
+                        Zwangsarbeiter und Zwangsarbeiterinnen gehörten insbesondere in den letzten
+                        Kriegsjahren zum sichtbaren Alltag im nationalsozialistischen Deutschland.
+                    </p>
+                    <p>
                         Die individuellen Lebens- und Arbeitsbedingungen der Zwangsarbeiterinnen und
                         Zwangsarbeiter hingen dabei von ihrem rechtlichen Status, ihrer nationalen
                         Zugehörigkeit, ihrem Geschlecht sowie ihrem Arbeitsort ab. Die harte körperliche
@@ -386,7 +382,7 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                     <h4>&#9432; Übersicht Zwangsarbeitslager</h4>
                     <p style=\"font-size: 0.9rem;\">
                         <a href=\"";
-        // line 288
+        // line 284
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_map");
         yield "\" title=\"Kartenübersicht\">
                             &#10149; Übersicht der Lager mit aus Ungarn deportierten Zwangsarbeitern und
@@ -411,7 +407,7 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                     wenig über 30 Kilo.<sup><a href=\"#endnote17\" id=\"footnote17\">17</a></sup>
                 </p>
                 <img class=\"img-fluid\" src=\"";
-        // line 310
+        // line 306
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/studies/V1-Produktion.jpg"), "html", null, true);
         yield "\"
                      alt=\"Blick in eine Produktionshalle der V1 im Konzentrationslager Mittelbau-Dora im Mai 1946\"/>
@@ -519,7 +515,7 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                     </p>
                     <p>
                         <a href=\"";
-        // line 415
+        // line 411
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_map");
         yield "\" title=\"Kartenübersicht\">
                             &#10149; Zur Karte der Lager
@@ -547,7 +543,7 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                     ebenfalls die Häftlingsdaten enthält.<sup><a href=\"#endnote28\" id=\"footnote28\">28</a></sup>
                 </p>
                 <img class=\"img-fluid\" src=\"";
-        // line 440
+        // line 436
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder_840x560.jpg"), "html", null, true);
         yield "\"
                      alt=\"Häftlingsnummern\"/>
@@ -730,7 +726,7 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                     Norddeutschland 1944, hrsg. vom
                     Institut für die Geschichte der deutschen Juden, URL:
                     https://holocaust-ungarn-norddeutschland.de";
-        // line 620
+        // line 616
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_vw");
         yield ". Lizenz: CC BY 4.0.
                 </p>
@@ -770,7 +766,7 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
      */
     public function getDebugInfo()
     {
-        return array (  734 => 620,  551 => 440,  523 => 415,  415 => 310,  390 => 288,  232 => 133,  193 => 97,  148 => 55,  142 => 52,  95 => 7,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
+        return array (  730 => 616,  547 => 436,  519 => 411,  411 => 306,  386 => 284,  232 => 133,  193 => 97,  148 => 55,  142 => 52,  95 => 7,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -961,19 +957,15 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                 <div class=\"infobox\">
                     <h4>&#9432; Zwangsarbeit</h4>
                     <p>
-                        1938/1939 hatte die ein Jahr zuvor gegründete Volkswagen GmbH ihr Werk in der Nähe von
-                        Fallersleben im heutigen Wolfsburg errichtet. Nach Kriegsbeginn wurden hier nicht wie
-                        ursprünglich geplant Autos für die deutsche Zivilbevölkerung produziert, sondern
-                        Rüstungsaufträge übernommen. Dabei griff der Volkswagen-Konzern auch auf die verschiedenen
-                        Formen nationalsozialistischer Zwangsarbeit zurück. Ende 1944 stellten Zwangsarbeiter und
-                        Zwangsarbeiterinnen zwei Drittel der Belegschaft, insgesamt mussten etwa 200.000 Menschen
-                        Zwangsarbeit bei Volkswagen leisten, viele von ihnen überlebten die Arbeitsbedingungen nicht.
-                        Neben zivilen Zwangsarbeitern und Zwangsarbeiterinnen, sowjetischen Kriegsgefangenen und
-                        italienischen Militärinternierten betraf dies auch insgesamt circa 5.000 KZ-Häftlinge. Nachdem
-                        die Geschichte des VW-Konzerns im Nationalsozialismus in den 1980er- und 1990er -Jahren
-                        öffentlich umfangreich thematisiert und wissenschaftlich untersucht wurde, befindet sich heute
-                        im VW-Werk eine Erinnerungsstätte an die Zwangsarbeit auf dem Gelände.
-                        <br/>
+                        Das nationalsozialistische Deutschland griff in hohem Maße auf Zwangsarbeit
+                        zurück um seinen Arbeitskräftebedarf zu decken, alleine im Deutschen Reich
+                        mussten während des Zweiten Weltkrieges über 13,5 Millionen Menschen
+                        Zwangsarbeit leisten. Zwangsarbeit wurde dabei in allen Industriezweigen aber
+                        auch in der Landwirtschaft und in Privathaushalten eingesetzt. Die
+                        Zwangsarbeiter und Zwangsarbeiterinnen gehörten insbesondere in den letzten
+                        Kriegsjahren zum sichtbaren Alltag im nationalsozialistischen Deutschland.
+                    </p>
+                    <p>
                         Die individuellen Lebens- und Arbeitsbedingungen der Zwangsarbeiterinnen und
                         Zwangsarbeiter hingen dabei von ihrem rechtlichen Status, ihrer nationalen
                         Zugehörigkeit, ihrem Geschlecht sowie ihrem Arbeitsort ab. Die harte körperliche

@@ -139,17 +139,13 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
                              alt=\"Karte Ungarns im Jahr 1944 mit annektierten Gebieten in der Slowakei, Karpatenukraine, Siebenbürgen, Prekmurje, Medimurje und Baranya Bácska\"/>
                     </a>
                     <p class=\"caption\">
-                        Ungarisches Staatsgebiet 1937 bis 1944/45. Quelle: <a href=\"http://www.kz-walldorf.de/g1110_grenzen.html\">http://www.kz-walldorf.de/g1110_grenzen.html</a>.
+                        Ungarisches Staatsgebiet und Annektierung 1920 bis 1941. Quelle: <a
+                                href=\"https://commons.wikimedia.org/wiki/File:Hungary_map_1941.png\"
+                                title=\"Abbildung auf Wiki Commons\">https://commons.wikimedia.org</a>. Lizenz: <a
+                                href=\"https://creativecommons.org/public-domain/\"
+                                title=\"Mehr Informationen zur Lizenz auf der Creative Commons Website\">Public domain</a>.
                     </p>
 
-                    <p class=\"caption\"> Niederschrift einer Zusammenkunft zur Neugründung der Jüdischen Gemeinde in
-                        Hamburg im Juli 1945. ©
-                        Staatsarchiv Hamburg und Jüdische Gemeinde Hamburg.
-                        <a href=\"https://juedische-geschichte-online.net/quelle/jgo:source-69\" traget=\"_blank\">
-                            [Zur Quelle in der
-                            Online-Edition <em>Hamburger Schlüsseldokumente</em> zur deutsch-jüdischen Geschichte]
-                        </a>
-                    </p>
                 </div>
             </div>
         </div>
@@ -208,29 +204,14 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
                 </div>
             </div>
             <div class=\"col-md-5\">
-                <img class=\"img-fluid\" style=\"width: 400px;\" src=\"";
-        // line 118
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/history/ungarn-1944.png"), "html", null, true);
+                <img class=\"img-fluid\" src=\"";
+        // line 114
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder_840x560.jpg"), "html", null, true);
         yield "\"
-                     alt=\"Foto des heutigen Joseph-Carlebach-Bildungshauses\"/>
-                <div class=\"caption\">
-                    Das Gebäude der einstigen Talmud-Tora-Schule, in dem sich heute das Joseph-Carlebach-Bildungshaus
-                    befindet. IGdJ Bilddatenbank, NEU00038_2. Foto: Paula Oppermann.
-                </div>
-                <img class=\"img-fluid\" class=\"mt-2\" style=\"width: 400px;\"
-                     src=\"";
-        // line 125
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/history/ungarn-1944.pngg"), "html", null, true);
-        yield "\"
-                     alt=\"Foto der Talmud-Tora-Schule im Jahr 1914\"/>
-                <div class=\"caption\">
-                    Aufnahme der Talmud-Tora-Schule im Vordergrund, im Hintergrund ist rechts die einstige
-                    Bornplatzsynagoge zu sehen. IGdJ Bilddatenbank, BAU003257. Abgedruckt in:
-                    <a href=\"https://www.sub.uni-hamburg.de/bibliotheken/ausstellungen-und-veranstaltungen/online-ausstellungen/exponate-des-monats/hamburg-und-seine-bauten-1914-dokument-der-metropole-im-aufbruch.html\"
-                       title=\"Link zu externem Digitalisat der Publikation\" target=\"_blank\">
-                        Hamburg und seine Bauten unter Berücksichtigung der Nachbarstädte Altona und Wandsbek 1914</a>,
-                    hrsg. v. Architekten- und Ingenieur-Verein zu Hamburg, Hamburg 1914, S. 203, Abb. 295.
-                </div>
+                     alt=\"\"/>
+                <p class=\"caption\">
+
+                </p>
             </div>
         </div>
 
@@ -265,7 +246,7 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
             </div>
             <div class=\"col-md-5\">
                 <img class=\"img-fluid\" style=\"width: 440px;\" src=\"";
-        // line 168
+        // line 152
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/history/ungarn-1944.png"), "html", null, true);
         yield "\"
                      alt=\"Foto der Gedenktafel für das Auswandererschiff Exodus\"/>
@@ -306,7 +287,7 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
             </div>
             <div class=\"col-md-5\">
                 <img class=\"img-fluid\" style=\"width: 440px;\" src=\"";
-        // line 206
+        // line 190
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/history/ungarn-1944.png"), "html", null, true);
         yield "\"
                      alt=\"Foto mehrerer persisch-jüdischer Kinder, die an einem Tisch sitzen\"/>
@@ -349,7 +330,7 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
             </div>
             <div class=\"col-md-5\">
                 <img class=\"img-fluid\" style=\"width: 440px;\" src=\"";
-        // line 246
+        // line 230
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/history/ungarn-1944.png"), "html", null, true);
         yield "\"
                      alt=\"Scan des genehmigten Visumsantrag\"/>
@@ -358,7 +339,7 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
                 </div>
 
                 <img class=\"img-fluid\" style=\"width: 440px;\" src=\"";
-        // line 252
+        // line 236
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/history/ungarn-1944.png"), "html", null, true);
         yield "\"
                      alt=\"Scan des sowjetischen Passes\"/>
@@ -458,7 +439,7 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
      */
     public function getDebugInfo()
     {
-        return array (  362 => 252,  353 => 246,  310 => 206,  269 => 168,  223 => 125,  213 => 118,  137 => 45,  129 => 40,  95 => 8,  92 => 7,  82 => 6,  60 => 3,  37 => 1,);
+        return array (  343 => 236,  334 => 230,  291 => 190,  250 => 152,  209 => 114,  137 => 45,  129 => 40,  95 => 8,  92 => 7,  82 => 6,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -511,17 +492,13 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
                              alt=\"Karte Ungarns im Jahr 1944 mit annektierten Gebieten in der Slowakei, Karpatenukraine, Siebenbürgen, Prekmurje, Medimurje und Baranya Bácska\"/>
                     </a>
                     <p class=\"caption\">
-                        Ungarisches Staatsgebiet 1937 bis 1944/45. Quelle: <a href=\"http://www.kz-walldorf.de/g1110_grenzen.html\">http://www.kz-walldorf.de/g1110_grenzen.html</a>.
+                        Ungarisches Staatsgebiet und Annektierung 1920 bis 1941. Quelle: <a
+                                href=\"https://commons.wikimedia.org/wiki/File:Hungary_map_1941.png\"
+                                title=\"Abbildung auf Wiki Commons\">https://commons.wikimedia.org</a>. Lizenz: <a
+                                href=\"https://creativecommons.org/public-domain/\"
+                                title=\"Mehr Informationen zur Lizenz auf der Creative Commons Website\">Public domain</a>.
                     </p>
 
-                    <p class=\"caption\"> Niederschrift einer Zusammenkunft zur Neugründung der Jüdischen Gemeinde in
-                        Hamburg im Juli 1945. ©
-                        Staatsarchiv Hamburg und Jüdische Gemeinde Hamburg.
-                        <a href=\"https://juedische-geschichte-online.net/quelle/jgo:source-69\" traget=\"_blank\">
-                            [Zur Quelle in der
-                            Online-Edition <em>Hamburger Schlüsseldokumente</em> zur deutsch-jüdischen Geschichte]
-                        </a>
-                    </p>
                 </div>
             </div>
         </div>
@@ -580,23 +557,11 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
                 </div>
             </div>
             <div class=\"col-md-5\">
-                <img class=\"img-fluid\" style=\"width: 400px;\" src=\"{{ asset('images/history/ungarn-1944.png') }}\"
-                     alt=\"Foto des heutigen Joseph-Carlebach-Bildungshauses\"/>
-                <div class=\"caption\">
-                    Das Gebäude der einstigen Talmud-Tora-Schule, in dem sich heute das Joseph-Carlebach-Bildungshaus
-                    befindet. IGdJ Bilddatenbank, NEU00038_2. Foto: Paula Oppermann.
-                </div>
-                <img class=\"img-fluid\" class=\"mt-2\" style=\"width: 400px;\"
-                     src=\"{{ asset('images/history/ungarn-1944.pngg') }}\"
-                     alt=\"Foto der Talmud-Tora-Schule im Jahr 1914\"/>
-                <div class=\"caption\">
-                    Aufnahme der Talmud-Tora-Schule im Vordergrund, im Hintergrund ist rechts die einstige
-                    Bornplatzsynagoge zu sehen. IGdJ Bilddatenbank, BAU003257. Abgedruckt in:
-                    <a href=\"https://www.sub.uni-hamburg.de/bibliotheken/ausstellungen-und-veranstaltungen/online-ausstellungen/exponate-des-monats/hamburg-und-seine-bauten-1914-dokument-der-metropole-im-aufbruch.html\"
-                       title=\"Link zu externem Digitalisat der Publikation\" target=\"_blank\">
-                        Hamburg und seine Bauten unter Berücksichtigung der Nachbarstädte Altona und Wandsbek 1914</a>,
-                    hrsg. v. Architekten- und Ingenieur-Verein zu Hamburg, Hamburg 1914, S. 203, Abb. 295.
-                </div>
+                <img class=\"img-fluid\" src=\"{{ asset('images/placeholder_840x560.jpg') }}\"
+                     alt=\"\"/>
+                <p class=\"caption\">
+
+                </p>
             </div>
         </div>
 
