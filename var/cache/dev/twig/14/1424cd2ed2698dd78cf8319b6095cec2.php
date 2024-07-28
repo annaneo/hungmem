@@ -42,14 +42,13 @@ class __TwigTemplate_07a0bcd52b0040821763a4cfc4157155 extends Template
 
         // line 1
         yield "<div class=\"container\">
-
     <div class=\"hero device title-lg\">
         <div class=\"container mt-5\">
             <div class=\"row pt-1 pb-1\">
                 <div class=\"col\">
                     <h1 class=\"fw-bold\">
                         <a href=\"";
-        // line 8
+        // line 7
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_home");
         yield "\">
                             Holocaust in Ungarn und Deportationen nach Norddeutschland 1944.
@@ -61,7 +60,7 @@ class __TwigTemplate_07a0bcd52b0040821763a4cfc4157155 extends Template
         </div>
     </div>
 
-    <nav class=\"navbar navbar-expand-lg navbar-light\" >
+    <nav class=\"navbar navbar-expand-lg navbar-light\">
         <div class=\"container-fluid setback\">
             <span class=\"navbar-brand\">
                 <h1 class=\"brand-text\">Holocaust in Ungarn und Deportationen<br/> nach Norddeutschland 1944</h1>
@@ -73,56 +72,76 @@ class __TwigTemplate_07a0bcd52b0040821763a4cfc4157155 extends Template
                 <ul class=\"navbar-nav\">
                     <li class=\"nav-item\">
                         <a href=\"";
-        // line 29
+        // line 28
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_home");
         yield "\" class=\"nav-link\" title=\"Startseite\">Home</a>
                     </li>
                     <li class=\"nav-item\">
                         <a href=\"";
-        // line 32
+        // line 31
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_map");
-        yield "\" class=\"nav-link\"
-                           title=\"Kartenansicht\">Orte</a>
+        yield "\" class=\"nav-link\" title=\"Kartenansicht\">Orte</a>
                     </li>
-                    <li class=\"nav-item\">
+                    <li class=\"nav-item dropdown\">
                         <a href=\"";
-        // line 36
+        // line 34
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation");
-        yield "\" class=\"nav-link selected\" title=\"Deportationsrouten\">Deportationsrouten</a>
-                    </li>
-                    <li class=\"nav-item\">
-                        <a href=\"";
+        yield "\" class=\"nav-link dropdown-toggle selected\" id=\"navbarDropdown\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\" title=\"Deportationsrouten\">
+                            Deportationsrouten
+                        </a>
+                        <ul class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">
+                            <li><a class=\"dropdown-item\" href=\"";
+        // line 38
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation");
+        yield "\" title=\"Zur Übersicht der Fallstudien\">Übersicht</a></li>
+                            <li><a class=\"dropdown-item\" href=\"";
         // line 39
-        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographies");
-        yield "\" class=\"nav-link\"
-                           title=\"Biografien\">Biografien</a>
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_vw");
+        yield "\" title=\"Fallstudie Volkswagen\">Volkswagen</a></li>
+                            <li><a class=\"dropdown-item\" href=\"";
+        // line 40
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_dessauerUfer");
+        yield "\" title=\"Fallstudie Dessauer Ufer\">Dessauer Ufer</a></li>
+                            <li><a class=\"dropdown-item\" href=\"";
+        // line 41
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_salzwedel");
+        yield "\" title=\"Fallstudie Salzwedel\">Salzwedel</a></li>
+                            <li><a class=\"dropdown-item\" href=\"";
+        // line 42
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_luebberstedt");
+        yield "\" title=\"Fallstudie Lübberstedt\">Lübberstedt</a></li>
+                        </ul>
                     </li>
                     <li class=\"nav-item\">
                         <a href=\"";
-        // line 43
+        // line 46
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographies");
+        yield "\" class=\"nav-link\" title=\"Biografien\">Biografien</a>
+                    </li>
+                    <li class=\"nav-item\">
+                        <a href=\"";
+        // line 49
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_sources");
         yield "\" class=\"nav-link\" title=\"Was wir wissen und was wir nicht wissen\">Quellen</a>
                     </li>
                     <li class=\"nav-item\">
                         <a href=\"";
-        // line 46
+        // line 52
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_context");
-        yield "\" class=\"nav-link\"
-                           title=\"Historischer Kontext\">Historischer&nbsp;Kontext</a>
+        yield "\" class=\"nav-link\" title=\"Historischer Kontext\">Historischer&nbsp;Kontext</a>
                     </li>
                     <li class=\"nav-item\">
                         <a href=\"";
-        // line 50
+        // line 55
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_about");
-        yield "\" class=\"nav-link\"
-                           title=\"Projektkontext\">HUNGMEM</a>
+        yield "\" class=\"nav-link\" title=\"Projektkontext\">HUNGMEM</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-
-</div>";
+</div>
+";
         
         $__internal_5a27a8ba21ca79b61932376b2fa922d2->leave($__internal_5a27a8ba21ca79b61932376b2fa922d2_prof);
 
@@ -153,13 +172,12 @@ class __TwigTemplate_07a0bcd52b0040821763a4cfc4157155 extends Template
      */
     public function getDebugInfo()
     {
-        return array (  116 => 50,  109 => 46,  103 => 43,  96 => 39,  90 => 36,  83 => 32,  77 => 29,  53 => 8,  44 => 1,);
+        return array (  136 => 55,  130 => 52,  124 => 49,  118 => 46,  111 => 42,  107 => 41,  103 => 40,  99 => 39,  95 => 38,  88 => 34,  82 => 31,  76 => 28,  52 => 7,  44 => 1,);
     }
 
     public function getSourceContext()
     {
         return new Source("<div class=\"container\">
-
     <div class=\"hero device title-lg\">
         <div class=\"container mt-5\">
             <div class=\"row pt-1 pb-1\">
@@ -175,7 +193,7 @@ class __TwigTemplate_07a0bcd52b0040821763a4cfc4157155 extends Template
         </div>
     </div>
 
-    <nav class=\"navbar navbar-expand-lg navbar-light\" >
+    <nav class=\"navbar navbar-expand-lg navbar-light\">
         <div class=\"container-fluid setback\">
             <span class=\"navbar-brand\">
                 <h1 class=\"brand-text\">Holocaust in Ungarn und Deportationen<br/> nach Norddeutschland 1944</h1>
@@ -189,32 +207,37 @@ class __TwigTemplate_07a0bcd52b0040821763a4cfc4157155 extends Template
                         <a href=\"{{ path('app_home') }}\" class=\"nav-link\" title=\"Startseite\">Home</a>
                     </li>
                     <li class=\"nav-item\">
-                        <a href=\"{{ path('app_map') }}\" class=\"nav-link\"
-                           title=\"Kartenansicht\">Orte</a>
+                        <a href=\"{{ path('app_map') }}\" class=\"nav-link\" title=\"Kartenansicht\">Orte</a>
+                    </li>
+                    <li class=\"nav-item dropdown\">
+                        <a href=\"{{ path('app_deportation') }}\" class=\"nav-link dropdown-toggle selected\" id=\"navbarDropdown\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\" title=\"Deportationsrouten\">
+                            Deportationsrouten
+                        </a>
+                        <ul class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">
+                            <li><a class=\"dropdown-item\" href=\"{{ path('app_deportation') }}\" title=\"Zur Übersicht der Fallstudien\">Übersicht</a></li>
+                            <li><a class=\"dropdown-item\" href=\"{{ path('app_deportation_vw') }}\" title=\"Fallstudie Volkswagen\">Volkswagen</a></li>
+                            <li><a class=\"dropdown-item\" href=\"{{ path('app_deportation_dessauerUfer') }}\" title=\"Fallstudie Dessauer Ufer\">Dessauer Ufer</a></li>
+                            <li><a class=\"dropdown-item\" href=\"{{ path('app_deportation_salzwedel') }}\" title=\"Fallstudie Salzwedel\">Salzwedel</a></li>
+                            <li><a class=\"dropdown-item\" href=\"{{ path('app_deportation_luebberstedt') }}\" title=\"Fallstudie Lübberstedt\">Lübberstedt</a></li>
+                        </ul>
                     </li>
                     <li class=\"nav-item\">
-                        <a href=\"{{ path('app_deportation') }}\" class=\"nav-link selected\" title=\"Deportationsrouten\">Deportationsrouten</a>
-                    </li>
-                    <li class=\"nav-item\">
-                        <a href=\"{{ path('app_biographies') }}\" class=\"nav-link\"
-                           title=\"Biografien\">Biografien</a>
+                        <a href=\"{{ path('app_biographies') }}\" class=\"nav-link\" title=\"Biografien\">Biografien</a>
                     </li>
                     <li class=\"nav-item\">
                         <a href=\"{{ path('app_sources') }}\" class=\"nav-link\" title=\"Was wir wissen und was wir nicht wissen\">Quellen</a>
                     </li>
                     <li class=\"nav-item\">
-                        <a href=\"{{ path('app_context') }}\" class=\"nav-link\"
-                           title=\"Historischer Kontext\">Historischer&nbsp;Kontext</a>
+                        <a href=\"{{ path('app_context') }}\" class=\"nav-link\" title=\"Historischer Kontext\">Historischer&nbsp;Kontext</a>
                     </li>
                     <li class=\"nav-item\">
-                        <a href=\"{{ path('app_about') }}\" class=\"nav-link\"
-                           title=\"Projektkontext\">HUNGMEM</a>
+                        <a href=\"{{ path('app_about') }}\" class=\"nav-link\" title=\"Projektkontext\">HUNGMEM</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-
-</div>", "elements/navigation-deportationen.html.twig", "/Users/neovesky/CodingFriends/holocaust-ungarn/templates/elements/navigation-deportationen.html.twig");
+</div>
+", "elements/navigation-deportationen.html.twig", "/Users/neovesky/CodingFriends/holocaust-ungarn/templates/elements/navigation-deportationen.html.twig");
     }
 }

@@ -61,7 +61,7 @@ class __TwigTemplate_b6067366327ca94b27bab22ea18c977e extends Template
         </div>
     </div>
 
-    <nav class=\"navbar navbar-expand-lg navbar-light\" >
+    <nav class=\"navbar navbar-expand-lg navbar-light\">
         <div class=\"container-fluid setback\">
             <span class=\"navbar-brand\">
                 <h1 class=\"brand-text\">Holocaust in Ungarn und Deportationen<br/> nach Norddeutschland 1944</h1>
@@ -81,41 +81,61 @@ class __TwigTemplate_b6067366327ca94b27bab22ea18c977e extends Template
                         <a href=\"";
         // line 32
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_map");
-        yield "\" class=\"nav-link\"
-                           title=\"Kartenansicht\">Orte</a>
+        yield "\" class=\"nav-link\" title=\"Kartenansicht\">Orte</a>
                     </li>
                     <li class=\"nav-item\">
                         <a href=\"";
-        // line 36
+        // line 35
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation");
         yield "\" class=\"nav-link\" title=\"Deportationsrouten\">Deportationsrouten</a>
                     </li>
-                    <li class=\"nav-item\">
+                    <li class=\"nav-item dropdown\">
                         <a href=\"";
-        // line 39
+        // line 38
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographies");
-        yield "\" class=\"nav-link selected\"
-                           title=\"Biografien\">Biografien</a>
+        yield "\" class=\"nav-link dropdown-toggle selected\" id=\"biographiesDropdown\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\" title=\"Biografien\">
+                            Biografien
+                        </a>
+                        <ul class=\"dropdown-menu\" aria-labelledby=\"biographiesDropdown\">
+                            <li><a class=\"dropdown-item\" href=\"";
+        // line 42
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographies");
+        yield "\">Übersicht der Biografien</a></li>
+                            <li><a class=\"dropdown-item\" href=\"";
+        // line 43
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_bio_blum");
+        yield "\">Yehuda Blum</a></li>
+                            <li><a class=\"dropdown-item\" href=\"";
+        // line 44
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_bio_fuerst");
+        yield "\">Gyula Fürst</a></li>
+                            <li><a class=\"dropdown-item\" href=\"";
+        // line 45
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_bio_hardy");
+        yield "\">Katharina Hardy</a></li>
+                            <li><a class=\"dropdown-item\" href=\"";
+        // line 46
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_bio_mereny");
+        yield "\">Lea und Zsuzsa Merényi</a></li>
+                        </ul>
                     </li>
                     <li class=\"nav-item\">
                         <a href=\"";
-        // line 43
+        // line 50
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_sources");
         yield "\" class=\"nav-link\" title=\"Was wir wissen und was wir nicht wissen\">Quellen</a>
                     </li>
                     <li class=\"nav-item\">
                         <a href=\"";
-        // line 46
+        // line 53
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_context");
-        yield "\" class=\"nav-link\"
-                           title=\"Historischer Kontext\">Historischer&nbsp;Kontext</a>
+        yield "\" class=\"nav-link\" title=\"Historischer Kontext\">Historischer&nbsp;Kontext</a>
                     </li>
                     <li class=\"nav-item\">
                         <a href=\"";
-        // line 50
+        // line 56
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_about");
-        yield "\" class=\"nav-link\"
-                           title=\"Projektkontext\">HUNGMEM</a>
+        yield "\" class=\"nav-link\" title=\"Projektkontext\">HUNGMEM</a>
                     </li>
                 </ul>
             </div>
@@ -153,7 +173,7 @@ class __TwigTemplate_b6067366327ca94b27bab22ea18c977e extends Template
      */
     public function getDebugInfo()
     {
-        return array (  116 => 50,  109 => 46,  103 => 43,  96 => 39,  90 => 36,  83 => 32,  77 => 29,  53 => 8,  44 => 1,);
+        return array (  137 => 56,  131 => 53,  125 => 50,  118 => 46,  114 => 45,  110 => 44,  106 => 43,  102 => 42,  95 => 38,  89 => 35,  83 => 32,  77 => 29,  53 => 8,  44 => 1,);
     }
 
     public function getSourceContext()
@@ -175,7 +195,7 @@ class __TwigTemplate_b6067366327ca94b27bab22ea18c977e extends Template
         </div>
     </div>
 
-    <nav class=\"navbar navbar-expand-lg navbar-light\" >
+    <nav class=\"navbar navbar-expand-lg navbar-light\">
         <div class=\"container-fluid setback\">
             <span class=\"navbar-brand\">
                 <h1 class=\"brand-text\">Holocaust in Ungarn und Deportationen<br/> nach Norddeutschland 1944</h1>
@@ -189,26 +209,31 @@ class __TwigTemplate_b6067366327ca94b27bab22ea18c977e extends Template
                         <a href=\"{{ path('app_home') }}\" class=\"nav-link\" title=\"Startseite\">Home</a>
                     </li>
                     <li class=\"nav-item\">
-                        <a href=\"{{ path('app_map') }}\" class=\"nav-link\"
-                           title=\"Kartenansicht\">Orte</a>
+                        <a href=\"{{ path('app_map') }}\" class=\"nav-link\" title=\"Kartenansicht\">Orte</a>
                     </li>
                     <li class=\"nav-item\">
                         <a href=\"{{ path('app_deportation') }}\" class=\"nav-link\" title=\"Deportationsrouten\">Deportationsrouten</a>
                     </li>
-                    <li class=\"nav-item\">
-                        <a href=\"{{ path('app_biographies') }}\" class=\"nav-link selected\"
-                           title=\"Biografien\">Biografien</a>
+                    <li class=\"nav-item dropdown\">
+                        <a href=\"{{ path('app_biographies') }}\" class=\"nav-link dropdown-toggle selected\" id=\"biographiesDropdown\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\" title=\"Biografien\">
+                            Biografien
+                        </a>
+                        <ul class=\"dropdown-menu\" aria-labelledby=\"biographiesDropdown\">
+                            <li><a class=\"dropdown-item\" href=\"{{ path('app_biographies') }}\">Übersicht der Biografien</a></li>
+                            <li><a class=\"dropdown-item\" href=\"{{ path('app_bio_blum') }}\">Yehuda Blum</a></li>
+                            <li><a class=\"dropdown-item\" href=\"{{ path('app_bio_fuerst') }}\">Gyula Fürst</a></li>
+                            <li><a class=\"dropdown-item\" href=\"{{ path('app_bio_hardy') }}\">Katharina Hardy</a></li>
+                            <li><a class=\"dropdown-item\" href=\"{{ path('app_bio_mereny') }}\">Lea und Zsuzsa Merényi</a></li>
+                        </ul>
                     </li>
                     <li class=\"nav-item\">
                         <a href=\"{{ path('app_sources') }}\" class=\"nav-link\" title=\"Was wir wissen und was wir nicht wissen\">Quellen</a>
                     </li>
                     <li class=\"nav-item\">
-                        <a href=\"{{ path('app_context') }}\" class=\"nav-link\"
-                           title=\"Historischer Kontext\">Historischer&nbsp;Kontext</a>
+                        <a href=\"{{ path('app_context') }}\" class=\"nav-link\" title=\"Historischer Kontext\">Historischer&nbsp;Kontext</a>
                     </li>
                     <li class=\"nav-item\">
-                        <a href=\"{{ path('app_about') }}\" class=\"nav-link\"
-                           title=\"Projektkontext\">HUNGMEM</a>
+                        <a href=\"{{ path('app_about') }}\" class=\"nav-link\" title=\"Projektkontext\">HUNGMEM</a>
                     </li>
                 </ul>
             </div>

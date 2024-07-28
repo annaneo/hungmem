@@ -160,21 +160,13 @@ class __TwigTemplate_57ca88c14c1d2b9e9e951b0e4bdd63bd extends Template
                         Kriegsjahren zum sichtbaren Alltag im nationalsozialistischen Deutschland.
                     </p>
                     <p>
-                        Die individuellen Lebens- und Arbeitsbedingungen der Zwangsarbeiterinnen und
-                        Zwangsarbeiter hingen dabei von ihrem rechtlichen Status, ihrer nationalen
-                        Zugehörigkeit, ihrem Geschlecht sowie ihrem Arbeitsort ab. Die harte körperliche
-                        Arbeit, die bewusst herbeigeführte Unterernährung und mangelhafte Ausstattung
-                        machten ein Überleben für viele Häftlinge nicht möglich. Sie wurden mittels der
-                        katastrophalen und menschenverachtenden Arbeits- und Lebensbedingungen,
-                        durch die Nationalsozialisten ermordet. Für die Arbeit der KZ-Häftlinge prägte
-                        Wolfgang Sofsky daher den Begriff „Terrorarbeit“, um zu betonen, dass der Zweck
-                        der Arbeit nicht deren Produktivität gewesen sei, sondern die ineffektiven
-                        Arbeitseinsätze vor allem der Terrorisierung der Häftlinge gedient hätten. Für die
-                        Arbeit in den Neuengammer Außenlagern lehnt der Historiker Marc Buggeln
-                        diesen Begriff explizit ab und argumentiert, dass die maximale Ausbeutung der
-                        Arbeitskraft der Häftlinge bis zum Tod durch Erschöpfung im ökonomischen
-                        Interesse der Unternehmen gewesen sei. Er plädiert stattdessen für den Begriff
-                        „Sklavenarbeit“, der auch von vielen Überlebenden verwendet wird.
+                        <a href=\"";
+        // line 75
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_context");
+        yield "#zwangsarbeit\"
+                           title=\"Mehr Informationen zu Zwangsarbeit und historischem Kontext\">
+                            &#10149; Mehr Informationen zu Zwangsarbeit
+                        </a>
                     </p>
                 </div>
                 <div class=\"infobox mt-2\">
@@ -232,7 +224,7 @@ class __TwigTemplate_57ca88c14c1d2b9e9e951b0e4bdd63bd extends Template
                     <h4>&#9432; Mehr zum historischen Hintergrund</h4>
                     <p>
                         <a href=\"";
-        // line 146
+        // line 135
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_context");
         yield "\" title=\"Text zum historischen Kontext\">
                             &#10149; Historischer
@@ -252,7 +244,7 @@ class __TwigTemplate_57ca88c14c1d2b9e9e951b0e4bdd63bd extends Template
                     </p>
                     <p>
                         <a href=\"";
-        // line 163
+        // line 152
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_map");
         yield "\" title=\"Kartenübersicht\">
                             &#10149; Zur Karte
@@ -304,14 +296,14 @@ class __TwigTemplate_57ca88c14c1d2b9e9e951b0e4bdd63bd extends Template
                 </p>
                 <p>
                     <a href=\"";
-        // line 212
+        // line 201
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder_840x560.jpg"), "html", null, true);
         yield "\"
                        data-lightbox=\"map-salzwedel\"
                        data-title=\"Deportationen aus anderen Außenlagern nach Salzwedel\">
                         <img class=\"gallery img-fluid\"
                              src=\"";
-        // line 216
+        // line 205
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder_840x560.jpg"), "html", null, true);
         yield "\"
                              alt=\"Karte mit Pfeilen vom Außenlager Porta Westfalica nach Fallersleben (Frauen) und von Fallersleben nach Salzwedel\"/></a>
@@ -333,7 +325,7 @@ class __TwigTemplate_57ca88c14c1d2b9e9e951b0e4bdd63bd extends Template
                     </p>
                     <p>
                         <a href=\"";
-        // line 235
+        // line 224
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_map");
         yield "\" title=\"Kartenübersicht\">
                             &#10149; Zur Karte der Lager
@@ -379,7 +371,7 @@ class __TwigTemplate_57ca88c14c1d2b9e9e951b0e4bdd63bd extends Template
                     <p>
                     <p>
                         <a href=\"";
-        // line 278
+        // line 267
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_map");
         yield "\" title=\"Kartenübersicht\">
                             &#10149; Zur Karte der Lager
@@ -407,7 +399,7 @@ class __TwigTemplate_57ca88c14c1d2b9e9e951b0e4bdd63bd extends Template
                     Frauen direkt im Werk untergebracht waren, sahen sie während ihrer Zeit hier kein Tageslicht.
                 </p>
                 <img class=\"img-fluid\" src=\"";
-        // line 303
+        // line 292
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/studies/salzwedel/CH11516_1 Tellerminen.jpg"), "html", null, true);
         yield "\"
                      alt=\"Zwangsarbeiterin bei der Produktion von Tellerminen in Fallersleben\"/>
@@ -477,7 +469,7 @@ class __TwigTemplate_57ca88c14c1d2b9e9e951b0e4bdd63bd extends Template
                     KZ-Häftlinge beim Massaker von Gardelegen in einer Scheune verbrannt.
                 </p>
                 <img class=\"img-fluid\" src=\"";
-        // line 370
+        // line 359
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/studies/salzwedel/T2694HäftlingszugHinten.jpg"), "html", null, true);
         yield "\"
                      alt=\"Eine Gruppe von männlichen und weiblichen KZ-Häftlingen von hinten zu sehen\"/>
@@ -492,9 +484,12 @@ class __TwigTemplate_57ca88c14c1d2b9e9e951b0e4bdd63bd extends Template
                     <p>
                         In der Endphase des Krieges wurden etliche Konzentrationslager und KZ-Außenlager durch die
                         Nationalsozialisten vor der Ankunft der sich nähernden Alliierten geräumt. Die Häftlinge wurden
-                        entweder in Güterwagons, selten in Lastwagen transportiert oder unter Misshandlungen gezwungen, zu
-                        Fuß in weiterhin unter deutscher Kontrolle stehende Gebiete zu marschieren. Während der oft tage-,
-                        teilweise auch wochenlang dauernden Märsche wurden die Häftlinge in der Regel kaum versorgt, viele
+                        entweder in Güterwagons, selten in Lastwagen transportiert oder unter Misshandlungen gezwungen,
+                        zu
+                        Fuß in weiterhin unter deutscher Kontrolle stehende Gebiete zu marschieren. Während der oft
+                        tage-,
+                        teilweise auch wochenlang dauernden Märsche wurden die Häftlinge in der Regel kaum versorgt,
+                        viele
                         von ihnen verhungerten oder verdursteten in den Güterwagons, viele brachen während der Märsche
                         aufgrund der Erschöpfung zusammen oder wurden durch die SS oder andere wachhabende Einheiten
                         ermordet. Durch die Überlebenden wurde deshalb für diese Räumungen der Begriff „Todesmarsch“
@@ -542,7 +537,7 @@ class __TwigTemplate_57ca88c14c1d2b9e9e951b0e4bdd63bd extends Template
                 </p>
                 <img class=\"img-fluid\"
                      src=\"";
-        // line 432
+        // line 424
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/studies/salzwedel/T2692Häftlingszugnah.jpg"), "html", null, true);
         yield "\"
                      alt=\"Eine Gruppe von winkenden befreiten Frauen\"/>
@@ -575,7 +570,7 @@ class __TwigTemplate_57ca88c14c1d2b9e9e951b0e4bdd63bd extends Template
                     zukünftigen Staat Israel auswanderten.
                 </p>
                 <a href=\"";
-        // line 462
+        // line 454
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/studies/salzwedel/Lukacs_Agnes-Brief-1945-05-03.jpg"), "html", null, true);
         yield "\"
                    data-lightbox=\"salzwedel-letter\"
@@ -583,7 +578,7 @@ class __TwigTemplate_57ca88c14c1d2b9e9e951b0e4bdd63bd extends Template
                     Salzwedel.\">
                     <img class=\"gallery img-fluid\"
                          src=\"";
-        // line 467
+        // line 459
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/studies/salzwedel/Lukacs_Agnes-Brief1945-05-03_preview.jpg"), "html", null, true);
         yield "\"
                          alt=\"Brief von Ágnes Lukács an ihre Eltern in Budapest. Text und eine kleine Zeichnung, auf der drei Frauen dargestellt sind.\"/></a>
@@ -608,12 +603,12 @@ class __TwigTemplate_57ca88c14c1d2b9e9e951b0e4bdd63bd extends Template
                     sehr begrenzte Rückschlüsse auf die Haftorte möglich sind.
                 </p>
                 <img class=\"img-fluid\" style=\"width: 640px;\" src=\"";
-        // line 489
+        // line 481
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder_840x560.jpg"), "html", null, true);
         yield "\"
                      alt=\"Interaktive Karte der Herkunftsorte \"/>
                 <p class=\"caption\">
-                Karte der Herkunftsorte der Frauen
+                    Karte der Herkunftsorte der Frauen
                 <p>
                     Der Großteil der Unterlagen der Verwaltung der Neuengammer Außenlager wurde vor der Befreiung
                     vernichtet. Lediglich eine Aufstellung des SS-Standortarztes in Neuengamme über die Belegung der
@@ -664,41 +659,57 @@ class __TwigTemplate_57ca88c14c1d2b9e9e951b0e4bdd63bd extends Template
             <div class=\"col-lg-8\">
                 <ul class=\"bibliography\">
                     <li>
-                        Dietrich Banse, „ich wollte überleben und der Welt erzählen“. Zur Geschichte des Frauenlagers Salzwedel – Außenlager des KZ Neuengamme, Salzwedel 2005.
+                        Dietrich Banse, „ich wollte überleben und der Welt erzählen“. Zur Geschichte des Frauenlagers
+                        Salzwedel – Außenlager des KZ Neuengamme, Salzwedel 2005.
                     </li>
                     <li>
-                        Randolp L. Braham, Historical Overview, in: Ders. (Hrsg.), The geographical encyclopedia of the Holocaust in Hungary, Vol. 1, Evanston 2013, S. XV-XCV.
+                        Randolp L. Braham, Historical Overview, in: Ders. (Hrsg.), The geographical encyclopedia of the
+                        Holocaust in Hungary, Vol. 1, Evanston 2013, S. XV-XCV.
                     </li>
                     <li>
                         Marc Buggeln, Arbeit und Gewalt. Das Außenlagersystem des KZ Neuengamme, Göttingen 2009.
                     </li>
                     <li>
-                        Lukkas Busche / Andreas Froese (Hrsg.), Gardelegen 1945. Das Massaker und seine Nachwirkungen. Begleitender Katalog zur Dauerausstellung der Gedenkstätte Feldscheune Isenschnibbe Gardelegen, Gardelegen / Leipzig / Magdeburg 2022.
+                        Lukkas Busche / Andreas Froese (Hrsg.), Gardelegen 1945. Das Massaker und seine Nachwirkungen.
+                        Begleitender Katalog zur Dauerausstellung der Gedenkstätte Feldscheune Isenschnibbe Gardelegen,
+                        Gardelegen / Leipzig / Magdeburg 2022.
                     </li>
                     <li>
-                        Hans Ellger, Salzwedel, in: Wolfgang Benz / Barbara Diestel (Hrsg.), Der Ort des Terrors. Geschichte der nationalsozialistischen Konzentrationslager, Band 5: Hinzert. Auschwitz. Neuengamme, München 2007, S. 514-516.
+                        Hans Ellger, Salzwedel, in: Wolfgang Benz / Barbara Diestel (Hrsg.), Der Ort des Terrors.
+                        Geschichte der nationalsozialistischen Konzentrationslager, Band 5: Hinzert. Auschwitz.
+                        Neuengamme, München 2007, S. 514-516.
                     </li>
                     <li>
-                        Hans Ellger, Zwangsarbeit und weibliche Überlebensstrategien. Die Geschichte der Frauenaußenlager des Konzentrationslagers Neuengamme 1944/1945, Berlin 2007.
+                        Hans Ellger, Zwangsarbeit und weibliche Überlebensstrategien. Die Geschichte der
+                        Frauenaußenlager des Konzentrationslagers Neuengamme 1944/1945, Berlin 2007.
                     </li>
                     <li>
                         Kitty Hart-Moxon, „Wo die Hoffnung erfriert“, Leipzig 2001.
                     </li>
                     <li>
-                        Susanne Heim et al. (Hrsg.), Die Verfolgung und Ermordung der europäischen Juden durch das nationalsozialistische Deutschland 1933.1945, Band 15. Ungarn 1944-1945. Bearbeitet von Regina Fritz. Berlin / Boston 2021.
+                        Susanne Heim et al. (Hrsg.), Die Verfolgung und Ermordung der europäischen Juden durch das
+                        nationalsozialistische Deutschland 1933.1945, Band 15. Ungarn 1944-1945. Bearbeitet von Regina
+                        Fritz. Berlin / Boston 2021.
                     </li>
                     <li>
-                        Johann-Friedrich-Danneil-Museum Salzwedel / Freundeskreis KZ-Gedenkstätte Neuengamme (Hrsg), „laßt es ruhn!?“ – Gegen ein Vergessen. Besuch ehemaliger Häftlinge des KZ-Außenlagers Salzwedel vom 30. April bis 6. Mai 2001.
+                        Johann-Friedrich-Danneil-Museum Salzwedel / Freundeskreis KZ-Gedenkstätte Neuengamme (Hrsg),
+                        „laßt es ruhn!?“ – Gegen ein Vergessen. Besuch ehemaliger Häftlinge des KZ-Außenlagers Salzwedel
+                        vom 30. April bis 6. Mai 2001.
                     </li>
                     <li>
-                        Hanna Mandel, Beim Gehen entsteht der Weg. Gespräche über das Leben vor und nach Auschwitz, Hamburg 2008.
+                        Hanna Mandel, Beim Gehen entsteht der Weg. Gespräche über das Leben vor und nach Auschwitz,
+                        Hamburg 2008.
                     </li>
                     <li>
-                        Salzwedeler Museen / Freundeskreis der KZ Gedenkstätte Neuengamme (Hrsg.), Erinnerung. Besuchswoche ehemaliger Inhaftierter des Konzentrationslagers Salzwedel 12 – 18. Juli 1999, Hamburg 2001.
+                        Salzwedeler Museen / Freundeskreis der KZ Gedenkstätte Neuengamme (Hrsg.), Erinnerung.
+                        Besuchswoche ehemaliger Inhaftierter des Konzentrationslagers Salzwedel 12 – 18. Juli 1999,
+                        Hamburg 2001.
                     </li>
                     <li>
                         Mark Spoerer, Zwangsarbeit unter dem Hakenkreuz, Stuttgart / München 2001.
-                        Stiftung niedersächsische Gedenkstätten (Hrsg.), Bergen-Belsen. Kriegsgefangenenlager 1940-1945, Konzentrationslager 1943-1945, Displaced Persons Camp 1945-1950. Katalog der Dauerausstellung, Celle 2009.
+                        Stiftung niedersächsische Gedenkstätten (Hrsg.), Bergen-Belsen. Kriegsgefangenenlager 1940-1945,
+                        Konzentrationslager 1943-1945, Displaced Persons Camp 1945-1950. Katalog der Dauerausstellung,
+                        Celle 2009.
                     </li>
                 </ul>
             </div>
@@ -908,7 +919,7 @@ class __TwigTemplate_57ca88c14c1d2b9e9e951b0e4bdd63bd extends Template
                     Norddeutschland 1944, hrsg. vom
                     Institut für die Geschichte der deutschen Juden, URL:
                     https://holocaust-ungarn-norddeutschland.de";
-        // line 786
+        // line 794
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_salzwedel");
         yield ". Lizenz: CC BY
                     4.0.
@@ -949,7 +960,7 @@ class __TwigTemplate_57ca88c14c1d2b9e9e951b0e4bdd63bd extends Template
      */
     public function getDebugInfo()
     {
-        return array (  912 => 786,  612 => 489,  587 => 467,  579 => 462,  546 => 432,  481 => 370,  411 => 303,  383 => 278,  337 => 235,  315 => 216,  308 => 212,  256 => 163,  236 => 146,  95 => 7,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
+        return array (  923 => 794,  607 => 481,  582 => 459,  574 => 454,  541 => 424,  473 => 359,  403 => 292,  375 => 267,  329 => 224,  307 => 205,  300 => 201,  248 => 152,  228 => 135,  165 => 75,  95 => 7,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -1028,21 +1039,10 @@ class __TwigTemplate_57ca88c14c1d2b9e9e951b0e4bdd63bd extends Template
                         Kriegsjahren zum sichtbaren Alltag im nationalsozialistischen Deutschland.
                     </p>
                     <p>
-                        Die individuellen Lebens- und Arbeitsbedingungen der Zwangsarbeiterinnen und
-                        Zwangsarbeiter hingen dabei von ihrem rechtlichen Status, ihrer nationalen
-                        Zugehörigkeit, ihrem Geschlecht sowie ihrem Arbeitsort ab. Die harte körperliche
-                        Arbeit, die bewusst herbeigeführte Unterernährung und mangelhafte Ausstattung
-                        machten ein Überleben für viele Häftlinge nicht möglich. Sie wurden mittels der
-                        katastrophalen und menschenverachtenden Arbeits- und Lebensbedingungen,
-                        durch die Nationalsozialisten ermordet. Für die Arbeit der KZ-Häftlinge prägte
-                        Wolfgang Sofsky daher den Begriff „Terrorarbeit“, um zu betonen, dass der Zweck
-                        der Arbeit nicht deren Produktivität gewesen sei, sondern die ineffektiven
-                        Arbeitseinsätze vor allem der Terrorisierung der Häftlinge gedient hätten. Für die
-                        Arbeit in den Neuengammer Außenlagern lehnt der Historiker Marc Buggeln
-                        diesen Begriff explizit ab und argumentiert, dass die maximale Ausbeutung der
-                        Arbeitskraft der Häftlinge bis zum Tod durch Erschöpfung im ökonomischen
-                        Interesse der Unternehmen gewesen sei. Er plädiert stattdessen für den Begriff
-                        „Sklavenarbeit“, der auch von vielen Überlebenden verwendet wird.
+                        <a href=\"{{ path('app_context') }}#zwangsarbeit\"
+                           title=\"Mehr Informationen zu Zwangsarbeit und historischem Kontext\">
+                            &#10149; Mehr Informationen zu Zwangsarbeit
+                        </a>
                     </p>
                 </div>
                 <div class=\"infobox mt-2\">
@@ -1336,9 +1336,12 @@ class __TwigTemplate_57ca88c14c1d2b9e9e951b0e4bdd63bd extends Template
                     <p>
                         In der Endphase des Krieges wurden etliche Konzentrationslager und KZ-Außenlager durch die
                         Nationalsozialisten vor der Ankunft der sich nähernden Alliierten geräumt. Die Häftlinge wurden
-                        entweder in Güterwagons, selten in Lastwagen transportiert oder unter Misshandlungen gezwungen, zu
-                        Fuß in weiterhin unter deutscher Kontrolle stehende Gebiete zu marschieren. Während der oft tage-,
-                        teilweise auch wochenlang dauernden Märsche wurden die Häftlinge in der Regel kaum versorgt, viele
+                        entweder in Güterwagons, selten in Lastwagen transportiert oder unter Misshandlungen gezwungen,
+                        zu
+                        Fuß in weiterhin unter deutscher Kontrolle stehende Gebiete zu marschieren. Während der oft
+                        tage-,
+                        teilweise auch wochenlang dauernden Märsche wurden die Häftlinge in der Regel kaum versorgt,
+                        viele
                         von ihnen verhungerten oder verdursteten in den Güterwagons, viele brachen während der Märsche
                         aufgrund der Erschöpfung zusammen oder wurden durch die SS oder andere wachhabende Einheiten
                         ermordet. Durch die Überlebenden wurde deshalb für diese Räumungen der Begriff „Todesmarsch“
@@ -1445,7 +1448,7 @@ class __TwigTemplate_57ca88c14c1d2b9e9e951b0e4bdd63bd extends Template
                 <img class=\"img-fluid\" style=\"width: 640px;\" src=\"{{ asset('images/placeholder_840x560.jpg') }}\"
                      alt=\"Interaktive Karte der Herkunftsorte \"/>
                 <p class=\"caption\">
-                Karte der Herkunftsorte der Frauen
+                    Karte der Herkunftsorte der Frauen
                 <p>
                     Der Großteil der Unterlagen der Verwaltung der Neuengammer Außenlager wurde vor der Befreiung
                     vernichtet. Lediglich eine Aufstellung des SS-Standortarztes in Neuengamme über die Belegung der
@@ -1496,41 +1499,57 @@ class __TwigTemplate_57ca88c14c1d2b9e9e951b0e4bdd63bd extends Template
             <div class=\"col-lg-8\">
                 <ul class=\"bibliography\">
                     <li>
-                        Dietrich Banse, „ich wollte überleben und der Welt erzählen“. Zur Geschichte des Frauenlagers Salzwedel – Außenlager des KZ Neuengamme, Salzwedel 2005.
+                        Dietrich Banse, „ich wollte überleben und der Welt erzählen“. Zur Geschichte des Frauenlagers
+                        Salzwedel – Außenlager des KZ Neuengamme, Salzwedel 2005.
                     </li>
                     <li>
-                        Randolp L. Braham, Historical Overview, in: Ders. (Hrsg.), The geographical encyclopedia of the Holocaust in Hungary, Vol. 1, Evanston 2013, S. XV-XCV.
+                        Randolp L. Braham, Historical Overview, in: Ders. (Hrsg.), The geographical encyclopedia of the
+                        Holocaust in Hungary, Vol. 1, Evanston 2013, S. XV-XCV.
                     </li>
                     <li>
                         Marc Buggeln, Arbeit und Gewalt. Das Außenlagersystem des KZ Neuengamme, Göttingen 2009.
                     </li>
                     <li>
-                        Lukkas Busche / Andreas Froese (Hrsg.), Gardelegen 1945. Das Massaker und seine Nachwirkungen. Begleitender Katalog zur Dauerausstellung der Gedenkstätte Feldscheune Isenschnibbe Gardelegen, Gardelegen / Leipzig / Magdeburg 2022.
+                        Lukkas Busche / Andreas Froese (Hrsg.), Gardelegen 1945. Das Massaker und seine Nachwirkungen.
+                        Begleitender Katalog zur Dauerausstellung der Gedenkstätte Feldscheune Isenschnibbe Gardelegen,
+                        Gardelegen / Leipzig / Magdeburg 2022.
                     </li>
                     <li>
-                        Hans Ellger, Salzwedel, in: Wolfgang Benz / Barbara Diestel (Hrsg.), Der Ort des Terrors. Geschichte der nationalsozialistischen Konzentrationslager, Band 5: Hinzert. Auschwitz. Neuengamme, München 2007, S. 514-516.
+                        Hans Ellger, Salzwedel, in: Wolfgang Benz / Barbara Diestel (Hrsg.), Der Ort des Terrors.
+                        Geschichte der nationalsozialistischen Konzentrationslager, Band 5: Hinzert. Auschwitz.
+                        Neuengamme, München 2007, S. 514-516.
                     </li>
                     <li>
-                        Hans Ellger, Zwangsarbeit und weibliche Überlebensstrategien. Die Geschichte der Frauenaußenlager des Konzentrationslagers Neuengamme 1944/1945, Berlin 2007.
+                        Hans Ellger, Zwangsarbeit und weibliche Überlebensstrategien. Die Geschichte der
+                        Frauenaußenlager des Konzentrationslagers Neuengamme 1944/1945, Berlin 2007.
                     </li>
                     <li>
                         Kitty Hart-Moxon, „Wo die Hoffnung erfriert“, Leipzig 2001.
                     </li>
                     <li>
-                        Susanne Heim et al. (Hrsg.), Die Verfolgung und Ermordung der europäischen Juden durch das nationalsozialistische Deutschland 1933.1945, Band 15. Ungarn 1944-1945. Bearbeitet von Regina Fritz. Berlin / Boston 2021.
+                        Susanne Heim et al. (Hrsg.), Die Verfolgung und Ermordung der europäischen Juden durch das
+                        nationalsozialistische Deutschland 1933.1945, Band 15. Ungarn 1944-1945. Bearbeitet von Regina
+                        Fritz. Berlin / Boston 2021.
                     </li>
                     <li>
-                        Johann-Friedrich-Danneil-Museum Salzwedel / Freundeskreis KZ-Gedenkstätte Neuengamme (Hrsg), „laßt es ruhn!?“ – Gegen ein Vergessen. Besuch ehemaliger Häftlinge des KZ-Außenlagers Salzwedel vom 30. April bis 6. Mai 2001.
+                        Johann-Friedrich-Danneil-Museum Salzwedel / Freundeskreis KZ-Gedenkstätte Neuengamme (Hrsg),
+                        „laßt es ruhn!?“ – Gegen ein Vergessen. Besuch ehemaliger Häftlinge des KZ-Außenlagers Salzwedel
+                        vom 30. April bis 6. Mai 2001.
                     </li>
                     <li>
-                        Hanna Mandel, Beim Gehen entsteht der Weg. Gespräche über das Leben vor und nach Auschwitz, Hamburg 2008.
+                        Hanna Mandel, Beim Gehen entsteht der Weg. Gespräche über das Leben vor und nach Auschwitz,
+                        Hamburg 2008.
                     </li>
                     <li>
-                        Salzwedeler Museen / Freundeskreis der KZ Gedenkstätte Neuengamme (Hrsg.), Erinnerung. Besuchswoche ehemaliger Inhaftierter des Konzentrationslagers Salzwedel 12 – 18. Juli 1999, Hamburg 2001.
+                        Salzwedeler Museen / Freundeskreis der KZ Gedenkstätte Neuengamme (Hrsg.), Erinnerung.
+                        Besuchswoche ehemaliger Inhaftierter des Konzentrationslagers Salzwedel 12 – 18. Juli 1999,
+                        Hamburg 2001.
                     </li>
                     <li>
                         Mark Spoerer, Zwangsarbeit unter dem Hakenkreuz, Stuttgart / München 2001.
-                        Stiftung niedersächsische Gedenkstätten (Hrsg.), Bergen-Belsen. Kriegsgefangenenlager 1940-1945, Konzentrationslager 1943-1945, Displaced Persons Camp 1945-1950. Katalog der Dauerausstellung, Celle 2009.
+                        Stiftung niedersächsische Gedenkstätten (Hrsg.), Bergen-Belsen. Kriegsgefangenenlager 1940-1945,
+                        Konzentrationslager 1943-1945, Displaced Persons Camp 1945-1950. Katalog der Dauerausstellung,
+                        Celle 2009.
                     </li>
                 </ul>
             </div>

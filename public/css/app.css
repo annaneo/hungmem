@@ -111,7 +111,9 @@ footer, footer p {
 	margin-bottom: 1rem;
 }
 
-
+.dropdown-menu {
+	padding: 0;
+}
 
 @media (max-width: 991.98px) { /* Bootstrap 'lg' breakpoint */
 	.title-lg {

@@ -231,21 +231,13 @@ class __TwigTemplate_ceb780bb6ccb56e78f74e925a66d4f43 extends Template
                         Kriegsjahren zum sichtbaren Alltag im nationalsozialistischen Deutschland.
                     </p>
                     <p>
-                        Die individuellen Lebens- und Arbeitsbedingungen der Zwangsarbeiterinnen und
-                        Zwangsarbeiter hingen dabei von ihrem rechtlichen Status, ihrer nationalen
-                        Zugehörigkeit, ihrem Geschlecht sowie ihrem Arbeitsort ab. Die harte körperliche
-                        Arbeit, die bewusst herbeigeführte Unterernährung und mangelhafte Ausstattung
-                        machten ein Überleben für viele Häftlinge nicht möglich. Sie wurden mittels der
-                        katastrophalen und menschenverachtenden Arbeits- und Lebensbedingungen,
-                        durch die Nationalsozialisten ermordet. Für die Arbeit der KZ-Häftlinge prägte
-                        Wolfgang Sofsky daher den Begriff „Terrorarbeit“, um zu betonen, dass der Zweck
-                        der Arbeit nicht deren Produktivität gewesen sei, sondern die ineffektiven
-                        Arbeitseinsätze vor allem der Terrorisierung der Häftlinge gedient hätten. Für die
-                        Arbeit in den Neuengammer Außenlagern lehnt der Historiker Marc Buggeln
-                        diesen Begriff explizit ab und argumentiert, dass die maximale Ausbeutung der
-                        Arbeitskraft der Häftlinge bis zum Tod durch Erschöpfung im ökonomischen
-                        Interesse der Unternehmen gewesen sei. Er plädiert stattdessen für den Begriff
-                        „Sklavenarbeit“, der auch von vielen Überlebenden verwendet wird.
+                        <a href=\"";
+        // line 140
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_context");
+        yield "#zwangsarbeit\"
+                           title=\"Mehr Informationen zu Zwangsarbeit und historischem Kontext\">
+                            &#10149; Mehr Informationen zu Zwangsarbeit
+                        </a>
                     </p>
                 </div>
             </div>
@@ -304,7 +296,7 @@ class __TwigTemplate_ceb780bb6ccb56e78f74e925a66d4f43 extends Template
                     </p>
                     <p>
                         <a href=\"";
-        // line 212
+        // line 201
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_map");
         yield "\" title=\"Kartenübersicht\">
                             &#10149; Zur Karte
@@ -356,7 +348,7 @@ class __TwigTemplate_ceb780bb6ccb56e78f74e925a66d4f43 extends Template
                 </p>
                 <p>
                     <img class=\"img-fluid\" src=\"";
-        // line 261
+        // line 250
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/studies/luebberstedt/Cap_Arcona_burning.jpg"), "html", null, true);
         yield "\"
                          alt=\"Blick in eine Produktionshalle der V1 im Konzentrationslager Mittelbau-Dora im Mai 1946\"/>
@@ -406,7 +398,7 @@ class __TwigTemplate_ceb780bb6ccb56e78f74e925a66d4f43 extends Template
                     beerdigt wurden.
                 </p>
                 <img class=\"img-fluid\" src=\"";
-        // line 308
+        // line 297
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/studies/luebberstedt/Luebberstadt-gedenkstein.jpg"), "html", null, true);
         yield "\"
                      alt=\"Blick in eine Produktionshalle der V1 im Konzentrationslager Mittelbau-Dora im Mai 1946\"/>
@@ -728,13 +720,13 @@ class __TwigTemplate_ceb780bb6ccb56e78f74e925a66d4f43 extends Template
         <div class=\"row\">
             <div class=\"col-lg-8\">
                 <p>
-                    Louis Wörner: Die Befreiung des Außenlagers Salzwedel, in: Holocaust in Ungarn und Deportationen
+                    Louis Wörner: Die Räumung des KZ-Außenlagers Lübberstedt, in: Holocaust in Ungarn und Deportationen
                     nach
                     Norddeutschland 1944, hrsg. vom
                     Institut für die Geschichte der deutschen Juden, URL:
                     https://holocaust-ungarn-norddeutschland.de";
-        // line 632
-        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_salzwedel");
+        // line 621
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_luebberstedt");
         yield ". Lizenz: CC BY
                     4.0.
                 </p>
@@ -774,7 +766,7 @@ class __TwigTemplate_ceb780bb6ccb56e78f74e925a66d4f43 extends Template
      */
     public function getDebugInfo()
     {
-        return array (  737 => 632,  410 => 308,  360 => 261,  308 => 212,  176 => 83,  149 => 59,  95 => 7,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
+        return array (  729 => 621,  402 => 297,  352 => 250,  300 => 201,  236 => 140,  176 => 83,  149 => 59,  95 => 7,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -918,21 +910,10 @@ class __TwigTemplate_ceb780bb6ccb56e78f74e925a66d4f43 extends Template
                         Kriegsjahren zum sichtbaren Alltag im nationalsozialistischen Deutschland.
                     </p>
                     <p>
-                        Die individuellen Lebens- und Arbeitsbedingungen der Zwangsarbeiterinnen und
-                        Zwangsarbeiter hingen dabei von ihrem rechtlichen Status, ihrer nationalen
-                        Zugehörigkeit, ihrem Geschlecht sowie ihrem Arbeitsort ab. Die harte körperliche
-                        Arbeit, die bewusst herbeigeführte Unterernährung und mangelhafte Ausstattung
-                        machten ein Überleben für viele Häftlinge nicht möglich. Sie wurden mittels der
-                        katastrophalen und menschenverachtenden Arbeits- und Lebensbedingungen,
-                        durch die Nationalsozialisten ermordet. Für die Arbeit der KZ-Häftlinge prägte
-                        Wolfgang Sofsky daher den Begriff „Terrorarbeit“, um zu betonen, dass der Zweck
-                        der Arbeit nicht deren Produktivität gewesen sei, sondern die ineffektiven
-                        Arbeitseinsätze vor allem der Terrorisierung der Häftlinge gedient hätten. Für die
-                        Arbeit in den Neuengammer Außenlagern lehnt der Historiker Marc Buggeln
-                        diesen Begriff explizit ab und argumentiert, dass die maximale Ausbeutung der
-                        Arbeitskraft der Häftlinge bis zum Tod durch Erschöpfung im ökonomischen
-                        Interesse der Unternehmen gewesen sei. Er plädiert stattdessen für den Begriff
-                        „Sklavenarbeit“, der auch von vielen Überlebenden verwendet wird.
+                        <a href=\"{{ path('app_context') }}#zwangsarbeit\"
+                           title=\"Mehr Informationen zu Zwangsarbeit und historischem Kontext\">
+                            &#10149; Mehr Informationen zu Zwangsarbeit
+                        </a>
                     </p>
                 </div>
             </div>
@@ -1406,11 +1387,11 @@ class __TwigTemplate_ceb780bb6ccb56e78f74e925a66d4f43 extends Template
         <div class=\"row\">
             <div class=\"col-lg-8\">
                 <p>
-                    Louis Wörner: Die Befreiung des Außenlagers Salzwedel, in: Holocaust in Ungarn und Deportationen
+                    Louis Wörner: Die Räumung des KZ-Außenlagers Lübberstedt, in: Holocaust in Ungarn und Deportationen
                     nach
                     Norddeutschland 1944, hrsg. vom
                     Institut für die Geschichte der deutschen Juden, URL:
-                    https://holocaust-ungarn-norddeutschland.de{{ path('app_deportation_salzwedel') }}. Lizenz: CC BY
+                    https://holocaust-ungarn-norddeutschland.de{{ path('app_deportation_luebberstedt') }}. Lizenz: CC BY
                     4.0.
                 </p>
             </div>

@@ -270,7 +270,7 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
         </div>
 
 
-        <h3 class=\"mt-4\" id=\"#zwangsarbeit\">Zwangsarbeit im Nationalsozialismus</h3>
+        <h3 class=\"mt-4\" id=\"zwangsarbeit\">Zwangsarbeit im Nationalsozialismus</h3>
         <div class=\"row\">
             <div class=\"col-lg-8\">
                 <p>
@@ -797,7 +797,7 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
         </div>
 
 
-        <h3 class=\"mt-4\" id=\"#zwangsarbeit\">Zwangsarbeit im Nationalsozialismus</h3>
+        <h3 class=\"mt-4\" id=\"zwangsarbeit\">Zwangsarbeit im Nationalsozialismus</h3>
         <div class=\"row\">
             <div class=\"col-lg-8\">
                 <p>

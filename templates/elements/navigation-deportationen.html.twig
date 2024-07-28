@@ -1,5 +1,4 @@
 <div class="container">
-
     <div class="hero device title-lg">
         <div class="container mt-5">
             <div class="row pt-1 pb-1">
@@ -15,7 +14,7 @@
         </div>
     </div>
 
-    <nav class="navbar navbar-expand-lg navbar-light" >
+    <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid setback">
             <span class="navbar-brand">
                 <h1 class="brand-text">Holocaust in Ungarn und Deportationen<br/> nach Norddeutschland 1944</h1>
@@ -29,30 +28,34 @@
                         <a href="{{ path('app_home') }}" class="nav-link" title="Startseite">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="{{ path('app_map') }}" class="nav-link"
-                           title="Kartenansicht">Orte</a>
+                        <a href="{{ path('app_map') }}" class="nav-link" title="Kartenansicht">Orte</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="{{ path('app_deportation') }}" class="nav-link dropdown-toggle selected" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" title="Deportationsrouten">
+                            Deportationsrouten
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="{{ path('app_deportation') }}" title="Zur Übersicht der Fallstudien">Übersicht</a></li>
+                            <li><a class="dropdown-item" href="{{ path('app_deportation_vw') }}" title="Fallstudie Volkswagen">Volkswagen</a></li>
+                            <li><a class="dropdown-item" href="{{ path('app_deportation_dessauerUfer') }}" title="Fallstudie Dessauer Ufer">Dessauer Ufer</a></li>
+                            <li><a class="dropdown-item" href="{{ path('app_deportation_salzwedel') }}" title="Fallstudie Salzwedel">Salzwedel</a></li>
+                            <li><a class="dropdown-item" href="{{ path('app_deportation_luebberstedt') }}" title="Fallstudie Lübberstedt">Lübberstedt</a></li>
+                        </ul>
                     </li>
                     <li class="nav-item">
-                        <a href="{{ path('app_deportation') }}" class="nav-link selected" title="Deportationsrouten">Deportationsrouten</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="{{ path('app_biographies') }}" class="nav-link"
-                           title="Biografien">Biografien</a>
+                        <a href="{{ path('app_biographies') }}" class="nav-link" title="Biografien">Biografien</a>
                     </li>
                     <li class="nav-item">
                         <a href="{{ path('app_sources') }}" class="nav-link" title="Was wir wissen und was wir nicht wissen">Quellen</a>
                     </li>
                     <li class="nav-item">
-                        <a href="{{ path('app_context') }}" class="nav-link"
-                           title="Historischer Kontext">Historischer&nbsp;Kontext</a>
+                        <a href="{{ path('app_context') }}" class="nav-link" title="Historischer Kontext">Historischer&nbsp;Kontext</a>
                     </li>
                     <li class="nav-item">
-                        <a href="{{ path('app_about') }}" class="nav-link"
-                           title="Projektkontext">HUNGMEM</a>
+                        <a href="{{ path('app_about') }}" class="nav-link" title="Projektkontext">HUNGMEM</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-
 </div>

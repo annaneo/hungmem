@@ -232,7 +232,7 @@ class __TwigTemplate_e31305f117c3c4236ac2156de0a1e17c extends Template
                 <p>
 
                 </p>
-                <img class=\"img-fluid\" style=\"width: 640px;\" src=\"";
+                <img class=\"img-fluid\" src=\"";
         // line 138
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/studies/"), "html", null, true);
         yield "\"
@@ -293,7 +293,7 @@ class __TwigTemplate_e31305f117c3c4236ac2156de0a1e17c extends Template
                 <p>
 
                 </p>
-                <img class=\"img-fluid\" style=\"width: 640px;\" src=\"";
+                <img class=\"img-fluid\" src=\"";
         // line 193
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder_840x560.jpg"), "html", null, true);
         yield "\"
@@ -326,6 +326,7 @@ class __TwigTemplate_e31305f117c3c4236ac2156de0a1e17c extends Template
             <div class=\"col-lg-8 caption\">
                 <ol>
                     <li id=\"endnote1\">
+
                         <a href=\"#footnote1\">&uarr;</a>
                     </li>
                 </ol>
@@ -344,7 +345,7 @@ class __TwigTemplate_e31305f117c3c4236ac2156de0a1e17c extends Template
                     Norddeutschland 1944, hrsg. vom
                     Institut für die Geschichte der deutschen Juden, URL:
                     https://holocaust-ungarn-norddeutschland.de";
-        // line 240
+        // line 241
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_salzwedel");
         yield ". Lizenz: CC BY 4.0.
                 </p>
@@ -384,7 +385,7 @@ class __TwigTemplate_e31305f117c3c4236ac2156de0a1e17c extends Template
      */
     public function getDebugInfo()
     {
-        return array (  348 => 240,  298 => 193,  281 => 179,  237 => 138,  219 => 123,  123 => 30,  117 => 27,  95 => 7,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
+        return array (  349 => 241,  298 => 193,  281 => 179,  237 => 138,  219 => 123,  123 => 30,  117 => 27,  95 => 7,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -526,7 +527,7 @@ class __TwigTemplate_e31305f117c3c4236ac2156de0a1e17c extends Template
                 <p>
 
                 </p>
-                <img class=\"img-fluid\" style=\"width: 640px;\" src=\"{{ asset('images/studies/') }}\"
+                <img class=\"img-fluid\" src=\"{{ asset('images/studies/') }}\"
                      alt=\"Blick in eine Produktionshalle der V1 im Konzentrationslager Mittelbau-Dora im Mai 1946\"/>
                 <p class=\"caption\">
                     Blick in eine Produktionshalle der V1 im Konzentrationslager Mittelbau-Dora, Mai 1946, Fotograf:
@@ -581,7 +582,7 @@ class __TwigTemplate_e31305f117c3c4236ac2156de0a1e17c extends Template
                 <p>
 
                 </p>
-                <img class=\"img-fluid\" style=\"width: 640px;\" src=\"{{ asset('images/placeholder_840x560.jpg') }}\"
+                <img class=\"img-fluid\" src=\"{{ asset('images/placeholder_840x560.jpg') }}\"
                      alt=\"Häftlingsnummern\"/>
                 <p class=\"caption\">
 
@@ -611,6 +612,7 @@ class __TwigTemplate_e31305f117c3c4236ac2156de0a1e17c extends Template
             <div class=\"col-lg-8 caption\">
                 <ol>
                     <li id=\"endnote1\">
+
                         <a href=\"#footnote1\">&uarr;</a>
                     </li>
                 </ol>

@@ -294,21 +294,13 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                         Kriegsjahren zum sichtbaren Alltag im nationalsozialistischen Deutschland.
                     </p>
                     <p>
-                        Die individuellen Lebens- und Arbeitsbedingungen der Zwangsarbeiterinnen und
-                        Zwangsarbeiter hingen dabei von ihrem rechtlichen Status, ihrer nationalen
-                        Zugehörigkeit, ihrem Geschlecht sowie ihrem Arbeitsort ab. Die harte körperliche
-                        Arbeit, die bewusst herbeigeführte Unterernährung und mangelhafte Ausstattung
-                        machten ein Überleben für viele Häftlinge nicht möglich. Sie wurden mittels der
-                        katastrophalen und menschenverachtenden Arbeits- und Lebensbedingungen,
-                        durch die Nationalsozialisten ermordet. Für die Arbeit der KZ-Häftlinge prägte
-                        Wolfgang Sofsky daher den Begriff „Terrorarbeit“, um zu betonen, dass der Zweck
-                        der Arbeit nicht deren Produktivität gewesen sei, sondern die ineffektiven
-                        Arbeitseinsätze vor allem der Terrorisierung der Häftlinge gedient hätten. Für die
-                        Arbeit in den Neuengammer Außenlagern lehnt der Historiker Marc Buggeln
-                        diesen Begriff explizit ab und argumentiert, dass die maximale Ausbeutung der
-                        Arbeitskraft der Häftlinge bis zum Tod durch Erschöpfung im ökonomischen
-                        Interesse der Unternehmen gewesen sei. Er plädiert stattdessen für den Begriff
-                        „Sklavenarbeit“, der auch von vielen Überlebenden verwendet wird.
+                        <a href=\"";
+        // line 197
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_context");
+        yield "#zwangsarbeit\"
+                           title=\"Mehr Informationen zu Zwangsarbeit und historischem Kontext\">
+                            &#10149; Mehr Informationen zu Zwangsarbeit
+                        </a>
                     </p>
                 </div>
             </div>
@@ -383,7 +375,7 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                     <h4>&#9432; Übersicht Zwangsarbeitslager</h4>
                     <p style=\"font-size: 0.9rem;\">
                         <a href=\"";
-        // line 285
+        // line 274
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_map");
         yield "\" title=\"Kartenübersicht\">
                             &#10149; Übersicht der Lager mit aus Ungarn deportierten Zwangsarbeitern und
@@ -408,7 +400,7 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                     wenig über 30 Kilo.<sup><a href=\"#endnote17\" id=\"footnote17\">17</a></sup>
                 </p>
                 <img class=\"img-fluid\" src=\"";
-        // line 307
+        // line 296
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/studies/vw/V1-Produktion.jpg"), "html", null, true);
         yield "\"
                      alt=\"Blick in eine Produktionshalle der V1 im Konzentrationslager Mittelbau-Dora im Mai 1946\"/>
@@ -500,7 +492,7 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                     </p>
                     <p>
                         <a href=\"";
-        // line 396
+        // line 385
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_map");
         yield "\" title=\"Kartenübersicht\">
                             &#10149; Zur Karte der Lager
@@ -529,7 +521,7 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                     ebenfalls die Häftlingsdaten enthält.<sup><a href=\"#endnote29\" id=\"footnote29\">29</a></sup>
                 </p>
                 <img class=\"img-fluid\" src=\"";
-        // line 422
+        // line 411
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder_840x560.jpg"), "html", null, true);
         yield "\"
                      alt=\"Häftlingsnummern\"/>
@@ -720,7 +712,7 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                     Norddeutschland 1944, hrsg. vom
                     Institut für die Geschichte der deutschen Juden, URL:
                     https://holocaust-ungarn-norddeutschland.de";
-        // line 610
+        // line 599
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_vw");
         yield ". Lizenz: CC BY 4.0.
                 </p>
@@ -760,7 +752,7 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
      */
     public function getDebugInfo()
     {
-        return array (  724 => 610,  533 => 422,  504 => 396,  412 => 307,  387 => 285,  233 => 134,  194 => 98,  148 => 55,  142 => 52,  95 => 7,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
+        return array (  716 => 599,  525 => 411,  496 => 385,  404 => 296,  379 => 274,  299 => 197,  233 => 134,  194 => 98,  148 => 55,  142 => 52,  95 => 7,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -961,21 +953,10 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                         Kriegsjahren zum sichtbaren Alltag im nationalsozialistischen Deutschland.
                     </p>
                     <p>
-                        Die individuellen Lebens- und Arbeitsbedingungen der Zwangsarbeiterinnen und
-                        Zwangsarbeiter hingen dabei von ihrem rechtlichen Status, ihrer nationalen
-                        Zugehörigkeit, ihrem Geschlecht sowie ihrem Arbeitsort ab. Die harte körperliche
-                        Arbeit, die bewusst herbeigeführte Unterernährung und mangelhafte Ausstattung
-                        machten ein Überleben für viele Häftlinge nicht möglich. Sie wurden mittels der
-                        katastrophalen und menschenverachtenden Arbeits- und Lebensbedingungen,
-                        durch die Nationalsozialisten ermordet. Für die Arbeit der KZ-Häftlinge prägte
-                        Wolfgang Sofsky daher den Begriff „Terrorarbeit“, um zu betonen, dass der Zweck
-                        der Arbeit nicht deren Produktivität gewesen sei, sondern die ineffektiven
-                        Arbeitseinsätze vor allem der Terrorisierung der Häftlinge gedient hätten. Für die
-                        Arbeit in den Neuengammer Außenlagern lehnt der Historiker Marc Buggeln
-                        diesen Begriff explizit ab und argumentiert, dass die maximale Ausbeutung der
-                        Arbeitskraft der Häftlinge bis zum Tod durch Erschöpfung im ökonomischen
-                        Interesse der Unternehmen gewesen sei. Er plädiert stattdessen für den Begriff
-                        „Sklavenarbeit“, der auch von vielen Überlebenden verwendet wird.
+                        <a href=\"{{ path('app_context') }}#zwangsarbeit\"
+                           title=\"Mehr Informationen zu Zwangsarbeit und historischem Kontext\">
+                            &#10149; Mehr Informationen zu Zwangsarbeit
+                        </a>
                     </p>
                 </div>
             </div>
