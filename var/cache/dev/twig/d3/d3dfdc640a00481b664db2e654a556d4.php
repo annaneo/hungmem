@@ -408,7 +408,7 @@ class __TwigTemplate_57ca88c14c1d2b9e9e951b0e4bdd63bd extends Template
                 </p>
                 <img class=\"img-fluid\" src=\"";
         // line 303
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/studies/CH11516_1 Tellerminen.jpg"), "html", null, true);
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/studies/salzwedel/CH11516_1 Tellerminen.jpg"), "html", null, true);
         yield "\"
                      alt=\"Zwangsarbeiterin bei der Produktion von Tellerminen in Fallersleben\"/>
                 <p class=\"caption\">
@@ -456,6 +456,15 @@ class __TwigTemplate_57ca88c14c1d2b9e9e951b0e4bdd63bd extends Template
                     einen Wachdienst an Astlöchern eingerichtet, um, falls die Baracke in Brand gesetzt werden würde,
                     rechtzeitig die Wände rauszuschlagen und einen Ausbruchsversuch unternehmen zu können. Dazu sei es
                     aber nicht gekommen.<sup><a href=\"#endnote26\" id=\"footnote26\">26</a></sup>
+                </p>
+            </div>
+            <div class=\"col-lg-4\">
+            </div>
+        </div>
+
+        <div class=\"row\">
+            <div class=\"col-lg-8\">
+                <p>
                     Einige Frauen berichteten auch, dass der Kommandant des Lagers sich geweigert
                     hätte, die Häftlinge vor der Befreiung zu ermorden. Die Überlebende Rose Brewster verwies allerdings
                     auch darauf, dass dieser sich zuvor von den verantwortlichen Häftlingsvertretern im Gegenzug das
@@ -467,32 +476,9 @@ class __TwigTemplate_57ca88c14c1d2b9e9e951b0e4bdd63bd extends Template
                     hatten SS, Wehrmacht und Volksturmeinheiten sowie Hitlerjungen am Tag zuvor 1.061 männliche
                     KZ-Häftlinge beim Massaker von Gardelegen in einer Scheune verbrannt.
                 </p>
-            </div>
-            <div class=\"col-lg-4\">
-            </div>
-        </div>
-
-        <h3 class=\"mt-4\">Todesmärsche und „Endphaseverbrechen“</h3>
-        <div class=\"row\">
-            <div class=\"col-lg-8\">
-                <p>
-                    In der Endphase des Krieges wurden etliche Konzentrationslager und KZ-Außenlager durch die
-                    Nationalsozialisten vor der Ankunft der sich nähernden Alliierten geräumt. Die Häftlinge wurden
-                    entweder in Güterwagons, selten in Lastwagen transportiert oder unter Misshandlungen gezwungen, zu
-                    Fuß in weiterhin unter deutscher Kontrolle stehende Gebiete zu marschieren. Während der oft tage-,
-                    teilweise auch wochenlang dauernden Märsche wurden die Häftlinge in der Regel kaum versorgt, viele
-                    von ihnen verhungerten oder verdursteten in den Güterwagons, viele brachen während der Märsche
-                    aufgrund der Erschöpfung zusammen oder wurden durch die SS oder andere wachhabende Einheiten
-                    ermordet. Durch die Überlebenden wurde deshalb für diese Räumungen der Begriff „Todesmarsch“
-                    geprägt. Teile der Todesmärsche endeten in der gezielten Ermordung der Häftlinge, von denen das
-                    sogenannte „Massaker von Gardelegen“ eines der bekanntesten ist. Über 1.000 Häftlinge aus
-                    Außenlagern des KZ Neuengamme und des KZ Mittelbau-Dora wurden dort in einer Feldscheune
-                    zusammengetrieben, die von der SS und weiteren NS-Organisationen in Brand gesetzt
-                    wurde.<sup><a href=\"#endnote28\" id=\"footnote28\">28</a></sup>
-                </p>
                 <img class=\"img-fluid\" src=\"";
-        // line 384
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/studies/T2694HäftlingszugHinten.jpg"), "html", null, true);
+        // line 370
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/studies/salzwedel/T2694HäftlingszugHinten.jpg"), "html", null, true);
         yield "\"
                      alt=\"Eine Gruppe von männlichen und weiblichen KZ-Häftlingen von hinten zu sehen\"/>
                 <p class=\"caption\">
@@ -501,6 +487,24 @@ class __TwigTemplate_57ca88c14c1d2b9e9e951b0e4bdd63bd extends Template
                 </p>
             </div>
             <div class=\"col-lg-4\">
+                <div class=\"infobox mt-2\">
+                    <h4>&#9432; Todesmärsche und „Endphaseverbrechen“</h4>
+                    <p>
+                        In der Endphase des Krieges wurden etliche Konzentrationslager und KZ-Außenlager durch die
+                        Nationalsozialisten vor der Ankunft der sich nähernden Alliierten geräumt. Die Häftlinge wurden
+                        entweder in Güterwagons, selten in Lastwagen transportiert oder unter Misshandlungen gezwungen, zu
+                        Fuß in weiterhin unter deutscher Kontrolle stehende Gebiete zu marschieren. Während der oft tage-,
+                        teilweise auch wochenlang dauernden Märsche wurden die Häftlinge in der Regel kaum versorgt, viele
+                        von ihnen verhungerten oder verdursteten in den Güterwagons, viele brachen während der Märsche
+                        aufgrund der Erschöpfung zusammen oder wurden durch die SS oder andere wachhabende Einheiten
+                        ermordet. Durch die Überlebenden wurde deshalb für diese Räumungen der Begriff „Todesmarsch“
+                        geprägt. Teile der Todesmärsche endeten in der gezielten Ermordung der Häftlinge, von denen das
+                        sogenannte „Massaker von Gardelegen“ eines der bekanntesten ist. Über 1.000 Häftlinge aus
+                        Außenlagern des KZ Neuengamme und des KZ Mittelbau-Dora wurden dort in einer Feldscheune
+                        zusammengetrieben, die von der SS und weiteren NS-Organisationen in Brand gesetzt
+                        wurde.<sup><a href=\"#endnote28\" id=\"footnote28\">28</a></sup>
+                    </p>
+                </div>
             </div>
 
         </div>
@@ -538,8 +542,8 @@ class __TwigTemplate_57ca88c14c1d2b9e9e951b0e4bdd63bd extends Template
                 </p>
                 <img class=\"img-fluid\"
                      src=\"";
-        // line 428
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/studies/T2692Häftlingszugnah.jpg"), "html", null, true);
+        // line 432
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/studies/salzwedel/T2692Häftlingszugnah.jpg"), "html", null, true);
         yield "\"
                      alt=\"Eine Gruppe von winkenden befreiten Frauen\"/>
                 <p class=\"caption\">
@@ -571,16 +575,16 @@ class __TwigTemplate_57ca88c14c1d2b9e9e951b0e4bdd63bd extends Template
                     zukünftigen Staat Israel auswanderten.
                 </p>
                 <a href=\"";
-        // line 458
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/studies/Lukacs_Agnes-Brief-1945-05-03.jpg"), "html", null, true);
+        // line 462
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/studies/salzwedel/Lukacs_Agnes-Brief-1945-05-03.jpg"), "html", null, true);
         yield "\"
                    data-lightbox=\"salzwedel-letter\"
                    data-title=\"Ágnes Lukács, Brief an ihre Eltern in Budapest, 3. Mai 1945, Johann-Friedrich-Danneil-Museum,
                     Salzwedel.\">
                     <img class=\"gallery img-fluid\"
                          src=\"";
-        // line 463
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/studies/Lukacs_Agnes-Brief1945-05-03_preview.jpg"), "html", null, true);
+        // line 467
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/studies/salzwedel/Lukacs_Agnes-Brief1945-05-03_preview.jpg"), "html", null, true);
         yield "\"
                          alt=\"Brief von Ágnes Lukács an ihre Eltern in Budapest. Text und eine kleine Zeichnung, auf der drei Frauen dargestellt sind.\"/></a>
                 <p class=\"caption\">
@@ -604,7 +608,7 @@ class __TwigTemplate_57ca88c14c1d2b9e9e951b0e4bdd63bd extends Template
                     sehr begrenzte Rückschlüsse auf die Haftorte möglich sind.
                 </p>
                 <img class=\"img-fluid\" style=\"width: 640px;\" src=\"";
-        // line 485
+        // line 489
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder_840x560.jpg"), "html", null, true);
         yield "\"
                      alt=\"Interaktive Karte der Herkunftsorte \"/>
@@ -904,7 +908,7 @@ class __TwigTemplate_57ca88c14c1d2b9e9e951b0e4bdd63bd extends Template
                     Norddeutschland 1944, hrsg. vom
                     Institut für die Geschichte der deutschen Juden, URL:
                     https://holocaust-ungarn-norddeutschland.de";
-        // line 782
+        // line 786
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_salzwedel");
         yield ". Lizenz: CC BY
                     4.0.
@@ -945,7 +949,7 @@ class __TwigTemplate_57ca88c14c1d2b9e9e951b0e4bdd63bd extends Template
      */
     public function getDebugInfo()
     {
-        return array (  908 => 782,  608 => 485,  583 => 463,  575 => 458,  542 => 428,  495 => 384,  411 => 303,  383 => 278,  337 => 235,  315 => 216,  308 => 212,  256 => 163,  236 => 146,  95 => 7,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
+        return array (  912 => 786,  612 => 489,  587 => 467,  579 => 462,  546 => 432,  481 => 370,  411 => 303,  383 => 278,  337 => 235,  315 => 216,  308 => 212,  256 => 163,  236 => 146,  95 => 7,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -1252,7 +1256,7 @@ class __TwigTemplate_57ca88c14c1d2b9e9e951b0e4bdd63bd extends Template
                     Tellerminen und Panzerfäuste produzieren. Die Versorgung entsprach der anderer Außenlager. Da die
                     Frauen direkt im Werk untergebracht waren, sahen sie während ihrer Zeit hier kein Tageslicht.
                 </p>
-                <img class=\"img-fluid\" src=\"{{ asset('images/studies/CH11516_1 Tellerminen.jpg') }}\"
+                <img class=\"img-fluid\" src=\"{{ asset('images/studies/salzwedel/CH11516_1 Tellerminen.jpg') }}\"
                      alt=\"Zwangsarbeiterin bei der Produktion von Tellerminen in Fallersleben\"/>
                 <p class=\"caption\">
                     Eine Zwangsarbeiterin bei der Produktion von Tellerminen in Fallersleben, später wurde diese Arbeit
@@ -1299,6 +1303,15 @@ class __TwigTemplate_57ca88c14c1d2b9e9e951b0e4bdd63bd extends Template
                     einen Wachdienst an Astlöchern eingerichtet, um, falls die Baracke in Brand gesetzt werden würde,
                     rechtzeitig die Wände rauszuschlagen und einen Ausbruchsversuch unternehmen zu können. Dazu sei es
                     aber nicht gekommen.<sup><a href=\"#endnote26\" id=\"footnote26\">26</a></sup>
+                </p>
+            </div>
+            <div class=\"col-lg-4\">
+            </div>
+        </div>
+
+        <div class=\"row\">
+            <div class=\"col-lg-8\">
+                <p>
                     Einige Frauen berichteten auch, dass der Kommandant des Lagers sich geweigert
                     hätte, die Häftlinge vor der Befreiung zu ermorden. Die Überlebende Rose Brewster verwies allerdings
                     auch darauf, dass dieser sich zuvor von den verantwortlichen Häftlingsvertretern im Gegenzug das
@@ -1310,30 +1323,7 @@ class __TwigTemplate_57ca88c14c1d2b9e9e951b0e4bdd63bd extends Template
                     hatten SS, Wehrmacht und Volksturmeinheiten sowie Hitlerjungen am Tag zuvor 1.061 männliche
                     KZ-Häftlinge beim Massaker von Gardelegen in einer Scheune verbrannt.
                 </p>
-            </div>
-            <div class=\"col-lg-4\">
-            </div>
-        </div>
-
-        <h3 class=\"mt-4\">Todesmärsche und „Endphaseverbrechen“</h3>
-        <div class=\"row\">
-            <div class=\"col-lg-8\">
-                <p>
-                    In der Endphase des Krieges wurden etliche Konzentrationslager und KZ-Außenlager durch die
-                    Nationalsozialisten vor der Ankunft der sich nähernden Alliierten geräumt. Die Häftlinge wurden
-                    entweder in Güterwagons, selten in Lastwagen transportiert oder unter Misshandlungen gezwungen, zu
-                    Fuß in weiterhin unter deutscher Kontrolle stehende Gebiete zu marschieren. Während der oft tage-,
-                    teilweise auch wochenlang dauernden Märsche wurden die Häftlinge in der Regel kaum versorgt, viele
-                    von ihnen verhungerten oder verdursteten in den Güterwagons, viele brachen während der Märsche
-                    aufgrund der Erschöpfung zusammen oder wurden durch die SS oder andere wachhabende Einheiten
-                    ermordet. Durch die Überlebenden wurde deshalb für diese Räumungen der Begriff „Todesmarsch“
-                    geprägt. Teile der Todesmärsche endeten in der gezielten Ermordung der Häftlinge, von denen das
-                    sogenannte „Massaker von Gardelegen“ eines der bekanntesten ist. Über 1.000 Häftlinge aus
-                    Außenlagern des KZ Neuengamme und des KZ Mittelbau-Dora wurden dort in einer Feldscheune
-                    zusammengetrieben, die von der SS und weiteren NS-Organisationen in Brand gesetzt
-                    wurde.<sup><a href=\"#endnote28\" id=\"footnote28\">28</a></sup>
-                </p>
-                <img class=\"img-fluid\" src=\"{{ asset('images/studies/T2694HäftlingszugHinten.jpg') }}\"
+                <img class=\"img-fluid\" src=\"{{ asset('images/studies/salzwedel/T2694HäftlingszugHinten.jpg') }}\"
                      alt=\"Eine Gruppe von männlichen und weiblichen KZ-Häftlingen von hinten zu sehen\"/>
                 <p class=\"caption\">
                     Befreite männliche und weibliche KZ-Häftlinge in Gardelegen am 5. Juni 1945. Privatbesitz,
@@ -1341,6 +1331,24 @@ class __TwigTemplate_57ca88c14c1d2b9e9e951b0e4bdd63bd extends Template
                 </p>
             </div>
             <div class=\"col-lg-4\">
+                <div class=\"infobox mt-2\">
+                    <h4>&#9432; Todesmärsche und „Endphaseverbrechen“</h4>
+                    <p>
+                        In der Endphase des Krieges wurden etliche Konzentrationslager und KZ-Außenlager durch die
+                        Nationalsozialisten vor der Ankunft der sich nähernden Alliierten geräumt. Die Häftlinge wurden
+                        entweder in Güterwagons, selten in Lastwagen transportiert oder unter Misshandlungen gezwungen, zu
+                        Fuß in weiterhin unter deutscher Kontrolle stehende Gebiete zu marschieren. Während der oft tage-,
+                        teilweise auch wochenlang dauernden Märsche wurden die Häftlinge in der Regel kaum versorgt, viele
+                        von ihnen verhungerten oder verdursteten in den Güterwagons, viele brachen während der Märsche
+                        aufgrund der Erschöpfung zusammen oder wurden durch die SS oder andere wachhabende Einheiten
+                        ermordet. Durch die Überlebenden wurde deshalb für diese Räumungen der Begriff „Todesmarsch“
+                        geprägt. Teile der Todesmärsche endeten in der gezielten Ermordung der Häftlinge, von denen das
+                        sogenannte „Massaker von Gardelegen“ eines der bekanntesten ist. Über 1.000 Häftlinge aus
+                        Außenlagern des KZ Neuengamme und des KZ Mittelbau-Dora wurden dort in einer Feldscheune
+                        zusammengetrieben, die von der SS und weiteren NS-Organisationen in Brand gesetzt
+                        wurde.<sup><a href=\"#endnote28\" id=\"footnote28\">28</a></sup>
+                    </p>
+                </div>
             </div>
 
         </div>
@@ -1377,7 +1385,7 @@ class __TwigTemplate_57ca88c14c1d2b9e9e951b0e4bdd63bd extends Template
                     mir vor Augen.“<sup><a href=\"#endnote31\" id=\"footnote31\">31</a></sup>
                 </p>
                 <img class=\"img-fluid\"
-                     src=\"{{ asset('images/studies/T2692Häftlingszugnah.jpg') }}\"
+                     src=\"{{ asset('images/studies/salzwedel/T2692Häftlingszugnah.jpg') }}\"
                      alt=\"Eine Gruppe von winkenden befreiten Frauen\"/>
                 <p class=\"caption\">
                     Bild befreite Frauen, Foto: Dale Ramsey, US-Armee, vermutlich 14.4.1945,
@@ -1407,12 +1415,12 @@ class __TwigTemplate_57ca88c14c1d2b9e9e951b0e4bdd63bd extends Template
                     bis sie ins westliche Ausland oder in das unter britischer Mandatsherrschaft stehende Palästina, den
                     zukünftigen Staat Israel auswanderten.
                 </p>
-                <a href=\"{{ asset('images/studies/Lukacs_Agnes-Brief-1945-05-03.jpg') }}\"
+                <a href=\"{{ asset('images/studies/salzwedel/Lukacs_Agnes-Brief-1945-05-03.jpg') }}\"
                    data-lightbox=\"salzwedel-letter\"
                    data-title=\"Ágnes Lukács, Brief an ihre Eltern in Budapest, 3. Mai 1945, Johann-Friedrich-Danneil-Museum,
                     Salzwedel.\">
                     <img class=\"gallery img-fluid\"
-                         src=\"{{ asset('images/studies/Lukacs_Agnes-Brief1945-05-03_preview.jpg') }}\"
+                         src=\"{{ asset('images/studies/salzwedel/Lukacs_Agnes-Brief1945-05-03_preview.jpg') }}\"
                          alt=\"Brief von Ágnes Lukács an ihre Eltern in Budapest. Text und eine kleine Zeichnung, auf der drei Frauen dargestellt sind.\"/></a>
                 <p class=\"caption\">
                     Ágnes Lukács, Brief an ihre Eltern in Budapest, 3. Mai 1945, Johann-Friedrich-Danneil-Museum,

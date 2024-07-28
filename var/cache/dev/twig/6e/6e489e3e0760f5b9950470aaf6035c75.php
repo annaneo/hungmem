@@ -137,8 +137,9 @@ class __TwigTemplate_8c385939753e07d05b6e9c10a975c74f extends Template
             <h3>Informationen zu ausgewählten Lagern</h3>
             <div class=\"col-lg-6\">
                 <h4 id=\"bergenbelsenMore\">Bergen-Belsen</h4>
-                <p>Das KZ Bergen-Belsen war 1943 zunächst zur Unterbringung jüdischer Geiseln gegründet worden, die
-                    gegen deutsche Zivilpersonen im alliierten Gewahrsam ausgetauscht werden sollten. Von Juli bis
+                <p>Das KZ Bergen-Belsen war 1943 nach Plänen der SS und des Auswärtigen Amtes
+                    zunächst zur Unterbringung jüdischer Geiseln gegründet worden, die gegen
+                    deutsche Zivilpersonen in alliiertem Gewahrsam ausgetauscht werden sollten. Von Juli bis
                     September 1944 richtete die SS Teillager für verschiedene Häftlingsgruppen ein, dazu gehörte auch
                     das sogenannte „Ungarnlager“. Schnell wurden ihm jedoch weitere Funktionen zugewiesen. Ende März
                     1944 wurde ein Lagerteil für männliche Häftlinge anderer Konzentrationslager eingerichtet, die zu
@@ -280,12 +281,12 @@ class __TwigTemplate_8c385939753e07d05b6e9c10a975c74f extends Template
     </div>
 
     ";
-        // line 195
+        // line 196
         yield "    <script>
 
         var isStudyIcon = L.icon({
             iconUrl: '";
-        // line 198
+        // line 199
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/marker-icon.png"), "html", null, true);
         yield "',
             iconSize: [30, 48,6], // size of the icon
@@ -294,7 +295,7 @@ class __TwigTemplate_8c385939753e07d05b6e9c10a975c74f extends Template
         });
         var isInDataIcon = L.icon({
             iconUrl: '";
-        // line 204
+        // line 205
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/marker-icon_grey.png"), "html", null, true);
         yield "',
             iconSize: [30, 48,6], // size of the icon
@@ -304,7 +305,7 @@ class __TwigTemplate_8c385939753e07d05b6e9c10a975c74f extends Template
 
 
         const BergenBelsen = L.marker([52.757778, 9.907778], {icon: isStudyIcon}).bindPopup('<strong>Bergen-Belsen</strong><p>Das KZ Bergen-Belsen war 1943 zunächst als „Austauschlager“ für die Unterbringung jüdischer Geiseln gegründet worden. Schnell wurden ihm aber weitere Funktionen zugewiesen und ein Männer- sowie ein Frauenlager eingerichtet. Ab Ende 1944 wurde Bergen-Belsen Ziel vieler Todesmärsche und Räumungstransporte und entwickelte sich aufgrund der katastrophalen Bedingungen zu einem Sterbelager. Nach der Befreiung wurde in Bergen-Belsen ein polnisches und ein jüdisches Displaced Persons-Camp eingerichtet.</p>&#9656; <a href=\"#bergenBelsenMore\">Mehr zu Bergen-Belsen</a><br/>&#9656; <a href=\"";
-        // line 211
+        // line 212
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_vw");
         yield "\">Fallstudie 300er-Gruppe</a><br/>&#9656; <a href=\"";
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_dessauerUfer");
@@ -330,16 +331,16 @@ class __TwigTemplate_8c385939753e07d05b6e9c10a975c74f extends Template
         const BremenOsterort = L.marker([53.141951279652694, 8.691817452772783], {icon: isInDataIcon}).bindPopup('<strong>Bremen-Osterort</strong><br/>');
         const BremenSchuetzenhof = L.marker([53.118994, 8.768726], {icon: isInDataIcon}).bindPopup('<strong>Bremen-Schützenhof</strong><br/>');
         const FallerslebenFrauen = L.marker([52.433333, 10.766667], {icon: isStudyIcon}).bindPopup('<strong>Fallersleben (Frauen)</strong><p>Das Frauenlager Fallersleben war als Außenlager des KZ Neuengamme im Spätsommer 1944 im VW-Werk eingerichtet worden. Die etwa 650 Häftlinge mussten Panzerfäuste und Tellerminen im VW-Werk produzieren. Am 8. April 1945 wurde das Frauenaußenlager von der SS geräumt und die Frauen nach Salzwedel transportiert.</p>&#9656; <a href=\"fallerslebenMore\">Mehr zu Fallersleben</a><br/>&#9656; <a href=\"";
-        // line 222
+        // line 223
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_salzwedel");
         yield "\">Fallstudie Salzwedel</a>');
         const HAhlem = L.marker([52.37835, 9.65748], {icon: isStudyIcon}).bindPopup('<strong>Hannover-Ahlem</strong><p>Das Männeraußenlager Hannover-Ahlem war als Außenlager des KZ Neuengamme im November 1944 errichtet worden. Die etwa 840 Häftlinge mussten einen unterirdischen Stollen für die Continental-Gummiwerke und die Maschinenfabrik Niedersachsen anlegen. Am 5. April wurde der Großteil der Häftlinge nach Bergen-Belsen getrieben.</p><a href=\"ahlemMore\">Mehr zu Hannover-Ahlem</a><br/><a href=\"";
-        // line 223
+        // line 224
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_bio_fuerst");
         yield "\">Fallstudie Gyula Fürst</a>');
         const HelmstedtBeendorfFrauen = L.marker([52.23989233360328, 11.089496406413582], {icon: isInDataIcon}).bindPopup('<strong>Helmstedt-Beendorf (Frauen)</strong><br/>');
         const HHDessauerUfer = L.marker([53.525, 10.010556], {icon: isStudyIcon}).bindPopup('<strong>Hamburg-Dessauer Ufer</strong><p>Das Außenlager des KZ Neuengamme war im September 1944 eingerichtet worden. Die etwa 500  Häftlinge waren zuvor im Außenlager Wedel inhaftiert und mussten insbesondere Zwangsarbeit beim Bau von Behelfswohnheimen leisten. Anfang April 1945 wurden die Häftlinge nach Bergen-Belsen deportiert.</p></p>&#9656; <a href=\"";
-        // line 225
+        // line 226
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_map");
         yield "#eidelstedtMore\">Mehr zu Hamburg-Dessauer Ufer</a><br/></p>&#9656; <a href=\"";
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_dessauerUfer");
@@ -361,23 +362,23 @@ class __TwigTemplate_8c385939753e07d05b6e9c10a975c74f extends Template
         const MeppenVersen = L.marker([52.724636, 7.183722], {icon: isInDataIcon}).bindPopup('<strong>Meppen-Versen</strong><br/>');
         const NeuengammeStammlager = L.marker([53.430556, 10.233611], {icon: isInDataIcon}).bindPopup('<strong>Neuengamme Stammlager</strong><br/>');
         const PortaWestfalicaHausberge = L.marker([52.246275, 8.912079], {icon: isStudyIcon}).bindPopup('<strong>Porta Westfalica-Hausberge</strong><p>Das Frauenaußenlager Porta Westfalica-Hausberge wurde im Februar 1945 eingerichtet. Die etwa 1000 Häftlinge mussten Radioröhren für die Firma Philipps und ihre Tochterfirmen herstellen. Im Januar 1945 wurde das Lager geräumt und die Häftlinge in verschiedene andere Außenlager, unter anderem nach Fallersleben, deportiert.</p>&#9656; <a href=\"#hausbergeMore\">Mehr zu Porta Westfalica-Hausberge</a><br/>&#9656; <a href=\"";
-        // line 242
+        // line 243
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_salzwedel");
         yield "\">Fallstudie Salzwedel</a>');
         const SalzgitterDruette = L.marker([52.158292, 10.418464], {icon: isInDataIcon}).bindPopup('<strong>Salzgitter-Drütte</strong><br/>');
         const Salzwedel = L.marker([52.840299, 11.166065], {icon: isStudyIcon}).bindPopup('<strong>Salzwedel</strong><p>Die Draht- und Metallwarenfabrik in Salzwedel profitierte ebenfalls vom Deutschen Rüstungsboom, bereits 1937 war sie mit 600 Beschäftigten der größte Industriebetrieb in Salzwedel. Auch hier wurde auf ausländische Zwangsarbeiter zurückgegriffen.  1944 wurde ein Lager, das bis dahin für osteuropäische Zwangsarbeiterinnen genutzt worden war, zu einem KZ-Außenlager umgestaltet.  Im Spätsommer 1944 kam hier der erste Transport von weiblichen KZ-Häftlingen an, die in Auschwitz für die Arbeit selektiert worden waren. Die Gruppe bestand vor allem aus als Jüdinnen verfolgten Frauen, die erst kurz zuvor aus Ungarn oder von Ungarn annektierten Gebieten deportiert worden waren. In der Folgezeit wurden weitere weibliche KZ-Häftlinge in das neue Außenlager deportiert. Anders als der erste Transport waren sie aber nicht direkt nach Salzwedel, sondern zunächst ins Konzentrationslager Bergen-Belsen deportiert worden und dort für die Arbeit in Salzwedel ausgewählt worden. Am 14. April 1945 wurde das Lager durch amerikanische Truppen befreit. Nur wenige Kilometer entfernt hatten SS, Wehrmacht und Volksturmeinheiten sowie Hitlerjungen am Tag zuvor 1.061 männliche KZ-Häftlinge beim Massaker von Gardelegen in einer Scheune verbrannt.</p>&#9656; <a href=\"#salzwedelMore\">Mehr zu Salzwedel</a></br>&#9656; <a href=\"\">Fallstudie Salzwedel</a>');
         const Schandelah = L.marker([52.296205, 10.711765], {icon: isInDataIcon}).bindPopup('<strong>Schandelah</strong><p>1944 wurde ein Lager, das bis dahin für osteuropäische Zwangsarbeiterinnen genutzt worden war, zu einem Frauenaußenlager des KZ Neuengamme umgestaltet. Die etwa 1.500 Häftlinge mussten Zwangsarbeit in einem Rüstungsunternehmen leisten. Am 14. April 1945 konnten amerikanische Truppen das Lager befreien, in das zuvor noch Häftlinge anderer Außenlager deportiert worden waren.</p>&#9656; <a href=\"";
-        // line 245
+        // line 246
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_salzwedel");
         yield "\">Fallstudie Salzwedel</a>');
         const VWWerkHalle1 = L.marker([52.4275, 10.7922], {icon: isStudyIcon}).bindPopup('<strong>VW-Werk Halle 1</strong><p>Neben bereits bestehenden Konzentrations- und anderen Zwangsarbeitslagern waren im Juni 1944 300 jüdische KZ-Häftlinge direkt im VW-Werk untergebracht. Sie sollten die Kernbelegschaft für eine unterirdische Raketenproduktion bilden und im VW-Werk ausgebildet werden. Nach der Bombardierung des Werkes Ende Juni wurden die Häftlinge ins Außenlager Thil des KZ Natzweiler in Frankreich deportiert.</p><a href=\"#vwWerkMore\">Mehr zu VW-Werk Halle1</a></br>&#9656; <a href=\"";
-        // line 246
+        // line 247
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_vw");
         yield "\">Fallstudie 300er-Gruppe</a>');
         const WatensteidtLeindeMen = L.marker([52.137516462553755, 10.436547953373374], {icon: isInDataIcon}).bindPopup('<strong>Salzgitter-Watenstedt/Leinde (Männer)</strong><br/>');
         const WatensteidtLeindeFrauen = L.marker([52.13748315467425, 10.43655563535315], {icon: isInDataIcon}).bindPopup('<strong>Salzgitter-Watenstedt/Leinde (Frauen)</strong><br/>');
         const WedelFrauen = L.marker([53.58404849833425, 9.720774436136473], {icon: isStudyIcon}).bindPopup('<strong>Wedel (Frauen)</strong><p>Seit September 1944 wurden in dem Außenlager Wedel des KZ Neuengamme 500 ungarische und tschechische Jüdinnen inhaftiert, die zuvor am Dessauer Ufer gewesen waren und Zwangsarbeit bei Räumungsarbeiten im Stadtgebiet leisten mussten. Nach zwei Wochen wurde das Lager geräumt und die Frauen in das Außenlager Eidelstedt gebracht.</p><a href=\"#wedelMore\">Mehr zu Wedel (Frauen</a></br>&#9656; <a href=\"";
-        // line 249
+        // line 250
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_dessauerUfer");
         yield "\">Fallstudie Dessauer Ufer</a>');
         const WilhelmshavenAlterBanterWeg = L.marker([53.515253, 8.086887], {icon: isInDataIcon}).bindPopup('<strong>Wilhelmshaven (Alter Banter Weg)</strong><br/>');
@@ -457,7 +458,7 @@ class __TwigTemplate_8c385939753e07d05b6e9c10a975c74f extends Template
      */
     public function getDebugInfo()
     {
-        return array (  381 => 249,  375 => 246,  371 => 245,  365 => 242,  343 => 225,  338 => 223,  334 => 222,  308 => 211,  298 => 204,  289 => 198,  284 => 195,  95 => 7,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
+        return array (  382 => 250,  376 => 247,  372 => 246,  366 => 243,  344 => 226,  339 => 224,  335 => 223,  309 => 212,  299 => 205,  290 => 199,  285 => 196,  95 => 7,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -513,8 +514,9 @@ class __TwigTemplate_8c385939753e07d05b6e9c10a975c74f extends Template
             <h3>Informationen zu ausgewählten Lagern</h3>
             <div class=\"col-lg-6\">
                 <h4 id=\"bergenbelsenMore\">Bergen-Belsen</h4>
-                <p>Das KZ Bergen-Belsen war 1943 zunächst zur Unterbringung jüdischer Geiseln gegründet worden, die
-                    gegen deutsche Zivilpersonen im alliierten Gewahrsam ausgetauscht werden sollten. Von Juli bis
+                <p>Das KZ Bergen-Belsen war 1943 nach Plänen der SS und des Auswärtigen Amtes
+                    zunächst zur Unterbringung jüdischer Geiseln gegründet worden, die gegen
+                    deutsche Zivilpersonen in alliiertem Gewahrsam ausgetauscht werden sollten. Von Juli bis
                     September 1944 richtete die SS Teillager für verschiedene Häftlingsgruppen ein, dazu gehörte auch
                     das sogenannte „Ungarnlager“. Schnell wurden ihm jedoch weitere Funktionen zugewiesen. Ende März
                     1944 wurde ein Lagerteil für männliche Häftlinge anderer Konzentrationslager eingerichtet, die zu

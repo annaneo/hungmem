@@ -117,10 +117,11 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
                                 „Gruppe der 300“ bei VW
                             </a>
                         </h2>
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing
-                            elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum ...
+                        <p> Circa 13,5 Millionen Menschen wurden während des Zweiten Weltkrieges zu Zwangsarbeit im Deutschen
+                            Reich herangezogen. Die Aufrechterhaltung der Kriegswirtschaft war nur durch die
+                            zwangsverpflichteten Arbeiterinnen und Arbeiter ...
                             <a class=\"more\" href=\"";
-        // line 25
+        // line 26
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_vw");
         yield "\" title=\"Weiterlesen\">[mehr]</a>
                         </p>
@@ -130,11 +131,11 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
             <div class=\"col-sm offset-lg-1\">
                 <div>
                     <a href=\"";
-        // line 32
+        // line 33
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_dessauerUfer");
         yield "\" title=\"\">
                         <img class=\"img-fluid\" src=\"";
-        // line 33
+        // line 34
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/studies/Titelbild-Dessauer-Ufer.png"), "html", null, true);
         yield "\"
                              alt=\"\">
@@ -142,7 +143,7 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
                     <div class=\"studiesoverview\">
                         <h2>
                             <a href=\"";
-        // line 38
+        // line 39
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_dessauerUfer");
         yield "\" title=\"\">
                                 „Ungarische“ Frauen am Dessauer Ufer, Wedel und Eidelstedt
@@ -151,7 +152,7 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
                         <p>Dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
                             ...
                             <a class=\"more\" href=\"";
-        // line 44
+        // line 45
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_dessauerUfer");
         yield "\" title=\"Weiterlesen\">[mehr]</a>
                         </p>
@@ -164,11 +165,11 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
             <div class=\"col-sm\">
                 <div>
                     <a href=\"";
-        // line 54
+        // line 55
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_salzwedel");
         yield "\" title=\"\">
                         <img class=\"img-fluid\" src=\"";
-        // line 55
+        // line 56
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/studies/Titelbild-Salzwedel.png"), "html", null, true);
         yield "\"
                              alt=\"\">
@@ -176,16 +177,17 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
                     <div class=\"studiesoverview\">
                         <h2>
                             <a href=\"";
-        // line 60
+        // line 61
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_salzwedel");
         yield "\" title=\"Fallstudie Salzwedel\">
                                 Überlebende Frauen im Außenlager Salzwedel
                             </a>
                         </h2>
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing
-                            elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum ...
+                        <p>Bereits vor dem Beginn des Zweiten Weltkrieges hatten die Nationalsozialisten mit dem forcierten
+                            Ausbau der deutschen Rüstungsindustrie begonnen. So waren allein von 1933 bis 1938 die
+                            Rüstungsausgaben von ...
                             <a class=\"more\" href=\"";
-        // line 66
+        // line 68
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_salzwedel");
         yield "\" title=\"Weiterlesen\">[mehr]</a>
 
@@ -196,11 +198,11 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
             <div class=\"col-sm offset-lg-1\">
                 <div>
                     <a href=\"";
-        // line 74
+        // line 76
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_luebberstedt");
         yield "\" title=\"\">
                         <img class=\"img-fluid\" src=\"";
-        // line 75
+        // line 77
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder_840x560.jpg"), "html", null, true);
         yield "\"
                              alt=\"\">
@@ -208,16 +210,17 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
                     <div class=\"studiesoverview\">
                         <h2>
                             <a href=\"";
-        // line 80
+        // line 82
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_luebberstedt");
         yield "\" title=\"\">
-                                Frauen im Außenlager Lübberstedt, Räumungstransport Eutin
+                                Frauen im Außenlager Lübberstedt
                             </a>
                         </h2>
-                        <p>Dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                        <p>Mit dem Vormarsch der Alliierten wurden ab Mitte 1944 auch die ersten Konzentrationslager befreit.
+                            Bevor alliierte Truppen die Lager erreichen konnten, versuchte die SS jedoch Spuren zu vernichten und die Häftlinge
                             ...
                             <a class=\"more\" href=\"";
-        // line 86
+        // line 89
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_luebberstedt");
         yield "\" title=\"Weiterlesen\">[mehr]</a>
                         </p>
@@ -260,7 +263,7 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
      */
     public function getDebugInfo()
     {
-        return array (  221 => 86,  212 => 80,  204 => 75,  200 => 74,  189 => 66,  180 => 60,  172 => 55,  168 => 54,  155 => 44,  146 => 38,  138 => 33,  134 => 32,  124 => 25,  115 => 19,  107 => 14,  103 => 13,  95 => 7,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
+        return array (  224 => 89,  214 => 82,  206 => 77,  202 => 76,  191 => 68,  181 => 61,  173 => 56,  169 => 55,  156 => 45,  147 => 39,  139 => 34,  135 => 33,  125 => 26,  115 => 19,  107 => 14,  103 => 13,  95 => 7,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -287,8 +290,9 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
                                 „Gruppe der 300“ bei VW
                             </a>
                         </h2>
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing
-                            elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum ...
+                        <p> Circa 13,5 Millionen Menschen wurden während des Zweiten Weltkrieges zu Zwangsarbeit im Deutschen
+                            Reich herangezogen. Die Aufrechterhaltung der Kriegswirtschaft war nur durch die
+                            zwangsverpflichteten Arbeiterinnen und Arbeiter ...
                             <a class=\"more\" href=\"{{ path('app_deportation_vw') }}\" title=\"Weiterlesen\">[mehr]</a>
                         </p>
                     </div>
@@ -328,8 +332,9 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
                                 Überlebende Frauen im Außenlager Salzwedel
                             </a>
                         </h2>
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing
-                            elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum ...
+                        <p>Bereits vor dem Beginn des Zweiten Weltkrieges hatten die Nationalsozialisten mit dem forcierten
+                            Ausbau der deutschen Rüstungsindustrie begonnen. So waren allein von 1933 bis 1938 die
+                            Rüstungsausgaben von ...
                             <a class=\"more\" href=\"{{ path('app_deportation_salzwedel') }}\" title=\"Weiterlesen\">[mehr]</a>
 
                         </p>
@@ -345,10 +350,11 @@ class __TwigTemplate_abb0bdf762c23d508652ec97601ef4f8 extends Template
                     <div class=\"studiesoverview\">
                         <h2>
                             <a href=\"{{ path('app_deportation_luebberstedt') }}\" title=\"\">
-                                Frauen im Außenlager Lübberstedt, Räumungstransport Eutin
+                                Frauen im Außenlager Lübberstedt
                             </a>
                         </h2>
-                        <p>Dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                        <p>Mit dem Vormarsch der Alliierten wurden ab Mitte 1944 auch die ersten Konzentrationslager befreit.
+                            Bevor alliierte Truppen die Lager erreichen konnten, versuchte die SS jedoch Spuren zu vernichten und die Häftlinge
                             ...
                             <a class=\"more\" href=\"{{ path('app_deportation_luebberstedt') }}\" title=\"Weiterlesen\">[mehr]</a>
                         </p>
