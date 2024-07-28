@@ -139,17 +139,18 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                 <p>
                     <a href=\"";
         // line 52
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/studies/Deportationsroute-Gruppe-der-300.jpg"), "html", null, true);
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/studies/vw/Deportationsroute-Gruppe-der-300.jpg"), "html", null, true);
         yield "\"
                        data-lightbox=\"map-gruppe-300\"
                        data-title=\"Deportationsroute der „Gruppe der 300“.\"><img class=\"gallery img-fluid\"
                                                                                  src=\"";
         // line 55
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/studies/Deportationsroute-Gruppe-der-300_preview.jpg"), "html", null, true);
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/studies/vw/Deportationsroute-Gruppe-der-300_preview.jpg"), "html", null, true);
         yield "\"
                                                                                  alt=\"Karte der Deportationsroute aus Oradea und Cluj-Napoca über Auschwitz und vier weitere Lager ins Konzentrationslager Bergen-Belsen \"/></a>
                 <p class=\"caption\">
-                    Deportationsroute der „Gruppe der 300“. &copy; Institut für die Geschichte der deutschen Juden. Lizenz: CC BY 4.0 &#128269; Zum Vergrößern klicken.
+                    Deportationsroute der „Gruppe der 300“. &copy; Institut für die Geschichte der deutschen Juden.
+                    Lizenz: CC BY 4.0 &#128269; Zum Vergrößern klicken.
                 </p>
                 </p>
             </div>
@@ -189,7 +190,7 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                     <h4>&#9432; Mehr zum historischen Hintergrund</h4>
                     <p>
                         <a href=\"";
-        // line 97
+        // line 98
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_context");
         yield "\" title=\"Text zum historischen Kontext\">
                             &#10149; Historischer
@@ -228,7 +229,7 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                     wobei sie alle zwei Wochen einen Tag frei bekamen. Zu dieser Zeit sahen sie kein Tageslicht, da sie
                     direkt im VW-Werk in ehemaligen Waschkauen im selben Gebäude untergebracht waren, in dem auch die
                     Produktion stattfand. <a href=\"";
-        // line 133
+        // line 134
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_studytemplate");
         yield "\" title=\"Fallstudie Salzwedel\">Später
                         wurden in denselben Räumen Jüdinnen aus Ungarn als KZ-Zwangsarbeiter
@@ -382,7 +383,7 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                     <h4>&#9432; Übersicht Zwangsarbeitslager</h4>
                     <p style=\"font-size: 0.9rem;\">
                         <a href=\"";
-        // line 284
+        // line 285
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_map");
         yield "\" title=\"Kartenübersicht\">
                             &#10149; Übersicht der Lager mit aus Ungarn deportierten Zwangsarbeitern und
@@ -407,8 +408,8 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                     wenig über 30 Kilo.<sup><a href=\"#endnote17\" id=\"footnote17\">17</a></sup>
                 </p>
                 <img class=\"img-fluid\" src=\"";
-        // line 306
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/studies/V1-Produktion.jpg"), "html", null, true);
+        // line 307
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/studies/vw/V1-Produktion.jpg"), "html", null, true);
         yield "\"
                      alt=\"Blick in eine Produktionshalle der V1 im Konzentrationslager Mittelbau-Dora im Mai 1946\"/>
                 <p class=\"caption\">
@@ -451,7 +452,8 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                     Wagon 100 Menschen untergebracht gewesen waren, von denen nur 20 die zehntägige Fahrt überlebt
                     hätten.<sup><a href=\"#endnote21\" id=\"footnote21\">21</a></sup>
                     Schätzungen gehen davon aus, dass bis zu 8.000 Häftlinge die Räumungstransporte und
-                    Todesmärsche aus Mittelbau-Dora nicht überlebten.<sup><a href=\"#endnote22\" id=\"footnote22\">22</a></sup>
+                    Todesmärsche aus Mittelbau-Dora nicht überlebten.<sup><a href=\"#endnote22\"
+                                                                             id=\"footnote22\">22</a></sup>
                 </p>
                 <p>
                     Die Versorgungssituation in dem völlig überbelegten Lager Bergen-Belsen war katastrophal, so dass
@@ -488,34 +490,17 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                 <div class=\"infobox\">
                     <h4>&#9432; Das KZ Bergen-Belsen</h4>
                     <p style=\"font-size: 0.9rem;\">
-                        Das KZ Bergen-Belsen war 1943 nach Plänen der SS und des Auswärtigen Amtes
-                        zunächst zur Unterbringung jüdischer Geiseln gegründet worden, die gegen
-                        deutsche Zivilpersonen in alliiertem Gewahrsam ausgetauscht werden sollten. Von Juli bis
-                        September 1944 richtete die SS Teillager für verschiedene Häftlingsgruppen ein, dazu gehörte
-                        auch das sogenannte \"Ungarnlager\". Schnell wurden ihm jedoch weitere Funktionen zugewiesen. Ende
-                        März 1944 wurde ein Lagerteil für männliche Häftlinge anderer Konzentrationslager eingerichtet,
-                        die zu krank waren um dort weiter Zwangsarbeit zu leisten. Die SS unternahm wenig um ein
-                        Überleben der kranken Häftlinge zu ermöglichen, so dass ein Großteil von ihnen in Bergen-Belsen
-                        starb. Im August 1944 wurde ein Lagerabschnitt für weibliche Häftlinge eingerichtet, die zur
-                        Arbeit in der deutschen Rüstungsindustrie gezwungen werden sollten. Innerhalb von wenigen
-                        Monaten deportierte die SS etwa 9.000 Häftlinge in das Frauenlager. Die Häftlinge stammten
-                        zunächst vor allem aus Polen, wo sie in Folge des Warschauer Aufstands verhaftet worden war,
-                        später waren unter ihnen auch viele polnische und ungarische Jüdinnen. Der Großteil der Frauen
-                        wurde nach kurzer Zeit in eines der KZ-Außenlager an Standorten deutscher Rüstungsfirmen
-                        deportiert. Ab Ende 1944 wurde das KZ Bergen-Belsen zum Ziel vieler Todesmärsche und
-                        Räumungstransport aus den frontnahen Konzentrationslagern. Allein zwischen Dezember 1944 bis
-                        Mitte April 1945 kamen so zusätzlich 85.000 Häftlinge nach Bergen-Belsen, so dass das Lager
-                        schnell völlig überbelegt war. Auch die Versorgungssituation war katastrophal. Unter diesen
-                        Umständen kam es zu einem Ausbruch einer Typhus- und Fleckfieberepidemie, die von der SS kaum
-                        bekämpft wurde. Das Konzentrationslager Bergen-Belsen wurde zu einem Sterbelager. Am Standort
-                        des ehemaligen Konzentrationslagers befindet sich heute eine Gedenkstätte. (Vgl. Stiftung
-                        niedersächsische Gedenkstätten,: Bergen-Belsen. Kriegsgefangenenlager 1940-1945.
-                        Konzentrationslager 1943-1945. Displaced Persons Camp 1945-1950. Katalog der Dauerausstellung,
-                        Celle 2009, S.144-295.)
+                        Das KZ Bergen-Belsen war 1943 zunächst als „Austauschlager“ für die Unterbringung jüdischer
+                        Geiseln gegründet worden. Schnell wurden ihm aber weitere Funktionen zugewiesen und ein Männer-
+                        sowie ein Frauenlager eingerichtet. Ab Ende 1944 wurde Bergen-Belsen Ziel vieler Todesmärsche
+                        und Räumungstransporte und entwickelte sich aufgrund der katastrophalen Bedingungen zu einem
+                        Sterbelager. Nach der Befreiung wurde in Bergen-Belsen ein polnisches und ein jüdisches
+                        Displaced Persons-Camp eingerichtet.<sup><a href=\"#endnote26\"
+                                                                    id=\"footnote26\">26</a></sup>
                     </p>
                     <p>
                         <a href=\"";
-        // line 411
+        // line 396
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_map");
         yield "\" title=\"Kartenübersicht\">
                             &#10149; Zur Karte der Lager
@@ -530,27 +515,30 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
             <div class=\"col-lg-8\">
                 <p>
                     Der Einsatz von KZ-Häftlingen in der Rüstungsindustrie und die Verhandlungen zwischen der SS und
-                    Wirtschaftsunternehmen wie Volkswagen sind gut dokumentiert.<sup><a href=\"#endnote26\" id=\"footnote26\">26</a></sup>
+                    Wirtschaftsunternehmen wie Volkswagen sind gut dokumentiert.<sup><a href=\"#endnote27\"
+                                                                                        id=\"footnote27\">27</a></sup>
                     Für die 300er-Gruppe sind jedoch nur
                     wenig Dokumente der sie betreffenden bürokratischen Vorgänge erhalten geblieben. Das Wissen über
                     diese Gruppen stammt überwiegend aus den Berichten der Überlebenden, die vor allem im Zuge eines
                     Forschungsprojektes zur Geschichte des Volkswagenkonzerns und durch Videointerviews der USC Shoah
-                    Foundation ab den 1980er- Jahren entstanden.<sup><a href=\"#endnote27\" id=\"footnote27\">27</a></sup>
+                    Foundation ab den 1980er- Jahren entstanden.<sup><a href=\"#endnote28\" id=\"footnote28\">28</a></sup>
                     Informationen über die Verwaltungsstruktur sowie
                     Zuständigkeiten für das Außenlager im Volkswagenwerk sind deshalb sehr begrenzt. Erhalten geblieben
                     ist lediglich die Kopie einer Häftlingsliste, die der überlebende Häftling Dezső Schön heimlich
                     angefertigt und mitgeführt hatte. Erhalten ist zudem eine Zugangsliste des Außenlagers Rebstock, die
-                    ebenfalls die Häftlingsdaten enthält.<sup><a href=\"#endnote28\" id=\"footnote28\">28</a></sup>
+                    ebenfalls die Häftlingsdaten enthält.<sup><a href=\"#endnote29\" id=\"footnote29\">29</a></sup>
                 </p>
                 <img class=\"img-fluid\" src=\"";
-        // line 436
+        // line 422
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder_840x560.jpg"), "html", null, true);
         yield "\"
                      alt=\"Häftlingsnummern\"/>
                 <p class=\"caption\">
                     Zugeteilte Häftlingsnummern des KL Buchenwald für Zugänge aus den KL Natzweiler (Außenlager
                     Rebstock), 27.09.1944 und KL Dachau, 30.09.1944, online unter: Arolsen Archives:
-                    https://collections.arolsen-archives.org/de/search/topic/1-1-27-1_2257001?s=Rebstock; Originale in:
+                    <a href=\"https://collections.arolsen-archives.org/de/search/topic/1-1-27-1_2257001?s=Rebstock\"
+                    title=\"Dokument in der Sammlung des Arolsen Archives\">
+                        https://collections.arolsen-archives.org/de/search/topic/1-1-27-1_2257001?s=Rebstock</a>; Originale in:
                     Glowna Komisja Badania Zbrodni Hitlerowskich w Polsce, Warszawa.
                 </p>
                 <p>
@@ -687,8 +675,14 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                                 title=\"Website der Gedenkstätte Bergen Belsen\">https://bergen-belsen.stiftung-ng.de/de/geschichte/konzentrationslager-1943-1945/</a>
                         (letzter Zugriff 10.07.2024). <a href=\"#footnote24\">&uarr;</a></li>
                     <li id=\"endnote25\">Vgl. Shen, Überleben, S. 32. <a href=\"#footnote25\">&uarr;</a></li>
-                    <li id=\"endnote26\">Vgl. Mommsen / Grieger, Volkswagenwerk. <a href=\"#footnote26\">&uarr;</a></li>
-                    <li id=\"endnote27\">Vgl. Mommsen / Grieger, Volkswagenwerk, David Hollander: Interview 8342, Visual
+                    <li id=\"endnote26\">
+                        Vgl. Stiftung niedersächsische Gedenkstätten (Hrsg.), Bergen-Belsen. Kriegsgefangenenlager
+                        1940-1945, Konzentrationslager 1943-1945, Displaced Persons Camp 1945-1950. Katalog der
+                        Dauerausstellung, Celle 2009, S. 200.
+                        <a href=\"#footnote11\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote27\">Vgl. Mommsen / Grieger, Volkswagenwerk. <a href=\"#footnote26\">&uarr;</a></li>
+                    <li id=\"endnote28\">Vgl. Mommsen / Grieger, Volkswagenwerk, David Hollander: Interview 8342, Visual
                         History Archive, USC Shoah Foundation 1995; Bernat Roth Interview 9295, Visual History Archive,
                         USC Shoah Foundation 1995; Desider Davidovits: Interview 18755, Visual History Archive, USC
                         Shoah Foundation 1996; Mosche Friedman: Interview 18884, Visual History Archive, USC Shoah
@@ -704,12 +698,12 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                         Foundation 1996; Ben-Zion Haas: Interview 26344, Visual History Archive, USC Shoah Foundation
                         1997; Stephan Grant: Interview 14925, Visual History Archive, USC Shoah Foundation 1996. <a
                                 href=\"#footnote27\">&uarr;</a></li>
-                    <li id=\"endnote28\">VW-Konzernarchiv 67/422/1; Zugeteilte Häftlingsnummern des KL Buchenwald für
+                    <li id=\"endnote29\">VW-Konzernarchiv 67/422/1; Zugeteilte Häftlingsnummern des KL Buchenwald für
                         Zugänge aus den KL Natzweiler (Außenlager Rebstock), 27.09.1944 und KL Dachau, 30.09.1944,
                         1.1.27.1 2257001, ITS Digital Archive, Arolsen Archives, online unter: <a
                                 href=\"https://collections.arolsen-archives.org/de/search/topic/1-1-27-1_2257001?s=Rebstock\"
                                 title=\"Sammlung Arolsen Archives\">https://collections.arolsen-archives.org/de/search/topic/1-1-27-1_2257001?s=Rebstock</a>
-                            (letzter Zugriff: 19.7.2024). <a href=\"#footnote28\">&uarr;</a></li>
+                        (letzter Zugriff: 19.7.2024). <a href=\"#footnote28\">&uarr;</a></li>
                 </ol>
             </div>
             <div class=\"col-lg-4\">
@@ -726,7 +720,7 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                     Norddeutschland 1944, hrsg. vom
                     Institut für die Geschichte der deutschen Juden, URL:
                     https://holocaust-ungarn-norddeutschland.de";
-        // line 616
+        // line 610
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_vw");
         yield ". Lizenz: CC BY 4.0.
                 </p>
@@ -766,7 +760,7 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
      */
     public function getDebugInfo()
     {
-        return array (  730 => 616,  547 => 436,  519 => 411,  411 => 306,  386 => 284,  232 => 133,  193 => 97,  148 => 55,  142 => 52,  95 => 7,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
+        return array (  724 => 610,  533 => 422,  504 => 396,  412 => 307,  387 => 285,  233 => 134,  194 => 98,  148 => 55,  142 => 52,  95 => 7,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -822,13 +816,14 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                     Überleben bot.<sup><a href=\"#endnote3\" id=\"footnote3\">3</a></sup>
                 </p>
                 <p>
-                    <a href=\"{{ asset('images/studies/Deportationsroute-Gruppe-der-300.jpg') }}\"
+                    <a href=\"{{ asset('images/studies/vw/Deportationsroute-Gruppe-der-300.jpg') }}\"
                        data-lightbox=\"map-gruppe-300\"
                        data-title=\"Deportationsroute der „Gruppe der 300“.\"><img class=\"gallery img-fluid\"
-                                                                                 src=\"{{ asset('images/studies/Deportationsroute-Gruppe-der-300_preview.jpg') }}\"
+                                                                                 src=\"{{ asset('images/studies/vw/Deportationsroute-Gruppe-der-300_preview.jpg') }}\"
                                                                                  alt=\"Karte der Deportationsroute aus Oradea und Cluj-Napoca über Auschwitz und vier weitere Lager ins Konzentrationslager Bergen-Belsen \"/></a>
                 <p class=\"caption\">
-                    Deportationsroute der „Gruppe der 300“. &copy; Institut für die Geschichte der deutschen Juden. Lizenz: CC BY 4.0 &#128269; Zum Vergrößern klicken.
+                    Deportationsroute der „Gruppe der 300“. &copy; Institut für die Geschichte der deutschen Juden.
+                    Lizenz: CC BY 4.0 &#128269; Zum Vergrößern klicken.
                 </p>
                 </p>
             </div>
@@ -1076,7 +1071,7 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                     Viele der überlebenden Häftlinge wogen bei ihrer Befreiung nur
                     wenig über 30 Kilo.<sup><a href=\"#endnote17\" id=\"footnote17\">17</a></sup>
                 </p>
-                <img class=\"img-fluid\" src=\"{{ asset('images/studies/V1-Produktion.jpg') }}\"
+                <img class=\"img-fluid\" src=\"{{ asset('images/studies/vw/V1-Produktion.jpg') }}\"
                      alt=\"Blick in eine Produktionshalle der V1 im Konzentrationslager Mittelbau-Dora im Mai 1946\"/>
                 <p class=\"caption\">
                     Blick in eine Produktionshalle der V1 im Konzentrationslager Mittelbau-Dora, Mai 1946, Fotograf:
@@ -1118,7 +1113,8 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                     Wagon 100 Menschen untergebracht gewesen waren, von denen nur 20 die zehntägige Fahrt überlebt
                     hätten.<sup><a href=\"#endnote21\" id=\"footnote21\">21</a></sup>
                     Schätzungen gehen davon aus, dass bis zu 8.000 Häftlinge die Räumungstransporte und
-                    Todesmärsche aus Mittelbau-Dora nicht überlebten.<sup><a href=\"#endnote22\" id=\"footnote22\">22</a></sup>
+                    Todesmärsche aus Mittelbau-Dora nicht überlebten.<sup><a href=\"#endnote22\"
+                                                                             id=\"footnote22\">22</a></sup>
                 </p>
                 <p>
                     Die Versorgungssituation in dem völlig überbelegten Lager Bergen-Belsen war katastrophal, so dass
@@ -1155,30 +1151,13 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                 <div class=\"infobox\">
                     <h4>&#9432; Das KZ Bergen-Belsen</h4>
                     <p style=\"font-size: 0.9rem;\">
-                        Das KZ Bergen-Belsen war 1943 nach Plänen der SS und des Auswärtigen Amtes
-                        zunächst zur Unterbringung jüdischer Geiseln gegründet worden, die gegen
-                        deutsche Zivilpersonen in alliiertem Gewahrsam ausgetauscht werden sollten. Von Juli bis
-                        September 1944 richtete die SS Teillager für verschiedene Häftlingsgruppen ein, dazu gehörte
-                        auch das sogenannte \"Ungarnlager\". Schnell wurden ihm jedoch weitere Funktionen zugewiesen. Ende
-                        März 1944 wurde ein Lagerteil für männliche Häftlinge anderer Konzentrationslager eingerichtet,
-                        die zu krank waren um dort weiter Zwangsarbeit zu leisten. Die SS unternahm wenig um ein
-                        Überleben der kranken Häftlinge zu ermöglichen, so dass ein Großteil von ihnen in Bergen-Belsen
-                        starb. Im August 1944 wurde ein Lagerabschnitt für weibliche Häftlinge eingerichtet, die zur
-                        Arbeit in der deutschen Rüstungsindustrie gezwungen werden sollten. Innerhalb von wenigen
-                        Monaten deportierte die SS etwa 9.000 Häftlinge in das Frauenlager. Die Häftlinge stammten
-                        zunächst vor allem aus Polen, wo sie in Folge des Warschauer Aufstands verhaftet worden war,
-                        später waren unter ihnen auch viele polnische und ungarische Jüdinnen. Der Großteil der Frauen
-                        wurde nach kurzer Zeit in eines der KZ-Außenlager an Standorten deutscher Rüstungsfirmen
-                        deportiert. Ab Ende 1944 wurde das KZ Bergen-Belsen zum Ziel vieler Todesmärsche und
-                        Räumungstransport aus den frontnahen Konzentrationslagern. Allein zwischen Dezember 1944 bis
-                        Mitte April 1945 kamen so zusätzlich 85.000 Häftlinge nach Bergen-Belsen, so dass das Lager
-                        schnell völlig überbelegt war. Auch die Versorgungssituation war katastrophal. Unter diesen
-                        Umständen kam es zu einem Ausbruch einer Typhus- und Fleckfieberepidemie, die von der SS kaum
-                        bekämpft wurde. Das Konzentrationslager Bergen-Belsen wurde zu einem Sterbelager. Am Standort
-                        des ehemaligen Konzentrationslagers befindet sich heute eine Gedenkstätte. (Vgl. Stiftung
-                        niedersächsische Gedenkstätten,: Bergen-Belsen. Kriegsgefangenenlager 1940-1945.
-                        Konzentrationslager 1943-1945. Displaced Persons Camp 1945-1950. Katalog der Dauerausstellung,
-                        Celle 2009, S.144-295.)
+                        Das KZ Bergen-Belsen war 1943 zunächst als „Austauschlager“ für die Unterbringung jüdischer
+                        Geiseln gegründet worden. Schnell wurden ihm aber weitere Funktionen zugewiesen und ein Männer-
+                        sowie ein Frauenlager eingerichtet. Ab Ende 1944 wurde Bergen-Belsen Ziel vieler Todesmärsche
+                        und Räumungstransporte und entwickelte sich aufgrund der katastrophalen Bedingungen zu einem
+                        Sterbelager. Nach der Befreiung wurde in Bergen-Belsen ein polnisches und ein jüdisches
+                        Displaced Persons-Camp eingerichtet.<sup><a href=\"#endnote26\"
+                                                                    id=\"footnote26\">26</a></sup>
                     </p>
                     <p>
                         <a href=\"{{ path('app_map') }}\" title=\"Kartenübersicht\">
@@ -1194,24 +1173,27 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
             <div class=\"col-lg-8\">
                 <p>
                     Der Einsatz von KZ-Häftlingen in der Rüstungsindustrie und die Verhandlungen zwischen der SS und
-                    Wirtschaftsunternehmen wie Volkswagen sind gut dokumentiert.<sup><a href=\"#endnote26\" id=\"footnote26\">26</a></sup>
+                    Wirtschaftsunternehmen wie Volkswagen sind gut dokumentiert.<sup><a href=\"#endnote27\"
+                                                                                        id=\"footnote27\">27</a></sup>
                     Für die 300er-Gruppe sind jedoch nur
                     wenig Dokumente der sie betreffenden bürokratischen Vorgänge erhalten geblieben. Das Wissen über
                     diese Gruppen stammt überwiegend aus den Berichten der Überlebenden, die vor allem im Zuge eines
                     Forschungsprojektes zur Geschichte des Volkswagenkonzerns und durch Videointerviews der USC Shoah
-                    Foundation ab den 1980er- Jahren entstanden.<sup><a href=\"#endnote27\" id=\"footnote27\">27</a></sup>
+                    Foundation ab den 1980er- Jahren entstanden.<sup><a href=\"#endnote28\" id=\"footnote28\">28</a></sup>
                     Informationen über die Verwaltungsstruktur sowie
                     Zuständigkeiten für das Außenlager im Volkswagenwerk sind deshalb sehr begrenzt. Erhalten geblieben
                     ist lediglich die Kopie einer Häftlingsliste, die der überlebende Häftling Dezső Schön heimlich
                     angefertigt und mitgeführt hatte. Erhalten ist zudem eine Zugangsliste des Außenlagers Rebstock, die
-                    ebenfalls die Häftlingsdaten enthält.<sup><a href=\"#endnote28\" id=\"footnote28\">28</a></sup>
+                    ebenfalls die Häftlingsdaten enthält.<sup><a href=\"#endnote29\" id=\"footnote29\">29</a></sup>
                 </p>
                 <img class=\"img-fluid\" src=\"{{ asset('images/placeholder_840x560.jpg') }}\"
                      alt=\"Häftlingsnummern\"/>
                 <p class=\"caption\">
                     Zugeteilte Häftlingsnummern des KL Buchenwald für Zugänge aus den KL Natzweiler (Außenlager
                     Rebstock), 27.09.1944 und KL Dachau, 30.09.1944, online unter: Arolsen Archives:
-                    https://collections.arolsen-archives.org/de/search/topic/1-1-27-1_2257001?s=Rebstock; Originale in:
+                    <a href=\"https://collections.arolsen-archives.org/de/search/topic/1-1-27-1_2257001?s=Rebstock\"
+                    title=\"Dokument in der Sammlung des Arolsen Archives\">
+                        https://collections.arolsen-archives.org/de/search/topic/1-1-27-1_2257001?s=Rebstock</a>; Originale in:
                     Glowna Komisja Badania Zbrodni Hitlerowskich w Polsce, Warszawa.
                 </p>
                 <p>
@@ -1348,8 +1330,14 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                                 title=\"Website der Gedenkstätte Bergen Belsen\">https://bergen-belsen.stiftung-ng.de/de/geschichte/konzentrationslager-1943-1945/</a>
                         (letzter Zugriff 10.07.2024). <a href=\"#footnote24\">&uarr;</a></li>
                     <li id=\"endnote25\">Vgl. Shen, Überleben, S. 32. <a href=\"#footnote25\">&uarr;</a></li>
-                    <li id=\"endnote26\">Vgl. Mommsen / Grieger, Volkswagenwerk. <a href=\"#footnote26\">&uarr;</a></li>
-                    <li id=\"endnote27\">Vgl. Mommsen / Grieger, Volkswagenwerk, David Hollander: Interview 8342, Visual
+                    <li id=\"endnote26\">
+                        Vgl. Stiftung niedersächsische Gedenkstätten (Hrsg.), Bergen-Belsen. Kriegsgefangenenlager
+                        1940-1945, Konzentrationslager 1943-1945, Displaced Persons Camp 1945-1950. Katalog der
+                        Dauerausstellung, Celle 2009, S. 200.
+                        <a href=\"#footnote11\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote27\">Vgl. Mommsen / Grieger, Volkswagenwerk. <a href=\"#footnote26\">&uarr;</a></li>
+                    <li id=\"endnote28\">Vgl. Mommsen / Grieger, Volkswagenwerk, David Hollander: Interview 8342, Visual
                         History Archive, USC Shoah Foundation 1995; Bernat Roth Interview 9295, Visual History Archive,
                         USC Shoah Foundation 1995; Desider Davidovits: Interview 18755, Visual History Archive, USC
                         Shoah Foundation 1996; Mosche Friedman: Interview 18884, Visual History Archive, USC Shoah
@@ -1365,12 +1353,12 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                         Foundation 1996; Ben-Zion Haas: Interview 26344, Visual History Archive, USC Shoah Foundation
                         1997; Stephan Grant: Interview 14925, Visual History Archive, USC Shoah Foundation 1996. <a
                                 href=\"#footnote27\">&uarr;</a></li>
-                    <li id=\"endnote28\">VW-Konzernarchiv 67/422/1; Zugeteilte Häftlingsnummern des KL Buchenwald für
+                    <li id=\"endnote29\">VW-Konzernarchiv 67/422/1; Zugeteilte Häftlingsnummern des KL Buchenwald für
                         Zugänge aus den KL Natzweiler (Außenlager Rebstock), 27.09.1944 und KL Dachau, 30.09.1944,
                         1.1.27.1 2257001, ITS Digital Archive, Arolsen Archives, online unter: <a
                                 href=\"https://collections.arolsen-archives.org/de/search/topic/1-1-27-1_2257001?s=Rebstock\"
                                 title=\"Sammlung Arolsen Archives\">https://collections.arolsen-archives.org/de/search/topic/1-1-27-1_2257001?s=Rebstock</a>
-                            (letzter Zugriff: 19.7.2024). <a href=\"#footnote28\">&uarr;</a></li>
+                        (letzter Zugriff: 19.7.2024). <a href=\"#footnote28\">&uarr;</a></li>
                 </ol>
             </div>
             <div class=\"col-lg-4\">
