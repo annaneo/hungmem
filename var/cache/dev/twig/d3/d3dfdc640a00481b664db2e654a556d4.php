@@ -125,6 +125,29 @@ class __TwigTemplate_57ca88c14c1d2b9e9e951b0e4bdd63bd extends Template
                     gekennzeichnet.<sup><a href=\"#endnote4\" id=\"footnote4\">4</a></sup>
                 </p>
             </div>
+            <div class=\"col-lg-4\">
+                <div class=\"infobox\">
+                    <h4>&#9432; Zwangsarbeit</h4>
+                    <p>
+                        Das nationalsozialistische Deutschland griff in hohem Maße auf Zwangsarbeit
+                        zurück um seinen Arbeitskräftebedarf zu decken, alleine im Deutschen Reich
+                        mussten während des Zweiten Weltkrieges über 13,5 Millionen Menschen
+                        Zwangsarbeit leisten. Zwangsarbeit wurde dabei in allen Industriezweigen aber
+                        auch in der Landwirtschaft und in Privathaushalten eingesetzt. Die
+                        Zwangsarbeiter und Zwangsarbeiterinnen gehörten insbesondere in den letzten
+                        Kriegsjahren zum sichtbaren Alltag im nationalsozialistischen Deutschland.
+                    </p>
+                    <p>
+                        <a href=\"";
+        // line 53
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_context");
+        yield "#zwangsarbeit\"
+                           title=\"Mehr Informationen zu Zwangsarbeit und historischem Kontext\">
+                            &#10149; Mehr Informationen zu Zwangsarbeit
+                        </a>
+                    </p>
+                </div>
+            </div>
         </div>
 
         <h3 class=\"mt-4\">Zwangsarbeit in Salzwedel</h3>
@@ -146,52 +169,7 @@ class __TwigTemplate_57ca88c14c1d2b9e9e951b0e4bdd63bd extends Template
                     das in der Zwischenkriegszeit der Tschechoslowakei zugesprochen und seit 1939 von der Ukraine
                     besetzt worden war, beispielsweise aus der heute ukrainischen Stadt Tjatschiw.
                 </p>
-            </div>
-            <div class=\"col-lg-4\">
-                <div class=\"infobox mt-2\">
-                    <h4>&#9432; Zwangsarbeit</h4>
-                    <p>
-                        Das nationalsozialistische Deutschland griff in hohem Maße auf Zwangsarbeit
-                        zurück um seinen Arbeitskräftebedarf zu decken, alleine im Deutschen Reich
-                        mussten während des Zweiten Weltkrieges über 13,5 Millionen Menschen
-                        Zwangsarbeit leisten. Zwangsarbeit wurde dabei in allen Industriezweigen aber
-                        auch in der Landwirtschaft und in Privathaushalten eingesetzt. Die
-                        Zwangsarbeiter und Zwangsarbeiterinnen gehörten insbesondere in den letzten
-                        Kriegsjahren zum sichtbaren Alltag im nationalsozialistischen Deutschland.
-                    </p>
-                    <p>
-                        <a href=\"";
-        // line 75
-        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_context");
-        yield "#zwangsarbeit\"
-                           title=\"Mehr Informationen zu Zwangsarbeit und historischem Kontext\">
-                            &#10149; Mehr Informationen zu Zwangsarbeit
-                        </a>
-                    </p>
-                </div>
-                <div class=\"infobox mt-2\">
-                    <h4>&#9432; Juden und Jüdinnen</h4>
-                    <p>
-                        Die aus Ungarn deportierten Juden und Jüdinnen gehörten verschiedenen
-                        Gemeinden und religiösen Strömungen an und lebten ihr Judentum
-                        unterschiedlich aus. Nicht alle definierten sich zwangsläufig selbst als jüdisch. Für
-                        ihre Verfolgung durch die Nationalsozialisten war weder ihre Religion noch eine
-                        kulturelle Zugehörigkeit zum Judentum oder die Selbstzuschreibung
-                        entscheidend. Das Zentrum der nationalsozialistischen Weltanschauung bildete
-                        ein rassistischer Antisemitismus, der Juden und Jüdinnen nach ihrer Abstammung
-                        definierte. Auch Christen und Christinnen sowie Atheisten und Atheistinnen
-                        wurden unabhängig von ihrer Selbstdefinition oder kulturellen Zugehörigkeit
-                        durch die Nationalsozialisten als Juden verfolgt, wenn sie deren
-                        Abstammungskriterien entsprachen. Nicht alle hier als Juden und Jüdinnen
-                        bezeichneten Personen identifizierten sich selbst als jüdisch, sie alle wurden
-                        jedoch als jüdisch verfolgt. </p>
-                </div>
-            </div>
-        </div>
-
-        <h3 class=\"mt-4\">Ungarische Annektionen und Besetzungen im Zweiten Weltkrieg</h3>
-        <div class=\"row\">
-            <div class=\"col-lg-8\">
+                <h3 class=\"mt-4\">Ungarische Annektionen und Besetzungen im Zweiten Weltkrieg</h3>
                 <p>
                     Von 1938 bis 1941 annektierte das mit dem nationalsozialistischen Deutschland verbündete Ungarn
                     größere Gebiete der Tschechoslowakei, Rumäniens und Jugoslawien. Etwa 45 Prozent der jüdischen
@@ -221,10 +199,27 @@ class __TwigTemplate_57ca88c14c1d2b9e9e951b0e4bdd63bd extends Template
             </div>
             <div class=\"col-lg-4\">
                 <div class=\"infobox\">
+                    <h4>&#9432; Juden und Jüdinnen</h4>
+                    <p>
+                        Die aus Ungarn deportierten Juden und Jüdinnen gehörten verschiedenen
+                        Gemeinden und religiösen Strömungen an und lebten ihr Judentum
+                        unterschiedlich aus. Nicht alle definierten sich zwangsläufig selbst als jüdisch. Für
+                        ihre Verfolgung durch die Nationalsozialisten war weder ihre Religion noch eine
+                        kulturelle Zugehörigkeit zum Judentum oder die Selbstzuschreibung
+                        entscheidend. Das Zentrum der nationalsozialistischen Weltanschauung bildete
+                        ein rassistischer Antisemitismus, der Juden und Jüdinnen nach ihrer Abstammung
+                        definierte. Auch Christen und Christinnen sowie Atheisten und Atheistinnen
+                        wurden unabhängig von ihrer Selbstdefinition oder kulturellen Zugehörigkeit
+                        durch die Nationalsozialisten als Juden verfolgt, wenn sie deren
+                        Abstammungskriterien entsprachen. Nicht alle hier als Juden und Jüdinnen
+                        bezeichneten Personen identifizierten sich selbst als jüdisch, sie alle wurden
+                        jedoch als jüdisch verfolgt. </p>
+                </div>
+                <div class=\"infobox mt-2\">
                     <h4>&#9432; Mehr zum historischen Hintergrund</h4>
                     <p>
                         <a href=\"";
-        // line 135
+        // line 130
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_context");
         yield "\" title=\"Text zum historischen Kontext\">
                             &#10149; Historischer
@@ -244,7 +239,7 @@ class __TwigTemplate_57ca88c14c1d2b9e9e951b0e4bdd63bd extends Template
                     </p>
                     <p>
                         <a href=\"";
-        // line 152
+        // line 147
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_map");
         yield "\" title=\"Kartenübersicht\">
                             &#10149; Zur Karte
@@ -253,7 +248,6 @@ class __TwigTemplate_57ca88c14c1d2b9e9e951b0e4bdd63bd extends Template
                 </div>
             </div>
         </div>
-
 
         <h3 class=\"mt-4\">Das Außenlager Salzwedel</h3>
         <div class=\"row\">
@@ -296,14 +290,14 @@ class __TwigTemplate_57ca88c14c1d2b9e9e951b0e4bdd63bd extends Template
                 </p>
                 <p>
                     <a href=\"";
-        // line 201
+        // line 195
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder_840x560.jpg"), "html", null, true);
         yield "\"
                        data-lightbox=\"map-salzwedel\"
                        data-title=\"Deportationen aus anderen Außenlagern nach Salzwedel\">
                         <img class=\"gallery img-fluid\"
                              src=\"";
-        // line 205
+        // line 199
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder_840x560.jpg"), "html", null, true);
         yield "\"
                              alt=\"Karte mit Pfeilen vom Außenlager Porta Westfalica nach Fallersleben (Frauen) und von Fallersleben nach Salzwedel\"/></a>
@@ -325,7 +319,7 @@ class __TwigTemplate_57ca88c14c1d2b9e9e951b0e4bdd63bd extends Template
                     </p>
                     <p>
                         <a href=\"";
-        // line 224
+        // line 218
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_map");
         yield "\" title=\"Kartenübersicht\">
                             &#10149; Zur Karte der Lager
@@ -371,7 +365,7 @@ class __TwigTemplate_57ca88c14c1d2b9e9e951b0e4bdd63bd extends Template
                     <p>
                     <p>
                         <a href=\"";
-        // line 267
+        // line 261
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_map");
         yield "\" title=\"Kartenübersicht\">
                             &#10149; Zur Karte der Lager
@@ -399,7 +393,7 @@ class __TwigTemplate_57ca88c14c1d2b9e9e951b0e4bdd63bd extends Template
                     Frauen direkt im Werk untergebracht waren, sahen sie während ihrer Zeit hier kein Tageslicht.
                 </p>
                 <img class=\"img-fluid\" src=\"";
-        // line 292
+        // line 286
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/studies/salzwedel/CH11516_1 Tellerminen.jpg"), "html", null, true);
         yield "\"
                      alt=\"Zwangsarbeiterin bei der Produktion von Tellerminen in Fallersleben\"/>
@@ -469,7 +463,7 @@ class __TwigTemplate_57ca88c14c1d2b9e9e951b0e4bdd63bd extends Template
                     KZ-Häftlinge beim Massaker von Gardelegen in einer Scheune verbrannt.
                 </p>
                 <img class=\"img-fluid\" src=\"";
-        // line 359
+        // line 353
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/studies/salzwedel/T2694HäftlingszugHinten.jpg"), "html", null, true);
         yield "\"
                      alt=\"Eine Gruppe von männlichen und weiblichen KZ-Häftlingen von hinten zu sehen\"/>
@@ -537,7 +531,7 @@ class __TwigTemplate_57ca88c14c1d2b9e9e951b0e4bdd63bd extends Template
                 </p>
                 <img class=\"img-fluid\"
                      src=\"";
-        // line 424
+        // line 418
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/studies/salzwedel/T2692Häftlingszugnah.jpg"), "html", null, true);
         yield "\"
                      alt=\"Eine Gruppe von winkenden befreiten Frauen\"/>
@@ -570,7 +564,7 @@ class __TwigTemplate_57ca88c14c1d2b9e9e951b0e4bdd63bd extends Template
                     zukünftigen Staat Israel auswanderten.
                 </p>
                 <a href=\"";
-        // line 454
+        // line 448
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/studies/salzwedel/Lukacs_Agnes-Brief-1945-05-03.jpg"), "html", null, true);
         yield "\"
                    data-lightbox=\"salzwedel-letter\"
@@ -578,7 +572,7 @@ class __TwigTemplate_57ca88c14c1d2b9e9e951b0e4bdd63bd extends Template
                     Salzwedel.\">
                     <img class=\"gallery img-fluid\"
                          src=\"";
-        // line 459
+        // line 453
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/studies/salzwedel/Lukacs_Agnes-Brief1945-05-03_preview.jpg"), "html", null, true);
         yield "\"
                          alt=\"Brief von Ágnes Lukács an ihre Eltern in Budapest. Text und eine kleine Zeichnung, auf der drei Frauen dargestellt sind.\"/></a>
@@ -603,7 +597,7 @@ class __TwigTemplate_57ca88c14c1d2b9e9e951b0e4bdd63bd extends Template
                     sehr begrenzte Rückschlüsse auf die Haftorte möglich sind.
                 </p>
                 <img class=\"img-fluid\" style=\"width: 640px;\" src=\"";
-        // line 481
+        // line 475
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder_840x560.jpg"), "html", null, true);
         yield "\"
                      alt=\"Interaktive Karte der Herkunftsorte \"/>
@@ -919,7 +913,7 @@ class __TwigTemplate_57ca88c14c1d2b9e9e951b0e4bdd63bd extends Template
                     Norddeutschland 1944, hrsg. vom
                     Institut für die Geschichte der deutschen Juden, URL:
                     https://holocaust-ungarn-norddeutschland.de";
-        // line 794
+        // line 788
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_salzwedel");
         yield ". Lizenz: CC BY
                     4.0.
@@ -960,7 +954,7 @@ class __TwigTemplate_57ca88c14c1d2b9e9e951b0e4bdd63bd extends Template
      */
     public function getDebugInfo()
     {
-        return array (  923 => 794,  607 => 481,  582 => 459,  574 => 454,  541 => 424,  473 => 359,  403 => 292,  375 => 267,  329 => 224,  307 => 205,  300 => 201,  248 => 152,  228 => 135,  165 => 75,  95 => 7,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
+        return array (  917 => 788,  601 => 475,  576 => 453,  568 => 448,  535 => 418,  467 => 353,  397 => 286,  369 => 261,  323 => 218,  301 => 199,  294 => 195,  243 => 147,  223 => 130,  143 => 53,  95 => 7,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -1004,6 +998,26 @@ class __TwigTemplate_57ca88c14c1d2b9e9e951b0e4bdd63bd extends Template
                     gekennzeichnet.<sup><a href=\"#endnote4\" id=\"footnote4\">4</a></sup>
                 </p>
             </div>
+            <div class=\"col-lg-4\">
+                <div class=\"infobox\">
+                    <h4>&#9432; Zwangsarbeit</h4>
+                    <p>
+                        Das nationalsozialistische Deutschland griff in hohem Maße auf Zwangsarbeit
+                        zurück um seinen Arbeitskräftebedarf zu decken, alleine im Deutschen Reich
+                        mussten während des Zweiten Weltkrieges über 13,5 Millionen Menschen
+                        Zwangsarbeit leisten. Zwangsarbeit wurde dabei in allen Industriezweigen aber
+                        auch in der Landwirtschaft und in Privathaushalten eingesetzt. Die
+                        Zwangsarbeiter und Zwangsarbeiterinnen gehörten insbesondere in den letzten
+                        Kriegsjahren zum sichtbaren Alltag im nationalsozialistischen Deutschland.
+                    </p>
+                    <p>
+                        <a href=\"{{ path('app_context') }}#zwangsarbeit\"
+                           title=\"Mehr Informationen zu Zwangsarbeit und historischem Kontext\">
+                            &#10149; Mehr Informationen zu Zwangsarbeit
+                        </a>
+                    </p>
+                </div>
+            </div>
         </div>
 
         <h3 class=\"mt-4\">Zwangsarbeit in Salzwedel</h3>
@@ -1025,49 +1039,7 @@ class __TwigTemplate_57ca88c14c1d2b9e9e951b0e4bdd63bd extends Template
                     das in der Zwischenkriegszeit der Tschechoslowakei zugesprochen und seit 1939 von der Ukraine
                     besetzt worden war, beispielsweise aus der heute ukrainischen Stadt Tjatschiw.
                 </p>
-            </div>
-            <div class=\"col-lg-4\">
-                <div class=\"infobox mt-2\">
-                    <h4>&#9432; Zwangsarbeit</h4>
-                    <p>
-                        Das nationalsozialistische Deutschland griff in hohem Maße auf Zwangsarbeit
-                        zurück um seinen Arbeitskräftebedarf zu decken, alleine im Deutschen Reich
-                        mussten während des Zweiten Weltkrieges über 13,5 Millionen Menschen
-                        Zwangsarbeit leisten. Zwangsarbeit wurde dabei in allen Industriezweigen aber
-                        auch in der Landwirtschaft und in Privathaushalten eingesetzt. Die
-                        Zwangsarbeiter und Zwangsarbeiterinnen gehörten insbesondere in den letzten
-                        Kriegsjahren zum sichtbaren Alltag im nationalsozialistischen Deutschland.
-                    </p>
-                    <p>
-                        <a href=\"{{ path('app_context') }}#zwangsarbeit\"
-                           title=\"Mehr Informationen zu Zwangsarbeit und historischem Kontext\">
-                            &#10149; Mehr Informationen zu Zwangsarbeit
-                        </a>
-                    </p>
-                </div>
-                <div class=\"infobox mt-2\">
-                    <h4>&#9432; Juden und Jüdinnen</h4>
-                    <p>
-                        Die aus Ungarn deportierten Juden und Jüdinnen gehörten verschiedenen
-                        Gemeinden und religiösen Strömungen an und lebten ihr Judentum
-                        unterschiedlich aus. Nicht alle definierten sich zwangsläufig selbst als jüdisch. Für
-                        ihre Verfolgung durch die Nationalsozialisten war weder ihre Religion noch eine
-                        kulturelle Zugehörigkeit zum Judentum oder die Selbstzuschreibung
-                        entscheidend. Das Zentrum der nationalsozialistischen Weltanschauung bildete
-                        ein rassistischer Antisemitismus, der Juden und Jüdinnen nach ihrer Abstammung
-                        definierte. Auch Christen und Christinnen sowie Atheisten und Atheistinnen
-                        wurden unabhängig von ihrer Selbstdefinition oder kulturellen Zugehörigkeit
-                        durch die Nationalsozialisten als Juden verfolgt, wenn sie deren
-                        Abstammungskriterien entsprachen. Nicht alle hier als Juden und Jüdinnen
-                        bezeichneten Personen identifizierten sich selbst als jüdisch, sie alle wurden
-                        jedoch als jüdisch verfolgt. </p>
-                </div>
-            </div>
-        </div>
-
-        <h3 class=\"mt-4\">Ungarische Annektionen und Besetzungen im Zweiten Weltkrieg</h3>
-        <div class=\"row\">
-            <div class=\"col-lg-8\">
+                <h3 class=\"mt-4\">Ungarische Annektionen und Besetzungen im Zweiten Weltkrieg</h3>
                 <p>
                     Von 1938 bis 1941 annektierte das mit dem nationalsozialistischen Deutschland verbündete Ungarn
                     größere Gebiete der Tschechoslowakei, Rumäniens und Jugoslawien. Etwa 45 Prozent der jüdischen
@@ -1097,6 +1069,23 @@ class __TwigTemplate_57ca88c14c1d2b9e9e951b0e4bdd63bd extends Template
             </div>
             <div class=\"col-lg-4\">
                 <div class=\"infobox\">
+                    <h4>&#9432; Juden und Jüdinnen</h4>
+                    <p>
+                        Die aus Ungarn deportierten Juden und Jüdinnen gehörten verschiedenen
+                        Gemeinden und religiösen Strömungen an und lebten ihr Judentum
+                        unterschiedlich aus. Nicht alle definierten sich zwangsläufig selbst als jüdisch. Für
+                        ihre Verfolgung durch die Nationalsozialisten war weder ihre Religion noch eine
+                        kulturelle Zugehörigkeit zum Judentum oder die Selbstzuschreibung
+                        entscheidend. Das Zentrum der nationalsozialistischen Weltanschauung bildete
+                        ein rassistischer Antisemitismus, der Juden und Jüdinnen nach ihrer Abstammung
+                        definierte. Auch Christen und Christinnen sowie Atheisten und Atheistinnen
+                        wurden unabhängig von ihrer Selbstdefinition oder kulturellen Zugehörigkeit
+                        durch die Nationalsozialisten als Juden verfolgt, wenn sie deren
+                        Abstammungskriterien entsprachen. Nicht alle hier als Juden und Jüdinnen
+                        bezeichneten Personen identifizierten sich selbst als jüdisch, sie alle wurden
+                        jedoch als jüdisch verfolgt. </p>
+                </div>
+                <div class=\"infobox mt-2\">
                     <h4>&#9432; Mehr zum historischen Hintergrund</h4>
                     <p>
                         <a href=\"{{ path('app_context') }}\" title=\"Text zum historischen Kontext\">
@@ -1123,7 +1112,6 @@ class __TwigTemplate_57ca88c14c1d2b9e9e951b0e4bdd63bd extends Template
                 </div>
             </div>
         </div>
-
 
         <h3 class=\"mt-4\">Das Außenlager Salzwedel</h3>
         <div class=\"row\">
