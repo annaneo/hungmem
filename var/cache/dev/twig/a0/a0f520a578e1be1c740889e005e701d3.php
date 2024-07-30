@@ -211,9 +211,8 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
             <div class=\"col-lg-8\">
                 <p>
                     Mit den deutschen Besatzungstruppen erreichte auch ein Sonderkommando Ungarn. Unter der Führung von
-                    Adolf Eichmann sollte dieses die Deportation der Juden und Jüdinnen Ungarns organisieren. Miklós
-                    Horthy hatte sich zuvor unter deutschem Druck zur Auslieferung hunderttausender Juden und Jüdinnen
-                    als Arbeitskräfte bereit erklärt.<sup><a href=\"#endnote11\" id=\"footnote11\">11</a></sup>
+                    Adolf Eichmann sollte dieses die Deportation der Juden und Jüdinnen Ungarns
+                    organisieren.<sup><a href=\"#endnote11\" id=\"footnote11\">11</a></sup>
                     Unmittelbar nach der deutschen Besatzung wurde die jüdische
                     Bevölkerung zunächst zum Tragen eines Sternes verpflichtet und anschließend ab April 1944 in Ghettos
                     eingewiesen. Bereits im Mai 1944 begannen die ersten Deportationen in den Konzentrations- und
@@ -227,7 +226,7 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
                 </p>
                 <div>
                     <img class=\"img-fluid\" src=\"";
-        // line 135
+        // line 134
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder_840x560.jpg"), "html", null, true);
         yield "\"
                          alt=\"Ankunft jüdischer Männer, Frauen und Kinder  in Auschwitz-Birkenau\"/>
@@ -251,14 +250,14 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
                     waren.<sup><a href=\"#endnote14\" id=\"footnote14\">14</a></sup>
                 </p>
                 <img class=\"img-fluid\" src=\"";
-        // line 156
+        // line 155
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder_840x560.jpg"), "html", null, true);
         yield "\"
                      alt=\"Ankunft jüdischer Männer, Frauen und Kinder  in Auschwitz-Birkenau\"/>
                 <p class=\"caption\">
                     Standorte von Konzentrationslager in Norddeutschland, in denen aus Ungarn deportierte Personen seit 1944 inhaftiert waren.
                     <a href=\"";
-        // line 160
+        // line 159
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_map");
         yield "\" title=\"Kartenübersicht\">
                         &#10149; Zur interaktiven Karte
@@ -364,7 +363,9 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
                     KZ-Häftlingen aus Ungarn in Bergen-Belsen bekannt sind, diese aufgrund der schlechten Quellenlage
                     nur einen Bruchteil der tatsächlichen Anzahl darstellen, war die Gesamtzahl der Häftlinge, die aus
                     Ungarn deportiert wurden und in nordwestdeutschen Konzentrationslagern inhaftiert waren, sicherlich
-                    wesentlich viel größer.
+                    wesentlich viel größer. Insgesamt wird die Zahl der aus Ungarn deportierten KZ-Häftlinge, die
+                    Zwangsarbeit im Deutschen Reich leisten mussten auf 176.000 geschätzt.
+                    <sup><a href=\"#endnote26\" id=\"footnote26\">26</a></sup>
                 </p>
             </div>
             <div class=\"col-lg-4\">
@@ -379,10 +380,10 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
                     Rüstungsindustrie eingesetzt, zu der die Nationalsozialisten ab 1943 angesichts der alliierten
                     Luftüberlegenheit übergegangen waren. Aber auch in anderen Zweigen der Rüstungsindustrie und bei der
                     Trümmerräumung wurde auf die Zwangsarbeit der ungarischen Juden und Jüdinnen
-                    zurückgegriffen.<sup><a href=\"#endnote26\" id=\"footnote26\">26</a></sup>
+                    zurückgegriffen.<sup><a href=\"#endnote27\" id=\"footnote27\">27</a></sup>
                 </p>
                 <img class=\"img-fluid\" src=\"";
-        // line 281
+        // line 282
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder_840x560.jpg"), "html", null, true);
         yield "\"
                      alt=\" Weibliche KZ-Häftlinge aus Ungarn und Polen, die in der Bemer Innenstadt Trümmer räumen\"/>
@@ -394,7 +395,7 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
                 <p>
                     An vielen Arbeitsorten waren die Arbeitsbedingungen so gestaltet, dass ein Überleben nicht dauerhaft
                     möglich war. Tausende Häftlinge wurden so im Zuge einer „Vernichtung durch Arbeit“ durch die
-                    Nationalsozialisten ermordet.<sup><a href=\"#endnote27\" id=\"footnote27\">27</a></sup> Die
+                    Nationalsozialisten ermordet.<sup><a href=\"#endnote28\" id=\"footnote28\">28</a></sup> Die
                     Überlebenschancen der Häftlinge hingen dabei nicht zuletzt von den
                     zugeteilten Arbeitseinsätzen ab. Um eine Befreiung der KZ-Häftlinge durch die Alliierten zu
                     verhindern, wurden deren Lager vor der sich nähernden Front geräumt. Die Häftlinge wurden per Zug
@@ -402,7 +403,7 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
                     Viele Häftlinge starben auf diesen durch die Überlebenden als Todesmärsche charakterisierten
                     Transporten. Nur etwa 63 Prozent der nach Deutschland deportierten Juden und Jüdinnen, die zuvor aus
                     Ungarn deportiert waren, überlebten die nationalsozialistische
-                    Zwangsarbeit.<sup><a href=\"#endnote28\" id=\"footnote28\">28</a></sup>
+                    Zwangsarbeit.<sup><a href=\"#endnote29\" id=\"footnote29\">29</a></sup>
                 </p>
             </div>
             <div class=\"col-lg-4\">
@@ -437,6 +438,9 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
                         Susanne Heim et al. (Hrsg.), Die Verfolgung und Ermordung der europäischen Juden durch das
                         nationalsozialistische Deutschland 1933.1945, Band 15. Ungarn 1944-1945. Bearbeitet von Regina
                         Fritz, Berlin / Boston 2021
+                    </li>
+                    <li>
+                        Johannes Meerwald: The DEGOB Protocols and the Deportations of Jewish Prisoners to the Dachau Camp Complex; in: Henning Borggräfe / Akim Jah (Hrsg.), Deportations in the Nazi Era: Sources and Research, Berlin / Boston, S. 405-428, S. 406.
                     </li>
                     <li>
                         Mark Spoerer, Zwangsarbeit unter dem Hakenkreuz, Stuttgart / München 2001.
@@ -554,16 +558,20 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
                         <a href=\"#footnote25\">&uarr;</a>
                     </li>
                     <li id=\"endnote26\">
-                        Vgl. Gerlach / Aly, letztes Kapitel, S. 379.394; Jens-Christian Wagner, NS-Untertageanlagen und Gedenkstättenarbeit: Erfahrungen aus Mittelbau-Dora, in: Gedenkstätten-Rundbrief, 147 (2009), S. 5-13, S. 6.
+                    Johannes Meerwald: The DEGOB Protocols and the Deportations of Jewish Prisoners to the Dachau Camp Complex; in: Henning Borggräfe / Akim Jah (Hrsg.), Deportations in the Nazi Era: Sources and Research, Berlin / Boston, S. 405-428, S. 406.
                         <a href=\"#footnote26\">&uarr;</a>
                     </li>
                     <li id=\"endnote27\">
-                        Eine Diskussion des Begriffes „Vernichtung durch Arbeit“ findet sich bei Spoerer, Zwangsarbeit, S. 180-183.
+                        Vgl. Gerlach / Aly, letztes Kapitel, S. 379.394; Jens-Christian Wagner, NS-Untertageanlagen und Gedenkstättenarbeit: Erfahrungen aus Mittelbau-Dora, in: Gedenkstätten-Rundbrief, 147 (2009), S. 5-13, S. 6.
                         <a href=\"#footnote27\">&uarr;</a>
                     </li>
                     <li id=\"endnote28\">
-                        Vgl. Gerlach / Aly, letztes Kapitel.
+                        Eine Diskussion des Begriffes „Vernichtung durch Arbeit“ findet sich bei Spoerer, Zwangsarbeit, S. 180-183.
                         <a href=\"#footnote28\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote29\">
+                        Vgl. Gerlach / Aly, letztes Kapitel.
+                        <a href=\"#footnote29\">&uarr;</a>
                     </li>
                 </ol>
             </div>
@@ -582,7 +590,7 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
                     nach Norddeutschland 1944, hrsg. vom
                     Institut für die Geschichte der deutschen Juden, URL:
                     https://holocaust-ungarn-norddeutschland.de";
-        // line 478
+        // line 486
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_context");
         yield ". Lizenz: CC BY
                     4.0.
@@ -623,7 +631,7 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
      */
     public function getDebugInfo()
     {
-        return array (  586 => 478,  386 => 281,  262 => 160,  255 => 156,  231 => 135,  133 => 40,  125 => 35,  95 => 7,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
+        return array (  594 => 486,  387 => 282,  261 => 159,  254 => 155,  230 => 134,  133 => 40,  125 => 35,  95 => 7,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -747,9 +755,8 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
             <div class=\"col-lg-8\">
                 <p>
                     Mit den deutschen Besatzungstruppen erreichte auch ein Sonderkommando Ungarn. Unter der Führung von
-                    Adolf Eichmann sollte dieses die Deportation der Juden und Jüdinnen Ungarns organisieren. Miklós
-                    Horthy hatte sich zuvor unter deutschem Druck zur Auslieferung hunderttausender Juden und Jüdinnen
-                    als Arbeitskräfte bereit erklärt.<sup><a href=\"#endnote11\" id=\"footnote11\">11</a></sup>
+                    Adolf Eichmann sollte dieses die Deportation der Juden und Jüdinnen Ungarns
+                    organisieren.<sup><a href=\"#endnote11\" id=\"footnote11\">11</a></sup>
                     Unmittelbar nach der deutschen Besatzung wurde die jüdische
                     Bevölkerung zunächst zum Tragen eines Sternes verpflichtet und anschließend ab April 1944 in Ghettos
                     eingewiesen. Bereits im Mai 1944 begannen die ersten Deportationen in den Konzentrations- und
@@ -891,7 +898,9 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
                     KZ-Häftlingen aus Ungarn in Bergen-Belsen bekannt sind, diese aufgrund der schlechten Quellenlage
                     nur einen Bruchteil der tatsächlichen Anzahl darstellen, war die Gesamtzahl der Häftlinge, die aus
                     Ungarn deportiert wurden und in nordwestdeutschen Konzentrationslagern inhaftiert waren, sicherlich
-                    wesentlich viel größer.
+                    wesentlich viel größer. Insgesamt wird die Zahl der aus Ungarn deportierten KZ-Häftlinge, die
+                    Zwangsarbeit im Deutschen Reich leisten mussten auf 176.000 geschätzt.
+                    <sup><a href=\"#endnote26\" id=\"footnote26\">26</a></sup>
                 </p>
             </div>
             <div class=\"col-lg-4\">
@@ -906,7 +915,7 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
                     Rüstungsindustrie eingesetzt, zu der die Nationalsozialisten ab 1943 angesichts der alliierten
                     Luftüberlegenheit übergegangen waren. Aber auch in anderen Zweigen der Rüstungsindustrie und bei der
                     Trümmerräumung wurde auf die Zwangsarbeit der ungarischen Juden und Jüdinnen
-                    zurückgegriffen.<sup><a href=\"#endnote26\" id=\"footnote26\">26</a></sup>
+                    zurückgegriffen.<sup><a href=\"#endnote27\" id=\"footnote27\">27</a></sup>
                 </p>
                 <img class=\"img-fluid\" src=\"{{ asset('images/placeholder_840x560.jpg') }}\"
                      alt=\" Weibliche KZ-Häftlinge aus Ungarn und Polen, die in der Bemer Innenstadt Trümmer räumen\"/>
@@ -918,7 +927,7 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
                 <p>
                     An vielen Arbeitsorten waren die Arbeitsbedingungen so gestaltet, dass ein Überleben nicht dauerhaft
                     möglich war. Tausende Häftlinge wurden so im Zuge einer „Vernichtung durch Arbeit“ durch die
-                    Nationalsozialisten ermordet.<sup><a href=\"#endnote27\" id=\"footnote27\">27</a></sup> Die
+                    Nationalsozialisten ermordet.<sup><a href=\"#endnote28\" id=\"footnote28\">28</a></sup> Die
                     Überlebenschancen der Häftlinge hingen dabei nicht zuletzt von den
                     zugeteilten Arbeitseinsätzen ab. Um eine Befreiung der KZ-Häftlinge durch die Alliierten zu
                     verhindern, wurden deren Lager vor der sich nähernden Front geräumt. Die Häftlinge wurden per Zug
@@ -926,7 +935,7 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
                     Viele Häftlinge starben auf diesen durch die Überlebenden als Todesmärsche charakterisierten
                     Transporten. Nur etwa 63 Prozent der nach Deutschland deportierten Juden und Jüdinnen, die zuvor aus
                     Ungarn deportiert waren, überlebten die nationalsozialistische
-                    Zwangsarbeit.<sup><a href=\"#endnote28\" id=\"footnote28\">28</a></sup>
+                    Zwangsarbeit.<sup><a href=\"#endnote29\" id=\"footnote29\">29</a></sup>
                 </p>
             </div>
             <div class=\"col-lg-4\">
@@ -961,6 +970,9 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
                         Susanne Heim et al. (Hrsg.), Die Verfolgung und Ermordung der europäischen Juden durch das
                         nationalsozialistische Deutschland 1933.1945, Band 15. Ungarn 1944-1945. Bearbeitet von Regina
                         Fritz, Berlin / Boston 2021
+                    </li>
+                    <li>
+                        Johannes Meerwald: The DEGOB Protocols and the Deportations of Jewish Prisoners to the Dachau Camp Complex; in: Henning Borggräfe / Akim Jah (Hrsg.), Deportations in the Nazi Era: Sources and Research, Berlin / Boston, S. 405-428, S. 406.
                     </li>
                     <li>
                         Mark Spoerer, Zwangsarbeit unter dem Hakenkreuz, Stuttgart / München 2001.
@@ -1078,16 +1090,20 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
                         <a href=\"#footnote25\">&uarr;</a>
                     </li>
                     <li id=\"endnote26\">
-                        Vgl. Gerlach / Aly, letztes Kapitel, S. 379.394; Jens-Christian Wagner, NS-Untertageanlagen und Gedenkstättenarbeit: Erfahrungen aus Mittelbau-Dora, in: Gedenkstätten-Rundbrief, 147 (2009), S. 5-13, S. 6.
+                    Johannes Meerwald: The DEGOB Protocols and the Deportations of Jewish Prisoners to the Dachau Camp Complex; in: Henning Borggräfe / Akim Jah (Hrsg.), Deportations in the Nazi Era: Sources and Research, Berlin / Boston, S. 405-428, S. 406.
                         <a href=\"#footnote26\">&uarr;</a>
                     </li>
                     <li id=\"endnote27\">
-                        Eine Diskussion des Begriffes „Vernichtung durch Arbeit“ findet sich bei Spoerer, Zwangsarbeit, S. 180-183.
+                        Vgl. Gerlach / Aly, letztes Kapitel, S. 379.394; Jens-Christian Wagner, NS-Untertageanlagen und Gedenkstättenarbeit: Erfahrungen aus Mittelbau-Dora, in: Gedenkstätten-Rundbrief, 147 (2009), S. 5-13, S. 6.
                         <a href=\"#footnote27\">&uarr;</a>
                     </li>
                     <li id=\"endnote28\">
-                        Vgl. Gerlach / Aly, letztes Kapitel.
+                        Eine Diskussion des Begriffes „Vernichtung durch Arbeit“ findet sich bei Spoerer, Zwangsarbeit, S. 180-183.
                         <a href=\"#footnote28\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote29\">
+                        Vgl. Gerlach / Aly, letztes Kapitel.
+                        <a href=\"#footnote29\">&uarr;</a>
                     </li>
                 </ol>
             </div>
