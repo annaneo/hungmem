@@ -119,19 +119,24 @@ class __TwigTemplate_66d4196d21ab5e5ec253c4177bba0bcb extends Template
                     nationalsozialistischen Verbrechen und das Sammeln historischen Materials. Die Kommission war durch
                     ein örtliches Organ der provisorischen ungarischen Regierung gebildet worden, womit sie eines der
                     wenigen Beispiele für eine staatlich angeordnete Dokumentation von Verbrechen der
-                    Nationalsozialisten und ihrer Kollaborateure zu dieser Zeit ist. Bereits im Frühjahr 1945 begann
+                    Nationalsozialisten und ihrer Kollaborateure zu dieser Zeit
+                    ist.<sup><a href=\"#endnote2\" id=\"footnote2\">2</a></sup> Bereits im Frühjahr 1945 begann
                     auch das Landesfürsorgekomitee der Deportierten (Deportáltakat Gondozó Országos Bizottság – DEGOB)
                     als eine Betroffenen-Organisation in Budapest mit der Befragung überlebender Deportierter, wenn
                     diese sich (vorübergehend) in Budapest aufhielten. Mehr als 5.000 Überlebende der
-                    nationalsozialistischen Konzentrationslager gaben auf diese Weise Zeugnis. Andere Überlebende
+                    nationalsozialistischen Konzentrationslager gaben auf diese Weise
+                    Zeugnis.<sup><a href=\"#endnote3\" id=\"footnote3\">3</a></sup> Andere Überlebende
                     publizierten ihre Erinnerungsberichte. Auch die wissenschaftliche Auseinandersetzung mit dem Thema
-                    begann in Ungarn früh und galt lange als einzigartig für Osteuropa. Im Fokus stand dabei vor allem
+                    begann in Ungarn früh und galt lange als einzigartig für
+                    Osteuropa.<sup><a href=\"#endnote4\" id=\"footnote4\">4</a></sup> Im Fokus stand dabei vor allem
                     die gezielte Ermordung der aus Ungarn deportierten Jüdinnen und Juden, von denen jede bzw. jeder
-                    dritte in Auschwitz-Birkenau ermordet wurde, lediglich 22 Prozent der Deportierten überlebten. Das
+                    dritte in Auschwitz-Birkenau ermordet wurde, lediglich 22 Prozent der Deportierten
+                    überlebten.<sup><a href=\"#endnote5\" id=\"footnote5\">5</a></sup> Das
                     Schicksal der ins Deutsche Reich deportierten Zwangsarbeiter und Zwangsarbeiterinnen fand
-                    demgegenüber lange wenig Aufmerksamkeit. Bis heute kontrovers diskutiert wird insbesondere das
+                    demgegenüber lange wenig Aufmerksamkeit.<sup><a href=\"#endnote6\" id=\"footnote6\">6</a></sup>
+                    Bis heute kontrovers diskutiert wird insbesondere das
                     Verhältnis deutscher und ungarischer Täter sowie die Entscheidungsprozesse, die zu den Deportationen
-                    führten.
+                    führten.<sup><a href=\"#endnote7\" id=\"footnote7\">7</a></sup>
                 </p>
                 <p>
 
@@ -170,13 +175,15 @@ class __TwigTemplate_66d4196d21ab5e5ec253c4177bba0bcb extends Template
                 <p>
                     Für die Forschungen zu Häftlingen aus Ungarn ist insbesondere das ab 1944 stark ausgebaute
                     Außenlagersystem relevant. So befanden sich im März 1945 fast 75 Prozent der Häftlinge in den
-                    Außenlagern des KZ Neuengamme und nur etwa ein Viertel im Stammlager.
+                    Außenlagern des KZ Neuengamme und nur etwa ein Viertel im
+                    Stammlager.<sup><a href=\"#endnote8\" id=\"footnote8\">8</a></sup>
                 </p>
                 <p>
                     Die geschichtswissenschaftliche Forschung in Deutschland begann sich aber erst Ende der
                     1980er-Jahre, mit der ökonomischen Ausbeutung der KZ-Häftlinge und dem Außenlagersystem an Orten der
                     Zwangsarbeit auseinanderzusetzten, nachdem im Zuge der Geschichtswerkstätten-Bewegung, die
-                    Lokalgeschichte des Nationalsozialismus in den Blick geriet. In Folge der ehrenamtlichen und dann
+                    Lokalgeschichte des Nationalsozialismus in den Blick
+                    geriet.<sup><a href=\"#endnote9\" id=\"footnote9\">9</a></sup> In Folge der ehrenamtlichen und dann
                     auch wissenschaftlichen Auseinandersetzung mit lokalen Stätten der Verfolgung veränderte sich die
                     institutionelle Verankerung der Erinnerung und Erforschung der Opfer nationalsozialistischer
                     Verfolgung. An vielen Orten entstanden Gedenkstätten, Dokumentationszentren oder Archive. In
@@ -185,7 +192,8 @@ class __TwigTemplate_66d4196d21ab5e5ec253c4177bba0bcb extends Template
                     ehemaliger Außenlager. In Bergen-Belsen hatte bereits seit 1952 eine Gedenkstätte bestanden, die
                     aber erst seit 1990 zu einer umfangreichen Gedenk- und Bildungsinstitution mit eigenen Archivkräften
                     und wissenschaftlichem Personal ausgebaut wurde. Ein Schritt, der sich in Neuengamme mit der
-                    Eröffnung einer modernisierten Gedenkstätte mit Ausstellung ab 2005 vollzog. Die wenigen verfügbaren
+                    Eröffnung einer modernisierten Gedenkstätte mit Ausstellung ab 2005
+                    vollzog.<sup><a href=\"#endnote10\" id=\"footnote10\">10</a></sup> Die wenigen verfügbaren
                     Informationen und Quellen über Häftlinge in den Außenlagern werden seitdem von den Archiven und
                     wissenschaftlichen Mitarbeitenden der entsprechenden Gedenkstätten und ehrenamtlich tätigen
                     Lokalhistorikerinnen und Lokalhistorikern zusammengetragen. Die Arbeit des Arolsen-Archivs, der
@@ -207,16 +215,18 @@ class __TwigTemplate_66d4196d21ab5e5ec253c4177bba0bcb extends Template
                     Häftlingsbestandlisten oder Transportlisten, die Rückschlüsse auf die Namen der Inhaftierten
                     zulassen würden, sind nur in Ausnahmen vorhanden. Erhalten geblieben sind für das
                     Konzentrationslager Neuengamme insbesondere einzelne Dokumente, die Todesfälle verzeichnen, sodass
-                    die Namen einiger Ermordeter bekannt sind. Für das Konzentrationslager Bergen-Belsen sind viele
+                    die Namen einiger Ermordeter bekannt sind.<sup><a href=\"#endnote11\" id=\"footnote11\">11</a></sup>
+                    Für das Konzentrationslager Bergen-Belsen sind viele
                     Quellen zu überlebenden Häftlingen vorhanden, die beispielsweise im nach der Befreiung
-                    eingerichteten DP-Camp untergebracht waren.
+                    eingerichteten DP-Camp untergebracht waren.<sup><a href=\"#endnote12\" id=\"footnote12\">12</a></sup>
                 </p>
                 <p>
                     Da viele der Neuengammer Außenlager vor der Befreiung geräumt wurden und Überlebende in der Regel in
                     „Auffanglager“ wie beispielsweise Bergen-Belsen transportiert wurden, wo sie dann befreit wurden,
                     gibt es diese Quellen für Neuengamme und seine Außenlager nicht. Eine Ausnahme bildet eine Liste
                     befreiter Häftlinge in Salzwedel, das einzige Außenlager des KZ Neuengamme, das nicht geräumt wurde
-                    und dessen Häftlinge vor Ort befreit wurden. Die Deportationsrouten der in Bergen-Belsen befreiten
+                    und dessen Häftlinge vor Ort befreit wurden.<sup><a href=\"#endnote13\" id=\"footnote13\">13</a></sup>
+                    Die Deportationsrouten der in Bergen-Belsen befreiten
                     Häftlinge lassen sich ohne Unterlagen der SS-Verwaltung nicht ohne weiteres nachvollziehen. Die
                     erhaltenen Unterlagen der SS-Verwaltung lassen jedoch oft nur bruchstückhafte Rückschlüsse auf die
                     Inhaftierten zu, die zudem durch die entmenschlichende Perspektive der Täter geprägt sind.
@@ -254,7 +264,8 @@ class __TwigTemplate_66d4196d21ab5e5ec253c4177bba0bcb extends Template
                     sind die standardisierten Karteikarten größtenteils noch vorhanden. Auf ihnen finden sich jedoch
                     lediglich für die SS verwertbare und maschinell lesbare Informationen, das heißt die Häftlingsnummer
                     der Häftlinge, ihre Nationalität, ihr Geschlecht, ihre Geburtsdaten und Berufe sowie
-                    Deportationsdaten, allerdings keine Namen. Diese Quellen stehen damit beispielhaft für die
+                    Deportationsdaten, allerdings keine Namen.<sup><a href=\"#endnote14\" id=\"footnote14\">14</a></sup>
+                    Diese Quellen stehen damit beispielhaft für die
                     entmenschlichende bürokratische Sichtweise der Nationalsozialisten, die Menschen zu bloßen Zahlen
                     und ihrer Verwendbarkeit für ihre Zwecke degradierten.
                 </p>
@@ -265,6 +276,27 @@ class __TwigTemplate_66d4196d21ab5e5ec253c4177bba0bcb extends Template
                 </p>
             </div>
             <div class=\"col-lg-4\">
+                <div class=\"infobox mt-2\">
+                    <h4>&#9432; Zwangsarbeit</h4>
+                    <p>
+                        Das nationalsozialistische Deutschland griff in hohem Maße auf Zwangsarbeit
+                        zurück um seinen Arbeitskräftebedarf zu decken, alleine im Deutschen Reich
+                        mussten während des Zweiten Weltkrieges über 13,5 Millionen Menschen
+                        Zwangsarbeit leisten. Zwangsarbeit wurde dabei in allen Industriezweigen aber
+                        auch in der Landwirtschaft und in Privathaushalten eingesetzt. Die
+                        Zwangsarbeiter und Zwangsarbeiterinnen gehörten insbesondere in den letzten
+                        Kriegsjahren zum sichtbaren Alltag im nationalsozialistischen Deutschland.
+                    </p>
+                    <p>
+                        <a href=\"";
+        // line 203
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_context");
+        yield "#zwangsarbeit\"
+                           title=\"Mehr Informationen zu Zwangsarbeit und historischem Kontext\">
+                            &#10149; Mehr Informationen zu Zwangsarbeit
+                        </a>
+                    </p>
+                </div>
             </div>
         </div>
 
@@ -297,7 +329,8 @@ class __TwigTemplate_66d4196d21ab5e5ec253c4177bba0bcb extends Template
                     Verfolgungsgeschichte. Einige der Überlebenden beschrieben ihre Haftzeit in Außenlagern des KZ
                     Neuengamme rückblickend als „Luxury“, als „Luxus“, oder als “Paradies“, was nur im Kontext des
                     gesamten Gespräches und vor dem Hintergrund der Erfahrungen in Auschwitz und Bergen-Belsen Sinn
-                    ergibt. Berichten können nur die Überlebenden, die Perspektive der Ermordeten bleibt zwangsläufig
+                    ergibt.<sup><a href=\"#endnote15\" id=\"footnote15\">15</a></sup>
+                    Berichten können nur die Überlebenden, die Perspektive der Ermordeten bleibt zwangsläufig
                     unsichtbar.
                 </p>
             </div>
@@ -311,7 +344,8 @@ class __TwigTemplate_66d4196d21ab5e5ec253c4177bba0bcb extends Template
                 <p>
                     Die Namen, Deportationswege und Perspektive der meisten Deportierten bleiben daher unbekannt. Der
                     Historiker Detlef Garbe schätzt die Zahl der Häftlinge aus Ungarn im KZ Neuengamme und seinen
-                    Außenlagern auf etwa 7.200. Lediglich die Namen von 2.105 dieser Häftlinge konnten im Projekt durch
+                    Außenlagern auf etwa 7.200.<sup><a href=\"#endnote16\" id=\"footnote16\">16</a></sup>
+                    Lediglich die Namen von 2.105 dieser Häftlinge konnten im Projekt durch
                     die Kooperation mit der KZ Gedenkstätte Neuengamme dokumentiert werden. Ein Großteil dieser Namen
                     stammt dabei von den in Salzwedel befreiten Frauen, in anderen Außenlagern sind teilweise nur wenige
                     vereinzelte Namen bekannt. Anhand der vorhandenen Quellen konnten gleichzeitig Transporte von circa
@@ -369,6 +403,18 @@ class __TwigTemplate_66d4196d21ab5e5ec253c4177bba0bcb extends Template
                 </p>
             </div>
             <div class=\"col-lg-4\">
+                <div class=\"infobox\">
+                    <h4>&#9432; Mehr über das Projekt</h4>
+                    <p>
+                        <a href=\"";
+        // line 318
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_about");
+        yield "#zwangsarbeit\"
+                           title=\"Mehr Informationen zum Projekt HUNGMEM\">
+                            &#10149; Mehr Informationen zu HUNGMEM
+                        </a>
+                    </p>
+                </div>
             </div>
         </div>
 
@@ -392,7 +438,7 @@ class __TwigTemplate_66d4196d21ab5e5ec253c4177bba0bcb extends Template
                         <a href=\"https://zeithistorische-forschungen.de/2-2017/5496\"
                            title=\"Website Zeithistorische Forschungen\">
                             https://zeithistorische-forschungen.de/2-2017/5496
-                            </a>(letzter Zugriff 26.07.2024).
+                        </a>(letzter Zugriff 26.07.2024).
                     </li>
                     <li>
                         Regina Fritz, Einleitung, in: Susanne Heim et al (Hrsg.), Die Verfolgung und Ermordung der
@@ -441,10 +487,94 @@ class __TwigTemplate_66d4196d21ab5e5ec253c4177bba0bcb extends Template
         <h3 class=\"mt-4\">Fußnoten</h3>
         <div class=\"row\">
             <div class=\"col-lg-8\">
-                <p>
-                </p>
-                <p>
-                </p>
+                <ol>
+                    <li id=\"endnote1\">
+                        Vgl. Johannes Meerwald, The DEGOB Protocols and the Deportations of Jewish Prisoners to the
+                        Dachau Camp Complex, in: Hennig Borggräfe / Akim Jah (Hrsg.), Deportations in the Nazi Era:
+                        Sources and Research, Berlin / Boston, S. 405-428, S. 407.
+                        <a href=\"#footnote1\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote2\">
+                        Vgl. Regina Fritz, Zwischen Dokumentieren und Erforschen. Die Historiografie des Holocaust in
+                        Ungarn, in: Einsicht. Bulletin des Fritz Bauer Instituts 11 (2014), S. 24-30, S. 25; Dies., Eine
+                        frühe Dokumentation des Holocaust in Ungarn. Die »Untersuchungskommission zur Erforschung und
+                        Bekanntmachung der von den Nationalsozialisten und Pfeilkreuzlern verübten Verbrechen« (1945),
+                        in: Zeithistorische Forschungen / Studies in Contemporary History, Online-Ausgabe, 14 (2017), H.
+                        2, online unter: https://zeithistorische-forschungen.de/2-2017/5496 (letzter Zugriff:
+                        26.07.2024).
+                        <a href=\"#footnote2\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote3\">
+                        Vgl. Fritz, Zwischen Dokumentieren und Erforschen, S. 25.
+                        <a href=\"#footnote3\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote4\">
+                        Vgl. Fritz, Zwischen Dokumentieren und Erforschen, S. 24.
+                        <a href=\"#footnote4\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote5\">
+                        Vgl. Christian Gerlach / Götz Aly, Das letzte Kapitel. Der Mord an den ungarischen Juden,
+                        Stuttgart / München 2002, S. 409; Regina Fritz: Einleitung, in: Susanne Heim et al (Hrsg.), Die
+                        Verfolgung und Ermordung der europäischen Juden durch das nationalsozialistische Deutschland
+                        1933.1945, Band 15. Ungarn 1944-1945. Bearbeitet von Regina Fritz, Berlin / Boston 2021, S.
+                        13-84, S. 84.
+                        <a href=\"#footnote\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote6\">
+                        Vgl. Meerwald, The DEGOB Protocols, S. 407.
+                        <a href=\"#footnote6\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote7\">
+                        Vgl. Meerwald, The DEGOB Protocols, S. 407; sowie Gerlach / Aly, Das letzte Kapitel, S. 11-15.
+                        <a href=\"#footnote7\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote8\">
+                        Vgl. Katharina Hertz-Eichenrode, Ein KZ wird geräumt – Häftlinge zwischen Vernichtung und
+                        Befreiung, Eine Wanderausstellung über die Auflösung des KZ Neuengamme und seiner Aussenlager
+                        durch die SS im Frühjahr 1945, in: Gedenkstättenrundbrief 96 (2000), S. 27-34, S. 27.
+                        <a href=\"#footnote8\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote9\">
+                        Vgl. Marc Buggeln, Arbeit und Gewalt. Das Außenlagersystem des KZ Neuengamme, Göttingen 2009, S.
+                        13-14.
+                        <a href=\"#footnote9\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote10\">
+                        Vgl. Jenny Wüstenberg, Zivilgesellschaft und Erinnerungspolitik in Deutschland seit 1945, Berlin
+                        2020, S. 105f; Detlef Garbe, Neuengamme im System der Konzentrationslager: Studien zur Ereignis-
+                        und Rezeptionsgeschichte, Berlin 2015, S. 373-418; Wilfried Wiedemann, Das neue
+                        Dokumentationszentrum der Gedenkstätte Bergen-Belsen, in: Stiftung niedersächsische
+                        Gedenkstätten (Hrsg.), Bergen-Belsen. Kriegsgefangenenlager 1940-1945. Konzentrationslager
+                        1943-1945. Displaced Persons Camp 1945-1950, Celle 2009, S. 13-19, S. 13.
+                        <a href=\"#footnote10\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote11\">
+                        Vgl. Buggeln, Arbeit und Gewalt, S. 27-29.
+                        <a href=\"#footnote11\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote12\">
+                        Vgl. Wiedemann, Das neue Dokumentationszentrum.
+                        <a href=\"#footnote12\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote13\">
+                        Vgl. Hans Ellger, Salzwedel, in: Wolfgang Benz / Barbara Diestel (Hrsg.), Der Ort des Terrors.
+                        Geschichte der nationalsozialistischen Konzentrationslager, Band 5: Hinzert. Auschwitz.
+                        Neuengamme, München 2007, S. 514-516.
+                        <a href=\"#footnote13\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote14\">
+                        Christian Römmer, Digitalisierung der WVHA-Häftlingskartei, in: Gedenkstätten-Rundbrief 150
+                        (2009), S. 20-25.
+                        <a href=\"#footnote14\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote15\">
+                        Hédi Fried, Fragmente meines Lebens. Ein Leben bis Auschwitz und ein Leben danach, Lizenzausgabe
+                        Hamburg 2023, britische Originalausgabe 1990, S. 116; Paula Herrmann, Unvergessliche Tage in
+                        Hamburg, HB 392 Archiv der Gedenkstätte Neuengamme.
+                        Vgl. Garbe, Neuengamme, S. 101.
+                        <a href=\"#footnote15\">&uarr;</a>
+                    </li>
+                </ol>
             </div>
         </div>
 
@@ -457,7 +587,7 @@ class __TwigTemplate_66d4196d21ab5e5ec253c4177bba0bcb extends Template
                     nach Norddeutschland 1944, hrsg. vom
                     Institut für die Geschichte der deutschen Juden, URL:
                     https://holocaust-ungarn-norddeutschland.de";
-        // line 371
+        // line 495
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_context");
         yield ". Lizenz: CC BY
                     4.0.
@@ -498,7 +628,7 @@ class __TwigTemplate_66d4196d21ab5e5ec253c4177bba0bcb extends Template
      */
     public function getDebugInfo()
     {
-        return array (  461 => 371,  95 => 7,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
+        return array (  591 => 495,  411 => 318,  293 => 203,  95 => 7,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -536,19 +666,24 @@ class __TwigTemplate_66d4196d21ab5e5ec253c4177bba0bcb extends Template
                     nationalsozialistischen Verbrechen und das Sammeln historischen Materials. Die Kommission war durch
                     ein örtliches Organ der provisorischen ungarischen Regierung gebildet worden, womit sie eines der
                     wenigen Beispiele für eine staatlich angeordnete Dokumentation von Verbrechen der
-                    Nationalsozialisten und ihrer Kollaborateure zu dieser Zeit ist. Bereits im Frühjahr 1945 begann
+                    Nationalsozialisten und ihrer Kollaborateure zu dieser Zeit
+                    ist.<sup><a href=\"#endnote2\" id=\"footnote2\">2</a></sup> Bereits im Frühjahr 1945 begann
                     auch das Landesfürsorgekomitee der Deportierten (Deportáltakat Gondozó Országos Bizottság – DEGOB)
                     als eine Betroffenen-Organisation in Budapest mit der Befragung überlebender Deportierter, wenn
                     diese sich (vorübergehend) in Budapest aufhielten. Mehr als 5.000 Überlebende der
-                    nationalsozialistischen Konzentrationslager gaben auf diese Weise Zeugnis. Andere Überlebende
+                    nationalsozialistischen Konzentrationslager gaben auf diese Weise
+                    Zeugnis.<sup><a href=\"#endnote3\" id=\"footnote3\">3</a></sup> Andere Überlebende
                     publizierten ihre Erinnerungsberichte. Auch die wissenschaftliche Auseinandersetzung mit dem Thema
-                    begann in Ungarn früh und galt lange als einzigartig für Osteuropa. Im Fokus stand dabei vor allem
+                    begann in Ungarn früh und galt lange als einzigartig für
+                    Osteuropa.<sup><a href=\"#endnote4\" id=\"footnote4\">4</a></sup> Im Fokus stand dabei vor allem
                     die gezielte Ermordung der aus Ungarn deportierten Jüdinnen und Juden, von denen jede bzw. jeder
-                    dritte in Auschwitz-Birkenau ermordet wurde, lediglich 22 Prozent der Deportierten überlebten. Das
+                    dritte in Auschwitz-Birkenau ermordet wurde, lediglich 22 Prozent der Deportierten
+                    überlebten.<sup><a href=\"#endnote5\" id=\"footnote5\">5</a></sup> Das
                     Schicksal der ins Deutsche Reich deportierten Zwangsarbeiter und Zwangsarbeiterinnen fand
-                    demgegenüber lange wenig Aufmerksamkeit. Bis heute kontrovers diskutiert wird insbesondere das
+                    demgegenüber lange wenig Aufmerksamkeit.<sup><a href=\"#endnote6\" id=\"footnote6\">6</a></sup>
+                    Bis heute kontrovers diskutiert wird insbesondere das
                     Verhältnis deutscher und ungarischer Täter sowie die Entscheidungsprozesse, die zu den Deportationen
-                    führten.
+                    führten.<sup><a href=\"#endnote7\" id=\"footnote7\">7</a></sup>
                 </p>
                 <p>
 
@@ -587,13 +722,15 @@ class __TwigTemplate_66d4196d21ab5e5ec253c4177bba0bcb extends Template
                 <p>
                     Für die Forschungen zu Häftlingen aus Ungarn ist insbesondere das ab 1944 stark ausgebaute
                     Außenlagersystem relevant. So befanden sich im März 1945 fast 75 Prozent der Häftlinge in den
-                    Außenlagern des KZ Neuengamme und nur etwa ein Viertel im Stammlager.
+                    Außenlagern des KZ Neuengamme und nur etwa ein Viertel im
+                    Stammlager.<sup><a href=\"#endnote8\" id=\"footnote8\">8</a></sup>
                 </p>
                 <p>
                     Die geschichtswissenschaftliche Forschung in Deutschland begann sich aber erst Ende der
                     1980er-Jahre, mit der ökonomischen Ausbeutung der KZ-Häftlinge und dem Außenlagersystem an Orten der
                     Zwangsarbeit auseinanderzusetzten, nachdem im Zuge der Geschichtswerkstätten-Bewegung, die
-                    Lokalgeschichte des Nationalsozialismus in den Blick geriet. In Folge der ehrenamtlichen und dann
+                    Lokalgeschichte des Nationalsozialismus in den Blick
+                    geriet.<sup><a href=\"#endnote9\" id=\"footnote9\">9</a></sup> In Folge der ehrenamtlichen und dann
                     auch wissenschaftlichen Auseinandersetzung mit lokalen Stätten der Verfolgung veränderte sich die
                     institutionelle Verankerung der Erinnerung und Erforschung der Opfer nationalsozialistischer
                     Verfolgung. An vielen Orten entstanden Gedenkstätten, Dokumentationszentren oder Archive. In
@@ -602,7 +739,8 @@ class __TwigTemplate_66d4196d21ab5e5ec253c4177bba0bcb extends Template
                     ehemaliger Außenlager. In Bergen-Belsen hatte bereits seit 1952 eine Gedenkstätte bestanden, die
                     aber erst seit 1990 zu einer umfangreichen Gedenk- und Bildungsinstitution mit eigenen Archivkräften
                     und wissenschaftlichem Personal ausgebaut wurde. Ein Schritt, der sich in Neuengamme mit der
-                    Eröffnung einer modernisierten Gedenkstätte mit Ausstellung ab 2005 vollzog. Die wenigen verfügbaren
+                    Eröffnung einer modernisierten Gedenkstätte mit Ausstellung ab 2005
+                    vollzog.<sup><a href=\"#endnote10\" id=\"footnote10\">10</a></sup> Die wenigen verfügbaren
                     Informationen und Quellen über Häftlinge in den Außenlagern werden seitdem von den Archiven und
                     wissenschaftlichen Mitarbeitenden der entsprechenden Gedenkstätten und ehrenamtlich tätigen
                     Lokalhistorikerinnen und Lokalhistorikern zusammengetragen. Die Arbeit des Arolsen-Archivs, der
@@ -624,16 +762,18 @@ class __TwigTemplate_66d4196d21ab5e5ec253c4177bba0bcb extends Template
                     Häftlingsbestandlisten oder Transportlisten, die Rückschlüsse auf die Namen der Inhaftierten
                     zulassen würden, sind nur in Ausnahmen vorhanden. Erhalten geblieben sind für das
                     Konzentrationslager Neuengamme insbesondere einzelne Dokumente, die Todesfälle verzeichnen, sodass
-                    die Namen einiger Ermordeter bekannt sind. Für das Konzentrationslager Bergen-Belsen sind viele
+                    die Namen einiger Ermordeter bekannt sind.<sup><a href=\"#endnote11\" id=\"footnote11\">11</a></sup>
+                    Für das Konzentrationslager Bergen-Belsen sind viele
                     Quellen zu überlebenden Häftlingen vorhanden, die beispielsweise im nach der Befreiung
-                    eingerichteten DP-Camp untergebracht waren.
+                    eingerichteten DP-Camp untergebracht waren.<sup><a href=\"#endnote12\" id=\"footnote12\">12</a></sup>
                 </p>
                 <p>
                     Da viele der Neuengammer Außenlager vor der Befreiung geräumt wurden und Überlebende in der Regel in
                     „Auffanglager“ wie beispielsweise Bergen-Belsen transportiert wurden, wo sie dann befreit wurden,
                     gibt es diese Quellen für Neuengamme und seine Außenlager nicht. Eine Ausnahme bildet eine Liste
                     befreiter Häftlinge in Salzwedel, das einzige Außenlager des KZ Neuengamme, das nicht geräumt wurde
-                    und dessen Häftlinge vor Ort befreit wurden. Die Deportationsrouten der in Bergen-Belsen befreiten
+                    und dessen Häftlinge vor Ort befreit wurden.<sup><a href=\"#endnote13\" id=\"footnote13\">13</a></sup>
+                    Die Deportationsrouten der in Bergen-Belsen befreiten
                     Häftlinge lassen sich ohne Unterlagen der SS-Verwaltung nicht ohne weiteres nachvollziehen. Die
                     erhaltenen Unterlagen der SS-Verwaltung lassen jedoch oft nur bruchstückhafte Rückschlüsse auf die
                     Inhaftierten zu, die zudem durch die entmenschlichende Perspektive der Täter geprägt sind.
@@ -671,7 +811,8 @@ class __TwigTemplate_66d4196d21ab5e5ec253c4177bba0bcb extends Template
                     sind die standardisierten Karteikarten größtenteils noch vorhanden. Auf ihnen finden sich jedoch
                     lediglich für die SS verwertbare und maschinell lesbare Informationen, das heißt die Häftlingsnummer
                     der Häftlinge, ihre Nationalität, ihr Geschlecht, ihre Geburtsdaten und Berufe sowie
-                    Deportationsdaten, allerdings keine Namen. Diese Quellen stehen damit beispielhaft für die
+                    Deportationsdaten, allerdings keine Namen.<sup><a href=\"#endnote14\" id=\"footnote14\">14</a></sup>
+                    Diese Quellen stehen damit beispielhaft für die
                     entmenschlichende bürokratische Sichtweise der Nationalsozialisten, die Menschen zu bloßen Zahlen
                     und ihrer Verwendbarkeit für ihre Zwecke degradierten.
                 </p>
@@ -682,6 +823,24 @@ class __TwigTemplate_66d4196d21ab5e5ec253c4177bba0bcb extends Template
                 </p>
             </div>
             <div class=\"col-lg-4\">
+                <div class=\"infobox mt-2\">
+                    <h4>&#9432; Zwangsarbeit</h4>
+                    <p>
+                        Das nationalsozialistische Deutschland griff in hohem Maße auf Zwangsarbeit
+                        zurück um seinen Arbeitskräftebedarf zu decken, alleine im Deutschen Reich
+                        mussten während des Zweiten Weltkrieges über 13,5 Millionen Menschen
+                        Zwangsarbeit leisten. Zwangsarbeit wurde dabei in allen Industriezweigen aber
+                        auch in der Landwirtschaft und in Privathaushalten eingesetzt. Die
+                        Zwangsarbeiter und Zwangsarbeiterinnen gehörten insbesondere in den letzten
+                        Kriegsjahren zum sichtbaren Alltag im nationalsozialistischen Deutschland.
+                    </p>
+                    <p>
+                        <a href=\"{{ path('app_context') }}#zwangsarbeit\"
+                           title=\"Mehr Informationen zu Zwangsarbeit und historischem Kontext\">
+                            &#10149; Mehr Informationen zu Zwangsarbeit
+                        </a>
+                    </p>
+                </div>
             </div>
         </div>
 
@@ -714,7 +873,8 @@ class __TwigTemplate_66d4196d21ab5e5ec253c4177bba0bcb extends Template
                     Verfolgungsgeschichte. Einige der Überlebenden beschrieben ihre Haftzeit in Außenlagern des KZ
                     Neuengamme rückblickend als „Luxury“, als „Luxus“, oder als “Paradies“, was nur im Kontext des
                     gesamten Gespräches und vor dem Hintergrund der Erfahrungen in Auschwitz und Bergen-Belsen Sinn
-                    ergibt. Berichten können nur die Überlebenden, die Perspektive der Ermordeten bleibt zwangsläufig
+                    ergibt.<sup><a href=\"#endnote15\" id=\"footnote15\">15</a></sup>
+                    Berichten können nur die Überlebenden, die Perspektive der Ermordeten bleibt zwangsläufig
                     unsichtbar.
                 </p>
             </div>
@@ -728,7 +888,8 @@ class __TwigTemplate_66d4196d21ab5e5ec253c4177bba0bcb extends Template
                 <p>
                     Die Namen, Deportationswege und Perspektive der meisten Deportierten bleiben daher unbekannt. Der
                     Historiker Detlef Garbe schätzt die Zahl der Häftlinge aus Ungarn im KZ Neuengamme und seinen
-                    Außenlagern auf etwa 7.200. Lediglich die Namen von 2.105 dieser Häftlinge konnten im Projekt durch
+                    Außenlagern auf etwa 7.200.<sup><a href=\"#endnote16\" id=\"footnote16\">16</a></sup>
+                    Lediglich die Namen von 2.105 dieser Häftlinge konnten im Projekt durch
                     die Kooperation mit der KZ Gedenkstätte Neuengamme dokumentiert werden. Ein Großteil dieser Namen
                     stammt dabei von den in Salzwedel befreiten Frauen, in anderen Außenlagern sind teilweise nur wenige
                     vereinzelte Namen bekannt. Anhand der vorhandenen Quellen konnten gleichzeitig Transporte von circa
@@ -786,6 +947,15 @@ class __TwigTemplate_66d4196d21ab5e5ec253c4177bba0bcb extends Template
                 </p>
             </div>
             <div class=\"col-lg-4\">
+                <div class=\"infobox\">
+                    <h4>&#9432; Mehr über das Projekt</h4>
+                    <p>
+                        <a href=\"{{ path('app_about') }}#zwangsarbeit\"
+                           title=\"Mehr Informationen zum Projekt HUNGMEM\">
+                            &#10149; Mehr Informationen zu HUNGMEM
+                        </a>
+                    </p>
+                </div>
             </div>
         </div>
 
@@ -809,7 +979,7 @@ class __TwigTemplate_66d4196d21ab5e5ec253c4177bba0bcb extends Template
                         <a href=\"https://zeithistorische-forschungen.de/2-2017/5496\"
                            title=\"Website Zeithistorische Forschungen\">
                             https://zeithistorische-forschungen.de/2-2017/5496
-                            </a>(letzter Zugriff 26.07.2024).
+                        </a>(letzter Zugriff 26.07.2024).
                     </li>
                     <li>
                         Regina Fritz, Einleitung, in: Susanne Heim et al (Hrsg.), Die Verfolgung und Ermordung der
@@ -858,10 +1028,94 @@ class __TwigTemplate_66d4196d21ab5e5ec253c4177bba0bcb extends Template
         <h3 class=\"mt-4\">Fußnoten</h3>
         <div class=\"row\">
             <div class=\"col-lg-8\">
-                <p>
-                </p>
-                <p>
-                </p>
+                <ol>
+                    <li id=\"endnote1\">
+                        Vgl. Johannes Meerwald, The DEGOB Protocols and the Deportations of Jewish Prisoners to the
+                        Dachau Camp Complex, in: Hennig Borggräfe / Akim Jah (Hrsg.), Deportations in the Nazi Era:
+                        Sources and Research, Berlin / Boston, S. 405-428, S. 407.
+                        <a href=\"#footnote1\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote2\">
+                        Vgl. Regina Fritz, Zwischen Dokumentieren und Erforschen. Die Historiografie des Holocaust in
+                        Ungarn, in: Einsicht. Bulletin des Fritz Bauer Instituts 11 (2014), S. 24-30, S. 25; Dies., Eine
+                        frühe Dokumentation des Holocaust in Ungarn. Die »Untersuchungskommission zur Erforschung und
+                        Bekanntmachung der von den Nationalsozialisten und Pfeilkreuzlern verübten Verbrechen« (1945),
+                        in: Zeithistorische Forschungen / Studies in Contemporary History, Online-Ausgabe, 14 (2017), H.
+                        2, online unter: https://zeithistorische-forschungen.de/2-2017/5496 (letzter Zugriff:
+                        26.07.2024).
+                        <a href=\"#footnote2\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote3\">
+                        Vgl. Fritz, Zwischen Dokumentieren und Erforschen, S. 25.
+                        <a href=\"#footnote3\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote4\">
+                        Vgl. Fritz, Zwischen Dokumentieren und Erforschen, S. 24.
+                        <a href=\"#footnote4\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote5\">
+                        Vgl. Christian Gerlach / Götz Aly, Das letzte Kapitel. Der Mord an den ungarischen Juden,
+                        Stuttgart / München 2002, S. 409; Regina Fritz: Einleitung, in: Susanne Heim et al (Hrsg.), Die
+                        Verfolgung und Ermordung der europäischen Juden durch das nationalsozialistische Deutschland
+                        1933.1945, Band 15. Ungarn 1944-1945. Bearbeitet von Regina Fritz, Berlin / Boston 2021, S.
+                        13-84, S. 84.
+                        <a href=\"#footnote\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote6\">
+                        Vgl. Meerwald, The DEGOB Protocols, S. 407.
+                        <a href=\"#footnote6\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote7\">
+                        Vgl. Meerwald, The DEGOB Protocols, S. 407; sowie Gerlach / Aly, Das letzte Kapitel, S. 11-15.
+                        <a href=\"#footnote7\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote8\">
+                        Vgl. Katharina Hertz-Eichenrode, Ein KZ wird geräumt – Häftlinge zwischen Vernichtung und
+                        Befreiung, Eine Wanderausstellung über die Auflösung des KZ Neuengamme und seiner Aussenlager
+                        durch die SS im Frühjahr 1945, in: Gedenkstättenrundbrief 96 (2000), S. 27-34, S. 27.
+                        <a href=\"#footnote8\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote9\">
+                        Vgl. Marc Buggeln, Arbeit und Gewalt. Das Außenlagersystem des KZ Neuengamme, Göttingen 2009, S.
+                        13-14.
+                        <a href=\"#footnote9\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote10\">
+                        Vgl. Jenny Wüstenberg, Zivilgesellschaft und Erinnerungspolitik in Deutschland seit 1945, Berlin
+                        2020, S. 105f; Detlef Garbe, Neuengamme im System der Konzentrationslager: Studien zur Ereignis-
+                        und Rezeptionsgeschichte, Berlin 2015, S. 373-418; Wilfried Wiedemann, Das neue
+                        Dokumentationszentrum der Gedenkstätte Bergen-Belsen, in: Stiftung niedersächsische
+                        Gedenkstätten (Hrsg.), Bergen-Belsen. Kriegsgefangenenlager 1940-1945. Konzentrationslager
+                        1943-1945. Displaced Persons Camp 1945-1950, Celle 2009, S. 13-19, S. 13.
+                        <a href=\"#footnote10\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote11\">
+                        Vgl. Buggeln, Arbeit und Gewalt, S. 27-29.
+                        <a href=\"#footnote11\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote12\">
+                        Vgl. Wiedemann, Das neue Dokumentationszentrum.
+                        <a href=\"#footnote12\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote13\">
+                        Vgl. Hans Ellger, Salzwedel, in: Wolfgang Benz / Barbara Diestel (Hrsg.), Der Ort des Terrors.
+                        Geschichte der nationalsozialistischen Konzentrationslager, Band 5: Hinzert. Auschwitz.
+                        Neuengamme, München 2007, S. 514-516.
+                        <a href=\"#footnote13\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote14\">
+                        Christian Römmer, Digitalisierung der WVHA-Häftlingskartei, in: Gedenkstätten-Rundbrief 150
+                        (2009), S. 20-25.
+                        <a href=\"#footnote14\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote15\">
+                        Hédi Fried, Fragmente meines Lebens. Ein Leben bis Auschwitz und ein Leben danach, Lizenzausgabe
+                        Hamburg 2023, britische Originalausgabe 1990, S. 116; Paula Herrmann, Unvergessliche Tage in
+                        Hamburg, HB 392 Archiv der Gedenkstätte Neuengamme.
+                        Vgl. Garbe, Neuengamme, S. 101.
+                        <a href=\"#footnote15\">&uarr;</a>
+                    </li>
+                </ol>
             </div>
         </div>
 

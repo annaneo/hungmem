@@ -157,7 +157,8 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
                     ihnen starben.<sup><a href=\"#endnote5\" id=\"footnote5\">5</a></sup> 1941 wurden zudem Ehen zwischen
                     Juden und Nichtjuden verboten und die Definition, wer
                     als jüdisch anzusehen sei, ausgeweitet. Entscheidend war zukünftig nicht nur die
-                    Religionszugehörigkeit, sondern auch die Abstammung.<sup><a href=\"#endnote6\" id=\"footnote6\">6</a></sup>
+                    Religionszugehörigkeit, sondern auch die Abstammung.<sup><a href=\"#endnote6\"
+                                                                                id=\"footnote6\">6</a></sup>
                     Ende August 1941 wurden dann circa 18.000 Juden
                     und Jüdinnen, die entweder zuvor aus anderen Ländern vor den Nationalsozialisten nach Ungarn
                     geflohen waren oder nicht schnell genug ihre ungarische Staatsangehörigkeit nachweisen konnten, als
@@ -226,7 +227,7 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
                 </p>
                 <div>
                     <img class=\"img-fluid\" src=\"";
-        // line 134
+        // line 135
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder_840x560.jpg"), "html", null, true);
         yield "\"
                          alt=\"Ankunft jüdischer Männer, Frauen und Kinder  in Auschwitz-Birkenau\"/>
@@ -250,14 +251,15 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
                     waren.<sup><a href=\"#endnote14\" id=\"footnote14\">14</a></sup>
                 </p>
                 <img class=\"img-fluid\" src=\"";
-        // line 155
+        // line 156
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder_840x560.jpg"), "html", null, true);
         yield "\"
                      alt=\"Ankunft jüdischer Männer, Frauen und Kinder  in Auschwitz-Birkenau\"/>
                 <p class=\"caption\">
-                    Standorte von Konzentrationslager in Norddeutschland, in denen aus Ungarn deportierte Personen seit 1944 inhaftiert waren.
+                    Standorte von Konzentrationslager in Norddeutschland, in denen aus Ungarn deportierte Personen seit
+                    1944 inhaftiert waren.
                     <a href=\"";
-        // line 159
+        // line 161
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_map");
         yield "\" title=\"Kartenübersicht\">
                         &#10149; Zur interaktiven Karte
@@ -383,7 +385,7 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
                     zurückgegriffen.<sup><a href=\"#endnote27\" id=\"footnote27\">27</a></sup>
                 </p>
                 <img class=\"img-fluid\" src=\"";
-        // line 282
+        // line 284
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder_840x560.jpg"), "html", null, true);
         yield "\"
                      alt=\" Weibliche KZ-Häftlinge aus Ungarn und Polen, die in der Bemer Innenstadt Trümmer räumen\"/>
@@ -440,7 +442,9 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
                         Fritz, Berlin / Boston 2021
                     </li>
                     <li>
-                        Johannes Meerwald: The DEGOB Protocols and the Deportations of Jewish Prisoners to the Dachau Camp Complex; in: Henning Borggräfe / Akim Jah (Hrsg.), Deportations in the Nazi Era: Sources and Research, Berlin / Boston, S. 405-428, S. 406.
+                        Johannes Meerwald: The DEGOB Protocols and the Deportations of Jewish Prisoners to the Dachau
+                        Camp Complex; in: Henning Borggräfe / Akim Jah (Hrsg.), Deportations in the Nazi Era: Sources
+                        and Research, Berlin / Boston, S. 405-428, S. 406.
                     </li>
                     <li>
                         Mark Spoerer, Zwangsarbeit unter dem Hakenkreuz, Stuttgart / München 2001.
@@ -458,7 +462,8 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
             <div class=\"col-lg-8 caption\">
                 <ol>
                     <li id=\"endnote1\">
-                        Vgl. Christian Gerlach / Götz Aly, Das letzte Kapitel. Der Mord an den ungarischen Juden, Stuttgart / München 2002, S. 28-30.
+                        Vgl. Christian Gerlach / Götz Aly, Das letzte Kapitel. Der Mord an den ungarischen Juden,
+                        Stuttgart / München 2002, S. 28-30.
                         <a href=\"#footnote1\">&uarr;</a>
                     </li>
                     <li id=\"endnote2\">
@@ -466,7 +471,8 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
                         <a href=\"#footnote2\">&uarr;</a>
                     </li>
                     <li id=\"endnote3\">
-                        Vgl. Randolp L Braham, Historical Overview, in: Ders. (Hrsg.), The geographical encyclopedia of the Holocaust in Hungary, Vol. 1, Evanston 2013, S. XV-XCV, S. XIX.
+                        Vgl. Randolp L Braham, Historical Overview, in: Ders. (Hrsg.), The geographical encyclopedia of
+                        the Holocaust in Hungary, Vol. 1, Evanston 2013, S. XV-XCV, S. XIX.
                         <a href=\"#footnote3\">&uarr;</a>
                     </li>
                     <li id=\"endnote4\">
@@ -514,7 +520,8 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
                         <a href=\"#footnote14\">&uarr;</a>
                     </li>
                     <li id=\"endnote15\">
-                        Vgl. Mark Spoerer, Zwangsarbeit unterm Hakenkreuz. Ausländische Zivilarbeiter, Kriegsgefangene und Häftlinge im Deutschen Reich und im besetzten Europa 1939-1945, Stuttgart / München 2001.
+                        Vgl. Mark Spoerer, Zwangsarbeit unterm Hakenkreuz. Ausländische Zivilarbeiter, Kriegsgefangene
+                        und Häftlinge im Deutschen Reich und im besetzten Europa 1939-1945, Stuttgart / München 2001.
                         <a href=\"#footnote15\">&uarr;</a>
                     </li>
                     <li id=\"endnote16\">
@@ -526,7 +533,8 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
                         <a href=\"#footnote17\">&uarr;</a>
                     </li>
                     <li id=\"endnote18\">
-                        Vgl. ausführlich bei Marc Buggeln, Arbeit und Gewalt. Das Außenlagersystem des KZ Neuengamme, Göttingen 2009, S. 605-624.
+                        Vgl. ausführlich bei Marc Buggeln, Arbeit und Gewalt. Das Außenlagersystem des KZ Neuengamme,
+                        Göttingen 2009, S. 605-624.
                         <a href=\"#footnote18\">&uarr;</a>
                     </li>
                     <li id=\"endnote19\">
@@ -534,7 +542,10 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
                         <a href=\"#footnote19\">&uarr;</a>
                     </li>
                     <li id=\"endnote20\">
-                        Vgl. Marc Buggeln, Arbeit und Gewalt, S. 218- 225; Spoerer, Zwangsarbeit, S. 17; Marc Buggeln, Were Concentration Camp Prisoners Slaves? The Possibilities and Limits of Comparative History and Global Historical Perspectives, in: International Review of Social History 53 (2008), S. 101-129.
+                        Vgl. Marc Buggeln, Arbeit und Gewalt, S. 218- 225; Spoerer, Zwangsarbeit, S. 17; Marc Buggeln,
+                        Were Concentration Camp Prisoners Slaves? The Possibilities and Limits of Comparative History
+                        and Global Historical Perspectives, in: International Review of Social History 53 (2008), S.
+                        101-129.
                         <a href=\"#footnote20\">&uarr;</a>
                     </li>
                     <li id=\"endnote21\">
@@ -542,11 +553,14 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
                         <a href=\"#footnote21\">&uarr;</a>
                     </li>
                     <li id=\"endnote22\">
-                        Aly / Gerlach, letzte Kapitel, S. 377f; Susanne Heim et al. (Hrsg.), Die Verfolgung und Ermordung der europäischen Juden durch das nationalsozialistische Deutschland 1933.1945, Band 15. Ungarn 1944-1945. Bearbeitet von Regina Fritz, Berlin / Boston 2021, S. 60.
+                        Aly / Gerlach, letzte Kapitel, S. 377f; Susanne Heim et al. (Hrsg.), Die Verfolgung und
+                        Ermordung der europäischen Juden durch das nationalsozialistische Deutschland 1933.1945, Band
+                        15. Ungarn 1944-1945. Bearbeitet von Regina Fritz, Berlin / Boston 2021, S. 60.
                         <a href=\"#footnote22\">&uarr;</a>
                     </li>
                     <li id=\"endnote23\">
-                        Die Angaben basieren auf eigenen Forschungen im Rahmen dieses Projektes und Schätzungen der Gedenkstätten Neuengamme und Bergen-Belsen.
+                        Die Angaben basieren auf eigenen Forschungen im Rahmen dieses Projektes und Schätzungen der
+                        Gedenkstätten Neuengamme und Bergen-Belsen.
                         <a href=\"#footnote23\">&uarr;</a>
                     </li>
                     <li id=\"endnote24\">
@@ -554,19 +568,25 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
                         <a href=\"#footnote24\">&uarr;</a>
                     </li>
                     <li id=\"endnote25\">
-                        Vgl. Detlef Garbe, Neuengamme im System der Konzentrationslager. Studien zur Ereignis- und Rezeptionsgeschichte, Berlin 2015, S. 101.
+                        Vgl. Detlef Garbe, Neuengamme im System der Konzentrationslager. Studien zur Ereignis- und
+                        Rezeptionsgeschichte, Berlin 2015, S. 101.
                         <a href=\"#footnote25\">&uarr;</a>
                     </li>
                     <li id=\"endnote26\">
-                    Johannes Meerwald: The DEGOB Protocols and the Deportations of Jewish Prisoners to the Dachau Camp Complex; in: Henning Borggräfe / Akim Jah (Hrsg.), Deportations in the Nazi Era: Sources and Research, Berlin / Boston, S. 405-428, S. 406.
+                        Johannes Meerwald: The DEGOB Protocols and the Deportations of Jewish Prisoners to the Dachau
+                        Camp Complex; in: Henning Borggräfe / Akim Jah (Hrsg.), Deportations in the Nazi Era: Sources
+                        and Research, Berlin / Boston, S. 405-428, S. 406.
                         <a href=\"#footnote26\">&uarr;</a>
                     </li>
                     <li id=\"endnote27\">
-                        Vgl. Gerlach / Aly, letztes Kapitel, S. 379.394; Jens-Christian Wagner, NS-Untertageanlagen und Gedenkstättenarbeit: Erfahrungen aus Mittelbau-Dora, in: Gedenkstätten-Rundbrief, 147 (2009), S. 5-13, S. 6.
+                        Vgl. Gerlach / Aly, letztes Kapitel, S. 379.394; Jens-Christian Wagner, NS-Untertageanlagen und
+                        Gedenkstättenarbeit: Erfahrungen aus Mittelbau-Dora, in: Gedenkstätten-Rundbrief, 147 (2009), S.
+                        5-13, S. 6.
                         <a href=\"#footnote27\">&uarr;</a>
                     </li>
                     <li id=\"endnote28\">
-                        Eine Diskussion des Begriffes „Vernichtung durch Arbeit“ findet sich bei Spoerer, Zwangsarbeit, S. 180-183.
+                        Eine Diskussion des Begriffes „Vernichtung durch Arbeit“ findet sich bei Spoerer, Zwangsarbeit,
+                        S. 180-183.
                         <a href=\"#footnote28\">&uarr;</a>
                     </li>
                     <li id=\"endnote29\">
@@ -590,7 +610,7 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
                     nach Norddeutschland 1944, hrsg. vom
                     Institut für die Geschichte der deutschen Juden, URL:
                     https://holocaust-ungarn-norddeutschland.de";
-        // line 486
+        // line 506
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_context");
         yield ". Lizenz: CC BY
                     4.0.
@@ -631,7 +651,7 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
      */
     public function getDebugInfo()
     {
-        return array (  594 => 486,  387 => 282,  261 => 159,  254 => 155,  230 => 134,  133 => 40,  125 => 35,  95 => 7,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
+        return array (  614 => 506,  389 => 284,  263 => 161,  255 => 156,  231 => 135,  133 => 40,  125 => 35,  95 => 7,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -701,7 +721,8 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
                     ihnen starben.<sup><a href=\"#endnote5\" id=\"footnote5\">5</a></sup> 1941 wurden zudem Ehen zwischen
                     Juden und Nichtjuden verboten und die Definition, wer
                     als jüdisch anzusehen sei, ausgeweitet. Entscheidend war zukünftig nicht nur die
-                    Religionszugehörigkeit, sondern auch die Abstammung.<sup><a href=\"#endnote6\" id=\"footnote6\">6</a></sup>
+                    Religionszugehörigkeit, sondern auch die Abstammung.<sup><a href=\"#endnote6\"
+                                                                                id=\"footnote6\">6</a></sup>
                     Ende August 1941 wurden dann circa 18.000 Juden
                     und Jüdinnen, die entweder zuvor aus anderen Ländern vor den Nationalsozialisten nach Ungarn
                     geflohen waren oder nicht schnell genug ihre ungarische Staatsangehörigkeit nachweisen konnten, als
@@ -793,7 +814,8 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
                 <img class=\"img-fluid\" src=\"{{ asset('images/placeholder_840x560.jpg') }}\"
                      alt=\"Ankunft jüdischer Männer, Frauen und Kinder  in Auschwitz-Birkenau\"/>
                 <p class=\"caption\">
-                    Standorte von Konzentrationslager in Norddeutschland, in denen aus Ungarn deportierte Personen seit 1944 inhaftiert waren.
+                    Standorte von Konzentrationslager in Norddeutschland, in denen aus Ungarn deportierte Personen seit
+                    1944 inhaftiert waren.
                     <a href=\"{{ path('app_map') }}\" title=\"Kartenübersicht\">
                         &#10149; Zur interaktiven Karte
                     </a>
@@ -972,7 +994,9 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
                         Fritz, Berlin / Boston 2021
                     </li>
                     <li>
-                        Johannes Meerwald: The DEGOB Protocols and the Deportations of Jewish Prisoners to the Dachau Camp Complex; in: Henning Borggräfe / Akim Jah (Hrsg.), Deportations in the Nazi Era: Sources and Research, Berlin / Boston, S. 405-428, S. 406.
+                        Johannes Meerwald: The DEGOB Protocols and the Deportations of Jewish Prisoners to the Dachau
+                        Camp Complex; in: Henning Borggräfe / Akim Jah (Hrsg.), Deportations in the Nazi Era: Sources
+                        and Research, Berlin / Boston, S. 405-428, S. 406.
                     </li>
                     <li>
                         Mark Spoerer, Zwangsarbeit unter dem Hakenkreuz, Stuttgart / München 2001.
@@ -990,7 +1014,8 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
             <div class=\"col-lg-8 caption\">
                 <ol>
                     <li id=\"endnote1\">
-                        Vgl. Christian Gerlach / Götz Aly, Das letzte Kapitel. Der Mord an den ungarischen Juden, Stuttgart / München 2002, S. 28-30.
+                        Vgl. Christian Gerlach / Götz Aly, Das letzte Kapitel. Der Mord an den ungarischen Juden,
+                        Stuttgart / München 2002, S. 28-30.
                         <a href=\"#footnote1\">&uarr;</a>
                     </li>
                     <li id=\"endnote2\">
@@ -998,7 +1023,8 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
                         <a href=\"#footnote2\">&uarr;</a>
                     </li>
                     <li id=\"endnote3\">
-                        Vgl. Randolp L Braham, Historical Overview, in: Ders. (Hrsg.), The geographical encyclopedia of the Holocaust in Hungary, Vol. 1, Evanston 2013, S. XV-XCV, S. XIX.
+                        Vgl. Randolp L Braham, Historical Overview, in: Ders. (Hrsg.), The geographical encyclopedia of
+                        the Holocaust in Hungary, Vol. 1, Evanston 2013, S. XV-XCV, S. XIX.
                         <a href=\"#footnote3\">&uarr;</a>
                     </li>
                     <li id=\"endnote4\">
@@ -1046,7 +1072,8 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
                         <a href=\"#footnote14\">&uarr;</a>
                     </li>
                     <li id=\"endnote15\">
-                        Vgl. Mark Spoerer, Zwangsarbeit unterm Hakenkreuz. Ausländische Zivilarbeiter, Kriegsgefangene und Häftlinge im Deutschen Reich und im besetzten Europa 1939-1945, Stuttgart / München 2001.
+                        Vgl. Mark Spoerer, Zwangsarbeit unterm Hakenkreuz. Ausländische Zivilarbeiter, Kriegsgefangene
+                        und Häftlinge im Deutschen Reich und im besetzten Europa 1939-1945, Stuttgart / München 2001.
                         <a href=\"#footnote15\">&uarr;</a>
                     </li>
                     <li id=\"endnote16\">
@@ -1058,7 +1085,8 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
                         <a href=\"#footnote17\">&uarr;</a>
                     </li>
                     <li id=\"endnote18\">
-                        Vgl. ausführlich bei Marc Buggeln, Arbeit und Gewalt. Das Außenlagersystem des KZ Neuengamme, Göttingen 2009, S. 605-624.
+                        Vgl. ausführlich bei Marc Buggeln, Arbeit und Gewalt. Das Außenlagersystem des KZ Neuengamme,
+                        Göttingen 2009, S. 605-624.
                         <a href=\"#footnote18\">&uarr;</a>
                     </li>
                     <li id=\"endnote19\">
@@ -1066,7 +1094,10 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
                         <a href=\"#footnote19\">&uarr;</a>
                     </li>
                     <li id=\"endnote20\">
-                        Vgl. Marc Buggeln, Arbeit und Gewalt, S. 218- 225; Spoerer, Zwangsarbeit, S. 17; Marc Buggeln, Were Concentration Camp Prisoners Slaves? The Possibilities and Limits of Comparative History and Global Historical Perspectives, in: International Review of Social History 53 (2008), S. 101-129.
+                        Vgl. Marc Buggeln, Arbeit und Gewalt, S. 218- 225; Spoerer, Zwangsarbeit, S. 17; Marc Buggeln,
+                        Were Concentration Camp Prisoners Slaves? The Possibilities and Limits of Comparative History
+                        and Global Historical Perspectives, in: International Review of Social History 53 (2008), S.
+                        101-129.
                         <a href=\"#footnote20\">&uarr;</a>
                     </li>
                     <li id=\"endnote21\">
@@ -1074,11 +1105,14 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
                         <a href=\"#footnote21\">&uarr;</a>
                     </li>
                     <li id=\"endnote22\">
-                        Aly / Gerlach, letzte Kapitel, S. 377f; Susanne Heim et al. (Hrsg.), Die Verfolgung und Ermordung der europäischen Juden durch das nationalsozialistische Deutschland 1933.1945, Band 15. Ungarn 1944-1945. Bearbeitet von Regina Fritz, Berlin / Boston 2021, S. 60.
+                        Aly / Gerlach, letzte Kapitel, S. 377f; Susanne Heim et al. (Hrsg.), Die Verfolgung und
+                        Ermordung der europäischen Juden durch das nationalsozialistische Deutschland 1933.1945, Band
+                        15. Ungarn 1944-1945. Bearbeitet von Regina Fritz, Berlin / Boston 2021, S. 60.
                         <a href=\"#footnote22\">&uarr;</a>
                     </li>
                     <li id=\"endnote23\">
-                        Die Angaben basieren auf eigenen Forschungen im Rahmen dieses Projektes und Schätzungen der Gedenkstätten Neuengamme und Bergen-Belsen.
+                        Die Angaben basieren auf eigenen Forschungen im Rahmen dieses Projektes und Schätzungen der
+                        Gedenkstätten Neuengamme und Bergen-Belsen.
                         <a href=\"#footnote23\">&uarr;</a>
                     </li>
                     <li id=\"endnote24\">
@@ -1086,19 +1120,25 @@ class __TwigTemplate_a2044f73c0979a4372fad2dac0289dcf extends Template
                         <a href=\"#footnote24\">&uarr;</a>
                     </li>
                     <li id=\"endnote25\">
-                        Vgl. Detlef Garbe, Neuengamme im System der Konzentrationslager. Studien zur Ereignis- und Rezeptionsgeschichte, Berlin 2015, S. 101.
+                        Vgl. Detlef Garbe, Neuengamme im System der Konzentrationslager. Studien zur Ereignis- und
+                        Rezeptionsgeschichte, Berlin 2015, S. 101.
                         <a href=\"#footnote25\">&uarr;</a>
                     </li>
                     <li id=\"endnote26\">
-                    Johannes Meerwald: The DEGOB Protocols and the Deportations of Jewish Prisoners to the Dachau Camp Complex; in: Henning Borggräfe / Akim Jah (Hrsg.), Deportations in the Nazi Era: Sources and Research, Berlin / Boston, S. 405-428, S. 406.
+                        Johannes Meerwald: The DEGOB Protocols and the Deportations of Jewish Prisoners to the Dachau
+                        Camp Complex; in: Henning Borggräfe / Akim Jah (Hrsg.), Deportations in the Nazi Era: Sources
+                        and Research, Berlin / Boston, S. 405-428, S. 406.
                         <a href=\"#footnote26\">&uarr;</a>
                     </li>
                     <li id=\"endnote27\">
-                        Vgl. Gerlach / Aly, letztes Kapitel, S. 379.394; Jens-Christian Wagner, NS-Untertageanlagen und Gedenkstättenarbeit: Erfahrungen aus Mittelbau-Dora, in: Gedenkstätten-Rundbrief, 147 (2009), S. 5-13, S. 6.
+                        Vgl. Gerlach / Aly, letztes Kapitel, S. 379.394; Jens-Christian Wagner, NS-Untertageanlagen und
+                        Gedenkstättenarbeit: Erfahrungen aus Mittelbau-Dora, in: Gedenkstätten-Rundbrief, 147 (2009), S.
+                        5-13, S. 6.
                         <a href=\"#footnote27\">&uarr;</a>
                     </li>
                     <li id=\"endnote28\">
-                        Eine Diskussion des Begriffes „Vernichtung durch Arbeit“ findet sich bei Spoerer, Zwangsarbeit, S. 180-183.
+                        Eine Diskussion des Begriffes „Vernichtung durch Arbeit“ findet sich bei Spoerer, Zwangsarbeit,
+                        S. 180-183.
                         <a href=\"#footnote28\">&uarr;</a>
                     </li>
                     <li id=\"endnote29\">
