@@ -110,16 +110,16 @@ class __TwigTemplate_4bf3c07e898c90defc8949409c392250 extends Template
                         <h2>
                             <a href=\"";
         // line 20
-        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographytemplate");
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_bio_blum");
         yield "\" title=\"\">
-                                Yehuda Blum und die Kasztner Gruppe
+                                Yehuda Blum – die Kasztner-Gruppe
                             </a>
                         </h2>
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing
                             elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum ...
                             <a class=\"more\" href=\"";
         // line 26
-        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographytemplate");
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_bio_blum");
         yield "\" title=\"Weiterlesen\">[mehr]</a>
                         </p>
                     </div>
@@ -141,16 +141,16 @@ class __TwigTemplate_4bf3c07e898c90defc8949409c392250 extends Template
                         <h2>
                             <a href=\"";
         // line 39
-        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographytemplate");
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_bio_fuerst");
         yield "\" title=\"\">
-                                Gyula Fürst
+                                Biografie von Gyula Fürst – ein ungewöhnlicher Deportationsweg
                             </a>
                         </h2>
                         <p>Dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
                             ...
                             <a class=\"more\" href=\"";
         // line 45
-        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographytemplate");
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_bio_fuerst");
         yield "\" title=\"Weiterlesen\">[mehr]</a>
                         </p>
                     </div>
@@ -175,16 +175,16 @@ class __TwigTemplate_4bf3c07e898c90defc8949409c392250 extends Template
                         <h2>
                             <a href=\"";
         // line 61
-        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographytemplate");
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_bio_hardy");
         yield "\" title=\"\">
-                                Katharina Hardy - Das DP-Camp Bergen-Belsen
+                                Katharina Hardy – Fokus „DP-Camp Bergen-Belsen“
                             </a>
                         </h2>
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing
                             elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum ...
                             <a class=\"more\" href=\"";
         // line 67
-        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographytemplate");
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_bio_hardy");
         yield "\" title=\"Weiterlesen\">[mehr]</a>
 
                         </p>
@@ -207,16 +207,16 @@ class __TwigTemplate_4bf3c07e898c90defc8949409c392250 extends Template
                         <h2>
                             <a href=\"";
         // line 81
-        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographytemplate");
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_bio_mereny");
         yield "\" title=\"\">
-                                Die Schwestern Lea und Zsuzsa Merényi
+                                Die Schwestern Lea und Zsuzsa Merényi – Fokus „Rückkehr
                             </a>
                         </h2>
                         <p>Dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
                             ...
                             <a class=\"more\" href=\"";
         // line 87
-        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_biographytemplate");
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_bio_mereny");
         yield "\" title=\"Weiterlesen\">[mehr]</a>
                         </p>
                     </div>
@@ -282,13 +282,13 @@ class __TwigTemplate_4bf3c07e898c90defc8949409c392250 extends Template
                     </a>
                     <div class=\"studiesoverview\">
                         <h2>
-                            <a href=\"{{ path('app_biographytemplate') }}\" title=\"\">
-                                Yehuda Blum und die Kasztner Gruppe
+                            <a href=\"{{ path('app_bio_blum') }}\" title=\"\">
+                                Yehuda Blum – die Kasztner-Gruppe
                             </a>
                         </h2>
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing
                             elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum ...
-                            <a class=\"more\" href=\"{{ path('app_biographytemplate') }}\" title=\"Weiterlesen\">[mehr]</a>
+                            <a class=\"more\" href=\"{{ path('app_bio_blum') }}\" title=\"Weiterlesen\">[mehr]</a>
                         </p>
                     </div>
                 </div>
@@ -301,13 +301,13 @@ class __TwigTemplate_4bf3c07e898c90defc8949409c392250 extends Template
                     </a>
                     <div class=\"studiesoverview\">
                         <h2>
-                            <a href=\"{{ path('app_biographytemplate') }}\" title=\"\">
-                                Gyula Fürst
+                            <a href=\"{{ path('app_bio_fuerst') }}\" title=\"\">
+                                Biografie von Gyula Fürst – ein ungewöhnlicher Deportationsweg
                             </a>
                         </h2>
                         <p>Dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
                             ...
-                            <a class=\"more\" href=\"{{ path('app_biographytemplate') }}\" title=\"Weiterlesen\">[mehr]</a>
+                            <a class=\"more\" href=\"{{ path('app_bio_fuerst') }}\" title=\"Weiterlesen\">[mehr]</a>
                         </p>
                     </div>
                 </div>
@@ -323,13 +323,13 @@ class __TwigTemplate_4bf3c07e898c90defc8949409c392250 extends Template
                     </a>
                     <div class=\"studiesoverview\">
                         <h2>
-                            <a href=\"{{ path('app_biographytemplate') }}\" title=\"\">
-                                Katharina Hardy - Das DP-Camp Bergen-Belsen
+                            <a href=\"{{ path('app_bio_hardy') }}\" title=\"\">
+                                Katharina Hardy – Fokus „DP-Camp Bergen-Belsen“
                             </a>
                         </h2>
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing
                             elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum ...
-                            <a class=\"more\" href=\"{{ path('app_biographytemplate') }}\" title=\"Weiterlesen\">[mehr]</a>
+                            <a class=\"more\" href=\"{{ path('app_bio_hardy') }}\" title=\"Weiterlesen\">[mehr]</a>
 
                         </p>
                     </div>
@@ -343,13 +343,13 @@ class __TwigTemplate_4bf3c07e898c90defc8949409c392250 extends Template
                     </a>
                     <div class=\"studiesoverview\">
                         <h2>
-                            <a href=\"{{ path('app_biographytemplate') }}\" title=\"\">
-                                Die Schwestern Lea und Zsuzsa Merényi
+                            <a href=\"{{ path('app_bio_mereny') }}\" title=\"\">
+                                Die Schwestern Lea und Zsuzsa Merényi – Fokus „Rückkehr
                             </a>
                         </h2>
                         <p>Dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
                             ...
-                            <a class=\"more\" href=\"{{ path('app_biographytemplate') }}\" title=\"Weiterlesen\">[mehr]</a>
+                            <a class=\"more\" href=\"{{ path('app_bio_mereny') }}\" title=\"Weiterlesen\">[mehr]</a>
                         </p>
                     </div>
                 </div>

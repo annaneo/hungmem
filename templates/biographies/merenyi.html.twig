@@ -1,0 +1,212 @@
+{% extends 'base-map.html.twig' %}
+
+{% block title %} Fallstudie | {{ parent() }} {% endblock %}
+
+
+{% block body %}
+    {% include 'elements/navigation-biographies.html.twig' %}
+
+
+    <div class="container g-4 py-5 study">
+        <h2></h2>
+        <p>(Geboren am 02.10.1931 in Bratislava, Tschechoslowakei; lebt in Jerusalem)</p>
+        <div class="row">
+            <div class="col-lg-8 mb-2">
+                <p class="abstract">
+                </p>
+            </div>
+            <div class="col-lg-4">
+                <div id="map" style="height: 15rem;">
+                </div>
+            </div>
+        </div>
+
+        <h3 class="mt-4"></h3>
+        <div class="row">
+            <div class="col-lg-8">
+                <p>
+
+                </p>
+                <p>
+
+                </p>
+                <p>
+
+                </p>
+
+            </div>
+            <div class="col-lg-4">
+
+            </div>
+        </div>
+
+        <h3 class="mt-4"></h3>
+        <div class="row">
+            <div class="col-lg-8">
+                <p>
+
+                </p>
+            </div>
+            <div class="col-lg-4">
+                <p>
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-8">
+                <p>
+
+                </p>
+                <p>
+
+                </p>
+                <p>
+
+                </p>
+
+                <h3 class="mt-4"></h3>
+
+                <p>
+
+                </p>
+                <p>
+
+                </p>
+                <p>
+
+                </p>
+            </div>
+            <div class="col-lg-4">
+                <div class="infobox">
+                    <h4>&#9432; </h4>
+                <p>
+
+                </p>
+                </div>
+            </div>
+        </div>
+
+        <h3 class="mt-4"></h3>
+        <div class="row">
+            <div class="col-lg-8">
+                <p>
+
+                </p>
+                <img class="img-fluid" style="width: 640px;" src="{{ asset('images/placeholder_840x560.jpg') }}"
+                     alt="Deportationsroute"/>
+                <p class="caption">
+
+                </p>
+                <p>
+
+                </p>
+                <p>
+
+                </p>
+            </div>
+            <div class="col-lg-4">
+                <p>
+                </p>
+            </div>
+        </div>
+
+        <h3 class="mt-4"></h3>
+        <div class="row">
+            <div class="col-lg-8">
+                <p>
+
+                </p>
+                <p>
+
+                </p>
+            </div>
+            <div class="col-lg-4">
+                <p>
+                </p>
+            </div>
+        </div>
+
+        <h3 class="mt-4"></h3>
+        <div class="row">
+            <div class="col-lg-8">
+                <p>
+                </p>
+            </div>
+            <div class="col-lg-4">
+                <p>
+                </p>
+            </div>
+        </div>
+
+        <h3 class="mt-4">Bibliographie</h3>
+        <div class="row">
+            <div class="col-lg-8">
+                <p>
+                </p>
+            </div>
+            <div class="col-lg-4">
+                <p>
+                </p>
+            </div>
+        </div>
+
+        <h3 class="mt-4">Fußnoten</h3>
+        <div class="row">
+            <div class="col-lg-8 caption">
+                <ol>
+                    <li id="endnote1">
+
+                        <a href="#footnote1">&uarr;</a>
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+        <h3 class="mt-4">Zitierhinweis</h3>
+        <div class="row">
+            <div class="col-lg-8">
+                <p>
+                    Lara Meinert: Titel, in: Holocaust in Ungarn und Deportationen nach Norddeutschland 1944, hrsg. vom Institut für die Geschichte der deutschen Juden, URL: https://holocaust-ungarn-norddeutschland.de{{ path('app_bio_mereny') }}, CC BY 4.0.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+
+        const bratislava = L.marker([ 48.144722,17.112778]).bindPopup('<strong>Bratislava</strong><br/>');
+
+        const mbAttr = 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>';
+        const mbUrl = 'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw';
+
+        const streets = L.tileLayer(mbUrl, {
+            id: 'mapbox/streets-v11',
+            tileSize: 512,
+            zoomOffset: -1,
+            attribution: mbAttr
+        });
+
+        const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 11,
+            attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+        });
+
+        const map = L.map('map', {
+            center: [48.144722,17.112778],
+            zoom: 6,
+            layers: [osm,
+                bratislava,
+            ]
+        });
+
+        const baseLayers = {
+            'OpenStreetMap': osm,
+        };
+
+        const layerControl = L.control.layers(baseLayers, overlays).addTo(map);
+
+    </script>
+
+{% endblock %}

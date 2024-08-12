@@ -115,7 +115,7 @@ class SiteController extends AbstractController
     #[Route('/biografien/gyula-fuerst', name: 'app_bio_fuerst')]
     public function biographyFuerst(): Response
     {
-        return $this->render('biographies/study.html.twig', [
+        return $this->render('biographies/fuerst.html.twig', [
             'title' => 'Biografie Gyula Fürst'
         ]);
     }
@@ -123,7 +123,7 @@ class SiteController extends AbstractController
     #[Route('/biografien/schwestern-mereny', name: 'app_bio_mereny')]
     public function biographyMereny(): Response
     {
-        return $this->render('biographies/study.html.twig', [
+        return $this->render('biographies/merenyi.html.twig', [
             'title' => 'Biografie Schwestern Merény'
         ]);
     }
@@ -131,7 +131,7 @@ class SiteController extends AbstractController
     #[Route('/biografien/yehuda-blum', name: 'app_bio_blum')]
     public function biographyBlum(): Response
     {
-        return $this->render('biographies/study.html.twig', [
+        return $this->render('biographies/blum.html.twig', [
             'title' => 'Biografie Yehuda Blum'
         ]);
     }
@@ -139,7 +139,7 @@ class SiteController extends AbstractController
     #[Route('/biografien/katharina-hardy', name: 'app_bio_hardy')]
     public function biographyHardy(): Response
     {
-        return $this->render('biographies/study.html.twig', [
+        return $this->render('biographies/hardy.html.twig', [
             'title' => 'Biografie Katharina Hardy'
         ]);
     }

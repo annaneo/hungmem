@@ -136,22 +136,20 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                     erkannt, dass die Zuteilung in ein Arbeitskommando außerhalb von Auschwitz eine größere Chance zum
                     Überleben bot.<sup><a href=\"#endnote3\" id=\"footnote3\">3</a></sup>
                 </p>
-                <p>
-                    <a href=\"";
-        // line 52
+                <a href=\"";
+        // line 51
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/studies/vw/Deportationsroute-Gruppe-der-300.jpg"), "html", null, true);
         yield "\"
-                       data-lightbox=\"map-gruppe-300\"
-                       data-title=\"Deportationsroute der „Gruppe der 300“.\"><img class=\"gallery img-fluid\"
-                                                                                 src=\"";
-        // line 55
+                   data-lightbox=\"map-gruppe-300\"
+                   data-title=\"Deportationsroute der „Gruppe der 300“.\"><img class=\"gallery img-fluid\"
+                                                                             src=\"";
+        // line 54
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/studies/vw/Deportationsroute-Gruppe-der-300_preview.jpg"), "html", null, true);
         yield "\"
-                                                                                 alt=\"Karte der Deportationsroute aus Oradea und Cluj-Napoca über Auschwitz und vier weitere Lager ins Konzentrationslager Bergen-Belsen \"/></a>
+                                                                             alt=\"Karte der Deportationsroute aus Oradea und Cluj-Napoca über Auschwitz und vier weitere Lager ins Konzentrationslager Bergen-Belsen \"/></a>
                 <p class=\"caption\">
                     Deportationsroute der „Gruppe der 300“. &copy; Institut für die Geschichte der deutschen Juden.
                     Lizenz: CC BY 4.0 &#128269; Zum Vergrößern klicken.
-                </p>
                 </p>
             </div>
             <div class=\"col-lg-4\">
@@ -190,7 +188,7 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                     <h4>&#9432; Mehr zum historischen Hintergrund</h4>
                     <p>
                         <a href=\"";
-        // line 98
+        // line 96
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_context");
         yield "\" title=\"Text zum historischen Kontext\">
                             &#10149; Historischer
@@ -229,7 +227,7 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                     wobei sie alle zwei Wochen einen Tag frei bekamen. Zu dieser Zeit sahen sie kein Tageslicht, da sie
                     direkt im VW-Werk in ehemaligen Waschkauen im selben Gebäude untergebracht waren, in dem auch die
                     Produktion stattfand. <a href=\"";
-        // line 134
+        // line 132
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_studytemplate");
         yield "\" title=\"Fallstudie Salzwedel\">Später
                         wurden in denselben Räumen Jüdinnen aus Ungarn als KZ-Zwangsarbeiter
@@ -295,7 +293,7 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                     </p>
                     <p>
                         <a href=\"";
-        // line 197
+        // line 195
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_context");
         yield "#zwangsarbeit\"
                            title=\"Mehr Informationen zu Zwangsarbeit und historischem Kontext\">
@@ -375,7 +373,7 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                     <h4>&#9432; Übersicht Zwangsarbeitslager</h4>
                     <p style=\"font-size: 0.9rem;\">
                         <a href=\"";
-        // line 274
+        // line 272
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_map");
         yield "\" title=\"Kartenübersicht\">
                             &#10149; Übersicht der Lager mit aus Ungarn deportierten Zwangsarbeitern und
@@ -400,7 +398,7 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                     wenig über 30 Kilo.<sup><a href=\"#endnote17\" id=\"footnote17\">17</a></sup>
                 </p>
                 <img class=\"img-fluid\" src=\"";
-        // line 296
+        // line 294
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/studies/vw/V1-Produktion.jpg"), "html", null, true);
         yield "\"
                      alt=\"Blick in eine Produktionshalle der V1 im Konzentrationslager Mittelbau-Dora im Mai 1946\"/>
@@ -492,7 +490,7 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                     </p>
                     <p>
                         <a href=\"";
-        // line 385
+        // line 383
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_map");
         yield "\" title=\"Kartenübersicht\">
                             &#10149; Zur Karte der Lager
@@ -521,7 +519,7 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                     ebenfalls die Häftlingsdaten enthält.<sup><a href=\"#endnote29\" id=\"footnote29\">29</a></sup>
                 </p>
                 <img class=\"img-fluid\" src=\"";
-        // line 411
+        // line 409
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/placeholder_840x560.jpg"), "html", null, true);
         yield "\"
                      alt=\"Häftlingsnummern\"/>
@@ -529,8 +527,9 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                     Zugeteilte Häftlingsnummern des KL Buchenwald für Zugänge aus den KL Natzweiler (Außenlager
                     Rebstock), 27.09.1944 und KL Dachau, 30.09.1944, online unter: Arolsen Archives:
                     <a href=\"https://collections.arolsen-archives.org/de/search/topic/1-1-27-1_2257001?s=Rebstock\"
-                    title=\"Dokument in der Sammlung des Arolsen Archives\">
-                        https://collections.arolsen-archives.org/de/search/topic/1-1-27-1_2257001?s=Rebstock</a>; Originale in:
+                       title=\"Dokument in der Sammlung des Arolsen Archives\">
+                        https://collections.arolsen-archives.org/de/search/topic/1-1-27-1_2257001?s=Rebstock</a>;
+                    Originale in:
                     Glowna Komisja Badania Zbrodni Hitlerowskich w Polsce, Warszawa.
                 </p>
                 <p>
@@ -671,9 +670,9 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                         Vgl. Stiftung niedersächsische Gedenkstätten (Hrsg.), Bergen-Belsen. Kriegsgefangenenlager
                         1940-1945, Konzentrationslager 1943-1945, Displaced Persons Camp 1945-1950. Katalog der
                         Dauerausstellung, Celle 2009, S. 200.
-                        <a href=\"#footnote11\">&uarr;</a>
+                        <a href=\"#footnote26\">&uarr;</a>
                     </li>
-                    <li id=\"endnote27\">Vgl. Mommsen / Grieger, Volkswagenwerk. <a href=\"#footnote26\">&uarr;</a></li>
+                    <li id=\"endnote27\">Vgl. Mommsen / Grieger, Volkswagenwerk. <a href=\"#footnote27\">&uarr;</a></li>
                     <li id=\"endnote28\">Vgl. Mommsen / Grieger, Volkswagenwerk, David Hollander: Interview 8342, Visual
                         History Archive, USC Shoah Foundation 1995; Bernat Roth Interview 9295, Visual History Archive,
                         USC Shoah Foundation 1995; Desider Davidovits: Interview 18755, Visual History Archive, USC
@@ -712,7 +711,7 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                     Norddeutschland 1944, hrsg. vom
                     Institut für die Geschichte der deutschen Juden, URL:
                     https://holocaust-ungarn-norddeutschland.de";
-        // line 599
+        // line 598
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_vw");
         yield ". Lizenz: CC BY 4.0.
                 </p>
@@ -752,7 +751,7 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
      */
     public function getDebugInfo()
     {
-        return array (  716 => 599,  525 => 411,  496 => 385,  404 => 296,  379 => 274,  299 => 197,  233 => 134,  194 => 98,  148 => 55,  142 => 52,  95 => 7,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
+        return array (  715 => 598,  523 => 409,  494 => 383,  402 => 294,  377 => 272,  297 => 195,  231 => 132,  192 => 96,  147 => 54,  141 => 51,  95 => 7,  92 => 6,  82 => 5,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -807,16 +806,14 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                     erkannt, dass die Zuteilung in ein Arbeitskommando außerhalb von Auschwitz eine größere Chance zum
                     Überleben bot.<sup><a href=\"#endnote3\" id=\"footnote3\">3</a></sup>
                 </p>
-                <p>
-                    <a href=\"{{ asset('images/studies/vw/Deportationsroute-Gruppe-der-300.jpg') }}\"
-                       data-lightbox=\"map-gruppe-300\"
-                       data-title=\"Deportationsroute der „Gruppe der 300“.\"><img class=\"gallery img-fluid\"
-                                                                                 src=\"{{ asset('images/studies/vw/Deportationsroute-Gruppe-der-300_preview.jpg') }}\"
-                                                                                 alt=\"Karte der Deportationsroute aus Oradea und Cluj-Napoca über Auschwitz und vier weitere Lager ins Konzentrationslager Bergen-Belsen \"/></a>
+                <a href=\"{{ asset('images/studies/vw/Deportationsroute-Gruppe-der-300.jpg') }}\"
+                   data-lightbox=\"map-gruppe-300\"
+                   data-title=\"Deportationsroute der „Gruppe der 300“.\"><img class=\"gallery img-fluid\"
+                                                                             src=\"{{ asset('images/studies/vw/Deportationsroute-Gruppe-der-300_preview.jpg') }}\"
+                                                                             alt=\"Karte der Deportationsroute aus Oradea und Cluj-Napoca über Auschwitz und vier weitere Lager ins Konzentrationslager Bergen-Belsen \"/></a>
                 <p class=\"caption\">
                     Deportationsroute der „Gruppe der 300“. &copy; Institut für die Geschichte der deutschen Juden.
                     Lizenz: CC BY 4.0 &#128269; Zum Vergrößern klicken.
-                </p>
                 </p>
             </div>
             <div class=\"col-lg-4\">
@@ -1173,8 +1170,9 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                     Zugeteilte Häftlingsnummern des KL Buchenwald für Zugänge aus den KL Natzweiler (Außenlager
                     Rebstock), 27.09.1944 und KL Dachau, 30.09.1944, online unter: Arolsen Archives:
                     <a href=\"https://collections.arolsen-archives.org/de/search/topic/1-1-27-1_2257001?s=Rebstock\"
-                    title=\"Dokument in der Sammlung des Arolsen Archives\">
-                        https://collections.arolsen-archives.org/de/search/topic/1-1-27-1_2257001?s=Rebstock</a>; Originale in:
+                       title=\"Dokument in der Sammlung des Arolsen Archives\">
+                        https://collections.arolsen-archives.org/de/search/topic/1-1-27-1_2257001?s=Rebstock</a>;
+                    Originale in:
                     Glowna Komisja Badania Zbrodni Hitlerowskich w Polsce, Warszawa.
                 </p>
                 <p>
@@ -1315,9 +1313,9 @@ class __TwigTemplate_5251103c7fc65e7b3c5d6e9d96fb446a extends Template
                         Vgl. Stiftung niedersächsische Gedenkstätten (Hrsg.), Bergen-Belsen. Kriegsgefangenenlager
                         1940-1945, Konzentrationslager 1943-1945, Displaced Persons Camp 1945-1950. Katalog der
                         Dauerausstellung, Celle 2009, S. 200.
-                        <a href=\"#footnote11\">&uarr;</a>
+                        <a href=\"#footnote26\">&uarr;</a>
                     </li>
-                    <li id=\"endnote27\">Vgl. Mommsen / Grieger, Volkswagenwerk. <a href=\"#footnote26\">&uarr;</a></li>
+                    <li id=\"endnote27\">Vgl. Mommsen / Grieger, Volkswagenwerk. <a href=\"#footnote27\">&uarr;</a></li>
                     <li id=\"endnote28\">Vgl. Mommsen / Grieger, Volkswagenwerk, David Hollander: Interview 8342, Visual
                         History Archive, USC Shoah Foundation 1995; Bernat Roth Interview 9295, Visual History Archive,
                         USC Shoah Foundation 1995; Desider Davidovits: Interview 18755, Visual History Archive, USC
