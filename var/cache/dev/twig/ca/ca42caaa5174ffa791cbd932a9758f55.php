@@ -1,0 +1,1077 @@
+<?php
+
+use Twig\Environment;
+use Twig\Error\LoaderError;
+use Twig\Error\RuntimeError;
+use Twig\Extension\CoreExtension;
+use Twig\Extension\SandboxExtension;
+use Twig\Markup;
+use Twig\Sandbox\SecurityError;
+use Twig\Sandbox\SecurityNotAllowedTagError;
+use Twig\Sandbox\SecurityNotAllowedFilterError;
+use Twig\Sandbox\SecurityNotAllowedFunctionError;
+use Twig\Source;
+use Twig\Template;
+
+/* biographies/hardy.html.twig */
+class __TwigTemplate_4f93888bf989eb2b6b7fe36c950813f9 extends Template
+{
+    private $source;
+    private $macros = [];
+
+    public function __construct(Environment $env)
+    {
+        parent::__construct($env);
+
+        $this->source = $this->getSourceContext();
+
+        $this->blocks = [
+            'title' => [$this, 'block_title'],
+            'body' => [$this, 'block_body'],
+        ];
+    }
+
+    protected function doGetParent(array $context)
+    {
+        // line 1
+        return "base-map.html.twig";
+    }
+
+    protected function doDisplay(array $context, array $blocks = [])
+    {
+        $macros = $this->macros;
+        $__internal_5a27a8ba21ca79b61932376b2fa922d2 = $this->extensions["Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension"];
+        $__internal_5a27a8ba21ca79b61932376b2fa922d2->enter($__internal_5a27a8ba21ca79b61932376b2fa922d2_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "template", "biographies/hardy.html.twig"));
+
+        $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
+        $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "template", "biographies/hardy.html.twig"));
+
+        $this->parent = $this->loadTemplate("base-map.html.twig", "biographies/hardy.html.twig", 1);
+        yield from $this->parent->unwrap()->yield($context, array_merge($this->blocks, $blocks));
+        
+        $__internal_5a27a8ba21ca79b61932376b2fa922d2->leave($__internal_5a27a8ba21ca79b61932376b2fa922d2_prof);
+
+        
+        $__internal_6f47bbe9983af81f1e7450e9a3e3768f->leave($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof);
+
+    }
+
+    // line 3
+    public function block_title($context, array $blocks = [])
+    {
+        $macros = $this->macros;
+        $__internal_5a27a8ba21ca79b61932376b2fa922d2 = $this->extensions["Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension"];
+        $__internal_5a27a8ba21ca79b61932376b2fa922d2->enter($__internal_5a27a8ba21ca79b61932376b2fa922d2_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "title"));
+
+        $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
+        $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "title"));
+
+        yield " Fallstudie | ";
+        yield from $this->yieldParentBlock("title", $context, $blocks);
+        yield " ";
+        
+        $__internal_6f47bbe9983af81f1e7450e9a3e3768f->leave($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof);
+
+        
+        $__internal_5a27a8ba21ca79b61932376b2fa922d2->leave($__internal_5a27a8ba21ca79b61932376b2fa922d2_prof);
+
+        return; yield '';
+    }
+
+    // line 6
+    public function block_body($context, array $blocks = [])
+    {
+        $macros = $this->macros;
+        $__internal_5a27a8ba21ca79b61932376b2fa922d2 = $this->extensions["Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension"];
+        $__internal_5a27a8ba21ca79b61932376b2fa922d2->enter($__internal_5a27a8ba21ca79b61932376b2fa922d2_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
+
+        $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
+        $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
+
+        // line 7
+        yield "    ";
+        yield from         $this->loadTemplate("elements/navigation-biographies.html.twig", "biographies/hardy.html.twig", 7)->unwrap()->yield($context);
+        // line 8
+        yield "
+
+    <div class=\"container g-4 py-5 study\">
+        <h2>Katharina Hardy – Fokus „DP-Camp Bergen-Belsen“</h2>
+        <div class=\"row\">
+            <h3>Zur Person</h3>
+            <div class=\"col-lg-8 mb-2\">
+                <p class=\"abstract\">
+                    Katharina Hardy, geborene Cohn (nach 1947 Kardos), wurde am 7. November 1928 in Budapest in Ungarn
+                    geboren und wuchs in bescheidenen Verhältnissen auf. Ihr Vater arbeitete als Buchhalter bei den Fiat
+                    Automobilwerken. Ihre Mutter kümmerte sich als Hausfrau um Katharina Hardy und ihre sieben Jahre
+                    ältere Schwester Piroska. Die Familie war nicht religiös. Zu Hause wurde untereinander Ungarisch
+                    gesprochen, teilweise wurde auch die deutsche Sprache in der Familie benutzt. Katharina Hardy
+                    besuchte als junges Mädchen die Grundschule und ging im Anschluss für sechs Jahre auf das jüdische
+                    Gymnasium. Daraufhin besuchte sie das musische Gymnasium und wurde im Geigenspiel ausgebildet. Ab
+                    1937/38 ging sie an die Franz-Liszt-Akademie in Budapest, wo sie ihre Ausbildung aufgrund des
+                    Krieges im März 1944 abbrechen musste. Katharina Hardy holte das Abitur nach dem Krieg im Jahre 1947
+                    nach.
+                </p>
+            </div>
+            <div class=\"col-lg-4\">
+                <div id=\"map\" style=\"height: 15rem;\">
+                </div>
+            </div>
+        </div>
+
+        <h3 class=\"mt-4\">Beginn der Deportationen</h3>
+        <div class=\"row\">
+            <div class=\"col-lg-8\">
+                <p>
+                    Am 19. März 1944 wurde Ungarn von deutschen Truppen besetzt. Kurz darauf begannen im Mai 1944 die
+                    Deportationen der Jüdinnen und Juden aus dem ungarischen Staatsgebiet nach Auschwitz-Birkenau. Etwa
+                    424.000 Menschen wurden innerhalb von 56 Tagen aus Ungarn deportiert. Katharina Hardy erinnerte sich
+                    in einem Interview, das sie Mitarbeitenden der Gedenkstätte Bergen-Belsen am 24. April
+                    2003<sup><a href=\"#endnote1\" id=\"footnote1\">1</a></sup> gab,
+                    dass sie den Antisemitismus in Ungarn spürbar wahrgenommen hätte. Sie habe bereits als Kind sozialen
+                    Ausschluss von Gleichaltrigen erlebt, obwohl ihre Eltern immer versucht hätten, ihre Kinder davor zu
+                    schützen. Katharina Hardy berichtete im Interview auch, dass die Beschimpfungen im Alltag seit 1942
+                    zugenommen und auch die antisemitischen Gesetze sich verschärft hätten. Katharina Hardy zufolge
+                    hätten ihre Eltern bereits vor 1944 über eine Auswanderung nach Australien nachgedacht, ihre Mutter
+                    habe dies aber abgelehnt, da sie ihre Eltern nicht habe zurücklassen wollen. Katharina Hardy
+                    erzählte im Interview, dass ihre Großeltern die ersten ihrer Familie waren, die nach Auschwitz
+                    deportiert worden seien Insgesamt wurden etwa 565.000 der 800.000 auf ungarischem Staatsgebiet
+                    lebenden Jüdinnen und Juden durch die systematischen Vernichtungsaktionen der Nazis
+                    ermordet.<sup><a href=\"#endnote2\" id=\"footnote2\">2</a></sup>
+                    Katharina Hardys Großvater starb bereits auf dem Weg in das Konzentrations- und Vernichtungslager,
+                    ihre Großmutter und viele weiter Familienmitglieder wurden in den Gaskammern von Auschwitz ermordet.
+                </p>
+            </div>
+        </div>
+
+        <h3 class=\"mt-4\">Entführung zur Zwangsarbeit</h3>
+        <div class=\"row\">
+            <div class=\"col-lg-8\">
+                <p>
+                    Bereits seit August 1940 waren junge jüdische Männer im wehrpflichtigen Alter in Ungarn zur Arbeit
+                    verpflichtet. Später wurden die Altersgrenzen zunehmend heruntergesetzt und auch jüdische Frauen zur
+                    Arbeit gezwungen. Ab 1941 wurden ungarisch-jüdische Arbeitsbataillone über die Grenzen des heutigen
+                    Ungarns hinaus eingesetzt. Obwohl sich Reichsverweser Horthy zunächst weigerte die ungarischen
+                    Jüdinnen und Juden an Deutschland auszuliefern, starben bis März 1944 mehr als 60.000 Menschen durch
+                    den antisemitischen Terror. Etwa ein Drittel der Opfer wurde durch oder bei der Zwangsarbeit
+                    ermordet.<sup><a href=\"#endnote3\" id=\"footnote3\">3</a></sup>
+                </p>
+                <p>
+                    Im Oktober 1944 wurde auch Katharina Hardys Vater in der Nacht von Pfeilkreuzlern abgeholt. Einige
+                    Tage später, vermutlich am 13. Oktober 1944, kamen die Faschisten erneut und holten Katharina und
+                    ihre Schwester ab. Katharina Hardy berichtete im Interview, dass sie in ein Arbeitslager bei
+                    Budapest gebracht worden seien, um dort Gräben auszuheben.
+                </p>
+                <p>
+                    Ungefähr drei bis vier Wochen nach ihrer Festnahme wurden die Schwestern wieder freigelassen und
+                    durften vorerst nach Hause zurückkehren. Allerdings wurde Katharina Hardy bereits wenige Tage später
+                    erneut von den Pfeilkreuzlern abgeholt, dieses Mal zusammen mit ihrer Mutter. Ihre Schwester Piroska
+                    blieb zurück, wurde jedoch zwei Wochen später ebenfalls abgeholt und nach Ravensbrück deportiert.
+                </p>
+            </div>
+        </div>
+
+        <h3 class=\"mt-4\">Der „Todesmarsch“ nach Ravensbrück</h3>
+        <div class=\"row\">
+            <div class=\"col-lg-8\">
+                <p>
+                    Nach ihrer Verhaftung im November 1944 wurden Katharina Hardy und ihre Mutter in einem Sammellager
+                    in Budapest festgehalten. Katharina Hardy erinnerte sich im Interview, dass sie zusammen mit ihrer
+                    Mutter und vielen weiteren Frauen einen Fußmarsch von über 200 Kilometern Richtung Westen habe
+                    zurücklegen müssen. Die Frauen hielten sich für mehrere Tage in einem Sammellager auf (Ziegelfabrik
+                    in Budapest). Von dort mussten sie zu Fuß weiterlaufen und wurden im Lager Györ untergebracht. Am
+                    28. Dezember 1944 wurden Katherina Hardy und ihre Mutter in Komárom (Festung Csillag) getrennt. Ihre
+                    Mutter starb später in Komárom.
+                </p>
+                <p>
+                    Katharina Hardy musste ohne ihre Eltern weitermarschieren und wurde am 31.12.1944 in das Frauenlager
+                    Ravensbrück deportiert, wo sie am 7. Januar 1945 ankam. Das Konzentrationslager Ravensbrück
+                    verzeichnete im Jahr 1944 durch Massendeportationen aus Frankreich, Polen, Ungarn und der Slowakei
+                    insgesamt 70.000 zusätzliche Häftlinge. 1944 wurden 60 Prozent aller weiblichen Häftlinge in den
+                    deutsch besetzten Gebieten nach Ravensbrück deportiert. Etwa 9.000 Jüdinnen aus Ungarn und der
+                    Slowakei wurden im Frauenlager inhaftiert. Katharina Hardy erinnerte sich rückblickend, dass sie bei
+                    der Ankunft im Konzentrationslager Ravensbrück bereits sehr geschwächt von den Strapazen des langen
+                    und unmenschlichen Fußmarsches gewesen sei und sich in einem sehr schlechten Gesundheitszustand
+                    befunden habe. Katharina Hardy war ungefähr vier Wochen in Ravensbrück inhaftiert, bevor sie Ende
+                    Februar 1945 zusammen mit etwa 3.200 weiteren Frauen und Kindern an das Konzentrationslager
+                    Bergen-Belsen überstellt wurde, dort traf sie am 2. März 1945 ein.
+                </p>
+            </div>
+            <div class=\"col-lg-4\">
+                <div class=\"infobox\">
+                    <h4>&#9432; Todesmärsche und „Endphaseverbrechen“</h4>
+                    <p>
+                        In der Endphase des Krieges wurden etliche Konzentrationslager und KZ-Außenlager durch die
+                        Nationalsozialisten vor der Ankunft der sich nähernden Alliierten geräumt. Die Häftlinge wurden
+                        entweder in Güterwagons, selten in Lastwagen transportiert oder unter Misshandlungen gezwungen,
+                        zu
+                        Fuß in weiterhin unter deutscher Kontrolle stehende Gebiete zu marschieren. Während der oft
+                        tage-,
+                        teilweise auch wochenlang dauernden Märsche wurden die Häftlinge in der Regel kaum versorgt,
+                        viele
+                        von ihnen verhungerten oder verdursteten in den Güterwagons, viele brachen während der Märsche
+                        aufgrund der Erschöpfung zusammen oder wurden durch die SS oder andere wachhabende Einheiten
+                        ermordet. Durch die Überlebenden wurde deshalb für diese Räumungen der Begriff „Todesmarsch“
+                        geprägt. Teile der Todesmärsche endeten in der gezielten Ermordung der Häftlinge, von denen das
+                        sogenannte „Massaker von Gardelegen“ eines der bekanntesten ist. Über 1.000 Häftlinge aus
+                        Außenlagern des KZ Neuengamme und des KZ Mittelbau-Dora wurden dort in einer Feldscheune
+                        zusammengetrieben, die von der SS und weiteren NS-Organisationen in Brand gesetzt
+                        wurde.<sup><a href=\"#endnote4\" id=\"footnote4\">4</a></sup>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class=\"row\">
+            <div class=\"col-lg-8\">
+                <p>
+                    Die von den Häftlingen selbst als „Todesmärsche“ bezeichneten Räumungen vieler Konzentrationslager
+                    begannen im Frühjahr 1944. Durch das Vorrücken der Alliierten verkleinerte sich der Deutsche
+                    Machtbereich zunehmend. Um eine Befreiung der Häftlinge zu verhindern, räumte die SS fast alle
+                    Konzentrations- und Außenlager und trieb die Gefangenen in frontfernere Ziellager. Die Menschen
+                    wurden in überfüllten Güterwaggons oder auf endlosen Gewaltmärschen mitten durch Städte und Dörfer
+                    getrieben. Die Fahrten und Fußmärsche dauerten teilweise Wochen. Diejenigen, die mit dem Tempo der
+                    Kolonnen nicht mithalten konnten oder versuchten zu fliehen, wurden von den Wachmannschaften
+                    ermordet. Zahllose Menschen starben während dieser Gewaltmärsche außerdem an Krankheit,
+                    Unterernährung, Erschöpfung und Kälte. Aufgrund fehlender Dokumente lässt sich die Gesamtzahl der
+                    KZ-Häftlinge, die auf den Räumungstransporten und an den Folgen dieses Martyriums starben, nicht
+                    genau ermitteln. Es wird geschätzt, dass etwa 250.000 Menschen dabei ermordet wurden oder aufgrund
+                    der unmenschlichen Behandlung und unzureichenden Verpflegung
+                    starben.<sup><a href=\"#endnote5\" id=\"footnote5\">5</a></sup> Vermutlich erreichte Katharina
+                    Hardy Bergen-Belsen mit einem solchen „Todesmarsch“.
+                </p>
+            </div>
+            <div class=\"col-lg-4\">
+                <div class=\"infobox\">
+                    <h4>&#9432; Räumung von Konzentrationslagern</h4>
+                    <p>
+                        Die Räumung des KZ-Außenlagers Lübberstedt. In
+                        Güterwagons durch Norddeutschland
+                    </p>
+                    <p>
+                        <a href=\"";
+        // line 164
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_luebberstedt");
+        yield "\"
+                           title=\"Mehr Informationen zur Räumung von Konzentrationslagern anhand der Fallstudie zu Lübberstedt\">
+                            &#10149; Mehr zur Räumung von Konzentrationslagern
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <h3 class=\"mt-4\">Die Tage vor der Befreiung des Konzentrationslagers Bergen-Belsen</h3>
+        <div class=\"row\">
+            <div class=\"col-lg-8\">
+                <p>
+                    Katharina Hardy erinnerte sich im Interview an die katastrophalen Zustände in Ravensbrück und
+                    Bergen-Belsen. Bei ihrer Ankunft in Bergen-Belsen sei sie in einer Baracke des Frauenlagers in der
+                    Nähe des Krematoriums untergebracht worden. Sie sei im Lager gehunfähig geworden. Katharina Hardy
+                    erzählte darüber hinaus, dass sie und ihre Mitgefangenen in den letzten Tagen vor der Befreiung des
+                    Lagers kein Essen mehr bekommen hätten.
+                </p>
+                <p>
+                    Bergen-Belsen war Ziellager für unzählige Räumungstransporte. Mit der Ankunft zehntausender kranker
+                    und sterbender Häftlinge verschlechterten sich die Lebensbedingungen im Lager für die Gefangenen
+                    dramatisch. Vor allem Seuchen wie Fleckfieber und Typhus, aber auch Hunger waren die Hauptursachen
+                    für das nun beginnende Massensterben. Die SS leitete keine Maßnahmen zur Bekämpfung der
+                    katastrophalen sanitären und hygienischen Verhältnisse im Lager ein. Täglich starben mehrere Hundert
+                    Menschen im Lager. Da die Kapazitäten des Krematoriums auf dem Lagergelände ab März 1945 für die
+                    Einäscherung der unzähligen Toten nicht mehr ausreichten, verwesten Tausende von Leichen auf dem
+                    Lagergelände, was den Ausbruch von weiteren Seuchen beschleunigte. Erst wenige Tage vor der
+                    Befreiung durch die Alliierten wurde damit begonnen, die Toten in Massengräbern zu begraben. Im
+                    Konzentrationslager Bergen-Belsen starben mindestens 52.000 Menschen aufgrund der menschenunwürdigen
+                    Haftbedingungen. Von 1943 bis 1944 etwa 3.100 Menschen, von Januar 1945 bis zur Befreiung am 15.
+                    April 1945 etwa 35.000 Menschen und noch nach der Befreiung bis Ende Juni 1945 starben weitere
+                    14.000 der Befreiten an den unmittelbaren Folgen der Haft.<sup><a href=\"#endnote6\" id=\"footnote6\">6</a></sup>
+                </p>
+            </div>
+            <div class=\"col-lg-4\">
+                <div class=\"infobox\">
+                    <h4>&#9432; Das KZ Bergen-Belsen</h4>
+                    <p style=\"font-size: 0.9rem;\">
+                        Das KZ Bergen-Belsen war 1943 zunächst als „Austauschlager“ für die Unterbringung jüdischer
+                        Geiseln gegründet worden. Schnell wurden ihm aber weitere Funktionen zugewiesen und ein Männer-
+                        sowie ein Frauenlager eingerichtet. Ab Ende 1944 wurde Bergen-Belsen Ziel vieler Todesmärsche
+                        und Räumungstransporte und entwickelte sich aufgrund der katastrophalen Bedingungen zu einem
+                        Sterbelager. Nach der Befreiung wurde in Bergen-Belsen ein polnisches und ein jüdisches
+                        Displaced Persons-Camp eingerichtet.<sup><a href=\"#endnote7\" id=\"footnote7\">7</a></sup>
+                    </p>
+                    <p>
+                        <a href=\"";
+        // line 211
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_map");
+        yield "\" title=\"Kartenübersicht\">
+                            &#10149; Zur Karte der Lager
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <h3 class=\"mt-4\">Das Displaced Persons Camp Bergen-Belsen</h3>
+        <div class=\"row\">
+            <div class=\"col-lg-8\">
+                <p>
+                    Nach der Befreiung von Bergen-Belsen wurden die Überlebenden zunächst von der britischen Armee in
+                    die nahe gelegene, mittlerweile geräumte Wehrmachtskaserne gebracht. Dort wurde nicht nur Katharina
+                    Hardy, sondern tausende weitere Menschen medizinisch versorgt. Die Alliierten gaben den nach
+                    Deutschland verschleppten Menschen den Rechtsstatus „Displaced Persons“ (DP), dadurch hatten sie
+                    Anspruch auf besondere Fürsorge.<sup><a href=\"#endnote8\" id=\"footnote8\">8</a></sup>
+                </p>
+                <p>
+                    Als Katharina Hardy auf dem Weg der Genesung war, sah man sie für einen Erholungstransport nach
+                    Schweden vor. Zu dieser Zeit erfuhr sie vom Überleben ihres Vaters über sogenannte Rot-Kreuz-Listen,
+                    welche vom Deutschen Roten Kreuz als eine Form des Suchdienstes nach vermissten Angehörigen geführt
+                    wurden. Daher entschied sie sich nach dem knapp drei-monatigen Aufenthalt im DP-Camp Bergen-Belsen
+                    für eine Rückkehr nach Ungarn und reiste am 31. Juli 1945 über Bratislava nach Budapest zu ihrem
+                    Vater.
+                </p>
+                <p>
+                    Die meisten Menschen aus dem DP-Camp Bergen-Belsen verließen Deutschland bereits kurze Zeit nach
+                    ihrer Befreiung, um in andere Länder auszuwandern oder in ihre Herkunftsländer zurückzukehren.
+                    Allerdings blieben vor allem polnische Staatsangehörige und Jüdinnen und Juden im DP-Camp
+                    Bergen-Belsen zurück. Im Laufe des Jahres 1945 trennte man die Wohnbereiche dieser beiden Gruppen.
+                    Im polnischen DP-Camp lebten bis zur Auflösung im Jahr 1946 mehr als 10.000 Menschen. Das jüdische
+                    DP-Camp Bergen-Belsen bestand weitaus länger. Hier lebten bis Mitte 1950 etwa 12.000 Menschen aus
+                    ganz Europa.<sup><a href=\"#endnote9\" id=\"footnote9\">9</a></sup>
+                </p>
+            </div>
+        </div>
+
+        <h3 class=\"mt-4\">Rückkehr nach Ungarn und Flucht in die Schweiz</h3>
+        <div class=\"row\">
+            <div class=\"col-lg-8\">
+                <p>
+                    Nach ihrer Rückkehr nach Ungarn nahm Katharina Hardy ihre Ausbildung an der Franz-Liszt-Akademie
+                    wieder auf und holte gleichzeitig ihr Abitur nach. Sie und ihr Vater zogen gemeinsam in die alte
+                    Wohnung der Familie zurück. Ihr Vater konnte erneut in seinem alten Beruf als Buchhalter arbeiten.
+                    Er verstarb 1977.<br/>
+                    Im Winter 1947 lernte Katharina Hardy ihren zukünftigen Ehemann kennen, den sie 1950 heiratete. Sie
+                    bekamen zwei gemeinsame Kinder.
+                </p>
+                <p>
+                    Am 25. November 1956 flüchtete die kleine Familie aufgrund der ungarischen Revolution – einem
+                    landesweiten Aufstand, der sich gegen die sowjetische Herrschaft
+                    richtete,<sup><a href=\"#endnote10\" id=\"footnote10\">10</a></sup> – gemeinsam aus Ungarn
+                    über Österreich nach Regensdorf in die Schweiz, wo ihrem Mann eine Arbeitsstelle als Ingenieur in
+                    Zürich vermittelt worden war
+                </p>
+                <p>
+                    1959 wurde Katharina Hardys drittes Kind in der Schweiz geboren. Seit 1957 war sie als Solistin und
+                    Orchestermusikerin tätig. Ab 1985 gab sie private Geigenstunden und investierte ihr Können in die
+                    Förderung ihrer Schüler und Schülerinnen. Auch zwei ihrer Enkelkinder wurden durch sie zu
+                    Berufsmusikerinnen und -musikern ausgebildet.
+                </p>
+                <p>
+                    Katharina Hardy lebte bis zu ihrem Tod im Jahre 2022 in Zürich.
+                </p>
+            </div>
+        </div>
+
+        <h3 class=\"mt-4\">Quellenlage</h3>
+        <div class=\"row\">
+            <div class=\"col-lg-8\">
+                <p>
+                    Die vorliegende Biografie basiert vor allem auf den Erzählungen und Erinnerungen von Katharina Hardy
+                    selbst, welche sie in zwei Interviews mit der Gedenkstätte Bergen-Belsen
+                    aufarbeitete.<sup><a href=\"#endnote11\" id=\"footnote11\">11</a></sup> Ergänzt
+                    werden die subjektiven Schilderungen des Erlebten durch historische Eckdaten, die sich vor allem am
+                    Katalog der Ausstellung der Gedenkstätte Bergen-Belsen orientieren. Über ihre Deportation von
+                    Ravensbrück in das Konzentrationslager Bergen-Belsen ist kaum etwas bekannt, da keine Transportliste
+                    existiert.
+                </p>
+                <p>
+                    Katharina Hardys Geschichte verdeutlicht, dass die Zeit nach Kriegsende oftmals weiterhin durch
+                    Ängste und Unsicherheiten, Aufenthalte in DP-Camps, der Suche nach Angehörigen, der
+                    Auseinandersetzung mit einem verlorenen zu Hause und dem langwierigen Zurückfinden in einen Alltag
+                    geprägt war.
+                </p>
+            </div>
+        </div>
+
+        <h3 class=\"mt-4\">Bibliographie</h3>
+        <div class=\"row\">
+            <div class=\"col-lg-8\">
+                <p>
+                    Bundeszentrale für politische Bildung, Vor 65 Jahren: Ungarischer Volksaufstand, online unter:
+                    <a href=\"https://www.bpb.de/kurz-knapp/hintergrund-aktuell/342325/vor-65-jahren-ungarischer-volksaufstand\"
+                       title=\"Zur Seite der Bundeszentrale für politische Bildung\">
+                    https://www.bpb.de/kurz-knapp/hintergrund-aktuell/342325/vor-65-jahren-ungarischer-volksaufstand
+                    </a>
+                    (letzter Zugriff: 05.05.2024).
+                </p>
+                <p>
+                    Das Bundesarchiv, Zwangsarbeit im NS-Staat. Jüdische Arbeitsbataillone, online unter:
+                    <a href=\" https://www.bundesarchiv.de/zwangsarbeit/haftstaetten/index.php?tab=21\" title=\"Zur Seite des Bundesarchivs\">
+                    https://www.bundesarchiv.de/zwangsarbeit/haftstaetten/index.php?tab=21
+                    </a>
+                    (letzter Zugriff: 01.05.2024).
+                </p>
+                <p>
+                    Deutsches Historisches Museum, Todesmärsche: Die Räumung der Konzentrationslager 1944/45, online
+                    unter:
+                    <a href=\"https://www.dhm.de/lemo/kapitel/der-zweite-weltkrieg/voelkermord/todesmaersche.html\" title=\"Zur Seite des DHM\">
+                        https://www.dhm.de/lemo/kapitel/der-zweite-weltkrieg/voelkermord/todesmaersche.html
+                        </a>
+                    (letzter Zugriff: 24.05.2024).
+                </p>
+                <p>
+                    Bernhard Strebel, Der Lagerkomplex des KZ Ravensbrück, in: Bundeszentrale für politische Bildung,
+                    online unter:
+                    <a href=\"https://www.bpb.de/themen/holocaust/ravensbrueck/60686/der-lagerkomplex-des-kz-ravensbrueck\"
+                       title=\"Zur Seite der Bundeszentrale für politische Bildung\">
+                    https://www.bpb.de/themen/holocaust/ravensbrueck/60686/der-lagerkomplex-des-kz-ravensbrueck
+                    </a>
+                    (letzter Zugriff: 26.07.2024).
+                </p>
+                <p>
+                    Stiftung niedersächsische Gedenkstätten, Bergen-Belsen. Kriegsgefangenenlager 1940-1945,
+                    Konzentrationslager 1943-1945, Displaced Persons Camp 1945-1950. Katalog der Dauerausstellung. Celle
+                    2019.
+                </p>
+                <p>
+                    Stiftung niedersächsische Gedenkstätten, Displaced Persons Camp (1945–1950), online unter:
+                    <a href=\"https://bergen-belsen.stiftung-ng.de/de/geschichte/displaced-persons-camp-1945-1950\"
+                       title=\"Zur Seite der Gedenkstätte Bergen-Belsen\">
+                    https://bergen-belsen.stiftung-ng.de/de/geschichte/displaced-persons-camp-1945-1950
+                        </a>
+                    (letzter Zugriff: 06.05.2024).
+                </p>
+                <p>
+                    75 Tage Gewalt, Mord, Befreiung. Das Kriegsende in Niedersachsen, Transport von Frauen und Kindern
+                    in das KZ Bergen-Belsen, online unter:
+                    <a href=\"https://befreiung-1945.de/transport-von-frauen-und-kindern-in-das-kz-bergen-belsen\" title=\"Zur Seite der Stiftung niedersächsische Gedenkstätten\">
+                    https://befreiung-1945.de/transport-von-frauen-und-kindern-in-das-kz-bergen-belsen
+                        </a>
+                    (letzter Zugriff: 26.07.2024).
+                </p>
+                <p>
+                    Yad Vashem – Internationale Holocaust Gedenkstätte, Die Ermordung der ungarischen Juden, online
+                    unter:
+                    <a href=\"https://www.yadvashem.org/de/holocaust/about/fate-of-jews/hungary.html#narrative_info\" title=\"Zur Seite von Yad Vashem\">
+                        https://www.yadvashem.org/de/holocaust/about/fate-of-jews/hungary.html#narrative_info
+                    </a>
+                    (letzter Zugriff: 01.05.2024).
+                </p>
+            </div>
+        </div>
+
+        <h3 class=\"mt-4\">Fußnoten</h3>
+        <div class=\"row\">
+            <div class=\"col-lg-8 caption\">
+                <ol>
+                    <li id=\"endnote1\">
+                        Stiftung Niedersächsische Gedenkstätten / Gedenkstätte Bergen-Belsen, Interview mit Katharina Hardy am 24.04.2003, BV 81.
+                        <a href=\"#footnote1\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote2\">
+                        Vgl. Yad Vashem – Internationale Holocaust Gedenkstätte, Die Ermordung der ungarischen Juden, online unter: https://www.yadvashem.org/de/holocaust/about/fate-of-jews/hungary.html#narrative_info (letzter Zugriff: 01.05.2024).
+                        <a href=\"#footnote2\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote3\">
+                        Vgl. Das Bundesarchiv, Zwangsarbeit im NS-Staat. Jüdische Arbeitsbataillone, online unter: https://www.bundesarchiv.de/zwangsarbeit/haftstaetten/index.php?tab=21 (letzter Zugriff: 01.05.2024).
+                        <a href=\"#footnote3\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote4\">
+                        Lukkas Busche / Andreas Froese (Hrsg.), Gardelegen 1945. Das Massaker und seine Nachwirkungen.
+                        Begleitender Katalog zur Dauerausstellung der Gedenkstätte Feldscheune Isenschnibbe Gardelegen,
+                        Gardelegen / Leipzig / Magdeburg 2022.
+                        <a href=\"#footnote4\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote5\">
+                        Vgl. Deutsches Historisches Museum, Todesmärsche: Die Räumung der Konzentrationslager 1944/45, online unter: https://www.dhm.de/lemo/kapitel/der-zweite-weltkrieg/voelkermord/todesmaersche.html (letzter Zugriff: 24.05.2024).
+                        <a href=\"#footnote5\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote6\">
+                        Vgl. Stiftung niedersächsische Gedenkstätten, Bergen-Belsen. Kriegsgefangenenlager 1940-1945, Konzentrationslager 1943-1945, Displaced Persons Camp 1945-1950. Katalog der Dauerausstellung. Celle 2019, S. 232 f.
+                        <a href=\"#footnote6\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote7\">
+                        Vgl. Stiftung niedersächsische Gedenkstätten (Hrsg.), Bergen-Belsen. Kriegsgefangenenlager
+                        1940-1945, Konzentrationslager 1943-1945, Displaced Persons Camp 1945-1950. Katalog der
+                        Dauerausstellung, Celle 2009, S. 200.
+                        <a href=\"#footnote7\">&uarr;</a>
+                    </li>
+
+                    <li id=\"endnote8\">
+                        Vgl. Stiftung niedersächsische Gedenkstätten, Displaced Persons Camp (1945–1950), online unter: https://bergen-belsen.stiftung-ng.de/de/geschichte/displaced-persons-camp-1945-1950/ (letzter Zugriff: 06.05.2024).
+                        <a href=\"#footnote8\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote9\">
+                        Vgl. Stiftung niedersächsische Gedenkstätten, Displaced Persons Camp (1945–1950), online unter: https://bergen-belsen.stiftung-ng.de/de/geschichte/displaced-persons-camp-1945-1950/ (letzter Zugriff: 06.05.2024).
+                        <a href=\"#footnote9\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote10\">
+                        Vgl. Bundeszentrale für politische Bildung, Vor 65 Jahren: Ungarischer Volksaufstand, online unter: https://www.bpb.de/kurz-knapp/hintergrund-aktuell/342325/vor-65-jahren-ungarischer-volksaufstand/ (letzter Zugriff: 05.05.2024).
+                        <a href=\"#footnote10\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote11\">
+                        Stiftung Niedersächsische Gedenkstätten / Gedenkstätte Bergen-Belsen, Interview mit Katharina Hardy am 15.12.1995, BC 64.
+                        <a href=\"#footnote11\">&uarr;</a>
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+        <h3 class=\"mt-4\">Zitierhinweis</h3>
+        <div class=\"row\">
+            <div class=\"col-lg-8\">
+                <p>
+                    Lara Meinert: Katharina Hardy – Fokus „DP-Camp Bergen-Belsen“, in: Holocaust in Ungarn und
+                    Deportationen nach Norddeutschland 1944, hrsg. vom Institut für die Geschichte der deutschen Juden,
+                    URL: https://holocaust-ungarn-norddeutschland.de";
+        // line 430
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_bio_hardy");
+        yield ", CC BY 4.0.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+
+        const budapest = L.marker([47.5, 19.05]).bindPopup('<strong>Budapest</strong><br/>');
+
+        const mbAttr = 'Map data &copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors, Imagery © <a href=\"https://www.mapbox.com/\">Mapbox</a>';
+        const mbUrl = 'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw';
+
+        const streets = L.tileLayer(mbUrl, {
+            id: 'mapbox/streets-v11',
+            tileSize: 512,
+            zoomOffset: -1,
+            attribution: mbAttr
+        });
+
+        const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 11,
+            attribution: '&copy; <a href=\"http://www.openstreetmap.org/copyright\">OpenStreetMap</a>'
+        });
+
+        const map = L.map('map', {
+            center: [48.144722, 17.112778],
+            zoom: 6,
+            layers: [osm,
+                budapest,
+            ]
+        });
+
+        const baseLayers = {
+            'OpenStreetMap': osm,
+        };
+
+        const layerControl = L.control.layers(baseLayers, overlays).addTo(map);
+
+    </script>
+
+";
+        
+        $__internal_6f47bbe9983af81f1e7450e9a3e3768f->leave($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof);
+
+        
+        $__internal_5a27a8ba21ca79b61932376b2fa922d2->leave($__internal_5a27a8ba21ca79b61932376b2fa922d2_prof);
+
+        return; yield '';
+    }
+
+    /**
+     * @codeCoverageIgnore
+     */
+    public function getTemplateName()
+    {
+        return "biographies/hardy.html.twig";
+    }
+
+    /**
+     * @codeCoverageIgnore
+     */
+    public function isTraitable()
+    {
+        return false;
+    }
+
+    /**
+     * @codeCoverageIgnore
+     */
+    public function getDebugInfo()
+    {
+        return array (  525 => 430,  303 => 211,  253 => 164,  95 => 8,  92 => 7,  82 => 6,  60 => 3,  37 => 1,);
+    }
+
+    public function getSourceContext()
+    {
+        return new Source("{% extends 'base-map.html.twig' %}
+
+{% block title %} Fallstudie | {{ parent() }} {% endblock %}
+
+
+{% block body %}
+    {% include 'elements/navigation-biographies.html.twig' %}
+
+
+    <div class=\"container g-4 py-5 study\">
+        <h2>Katharina Hardy – Fokus „DP-Camp Bergen-Belsen“</h2>
+        <div class=\"row\">
+            <h3>Zur Person</h3>
+            <div class=\"col-lg-8 mb-2\">
+                <p class=\"abstract\">
+                    Katharina Hardy, geborene Cohn (nach 1947 Kardos), wurde am 7. November 1928 in Budapest in Ungarn
+                    geboren und wuchs in bescheidenen Verhältnissen auf. Ihr Vater arbeitete als Buchhalter bei den Fiat
+                    Automobilwerken. Ihre Mutter kümmerte sich als Hausfrau um Katharina Hardy und ihre sieben Jahre
+                    ältere Schwester Piroska. Die Familie war nicht religiös. Zu Hause wurde untereinander Ungarisch
+                    gesprochen, teilweise wurde auch die deutsche Sprache in der Familie benutzt. Katharina Hardy
+                    besuchte als junges Mädchen die Grundschule und ging im Anschluss für sechs Jahre auf das jüdische
+                    Gymnasium. Daraufhin besuchte sie das musische Gymnasium und wurde im Geigenspiel ausgebildet. Ab
+                    1937/38 ging sie an die Franz-Liszt-Akademie in Budapest, wo sie ihre Ausbildung aufgrund des
+                    Krieges im März 1944 abbrechen musste. Katharina Hardy holte das Abitur nach dem Krieg im Jahre 1947
+                    nach.
+                </p>
+            </div>
+            <div class=\"col-lg-4\">
+                <div id=\"map\" style=\"height: 15rem;\">
+                </div>
+            </div>
+        </div>
+
+        <h3 class=\"mt-4\">Beginn der Deportationen</h3>
+        <div class=\"row\">
+            <div class=\"col-lg-8\">
+                <p>
+                    Am 19. März 1944 wurde Ungarn von deutschen Truppen besetzt. Kurz darauf begannen im Mai 1944 die
+                    Deportationen der Jüdinnen und Juden aus dem ungarischen Staatsgebiet nach Auschwitz-Birkenau. Etwa
+                    424.000 Menschen wurden innerhalb von 56 Tagen aus Ungarn deportiert. Katharina Hardy erinnerte sich
+                    in einem Interview, das sie Mitarbeitenden der Gedenkstätte Bergen-Belsen am 24. April
+                    2003<sup><a href=\"#endnote1\" id=\"footnote1\">1</a></sup> gab,
+                    dass sie den Antisemitismus in Ungarn spürbar wahrgenommen hätte. Sie habe bereits als Kind sozialen
+                    Ausschluss von Gleichaltrigen erlebt, obwohl ihre Eltern immer versucht hätten, ihre Kinder davor zu
+                    schützen. Katharina Hardy berichtete im Interview auch, dass die Beschimpfungen im Alltag seit 1942
+                    zugenommen und auch die antisemitischen Gesetze sich verschärft hätten. Katharina Hardy zufolge
+                    hätten ihre Eltern bereits vor 1944 über eine Auswanderung nach Australien nachgedacht, ihre Mutter
+                    habe dies aber abgelehnt, da sie ihre Eltern nicht habe zurücklassen wollen. Katharina Hardy
+                    erzählte im Interview, dass ihre Großeltern die ersten ihrer Familie waren, die nach Auschwitz
+                    deportiert worden seien Insgesamt wurden etwa 565.000 der 800.000 auf ungarischem Staatsgebiet
+                    lebenden Jüdinnen und Juden durch die systematischen Vernichtungsaktionen der Nazis
+                    ermordet.<sup><a href=\"#endnote2\" id=\"footnote2\">2</a></sup>
+                    Katharina Hardys Großvater starb bereits auf dem Weg in das Konzentrations- und Vernichtungslager,
+                    ihre Großmutter und viele weiter Familienmitglieder wurden in den Gaskammern von Auschwitz ermordet.
+                </p>
+            </div>
+        </div>
+
+        <h3 class=\"mt-4\">Entführung zur Zwangsarbeit</h3>
+        <div class=\"row\">
+            <div class=\"col-lg-8\">
+                <p>
+                    Bereits seit August 1940 waren junge jüdische Männer im wehrpflichtigen Alter in Ungarn zur Arbeit
+                    verpflichtet. Später wurden die Altersgrenzen zunehmend heruntergesetzt und auch jüdische Frauen zur
+                    Arbeit gezwungen. Ab 1941 wurden ungarisch-jüdische Arbeitsbataillone über die Grenzen des heutigen
+                    Ungarns hinaus eingesetzt. Obwohl sich Reichsverweser Horthy zunächst weigerte die ungarischen
+                    Jüdinnen und Juden an Deutschland auszuliefern, starben bis März 1944 mehr als 60.000 Menschen durch
+                    den antisemitischen Terror. Etwa ein Drittel der Opfer wurde durch oder bei der Zwangsarbeit
+                    ermordet.<sup><a href=\"#endnote3\" id=\"footnote3\">3</a></sup>
+                </p>
+                <p>
+                    Im Oktober 1944 wurde auch Katharina Hardys Vater in der Nacht von Pfeilkreuzlern abgeholt. Einige
+                    Tage später, vermutlich am 13. Oktober 1944, kamen die Faschisten erneut und holten Katharina und
+                    ihre Schwester ab. Katharina Hardy berichtete im Interview, dass sie in ein Arbeitslager bei
+                    Budapest gebracht worden seien, um dort Gräben auszuheben.
+                </p>
+                <p>
+                    Ungefähr drei bis vier Wochen nach ihrer Festnahme wurden die Schwestern wieder freigelassen und
+                    durften vorerst nach Hause zurückkehren. Allerdings wurde Katharina Hardy bereits wenige Tage später
+                    erneut von den Pfeilkreuzlern abgeholt, dieses Mal zusammen mit ihrer Mutter. Ihre Schwester Piroska
+                    blieb zurück, wurde jedoch zwei Wochen später ebenfalls abgeholt und nach Ravensbrück deportiert.
+                </p>
+            </div>
+        </div>
+
+        <h3 class=\"mt-4\">Der „Todesmarsch“ nach Ravensbrück</h3>
+        <div class=\"row\">
+            <div class=\"col-lg-8\">
+                <p>
+                    Nach ihrer Verhaftung im November 1944 wurden Katharina Hardy und ihre Mutter in einem Sammellager
+                    in Budapest festgehalten. Katharina Hardy erinnerte sich im Interview, dass sie zusammen mit ihrer
+                    Mutter und vielen weiteren Frauen einen Fußmarsch von über 200 Kilometern Richtung Westen habe
+                    zurücklegen müssen. Die Frauen hielten sich für mehrere Tage in einem Sammellager auf (Ziegelfabrik
+                    in Budapest). Von dort mussten sie zu Fuß weiterlaufen und wurden im Lager Györ untergebracht. Am
+                    28. Dezember 1944 wurden Katherina Hardy und ihre Mutter in Komárom (Festung Csillag) getrennt. Ihre
+                    Mutter starb später in Komárom.
+                </p>
+                <p>
+                    Katharina Hardy musste ohne ihre Eltern weitermarschieren und wurde am 31.12.1944 in das Frauenlager
+                    Ravensbrück deportiert, wo sie am 7. Januar 1945 ankam. Das Konzentrationslager Ravensbrück
+                    verzeichnete im Jahr 1944 durch Massendeportationen aus Frankreich, Polen, Ungarn und der Slowakei
+                    insgesamt 70.000 zusätzliche Häftlinge. 1944 wurden 60 Prozent aller weiblichen Häftlinge in den
+                    deutsch besetzten Gebieten nach Ravensbrück deportiert. Etwa 9.000 Jüdinnen aus Ungarn und der
+                    Slowakei wurden im Frauenlager inhaftiert. Katharina Hardy erinnerte sich rückblickend, dass sie bei
+                    der Ankunft im Konzentrationslager Ravensbrück bereits sehr geschwächt von den Strapazen des langen
+                    und unmenschlichen Fußmarsches gewesen sei und sich in einem sehr schlechten Gesundheitszustand
+                    befunden habe. Katharina Hardy war ungefähr vier Wochen in Ravensbrück inhaftiert, bevor sie Ende
+                    Februar 1945 zusammen mit etwa 3.200 weiteren Frauen und Kindern an das Konzentrationslager
+                    Bergen-Belsen überstellt wurde, dort traf sie am 2. März 1945 ein.
+                </p>
+            </div>
+            <div class=\"col-lg-4\">
+                <div class=\"infobox\">
+                    <h4>&#9432; Todesmärsche und „Endphaseverbrechen“</h4>
+                    <p>
+                        In der Endphase des Krieges wurden etliche Konzentrationslager und KZ-Außenlager durch die
+                        Nationalsozialisten vor der Ankunft der sich nähernden Alliierten geräumt. Die Häftlinge wurden
+                        entweder in Güterwagons, selten in Lastwagen transportiert oder unter Misshandlungen gezwungen,
+                        zu
+                        Fuß in weiterhin unter deutscher Kontrolle stehende Gebiete zu marschieren. Während der oft
+                        tage-,
+                        teilweise auch wochenlang dauernden Märsche wurden die Häftlinge in der Regel kaum versorgt,
+                        viele
+                        von ihnen verhungerten oder verdursteten in den Güterwagons, viele brachen während der Märsche
+                        aufgrund der Erschöpfung zusammen oder wurden durch die SS oder andere wachhabende Einheiten
+                        ermordet. Durch die Überlebenden wurde deshalb für diese Räumungen der Begriff „Todesmarsch“
+                        geprägt. Teile der Todesmärsche endeten in der gezielten Ermordung der Häftlinge, von denen das
+                        sogenannte „Massaker von Gardelegen“ eines der bekanntesten ist. Über 1.000 Häftlinge aus
+                        Außenlagern des KZ Neuengamme und des KZ Mittelbau-Dora wurden dort in einer Feldscheune
+                        zusammengetrieben, die von der SS und weiteren NS-Organisationen in Brand gesetzt
+                        wurde.<sup><a href=\"#endnote4\" id=\"footnote4\">4</a></sup>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class=\"row\">
+            <div class=\"col-lg-8\">
+                <p>
+                    Die von den Häftlingen selbst als „Todesmärsche“ bezeichneten Räumungen vieler Konzentrationslager
+                    begannen im Frühjahr 1944. Durch das Vorrücken der Alliierten verkleinerte sich der Deutsche
+                    Machtbereich zunehmend. Um eine Befreiung der Häftlinge zu verhindern, räumte die SS fast alle
+                    Konzentrations- und Außenlager und trieb die Gefangenen in frontfernere Ziellager. Die Menschen
+                    wurden in überfüllten Güterwaggons oder auf endlosen Gewaltmärschen mitten durch Städte und Dörfer
+                    getrieben. Die Fahrten und Fußmärsche dauerten teilweise Wochen. Diejenigen, die mit dem Tempo der
+                    Kolonnen nicht mithalten konnten oder versuchten zu fliehen, wurden von den Wachmannschaften
+                    ermordet. Zahllose Menschen starben während dieser Gewaltmärsche außerdem an Krankheit,
+                    Unterernährung, Erschöpfung und Kälte. Aufgrund fehlender Dokumente lässt sich die Gesamtzahl der
+                    KZ-Häftlinge, die auf den Räumungstransporten und an den Folgen dieses Martyriums starben, nicht
+                    genau ermitteln. Es wird geschätzt, dass etwa 250.000 Menschen dabei ermordet wurden oder aufgrund
+                    der unmenschlichen Behandlung und unzureichenden Verpflegung
+                    starben.<sup><a href=\"#endnote5\" id=\"footnote5\">5</a></sup> Vermutlich erreichte Katharina
+                    Hardy Bergen-Belsen mit einem solchen „Todesmarsch“.
+                </p>
+            </div>
+            <div class=\"col-lg-4\">
+                <div class=\"infobox\">
+                    <h4>&#9432; Räumung von Konzentrationslagern</h4>
+                    <p>
+                        Die Räumung des KZ-Außenlagers Lübberstedt. In
+                        Güterwagons durch Norddeutschland
+                    </p>
+                    <p>
+                        <a href=\"{{ path('app_deportation_luebberstedt') }}\"
+                           title=\"Mehr Informationen zur Räumung von Konzentrationslagern anhand der Fallstudie zu Lübberstedt\">
+                            &#10149; Mehr zur Räumung von Konzentrationslagern
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <h3 class=\"mt-4\">Die Tage vor der Befreiung des Konzentrationslagers Bergen-Belsen</h3>
+        <div class=\"row\">
+            <div class=\"col-lg-8\">
+                <p>
+                    Katharina Hardy erinnerte sich im Interview an die katastrophalen Zustände in Ravensbrück und
+                    Bergen-Belsen. Bei ihrer Ankunft in Bergen-Belsen sei sie in einer Baracke des Frauenlagers in der
+                    Nähe des Krematoriums untergebracht worden. Sie sei im Lager gehunfähig geworden. Katharina Hardy
+                    erzählte darüber hinaus, dass sie und ihre Mitgefangenen in den letzten Tagen vor der Befreiung des
+                    Lagers kein Essen mehr bekommen hätten.
+                </p>
+                <p>
+                    Bergen-Belsen war Ziellager für unzählige Räumungstransporte. Mit der Ankunft zehntausender kranker
+                    und sterbender Häftlinge verschlechterten sich die Lebensbedingungen im Lager für die Gefangenen
+                    dramatisch. Vor allem Seuchen wie Fleckfieber und Typhus, aber auch Hunger waren die Hauptursachen
+                    für das nun beginnende Massensterben. Die SS leitete keine Maßnahmen zur Bekämpfung der
+                    katastrophalen sanitären und hygienischen Verhältnisse im Lager ein. Täglich starben mehrere Hundert
+                    Menschen im Lager. Da die Kapazitäten des Krematoriums auf dem Lagergelände ab März 1945 für die
+                    Einäscherung der unzähligen Toten nicht mehr ausreichten, verwesten Tausende von Leichen auf dem
+                    Lagergelände, was den Ausbruch von weiteren Seuchen beschleunigte. Erst wenige Tage vor der
+                    Befreiung durch die Alliierten wurde damit begonnen, die Toten in Massengräbern zu begraben. Im
+                    Konzentrationslager Bergen-Belsen starben mindestens 52.000 Menschen aufgrund der menschenunwürdigen
+                    Haftbedingungen. Von 1943 bis 1944 etwa 3.100 Menschen, von Januar 1945 bis zur Befreiung am 15.
+                    April 1945 etwa 35.000 Menschen und noch nach der Befreiung bis Ende Juni 1945 starben weitere
+                    14.000 der Befreiten an den unmittelbaren Folgen der Haft.<sup><a href=\"#endnote6\" id=\"footnote6\">6</a></sup>
+                </p>
+            </div>
+            <div class=\"col-lg-4\">
+                <div class=\"infobox\">
+                    <h4>&#9432; Das KZ Bergen-Belsen</h4>
+                    <p style=\"font-size: 0.9rem;\">
+                        Das KZ Bergen-Belsen war 1943 zunächst als „Austauschlager“ für die Unterbringung jüdischer
+                        Geiseln gegründet worden. Schnell wurden ihm aber weitere Funktionen zugewiesen und ein Männer-
+                        sowie ein Frauenlager eingerichtet. Ab Ende 1944 wurde Bergen-Belsen Ziel vieler Todesmärsche
+                        und Räumungstransporte und entwickelte sich aufgrund der katastrophalen Bedingungen zu einem
+                        Sterbelager. Nach der Befreiung wurde in Bergen-Belsen ein polnisches und ein jüdisches
+                        Displaced Persons-Camp eingerichtet.<sup><a href=\"#endnote7\" id=\"footnote7\">7</a></sup>
+                    </p>
+                    <p>
+                        <a href=\"{{ path('app_map') }}\" title=\"Kartenübersicht\">
+                            &#10149; Zur Karte der Lager
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <h3 class=\"mt-4\">Das Displaced Persons Camp Bergen-Belsen</h3>
+        <div class=\"row\">
+            <div class=\"col-lg-8\">
+                <p>
+                    Nach der Befreiung von Bergen-Belsen wurden die Überlebenden zunächst von der britischen Armee in
+                    die nahe gelegene, mittlerweile geräumte Wehrmachtskaserne gebracht. Dort wurde nicht nur Katharina
+                    Hardy, sondern tausende weitere Menschen medizinisch versorgt. Die Alliierten gaben den nach
+                    Deutschland verschleppten Menschen den Rechtsstatus „Displaced Persons“ (DP), dadurch hatten sie
+                    Anspruch auf besondere Fürsorge.<sup><a href=\"#endnote8\" id=\"footnote8\">8</a></sup>
+                </p>
+                <p>
+                    Als Katharina Hardy auf dem Weg der Genesung war, sah man sie für einen Erholungstransport nach
+                    Schweden vor. Zu dieser Zeit erfuhr sie vom Überleben ihres Vaters über sogenannte Rot-Kreuz-Listen,
+                    welche vom Deutschen Roten Kreuz als eine Form des Suchdienstes nach vermissten Angehörigen geführt
+                    wurden. Daher entschied sie sich nach dem knapp drei-monatigen Aufenthalt im DP-Camp Bergen-Belsen
+                    für eine Rückkehr nach Ungarn und reiste am 31. Juli 1945 über Bratislava nach Budapest zu ihrem
+                    Vater.
+                </p>
+                <p>
+                    Die meisten Menschen aus dem DP-Camp Bergen-Belsen verließen Deutschland bereits kurze Zeit nach
+                    ihrer Befreiung, um in andere Länder auszuwandern oder in ihre Herkunftsländer zurückzukehren.
+                    Allerdings blieben vor allem polnische Staatsangehörige und Jüdinnen und Juden im DP-Camp
+                    Bergen-Belsen zurück. Im Laufe des Jahres 1945 trennte man die Wohnbereiche dieser beiden Gruppen.
+                    Im polnischen DP-Camp lebten bis zur Auflösung im Jahr 1946 mehr als 10.000 Menschen. Das jüdische
+                    DP-Camp Bergen-Belsen bestand weitaus länger. Hier lebten bis Mitte 1950 etwa 12.000 Menschen aus
+                    ganz Europa.<sup><a href=\"#endnote9\" id=\"footnote9\">9</a></sup>
+                </p>
+            </div>
+        </div>
+
+        <h3 class=\"mt-4\">Rückkehr nach Ungarn und Flucht in die Schweiz</h3>
+        <div class=\"row\">
+            <div class=\"col-lg-8\">
+                <p>
+                    Nach ihrer Rückkehr nach Ungarn nahm Katharina Hardy ihre Ausbildung an der Franz-Liszt-Akademie
+                    wieder auf und holte gleichzeitig ihr Abitur nach. Sie und ihr Vater zogen gemeinsam in die alte
+                    Wohnung der Familie zurück. Ihr Vater konnte erneut in seinem alten Beruf als Buchhalter arbeiten.
+                    Er verstarb 1977.<br/>
+                    Im Winter 1947 lernte Katharina Hardy ihren zukünftigen Ehemann kennen, den sie 1950 heiratete. Sie
+                    bekamen zwei gemeinsame Kinder.
+                </p>
+                <p>
+                    Am 25. November 1956 flüchtete die kleine Familie aufgrund der ungarischen Revolution – einem
+                    landesweiten Aufstand, der sich gegen die sowjetische Herrschaft
+                    richtete,<sup><a href=\"#endnote10\" id=\"footnote10\">10</a></sup> – gemeinsam aus Ungarn
+                    über Österreich nach Regensdorf in die Schweiz, wo ihrem Mann eine Arbeitsstelle als Ingenieur in
+                    Zürich vermittelt worden war
+                </p>
+                <p>
+                    1959 wurde Katharina Hardys drittes Kind in der Schweiz geboren. Seit 1957 war sie als Solistin und
+                    Orchestermusikerin tätig. Ab 1985 gab sie private Geigenstunden und investierte ihr Können in die
+                    Förderung ihrer Schüler und Schülerinnen. Auch zwei ihrer Enkelkinder wurden durch sie zu
+                    Berufsmusikerinnen und -musikern ausgebildet.
+                </p>
+                <p>
+                    Katharina Hardy lebte bis zu ihrem Tod im Jahre 2022 in Zürich.
+                </p>
+            </div>
+        </div>
+
+        <h3 class=\"mt-4\">Quellenlage</h3>
+        <div class=\"row\">
+            <div class=\"col-lg-8\">
+                <p>
+                    Die vorliegende Biografie basiert vor allem auf den Erzählungen und Erinnerungen von Katharina Hardy
+                    selbst, welche sie in zwei Interviews mit der Gedenkstätte Bergen-Belsen
+                    aufarbeitete.<sup><a href=\"#endnote11\" id=\"footnote11\">11</a></sup> Ergänzt
+                    werden die subjektiven Schilderungen des Erlebten durch historische Eckdaten, die sich vor allem am
+                    Katalog der Ausstellung der Gedenkstätte Bergen-Belsen orientieren. Über ihre Deportation von
+                    Ravensbrück in das Konzentrationslager Bergen-Belsen ist kaum etwas bekannt, da keine Transportliste
+                    existiert.
+                </p>
+                <p>
+                    Katharina Hardys Geschichte verdeutlicht, dass die Zeit nach Kriegsende oftmals weiterhin durch
+                    Ängste und Unsicherheiten, Aufenthalte in DP-Camps, der Suche nach Angehörigen, der
+                    Auseinandersetzung mit einem verlorenen zu Hause und dem langwierigen Zurückfinden in einen Alltag
+                    geprägt war.
+                </p>
+            </div>
+        </div>
+
+        <h3 class=\"mt-4\">Bibliographie</h3>
+        <div class=\"row\">
+            <div class=\"col-lg-8\">
+                <p>
+                    Bundeszentrale für politische Bildung, Vor 65 Jahren: Ungarischer Volksaufstand, online unter:
+                    <a href=\"https://www.bpb.de/kurz-knapp/hintergrund-aktuell/342325/vor-65-jahren-ungarischer-volksaufstand\"
+                       title=\"Zur Seite der Bundeszentrale für politische Bildung\">
+                    https://www.bpb.de/kurz-knapp/hintergrund-aktuell/342325/vor-65-jahren-ungarischer-volksaufstand
+                    </a>
+                    (letzter Zugriff: 05.05.2024).
+                </p>
+                <p>
+                    Das Bundesarchiv, Zwangsarbeit im NS-Staat. Jüdische Arbeitsbataillone, online unter:
+                    <a href=\" https://www.bundesarchiv.de/zwangsarbeit/haftstaetten/index.php?tab=21\" title=\"Zur Seite des Bundesarchivs\">
+                    https://www.bundesarchiv.de/zwangsarbeit/haftstaetten/index.php?tab=21
+                    </a>
+                    (letzter Zugriff: 01.05.2024).
+                </p>
+                <p>
+                    Deutsches Historisches Museum, Todesmärsche: Die Räumung der Konzentrationslager 1944/45, online
+                    unter:
+                    <a href=\"https://www.dhm.de/lemo/kapitel/der-zweite-weltkrieg/voelkermord/todesmaersche.html\" title=\"Zur Seite des DHM\">
+                        https://www.dhm.de/lemo/kapitel/der-zweite-weltkrieg/voelkermord/todesmaersche.html
+                        </a>
+                    (letzter Zugriff: 24.05.2024).
+                </p>
+                <p>
+                    Bernhard Strebel, Der Lagerkomplex des KZ Ravensbrück, in: Bundeszentrale für politische Bildung,
+                    online unter:
+                    <a href=\"https://www.bpb.de/themen/holocaust/ravensbrueck/60686/der-lagerkomplex-des-kz-ravensbrueck\"
+                       title=\"Zur Seite der Bundeszentrale für politische Bildung\">
+                    https://www.bpb.de/themen/holocaust/ravensbrueck/60686/der-lagerkomplex-des-kz-ravensbrueck
+                    </a>
+                    (letzter Zugriff: 26.07.2024).
+                </p>
+                <p>
+                    Stiftung niedersächsische Gedenkstätten, Bergen-Belsen. Kriegsgefangenenlager 1940-1945,
+                    Konzentrationslager 1943-1945, Displaced Persons Camp 1945-1950. Katalog der Dauerausstellung. Celle
+                    2019.
+                </p>
+                <p>
+                    Stiftung niedersächsische Gedenkstätten, Displaced Persons Camp (1945–1950), online unter:
+                    <a href=\"https://bergen-belsen.stiftung-ng.de/de/geschichte/displaced-persons-camp-1945-1950\"
+                       title=\"Zur Seite der Gedenkstätte Bergen-Belsen\">
+                    https://bergen-belsen.stiftung-ng.de/de/geschichte/displaced-persons-camp-1945-1950
+                        </a>
+                    (letzter Zugriff: 06.05.2024).
+                </p>
+                <p>
+                    75 Tage Gewalt, Mord, Befreiung. Das Kriegsende in Niedersachsen, Transport von Frauen und Kindern
+                    in das KZ Bergen-Belsen, online unter:
+                    <a href=\"https://befreiung-1945.de/transport-von-frauen-und-kindern-in-das-kz-bergen-belsen\" title=\"Zur Seite der Stiftung niedersächsische Gedenkstätten\">
+                    https://befreiung-1945.de/transport-von-frauen-und-kindern-in-das-kz-bergen-belsen
+                        </a>
+                    (letzter Zugriff: 26.07.2024).
+                </p>
+                <p>
+                    Yad Vashem – Internationale Holocaust Gedenkstätte, Die Ermordung der ungarischen Juden, online
+                    unter:
+                    <a href=\"https://www.yadvashem.org/de/holocaust/about/fate-of-jews/hungary.html#narrative_info\" title=\"Zur Seite von Yad Vashem\">
+                        https://www.yadvashem.org/de/holocaust/about/fate-of-jews/hungary.html#narrative_info
+                    </a>
+                    (letzter Zugriff: 01.05.2024).
+                </p>
+            </div>
+        </div>
+
+        <h3 class=\"mt-4\">Fußnoten</h3>
+        <div class=\"row\">
+            <div class=\"col-lg-8 caption\">
+                <ol>
+                    <li id=\"endnote1\">
+                        Stiftung Niedersächsische Gedenkstätten / Gedenkstätte Bergen-Belsen, Interview mit Katharina Hardy am 24.04.2003, BV 81.
+                        <a href=\"#footnote1\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote2\">
+                        Vgl. Yad Vashem – Internationale Holocaust Gedenkstätte, Die Ermordung der ungarischen Juden, online unter: https://www.yadvashem.org/de/holocaust/about/fate-of-jews/hungary.html#narrative_info (letzter Zugriff: 01.05.2024).
+                        <a href=\"#footnote2\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote3\">
+                        Vgl. Das Bundesarchiv, Zwangsarbeit im NS-Staat. Jüdische Arbeitsbataillone, online unter: https://www.bundesarchiv.de/zwangsarbeit/haftstaetten/index.php?tab=21 (letzter Zugriff: 01.05.2024).
+                        <a href=\"#footnote3\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote4\">
+                        Lukkas Busche / Andreas Froese (Hrsg.), Gardelegen 1945. Das Massaker und seine Nachwirkungen.
+                        Begleitender Katalog zur Dauerausstellung der Gedenkstätte Feldscheune Isenschnibbe Gardelegen,
+                        Gardelegen / Leipzig / Magdeburg 2022.
+                        <a href=\"#footnote4\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote5\">
+                        Vgl. Deutsches Historisches Museum, Todesmärsche: Die Räumung der Konzentrationslager 1944/45, online unter: https://www.dhm.de/lemo/kapitel/der-zweite-weltkrieg/voelkermord/todesmaersche.html (letzter Zugriff: 24.05.2024).
+                        <a href=\"#footnote5\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote6\">
+                        Vgl. Stiftung niedersächsische Gedenkstätten, Bergen-Belsen. Kriegsgefangenenlager 1940-1945, Konzentrationslager 1943-1945, Displaced Persons Camp 1945-1950. Katalog der Dauerausstellung. Celle 2019, S. 232 f.
+                        <a href=\"#footnote6\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote7\">
+                        Vgl. Stiftung niedersächsische Gedenkstätten (Hrsg.), Bergen-Belsen. Kriegsgefangenenlager
+                        1940-1945, Konzentrationslager 1943-1945, Displaced Persons Camp 1945-1950. Katalog der
+                        Dauerausstellung, Celle 2009, S. 200.
+                        <a href=\"#footnote7\">&uarr;</a>
+                    </li>
+
+                    <li id=\"endnote8\">
+                        Vgl. Stiftung niedersächsische Gedenkstätten, Displaced Persons Camp (1945–1950), online unter: https://bergen-belsen.stiftung-ng.de/de/geschichte/displaced-persons-camp-1945-1950/ (letzter Zugriff: 06.05.2024).
+                        <a href=\"#footnote8\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote9\">
+                        Vgl. Stiftung niedersächsische Gedenkstätten, Displaced Persons Camp (1945–1950), online unter: https://bergen-belsen.stiftung-ng.de/de/geschichte/displaced-persons-camp-1945-1950/ (letzter Zugriff: 06.05.2024).
+                        <a href=\"#footnote9\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote10\">
+                        Vgl. Bundeszentrale für politische Bildung, Vor 65 Jahren: Ungarischer Volksaufstand, online unter: https://www.bpb.de/kurz-knapp/hintergrund-aktuell/342325/vor-65-jahren-ungarischer-volksaufstand/ (letzter Zugriff: 05.05.2024).
+                        <a href=\"#footnote10\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote11\">
+                        Stiftung Niedersächsische Gedenkstätten / Gedenkstätte Bergen-Belsen, Interview mit Katharina Hardy am 15.12.1995, BC 64.
+                        <a href=\"#footnote11\">&uarr;</a>
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+        <h3 class=\"mt-4\">Zitierhinweis</h3>
+        <div class=\"row\">
+            <div class=\"col-lg-8\">
+                <p>
+                    Lara Meinert: Katharina Hardy – Fokus „DP-Camp Bergen-Belsen“, in: Holocaust in Ungarn und
+                    Deportationen nach Norddeutschland 1944, hrsg. vom Institut für die Geschichte der deutschen Juden,
+                    URL: https://holocaust-ungarn-norddeutschland.de{{ path('app_bio_hardy') }}, CC BY 4.0.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+
+        const budapest = L.marker([47.5, 19.05]).bindPopup('<strong>Budapest</strong><br/>');
+
+        const mbAttr = 'Map data &copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors, Imagery © <a href=\"https://www.mapbox.com/\">Mapbox</a>';
+        const mbUrl = 'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw';
+
+        const streets = L.tileLayer(mbUrl, {
+            id: 'mapbox/streets-v11',
+            tileSize: 512,
+            zoomOffset: -1,
+            attribution: mbAttr
+        });
+
+        const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 11,
+            attribution: '&copy; <a href=\"http://www.openstreetmap.org/copyright\">OpenStreetMap</a>'
+        });
+
+        const map = L.map('map', {
+            center: [48.144722, 17.112778],
+            zoom: 6,
+            layers: [osm,
+                budapest,
+            ]
+        });
+
+        const baseLayers = {
+            'OpenStreetMap': osm,
+        };
+
+        const layerControl = L.control.layers(baseLayers, overlays).addTo(map);
+
+    </script>
+
+{% endblock %}", "biographies/hardy.html.twig", "/Users/neovesky/CodingFriends/holocaust-ungarn/templates/biographies/hardy.html.twig");
+    }
+}

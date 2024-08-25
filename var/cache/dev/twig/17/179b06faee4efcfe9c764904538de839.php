@@ -410,7 +410,7 @@ class __TwigTemplate_5e465ec2a73107cf8c153bf934977daa extends Template
 
     <script>
 
-        const bratislava = L.marker([48.144722, 17.112778]).bindPopup('<strong>Bratislava</strong><br/>');
+        const boba = L.marker([47.181667, 17.188333]).bindPopup('<strong>Boba</strong><br/>');
 
         const mbAttr = 'Map data &copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors, Imagery © <a href=\"https://www.mapbox.com/\">Mapbox</a>';
         const mbUrl = 'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw';
@@ -431,7 +431,7 @@ class __TwigTemplate_5e465ec2a73107cf8c153bf934977daa extends Template
             center: [48.144722, 17.112778],
             zoom: 6,
             layers: [osm,
-                bratislava,
+                boba,
             ]
         });
 
@@ -789,7 +789,7 @@ class __TwigTemplate_5e465ec2a73107cf8c153bf934977daa extends Template
 
     <script>
 
-        const bratislava = L.marker([48.144722, 17.112778]).bindPopup('<strong>Bratislava</strong><br/>');
+        const boba = L.marker([47.181667, 17.188333]).bindPopup('<strong>Boba</strong><br/>');
 
         const mbAttr = 'Map data &copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors, Imagery © <a href=\"https://www.mapbox.com/\">Mapbox</a>';
         const mbUrl = 'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw';
@@ -810,7 +810,7 @@ class __TwigTemplate_5e465ec2a73107cf8c153bf934977daa extends Template
             center: [48.144722, 17.112778],
             zoom: 6,
             layers: [osm,
-                bratislava,
+                boba,
             ]
         });
 
