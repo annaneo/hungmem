@@ -80,35 +80,35 @@ class SiteController extends AbstractController
 
     // SUBPAGES
 
-    #[Route('/deportationen/gruppe-der-300', name: 'app_deportation_vw')]
+    #[Route('/deportationen/gruppe-300', name: 'app_deportation_vw')]
     public function deportationVw(): Response
     {
         return $this->render('studies/gruppe-der-300.html.twig', [
-            'title' => 'Fallstudie 300er-Gruppe'
+            'title' => 'Gruppenstudie 300er-Gruppe'
         ]);
     }
 
-    #[Route('/deportationen/dessauer-ufer', name: 'app_deportation_dessauerUfer')]
+    #[Route('/deportationen/frauen-dessauer-ufer', name: 'app_deportation_dessauerUfer')]
     public function deportationDessauerUfer(): Response
     {
         return $this->render('studies/dessauer-ufer.html.twig', [
-            'title' => 'Fallstudie Dessauer Ufer'
+            'title' => 'Gruppenstudie Dessauer Ufer'
         ]);
     }
 
-    #[Route('/deportationen/salzwedel', name: 'app_deportation_salzwedel')]
+    #[Route('/deportationen/zwangsarbeit-ruestungsindustrie', name: 'app_deportation_salzwedel')]
     public function deportationSalzwedel(): Response
     {
         return $this->render('studies/salzwedel.html.twig', [
-            'title' => 'Fallstudie Salzwedel'
+            'title' => 'Gruppenstudie Salzwedel'
         ]);
     }
 
-    #[Route('/deportationen/luebberstedt', name: 'app_deportation_luebberstedt')]
+    #[Route('/deportationen/rauemung-luebberstedt', name: 'app_deportation_luebberstedt')]
     public function deportationLuebberstedt(): Response
     {
         return $this->render('studies/luebberstedt.html.twig', [
-            'title' => 'Fallstudie Luebberstedt'
+            'title' => 'Gruppenstudie Luebberstedt'
         ]);
     }
 

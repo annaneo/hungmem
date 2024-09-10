@@ -11,13 +11,13 @@
         <div class="row justify-content-end">
             <div class="col-sm">
                 <div>
-                    <a href="" title="">
-                        <img class="img-fluid" src="{{ asset('images/Titelbild-Orte.png') }}"
+                    <a href="{{ path('app_map') }}" title="Zur Karte">
+                        <img class="img-fluid" src="{{ asset('images/Kartenansicht-Norddeutschland.jpg') }}"
                              alt="">
                     </a>
                     <div class="studiesoverview">
                         <h2>
-                            <a href="{{ path('app_map') }}" title="">
+                            <a href="{{ path('app_map') }}" title="Zur Karte">
                                 Orte und Geografische Einordnung
                             </a>
                         </h2>
@@ -32,18 +32,20 @@
             </div>
             <div class="col-sm offset-lg-1">
                 <div>
-                    <a href="{{ path('app_sources') }}" title="">
+                    <a href="{{ path('app_sources') }}" title="Informationen zu Quellen und Daten">
                         <img class="img-fluid" src="{{ asset('images/placeholder_840x560.jpg') }}"
                              alt="">
                     </a>
                     <div class="studiesoverview">
                         <h2>
-                            <a href="{{ path('app_context') }}" title="">
+                            <a href="{{ path('app_sources') }}" title="Informationen zu Quellen und Daten">
                                 (Un)bekannte Daten und Quellen
                             </a>
                         </h2>
-                        <p>Dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-                            eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                        <p>Das Wissen über Deportierte aus Ungarn in nordwestdeutschen Konzentrationslagern ist bis heute sehr
+                            begrenzt. Bereits eine realistische Schätzung der Gesamtzahl der in die Konzentrationslager
+                            Neuengamme und Bergen-Belsen aus Ungarn deportierten Personen liegt bislang nicht vor. Die Namen der
+                            meisten Deportierten sind unbekannt.
                             ...
                             <a class="more" href="{{ path('app_context') }}" title="Weiterlesen">[mehr]</a>
                         </p>
@@ -55,19 +57,19 @@
         <div class="row g-4 mt-2">
             <div class="col-sm">
                 <div>
-                    <a href="{{ path('app_deportation') }}" title="">
+                    <a href="{{ path('app_deportation') }}" title="Zur Übersicht der Fallstudien">
                         <img class="img-fluid" src="{{ asset('images/studies/Titelbild-Dessauer-Ufer.png') }}"
                              alt="">
                     </a>
                     <div class="studiesoverview">
                         <h2>
-                            <a href="{{ path('app_deportation') }}" title="">
-                                Fallstudien zu Deportationsrouten
+                            <a href="{{ path('app_deportation') }}" title="Zur Übersicht der Fallstudien">
+                                Zwangsarbeiterinnen und Zwangsarbeiter aus Ungarn. Gruppenstudien
                             </a>
                         </h2>
                         <p>In weniger als zwei Monaten verschleppten die Nationalsozialisten nach der deutschen
                             Besetzung Ungarns im März 1944 etwa 440.000 Jüdinnen und Juden in das Konzentrations- und
-                            Vernichtungslager Auschwitz, wo der Großteil unmittelbar bei der Ankunft ermordet wurde. Nur
+                            Vernichtungslager Auschwitz, wo der Großteil unmittelbar nach der Ankunft ermordet wurde. Nur
                             etwa ein Drittel wurde bei den „Selektionen“ ausgewählt, um Zwangsarbeit für das Deutsche
                             Reich zu leisten. Die hier präsentierten Fallstudien geben an konkreten Beispielen Einblicke
                             in das System der NS-Zwangsarbeit, indem sie Deportationsrouten, Häftlingsgruppen und die
@@ -80,20 +82,20 @@
             </div>
             <div class="col-sm offset-lg-1">
                 <div>
-                    <a href="{{ path('app_biographies') }}" title="">
+                    <a href="{{ path('app_biographies') }}" title="Zur Übersicht der Biografien">
                         <img class="img-fluid" src="{{ asset('images/placeholder_840x560.jpg') }}"
                              alt="">
                     </a>
                     <div class="studiesoverview">
                         <h2>
-                            <a href="{{ path('app_biographies') }}" title="">
-                                Biografische Einzelfallstudien
+                            <a href="{{ path('app_biographies') }}" title="Zur Übersicht der Biografien">
+                                Deportation und Hafterfahrungen. Einzelbiografien
                             </a>
                         </h2>
                         <p>Von einem Großteil der aus Ungarn deportierten Menschen sind bis heute keine Namen bekannt.
                             Gleichzeitig bilden die Interviews der Überlebenden eine wichtige Grundlage für Forschung
-                            und Gedenken. Nur mit ihrer Hilfe lassen sich Deportationsroute, Haftbedingungen du
-                            individuelle (Über-)Lebenswegen rekonstruieren. Die hier präsentierten Fallstudien stellen
+                            und Gedenken. Nur mit ihrer Hilfe lassen sich Deportationsrouten, Haftbedingungen und
+                            individuelle (Über-)Lebenswege rekonstruieren. Die hier präsentierten Fallstudien stellen
                             ausgewählte Biografien vor, deren Schicksale zugleich stellvertretend für größere Gruppen
                             stehen.
                             <a class="more" href="{{ path('app_biographies') }}" title="Weiterlesen">[mehr]</a>

@@ -1,4 +1,4 @@
-# Holocaust in Ungarn und Deportationen nach Norddeutschland
+# Der Holocaust in Ungarn und die Deportationen nach Norddeutschland
 
 Webapp for a research project on the Holocaust in Hungary.
 
