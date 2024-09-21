@@ -124,7 +124,7 @@ class SiteController extends AbstractController
     public function biographyMereny(): Response
     {
         return $this->render('biographies/merenyi.html.twig', [
-            'title' => 'Biografie Schwestern Merény'
+            'title' => 'Biografie Schwestern Merényi'
         ]);
     }
 
