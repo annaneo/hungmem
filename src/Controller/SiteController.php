@@ -32,7 +32,7 @@ class SiteController extends AbstractController
     public function deportation(): Response
     {
         return $this->render('site/deportation.html.twig', [
-            'title' => 'Deportationsrouten'
+            'title' => 'Lager und Zwangsarbeit'
         ]);
     }
 
