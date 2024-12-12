@@ -16,9 +16,12 @@
         "symfony/monolog-bundle": "^3.0",
         "symfony/requirements-checker": "^2.0",
         "symfony/runtime": "6.4.*",
+        "symfony/translation": "6.4.*",
         "symfony/twig-bundle": "6.4.*",
         "symfony/yaml": "6.4.*",
         "twig/extra-bundle": "^2.12|^3.0",
+        "twig/intl-extra": "^3.12",
+        "twig/string-extra": "^3.12",
         "twig/twig": "^2.12|^3.0"
     },
     "config": {

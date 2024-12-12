@@ -9,9 +9,18 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class SiteController extends AbstractController
 {
+
+    // Route to redirect german language version to main route, see https://symfony.com/doc/current/the-fast-track/en/28-intl.html
+    #[Route('/')]
+    public function indexNoLocale(): Response
+    {
+        return $this->redirectToRoute('app_home', ['_locale' => 'de']);
+    }
+
+
     // MAIN ROUTES
 
-    #[Route('/', name: 'app_home')]
+    #[Route('/{_locale<%app.supported_locales%>}/', name: 'app_home')]
     public function home(): Response
     {
         return $this->render('site/home.html.twig', [
