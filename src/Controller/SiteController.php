@@ -29,7 +29,7 @@ class SiteController extends AbstractController
     }
 
 
-    #[Route('/map', name: 'app_map')]
+    #[Route('/{_locale<%app.supported_locales%>}/map', name: 'app_map')]
     public function map()
     {
         return $this->render('site/map.html.twig', [
@@ -37,7 +37,7 @@ class SiteController extends AbstractController
         ]);
     }
 
-    #[Route('/deportationen/', name: 'app_deportation')]
+    #[Route('/{_locale<%app.supported_locales%>}/deportationen/', name: 'app_deportation')]
     public function deportation(): Response
     {
         return $this->render('site/deportation.html.twig', [
@@ -45,7 +45,7 @@ class SiteController extends AbstractController
         ]);
     }
 
-    #[Route('/biografien/', name: 'app_biographies')]
+    #[Route('/{_locale<%app.supported_locales%>}/biografien/', name: 'app_biographies')]
     public function biographies(): Response
     {
         return $this->render('site/biographies.html.twig', [
@@ -53,33 +53,33 @@ class SiteController extends AbstractController
         ]);
     }
 
-    #[Route('/quellen', name: 'app_sources')]
+    #[Route('/{_locale<%app.supported_locales%>}/quellen', name: 'app_sources')]
     public function sources()
     {
         return $this->render('site/sources.html.twig');
     }
 
-    #[Route('/context', name: 'app_context')]
+    #[Route('/{_locale<%app.supported_locales%>}/context', name: 'app_context')]
     public function context()
     {
         return $this->render('site/context.html.twig');
     }
 
-    #[Route('/hungmem', name: 'app_about')]
+    #[Route('/{_locale<%app.supported_locales%>}/hungmem', name: 'app_about')]
     public function about()
     {
         return $this->render('site/about.html.twig');
     }
 
 
-    #[Route('/impressum', name: 'app_imprint')]
+    #[Route('/{_locale<%app.supported_locales%>}/impressum', name: 'app_imprint')]
     public function imprint()
     {
         return $this->render('site/imprint.html.twig');
     }
 
 
-    #[Route('/api/json', name: 'app_jsonapi')]
+    #[Route('/{_locale<%app.supported_locales%>}/api/json', name: 'app_jsonapi')]
     public function jsonapi()
     {
         $jsonData = file_get_contents(__DIR__ . '/biographies.json');
@@ -89,7 +89,7 @@ class SiteController extends AbstractController
 
     // SUBPAGES
 
-    #[Route('/deportationen/gruppe-300', name: 'app_deportation_vw')]
+    #[Route('/{_locale<%app.supported_locales%>}/deportationen/gruppe-300', name: 'app_deportation_vw')]
     public function deportationVw(): Response
     {
         return $this->render('studies/gruppe-der-300.html.twig', [
@@ -97,7 +97,7 @@ class SiteController extends AbstractController
         ]);
     }
 
-    #[Route('/deportationen/frauen-dessauer-ufer', name: 'app_deportation_dessauerUfer')]
+    #[Route('/{_locale<%app.supported_locales%>}/deportationen/frauen-dessauer-ufer', name: 'app_deportation_dessauerUfer')]
     public function deportationDessauerUfer(): Response
     {
         return $this->render('studies/dessauer-ufer.html.twig', [
@@ -105,7 +105,7 @@ class SiteController extends AbstractController
         ]);
     }
 
-    #[Route('/deportationen/zwangsarbeit-ruestungsindustrie', name: 'app_deportation_salzwedel')]
+    #[Route('/{_locale<%app.supported_locales%>}/deportationen/zwangsarbeit-ruestungsindustrie', name: 'app_deportation_salzwedel')]
     public function deportationSalzwedel(): Response
     {
         return $this->render('studies/salzwedel.html.twig', [
@@ -113,7 +113,7 @@ class SiteController extends AbstractController
         ]);
     }
 
-    #[Route('/deportationen/rauemung-luebberstedt', name: 'app_deportation_luebberstedt')]
+    #[Route('/{_locale<%app.supported_locales%>}/deportationen/rauemung-luebberstedt', name: 'app_deportation_luebberstedt')]
     public function deportationLuebberstedt(): Response
     {
         return $this->render('studies/luebberstedt.html.twig', [
@@ -121,7 +121,7 @@ class SiteController extends AbstractController
         ]);
     }
 
-    #[Route('/biografien/gyula-fuerst', name: 'app_bio_fuerst')]
+    #[Route('/{_locale<%app.supported_locales%>}/biografien/gyula-fuerst', name: 'app_bio_fuerst')]
     public function biographyFuerst(): Response
     {
         return $this->render('biographies/fuerst.html.twig', [
@@ -129,7 +129,7 @@ class SiteController extends AbstractController
         ]);
     }
 
-    #[Route('/biografien/schwestern-mereny', name: 'app_bio_mereny')]
+    #[Route('/{_locale<%app.supported_locales%>}/biografien/schwestern-mereny', name: 'app_bio_mereny')]
     public function biographyMereny(): Response
     {
         return $this->render('biographies/merenyi.html.twig', [
@@ -137,7 +137,7 @@ class SiteController extends AbstractController
         ]);
     }
 
-    #[Route('/biografien/yehuda-blum', name: 'app_bio_blum')]
+    #[Route('/{_locale<%app.supported_locales%>}/biografien/yehuda-blum', name: 'app_bio_blum')]
     public function biographyBlum(): Response
     {
         return $this->render('biographies/blum.html.twig', [
@@ -145,7 +145,7 @@ class SiteController extends AbstractController
         ]);
     }
 
-    #[Route('/biografien/katharina-hardy', name: 'app_bio_hardy')]
+    #[Route('/{_locale<%app.supported_locales%>}/biografien/katharina-hardy', name: 'app_bio_hardy')]
     public function biographyHardy(): Response
     {
         return $this->render('biographies/hardy.html.twig', [
@@ -155,13 +155,13 @@ class SiteController extends AbstractController
 
     // TEMPLATES
 
-    #[Route('/studytemplate', name: 'app_studytemplate')]
+    #[Route('/{_locale<%app.supported_locales%>}/studytemplate', name: 'app_studytemplate')]
     public function studytemplate()
     {
         return $this->render('studies/study.html.twig');
     }
 
-    #[Route('/biographytemplate', name: 'app_biographytemplate')]
+    #[Route('/{_locale<%app.supported_locales%>}/biographytemplate', name: 'app_biographytemplate')]
     public function biographytemplate()
     {
         return $this->render('biographies/study.html.twig');
