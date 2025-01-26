@@ -5,6 +5,7 @@ Webapp for a research project on the Holocaust in Hungary.
 ## Requirements
 
 PHP 8.1 or higher
+
 Symfony 6.4 (Long Term Support Version with security fixes until November 2027, url: [https://symfony.com/releases/6.4](https://symfony.com/releases/6.4)
 
 ## Local setup
@@ -13,6 +14,7 @@ Symfony 6.4 (Long Term Support Version with security fixes until November 2027, 
 - In Terminal: go to toplevel directory
 - Install dependencies via composer: `composer install`
 - Start server: `symfony serve`
+- Open https://localhost:8000
 
 ## Deployment
 
