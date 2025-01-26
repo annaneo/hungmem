@@ -122,6 +122,8 @@ use Symfony\Component\Mime\Header\Headers;
 use Symfony\Component\Mime\MimeTypeGuesserInterface;
 use Symfony\Component\Mime\MimeTypes;
 use Symfony\Component\Notifier\Bridge as NotifierBridge;
+use Symfony\Component\Notifier\Bridge\FakeChat\FakeChatTransportFactory;
+use Symfony\Component\Notifier\Bridge\FakeSms\FakeSmsTransportFactory;
 use Symfony\Component\Notifier\ChatterInterface;
 use Symfony\Component\Notifier\Notifier;
 use Symfony\Component\Notifier\Recipient\Recipient;
@@ -349,7 +351,7 @@ class FrameworkExtension extends Extension
                 throw new LogicException('AssetMapper support cannot be enabled as the AssetMapper component is not installed. Try running "composer require symfony/asset-mapper".');
             }
 
-            $this->registerAssetMapperConfiguration($config['asset_mapper'], $container, $loader, $this->readConfigEnabled('assets', $container, $config['assets']));
+            $this->registerAssetMapperConfiguration($config['asset_mapper'], $container, $loader, $this->readConfigEnabled('assets', $container, $config['assets']), $this->readConfigEnabled('http_client', $container, $config['http_client']));
         } else {
             $container->removeDefinition('cache.asset_mapper');
         }
@@ -1330,12 +1332,18 @@ class FrameworkExtension extends Extension
         }
     }
 
-    private function registerAssetMapperConfiguration(array $config, ContainerBuilder $container, PhpFileLoader $loader, bool $assetEnabled): void
+    private function registerAssetMapperConfiguration(array $config, ContainerBuilder $container, PhpFileLoader $loader, bool $assetEnabled, bool $httpClientEnabled): void
     {
         $loader->load('asset_mapper.php');
 
         if (!$assetEnabled) {
             $container->removeDefinition('asset_mapper.asset_package');
+        }
+
+        if (!$httpClientEnabled) {
+            $container->register('asset_mapper.http_client', HttpClientInterface::class)
+                ->addTag('container.error')
+                ->addError('You cannot use the AssetMapper integration since the HttpClient component is not enabled. Try enabling the "framework.http_client" config option.');
         }
 
         $paths = $config['paths'];
@@ -1996,19 +2004,25 @@ class FrameworkExtension extends Extension
             $container->setParameter('serializer.default_context', $defaultContext);
         }
 
+        if (!$container->hasDefinition('serializer.normalizer.object')) {
+            return;
+        }
+
         $arguments = $container->getDefinition('serializer.normalizer.object')->getArguments();
-        $context = [];
+        $context = $arguments[6] ?? $defaultContext;
 
         if (isset($config['circular_reference_handler']) && $config['circular_reference_handler']) {
-            $context += ($arguments[6] ?? $defaultContext) + ['circular_reference_handler' => new Reference($config['circular_reference_handler'])];
+            $context += ['circular_reference_handler' => new Reference($config['circular_reference_handler'])];
             $container->getDefinition('serializer.normalizer.object')->setArgument(5, null);
         }
 
         if ($config['max_depth_handler'] ?? false) {
-            $context += ($arguments[6] ?? $defaultContext) + ['max_depth_handler' => new Reference($config['max_depth_handler'])];
+            $context += ['max_depth_handler' => new Reference($config['max_depth_handler'])];
         }
 
         $container->getDefinition('serializer.normalizer.object')->setArgument(6, $context);
+
+        $container->getDefinition('serializer.normalizer.property')->setArgument(5, $defaultContext);
     }
 
     private function registerPropertyInfoConfiguration(ContainerBuilder $container, PhpFileLoader $loader): void
@@ -2753,7 +2767,7 @@ class FrameworkExtension extends Extension
             $container->removeDefinition('notifier.channel.email');
         }
 
-        foreach (['texter', 'chatter', 'notifier.channel.chat', 'notifier.channel.email', 'notifier.channel.sms'] as $serviceId) {
+        foreach (['texter', 'chatter', 'notifier.channel.chat', 'notifier.channel.email', 'notifier.channel.sms', 'notifier.channel.push'] as $serviceId) {
             if (!$container->hasDefinition($serviceId)) {
                 continue;
             }
@@ -2800,8 +2814,6 @@ class FrameworkExtension extends Extension
             NotifierBridge\Engagespot\EngagespotTransportFactory::class => 'notifier.transport_factory.engagespot',
             NotifierBridge\Esendex\EsendexTransportFactory::class => 'notifier.transport_factory.esendex',
             NotifierBridge\Expo\ExpoTransportFactory::class => 'notifier.transport_factory.expo',
-            NotifierBridge\FakeChat\FakeChatTransportFactory::class => 'notifier.transport_factory.fake-chat',
-            NotifierBridge\FakeSms\FakeSmsTransportFactory::class => 'notifier.transport_factory.fake-sms',
             NotifierBridge\Firebase\FirebaseTransportFactory::class => 'notifier.transport_factory.firebase',
             NotifierBridge\FortySixElks\FortySixElksTransportFactory::class => 'notifier.transport_factory.forty-six-elks',
             NotifierBridge\FreeMobile\FreeMobileTransportFactory::class => 'notifier.transport_factory.free-mobile',
@@ -2879,20 +2891,26 @@ class FrameworkExtension extends Extension
             $container->removeDefinition($classToServices[NotifierBridge\Mercure\MercureTransportFactory::class]);
         }
 
-        if (ContainerBuilder::willBeAvailable('symfony/fake-chat-notifier', NotifierBridge\FakeChat\FakeChatTransportFactory::class, ['symfony/framework-bundle', 'symfony/notifier', 'symfony/mailer'])) {
-            $container->getDefinition($classToServices[NotifierBridge\FakeChat\FakeChatTransportFactory::class])
-                ->replaceArgument(0, new Reference('mailer'))
-                ->replaceArgument(1, new Reference('logger'))
+        // don't use ContainerBuilder::willBeAvailable() as these are not needed in production
+        if (class_exists(FakeChatTransportFactory::class)) {
+            $container->getDefinition('notifier.transport_factory.fake-chat')
+                ->replaceArgument(0, new Reference('mailer', ContainerBuilder::NULL_ON_INVALID_REFERENCE))
+                ->replaceArgument(1, new Reference('logger', ContainerBuilder::NULL_ON_INVALID_REFERENCE))
                 ->addArgument(new Reference('event_dispatcher', ContainerBuilder::NULL_ON_INVALID_REFERENCE))
                 ->addArgument(new Reference('http_client', ContainerBuilder::NULL_ON_INVALID_REFERENCE));
+        } else {
+            $container->removeDefinition('notifier.transport_factory.fake-chat');
         }
 
-        if (ContainerBuilder::willBeAvailable('symfony/fake-sms-notifier', NotifierBridge\FakeSms\FakeSmsTransportFactory::class, ['symfony/framework-bundle', 'symfony/notifier', 'symfony/mailer'])) {
-            $container->getDefinition($classToServices[NotifierBridge\FakeSms\FakeSmsTransportFactory::class])
-                ->replaceArgument(0, new Reference('mailer'))
-                ->replaceArgument(1, new Reference('logger'))
+        // don't use ContainerBuilder::willBeAvailable() as these are not needed in production
+        if (class_exists(FakeSmsTransportFactory::class)) {
+            $container->getDefinition('notifier.transport_factory.fake-sms')
+                ->replaceArgument(0, new Reference('mailer', ContainerBuilder::NULL_ON_INVALID_REFERENCE))
+                ->replaceArgument(1, new Reference('logger', ContainerBuilder::NULL_ON_INVALID_REFERENCE))
                 ->addArgument(new Reference('event_dispatcher', ContainerBuilder::NULL_ON_INVALID_REFERENCE))
                 ->addArgument(new Reference('http_client', ContainerBuilder::NULL_ON_INVALID_REFERENCE));
+        } else {
+            $container->removeDefinition('notifier.transport_factory.fake-sms');
         }
 
         if (isset($config['admin_recipients'])) {

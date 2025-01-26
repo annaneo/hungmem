@@ -293,6 +293,10 @@ class Flex implements PluginInterface, EventSubscriberInterface
         $versionParser = new VersionParser();
         $packages = [];
         foreach ($this->lock->all() as $name => $info) {
+            if ('9999999.9999999' === $info['version']) {
+                // Fix invalid versions found in some lock files
+                $info['version'] = '99999.9999999';
+            }
             $packages[] = new Package($name, $versionParser->normalize($info['version']), $info['version']);
         }
 
@@ -486,7 +490,7 @@ class Flex implements PluginInterface, EventSubscriberInterface
         $this->finish($rootDir, $originalComposerJsonHash);
     }
 
-    public function finish(string $rootDir, string $originalComposerJsonHash = null): void
+    public function finish(string $rootDir, ?string $originalComposerJsonHash = null): void
     {
         $this->synchronizePackageJson($rootDir);
         $this->lock->write();
@@ -718,7 +722,7 @@ class Flex implements PluginInterface, EventSubscriberInterface
         return sprintf('<info>%s</> (<comment>>=%s</>): From %s', $matches[1], $matches[2], 'auto-generated recipe' === $matches[3] ? '<comment>'.$matches[3].'</>' : $matches[3]);
     }
 
-    private function shouldRecordOperation(OperationInterface $operation, bool $isDevMode, Composer $composer = null): bool
+    private function shouldRecordOperation(OperationInterface $operation, bool $isDevMode, ?Composer $composer = null): bool
     {
         if ($this->dryRun || $this->reinstall) {
             return false;

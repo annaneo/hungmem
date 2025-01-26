@@ -117,7 +117,7 @@ class ContainerBuilder extends Container implements TaggedContainerInterface
     private array $vendors;
 
     /**
-     * @var string[] the list of paths in vendor directories
+     * @var array<string, bool> the cache for paths being in vendor directories
      */
     private array $pathsInVendor = [];
 
@@ -360,7 +360,7 @@ class ContainerBuilder extends Container implements TaggedContainerInterface
                 $resource = new ClassExistenceResource($class, false);
                 $classReflector = $resource->isFresh(0) ? false : new \ReflectionClass($class);
             } else {
-                $classReflector = class_exists($class) ? new \ReflectionClass($class) : false;
+                $classReflector = class_exists($class) || interface_exists($class, false) ? new \ReflectionClass($class) : false;
             }
         } catch (\ReflectionException $e) {
             if ($throw) {
