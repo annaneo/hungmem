@@ -1,30 +1,26 @@
-{% extends 'base-map.html.twig' %}
+{% extends 'base-map.en.html.twig' %}
 
-{% block title %} Einzelbiografie Merényi-Schwestern | {{ parent() }} {% endblock %}
+{% block title %} Individual biography Merényi sisters | {{ parent() }} {% endblock %}
 
 
 {% block body %}
-    {% include 'elements/navigation-biographies.html.twig' %}
-
+    
 
     <div class="container g-4 py-5 study">
-        <h2>## ENGLISH ## Die Schwestern Lea und Zsuzsa Merényi – Fokus „Rückkehr“</h2>
+        <h2>The sisters Lea and Zsuzsa Merényi – Focus “Return”</h2>
         <div class="row">
-            <h3>Zu den Personen</h3>
+            <h3>About the persons</h3>
             <div class="col-lg-8 mb-2">
                 <p class="abstract">
-                    Lea Merényi wurde am 3. Dezember 1914 im ungarischen Budapest geboren, wuchs jedoch in Deutschland
-                    auf. Als sie ungefähr drei Jahre alt war, zog ihre Familie nach Hannover, da der Vater eine
-                    Anstellung als Ingenieur bei der Firma Hanomag bekam. Lea Merényis jüngere Schwester Zsuzsa wurde
-                    knapp elf Jahre später am 24. Juni 1925 in Deutschland geboren. Die Schwestern Merényi hatten laut
-                    Lea bis zu dem Tod von Zsuzsa im Jahr 1990 ein sehr enges Verhältnis zueinander. Sie hatten noch
-                    einen jüngeren Bruder, István (Stefan). Sie wurden christlich erzogen. Ihr Vater arbeitete als
-                    Ingenieur in der Ganz-Fabrik in Budapest, doch Lea Merényi erinnerte sich in einem
-                    Zeitzeuginnen-Interview, dass sie Mitarbeitenden der Gedenkstätte Bergen-Belsen am 29. November 2005
-                    gab,
-                    <sup><a href="#endnote1" id="footnote1">1</a></sup> dass sie die Ferien als Kind stets bei ihren
-                    Großeltern in Wuppertal-Barmen in Deutschland verbrachte. Die nachfolgenden Informationen über
-                    Zsuzsa Merényi basieren zum Teil auch auf den Erinnerungen ihrer Schwester.
+                    Lea Merényi was born on December 3, 1914 in Budapest, Hungary, but grew up in Germany. When she was about three 
+                    years old, her family moved to Hannover because her father got a job as an engineer at the Hanomag Company. 
+                    Lea Merényi’s younger sister Zsuzsa was born in Germany almost eleven years later on June 24, 1925. According 
+                    to Lea, the Merényi sisters had a very close relationship until Zsuzsa’s death in 1990. They also had a younger 
+                    brother, Istvan (Stefan). They were brought up as Christians. Her father worked as an engineer in the Ganz factory 
+                    in Budapest, but Lea Merényi recalled in an interview with a contemporary witness that she gave to employees of 
+                    the Bergen-Belsen Memorial on November 29, 2005<sup><a href="#endnote1" id="footnote1">1</a></sup> 
+                    that as a child, she always spent her vacations with her grandparents in Wuppertal-Barmen in Germany. The following 
+                    information about Zsuzsa Merényi is partly based on the recollections of her sister.
                 </p>
             </div>
             <div class="col-lg-4">
@@ -33,176 +29,162 @@
             </div>
         </div>
 
-        <h3 class="mt-4">Der Faschismus in Ungarn</h3>
+        <h3 class="mt-4">Fascism in Hungary</h3>
         <div class="row">
             <div class="col-lg-8">
                 <p>
-                    1933 zog die Familie aus Lea Merényi unbekannten Gründen von Hannover zurück nach Budapest, wo ein
-                    Großteil der Verwandtschaft lebte. Im Interview erzählte sie, dass alle drei Geschwister in Ungarn
-                    die ungarische Sprache erst lernen mussten. Allerdings sei es ihnen leichtgefallen, da auch ihre
-                    Eltern untereinander immer Ungarisch miteinander gesprochen hätten. Lea Merényi begann in ihren
-                    Zwanzigern eine Tanzkarriere.
+                    In 1933, for reasons unknown to Lea Merényi, the family moved back from Hannover to Budapest, where most of 
+                    the relatives lived. In the interview, she said that all three siblings first had to learn Hungarian in Hungary. 
+                    However, it was easy for them as their parents had always spoken Hungarian with each other. Lea Merényi began 
+                    a dancing career in her twenties.
                 </p>
                 <div class="row">
                     <div class="col-lg-6 col-sm-5">
                         <img class="img-fluid"  src="{{ asset('images/biographies/Lea-Merenyi.jpg') }}"
-                             alt="Aufnahme der drei Geschwister Lea (links), Zsuzsa und István Merényi"/>
+                             alt="Photograph of Lea Merényi in the 1930s"/>
                         <p class="caption">
-                            Aufnahme von Lea Merényi in den 1930er-Jahren, Archiv Gedenkstätte Bergen-Belsen, Inventarnummer 1600-0226, Rechte: Katalin Lörinc-Walters.
+                            Photograph of Lea Merényi in the 1930s, Bergen-Belsen Memorial Archive, inventory number 1600-0226, 
+                            rights: Katalin Lörinc-Walters.
                         </p>
                     </div>
                     <div class="col-lg-6 col-sm-5">
                         <img class="img-fluid" src="{{ asset('images/biographies/Zsuzsa _Merenyi.jpg') }}"
-                             alt="Aufnahme der drei Geschwister Lea (links), Zsuzsa und István Merényi"/>
+                             alt="Photograph by Zsuzsa Merényi (detail from a group photograph)"/>
                         <p class="caption">
-                            Aufnahme von Zsuzsa Merényi (Ausschnitt aus einer Gruppenaufnahme). Archiv Gedenkstätte Bergen-Belsen, Inventarnummer 1600-0225, Rechte: Katalin Lörinc-Walters.
+                            Photograph by Zsuzsa Merényi (detail from a group photograph), Bergen-Belsen Memorial Archive, 
+                            inventory number 1600-0225, rights: Katalin Lörinc-Walters.
                         </p>
                     </div>
                 </div>
                 <p>
-                    Bei Ausbruch des Zweiten Weltkrieges 1939 lebten in Ungarn etwa 500.000 Jüdinnen und Juden. Bereits
-                    seit 1928 hatte sich durch die „Judengesetze“ die Situation der jüdischen Bevölkerung
-                    verschärft und der offizielle Antisemitismus durch diskriminierende Gesetze zugenommen. 1939 spitzte
-                    sich die Situation weiter zu, als mehrere tausend jüdische Männer zur Zwangsarbeit eingezogen
-                    wurden.<sup><a href="#endnote2" id="footnote2">2</a></sup>
-                    Auch die Tanzgruppe von Lea Merényi erlebte den wachsenden Antisemitismus in Ungarn. Sie
-                    erinnerte sich im Interview, dass die Gruppe aufgrund antisemitischer Gesetze aufgelöst worden sei
-                    und viele ihrer damaligen Freundinnen nach Amerika ausgewandert wären. Zugleich bedeutete der Tod
-                    des Vaters im Jahr 1939 einen schweren Schlag für die Familie. Die Mutter musste fortan für den
-                    Unterhalt der Familie aufkommen.
+                    At the outbreak of the Second World War in 1939, there were about 500,000 Jews living in Hungary. The situation 
+                    of the Jewish population had already worsened since 1938 as a result of the “Jewish Laws” and official 
+                    antisemitism had increased due to discriminatory legislation. The situation came to a head in 1939 when 
+                    several thousand Jewish men were drafted into forced labor.<sup><a href="#endnote2" id="footnote2">2</a></sup>
+                    Lea Merényi’s dance group also experienced the growing antisemitism in Hungary. She recalled in the interview 
+                    that the group was disbanded due to antisemitic laws and that many of her friends at the time emigrated 
+                    to America. Concurrently the death of her father in 1939 was a heavy blow for the family. From then on, 
+                    her mother had to support the family.
                 </p>
             </div>
             <div class="col-lg-4">
                 <div class="infobox">
-                    <h4>&#9432; Jüdinnen und Juden</h4>
+                    <h4>&#9432; Jewish men and women</h4>
                     <p>
-                        Die aus Ungarn deportierten Juden und Jüdinnen gehörten verschiedenen Gemeinden und
-                        religiösen Strömungen im Judentum an. Nicht alle definierten sich zwangsläufig selbst als jüdisch. Für
-                        ihre Verfolgung durch die Nationalsozialisten war weder ihre Religion noch eine
-                        kulturelle Zugehörigkeit zum Judentum oder die Selbstzuschreibung
-                        entscheidend. Das Zentrum der nationalsozialistischen Weltanschauung bildete
-                        ein rassistischer Antisemitismus, der Jüdinnen und Juden nach ihrer Abstammung
-                        definierte. Auch Christen und Christinnen sowie Atheisten und Atheistinnen
-                        wurden unabhängig von ihrer Selbstdefinition oder kulturellen Zugehörigkeit
-                        durch die Nationalsozialisten als Juden verfolgt, wenn sie deren
-                        Abstammungskriterien entsprachen. Nicht alle hier als Jüdinnen und Juden
-                        bezeichneten Personen identifizierten sich selbst als jüdisch, sie alle wurden
-                        jedoch als jüdisch verfolgt. </p>
+                        The Jewish men and women deported from Hungary belonged to various communities and religious movements 
+                        within Judaism. Not all of them necessarily defined themselves as Jewish. Neither their religion nor 
+                        their cultural affiliation to Judaism or self-identification was decisive for their persecution by 
+                        the National Socialists. At the heart of the National Socialist worldview was a racist antisemitism 
+                        that defined Jews according to their descent. Christians and atheists were also persecuted as Jews 
+                        by the National Socialists, regardless of their self-definition or cultural affiliation, if they 
+                        met their criteria of descent. Not all of the persons referred to here as Jews identified themselves 
+                        as Jewish, but they were all persecuted as Jewish.
+                    </p>
                 </div>
             </div>
         </div>
 
-        <h3 class="mt-4">Beginn der Deportationen</h3>
+        <h3 class="mt-4">Start of the deportations</h3>
         <div class="row">
             <div class="col-lg-8">
                 <p>
-                    Im Jahr 1944 musste die Familie aus ihrer Wohnung ausziehen. Dies geschah vermutlich ebenfalls in
-                    Folge der von Ungarns Regierung erlassenen „Judengesetze“. Das „Vierte Judengesetz“ von 1942
-                    veranlasste die völlige Entrechtung der jüdischen Bevölkerung, wobei das Recht auf Eigentum und der
-                    Erwerb von Land und forstwirtschaftlichen Gütern wie Holz massiv eingeschränkt
-                    wurde.<sup><a href="#endnote3" id="footnote3">3</a></sup> Daher lebte
-                    die Familie fortan gemeinsam mit einigen anderen Familien bei einer Freundin in Arena Utca.
+                    In 1944, the family had to move out of their home. This probably also happened as a result of the “Jewish Laws” 
+                    enacted by the Hungarian government. The “Fourth Jewish Law” of 1942 resulted in the complete disenfranchisement 
+                    of the Jewish population, whereby the right to own property and the acquisition of land and forestry goods such 
+                    as wood was severely restricted.<sup><a href="#endnote3" id="footnote3">3</a></sup> 
+                    As a result, from then on the family, along with several other families, lived at a friend’s home in Arena Utca.
                 </p>
                 <p>
-                    Bereits kurz nach der Besetzung Ungarns durch deutsche Truppen im März 1944, begann die
-                    systematische Deportation der ungarischen jüdischen Bevölkerung.
-                    Am 4. Dezember 1944 wurde die Familie von Lea und Zsuzsa Merényi an ihrem Wohnort in Arena Utca von
-                    Pfeilkreuzlern überfallen. Lea Merényi erinnerte sich später, dass ihrer Schwester und ihr dabei von
-                    den Mitgliedern der Pfeilkreuzler ihre Wäsche, das Neue Testament und ihre Zahnbürste weggenommen
-                    worden seien. Die Willkür und die Unberechenbarkeit dieser Diebstähle hätten die Schwestern hilflos
-                    und wütend gemacht.
+                    Shortly after the occupation of Hungary by German troops in March 1944, the systematic deportation of the 
+                    Hungarian Jewish population began. On December 4, 1944, Lea and Zsuzsa Merényi’s family were attacked by 
+                    Arrow Cross Party members at their home in Arena Utca. Lea Merényi later recalled that she and her sister 
+                    had their linens, New Testament, and toothbrushes taken away by the Arrow Cross Party members. The arbitrariness 
+                    and unpredictability of these thefts left the sisters helpless and angry.
                 </p>
             </div>
             <div class="col-lg-4">
                 <div class="infobox">
-                    <h4>&#9432; Mehr zu Ungarn im Zweiten Weltkrieg</h4>
+                    <h4>&#9432; More about Hungary in the Second World War</h4>
                     <p>
-                        <a href="{{ path('app_context') }}" title="Text zum historischen Kontext">
-                            &#10149; Historischer Kontext
+                        <a href="{{ path('app_context') }}" title="Text on historical context">
+                            &#10149; Historical context
                         </a>
                     </p>
                 </div>
             </div>
         </div>
 
-        <h3 class="mt-4">Deportation in das Konzentrationslager Bergen-Belsen</h3>
+        <h3 class="mt-4">Deportation to the Bergen-Belsen concentration camp</h3>
         <div class="row">
             <div class="col-lg-8">
                 <p>
-                    Lea Merényi wurde zusammen mit ihrer Schwester Zsuzsa von einem Sammelplatz im sechsten Bezirk in
-                    Budapest in das Konzentrationslager Bergen-Belsen deportiert, wo beide am 14. Dezember 1944 ankamen.
-                    Von ihrem Bruder und ihrer Mutter wurden sie an diesem Tag getrennt.
-                    Erst viele Jahre später erfuhren sie, dass die älteren Frauen, darunter auch ihre Mutter, in das
-                    Budapester Ghetto deportiert worden waren. Die deutschen Besatzer pferchten die jüdische Bevölkerung
-                    in Zusammenarbeit mit dem ungarischen Innenministerium und der Polizei zusammen.</p>
-                <p>
-                    Ghettos wurden zu
-                    unterschiedlichen Zwecken errichtet, vor allem aber dienten sie den Nationalsozialisten zur
-                    Konzentrierung, Ausgrenzung und Ausbeutung von Jüdinnen und Juden. In den Ghettos ernannten die
-                    Besatzer Judenräte, welche die deutschen Befehle zusammen mit der jüdischen Ghettopolizei umzusetzen
-                    hatten und die für die Verwaltung der Zwangsquartiere zuständig waren. Die Ghettoisierung begann in
-                    Ungarn zunächst in der ehemals slowakischen Kassa (Košice), wo etwa 15.000 Menschen auf dem Gelände
-                    von zwei Ziegelfabriken festgehalten wurden. Daraufhin wurden auch in Munkács zwei Ghettos in
-                    ehemaligen Ziegeleien errichtet, wo weitere 26.000 Jüdinnen und Juden zusammengepfercht wurden.
-                    Aufgrund des Platzmangels und unzureichender Lebensmittelversorgung breiteten sich schnell
-                    Flecktyphus und andere Krankheiten in den Ghettos aus, denen viele Menschen zum Opfer fielen. Rund
-                    440.000 Jüdinnen und Juden wurden bis Ende Juni 1944 ghettoisiert und anschließend nach Auschwitz
-                    deportiert.
+                    Lea Merényi and her sister Zsuzsa were deported from an assembly point in the sixth district of Budapest to 
+                    the Bergen-Belsen concentration camp, where they both arrived on December 14, 1944. They were separated from 
+                    their brother and mother that day. It was not until many years later that they learned that the older women, 
+                    including their mother, had been deported to the Budapest ghetto. The German occupiers rounded up the Jewish 
+                    population in collaboration with the Hungarian Ministry of the Interior and the police.
                 </p>
                 <p>
-                    Lea und Zsuzsa Merényi mussten sich wie alle, die einen Deportationsbefehl erhalten hatten, mit nur
-                    wenigen persönlichen Gegenständen an einem Sammelpunkt einfinden. Dieser lag häufig in Bahnhofsnähe.
-                    Am Bahnhof wurden die Deportierten in versiegelte und völlig überfüllte Güterwaggons oft ohne
-                    Lüftungsöffnungen oder Dach gepfercht. Die Fahrten dauerten oft mehrere Tage, in denen die Menschen
-                    weder Wasser noch Nahrung erhielten. Daher forderten die Deportationen unter unmenschlichen
-                    Bedingungen zahlreiche Opfer.<sup><a href="#endnote4" id="footnote4">4</a></sup>
-                    Lea Merényi erinnerte sich im Interview nicht, von wem ihr Transport
-                    bewacht wurde, sie berichtete aber, dass der Zug am Bahnhof Jozsefvárosi bereitgestanden habe, und
-                    dass sich einer ihrer Mitgefangenen bei einem Halt des Zuges um die Wasserversorgung mit Hilfe eines
-                    Eimers gekümmert habe. Die Zugfahrt in das Konzentrationslager Bergen-Belsen dauerte ungefähr zehn
-                    Tage.
+                    Ghettos were set up for various purposes, but above all they served the National Socialists to concentrate, 
+                    marginalize, and exploit Jews. In the ghettos, the occupying forces appointed Jewish councils that had to 
+                    implement German orders together with the Jewish ghetto police and were responsible for the administration 
+                    of the forced quartering. Ghettoization in Hungary initially began in the former Slovakian town of Kassa (Košice), 
+                    where some 15,000 people were detained on the site of two brick factories. Subsequently, two ghettos were also 
+                    established in Munkács in former brickworks, where a further 26,000 Jews were crammed together. Due to the lack 
+                    of space and insufficient food supplies, epidemic typhus as well as other diseases quickly spread in the ghettos 
+                    and many people succumbed to them. About 440,000 Jews were ghettoized by the end of June 1944 and then deported 
+                    to Auschwitz.
+                </p>
+                <p>
+                    Like everyone who had received a deportation order, Lea and Zsuzsa Merényi were forced to gather at an assembly 
+                    point with only a few personal belongings. Such points were often located near train stations. At the station, 
+                    the deportees were crammed into sealed and completely overcrowded freight cars, often without ventilation 
+                    openings or a roof. The journeys often lasted several days, during which the persons crowded in the cars received 
+                    neither food nor water. As a result, the deportations in inhumane conditions claimed many victims.<sup><a href="#endnote4" id="footnote4">4</a></sup>
+                    In the interview, Lea Merényi did not remember who guarded her transport, but she reported that the train was 
+                    waiting at Jozsefvárosi station and that one of her fellow prisoners took care of the water supply with the 
+                    help of a bucket when the train stopped. The train journey to the Bergen-Belsen concentration camp took 
+                    about ten days.
                 </p>
             </div>
         </div>
 
-        <h3 class="mt-4">Das sogenannte „Ungarnlager“ in Bergen-Belsen</h3>
+        <h3 class="mt-4">The so-called “Hungarian camp” in Bergen-Belsen</h3>
         <div class="row">
             <div class="col-lg-8">
                 <p>
-                    Über ihre Zeit im sogenannten „Ungarnlager“ des Konzentrationslagers Bergen-Belsen berichtete Lea
-                    Merényi im Nachhinein von viel Glück, da die Schwestern nicht getrennt worden seien. Die Schwestern
-                    waren in Baracke 10 des „Ungarnlagers“ untergebracht. Lea Merényi konnte sich im Interview weder an
-                    Schläge noch an Essensentzug durch die zuständigen SS-Wachen erinnern. Ihre Erinnerungen spiegeln
-                    allerdings nicht den Alltag des Großteils der Häftlinge in Bergen-Belsen wider. Insgesamt wurden
-                    52.000 KZ-Häftlinge aus vielen Ländern Europas im Lager ermordet oder starben unmittelbar nach der
-                    Befreiung an den Folgen ihrer Haft.<sup><a href="#endnote5" id="footnote5">5</a></sup>
-                    Zsuzsa Merényi führte Tagebuch im Lager und hielt ihre
-                    Erinnerungen auch in Form von Zeichnungen fest. Im Interview erzählte Lea Merényi, dass die
-                    Schwestern Mut ineinander gefunden und Kraft aus der gegenseitigen Präsenz im Lager geschöpft
-                    hätten.
+                    In retrospect, Lea Merényi spoke of her time in the so-called “Hungarian camp” of the Bergen-Belsen concentration 
+                    camp as being very lucky, as the sisters were not separated. The sisters were housed in Barrack 10 of the 
+                    “Hungarian camp.” In the interview, Lea Merényi could not remember being beaten or deprived of food by the 
+                    SS guards in charge. However, her recollections do not reflect the everyday life of the majority of prisoners 
+                    in Bergen-Belsen. A total of 52,000 concentration camp prisoners from many European countries were murdered 
+                    in the camp or died immediately after liberation as a result of their imprisonment.<sup><a href="#endnote5" id="footnote5">5</a></sup>
+                    Zsuzsa Merényi kept a diary in the camp and also recorded her memories in the form of drawings. In the interview, 
+                    Lea Merényi said that the sisters found courage in each other and drew strength from each other’s presence 
+                    in the camp.
                 </p>
                 <img class="img-fluid" style="width: 640px;" src="{{ asset('images/biographies/Merenyi_08.jpg') }}"
-                     alt="Zeichnung aus dem in Bergen-Belsen geführten Bildertagebuch von Zsuzsa Merényi"/>
+                     alt="Drawing from Zsuzsa Merényi’s picture diary kept in Bergen-Belsen"/>
                 <img class="img-fluid" style="width: 640px;" src="{{ asset('images/biographies/Merenyi_11.jpg') }}"
-                     alt="Zeichnung aus dem in Bergen-Belsen geführten Bildertagebuch von Zsuzsa Merényi"/>
+                     alt="Drawing from Zsuzsa Merényi’s picture diary kept in Bergen-Belsen"/>
                 <p class="caption">
-                    Zeichnungen aus dem in Bergen-Belsen geführten Bildertagebuch von Zsuzsa Merényi. Archiv Gedenkstätte Bergen-Belsen, Schenkung Katalin Lörinc.
+                    Drawings from Zsuzsa Merényi’s picture diary kept in Bergen-Belsen. Bergen-Belsen Memorial Archive, 
+                    donated by Katalin Lörinc.
                 </p>
             </div>
             <div class="col-lg-4">
                 <div class="infobox">
-                    <h4>&#9432; Das KZ Bergen-Belsen</h4>
+                    <h4>&#9432; The Bergen-Belsen concentration camp</h4>
                     <p style="font-size: 0.9rem;">
-                        Das KZ Bergen-Belsen war 1943 zunächst als „Austauschlager“ für die Unterbringung jüdischer
-                        Geiseln gegründet worden. Schnell wurden ihm aber weitere Funktionen zugewiesen und ein Männer-
-                        sowie ein Frauenlager eingerichtet. Ab Ende 1944 wurde Bergen-Belsen Ziel vieler Todesmärsche
-                        und Räumungstransporte und entwickelte sich aufgrund der katastrophalen Bedingungen zu einem
-                        Sterbelager. Nach der Befreiung wurde in Bergen-Belsen ein polnisches und ein jüdisches
-                        Displaced Persons-Camp eingerichtet.<sup><a href="#endnote6" id="footnote6">6</a></sup>
+                        The Bergen-Belsen concentration camp was initially founded in 1943 as an “exchange camp” to 
+                        quarter Jewish hostages. However, it was quickly assigned other functions and a men’s and women’s 
+                        camp was set up. From the end of 1944 onward, Bergen-Belsen became the destination of many death 
+                        marches and evacuation transports, developing into a death camp due to the appalling conditions. 
+                        After liberation, a Polish and a Jewish displaced persons camp were set up in Bergen-Belsen.<sup><a href="#endnote6" id="footnote6">6</a></sup>
                     </p>
                     <p>
-                        <a href="{{ path('app_map') }}" title="Kartenübersicht">
-                            &#10149; Zur Karte der Lager
+                        <a href="{{ path('app_map') }}" title="Map overview">
+                            &#10149; To the map of the camps
                         </a>
                     </p>
                 </div>
@@ -213,109 +195,101 @@
         <div class="row">
             <div class="col-lg-8">
                 <p>
-                    Die Schwestern teilten ein ähnliches Schicksal wie viele andere Jüdinnen und Juden, die aus Ungarn
-                    nach Bergen-Belsen deportiert wurden. Das sogenannte „Ungarnlager“ war von der SS im Juli 1944 für
-                    die etwa 1.700 Jüdinnen und Juden der sogenannten Kasztner-Gruppe, eingerichtet worden. Im Dezember
-                    1944 wurden zwei weitere Transporte mit etwa 4.200 Häftlingen aus Pressburg (heute Bratislava in der
-                    Slowakei) und Budapest in diesem Lagerteil untergebracht. Bereits im Sommer desselben Jahres wurden
-                    tausende Frauen und Mädchen von Auschwitz nach Bergen-Belsen deportiert. Sie machten die größte
-                    Gruppe der ungarischen Häftlinge im sogenannten „Ungarnlager“ aus. Auch im Männerlager wurden
-                    ungarische Juden festgehalten, die ebenfalls über andere Konzentrationslager nach Bergen-Belsen
-                    gebracht worden waren. Außerdem kamen im Herbst 1944 zahlreiche ungarische Romnja und Roma im
-                    Frauen- und Männerlager an.<sup><a href="#endnote7" id="footnote7">7</a></sup>
+                    The sisters shared a fate similar to that of many other Jews who were deported from Hungary to Bergen-Belsen. 
+                    The so-called “Hungarian camp” was set up by the SS in July 1944 for approximately 1,700 Jews from the 
+                    so-called Kasztner group. In December 1944, two further transports comprising about 4,200 prisoners from 
+                    Pressburg (today Bratislava in Slovakia) and Budapest were quartered in this part of the camp. In the summer 
+                    of the same year, thousands of women and girls were deported from Auschwitz to Bergen-Belsen. They made up 
+                    the largest group of Hungarian prisoners in the so-called “Hungarian camp.” In the men’s camp, too, Hungarian 
+                    Jews were held who had been taken to Bergen-Belsen via other concentration camps as well. In addition, numerous 
+                    Hungarian Romani women and men arrived at the women’s and men’s camp in the fall of 1944.<sup><a href="#endnote7" id="footnote7">7</a></sup>
                 </p>
             </div>
             <div class="col-lg-4">
                 <div class="infobox mt-2">
-                    <h4>&#9432; Die Kasztner-Gruppe</h4>
+                    <h4>&#9432; The Kasztner Group</h4>
                     <p style="font-size: 0.9rem;">
-                        Mehr zur Kasztner-Gruppe und der Geschichte von Yehuda Blum.
+                        More about the Kasztner Group and the story of Yehuda Blum.
                     </p>
                     <p>
-                        <a href="{{ path('app_bio_blum') }}" title="Zur Fallstudie Yehuda Blum und Kasztner-Gruppe">
-                            &#10149; Zur Biografischen Fallstudie
+                        <a href="{{ path('app_bio_blum') }}" title="To the case study of Yehuda Blum and the Kasztner-Gruppe">
+                            &#10149; To the biographical case study
                         </a>
                     </p>
                 </div>
             </div>
         </div>
 
-        <h3 class="mt-4">Räumungstransporte nach Theresienstadt</h3>
+        <h3 class="mt-4">Evacuation transports to Theresienstadt</h3>
         <div class="row">
             <div class="col-lg-8">
                 <p>
-                    Anfang April 1945 wurde das Konzentrationslager Bergen-Belsen aufgrund der sich nähernden Front
-                    größtenteils von der SS geräumt. Es wurden drei Transporte mit Zügen organisiert, welche etwa 6.700
-                    Häftlinge vermutlich in das Ghetto Theresienstadt nördlich von Prag bringen sollten. Lea und Zsuzsa
-                    Merényi wurden am 10. April 1945 zusammen mit etwa 2.500 weiteren Gefangenen in einen Zug gebracht.
-                    Etwa 14 Tage später wurde der Zug bei Tröbitz von sowjetischen Soldaten befreit. Allein während
-                    dieses Transports starben mindestens 133 Häftlinge aufgrund unzureichender Versorgung, Schwäche und
-                    Krankheit.<sup><a href="#endnote8" id="footnote8">8</a></sup>
+                    At the beginning of April 1945, the Bergen-Belsen concentration camp was largely evacuated by the SS due 
+                    to the approaching front. Three transports by train were organized, which were supposed to take approximately 
+                    6,700 prisoners to the Theresienstadt ghetto north of Prague. Lea and Zsuzsa Merényi were put on a train 
+                    together with about 2,500 other prisoners on April 10, 1945. Some 14 days later, the train was liberated by 
+                    Soviet soldiers near Tröbitz. During this transport alone, at least 133 prisoners perished due to inadequate 
+                    care, weakness, and illness.<sup><a href="#endnote8" id="footnote8">8</a></sup>
                 </p>
             </div>
             <div class="col-lg-4">
                 <div class="infobox">
-                    <h4>&#128279; Mehr zu diesem Thema</h4>
+                    <h4>&#128279; More on this topic</h4>
                     <p>
-                        Die Räumung des KZ-Außenlagers Lübberstedt. In
-                        Güterwaggons durch Norddeutschland
+                        The evacuation of the Lübberstedt satellite camp. In freight cars through northern Germany
                     </p>
                     <p>
                         <a href="{{ path('app_deportation_luebberstedt') }}"
-                           title="Mehr Informationen zur Räumung von Konzentrationslagern anhand der Fallstudie zu Lübberstedt">
-                            &#10149; Hier weiterlesen
+                           title="More information on the evacuation of concentration camps based on the case study on Lübberstedt">
+                            &#10149; Read on
                         </a>
                     </p>
                 </div>
             </div>
         </div>
 
-        <h3 class="mt-4">Nach der Befreiung: Rückkehr der Schwestern nach Ungarn</h3>
+        <h3 class="mt-4">After liberation: the sisters return to Hungary</h3>
         <div class="row">
             <div class="col-lg-8">
                 <p>
-                    Nach der Befreiung bei Tröbitz blieben die Schwestern eine Zeit lang im Ort. Dort erkrankte Zsuzsa
-                    Merényi an Typhus und wurde von Lea Merényi bis zu ihrer Genesung gepflegt. Die Schwestern kehrten
-                    anders als viele andere Ungarinnen und Ungarn nach der Befreiung in ihr Heimatland zurück. Die
-                    Wohnung der Familie in Budapest war jedoch bereits von anderen Menschen besetzt, daher zog Lea
-                    Merényi in Ungarn zunächst zu ihrer Tante Delora. Nach ihrer Rückkehr arbeitete Lea Merényi für etwa
-                    ein Jahr bei der ungarischen Eisenbahngesellschaft (MAV), später dann als Deutschlehrerin, in den
-                    1970er-Jahren ging sie in Rente.
+                    After the liberation near Tröbitz, the sisters stayed in the village for a while. Zsuzsa Merényi fell ill 
+                    with typhoid fever there and was cared for by Lea Merényi until she recovered. Unlike many other Hungarians, 
+                    the sisters returned to their home country after the liberation. However, the family’s home in Budapest was 
+                    already occupied by other people, so within Hungary Lea Merényi initially moved in with her aunt Delora. 
+                    After her return, Lea Merényi worked for the Hungarian Railway Company (MAV) for about a year, later as a 
+                    German teacher, retiring in the 1970s.
                 </p>
                 <p>
-                    Zsuzsa Merényi heiratete nach ihrer Rückkehr und gründete gemeinsam mit ihrem Mann die Budapester
-                    Balletthochschule, wo sie auch unterrichtete.
+                    Following her return, Zsuzsa Merényi married and together with her husband, founded the Budapest Ballet Academy, 
+                    where she also gave lessons.
                 </p>
                 <p>
-                    Erst nach ihrer Rückkehr erfuhren die Schwestern, dass ihre Mutter im Ghetto in Budapest umgekommen
-                    war. Die Suche nach dem Bruder, den Großeltern aus Wuppertal-Barmen sowie weiteren Verwandten blieb
-                    erfolglos. Ihr Bruder István war Anfang 1945, nur wenige Meter von den Schwestern entfernt,
-                    in Bergen-Belsen umgekommen – eine Information, welche sie zu Lebzeiten nicht mehr erreichte.
+                    Only upon their return did the sisters learn that their mother had perished in the ghetto in Budapest. 
+                    The search for their brother, their grandparents from Wuppertal-Barmen, and other relatives was unsuccessful. 
+                    Their brother Istvan (Stefan) had died in Bergen-Belsen at the beginning of 1945, just a few yards away from 
+                    the sisters – information that never reached them during their lifetime.
                 </p>
                 <p>
-                    Zsuzsa Merényi verstarb am 15. August 1990, Lea 17 Jahre später, am 31. Dezember 2007 in Ungarn.
+                    Zsuzsa Merényi passed away on August 15, 1990, Lea 17 years later, on December 31, 2007 in Hungary.
                 </p>
             </div>
         </div>
 
-        <h3 class="mt-4">Quellenlage</h3>
+        <h3 class="mt-4">Source situation</h3>
         <div class="row">
             <div class="col-lg-8">
                 <p>
-                    Die vorliegenden Biografien basieren vor allem auf den Erzählungen und Erinnerungen von Lea Merényi,
-                    welche sie in zwei Interviews bzw. Zeitzeuginnenberichten mit der Gedenkstätte Bergen-Belsen
-                    aufarbeitete. Seit 1999 werden Videointerviews mit den Überlebenden des Konzentrations- und
-                    Kriegsgefangenenlagers, sowie weiteren Zeitzeugen und Zeitzeuginnen für die wissenschaftliche,
-                    pädagogische und museale Arbeit der Gedenkstätte vor Ort geführt. Diese Erinnerungsberichte
-                    ermöglichen den Überlebenden ihr eigenes Narrativ über die Shoah in einen historischen Zusammenhang
-                    zu bringen und die Arbeit der Gedenkstätte aktiv mitzugestalten. In Lea Merényis Fall ermöglichte
-                    ihr das Interview auch das Sprechen über ihre Erlebnisse, denn mit ihrer Schwester hatte sie die
-                    Vereinbarung getroffen, nicht über die Vergangenheit zu reden. Ergänzt wurden ihre subjektiven
-                    Schilderungen des Erlebten durch Informationen aus einem Interview mit Zsuzsa Merényi vom 20. April
-                    1990<sup><a href="#endnote9" id="footnote9">9</a></sup>, sowie historische Eckdaten, wobei sich vor
-                    allem am Katalog der Ausstellung der Gedenkstätte
-                    Bergen-Belsen orientiert wurde. Darüber hinaus liegen Tagebucheinträge und Zeichnungen von Zsuzsa
-                    Merényi vor.
+                    These biographies are primarily based on the stories and recollections of Lea Merényi, which she processed 
+                    in two interviews and eyewitness accounts with the Bergen-Belsen Memorial. Since 1999, video interviews 
+                    have been conducted with the survivors of the concentration and prisoner-of-war camp, as well as other 
+                    contemporary witnesses, toward the scholarly, educational, and museum work of the memorial on site. These 
+                    memoirs enable the survivors to put their own narrative about the Shoah in a historical context and actively 
+                    shape the work of the Memorial. In Lea Merényi’s case, the interview also enabled her to talk about her 
+                    experiences, as she had made an agreement with her sister not to speak about the past. Her subjective 
+                    descriptions of her experiences were supplemented by information from an interview with Zsuzsa Merényi on 
+                    April 20, 1990<sup><a href="#endnote9" id="footnote9">9</a></sup> as well as key historical data, primarily 
+                    based on the catalog of the exhibition at the Bergen-Belsen Memorial. In addition, diary entries and drawings 
+                    by Zsuzsa Merényi exist. 
                 </p>
             </div>
         </div>
@@ -324,153 +298,147 @@
         <div class="row">
             <div class="col-lg-8">
                 <p>
-                    Helen Abram / Veronika Lehotay, Deutsch-ungarischer Rechtstransfer im NS. online unter:
+                    Helen Abram / Veronika Lehotay, Deutsch-ungarischer Rechtstransfer im NS. online at:
                     <a href="https://rechtstransfer-im-ns.uni-goettingen.de/index.php/rechtstransfer/entrechtung-von-juden"
-                       title="Zur Seite der Universität Göttingen">
+                       title="To the website of the University of Göttingen">
                         https://rechtstransfer-im-ns.uni-goettingen.de/index.php/rechtstransfer/entrechtung-von-juden
                     </a>
-                    (letzter Zugriff: 29.06.2024).
+                    (last accessed: Juny 29, 2024).
                 </p>
                 <p>
-                    Regina Fritz, Eine frühe Dokumentation des Holocaust in Ungarn. Die »Untersuchungskommission zur
+                    Regina Fritz, “Eine frühe Dokumentation des Holocaust in Ungarn. Die »Untersuchungskommission zur
                     Erforschung und Bekanntmachung der von den Nationalsozialisten und Pfeilkreuzlern verübten
-                    Verbrechen« (1945), in: Zeithistorische Forschungen / Studies in Contemporary History.
-                    Online-Ausgabe, 14 (2017), H. 2, online unter:
+                    Verbrechen« (1945),” in: Zeithistorische Forschungen / Studies in Contemporary History,
+                    online-edition, 14 (2017) 2, online at:
                     <a href="https://zeithistorische-forschungen.de/2-2017/5496"
-                       title="Zur Seite der Zeithistorische Forschungen">
+                       title="To the website of Zeithistorische Forschungen (Studies in Contemporary History)">
                         https://zeithistorische-forschungen.de/2-2017/5496
                     </a>
-                    (letzter Zugriff: 03.07.24).
+                    (last accessed: July 3, 2024).
                 </p>
                 <p>
-                    Gedenkstätte Bergen-Belsen. Stiftung Niedersächsische Gedenkstätten, Geschichte der Gedenkstätte
-                    Bergen-Belsen, online unter:
-                    <a href="https://bergen-belsen.stiftung-ng.de/de/geschichte"
-                       title="Zur Seite der Gedenkstätte Bergen-Belsen">
-                        https://bergen-belsen.stiftung-ng.de/de/geschichte
+                    Bergen-Belsen Memorial. Lower Saxony Memorials Foundation, History
+                    Bergen Belsen, online at:
+                    <a href="https://bergen-belsen.stiftung-ng.de/en/history"
+                       title="To the website of the Bergen-Belsen Memorial">
+                        https://bergen-belsen.stiftung-ng.de/en/history
                     </a>
-                    (letzter Zugriff: 06.07.2024).
+                    (last accessed: July 6, 2024).
                 </p>
                 <p>
                     Kornelia Papp, Die Deportation der Juden aus Ungarn. Deutsches Historisches Museum, Berlin.
-                    15.05.2015, online unter:
+                    15.05.2015, online at:
                     <a href=" https://www.dhm.de/lemo/kapitel/der-zweite-weltkrieg/voelkermord/deportation-ungarischer-juden.html"
-                       title="Zur Seite des DHM">
+                       title="To the website of the Deutsches Historisches Museum (German Historical Museum)">
                         https://www.dhm.de/lemo/kapitel/der-zweite-weltkrieg/voelkermord/deportation-ungarischer-juden.html
                     </a>
-                    (letzter Zugriff: 05.07.2024).
+                    (last accessed: July 5, 2024).
                 </p>
                 <p>
-                    Stiftung niedersächsische Gedenkstätten, Bergen-Belsen. Kriegsgefangenenlager 1940-1945,
+                    Lower Saxony Memorials Foundation, Bergen-Belsen. Kriegsgefangenenlager 1940-1945,
                     Konzentrationslager 1943-1945, Displaced Persons Camp 1945-1950. Katalog der Dauerausstellung, Celle
                     2019.
                 </p>
                 <p>
-                    Yad Vashem. Internationale Holocaust Gedenkstätte, Die Deportation der europäischen Juden in die
-                    Vernichtung, online unter:
-                    <a href="https://www.yadvashem.org/de/holocaust/about/final-solution/deportation.html#narrative_info"
-                       title="Zur Seite von Yad Vashem">
-                        https://www.yadvashem.org/de/holocaust/about/final-solution/deportation.html#narrative_info
-                    </a>
-                    (letzter Zugriff: 03.07.2024).
+                    Yad Vashem. The World Holocaust Remembrance Center, Deportation to the Death Camps, online at:
+                        <a href="https://www.yadvashem.org/holocaust/about/final-solution/deportation.html#narrative_info"
+                           title="Website Yad Vashem">
+                        https://www.yadvashem.org/holocaust/about/final-solution/deportation.html#narrative_info
+                        </a>
+                    (last accessed: July 3, 2024).
                 </p>
                 <p>
-                    Yad Vashem. Internationale Holocaust Gedenkstätte, Die Juden Südosteuropas, online unter:
-                    <a href="https://www.yadvashem.org/de/holocaust/about/outbreak-of-ww2-anti-jewish-policy/south-eastern-europe.html#narrative_info"
-                       title="Zur Seite von Yad Vashem">
-                        https://www.yadvashem.org/de/holocaust/about/outbreak-of-ww2-anti-jewish-policy/south-eastern-europe.html#narrative_info
-                    </a>
-                    (letzter Zugriff: 03.07.2024).
+                    Yad Vashem. The World Holocaust Remembrance Center, The Fate of the Jews in South-Eastern Europe During the 
+                    First Years of the War, online at:
+                    <a href="https://www.yadvashem.org/holocaust/about/outbreak-of-ww2-anti-jewish-policy/south-eastern-europe.html#narrative_info"
+                        title="Website Yad Vashem">
+                        https://www.yadvashem.org/holocaust/about/outbreak-of-ww2-anti-jewish-policy/south-eastern-europe.html#narrative_info</a>
+                    (last accessed: July 3, 2024).
                 </p>
                 <p>
-                    Yad Vashem. Internationale Holocaust Gedenkstätte, The Munkács Ghetto, online unter:
+                    Yad Vashem. The World Holocaust Remembrance Center, The Munkács Ghetto, online at:
                     <a href=" https://www.yadvashem.org/yv/en/exhibitions/communities/munkacs/ghetto.asp"
-                       title="Zur Seite von Yad Vashem">
+                       title="To the website of Yad Vashem">
                         https://www.yadvashem.org/yv/en/exhibitions/communities/munkacs/ghetto.asp
                     </a>
-                    (letzter Zugriff: 25.07.2024).
+                    (last accessed: July 25, 2024).
                 </p>
             </div>
         </div>
 
-        <h3 class="mt-4">Fußnoten</h3>
+        <h3 class="mt-4">Footnotes</h3>
         <div class="row">
             <div class="col-lg-8 caption">
                 <ol>
                     <li id="endnote1">
-                        Stiftung niedersächsische Gedenkstätten / Gedenkstätte Bergen-Belsen, Interview mit Lea Merényi
-                        am 29.11.2005, BV 359.
+                        Lower Saxony Memorials Foundation / Bergen-Belsen Memorial, interview with Lea Merényi on November 29, 2005, 
+                        BV 359.
                         <a href="#footnote1">&uarr;</a>
                     </li>
                     <li id="endnote2">
-                        Vgl. Yad Vashem. Internationale Holocaust Gedenkstätte, Die Juden Südosteuropas, online unter:
-                        <a href="https://www.yadvashem.org/de/holocaust/about/outbreak-of-ww2-anti-jewish-policy/south-eastern-europe.html#narrative_info"
+                        Cf. Yad Vashem. The World Holocaust Remembrance Center, The Fate of the Jews in South-Eastern Europe During the 
+                        First Years of the War, online at:
+                        <a href="https://www.yadvashem.org/holocaust/about/outbreak-of-ww2-anti-jewish-policy/south-eastern-europe.html#narrative_info"
                            title="Website Yad Vashem">
-                        https://www.yadvashem.org/de/holocaust/about/outbreak-of-ww2-anti-jewish-policy/south-eastern-europe.html#narrative_info
-                        </a>
-                        (letzter Zugriff: 03.07.2024).
+                            https://www.yadvashem.org/holocaust/about/outbreak-of-ww2-anti-jewish-policy/south-eastern-europe.html#narrative_info</a>
+                        (last accessed: July 3, 2024).
                         <a href="#footnote2">&uarr;</a>
                     </li>
                     <li id="endnote3">
-                        Vgl. Helen Abram / Veronika Lehota, Deutsch-ungarischer Rechtstransfer im NS, online unter:
+                        Cf. Helen Abram / Veronika Lehota, Deutsch-ungarischer Rechtstransfer im NS, online at:
                         <a href="https://rechtstransfer-im-ns.uni-goettingen.de/index.php/rechtstransfer/entrechtung-von-juden/"
-                           title="Website Uni Göttingen">
+                           title="Website University of Göttingen">
                         https://rechtstransfer-im-ns.uni-goettingen.de/index.php/rechtstransfer/entrechtung-von-juden
                         </a>
-                        (letzter Zugriff: 29.06.2024).
+                        (last accessed: June 29, 2024).
                         <a href="#footnote3">&uarr;</a>
                     </li>
                     <li id="endnote4">
-                        Vgl. Yad Vashem. Internationale Holocaust Gedenkstätte, Die Deportation der europäischen Juden
-                        in die Vernichtung, online unter:
-                        <a href="https://www.yadvashem.org/de/holocaust/about/final-solution/deportation.html#narrative_info"
+                        Cf. Yad Vashem. The World Holocaust Remembrance Center, Deportation to the Death Camps, online at:
+                        <a href="https://www.yadvashem.org/holocaust/about/final-solution/deportation.html#narrative_info"
                            title="Website Yad Vashem">
-                        https://www.yadvashem.org/de/holocaust/about/final-solution/deportation.html#narrative_info
+                        https://www.yadvashem.org/holocaust/about/final-solution/deportation.html#narrative_info
                         </a>
-                        (letzter Zugriff: 03.07.2024).
+                        (last accessed: July 3, 2024).
                         <a href="#footnote4">&uarr;</a>
                     </li>
                     <li id="endnote5">
-                        Vgl. Gedenkstätte Bergen-Belsen. Stiftung Niedersächsische Gedenkstätten, Geschichte der
-                        Gedenkstätte Bergen-Belsen, online unter:
-                        <a href="https://bergen-belsen.stiftung-ng.de/de/geschichte"
-                           title="Website Gedenkstätte Bergen-Belsen">
-                        https://bergen-belsen.stiftung-ng.de/de/geschichte
+                        See Bergen-Belsen Memorial. Lower Saxony Memorials Foundation, History Bergen Belsen, online at:
+                        <a href="https://bergen-belsen.stiftung-ng.de/en/history/"
+                           title="Website Bergen-Belsen Memorial">
+                        https://bergen-belsen.stiftung-ng.de/en/history/
                         </a>
-                        (letzter Zugriff: 06.07.2024).
+                        (last accessed: July 6, 2024).
                         <a href="#footnote5">&uarr;</a>
                     </li>
                     <li id="endnote6">
-                        Vgl. Stiftung niedersächsische Gedenkstätten, Bergen-Belsen. Kriegsgefangenenlager
-                        1940-1945, Konzentrationslager 1943-1945, Displaced Persons Camp 1945-1950. Katalog der
-                        Dauerausstellung, Celle 2009, S. 200.
+                        See Lower Saxony Memorials Foundation, Bergen-Belsen. Kriegsgefangenenlager 1940-1945, 
+                        Konzentrationslager 1943-1945, Displaced Persons Camp 1945-1950. Katalog der Dauerausstellung, Celle 2019, p. 200.
                         <a href="#footnote6">&uarr;</a>
                     </li>
                     <li id="endnote7">
-                        Stiftung niedersächsische Gedenkstätten, Bergen-Belsen, S. 289.
+                        Lower Saxony Memorials Foundation, Bergen-Belsen, p. 289.
                         <a href="#footnote7">&uarr;</a>
                     </li>
                     <li id="endnote8">
-                        Vgl. Stiftung niedersächsische Gedenkstätten, Bergen-Belsen, S. 188.
-                        Stiftung niedersächsische Gedenkstätten / Gedenkstätte Bergen-Belsen, Interview mit Zsuzsa
-                        Merényi am 20.04.1990, BT 447.
+                        See Lower Saxony Memorials Foundation, Bergen-Belsen, p. 188. Lower Saxony Memorials Foundation / 
+                        Bergen-Belsen Memorial, interview with Zsuzsa Merényi on April 20, 1990, BT 447.
                         <a href="#footnote8">&uarr;</a>
                     </li>
                 </ol>
             </div>
         </div>
 
-        <h3 class="mt-4">Zitierhinweis</h3>
+        <h3 class="mt-4">Citation reference</h3>
         <div class="row">
             <div class="col-lg-8">
                 <p>
-                    Lara Meinert, Die Schwestern Lea und Zsuzsa Merényi – Fokus „Rückkehr“, in:
-                    Der Holocaust in Ungarn und die Deportationen nach Norddeutschland. Biographien, Lager und
-                    Zwangsarbeit,
-                    hrsg. vom Institut für die Geschichte der deutschen Juden,
+                    Lara Meinert, “Die Schwestern Lea und Zsuzsa Merényi – Fokus ‘Rückkehr’,” 
+                    in: Der Holocaust in Ungarn und die Deportationen nach Norddeutschland. Biographien, Lager und Zwangsarbeit,
+                    edited by the Institute for the History of the German Jews,
                     URL: https://holocaust-ungarn-norddeutschland.de{{ path('app_bio_mereny') }}.
-                    Lizenz: <a href="https://creativecommons.org/licenses/by/4.0/"
-                               title="Lizenzbestimmungen auf der Seite von Creative Commons">CC BY 4.0</a>.
+                    License: <a href="https://creativecommons.org/licenses/by/4.0/" 
+                    title="License terms on the Creative Commons website">CC BY 4.0</a>.
                 </p>
             </div>
         </div>
