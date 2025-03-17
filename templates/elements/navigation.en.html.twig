@@ -1,0 +1,99 @@
+<div class="container">
+
+    {% include 'elements/language-switch.html.twig' %}
+
+    <div class="hero device title-lg">
+        <div class="container mt-5">
+            <div class="row pt-1 pb-1">
+                <div class="col">
+                    <h1 class="fw-bold">
+                        <a href="{{ path('app_home') }}">
+                            The Holocaust in Hungary and the deportations to northern Germany
+                        </a>
+                    </h1>
+                    <p class="subtitle">Biographies, camps, and forced labor</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light" >
+        <div class="container-fluid setback">
+            <span class="navbar-brand">
+                <h1 class="brand-text">The Holocaust in Hungary<br/> and the deportations<br/> to northern Germany</h1>
+            </span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="{{ path('app_home') }}" class="nav-link" title="Home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="{{ path('app_map') }}" class="nav-link"
+                           title="Map view">Places</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="{{ path('app_deportation') }}" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" title="Camps and forced labor">
+                            Camps and forced labor
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="{{ path('app_deportation') }}" title="Overview of the group studies">Overview</a></li>
+                            <li><a class="dropdown-item" href="{{ path('app_deportation_vw') }}" title="Group study Volkswagen">Volkswagen</a></li>
+                            <li><a class="dropdown-item" href="{{ path('app_deportation_dessauerUfer') }}" title="Group study Dessauer Ufer">Dessauer Ufer</a></li>
+                            <li><a class="dropdown-item" href="{{ path('app_deportation_salzwedel') }}" title="Group study Salzwedel">Salzwedel</a></li>
+                            <li><a class="dropdown-item" href="{{ path('app_deportation_luebberstedt') }}" title="Group study Lübberstedt">Lübberstedt</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="{{ path('app_biographies') }}" class="nav-link dropdown-toggle" id="biographiesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" 
+                           title="Biographies">Biographies</a>
+                        <ul class="dropdown-menu" aria-labelledby="biographiesDropdown">
+                            <li><a class="dropdown-item" href="{{ path('app_biographies') }}" title="Overview of the biographies">Overview</a></li>
+                            <li><a class="dropdown-item" href="{{ path('app_bio_blum') }}" title="Individual biography Yehuda Blum">Yehuda Blum</a></li>
+                            <li><a class="dropdown-item" href="{{ path('app_bio_fuerst') }}" title="Individual biography Gyula Fürst">Gyula Fürst</a></li>
+                            <li><a class="dropdown-item" href="{{ path('app_bio_hardy') }}" title="Individual biography Katharina Hardy">Katharina Hardy</a></li>
+                            <li><a class="dropdown-item" href="{{ path('app_bio_mereny') }}" title="Individual biography Lea und Zsuzsa Merényi">Lea and Zsuzsa Merényi</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="{{ path('app_sources') }}" class="nav-link" title="What we know and what we don't know">Sources</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="{{ path('app_context') }}" class="nav-link"
+                           title="Historical context">Historical&nbsp;context</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="{{ path('app_about') }}" class="nav-link"
+                           title="Project context">Project background</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        // current URL without Domain (eg. /about or /contact)
+        let currentPath = window.location.pathname;
+
+        // select all navigation elements
+        let navLinks = document.querySelectorAll(".nav-link, .dropdown-item");
+
+        navLinks.forEach(link => {
+            // if href of links matches the current URL, selected-class is added; excludes footer
+            if (link.getAttribute("href") === currentPath && !link.classList.contains("footer-link")) {
+                link.classList.add("selected");
+
+                // if link is within a dropdown menu, the selected-class is added to the toggle-button 
+                let dropdown = link.closest(".dropdown-menu");
+                if (dropdown) {
+                    dropdown.previousElementSibling.classList.add("selected");
+                }
+            }
+        });
+    });
+</script>
