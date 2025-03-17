@@ -1,125 +1,125 @@
 {% extends 'base.en.html.twig' %}
 
-{% block title %} Impressum | {{ parent() }} {% endblock %}
+{% block title %} Imprint | {{ parent() }} {% endblock %}
 
 {% block body %}
-    {% include 'elements/navigation.html.twig' %}
-
+    
     <div class="container g-4 py-5">
-    <h2>##ENGLISH ## Imprint</h2>
+    <h2>Imprint</h2>
     <div class="row">
     <div class="col-lg-6">
-        <p>Die Website ist ein Angebot des Instituts für die Geschichte der deutschen Juden und präsentiert
-            Projektergebnisse aus dem von der EU-Kommission geförderten Projekt „Digitale Gedenk- und Forschungsinfrastruktur – Der Holocaust in Ungarn 80 Jahre später“ (HUNGMEM).</p>
         <p>
-            Institut für die Geschichte der deutschen Juden<br/>
+            The website is a service of the Institute for the History of the German Jews and presents project results from the 
+            EU Commission-funded project entitled “Digital Commemoration and Research Infrastructure – The Holocaust in Hungary 80 Years 
+            Later” (HUNGMEM).
+        </p>
+        <p>
+            Institute for the History of the German Jews<br/>(Institut für die Geschichte der deutschen Juden)<br/>
             Beim Schlump 83<br/>
             20144 Hamburg<br/>
         </p>
         <p>
             +49 40 - 42 838-2617<br/>
-            kontakt(at)igdj-hh.de
+            contact(at)igdj-hh.de
         </p>
         <p>
-            Das Institut ist eine Stiftung bürgerlichen Rechts in der Trägerschaft der
-            Freien und Hansestadt Hamburg und wird institutionell von der Behörde für Wissenschaft,
-            Forschung, Gleichstellung und Bezirke der Freien und Hansestadt Hamburg gefördert.
+            The Institute, a foundation constituted under civil law and administered by the Free and Hanseatic City of Hamburg, 
+            is institutionally funded by the Ministry of Science, Research, Equality, and Districts of the Free and Hanseatic City 
+            of Hamburg. 
         </p>
         <img class="img-fluid" src="{{ asset('images/logos/BWFG-Logo.png') }}"
-             alt="Logo der Behörde für Wissenschaft,
-            Forschung, Gleichstellung und Bezirke der Freien und Hansestadt Hamburg"/>
+             alt="Logo for the Ministry of Science, Research, Equality, and Districts of the Free and Hanseatic City of Hamburg"/>
 
-        <h4>Vertretungsberechtigte Personen:</h4>
+        <h4>Persons authorized to represent the organization:</h4>
         <p>
-            Direktorin Dr. Kim Wünschmann<br/>
-            Stellvertretender Direktor: PD Dr. Andreas Brämer
+            Director Dr. Kim Wünschmann<br/>
+            Deputy Director: Dr. Björn Siegel
         </p>
-        <h4>Inhaltlich Verantwortlich:</h4>
+        <h4>Responsible for the content:</h4>
         <p>
             Lara Meinert, M.A.<br/>
             Louis Wörner, M.A.
         </p>
-        <h4>Konzeption und Koordination: </h4>
+        <h4>Conception and coordination:</h4>
         <p>
             Dr. Anna Menny<br/>
             Dr. Kim Wünschmann
         </p>
-        <h4> Technische Konzipierung und Umsetzung:</h4>
+        <h4>Technical conception and implementation:</h4>
         <p>
-            Dr. Anna Neovesky
+            Dr. Anna Neovesky<br/>
+            Helena Geibel, M.A.
         </p>
-        <h4>Kooperationspartner:</h4>
+        <h4>Translation:</h4>
         <p>
-            <a href="https://bergen-belsen.stiftung-ng.de/de/">Stiftung niedersächsische Gedenkstätten / Gedenkstätte
-                Bergen-Belsen</a>
-        <div class="partner">
-            <a href="https://bergen-belsen.stiftung-ng.de/de/" tilte="Website der Gedenkstätte">
-                <img class="img-fluid" src="{{ asset('images/logos/bergen-belsen.png') }}"
-                     alt="Logo der Gedenkstätte KZ Bergen-Belsen"/>
-            </a>
-        </div>
-        <a href="https://www.kz-gedenkstaette-neuengamme.de/">KZ-Gedenkstätte Neuengamme</a>
-        <div class="partner">
-            <a href="https://www.kz-gedenkstaette-neuengamme.de/" tilte="Website der Gedenkstätte">
-                <img class="img-fluid" src="{{ asset('images/logos/neuengamme.png') }}"
-                     alt="Logo der Gedenkstätte KZ Neuengamme"/>
-            </a>
-        </div>
+            Erwin Fink
         </p>
-
-
-        <h3>Danksagung</h3>
+        <h4>Cooperation partner:</h4>
         <p>
-            Wir danken allen beteiligten Institutionen und Personen für die Genehmigungen zur Nutzung von Bild- und
-            Quellenmaterialien sowie für die Unterstützung bei den Recherchen.
-        </p>
-
-        <h3>Förderung</h3>
-        <p>
-            Das transnationale Verbundprojekt „Digitale Gedenk- und Forschungsinfrastruktur – Der Holocaust in Ungarn 80 Jahre später“ (HUNGMEM) wird von der EU-Kommission im Rahmen des Förderprogramms
-            <a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/programmes/cerv"
-                    title="Webseite des Förderprogramms CERV">
-                CERV – Citizens, Equality, Rights and Values
+            <a href="https://bergen-belsen.stiftung-ng.de/de/">Lower Saxony Memorials Foundation / Bergen-Belsen Memorial</a>
+            <div class="partner">
+                <a href="https://bergen-belsen.stiftung-ng.de/de/" title="Website of the Lower Saxony Memorials Foundation / Bergen-Belsen Memorial">
+                    <img class="img-fluid" src="{{ asset('images/logos/bergen-belsen.png') }}"
+                        alt="Logo of the Bergen-Belsen Concentration Camp Memorial"/>
                 </a>
-            unterstützt.
+            </div>
+            <a href="https://www.kz-gedenkstaette-neuengamme.de/">Neuengamme Concentration Camp Memorial</a>
+            <div class="partner">
+                <a href="https://www.kz-gedenkstaette-neuengamme.de/" title="Website of the Neuengamme Concentration Camp Memorial">
+                    <img class="img-fluid" src="{{ asset('images/logos/neuengamme.png') }}"
+                        alt="Logo of the Neuengamme Concentration Camp Memorial"/>
+                </a>
+            </div>
+        </p>
+
+
+        <h3>Acknowledgments</h3>
+        <p>
+            We would like to thank all the institutions and individuals involved for their permission to use images and 
+            source material and for their support with the research.
+        </p>
+
+        <h3>Support</h3>
+        <p>
+            The transnational joint project “Digital Commemoration and Research Infrastructure – The Holocaust in Hungary 80 Years Later” 
+            (HUNGMEM) is funded by the EU Commission as part of the 
+            <a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/programmes/cerv"
+                    title="Website of the CERV funding program CERV">
+                CERV – Citizens, Equality, Rights and Values
+            </a> funding program.
         </p>
         <div class="row partner">
-            <a href="https://commission.europa.eu/index_de" tilte="Website der Europäischen Kommission">
+            <a href="https://commission.europa.eu/index_de" tilte="Website of the European Commission">
                 <img class="img-fluid" src="{{ asset('images/logos/European_Commission_logo.jpg') }}"
-                     alt="Logo der EU Commission"/>
+                     alt="Logo of the EU Commission"/>
             </a>
         </div>
 
-        <h2 class="pt-4" id="datenschutz">Datenschutz</h2>
+        <h2 class="pt-4" id="datenschutz">Data protection</h2>
         <p>
-            Dies ist ein Online-Angebot des Instituts für die Geschichte der deutschen Juden (IGdJ). Für die
-            Verarbeitung aller personenbezogenen Daten, die im Zuge des Betriebs dieses Angebots anfallen, gilt
-            die <a href="https://igdj-hh.de/datenschutz" target="_blank"
-                   title="Datenschutzerklärung auf der Website des Instituts für die Geschichte der deutschen Juden">
-                allgemeine Datenschutzerklärung des IGdJ
-            </a>.
+            This is an online service of the Institute for the History of the German Jews (IGdJ). The 
+            <a href="https://igdj-hh.de/datenschutz" target="_blank"
+                   title="Privacy policy on the website of the Institute for the History of the German Jews">
+                general privacy policy of the IGdJ
+            </a> applies to the processing of all personal data collected in the course of operating this website.
         </p>
         <p>
-            Für die Sammlung anonymisierter Zugriffsdaten wird <em>Fathom Analytics</em> genutzt.
-            Fathom Analytics ist ein durch Conva Ventures Inc. angebotener Dienst für
-            anonymisierte Analysen, durch den der Anbieter ermitteln kann, wie Nutzer diese Anwendung nutzen.
-            Erhobene Daten werden durch Hashing-Vorgänge anonymisiert. Weitere Informationen sind
-            <a href="https://usefathom.com/data" title="Information zur Datenverarbeitung von Fathom Analytics">hier</a>
-            und über die
-            <a href="https://usefathom.com/privacy" title="Datenschutzerklärung von Fathom Analytics">Datenschutzerklärung
-                des Dienstes</a>
-            erhältlich.<br/>Verarbeitete personenbezogene Daten: Nutzungsdaten.
-            Verarbeitungsort: Kanada.
+            <em>Fathom Analytics</em> is used to collect anonymized access data. 
+            Fathom Analytics is a service offered by Conva Ventures Inc. for anonymized analyses through which the 
+            provider can determine how users use this application. 
+            Collected data is anonymized by hashing processes. Further information is available 
+            <a href="https://usefathom.com/data" title="Information on data processing by Fathom Analytics">here</a> 
+            and via the <a href="https://usefathom.com/privacy" title="Privacy policy of Fathom Analytics">service’s privacy policy</a>. 
+            <br/>Personal Data processed: Usage data. Place of processing: Canada.
         </p>
 
-        <h3 id="usage">Nutzungsrechte</h3>
+        <h3 id="usage">Rights of use</h3>
         <p>
-            Die Texte stehen unter einer <a href="https://creativecommons.org/licenses/by/4.0/deed.de"
-                                            title="Lizenzbedingungen auf der Website von Creative Commons">
-                CC BY 4.0 Lizenz</a> und können unter Namensnennung weitergenutzt werden.
+            The texts are under a <a href="https://creativecommons.org/licenses/by/4.0/deed.de" 
+            title="License terms on the Creative Commons website">CC BY 4.0 license</a> and can be used under attribution.
         </p>
         <p>
-            Die Lizenzbedingungen der Abbildung können abweichen und sind jeweils an den Abbildungen angegeben.
+            The licensing conditions of the illustration may vary and are indicated on each of the illustrations.
         </p>
 
     </div>
