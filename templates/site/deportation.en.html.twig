@@ -1,52 +1,49 @@
 {% extends 'base.en.html.twig' %}
 
-{% block title %} Gruppenstudien Übersicht | {{ parent() }} {% endblock %}
+{% block title %} Overview: Camps and forced labor | {{ parent() }} {% endblock %}
 
 {% block body %}
-    {% include 'elements/navigation-deportationen.html.twig' %}
-
+    
     <div class="container g-4 py-5">
 
         <div class="row justify-content-end">
             <div class="col-sm">
                 <div>
-                    <a href="{{ path('app_deportation_vw') }}" title="Blick in eine Produktionshalle der V1 im Konzentrationslager Mittelbau-Dora, Mai 1946, Fotograf: unbekannt, D-Day Museum, Portsmouth, 089.006, online unter: https://fotoarchiv.dora.de/detail/2595, Public Domain">
+                    <a href="{{ path('app_deportation_vw') }}" 
+                    title="View of a V1 production hall in the Mittelbau-Dora concentration camp, May 1945, photographer: unknown, D-Day Museum, Portsmouth, 089.006, online at: https://fotoarchiv.dora.de/detail/2595, public domain">
                         <img class="img-fluid" src="{{ asset('images/studies/Titelbild-300-V1-Produktion.png') }}"
-                             alt="Produktion der V1-Rakete: Ansicht der unterirdischen Produktionsstätte">
+                             alt="View of a V1 production hall in the Mittelbau-Dora concentration camp, May 1945">
                     </a>
                     <div class="studiesoverview">
-                        <h2>
-                            <a href="{{ path('app_deportation_vw') }}" title="Zur Gruppenstudie der Gruppe der 300">
-                                ## ENGLISH ## Die Gruppe der 300. Zwangsarbeiter als Facharbeiter bei VW
+                        <h2><!--case study on the group of the 300-->
+                            <a href="{{ path('app_deportation_vw') }}" title="To the group study of the group of the 300">
+                                The group of the 300. Forced laborers as skilled workers at VW
                             </a>
                         </h2>
-                        <p> Circa 13,5 Millionen Menschen wurden während des Zweiten Weltkrieges zu Zwangsarbeit im
-                            Deutschen
-                            Reich herangezogen. Die Aufrechterhaltung der Kriegswirtschaft war nur durch die
-                            zwangsverpflichteten Arbeiterinnen und Arbeiter ...
-                            <a class="more" href="{{ path('app_deportation_vw') }}" title="Weiterlesen">[mehr]</a>
+                        <p> Some 13.5 million people were conscripted into forced labor in the German Reich during the Second World War. 
+                            Maintaining the war economy was only possible with the help of the conscripted workers ...
+                            <a class="more" href="{{ path('app_deportation_vw') }}" title="Read on">[more]</a>
                         </p>
                     </div>
                 </div>
             </div>
             <div class="col-sm offset-lg-1">
                 <div>
-                    <a href="{{ path('app_deportation_dessauerUfer') }}" title="Das Lagerhaus G am Dessauer Ufer diente ab 1944 als KZ-Außenlager, Ansicht von der Wasserseite aus. Foto: Stiftung Hamburger Gedenkstätten und Lernorte zur Erinnerung an die Opfer der NS-Verbrechen, Rainer Viertlböck, 2020, https://gedenkstaetten-in-hamburg.de/gedenkstaetten/zeige/gedenktafeln-am-lagerhaus-g-kz-aussenlager-dessauer-ufer">
+                    <a href="{{ path('app_deportation_dessauerUfer') }}" 
+                    title="Lagerhaus G, a warehouse on Dessauer Ufer, served as a satellite camp from 1944 onward, view from the waterside. Photo: Stiftung Hamburger Gedenkstätten und Lernorte zur Erinnerung an die Opfer der NS-Verbrechen, Rainer Viertlböck, 2020, https://gedenkstaetten-in-hamburg.de/en/memorials/show/memorial-plaques-on-lagerhaus-g-dessauer-ufer-satellite-camp">
                         <img class="img-fluid" src="{{ asset('images/studies/Titelbild-Dessauer-Ufer.png') }}"
-                             alt="">
+                             alt="Lagerhaus G, a warehouse on Dessauer Ufer, served as a satellite camp from 1944 onward, view from the waterside">
                     </a>
                     <div class="studiesoverview">
                         <h2>
-                            <a href="{{ path('app_deportation_dessauerUfer') }}" title="Zur Gruppenstudie Dessauer Ufer">
-                                Die Frauen vom KZ-Außenlager Dessauer Ufer. Zwangsarbeit im städtischen Raum
+                            <a href="{{ path('app_deportation_dessauerUfer') }}" title="To the group study Dessauer Ufer">
+                                The women from the Dessauer Ufer satellite camp. Forced labor in the urban area
                             </a>
                         </h2>
-                        <p>Ungefähr 200.000 der aus Ungarn deportierten Jüdinnen und Juden, mussten Zwangsarbeit
-                            leisten. Über Auschwitz und Österreich wurden sie ab Mitte 1944 auf verschiedene Außenlager
-                            im Deutschen Reich und den besetzten Gebieten verteilt.
-                            ...
-                            <a class="more" href="{{ path('app_deportation_dessauerUfer') }}"
-                               title="Weiterlesen">[mehr]</a>
+                        <p>Some 200,000 of the Jews deported from Hungary had to perform forced labor. Starting in mid-1944, they were 
+                        distributed via Auschwitz and Austria to various satellite camps in the German Reich and in the occupied 
+                        territories ...
+                            <a class="more" href="{{ path('app_deportation_dessauerUfer') }}" title="Read on">[more]</a>
                         </p>
                     </div>
                 </div>
@@ -56,22 +53,20 @@
         <div class="row g-4 mt-2">
             <div class="col-sm">
                 <div>
-                    <a href="{{ path('app_deportation_salzwedel') }}" title="Befreite männliche und weibliche KZ-Häftlinge in Gardelegen am 5. Juni 1945. Privatbesitz, Johann-Friedrich-Danneil-Museum, Salzwedel">
+                    <a href="{{ path('app_deportation_salzwedel') }}" 
+                    title="Liberated male and female concentration camp prisoners in Gardelegen on June 5, 1945, private property, Johann-Friedrich-Danneil-Museum, Salzwedel">
                         <img class="img-fluid" src="{{ asset('images/studies/Titelbild-Salzwedel.png') }}"
-                             alt="">
+                             alt="A group of male and female concentration camp prisoners seen from behind">
                     </a>
                     <div class="studiesoverview">
                         <h2>
-                            <a href="{{ path('app_deportation_salzwedel') }}" title="Zur Gruppenstudie Salzwedel">
-                                Zwangsarbeit in der Rüstungsindustrie. Die Befreiung des KZ-Außenlagers Salzwedel
+                            <a href="{{ path('app_deportation_salzwedel') }}" title="To the group study Salzwedel">
+                                Forced labor in the armaments industry. The liberation of the Salzwedel satellite camp
                             </a>
                         </h2>
-                        <p>Bereits vor dem Beginn des Zweiten Weltkrieges hatten die Nationalsozialisten mit dem
-                            forcierten
-                            Ausbau der deutschen Rüstungsindustrie begonnen. So waren allein von 1933 bis 1938 die
-                            Rüstungsausgaben von ...
-                            <a class="more" href="{{ path('app_deportation_salzwedel') }}"
-                               title="Weiterlesen">[mehr]</a>
+                        <p>Even before the start of the Second World War, the National Socialists had begun to accelerate the expansion 
+                            of the German arms industry. From 1933 to 1938 alone, armaments spending ...
+                            <a class="more" href="{{ path('app_deportation_salzwedel') }}" title="Read on">[more]</a>
 
                         </p>
                     </div>
@@ -79,23 +74,23 @@
             </div>
             <div class="col-sm offset-lg-1">
                 <div>
-                    <a href="{{ path('app_deportation_luebberstedt') }}" title="Auschwitz-Album, Yad Vashem ( https://www.yadvashem.org/yv/de/exhibitions/album_auschwitz/arrival.asp), Copyright © 2024 Yad Vashem – Internationale Holocaust Gedenkstätte, Nutzung gemäß Fair Use (https://www.yadvashem.org/terms-and-conditions.html)">
+                    <a href="{{ path('app_deportation_luebberstedt') }}" 
+                    title="Auschwitz Album, Yad Vashem (https://www.yadvashem.org/yv/de/exhibitions/album_auschwitz/arrival.asp), Copyright &copy; 2024 Yad Vashem – The World Holocaust Remembrance Center, Use according to Fair Use (https://www.yadvashem.org/terms-and-conditions.html)">
                         <img class="img-fluid" src="{{ asset('images/studies/Titelbild_Luebberstedt.jpg') }}"
-                             alt="">
+                             alt="Jewish women from Transcarpathia in Auschwitz-Birkenau in May 1944, who had been selected for forced labor 
+                            after their arrival">
                     </a>
                     <div class="studiesoverview">
                         <h2>
-                            <a href="{{ path('app_deportation_luebberstedt') }}" title="Zur Gruppenstudie Lübberstedt">
-                                Die Räumung des KZ-Außenlagers Lübberstedt. In Güterwaggons durch Norddeutschland
+                            <a href="{{ path('app_deportation_luebberstedt') }}" title="To the group study Lübberstedt">
+                                The evacuation of the Lübberstedt satellite camp. In freight cars through northern Germany
                             </a>
                         </h2>
-                        <p>Mit dem Vormarsch der Alliierten wurden ab Mitte 1944 auch die ersten Konzentrationslager
-                            befreit.
-                            Bevor alliierte Truppen die Lager erreichen konnten, versuchte die SS jedoch Spuren zu
-                            vernichten und die Häftlinge
-                            ...
+                        <p>With the advance of the Allies, the first concentration camps were liberated starting in mid-1944. 
+                        However, before Allied troops could reach the camps, the SS tried to destroy traces of the camps and to deport 
+                        the prisoners to ...
                             <a class="more" href="{{ path('app_deportation_luebberstedt') }}"
-                               title="Weiterlesen">[mehr]</a>
+                               title="Read on">[more]</a>
                         </p>
                     </div>
                 </div>

@@ -1,55 +1,51 @@
 {% extends 'base.en.html.twig' %}
 
-{% block title %} Startseite | {{ parent() }} {% endblock %}
+{% block title %} Home | {{ parent() }} {% endblock %}
 
 
 {% block body %}
-    {% include 'elements/navigation-home.html.twig' %}
-
+    
     <div class="container g-4 py-5">
 
         <div class="row justify-content-end">
             <div class="col-sm">
                 <div>
-                    <a href="{{ path('app_map') }}" title="Zur Karte">
+                    <a href="{{ path('app_map') }}" title="To the map">
                         <img class="img-fluid" src="{{ asset('images/Kartenansicht-Norddeutschland.jpg') }}"
                              alt="">
                     </a>
                     <div class="studiesoverview">
                         <h2>
-                            <a href="{{ path('app_map') }}" title="Zur Karte">
-                                ## ENGLISH ##  Orte und Geografische Einordnung
+                            <a href="{{ path('app_map') }}" title="To the map">
+                                Places and geographical classification
                             </a>
                         </h2>
-                        <p>Jedes zehnte Holocaust-Opfer stammte aus Ungarn in seinen damaligen Grenzen. Tausende von
-                            ihnen wurden zur Zwangsarbeit in Rüstungsbetrieben nach Norddeutschland deportiert. Die hier
-                            präsentierten Fallstudien beleuchten schlaglichtartig den Zusammenhang zwischen Holocaust
-                            und Kriegsverlauf im regionalen Kontext.
-                            <a class="more" href="{{ path('app_map') }}" title="Weiterlesen">[mehr]</a>
+                        <p>One in ten Holocaust victims came from Hungary within its borders at the time. 
+                        Thousands of them were deported to northern Germany for forced labor in armaments factories. 
+                        The case studies presented here shed light on the connection between the Holocaust and the course 
+                        of the war in a regional context.
+                            <a class="more" href="{{ path('app_map') }}" title="Read on">[more]</a>
                         </p>
                     </div>
                 </div>
             </div>
             <div class="col-sm offset-lg-1">
                 <div>
-                    <a href="{{ path('app_sources') }}" title="Informationen zu Quellen und Daten">
+                    <a href="{{ path('app_sources') }}" title="Information on data and sources">
                         <img class="img-fluid" src="{{ asset('images/Collage-Quellen.jpg') }}"
-                             alt="Mehr zu genutzten Quellen und Daten">
+                             alt="More on data and sources">
                     </a>
                     <div class="studiesoverview">
                         <h2>
-                            <a href="{{ path('app_sources') }}" title="Informationen zu Quellen und Daten">
-                                (Un)bekannte Daten und Quellen
+                            <a href="{{ path('app_sources') }}" title="Information on data and sources">
+                                (Un)known data and sources
                             </a>
                         </h2>
-                        <p>Das Wissen über Deportierte aus Ungarn in nordwestdeutschen Konzentrationslagern ist bis
-                            heute sehr
-                            begrenzt. Bereits eine realistische Schätzung der Gesamtzahl der in die Konzentrationslager
-                            Neuengamme und Bergen-Belsen aus Ungarn deportierten Personen liegt bislang nicht vor. Die
-                            Namen der
-                            meisten Deportierten sind unbekannt.
+                        <p>Knowledge about deportees from Hungary in northwest German concentration camps is still very limited. 
+                        Even a realistic estimate of the total number of people deported from Hungary to the Neuengamme and 
+                        Bergen-Belsen concentration camps is not yet available. The names of most of the deportees are unknown.
                             ...
-                            <a class="more" href="{{ path('app_context') }}" title="Weiterlesen">[mehr]</a>
+                            <a class="more" href="{{ path('app_sources') }}" title="Read on">[more]</a>
                         </p>
                     </div>
                 </div>
@@ -59,25 +55,23 @@
         <div class="row g-4 mt-2">
             <div class="col-sm">
                 <div>
-                    <a href="{{ path('app_deportation') }}" title="Zur Übersicht der Fallstudien">
+                    <a href="{{ path('app_deportation') }}" title="Overview of the case studies">
                         <img class="img-fluid" src="{{ asset('images/studies/Titelbild-Dessauer-Ufer.png') }}"
                              alt="">
                     </a>
                     <div class="studiesoverview">
                         <h2>
-                            <a href="{{ path('app_deportation') }}" title="Zur Übersicht der Fallstudien">
-                                Zwangsarbeiterinnen und Zwangsarbeiter aus Ungarn. Gruppenstudien
+                            <a href="{{ path('app_deportation') }}" title="Overview of the case studies">
+                                Forced laborers from Hungary. Group studies
                             </a>
                         </h2>
-                        <p>In weniger als zwei Monaten verschleppten die Nationalsozialisten nach der deutschen
-                            Besetzung Ungarns im März 1944 etwa 440.000 Jüdinnen und Juden in das Konzentrations- und
-                            Vernichtungslager Auschwitz, wo der Großteil unmittelbar nach der Ankunft ermordet wurde.
-                            Nur
-                            etwa ein Drittel wurde bei den „Selektionen“ ausgewählt, um Zwangsarbeit für das Deutsche
-                            Reich zu leisten. Die hier präsentierten Fallstudien geben an konkreten Beispielen Einblicke
-                            in das System der NS-Zwangsarbeit, indem sie Deportationsrouten, Häftlingsgruppen und die
-                            Bedingungen in den Lagern beleuchten.
-                            <a class="more" href="{{ path('app_deportation') }}" title="Weiterlesen">[mehr]</a>
+                        <p>In less than two months after the German occupation of Hungary in March 1944, the National Socialists
+                         deported some 440,000 Jews to the Auschwitz concentration and extermination camp, where the majority
+                          were murdered immediately upon arrival. Only about a third were picked out during the “selections” 
+                          to perform forced labor for the German Reich. The case studies presented here use specific examples 
+                          to provide insights into the system of Nazi forced labor by shedding light on deportation routes, 
+                          groups of prisoners, and the conditions in the camps.
+                            <a class="more" href="{{ path('app_deportation') }}" title="Read on">[more]</a>
 
                         </p>
                     </div>
@@ -85,23 +79,21 @@
             </div>
             <div class="col-sm offset-lg-1">
                 <div>
-                    <a href="{{ path('app_biographies') }}" title="Zur Übersicht der Biografien">
+                    <a href="{{ path('app_biographies') }}" title="Overview of the biographies">
                         <img class="img-fluid" src="{{ asset('images/biographies/Collage-Biografien.jpg') }}"
                              alt="">
                     </a>
                     <div class="studiesoverview">
                         <h2>
-                            <a href="{{ path('app_biographies') }}" title="Zur Übersicht der Biografien">
-                                Deportation und Hafterfahrungen. Einzelbiografien
+                            <a href="{{ path('app_biographies') }}" title="Overview of the biographies">
+                                Deportation and experiences of imprisonment. Individual biographies
                             </a>
                         </h2>
-                        <p>Von einem Großteil der aus Ungarn deportierten Menschen sind bis heute keine Namen bekannt.
-                            Gleichzeitig bilden die Interviews der Überlebenden eine wichtige Grundlage für Forschung
-                            und Gedenken. Nur mit ihrer Hilfe lassen sich Deportationsrouten, Haftbedingungen und
-                            individuelle (Über-)Lebenswege rekonstruieren. Die hier präsentierten Fallstudien stellen
-                            ausgewählte Biografien vor, deren Schicksale zugleich stellvertretend für größere Gruppen
-                            stehen.
-                            <a class="more" href="{{ path('app_biographies') }}" title="Weiterlesen">[mehr]</a>
+                        <p>The names of most of the people deported from Hungary are still unknown. At the same time, 
+                        the survivors’ interviews form an important basis for research and remembrance. Only with their help can 
+                        deportation routes, conditions of detention, and individual (survival) paths through life be reconstructed. 
+                        The case studies introduced here present selected lives whose fates are also representative of larger groups.
+                            <a class="more" href="{{ path('app_biographies') }}" title="Read on">[more]</a>
                         </p>
                     </div>
                 </div>

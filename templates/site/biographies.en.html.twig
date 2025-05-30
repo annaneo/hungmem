@@ -1,50 +1,47 @@
 {% extends 'base.en.html.twig' %}
 
-{% block title %} Einzelbiografien Übersicht | {{ parent() }} {% endblock %}
+{% block title %} Overview of biographies | {{ parent() }} {% endblock %}
 
 {% block body %}
-    {% include 'elements/navigation-biographies.html.twig' %}
-
-
+    
     <div class="container g-4 py-5">
 
         <div class="row justify-content-end">
             <div class="col-sm">
                 <div>
-                    <a href="{{ path('app_bio_blum') }}" title="Biografische Studie Yehuda Blum">
-                        <img class="img-fluid" src="{{ asset('images/biographies/Titelbild-Blum.jpg') }}"
-                             alt="Fotografie der Geschwister Blum">
+                    <a href="{{ path('app_bio_blum') }}" title="Individual biography Yehuda Blum">
+                        <img class="img-fluid" src="{{ asset('images/biographies/Titelbild-Blum.jpg') }}" 
+                            alt="Yehuda Blum (right) with his siblings Amram and Leah, spring 1941. Bergen-Belsen Memorial Archive, 
+                            privately owned by Yehuda Blum">
                     </a>
                     <div class="studiesoverview">
                         <h2>
-                            <a href="{{ path('app_bio_blum') }}" title="Biografische Studie Yehuda Blum">
-                                ## ENGLISH ##  Yehuda Blum – die Kasztner-Gruppe
+                            <a href="{{ path('app_bio_blum') }}" title="Individual biography Yehuda Blum">
+                                Yehuda Blum - the Kasztner Group
                             </a>
                         </h2>
-                        <p>Yehuda Blum wurde am 2. Oktober 1931 im damals tschechoslowakischen Bratislava geboren. Er war der
-                            Älteste von insgesamt drei Kindern. Er hatte einen Bruder (Amram Blum) und eine Schwester (Leah
-                            Blum). Yehuda Blums Vater ...
-                            <a class="more" href="{{ path('app_bio_blum') }}" title="Weiterlesen">[mehr]</a>
+                        <p>Yehuda Blum was born on October 2, 1931 in Bratislava, then part of Czechoslovakia. He was the eldest of 
+                        three children. He had a brother (Amram Blum) and a sister (Leah Blum). Yehuda Blum’s father ...
+                            <a class="more" href="{{ path('app_bio_blum') }}" title="Read on">[more]</a>
                         </p>
                     </div>
                 </div>
             </div>
             <div class="col-sm offset-lg-1">
                 <div>
-                    <a href="{{ path('app_sources') }}" title="Biografische Studie Gyula Fürst">
+                    <a href="{{ path('app_bio_fuerst') }}" title="Individual biography Gyula Fürst">
                         <img class="img-fluid" src="{{ asset('images/biographies/Titelbild-Geschwister_Fuerst.jpg') }}"
-                             alt="Biografische Studie Gyula Fürst">
+                             alt="Photograph of the Fürst siblings">
                     </a>
                     <div class="studiesoverview">
                         <h2>
-                            <a href="{{ path('app_bio_fuerst') }}" title="">
-                                Gyula Fürst – ein ungewöhnlicher Deportationsweg
+                            <a href="{{ path('app_bio_fuerst') }}" title="Individual biography Gyula Fürst">
+                                Gyula Fürst – an unusual deportation route
                             </a>
                         </h2>
-                        <p>Gyula Fürst wurde am 1. Juli 1923 als jüngstes von insgesamt vier Kindern in der ungarischen
-                            Gemeinde Boba im Komitat Vas geboren. Als er vier Jahre alt war,
-                            ...
-                            <a class="more" href="{{ path('app_bio_fuerst') }}" title="Weiterlesen">[mehr]</a>
+                        <p>Gyula Fürst was born on June 1, 1923 as the youngest of four children in the Hungarian municipality of Boba 
+                            in Vas County. When he was four years old, ...
+                            <a class="more" href="{{ path('app_bio_fuerst') }}" title="Read on">[more]</a>
                         </p>
                     </div>
                 </div>
@@ -54,19 +51,20 @@
         <div class="row g-4 mt-2">
             <div class="col-sm">
                 <div>
-                    <a href="{{ path('app_biographytemplate') }}" title="Biografische Studie Katharina Hardy">
-                        <img class="img-fluid" src="{{ asset('images/biographies/Titelbild-Katharina-Hardy.jpg') }}"
-                             alt="">
+                    <a href="{{ path('app_bio_hardy') }}" title="Individual biography Katharina Hardy">
+                        <img class="img-fluid" src="{{ asset('images/biographies/Titelbild-Katharina-Hardy.jpg') }}" 
+                            alt="Katharina Hardy as a guest attending a memorial service in Bergen-Belsen, 2015 (detail). 
+                            Bergen-Belsen Memorial Archive, inventory number 1600–4229, photo: Julia Lormis, 2015">
                     </a>
                     <div class="studiesoverview">
                         <h2>
-                            <a href="{{ path('app_bio_hardy') }}" title="Biografische Studie Katharina Hardy">
-                                Katharina Hardy – Fokus „DP-Camp Bergen-Belsen“
+                            <a href="{{ path('app_bio_hardy') }}" title="Individual biography Katharina Hardy">
+                               Katharina Hardy – Focus “DP-Camp Bergen-Belsen”
                             </a>
                         </h2>
-                        <p>Katharina Hardy, geborene Cohn (nach 1947 Kardos), wurde am 7. November 1928 in Budapest in Ungarn
-                            geboren und wuchs in bescheidenen Verhältnissen auf. Ihr Vater ...
-                            <a class="more" href="{{ path('app_bio_hardy') }}" title="Weiterlesen">[mehr]</a>
+                        <p>Katharina Hardy, née Cohn (Kardos after 1947), was born on November 7, 1928 in Budapest, Hungary, and 
+                            grew up in modest circumstances. Her father ...
+                            <a class="more" href="{{ path('app_bio_hardy') }}" title="Read on">[more]</a>
 
                         </p>
                     </div>
@@ -74,20 +72,20 @@
             </div>
             <div class="col-sm offset-lg-1">
                 <div>
-                    <a href="{{ path('app_biographytemplate') }}" title="Portraits von Lea und Zsuzsa Merényi">
+                    <a href="{{ path('app_bio_mereny') }}" title="Individual biography Merényi sisters">
                         <img class="img-fluid" src="{{ asset('images/biographies/Titelbild-Merenyi-Schwestern.jpg') }}"
-                             alt="Portraits von Lea und Zsuzsa Merényi">
+                             alt="Portraits of Lea and Zsuzsa Merényi, Bergen-Belsen Memorial Archive, inventory number 1600-0226 
+                             and 1600-0225, rights: Katalin Lörinc-Walters">
                     </a>
                     <div class="studiesoverview">
                         <h2>
-                            <a href="{{ path('app_bio_mereny') }}" title="Biographische Studie der Schwestern Lea und Zsuzsa Merényi">
-                                Die Schwestern Lea und Zsuzsa Merényi – Fokus „Rückkehr“
+                            <a href="{{ path('app_bio_mereny') }}" title="Biographical study of the sisters Lea and Zsuzsa Merényi">
+                                The sisters Lea and Zsuzsa Merényi – Focus “Return”
                             </a>
                         </h2>
-                        <p>Lea Merényi wurde am 3. Dezember 1914 im ungarischen Budapest geboren, wuchs jedoch in Deutschland
-                            auf. Ihre jüngere Schwester Zsuzsa wurde knapp
-                            ...
-                            <a class="more" href="{{ path('app_bio_mereny') }}" title="Weiterlesen">[mehr]</a>
+                        <p>Lea Merényi was born on December 3, 1914 in Budapest, Hungary, but grew up in Germany. 
+                        When she was about three ...
+                            <a class="more" href="{{ path('app_bio_mereny') }}" title="Read on">[more]</a>
                         </p>
                     </div>
                 </div>
