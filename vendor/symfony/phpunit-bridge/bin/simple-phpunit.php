@@ -110,7 +110,7 @@ if ($MAX_PHPUNIT_VERSION && version_compare($MAX_PHPUNIT_VERSION, $PHPUNIT_VERSI
 }
 
 if (version_compare($PHPUNIT_VERSION, '10.0', '>=') && version_compare($PHPUNIT_VERSION, '11.0', '<')) {
-    fwrite(STDERR, 'This script does not work with PHPUnit 10.'.\PHP_EOL);
+    fwrite(\STDERR, 'This script does not work with PHPUnit 10.'.\PHP_EOL);
     exit(1);
 }
 
@@ -386,6 +386,10 @@ if ('\\' === \DIRECTORY_SEPARATOR) {
     $cmd .= '%2$s';
 }
 
+if (version_compare($PHPUNIT_VERSION, '11.0', '>=')) {
+    $GLOBALS['_composer_autoload_path'] = "$PHPUNIT_DIR/$PHPUNIT_VERSION_DIR/vendor/autoload.php";
+}
+
 if ($components) {
     $skippedTests = $_SERVER['SYMFONY_PHPUNIT_SKIPPED_TESTS'] ?? false;
     $runningProcs = [];
@@ -462,7 +466,7 @@ if ($components) {
         }
     }
 } elseif (!isset($argv[1]) || 'install' !== $argv[1] || file_exists('install')) {
-    if (!class_exists(\SymfonyExcludeListSimplePhpunit::class, false)) {
+    if (!class_exists(SymfonyExcludeListSimplePhpunit::class, false)) {
         class SymfonyExcludeListSimplePhpunit
         {
         }

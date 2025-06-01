@@ -1,0 +1,836 @@
+<?php
+
+use Twig\Environment;
+use Twig\Error\LoaderError;
+use Twig\Error\RuntimeError;
+use Twig\Extension\CoreExtension;
+use Twig\Extension\SandboxExtension;
+use Twig\Markup;
+use Twig\Sandbox\SecurityError;
+use Twig\Sandbox\SecurityNotAllowedTagError;
+use Twig\Sandbox\SecurityNotAllowedFilterError;
+use Twig\Sandbox\SecurityNotAllowedFunctionError;
+use Twig\Source;
+use Twig\Template;
+use Twig\TemplateWrapper;
+
+/* biographies/fuerst.en.html.twig */
+class __TwigTemplate_7b914975cdc13c067e43f845ef173441 extends Template
+{
+    private Source $source;
+    /**
+     * @var array<string, Template>
+     */
+    private array $macros = [];
+
+    public function __construct(Environment $env)
+    {
+        parent::__construct($env);
+
+        $this->source = $this->getSourceContext();
+
+        $this->blocks = [
+            'title' => [$this, 'block_title'],
+            'body' => [$this, 'block_body'],
+        ];
+    }
+
+    protected function doGetParent(array $context): bool|string|Template|TemplateWrapper
+    {
+        // line 1
+        return "base-map.en.html.twig";
+    }
+
+    protected function doDisplay(array $context, array $blocks = []): iterable
+    {
+        $macros = $this->macros;
+        $__internal_5a27a8ba21ca79b61932376b2fa922d2 = $this->extensions["Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension"];
+        $__internal_5a27a8ba21ca79b61932376b2fa922d2->enter($__internal_5a27a8ba21ca79b61932376b2fa922d2_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "template", "biographies/fuerst.en.html.twig"));
+
+        $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
+        $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "template", "biographies/fuerst.en.html.twig"));
+
+        $this->parent = $this->load("base-map.en.html.twig", 1);
+        yield from $this->parent->unwrap()->yield($context, array_merge($this->blocks, $blocks));
+        
+        $__internal_5a27a8ba21ca79b61932376b2fa922d2->leave($__internal_5a27a8ba21ca79b61932376b2fa922d2_prof);
+
+        
+        $__internal_6f47bbe9983af81f1e7450e9a3e3768f->leave($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof);
+
+    }
+
+    // line 3
+    /**
+     * @return iterable<null|scalar|\Stringable>
+     */
+    public function block_title(array $context, array $blocks = []): iterable
+    {
+        $macros = $this->macros;
+        $__internal_5a27a8ba21ca79b61932376b2fa922d2 = $this->extensions["Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension"];
+        $__internal_5a27a8ba21ca79b61932376b2fa922d2->enter($__internal_5a27a8ba21ca79b61932376b2fa922d2_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "title"));
+
+        $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
+        $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "title"));
+
+        yield " Individual biography Gyula Fürst | ";
+        yield from $this->yieldParentBlock("title", $context, $blocks);
+        yield " ";
+        
+        $__internal_6f47bbe9983af81f1e7450e9a3e3768f->leave($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof);
+
+        
+        $__internal_5a27a8ba21ca79b61932376b2fa922d2->leave($__internal_5a27a8ba21ca79b61932376b2fa922d2_prof);
+
+        yield from [];
+    }
+
+    // line 6
+    /**
+     * @return iterable<null|scalar|\Stringable>
+     */
+    public function block_body(array $context, array $blocks = []): iterable
+    {
+        $macros = $this->macros;
+        $__internal_5a27a8ba21ca79b61932376b2fa922d2 = $this->extensions["Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension"];
+        $__internal_5a27a8ba21ca79b61932376b2fa922d2->enter($__internal_5a27a8ba21ca79b61932376b2fa922d2_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
+
+        $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
+        $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
+
+        // line 7
+        yield "    
+
+    <div class=\"container g-4 py-5 study\">
+        <h2>Gyula Fürst – an unusual deportation route</h2>
+        <div class=\"row\">
+            <div class=\"col-lg-8 mb-2\">
+                <h3>About the person</h3>
+                <p class=\"abstract\">
+                    Gyula Fürst was born on June 1, 1923 as the youngest of four children in the Hungarian municipality of Boba 
+                    in Vas County. When he was four years old, the family moved to Ugodpuszta, where his father worked as a farmer. 
+                    There, Fürst attended school in Bezi község, six kilometers away. When he was about nine years old, Fürst moved 
+                    again with his family, first back to Boba and from there to the western Hungarian town of Szombathely. 
+                    There Gyula Fürst trained as an electrician and also became a member of a youth organization of the Social 
+                    Democratic Party.
+                    <br/>Fürst found work in Budapest and lived there with Doctor Kovács, an uncle on his mother’s side.
+                </p>
+            </div>
+            <div class=\"col-lg-4\">
+                <div id=\"map\" style=\"height: 15rem;\">
+                </div>
+                <p class=\"caption\">
+                    Boba municipality in Vas County, birthplace of Gyula Fürst.
+                </p>
+            </div>
+        </div>
+
+        <h3 class=\"mt-4\">An unusual deportation route</h3>
+        <div class=\"row\">
+            <img class=\"img-fluid\" style=\"width: 640px;\" src=\"";
+        // line 35
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/biographies/familie-fuerst.jpg"), "html", null, true);
+        yield "\"
+                 alt=\"Jenő Fürst and Ella Krausz with their children Friderika, Irma, István, and Gyula. Family property: Fürst / Kármán.\"/>
+            <p class=\"caption\">
+                Jenő Fürst and Ella Krausz with their children Friderika, Irma, István, and Gyula. Family property: Fürst / Kármán.
+            </p>
+
+            <div class=\"col-lg-8\">
+                <p>
+                    The invasion of Hungary by German troops marked the beginning of the extermination of the Hungarian Jewish 
+                    population by the National Socialists. At this time, some 800,000 Jews lived in Hungary as a result of the 
+                    Hungarian annexations of territories in Slovakia, Romania, and Yugoslavia.<sup><a href=\"#endnote1\" id=\"footnote1\">1</a></sup>
+                    On March 20, 1944, Gyula Fürst was arrested – as he recalled in an interview with the Bergen-Belsen Memorial 
+                    on November 30, 2005 – by Hungarian Arrow Cross Party members during a streetcar check on his way to work 
+                    and transferred to a police collective prison. After a short detention, Gyula Fürst was deported to Kistarcsa. 
+                    The camp was located about 15 kilometers northwest of Budapest. The deportations to Auschwitz-Birkenau began in 
+                    May 1944. Within a few weeks, more than half of the Jewish population in Hungary was deported to the concentration 
+                    and extermination camp for systematic murder. Gyula Fürst, too, was transferred to the Auschwitz concentration 
+                    and extermination camp after the Kistarcsa camp had been dismantled in April 1944. Gyula Fürst recalled in the 
+                    interview that he had not heard of Auschwitz and the selections that took place there until then. He was 
+                    therefore stunned when fellow Polish prisoners told him about the fate of “selected” inmates in the gas chambers. 
+                    Gyula Fürst was imprisoned in Auschwitz for about two weeks.
+                </p>
+                <a href=\"";
+        // line 57
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/biographies/Deportationsroute-Gyula-Fuerst-en.jpg"), "html", null, true);
+        yield "\"
+                   data-lightbox=\"map-salzwedel\"
+                   data-title=\"Gyula Fürst's deportation route\">
+                    <img class=\"gallery img-fluid\"
+                         src=\"";
+        // line 61
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/biographies/Deportationsroute-Gyula-Fuerst-en.jpg"), "html", null, true);
+        yield "\"
+                         alt=\"Map with deportation routes of Gyula Fürst\"/></a>
+                <p class=\"caption\">
+                    Places of Gyula Fürst’s deportation route and his detentions in concentration camps. 
+                    Institute for the History of the German Jews. License: CC BY 4.0 &#128269; Click to enlarge.
+                </p>
+            </div>
+            <div class=\"col-lg-4\">
+                <div class=\"infobox\">
+                    <h4>&#9432; More about Hungary in the Second World War</h4>
+                    <p>
+                        <a href=\"";
+        // line 72
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_context");
+        yield "\" title=\"Text on historical context\">
+                            &#10149; Historical context
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <h3 class=\"mt-4\">Forced labor under National Socialism</h3>
+        <div class=\"row\">
+            <div class=\"col-lg-8\">
+                <p>
+                    Starting in May 15, 1944, several trains left Hungary for Auschwitz every day. Of the approximately 
+                    440,000 persons deported from Hungary in less than two months, only one in ten was classified as fit for work. 
+                    The rest were murdered in Auschwitz. In the fall of 1944, several tens of thousands of people were transferred 
+                    from Auschwitz to concentration camps in the Reich territory in order to exploit their labor in the armaments 
+                    industry or in clearing rubble.<sup><a href=\"#endnote2\" id=\"footnote2\">2</a></sup>
+                </p>
+                <p>
+                    By mid-January 1945, a total of approx. 65,000 prisoners had been transferred to other camps or locations of 
+                    the war economy and armaments production in the German Reich for this purpose. Gyula Fürst was one of these 
+                    prisoners. From Auschwitz, he was transferred to the Wüstegiersdorf labor camp, a satellite camp of the 
+                    Gross-Rosen concentration camp. There he performed forced labor as an electrician. In the interview, 
+                    he recalled severe mistreatment in Wüstegiersdorf. He had experienced this in the form of arbitrary brutality 
+                    by the SS. In February 1945, Gyula Fürst was transported to the Bergen-Belsen concentration camp, where, 
+                    according to his recollections, he again spent only a few days. Fürst remembered Bergen-Belsen as the actual 
+                    hell of his difficult deportation journey. In the interview, he spoke above all about the lack of food supplies 
+                    and the great hunger suffered by the prisoners in the camp. Persecuted persons from all German-occupied 
+                    countries arrived in Bergen-Belsen with the evacuation transports. The largest groups consisted of prisoners 
+                    from Poland, Hungary, and the Soviet Union. Due to the increase in the number of prisoners, the SS changed 
+                    the camp structure and gradually expanded the men’s and women’s camps. Along with Gyula Fürst, in February 
+                    1945 alone, a further 27,100 people arrived   at the camp, which was dreadfully overcrowded and inadequately 
+                    supplied to begin with.<sup><a href=\"#endnote3\" id=\"footnote3\">3</a></sup>
+                </p>
+                <p>
+                    Gyula Fürst was transferred from Bergen-Belsen to the nearby town of Celle for forced labor to build new 
+                    rails for the railroad line that had been destroyed by air raids.
+                </p>
+                <p>
+                    On March 2, 1945, he was deported to Hildesheim and imprisoned for a further short period in the Ahlem 
+                    satellite camp of the Neuengamme concentration camp in Hannover. On April 8, 1945, Gyula Fürst arrived 
+                    again at the Bergen-Belsen concentration camp, where he was liberated by British troops on April 15, 1945.
+                </p>
+            </div>
+            <div class=\"col-lg-4\">
+                <div class=\"infobox\">
+                    <h4>&#9432; Forced labor</h4>
+                    <p>
+                        National Socialist Germany made extensive use of forced labor to meet its labor needs; in the German Reich 
+                        alone, over 13.5 million people had to perform forced labor during the Second World War. Forced labor 
+                        was used in all branches of industry, but also in agriculture and in private households. Forced laborers 
+                        were a visible part of everyday life in National Socialist Germany, especially in the final years of the war.
+                    </p>
+                    <p>
+                        <a href=\"";
+        // line 126
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_context");
+        yield "#zwangsarbeit\"
+                           title=\"More information on forced labor and historical context\">
+                            &#10149; More information on forced labor
+                        </a>
+                    </p>
+                </div>
+                <div class=\"infobox mt-2\">
+                    <h4>&#9432; The Bergen-Belsen concentration camp</h4>
+                    <p style=\"font-size: 0.9rem;\">
+                        The Bergen-Belsen concentration camp was initially founded in 1943 as an “exchange camp” to quarter 
+                        Jewish hostages. However, it was quickly assigned other functions and a men’s and women’s camp was set up. 
+                        From the end of 1944 onward, Bergen-Belsen became the destination of many death marches and evacuation 
+                        transports, developing into a death camp due to the appalling conditions. After liberation, a Polish 
+                        and a Jewish displaced persons camp were set up in Bergen-Belsen.
+                        <sup><a href=\"#endnote4\" id=\"footnote4\">4</a></sup>
+                    </p>
+                    <p>
+                        <a href=\"";
+        // line 143
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_map");
+        yield "\" title=\"Map overview\">
+                            &#10149; To the map of the camps
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <h3 class=\"mt-4\">After the liberation</h3>
+        <div class=\"row\">
+            <div class=\"col-lg-8\">
+                <p>
+                    After the liberation of the Bergen-Belsen camp, Gyula Fürst was transferred by the British to the 
+                    Siloah Hospital in Hannover. He weighed 37 kilograms [just under 82 lbs.] when he was admitted. 
+                    He was released on July 17, 1945.<sup><a href=\"#endnote5\" id=\"footnote5\">5</a></sup>
+                </p>
+                <p>
+                    Gyula Fürst reported in the interviews that, like most of the liberated persons, he only found out after 
+                    the war about the fate of his family, who had been deported from Szombathely. Both parents had been deported 
+                    together to Auschwitz, where they were murdered. He knew that his older brother had died in 1943 during 
+                    forced labor in Voronezh, Russia. His sister Irma Fürst was deported on August 14, 1944 via Auschwitz<sup><a href=\"#endnote6\" id=\"footnote6\">6</a></sup> 
+                    to the Stutthof concentration camp in what is today Poland, where she was also murdered on December 6, 1944.<sup><a href=\"#endnote7\" id=\"footnote7\">7</a></sup>
+                </p>
+                <p>
+                    Only his sister Frieda Fürst survived as well. She was deported to the Ravensbrück concentration camp 
+                    near Brandenburg on November 19, 1944 and transferred from there to the Buchenwald concentration camp in 
+                    Weimar on January 3, 1945, where she was liberated.<sup><a href=\"#endnote8\" id=\"footnote8\">8</a></sup>
+                </p>
+                <p>
+                    Gyula Fürst married after the war. He and his wife had a daughter together.
+                </p>
+                <img class=\"img-fluid\" style=\"width: 640px;\" src=\"";
+        // line 174
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/biographies/ehepaar-fuerst-band.jpg"), "html", null, true);
+        yield "\"
+                     alt=\"Gyula Fürst and his wife Alice Band, whom he married in 1947. Family property: Fürst / Kármán.\"/>
+                <p class=\"caption\">
+                    Gyula Fürst and his wife Alice Band, whom he married in 1947. Family property: Fürst / Kármán.
+                </p>
+                <p>
+                    Gyula Fürst died on May 16, 2012 in Hungary.
+                </p>
+            </div>
+            <div class=\"col-lg-4\">
+            </div>
+        </div>
+
+        <h3 class=\"mt-4\">Source situation</h3>
+        <div class=\"row\">
+            <div class=\"col-lg-8\">
+                <p>
+                    This biography is primarily based on the stories and recollections of Gyula Fürst himself, which he processed 
+                    in two interviews with the Bergen-Belsen Memorial. His subjective descriptions of his experiences are 
+                    supplemented by key historical data, which are primarily based on the catalog of the Bergen-Belsen Memorial exhibition.
+                </p>
+                <p>
+                    Fürst’s memoirs make it possible to reconstruct his deportation route, which was characterized by short periods 
+                    of imprisonment in many different places. The various types of forced labor that Fürst had to perform are 
+                    exemplary of the exploitation of countless Jews  who originated in what was then Hungary.
+                </p>
+                <p>
+                    At the same time, Gyula Fürst’s story illustrates the arbitrariness of the SS and the increasingly hectic 
+                    transfers to which the prisoners in the German Reich were subjected as the war progressed.
+                </p>
+            </div>
+            <div class=\"col-lg-4\">
+            </div>
+        </div>
+
+        <h3 class=\"mt-4\">Bibliografie</h3>
+        <div class=\"row\">
+            <div class=\"col-lg-8\">
+                <p>
+                    Lower Saxony Memorials Foundation / Bergen-Belsen Memorial. Interview with Gyula Fürst on
+                    November 30, 2005, BV 365.
+                </p>
+                <p>
+                    Lower Saxony Memorials Foundation, Bergen-Belsen. Kriegsgefangenenlager 1940-1945,
+                    Konzentrationslager 1943-1945, Displaced Persons Camp 1945-1950. Katalog der Dauerausstellung, Celle
+                    2019.
+                </p>
+                <p>
+                    Yad Vashem. Internationale Holocaust Gedenkstätte, Murder of Hungarian Jewry, online at:
+                    <a href=\"https://www.yadvashem.org/de/holocaust/about/fate-of-jews/hungary.html\"
+                    title=\"Website Yad Vashem\">
+                        https://www.yadvashem.org/de/holocaust/about/fate-of-jews/hungary.html
+                    </a>
+                    (last accessed: June 29, 2024).
+                </p>
+                <p>
+                    Jewish Virtual Library. A Project of Aice: Kistarcsa, online at:
+                    <a href=\"https://www.jewishvirtuallibrary.org/kistarcsa?utm_content=cmp-true\"
+                       title=\"Website of the Jewish Virtual Library\">
+                        https://www.jewishvirtuallibrary.org/kistarcsa?utm_content=cmp-true
+                    </a>
+                    (last accessed: July 3, 2024).
+                </p>
+            </div>
+        </div>
+
+        <h3 class=\"mt-4\">Footnotes</h3>
+        <div class=\"row\">
+            <div class=\"col-lg-8 caption\">
+                <ol>
+                    <li id=\"endnote1\">
+                        Cf. Yad Vashem. The World Holocaust Remembrance Center, Murder of Hungarian Jewry, online at:
+                        <a href=\"https://www.yadvashem.org/holocaust/about/fate-of-jews/hungary.html\" title=\"Website Yad Vashem\">
+                            https://www.yadvashem.org/holocaust/about/fate-of-jews/hungary.html
+                            </a>(last accessed: June 29, 2024).
+                        <a href=\"#footnote1\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote2\">
+                        Cf. Lower Saxony Memorials Foundation, Bergen-Belsen. Kriegsgefangenenlager 1940-1945, 
+                        Konzentrationslager 1943-1945, Displaced Persons Camp 1945-1950. Katalog der Dauerausstellung, 
+                        Celle 2019, p. 288.
+                        <a href=\"#footnote2\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote3\">
+                        Cf. Lower Saxony Memorials Foundation, Bergen-Belsen, pp. 216–217.
+                        <a href=\"#footnote3\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote4\">
+                        See Lower Saxony Memorials Foundation, Bergen-Belsen, p. 200.
+                        <a href=\"#footnote4\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote5\">
+                        Dismissals Siloah Hospital, Hannover: DE ITS 2.1.2.1 NI 036 9 UNB ZM, DOC ID: 70656273/ITS Digital Archive, 
+                        Arolsen Archives.
+                        <a href=\"#footnote5\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote6\">
+                        Death certificate of Irma Fürst, Stutthof: 01014102 034.065, DOC ID: 4469772/ ITS Digital Archive, 
+                        Arolsen Archives.
+                        <a href=\"#footnote6\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote7\">
+                        Prisoner personnel card of Irma Fürst, Stutthof: 01014102 034.065, DOC ID: 4469771/ITS Digital Archive, 
+                        Arolsen Archives.
+                        <a href=\"#footnote7\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote8\">
+                        Prisoner personnel card of Frieda Fürst, Ravensbrück: 01010504 017.310, DOC ID: 7566952/ITS Digital Archive, 
+                        Arolsen Archives.
+                        <a href=\"#footnote8\">&uarr;</a>
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+        <h3 class=\"mt-4\">Citation reference</h3>
+        <div class=\"row\">
+            <div class=\"col-lg-8\">
+                <p>
+                    Lara Meinert, “Biografie von Gyula Fürst – ein ungewöhnlicher Deportationsweg,” 
+                    in: Der Holocaust in Ungarn und die Deportationen nach Norddeutschland. Biographien, Lager und Zwangsarbeit, 
+                    edited by the Institute for the History of the German Jews, URL:
+                    https://holocaust-ungarn-norddeutschland.de";
+        // line 296
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_bio_fuerst");
+        yield ".
+                    License: <a href=\"https://creativecommons.org/licenses/by/4.0/\" 
+                    title=\"License terms on the Creative Commons website\">CC BY 4.0</a>.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+
+        const boba = L.marker([47.181667, 17.188333]).bindPopup('<strong>Boba</strong><br/>');
+
+        const mbAttr = 'Map data &copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors, Imagery © <a href=\"https://www.mapbox.com/\">Mapbox</a>';
+        const mbUrl = 'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw';
+
+        const streets = L.tileLayer(mbUrl, {
+            id: 'mapbox/streets-v11',
+            tileSize: 512,
+            zoomOffset: -1,
+            attribution: mbAttr
+        });
+
+        const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 11,
+            attribution: '&copy; <a href=\"http://www.openstreetmap.org/copyright\">OpenStreetMap</a>'
+        });
+
+        const map = L.map('map', {
+            center: [48.144722, 17.112778],
+            zoom: 6,
+            layers: [osm,
+                boba,
+            ]
+        });
+
+        const baseLayers = {
+            'OpenStreetMap': osm,
+        };
+
+        const layerControl = L.control.layers(baseLayers, overlays).addTo(map);
+
+    </script>
+
+";
+        
+        $__internal_6f47bbe9983af81f1e7450e9a3e3768f->leave($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof);
+
+        
+        $__internal_5a27a8ba21ca79b61932376b2fa922d2->leave($__internal_5a27a8ba21ca79b61932376b2fa922d2_prof);
+
+        yield from [];
+    }
+
+    /**
+     * @codeCoverageIgnore
+     */
+    public function getTemplateName(): string
+    {
+        return "biographies/fuerst.en.html.twig";
+    }
+
+    /**
+     * @codeCoverageIgnore
+     */
+    public function isTraitable(): bool
+    {
+        return false;
+    }
+
+    /**
+     * @codeCoverageIgnore
+     */
+    public function getDebugInfo(): array
+    {
+        return array (  414 => 296,  289 => 174,  255 => 143,  235 => 126,  178 => 72,  164 => 61,  157 => 57,  132 => 35,  102 => 7,  89 => 6,  64 => 3,  41 => 1,);
+    }
+
+    public function getSourceContext(): Source
+    {
+        return new Source("{% extends 'base-map.en.html.twig' %}
+
+{% block title %} Individual biography Gyula Fürst | {{ parent() }} {% endblock %}
+
+
+{% block body %}
+    
+
+    <div class=\"container g-4 py-5 study\">
+        <h2>Gyula Fürst – an unusual deportation route</h2>
+        <div class=\"row\">
+            <div class=\"col-lg-8 mb-2\">
+                <h3>About the person</h3>
+                <p class=\"abstract\">
+                    Gyula Fürst was born on June 1, 1923 as the youngest of four children in the Hungarian municipality of Boba 
+                    in Vas County. When he was four years old, the family moved to Ugodpuszta, where his father worked as a farmer. 
+                    There, Fürst attended school in Bezi község, six kilometers away. When he was about nine years old, Fürst moved 
+                    again with his family, first back to Boba and from there to the western Hungarian town of Szombathely. 
+                    There Gyula Fürst trained as an electrician and also became a member of a youth organization of the Social 
+                    Democratic Party.
+                    <br/>Fürst found work in Budapest and lived there with Doctor Kovács, an uncle on his mother’s side.
+                </p>
+            </div>
+            <div class=\"col-lg-4\">
+                <div id=\"map\" style=\"height: 15rem;\">
+                </div>
+                <p class=\"caption\">
+                    Boba municipality in Vas County, birthplace of Gyula Fürst.
+                </p>
+            </div>
+        </div>
+
+        <h3 class=\"mt-4\">An unusual deportation route</h3>
+        <div class=\"row\">
+            <img class=\"img-fluid\" style=\"width: 640px;\" src=\"{{ asset('images/biographies/familie-fuerst.jpg') }}\"
+                 alt=\"Jenő Fürst and Ella Krausz with their children Friderika, Irma, István, and Gyula. Family property: Fürst / Kármán.\"/>
+            <p class=\"caption\">
+                Jenő Fürst and Ella Krausz with their children Friderika, Irma, István, and Gyula. Family property: Fürst / Kármán.
+            </p>
+
+            <div class=\"col-lg-8\">
+                <p>
+                    The invasion of Hungary by German troops marked the beginning of the extermination of the Hungarian Jewish 
+                    population by the National Socialists. At this time, some 800,000 Jews lived in Hungary as a result of the 
+                    Hungarian annexations of territories in Slovakia, Romania, and Yugoslavia.<sup><a href=\"#endnote1\" id=\"footnote1\">1</a></sup>
+                    On March 20, 1944, Gyula Fürst was arrested – as he recalled in an interview with the Bergen-Belsen Memorial 
+                    on November 30, 2005 – by Hungarian Arrow Cross Party members during a streetcar check on his way to work 
+                    and transferred to a police collective prison. After a short detention, Gyula Fürst was deported to Kistarcsa. 
+                    The camp was located about 15 kilometers northwest of Budapest. The deportations to Auschwitz-Birkenau began in 
+                    May 1944. Within a few weeks, more than half of the Jewish population in Hungary was deported to the concentration 
+                    and extermination camp for systematic murder. Gyula Fürst, too, was transferred to the Auschwitz concentration 
+                    and extermination camp after the Kistarcsa camp had been dismantled in April 1944. Gyula Fürst recalled in the 
+                    interview that he had not heard of Auschwitz and the selections that took place there until then. He was 
+                    therefore stunned when fellow Polish prisoners told him about the fate of “selected” inmates in the gas chambers. 
+                    Gyula Fürst was imprisoned in Auschwitz for about two weeks.
+                </p>
+                <a href=\"{{ asset('images/biographies/Deportationsroute-Gyula-Fuerst-en.jpg') }}\"
+                   data-lightbox=\"map-salzwedel\"
+                   data-title=\"Gyula Fürst's deportation route\">
+                    <img class=\"gallery img-fluid\"
+                         src=\"{{ asset('images/biographies/Deportationsroute-Gyula-Fuerst-en.jpg') }}\"
+                         alt=\"Map with deportation routes of Gyula Fürst\"/></a>
+                <p class=\"caption\">
+                    Places of Gyula Fürst’s deportation route and his detentions in concentration camps. 
+                    Institute for the History of the German Jews. License: CC BY 4.0 &#128269; Click to enlarge.
+                </p>
+            </div>
+            <div class=\"col-lg-4\">
+                <div class=\"infobox\">
+                    <h4>&#9432; More about Hungary in the Second World War</h4>
+                    <p>
+                        <a href=\"{{ path('app_context') }}\" title=\"Text on historical context\">
+                            &#10149; Historical context
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <h3 class=\"mt-4\">Forced labor under National Socialism</h3>
+        <div class=\"row\">
+            <div class=\"col-lg-8\">
+                <p>
+                    Starting in May 15, 1944, several trains left Hungary for Auschwitz every day. Of the approximately 
+                    440,000 persons deported from Hungary in less than two months, only one in ten was classified as fit for work. 
+                    The rest were murdered in Auschwitz. In the fall of 1944, several tens of thousands of people were transferred 
+                    from Auschwitz to concentration camps in the Reich territory in order to exploit their labor in the armaments 
+                    industry or in clearing rubble.<sup><a href=\"#endnote2\" id=\"footnote2\">2</a></sup>
+                </p>
+                <p>
+                    By mid-January 1945, a total of approx. 65,000 prisoners had been transferred to other camps or locations of 
+                    the war economy and armaments production in the German Reich for this purpose. Gyula Fürst was one of these 
+                    prisoners. From Auschwitz, he was transferred to the Wüstegiersdorf labor camp, a satellite camp of the 
+                    Gross-Rosen concentration camp. There he performed forced labor as an electrician. In the interview, 
+                    he recalled severe mistreatment in Wüstegiersdorf. He had experienced this in the form of arbitrary brutality 
+                    by the SS. In February 1945, Gyula Fürst was transported to the Bergen-Belsen concentration camp, where, 
+                    according to his recollections, he again spent only a few days. Fürst remembered Bergen-Belsen as the actual 
+                    hell of his difficult deportation journey. In the interview, he spoke above all about the lack of food supplies 
+                    and the great hunger suffered by the prisoners in the camp. Persecuted persons from all German-occupied 
+                    countries arrived in Bergen-Belsen with the evacuation transports. The largest groups consisted of prisoners 
+                    from Poland, Hungary, and the Soviet Union. Due to the increase in the number of prisoners, the SS changed 
+                    the camp structure and gradually expanded the men’s and women’s camps. Along with Gyula Fürst, in February 
+                    1945 alone, a further 27,100 people arrived   at the camp, which was dreadfully overcrowded and inadequately 
+                    supplied to begin with.<sup><a href=\"#endnote3\" id=\"footnote3\">3</a></sup>
+                </p>
+                <p>
+                    Gyula Fürst was transferred from Bergen-Belsen to the nearby town of Celle for forced labor to build new 
+                    rails for the railroad line that had been destroyed by air raids.
+                </p>
+                <p>
+                    On March 2, 1945, he was deported to Hildesheim and imprisoned for a further short period in the Ahlem 
+                    satellite camp of the Neuengamme concentration camp in Hannover. On April 8, 1945, Gyula Fürst arrived 
+                    again at the Bergen-Belsen concentration camp, where he was liberated by British troops on April 15, 1945.
+                </p>
+            </div>
+            <div class=\"col-lg-4\">
+                <div class=\"infobox\">
+                    <h4>&#9432; Forced labor</h4>
+                    <p>
+                        National Socialist Germany made extensive use of forced labor to meet its labor needs; in the German Reich 
+                        alone, over 13.5 million people had to perform forced labor during the Second World War. Forced labor 
+                        was used in all branches of industry, but also in agriculture and in private households. Forced laborers 
+                        were a visible part of everyday life in National Socialist Germany, especially in the final years of the war.
+                    </p>
+                    <p>
+                        <a href=\"{{ path('app_context') }}#zwangsarbeit\"
+                           title=\"More information on forced labor and historical context\">
+                            &#10149; More information on forced labor
+                        </a>
+                    </p>
+                </div>
+                <div class=\"infobox mt-2\">
+                    <h4>&#9432; The Bergen-Belsen concentration camp</h4>
+                    <p style=\"font-size: 0.9rem;\">
+                        The Bergen-Belsen concentration camp was initially founded in 1943 as an “exchange camp” to quarter 
+                        Jewish hostages. However, it was quickly assigned other functions and a men’s and women’s camp was set up. 
+                        From the end of 1944 onward, Bergen-Belsen became the destination of many death marches and evacuation 
+                        transports, developing into a death camp due to the appalling conditions. After liberation, a Polish 
+                        and a Jewish displaced persons camp were set up in Bergen-Belsen.
+                        <sup><a href=\"#endnote4\" id=\"footnote4\">4</a></sup>
+                    </p>
+                    <p>
+                        <a href=\"{{ path('app_map') }}\" title=\"Map overview\">
+                            &#10149; To the map of the camps
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <h3 class=\"mt-4\">After the liberation</h3>
+        <div class=\"row\">
+            <div class=\"col-lg-8\">
+                <p>
+                    After the liberation of the Bergen-Belsen camp, Gyula Fürst was transferred by the British to the 
+                    Siloah Hospital in Hannover. He weighed 37 kilograms [just under 82 lbs.] when he was admitted. 
+                    He was released on July 17, 1945.<sup><a href=\"#endnote5\" id=\"footnote5\">5</a></sup>
+                </p>
+                <p>
+                    Gyula Fürst reported in the interviews that, like most of the liberated persons, he only found out after 
+                    the war about the fate of his family, who had been deported from Szombathely. Both parents had been deported 
+                    together to Auschwitz, where they were murdered. He knew that his older brother had died in 1943 during 
+                    forced labor in Voronezh, Russia. His sister Irma Fürst was deported on August 14, 1944 via Auschwitz<sup><a href=\"#endnote6\" id=\"footnote6\">6</a></sup> 
+                    to the Stutthof concentration camp in what is today Poland, where she was also murdered on December 6, 1944.<sup><a href=\"#endnote7\" id=\"footnote7\">7</a></sup>
+                </p>
+                <p>
+                    Only his sister Frieda Fürst survived as well. She was deported to the Ravensbrück concentration camp 
+                    near Brandenburg on November 19, 1944 and transferred from there to the Buchenwald concentration camp in 
+                    Weimar on January 3, 1945, where she was liberated.<sup><a href=\"#endnote8\" id=\"footnote8\">8</a></sup>
+                </p>
+                <p>
+                    Gyula Fürst married after the war. He and his wife had a daughter together.
+                </p>
+                <img class=\"img-fluid\" style=\"width: 640px;\" src=\"{{ asset('images/biographies/ehepaar-fuerst-band.jpg') }}\"
+                     alt=\"Gyula Fürst and his wife Alice Band, whom he married in 1947. Family property: Fürst / Kármán.\"/>
+                <p class=\"caption\">
+                    Gyula Fürst and his wife Alice Band, whom he married in 1947. Family property: Fürst / Kármán.
+                </p>
+                <p>
+                    Gyula Fürst died on May 16, 2012 in Hungary.
+                </p>
+            </div>
+            <div class=\"col-lg-4\">
+            </div>
+        </div>
+
+        <h3 class=\"mt-4\">Source situation</h3>
+        <div class=\"row\">
+            <div class=\"col-lg-8\">
+                <p>
+                    This biography is primarily based on the stories and recollections of Gyula Fürst himself, which he processed 
+                    in two interviews with the Bergen-Belsen Memorial. His subjective descriptions of his experiences are 
+                    supplemented by key historical data, which are primarily based on the catalog of the Bergen-Belsen Memorial exhibition.
+                </p>
+                <p>
+                    Fürst’s memoirs make it possible to reconstruct his deportation route, which was characterized by short periods 
+                    of imprisonment in many different places. The various types of forced labor that Fürst had to perform are 
+                    exemplary of the exploitation of countless Jews  who originated in what was then Hungary.
+                </p>
+                <p>
+                    At the same time, Gyula Fürst’s story illustrates the arbitrariness of the SS and the increasingly hectic 
+                    transfers to which the prisoners in the German Reich were subjected as the war progressed.
+                </p>
+            </div>
+            <div class=\"col-lg-4\">
+            </div>
+        </div>
+
+        <h3 class=\"mt-4\">Bibliografie</h3>
+        <div class=\"row\">
+            <div class=\"col-lg-8\">
+                <p>
+                    Lower Saxony Memorials Foundation / Bergen-Belsen Memorial. Interview with Gyula Fürst on
+                    November 30, 2005, BV 365.
+                </p>
+                <p>
+                    Lower Saxony Memorials Foundation, Bergen-Belsen. Kriegsgefangenenlager 1940-1945,
+                    Konzentrationslager 1943-1945, Displaced Persons Camp 1945-1950. Katalog der Dauerausstellung, Celle
+                    2019.
+                </p>
+                <p>
+                    Yad Vashem. Internationale Holocaust Gedenkstätte, Murder of Hungarian Jewry, online at:
+                    <a href=\"https://www.yadvashem.org/de/holocaust/about/fate-of-jews/hungary.html\"
+                    title=\"Website Yad Vashem\">
+                        https://www.yadvashem.org/de/holocaust/about/fate-of-jews/hungary.html
+                    </a>
+                    (last accessed: June 29, 2024).
+                </p>
+                <p>
+                    Jewish Virtual Library. A Project of Aice: Kistarcsa, online at:
+                    <a href=\"https://www.jewishvirtuallibrary.org/kistarcsa?utm_content=cmp-true\"
+                       title=\"Website of the Jewish Virtual Library\">
+                        https://www.jewishvirtuallibrary.org/kistarcsa?utm_content=cmp-true
+                    </a>
+                    (last accessed: July 3, 2024).
+                </p>
+            </div>
+        </div>
+
+        <h3 class=\"mt-4\">Footnotes</h3>
+        <div class=\"row\">
+            <div class=\"col-lg-8 caption\">
+                <ol>
+                    <li id=\"endnote1\">
+                        Cf. Yad Vashem. The World Holocaust Remembrance Center, Murder of Hungarian Jewry, online at:
+                        <a href=\"https://www.yadvashem.org/holocaust/about/fate-of-jews/hungary.html\" title=\"Website Yad Vashem\">
+                            https://www.yadvashem.org/holocaust/about/fate-of-jews/hungary.html
+                            </a>(last accessed: June 29, 2024).
+                        <a href=\"#footnote1\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote2\">
+                        Cf. Lower Saxony Memorials Foundation, Bergen-Belsen. Kriegsgefangenenlager 1940-1945, 
+                        Konzentrationslager 1943-1945, Displaced Persons Camp 1945-1950. Katalog der Dauerausstellung, 
+                        Celle 2019, p. 288.
+                        <a href=\"#footnote2\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote3\">
+                        Cf. Lower Saxony Memorials Foundation, Bergen-Belsen, pp. 216–217.
+                        <a href=\"#footnote3\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote4\">
+                        See Lower Saxony Memorials Foundation, Bergen-Belsen, p. 200.
+                        <a href=\"#footnote4\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote5\">
+                        Dismissals Siloah Hospital, Hannover: DE ITS 2.1.2.1 NI 036 9 UNB ZM, DOC ID: 70656273/ITS Digital Archive, 
+                        Arolsen Archives.
+                        <a href=\"#footnote5\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote6\">
+                        Death certificate of Irma Fürst, Stutthof: 01014102 034.065, DOC ID: 4469772/ ITS Digital Archive, 
+                        Arolsen Archives.
+                        <a href=\"#footnote6\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote7\">
+                        Prisoner personnel card of Irma Fürst, Stutthof: 01014102 034.065, DOC ID: 4469771/ITS Digital Archive, 
+                        Arolsen Archives.
+                        <a href=\"#footnote7\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote8\">
+                        Prisoner personnel card of Frieda Fürst, Ravensbrück: 01010504 017.310, DOC ID: 7566952/ITS Digital Archive, 
+                        Arolsen Archives.
+                        <a href=\"#footnote8\">&uarr;</a>
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+        <h3 class=\"mt-4\">Citation reference</h3>
+        <div class=\"row\">
+            <div class=\"col-lg-8\">
+                <p>
+                    Lara Meinert, “Biografie von Gyula Fürst – ein ungewöhnlicher Deportationsweg,” 
+                    in: Der Holocaust in Ungarn und die Deportationen nach Norddeutschland. Biographien, Lager und Zwangsarbeit, 
+                    edited by the Institute for the History of the German Jews, URL:
+                    https://holocaust-ungarn-norddeutschland.de{{ path('app_bio_fuerst') }}.
+                    License: <a href=\"https://creativecommons.org/licenses/by/4.0/\" 
+                    title=\"License terms on the Creative Commons website\">CC BY 4.0</a>.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+
+        const boba = L.marker([47.181667, 17.188333]).bindPopup('<strong>Boba</strong><br/>');
+
+        const mbAttr = 'Map data &copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors, Imagery © <a href=\"https://www.mapbox.com/\">Mapbox</a>';
+        const mbUrl = 'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw';
+
+        const streets = L.tileLayer(mbUrl, {
+            id: 'mapbox/streets-v11',
+            tileSize: 512,
+            zoomOffset: -1,
+            attribution: mbAttr
+        });
+
+        const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 11,
+            attribution: '&copy; <a href=\"http://www.openstreetmap.org/copyright\">OpenStreetMap</a>'
+        });
+
+        const map = L.map('map', {
+            center: [48.144722, 17.112778],
+            zoom: 6,
+            layers: [osm,
+                boba,
+            ]
+        });
+
+        const baseLayers = {
+            'OpenStreetMap': osm,
+        };
+
+        const layerControl = L.control.layers(baseLayers, overlays).addTo(map);
+
+    </script>
+
+{% endblock %}", "biographies/fuerst.en.html.twig", "/Users/Admin/Documents/dev/hungmem/templates/biographies/fuerst.en.html.twig");
+    }
+}

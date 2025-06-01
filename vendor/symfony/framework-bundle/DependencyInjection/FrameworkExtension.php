@@ -735,7 +735,7 @@ class FrameworkExtension extends Extension
             $container->getDefinition('config_cache_factory')->setArguments([]);
         }
 
-        if (!$config['disallow_search_engine_index'] ?? false) {
+        if (!$config['disallow_search_engine_index']) {
             $container->removeDefinition('disallow_search_engine_index_response_listener');
         }
 
@@ -2004,23 +2004,21 @@ class FrameworkExtension extends Extension
             $container->setParameter('serializer.default_context', $defaultContext);
         }
 
-        if (!$container->hasDefinition('serializer.normalizer.object')) {
-            return;
+        if ($container->hasDefinition('serializer.normalizer.object')) {
+            $arguments = $container->getDefinition('serializer.normalizer.object')->getArguments();
+            $context = $arguments[6] ?? $defaultContext;
+
+            if (isset($config['circular_reference_handler']) && $config['circular_reference_handler']) {
+                $context += ['circular_reference_handler' => new Reference($config['circular_reference_handler'])];
+                $container->getDefinition('serializer.normalizer.object')->setArgument(5, null);
+            }
+
+            if ($config['max_depth_handler'] ?? false) {
+                $context += ['max_depth_handler' => new Reference($config['max_depth_handler'])];
+            }
+
+            $container->getDefinition('serializer.normalizer.object')->setArgument(6, $context);
         }
-
-        $arguments = $container->getDefinition('serializer.normalizer.object')->getArguments();
-        $context = $arguments[6] ?? $defaultContext;
-
-        if (isset($config['circular_reference_handler']) && $config['circular_reference_handler']) {
-            $context += ['circular_reference_handler' => new Reference($config['circular_reference_handler'])];
-            $container->getDefinition('serializer.normalizer.object')->setArgument(5, null);
-        }
-
-        if ($config['max_depth_handler'] ?? false) {
-            $context += ['max_depth_handler' => new Reference($config['max_depth_handler'])];
-        }
-
-        $container->getDefinition('serializer.normalizer.object')->setArgument(6, $context);
 
         $container->getDefinition('serializer.normalizer.property')->setArgument(5, $defaultContext);
     }
@@ -2282,13 +2280,17 @@ class FrameworkExtension extends Extension
         $transportRateLimiterReferences = [];
         foreach ($config['transports'] as $name => $transport) {
             $serializerId = $transport['serializer'] ?? 'messenger.default_serializer';
+            $tags = [
+                'alias' => $name,
+                'is_failure_transport' => \in_array($name, $failureTransports),
+            ];
+            if (str_starts_with($transport['dsn'], 'sync://')) {
+                $tags['is_consumable'] = false;
+            }
             $transportDefinition = (new Definition(TransportInterface::class))
                 ->setFactory([new Reference('messenger.transport_factory'), 'createTransport'])
                 ->setArguments([$transport['dsn'], $transport['options'] + ['transport_name' => $name], new Reference($serializerId)])
-                ->addTag('messenger.receiver', [
-                    'alias' => $name,
-                    'is_failure_transport' => \in_array($name, $failureTransports),
-                ])
+                ->addTag('messenger.receiver', $tags)
             ;
             $container->setDefinition($transportId = 'messenger.transport.'.$name, $transportDefinition);
             $senderAliases[$name] = $transportId;
@@ -2567,11 +2569,13 @@ class FrameworkExtension extends Extension
                     ->setFactory([ScopingHttpClient::class, 'forBaseUri'])
                     ->setArguments([new Reference('http_client.transport'), $baseUri, $scopeConfig])
                     ->addTag('http_client.client')
+                    ->addTag('kernel.reset', ['method' => 'reset', 'on_invalid' => 'ignore'])
                 ;
             } else {
                 $container->register($name, ScopingHttpClient::class)
                     ->setArguments([new Reference('http_client.transport'), [$scope => $scopeConfig], $scope])
                     ->addTag('http_client.client')
+                    ->addTag('kernel.reset', ['method' => 'reset', 'on_invalid' => 'ignore'])
                 ;
             }
 
@@ -2658,7 +2662,6 @@ class FrameworkExtension extends Extension
         }
         $transports = $config['dsn'] ? ['main' => $config['dsn']] : $config['transports'];
         $container->getDefinition('mailer.transports')->setArgument(0, $transports);
-        $container->getDefinition('mailer.default_transport')->setArgument(0, current($transports));
 
         $mailer = $container->getDefinition('mailer.mailer');
         if (false === $messageBus = $config['message_bus']) {

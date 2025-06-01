@@ -1,0 +1,1074 @@
+<?php
+
+use Twig\Environment;
+use Twig\Error\LoaderError;
+use Twig\Error\RuntimeError;
+use Twig\Extension\CoreExtension;
+use Twig\Extension\SandboxExtension;
+use Twig\Markup;
+use Twig\Sandbox\SecurityError;
+use Twig\Sandbox\SecurityNotAllowedTagError;
+use Twig\Sandbox\SecurityNotAllowedFilterError;
+use Twig\Sandbox\SecurityNotAllowedFunctionError;
+use Twig\Source;
+use Twig\Template;
+use Twig\TemplateWrapper;
+
+/* site/sources.en.html.twig */
+class __TwigTemplate_b1cd0bd3d7cbe33220af9d59af1188cf extends Template
+{
+    private Source $source;
+    /**
+     * @var array<string, Template>
+     */
+    private array $macros = [];
+
+    public function __construct(Environment $env)
+    {
+        parent::__construct($env);
+
+        $this->source = $this->getSourceContext();
+
+        $this->blocks = [
+            'title' => [$this, 'block_title'],
+            'body' => [$this, 'block_body'],
+        ];
+    }
+
+    protected function doGetParent(array $context): bool|string|Template|TemplateWrapper
+    {
+        // line 1
+        return "base.en.html.twig";
+    }
+
+    protected function doDisplay(array $context, array $blocks = []): iterable
+    {
+        $macros = $this->macros;
+        $__internal_5a27a8ba21ca79b61932376b2fa922d2 = $this->extensions["Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension"];
+        $__internal_5a27a8ba21ca79b61932376b2fa922d2->enter($__internal_5a27a8ba21ca79b61932376b2fa922d2_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "template", "site/sources.en.html.twig"));
+
+        $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
+        $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "template", "site/sources.en.html.twig"));
+
+        $this->parent = $this->load("base.en.html.twig", 1);
+        yield from $this->parent->unwrap()->yield($context, array_merge($this->blocks, $blocks));
+        
+        $__internal_5a27a8ba21ca79b61932376b2fa922d2->leave($__internal_5a27a8ba21ca79b61932376b2fa922d2_prof);
+
+        
+        $__internal_6f47bbe9983af81f1e7450e9a3e3768f->leave($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof);
+
+    }
+
+    // line 3
+    /**
+     * @return iterable<null|scalar|\Stringable>
+     */
+    public function block_title(array $context, array $blocks = []): iterable
+    {
+        $macros = $this->macros;
+        $__internal_5a27a8ba21ca79b61932376b2fa922d2 = $this->extensions["Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension"];
+        $__internal_5a27a8ba21ca79b61932376b2fa922d2->enter($__internal_5a27a8ba21ca79b61932376b2fa922d2_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "title"));
+
+        $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
+        $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "title"));
+
+        yield " Sources | ";
+        yield from $this->yieldParentBlock("title", $context, $blocks);
+        yield " ";
+        
+        $__internal_6f47bbe9983af81f1e7450e9a3e3768f->leave($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof);
+
+        
+        $__internal_5a27a8ba21ca79b61932376b2fa922d2->leave($__internal_5a27a8ba21ca79b61932376b2fa922d2_prof);
+
+        yield from [];
+    }
+
+    // line 5
+    /**
+     * @return iterable<null|scalar|\Stringable>
+     */
+    public function block_body(array $context, array $blocks = []): iterable
+    {
+        $macros = $this->macros;
+        $__internal_5a27a8ba21ca79b61932376b2fa922d2 = $this->extensions["Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension"];
+        $__internal_5a27a8ba21ca79b61932376b2fa922d2->enter($__internal_5a27a8ba21ca79b61932376b2fa922d2_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
+
+        $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
+        $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
+
+        // line 6
+        yield "    
+    <div class=\"container g-4 py-5 study\">
+        <h2>Sources and state of research</h2>
+        <div class=\"row\">
+            <div class=\"col-xl-8 mb-2\">
+                <p class=\"abstract\">
+                    Knowledge about deportees from Hungary in northwest German concentration camps is still very limited. Even a 
+                    realistic estimate of the total number of persons deported from Hungary to the Neuengamme and Bergen-Belsen 
+                    concentration camps is not yet available. The names of most of the deportees are unknown. This is partly due to the 
+                    relatively late attention paid by (German) historians to this group of prisoners and to the forced labor they 
+                    performed, but also to the fact that only fragments of sources are available.<sup><a href=\"#endnote1\" id=\"footnote1\">1</a></sup>
+                </p>
+            </div>
+        </div>
+
+        <h3 class=\"mt-4\">Research on deportations from Hungary</h3>
+        <div class=\"row\">
+            <div class=\"col-lg-8\">
+                <p>
+                    Even before the complete liberation of Hungary, the documentation of Nazi crimes and the collection of historical 
+                    material began in February 1945 with the “Commission of Inquiry to Investigate and Publicize the Crimes Committed 
+                    by the National Socialists and Arrow Cross Party  (Náci és nyilas rémtettek kivizsglál'sára alakult bizottság). 
+                    The commission was set up by a local organ of the provisional Hungarian government, making it one of the few 
+                    examples of state-ordered documentation of the crimes of the National Socialists and their collaborators at the 
+                    time.<sup><a href=\"#endnote2\" id=\"footnote2\">2</a></sup> As early as the spring of 1945, the National Welfare 
+                    Committee of Deportees (Deportáltakat Gondozó Országos Bizottság – DEGOB), acting as an organization of those 
+                    affected, also began interviewing surviving deportees who were (temporarily) staying in Budapest. More than 
+                    5,000 survivors of the Nazi concentration camps gave testimony in this way.<sup><a href=\"#endnote3\" id=\"footnote3\">3</a></sup> 
+                    Other survivors published their memoirs. Academic research into the topic also began early in Hungary and was 
+                    long considered unique in Eastern Europe.<sup><a href=\"#endnote4\" id=\"footnote4\">4</a></sup> The focus was primarily 
+                    on the targeted murder of Jews deported from Hungary, one in three of whom were killed in Auschwitz-Birkenau; 
+                    only 22 percent of those deported survived.<sup><a href=\"#endnote5\" id=\"footnote5\">5</a></sup> In contrast, the fate 
+                    of the forced laborers deported to the German Reich received little attention for a long time.<sup><a href=\"#endnote6\" id=\"footnote6\">6</a></sup>
+                    The relationship between German and Hungarian perpetrators and the decision-making processes that led to the 
+                    deportations remain controversial to this day.<sup><a href=\"#endnote7\" id=\"footnote7\">7</a></sup> Based on the 
+                    various places of origin of those persecuted, which today are spread across several countries, it constitutes a 
+                    transnational European history of war and violence.
+                </p>
+                <p>
+
+                </p>
+            </div>
+            <div class=\"col-lg-4\">
+                <div class=\"infobox mt-2\">
+                    <h4>&#9432; Jewish men and women</h4>
+                    <p>
+                        The Jewish men and women deported from Hungary belonged to various communities and religious movements within 
+                        Judaism. Not all of them necessarily defined themselves as Jewish. Neither their religion nor their cultural 
+                        affiliation to Judaism or self-identification was decisive for their persecution by the National Socialists. 
+                        At the heart of the National Socialist worldview was a racist antisemitism that defined Jews according to their 
+                        descent. Christians and atheists were also persecuted as Jews by the National Socialists, regardless of their 
+                        self-definition or cultural affiliation, if they met their criteria of descent. Not all of the persons referred 
+                        to here as Jews identified themselves as Jewish, but they were all persecuted as Jewish. 
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <h3 class=\"mt-4\">Research into the forced labor of concentration camp prisoners</h3>
+        <div class=\"row\">
+            <div class=\"col-lg-8\">
+                <p>
+                    The International Tracing Service in Arolsen was founded by the Allies in 1948, initially to provide survivors 
+                    and relatives with information about missing persons who had been abducted by the National Socialists. 
+                    The archive with its extensive collection of sources is now available to researchers as well.
+                </p>
+                <p>
+                    The satellite camp system, which was greatly expanded from 1944 onward, is particularly relevant for research on 
+                    prisoners from Hungary. In March 1945, almost 75 percent of the prisoners were interned in the satellite camps 
+                    of Neuengamme concentration camp and only around a quarter in the main camp.<sup><a href=\"#endnote8\" id=\"footnote8\">8</a></sup>
+                </p>
+                <p>
+                    However, historical research in Germany only began to focus on the economic exploitation of concentration camp 
+                    prisoners and the satellite camp system at sites of forced labor at the end of the 1980s, after the local history 
+                    of National Socialism came to the fore as part of the history workshop movement.<sup><a href=\"#endnote9\" id=\"footnote9\">9</a></sup> 
+                    As a result of the voluntary and then also academic examination of local sites of persecution, the institutional 
+                    anchoring of remembrance of and research into the victims of National Socialist persecution changed. Memorials, 
+                    documentation centers, and archives were established in many places. In northwestern Germany, the first documents 
+                    center was inaugurated in 1981 on the site of the former Neuengamme concentration camp, and initiatives were also 
+                    established at some of the sites of former satellite camps. A memorial had already existed in Bergen-Belsen 
+                    since 1952, but it was not until 1990 that it was expanded into a comprehensive memorial and educational institution 
+                    with its own archives and academic staff. This step was taken in Neuengamme with the opening of a modernized memorial 
+                    and exhibition in 2005.<sup><a href=\"#endnote10\" id=\"footnote10\">10</a></sup> Since then, the scant information and 
+                    sources available on prisoners in the satellite camps have been compiled by the archives and academic staff of the 
+                    relevant memorial sites and by local historians working on a voluntary basis. The work of the Arolsen Archives, the 
+                    memorial sites, and volunteer historians forms the central basis for research into and remembrance of deportees 
+                    from Hungary in northwestern Germany. Without them, this project would not have been possible either.
+                </p>
+            </div>
+            <div class=\"col-lg-4\">
+            </div>
+        </div>
+
+        <h3 class=\"mt-4\">Sources on deportees from Hungary</h3>
+        <div class=\"row\">
+            <div class=\"col-lg-8\">
+                <p>
+                    The records in Neuengamme and Bergen-Belsen are characterized by the fact that the SS destroyed almost all of the 
+                    camp correspondence and documentation before the liberation. Prisoner rolls or transport lists, which would allow 
+                    conclusions to be drawn about the names of the prisoners, only exist in exceptional cases. What has survived for 
+                    the Neuengamme concentration camp are individual documents recording deaths, so that the names of some of those 
+                    murdered are known.<sup><a href=\"#endnote11\" id=\"footnote11\">11</a></sup> For the Bergen-Belsen concentration 
+                    camp, there are many sources on surviving prisoners who, for example, were housed in the DP camp set up after the 
+                    liberation.<sup><a href=\"#endnote12\" id=\"footnote12\">12</a></sup>
+                </p>
+                <p>
+                    As many of the Neuengamme satellite camps were evacuated before liberation and survivors were usually transported 
+                    to “reception camps” such as Bergen-Belsen, where they were then liberated, these sources do not exist for Neuengamme 
+                    and its satellite camps. One exception is a list of liberated prisoners in Salzwedel, the only satellite camp of 
+                    Neuengamme concentration camp that was not evacuated and whose prisoners were liberated on site.<sup><a href=\"#endnote13\" id=\"footnote13\">13</a></sup>
+                    The deportation routes of the prisoners liberated in Bergen-Belsen cannot be easily traced without documents 
+                    from the SS administration. However, the surviving documents from the SS administration often only allow fragmentary 
+                    conclusions to be drawn about the prisoners, conclusions also characterized by the dehumanizing perspective of the 
+                    perpetrators.
+                </p>
+                <p>
+                    Therefore, the occupations of the prisoners stated in the documents do not necessarily correspond to their actual 
+                    occupations, as some of these were listed in regard to the selection in Auschwitz or were only recorded by the SS 
+                    with respect to the usability of the prisoners. Dates of birth were also sometimes deliberately given incorrectly 
+                    in order to avoid being murdered by the SS. Moreover, the lists were usually kept by other prisoners who were 
+                    deployed in the administration. These prisoners often did not speak Hungarian and were also subjected to inhumane 
+                    conditions of detention. Due to all of these factors, the documents they kept were often incorrect. A comparison of 
+                    two lists describing the same group of 300 prisoners as inmates of a satellite camp at the VW plant in present-day 
+                    Wolfsburg and as arrivals at another satellite camp at a later date shows that only 62 of 298 people were listed 
+                    with identical names and data. In particular, only a fraction of the Hungarian first names were recorded in the 
+                    same spelling. The spelling of the prisoners’ names depended on the prisoner in charge of the list. As the majority 
+                    of male prisoners at Neuengamme concentration camp were initially deported to the main camp and from there 
+                    distributed to the satellite camps, it is almost impossible to assign different data relating to the same person. 
+                    Even where the names and other biographical data of deportees have been handed down to us, these do not necessarily 
+                    correspond to the actual biographical data of the persons concerned.
+                </p>
+                <p>
+                    Although an important source for concentration camp prisoners, the so-called WVHA prisoner file, allows important 
+                    conclusions to be drawn about deportation dates and the national makeup of the prisoners, it does not contain the 
+                    names of the prisoners. Starting in mid-1944, the SS had begun to set up prisoner detachments in most concentration 
+                    camps that transferred the information from the camp’s own prisoner records to standardized prisoner index cards, 
+                    which were sent to a central institute of the SS Economic Administration Main Office 
+                    (Wirtschaftsverwaltungshauptamt – WVHA) in Berlin. In this “Central Mechanical Institute for Optimum Human 
+                    Recording and Evaluation,” the information was to be transferred to punch cards so that the prisoner information 
+                    could be recorded centrally and processed using a so-called “Hollerith machine.” While the Neuengamme concentration 
+                    camp’s own prisoner records and the punched cards themselves have not survived, the standardized index cards are 
+                    largely still in existence. However, they only contain information that can be used by the SS and is 
+                    machine-readable, i.e. the inmates’ prisoner numbers, nationality, gender, dates of birth and occupations, as well 
+                    as deportation dates, but no names.<sup><a href=\"#endnote14\" id=\"footnote14\">14</a></sup>
+                    These sources thus exemplify the dehumanizing bureaucratic view of the National Socialists, who degraded people 
+                    to mere numbers and to their usability toward their purposes.
+                </p>
+                <p>
+                    In the various company inventories, the records on the forced labor performed there by the concentration camp 
+                    prisoners are also incomplete and inaccessible in some cases, and they offer little biographical information about 
+                    the prisoners themselves.
+                </p>
+            </div>
+            <div class=\"col-lg-4\">
+                <div class=\"infobox mt-2\">
+                    <h4>&#9432; Forced labor</h4>
+                    <p>
+                        National Socialist Germany made extensive use of forced labor to meet its labor needs; in the German Reich 
+                        alone, over 13.5 million people had to perform forced labor during the Second World War. Forced labor was used 
+                        in all branches of industry, but also in agriculture and in private households. Forced laborers were a visible 
+                        part of everyday life in National Socialist Germany, especially in the final years of the war.
+                    </p>
+                    <p>
+                        <a href=\"";
+        // line 169
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_context");
+        yield "#zwangsarbeit\"
+                           title=\"More information on forced labor and historical context\">
+                            &#10149; More information on forced labor
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <h3 class=\"mt-4\">Survivors’ reports</h3>
+        <div class=\"row\">
+            <div class=\"col-lg-8\">
+                <p>
+                    Survivors’ accounts are therefore indispensable sources. These are available in the form of the DEGOB protocols 
+                    mentioned above, but also in interviews that have been conducted as part of research and commemoration projects 
+                    since the early 1980s. Several survivors of northern German concentration camps who were deported from Hungary have 
+                    also published their memoirs.
+                </p>
+                <p>
+                    The reports of the survivors interviewed provide important insights into prisoners’ places of work, deportation 
+                    routes, and perspectives. They thus not only constitute important sources on the history of the satellite camps, 
+                    but also enable a change of perspective from the sources of the National Socialist bureaucracy, in which the 
+                    prisoners appear only as passive human material, to the individuals concerned and their experiences and survival 
+                    strategies in the face of the violent situation to which they were subjected. While the DEGOB protocols were strongly 
+                    influenced by the questioners who drew on a standardized catalog of questions according to their own interests, 
+                    the interviews, which were usually recorded decades after the liberation, are characterized by a stronger focus on 
+                    the survivors’ perspective. However, they also reflect individual and social processes of coping and repression. All 
+                    interviews are shaped by the specific situation in which they were conducted. The survivors report in the present 
+                    about what they remember; the reports are therefore not a reflection of what they experienced, but are structured by 
+                    a retrospective construction of meaning, which is shaped not least by the knowledge of the dimension of mass murder 
+                    and the outcome of history. The survivors also report on the respective camps in the context of their entire history 
+                    of persecution. In retrospect, some of the survivors described their time in the satellite camps of Neuengamme 
+                    concentration camp as “luxury” or “paradise,” which only makes sense in the context of the entire interview and 
+                    against the background of their experiences in Auschwitz and Bergen-Belsen.<sup><a href=\"#endnote15\" id=\"footnote15\">15</a></sup>
+                    Only the survivors can report while the perspective of those murdered inevitably remains invisible. 
+                </p>
+            </div>
+            <div class=\"col-lg-4\">
+            </div>
+        </div>
+
+        <h3 class=\"mt-4\">Knowledge about deportees from Hungary in the Neuengamme and Bergen-Belsen concentration camps</h3>
+        <div class=\"row\">
+            <div class=\"col-lg-8\">
+                <p>
+                    The names, deportation routes, and perspectives of most of the deportees therefore remain unknown. The historian 
+                    Detlef Garbe estimates the number of prisoners from Hungary in the Neuengamme concentration camp and its satellite 
+                    camps at about 7,200.<sup><a href=\"#endnote16\" id=\"footnote16\">16</a></sup>
+                    Only the names of 2,105 of these internees could be documented in the project thanks to cooperation with the 
+                    Neuengamme Concentration Camp Memorial. The majority of these names come from the women liberated in Salzwedel; in 
+                    other satellite camps, only a few isolated names are known. At the same time, the available sources made it possible 
+                    to identify transports of around 6,300 deportees from Hungary to Neuengamme or Neuengamme satellite camps, but 
+                    without being able to determine their names. In addition, the biographical data that is available is not 
+                    representative of the prisoner group. While 85 percent of the deportees identified via transports were female, 
+                    only 63 percent of the surviving names belong to women. Due to their fragmentary composition, the data found 
+                    therefore only allows limited conclusions to be drawn about the group as a whole, both in terms of gender and other 
+                    categories such as age, regional origin, and chances of survival.
+                </p>
+                <p>
+                    There is no estimate of the total number of prisoners deported from Hungary to the Bergen-Belsen concentration camp 
+                    with its complex history of use. 15,391 names of concentration camp prisoners from Hungary in Bergen-Belsen are 
+                    listed in the Bergen-Belsen Memorial’s prisoner database and that number could be included in the project thanks to 
+                    the cooperation. Due to the poor availability of sources, this also represents only a fraction of the actual number. 
+                    The available data is not representative in this case either; in particular, the names of the released Jewish 
+                    hostages and many survivors are known without reflecting the deportees’ actual chances of survival.
+                </p>
+                <p>
+                    The majority of the names of those who were deported from Hungary and imprisoned in concentration camps in 
+                    northwestern Germany, as well as essential information, for example about dates and places of death, cannot be 
+                    determined. This leaves many questions unanswered, especially for relatives.
+                </p>
+            </div>
+            <div class=\"col-lg-4\">
+            </div>
+        </div>
+
+        <h3 class=\"mt-4\">Prospects and opportunities for research</h3>
+        <div class=\"row\">
+            <div class=\"col-lg-8\">
+                <p>
+                    Research into individual satellite camps, deportations from Hungary, the selections and living conditions in 
+                    Auschwitz and the Austrian camps has already produced a great deal of knowledge about concentration camp prisoners 
+                    from Hungary. In many cases, this information has yet to be linked, and the HUNGMEM project would like to make a 
+                    contribution in this respect. On the one hand, this would make it possible to gain overarching insights into the 
+                    numbers and living conditions of prisoners from Hungary in northwestern Germany. On the other hand, it could also 
+                    form the basis for a commemoration that focuses not only on isolated forced labor assignments or deportations, but 
+                    also on the barely known lives of the concentration camp inmates in their entirety. The disenfranchisement and 
+                    exclusion of Jews and their deportations from Hungary are part of German history due to the perpetrators and the 
+                    (deadly) forced labor in Germany.
+                </p>
+                <p>
+                    Every biographically oriented approach faces the challenge of also remembering the nameless victims and highlighting 
+                    blanks and gaps in knowledge. Even in the future, it will not be possible to determine the perspective of those 
+                    murdered and many of their names. In-depth presentations of group biographies are therefore often the only way to 
+                    commemorate these victims and make connections clear.
+                </p>
+            </div>
+            <div class=\"col-lg-4\">
+                <div class=\"infobox\">
+                    <h4>&#9432; More about the project</h4>
+                    <p>
+                        The transnational project entitled \"Digital Commemoration and Research Infrastructure – The Holocaust in 
+                        Hungary 80 Years Later” (HUNGMEM), funded by the EU Commission, aims at compiling the most comprehensive 
+                        data possible on the deportees from Hungary at the time and at commemorating their fate.
+                        <a href=\"";
+        // line 273
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_about");
+        yield "#zwangsarbeit\"
+                           title=\"More information about HUNGMEM\">
+                            &#10149; More information about HUNGMEM
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <h3 class=\"mt-4\">Bibliografie</h3>
+        <div class=\"row\">
+            <div class=\"col-lg-8\">
+                <ul class=\"bibliography\">
+                    <li>
+                        Marc Buggeln, Arbeit und Gewalt. Das Außenlagersystem des KZ Neuengamme, Göttingen 2009.
+                    </li>
+                    <li>
+                        Hans Ellger, “Salzwedel,” in: Wolfgang Benz / Barbara Diestel (eds.), Der Ort des Terrors.
+                        Geschichte der nationalsozialistischen Konzentrationslager, Vol. 5: Hinzert. Auschwitz.
+                        Neuengamme, München 2007, pp. 514-516.
+                    </li>
+                    <li>
+                        Hédi Fried, Fragmente meines Lebens. Ein Leben bis Auschwitz und ein Leben danach, 
+                        licensed edition Hamburg 2023, original British edition [Fragments of a Life: The Road 
+                        to Auschwitz] 1990.
+                    </li>
+                    <li>
+                        Regina Fritz, “Eine frühe Dokumentation des Holocaust in Ungarn. Die »Untersuchungskommission zur
+                        Erforschung und Bekanntmachung der von den Nationalsozialisten und Pfeilkreuzlern verübten
+                        Verbrechen« (1945),” in: Zeithistorische Forschungen / Studies in Contemporary History,
+                        online-edition, 14 (2017) 2, online at:
+                        <a href=\"https://zeithistorische-forschungen.de/2-2017/5496\"
+                           title=\"Website Zeithistorische Forschungen / Studies in Contemporary History\">
+                            https://zeithistorische-forschungen.de/2-2017/5496
+                        </a>(last accessed: July 26, 2024).
+                    </li>
+                    <li>
+                        Regina Fritz, “Einleitung,” in: Susanne Heim et al. (eds.), Die Verfolgung und Ermordung der
+                        europäischen Juden durch das nationalsozialistische Deutschland 1933–1945, Vol. 15. Ungarn
+                        1944-1945. Edited by Regina Fritz, Berlin / Boston 2021, pp. 13-84.
+                    </li>
+                    <li>
+                        Regina Fritz, “Zwischen Dokumentieren und Erforschen. Die Historiografie des Holocaust in Ungarn,”
+                        in: Einsicht. Bulletin des Fritz Bauer Instituts 11 (2014), pp. 24-30.
+                    </li>
+                    <li>
+                        Detlef Garbe, Neuengamme im System der Konzentrationslager: Studien zur Ereignis- und
+                        Rezeptionsgeschichte, Berlin 2015.
+                    </li>
+                    <li>
+                        Christian Gerlach / Götz Aly, Das letzte Kapitel. Der Mord an den ungarischen Juden, Stuttgart /
+                        München 2002.
+                    </li>
+                    <li>
+                        Katharina Hertz-Eichenrode, “Ein KZ wird geräumt – Häftlinge zwischen Vernichtung und Befreiung,
+                        Eine Wanderausstellung über die Auflösung des KZ Neuengamme und seiner Aussenlager durch die SS
+                        im Frühjahr 1945,” in: Gedenkstättenrundbrief 96 (2000), pp. 27-34.
+                    </li>
+                    <li>
+                        Johannes Meerwald, “The DEGOB Protocols and the Deportations of Jewish Prisoners to the Dachau
+                        Camp Complex,” in: Hennig Borggräfe / Akim Jah (eds.), Deportations in the Nazi Era: Sources and
+                        Research, Berlin / Boston, pp. 405-428.
+                    </li>
+                    <li>
+                        Christian Römmer, “Digitalisierung der WVHA-Häftlingskartei,” in: Gedenkstätten-Rundbrief 150
+                        (2009), pp. 20-25.
+                    </li>
+                    <li>
+                        Wilfried Wiedemann, “Das neue Dokumentationszentrum der Gedenkstätte Bergen-Belsen,” in: 
+                        Lower Saxony Memorials Foundation (ed.), Bergen-Belsen. Kriegsgefangenenlager 1940-1945.
+                        Konzentrationslager 1943-1945. Displaced Persons Camp 1945-1950, Celle 2009, pp. 13-19.
+                    </li>
+                    <li>
+                        Jenny Wüstenberg, Zivilgesellschaft und Erinnerungspolitik in Deutschland seit 1945, Berlin
+                        2020.
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <h3 class=\"mt-4\">Fußnoten</h3>
+        <div class=\"row\">
+            <div class=\"col-lg-8 caption\">
+                <ol>
+                    <li id=\"endnote1\">
+                        Cf. Johannes Meerwald, “The DEGOB Protocols and the Deportations of Jewish Prisoners to the Dachau
+                        Camp Complex,” in: Hennig Borggräfe / Akim Jah (eds.), Deportations in the Nazi Era:
+                        Sources and Research, Berlin / Boston, pp. 405-428, p. 407.
+                        <a href=\"#footnote1\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote2\">
+                        Cf. Regina Fritz, “Zwischen Dokumentieren und Erforschen. Die Historiografie des Holocaust in
+                        Ungarn,” in: Einsicht. Bulletin des Fritz Bauer Instituts 11 (2014), pp. 24-30, p. 25; Idem., “Eine
+                        frühe Dokumentation des Holocaust in Ungarn. Die »Untersuchungskommission zur Erforschung und
+                        Bekanntmachung der von den Nationalsozialisten und Pfeilkreuzlern verübten Verbrechen« (1945),”
+                        in: Zeithistorische Forschungen / Studies in Contemporary History, online-edition, 14 (2017) 2, 
+                        online at: <a href=\"https://zeithistorische-forschungen.de/2-2017/5496\" title=\"Website Zeithistorische Forschung / Studies in Contemporary History\">
+                            https://zeithistorische-forschungen.de/2-2017/5496</a> (last accessed: July 26, 2024).
+                        <a href=\"#footnote2\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote3\">
+                        Cf. Fritz, “Zwischen Dokumentieren und Erforschen,” p. 25.
+                        <a href=\"#footnote3\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote4\">
+                        Cf. Fritz, “Zwischen Dokumentieren und Erforschen,” p. 24.
+                        <a href=\"#footnote4\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote5\">
+                        Cf. Christian Gerlach / Götz Aly, Das letzte Kapitel. Der Mord an den ungarischen Juden,
+                        Stuttgart / München 2002, p. 409; Regina Fritz: “Einleitung,” in: Susanne Heim et al. (eds.), Die
+                        Verfolgung und Ermordung der europäischen Juden durch das nationalsozialistische Deutschland
+                        1933–1945, Vol. 15. Ungarn 1944-1945. Edited by Regina Fritz, Berlin / Boston 2021, pp.
+                        13-84, p. 84.
+                        <a href=\"#footnote5\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote6\">
+                        Cf. Meerwald, “The DEGOB Protocols,” p. 407.
+                        <a href=\"#footnote6\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote7\">
+                        Cf. Meerwald, “The DEGOB Protocols,” p. 407; sowie Gerlach / Aly, Das letzte Kapitel, pp. 11-15.
+                        <a href=\"#footnote7\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote8\">
+                        Cf. Katharina Hertz-Eichenrode, “Ein KZ wird geräumt – Häftlinge zwischen Vernichtung und
+                        Befreiung, Eine Wanderausstellung über die Auflösung des KZ Neuengamme und seiner Aussenlager
+                        durch die SS im Frühjahr 1945,” in: Gedenkstättenrundbrief 96 (2000), pp. 27-34, p. 27.
+                        <a href=\"#footnote8\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote9\">
+                        Cf. Marc Buggeln, Arbeit und Gewalt. Das Außenlagersystem des KZ Neuengamme, Göttingen 2009, pp.
+                        13-14.
+                        <a href=\"#footnote9\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote10\">
+                        Cf. Jenny Wüstenberg, Zivilgesellschaft und Erinnerungspolitik in Deutschland seit 1945, Berlin
+                        2020, pp. 105-106; Detlef Garbe, Neuengamme im System der Konzentrationslager: Studien zur
+                        Ereignis-
+                        und Rezeptionsgeschichte, Berlin 2015, pp. 373-418; Wilfried Wiedemann, “Das neue
+                        Dokumentationszentrum der Gedenkstätte Bergen-Belsen,” in: Lower Saxony Memorials Foundation (ed.), 
+                        Bergen-Belsen. Kriegsgefangenenlager 1940–1945. Konzentrationslager
+                        1943-1945. Displaced Persons Camp 1945-1950, Celle 2009, pp. 13-19, p. 13.
+                        <a href=\"#footnote10\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote11\">
+                        Cf. Buggeln, Arbeit und Gewalt, pp. 27-29.
+                        <a href=\"#footnote11\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote12\">
+                        Cf. Wiedemann, “Das neue Dokumentationszentrum.”
+                        <a href=\"#footnote12\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote13\">
+                        Cf. Hans Ellger, “Salzwedel,” in: Wolfgang Benz / Barbara Diestel (eds.), Der Ort des Terrors.
+                        Geschichte der nationalsozialistischen Konzentrationslager, Vol. 5: Hinzert. Auschwitz.
+                        Neuengamme, München 2007, pp. 514-516.
+                        <a href=\"#footnote13\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote14\">
+                        Cf. Christian Römmer, “Digitalisierung der WVHA-Häftlingskartei,“ in: Gedenkstätten-Rundbrief 150
+                        (2009), pp. 20-25.
+                        <a href=\"#footnote14\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote15\">
+                        Hédi Fried, Fragmente meines Lebens. Ein Leben bis Auschwitz und ein Leben danach, licensed edition Hamburg 2023, original British edition [Fragments of a Life: The Road 
+                        to Auschwitz] 1990, p. 116; Paula Herrmann, Unvergessliche Tage in Hamburg, HB 392 Archiv der Gedenkstätte Neuengamme.
+                        <a href=\"#footnote15\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote16\">
+                        Cf. Garbe, Neuengamme, p. 101.
+                        <a href=\"#footnote16\">&uarr;</a>
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+        <h3 class=\"mt-4\">Citation reference</h3>
+        <div class=\"row\">
+            <div class=\"col-lg-8\">
+                <p>
+                    Louis Wörner, “Historischer Kontext: Ungarn und nationalsozialistische Zwangsarbeit,” 
+                    in: Der Holocaust in Ungarn und die Deportationen nach Norddeutschland. Biographien, Lager und Zwangsarbeit, 
+                    edited by the Institute for the History of the German Jews, URL: 
+                    https://holocaust-ungarn-norddeutschland.de";
+        // line 457
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_context");
+        yield ".
+                    License: <a href=\"https://creativecommons.org/licenses/by/4.0/\"
+                               title=\"License terms on the Creative Commons website\">CC BY 4.0</a>.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+";
+        
+        $__internal_6f47bbe9983af81f1e7450e9a3e3768f->leave($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof);
+
+        
+        $__internal_5a27a8ba21ca79b61932376b2fa922d2->leave($__internal_5a27a8ba21ca79b61932376b2fa922d2_prof);
+
+        yield from [];
+    }
+
+    /**
+     * @codeCoverageIgnore
+     */
+    public function getTemplateName(): string
+    {
+        return "site/sources.en.html.twig";
+    }
+
+    /**
+     * @codeCoverageIgnore
+     */
+    public function isTraitable(): bool
+    {
+        return false;
+    }
+
+    /**
+     * @codeCoverageIgnore
+     */
+    public function getDebugInfo(): array
+    {
+        return array (  561 => 457,  374 => 273,  267 => 169,  102 => 6,  89 => 5,  64 => 3,  41 => 1,);
+    }
+
+    public function getSourceContext(): Source
+    {
+        return new Source("{% extends 'base.en.html.twig' %}
+
+{% block title %} Sources | {{ parent() }} {% endblock %}
+
+{% block body %}
+    
+    <div class=\"container g-4 py-5 study\">
+        <h2>Sources and state of research</h2>
+        <div class=\"row\">
+            <div class=\"col-xl-8 mb-2\">
+                <p class=\"abstract\">
+                    Knowledge about deportees from Hungary in northwest German concentration camps is still very limited. Even a 
+                    realistic estimate of the total number of persons deported from Hungary to the Neuengamme and Bergen-Belsen 
+                    concentration camps is not yet available. The names of most of the deportees are unknown. This is partly due to the 
+                    relatively late attention paid by (German) historians to this group of prisoners and to the forced labor they 
+                    performed, but also to the fact that only fragments of sources are available.<sup><a href=\"#endnote1\" id=\"footnote1\">1</a></sup>
+                </p>
+            </div>
+        </div>
+
+        <h3 class=\"mt-4\">Research on deportations from Hungary</h3>
+        <div class=\"row\">
+            <div class=\"col-lg-8\">
+                <p>
+                    Even before the complete liberation of Hungary, the documentation of Nazi crimes and the collection of historical 
+                    material began in February 1945 with the “Commission of Inquiry to Investigate and Publicize the Crimes Committed 
+                    by the National Socialists and Arrow Cross Party  (Náci és nyilas rémtettek kivizsglál'sára alakult bizottság). 
+                    The commission was set up by a local organ of the provisional Hungarian government, making it one of the few 
+                    examples of state-ordered documentation of the crimes of the National Socialists and their collaborators at the 
+                    time.<sup><a href=\"#endnote2\" id=\"footnote2\">2</a></sup> As early as the spring of 1945, the National Welfare 
+                    Committee of Deportees (Deportáltakat Gondozó Országos Bizottság – DEGOB), acting as an organization of those 
+                    affected, also began interviewing surviving deportees who were (temporarily) staying in Budapest. More than 
+                    5,000 survivors of the Nazi concentration camps gave testimony in this way.<sup><a href=\"#endnote3\" id=\"footnote3\">3</a></sup> 
+                    Other survivors published their memoirs. Academic research into the topic also began early in Hungary and was 
+                    long considered unique in Eastern Europe.<sup><a href=\"#endnote4\" id=\"footnote4\">4</a></sup> The focus was primarily 
+                    on the targeted murder of Jews deported from Hungary, one in three of whom were killed in Auschwitz-Birkenau; 
+                    only 22 percent of those deported survived.<sup><a href=\"#endnote5\" id=\"footnote5\">5</a></sup> In contrast, the fate 
+                    of the forced laborers deported to the German Reich received little attention for a long time.<sup><a href=\"#endnote6\" id=\"footnote6\">6</a></sup>
+                    The relationship between German and Hungarian perpetrators and the decision-making processes that led to the 
+                    deportations remain controversial to this day.<sup><a href=\"#endnote7\" id=\"footnote7\">7</a></sup> Based on the 
+                    various places of origin of those persecuted, which today are spread across several countries, it constitutes a 
+                    transnational European history of war and violence.
+                </p>
+                <p>
+
+                </p>
+            </div>
+            <div class=\"col-lg-4\">
+                <div class=\"infobox mt-2\">
+                    <h4>&#9432; Jewish men and women</h4>
+                    <p>
+                        The Jewish men and women deported from Hungary belonged to various communities and religious movements within 
+                        Judaism. Not all of them necessarily defined themselves as Jewish. Neither their religion nor their cultural 
+                        affiliation to Judaism or self-identification was decisive for their persecution by the National Socialists. 
+                        At the heart of the National Socialist worldview was a racist antisemitism that defined Jews according to their 
+                        descent. Christians and atheists were also persecuted as Jews by the National Socialists, regardless of their 
+                        self-definition or cultural affiliation, if they met their criteria of descent. Not all of the persons referred 
+                        to here as Jews identified themselves as Jewish, but they were all persecuted as Jewish. 
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <h3 class=\"mt-4\">Research into the forced labor of concentration camp prisoners</h3>
+        <div class=\"row\">
+            <div class=\"col-lg-8\">
+                <p>
+                    The International Tracing Service in Arolsen was founded by the Allies in 1948, initially to provide survivors 
+                    and relatives with information about missing persons who had been abducted by the National Socialists. 
+                    The archive with its extensive collection of sources is now available to researchers as well.
+                </p>
+                <p>
+                    The satellite camp system, which was greatly expanded from 1944 onward, is particularly relevant for research on 
+                    prisoners from Hungary. In March 1945, almost 75 percent of the prisoners were interned in the satellite camps 
+                    of Neuengamme concentration camp and only around a quarter in the main camp.<sup><a href=\"#endnote8\" id=\"footnote8\">8</a></sup>
+                </p>
+                <p>
+                    However, historical research in Germany only began to focus on the economic exploitation of concentration camp 
+                    prisoners and the satellite camp system at sites of forced labor at the end of the 1980s, after the local history 
+                    of National Socialism came to the fore as part of the history workshop movement.<sup><a href=\"#endnote9\" id=\"footnote9\">9</a></sup> 
+                    As a result of the voluntary and then also academic examination of local sites of persecution, the institutional 
+                    anchoring of remembrance of and research into the victims of National Socialist persecution changed. Memorials, 
+                    documentation centers, and archives were established in many places. In northwestern Germany, the first documents 
+                    center was inaugurated in 1981 on the site of the former Neuengamme concentration camp, and initiatives were also 
+                    established at some of the sites of former satellite camps. A memorial had already existed in Bergen-Belsen 
+                    since 1952, but it was not until 1990 that it was expanded into a comprehensive memorial and educational institution 
+                    with its own archives and academic staff. This step was taken in Neuengamme with the opening of a modernized memorial 
+                    and exhibition in 2005.<sup><a href=\"#endnote10\" id=\"footnote10\">10</a></sup> Since then, the scant information and 
+                    sources available on prisoners in the satellite camps have been compiled by the archives and academic staff of the 
+                    relevant memorial sites and by local historians working on a voluntary basis. The work of the Arolsen Archives, the 
+                    memorial sites, and volunteer historians forms the central basis for research into and remembrance of deportees 
+                    from Hungary in northwestern Germany. Without them, this project would not have been possible either.
+                </p>
+            </div>
+            <div class=\"col-lg-4\">
+            </div>
+        </div>
+
+        <h3 class=\"mt-4\">Sources on deportees from Hungary</h3>
+        <div class=\"row\">
+            <div class=\"col-lg-8\">
+                <p>
+                    The records in Neuengamme and Bergen-Belsen are characterized by the fact that the SS destroyed almost all of the 
+                    camp correspondence and documentation before the liberation. Prisoner rolls or transport lists, which would allow 
+                    conclusions to be drawn about the names of the prisoners, only exist in exceptional cases. What has survived for 
+                    the Neuengamme concentration camp are individual documents recording deaths, so that the names of some of those 
+                    murdered are known.<sup><a href=\"#endnote11\" id=\"footnote11\">11</a></sup> For the Bergen-Belsen concentration 
+                    camp, there are many sources on surviving prisoners who, for example, were housed in the DP camp set up after the 
+                    liberation.<sup><a href=\"#endnote12\" id=\"footnote12\">12</a></sup>
+                </p>
+                <p>
+                    As many of the Neuengamme satellite camps were evacuated before liberation and survivors were usually transported 
+                    to “reception camps” such as Bergen-Belsen, where they were then liberated, these sources do not exist for Neuengamme 
+                    and its satellite camps. One exception is a list of liberated prisoners in Salzwedel, the only satellite camp of 
+                    Neuengamme concentration camp that was not evacuated and whose prisoners were liberated on site.<sup><a href=\"#endnote13\" id=\"footnote13\">13</a></sup>
+                    The deportation routes of the prisoners liberated in Bergen-Belsen cannot be easily traced without documents 
+                    from the SS administration. However, the surviving documents from the SS administration often only allow fragmentary 
+                    conclusions to be drawn about the prisoners, conclusions also characterized by the dehumanizing perspective of the 
+                    perpetrators.
+                </p>
+                <p>
+                    Therefore, the occupations of the prisoners stated in the documents do not necessarily correspond to their actual 
+                    occupations, as some of these were listed in regard to the selection in Auschwitz or were only recorded by the SS 
+                    with respect to the usability of the prisoners. Dates of birth were also sometimes deliberately given incorrectly 
+                    in order to avoid being murdered by the SS. Moreover, the lists were usually kept by other prisoners who were 
+                    deployed in the administration. These prisoners often did not speak Hungarian and were also subjected to inhumane 
+                    conditions of detention. Due to all of these factors, the documents they kept were often incorrect. A comparison of 
+                    two lists describing the same group of 300 prisoners as inmates of a satellite camp at the VW plant in present-day 
+                    Wolfsburg and as arrivals at another satellite camp at a later date shows that only 62 of 298 people were listed 
+                    with identical names and data. In particular, only a fraction of the Hungarian first names were recorded in the 
+                    same spelling. The spelling of the prisoners’ names depended on the prisoner in charge of the list. As the majority 
+                    of male prisoners at Neuengamme concentration camp were initially deported to the main camp and from there 
+                    distributed to the satellite camps, it is almost impossible to assign different data relating to the same person. 
+                    Even where the names and other biographical data of deportees have been handed down to us, these do not necessarily 
+                    correspond to the actual biographical data of the persons concerned.
+                </p>
+                <p>
+                    Although an important source for concentration camp prisoners, the so-called WVHA prisoner file, allows important 
+                    conclusions to be drawn about deportation dates and the national makeup of the prisoners, it does not contain the 
+                    names of the prisoners. Starting in mid-1944, the SS had begun to set up prisoner detachments in most concentration 
+                    camps that transferred the information from the camp’s own prisoner records to standardized prisoner index cards, 
+                    which were sent to a central institute of the SS Economic Administration Main Office 
+                    (Wirtschaftsverwaltungshauptamt – WVHA) in Berlin. In this “Central Mechanical Institute for Optimum Human 
+                    Recording and Evaluation,” the information was to be transferred to punch cards so that the prisoner information 
+                    could be recorded centrally and processed using a so-called “Hollerith machine.” While the Neuengamme concentration 
+                    camp’s own prisoner records and the punched cards themselves have not survived, the standardized index cards are 
+                    largely still in existence. However, they only contain information that can be used by the SS and is 
+                    machine-readable, i.e. the inmates’ prisoner numbers, nationality, gender, dates of birth and occupations, as well 
+                    as deportation dates, but no names.<sup><a href=\"#endnote14\" id=\"footnote14\">14</a></sup>
+                    These sources thus exemplify the dehumanizing bureaucratic view of the National Socialists, who degraded people 
+                    to mere numbers and to their usability toward their purposes.
+                </p>
+                <p>
+                    In the various company inventories, the records on the forced labor performed there by the concentration camp 
+                    prisoners are also incomplete and inaccessible in some cases, and they offer little biographical information about 
+                    the prisoners themselves.
+                </p>
+            </div>
+            <div class=\"col-lg-4\">
+                <div class=\"infobox mt-2\">
+                    <h4>&#9432; Forced labor</h4>
+                    <p>
+                        National Socialist Germany made extensive use of forced labor to meet its labor needs; in the German Reich 
+                        alone, over 13.5 million people had to perform forced labor during the Second World War. Forced labor was used 
+                        in all branches of industry, but also in agriculture and in private households. Forced laborers were a visible 
+                        part of everyday life in National Socialist Germany, especially in the final years of the war.
+                    </p>
+                    <p>
+                        <a href=\"{{ path('app_context') }}#zwangsarbeit\"
+                           title=\"More information on forced labor and historical context\">
+                            &#10149; More information on forced labor
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <h3 class=\"mt-4\">Survivors’ reports</h3>
+        <div class=\"row\">
+            <div class=\"col-lg-8\">
+                <p>
+                    Survivors’ accounts are therefore indispensable sources. These are available in the form of the DEGOB protocols 
+                    mentioned above, but also in interviews that have been conducted as part of research and commemoration projects 
+                    since the early 1980s. Several survivors of northern German concentration camps who were deported from Hungary have 
+                    also published their memoirs.
+                </p>
+                <p>
+                    The reports of the survivors interviewed provide important insights into prisoners’ places of work, deportation 
+                    routes, and perspectives. They thus not only constitute important sources on the history of the satellite camps, 
+                    but also enable a change of perspective from the sources of the National Socialist bureaucracy, in which the 
+                    prisoners appear only as passive human material, to the individuals concerned and their experiences and survival 
+                    strategies in the face of the violent situation to which they were subjected. While the DEGOB protocols were strongly 
+                    influenced by the questioners who drew on a standardized catalog of questions according to their own interests, 
+                    the interviews, which were usually recorded decades after the liberation, are characterized by a stronger focus on 
+                    the survivors’ perspective. However, they also reflect individual and social processes of coping and repression. All 
+                    interviews are shaped by the specific situation in which they were conducted. The survivors report in the present 
+                    about what they remember; the reports are therefore not a reflection of what they experienced, but are structured by 
+                    a retrospective construction of meaning, which is shaped not least by the knowledge of the dimension of mass murder 
+                    and the outcome of history. The survivors also report on the respective camps in the context of their entire history 
+                    of persecution. In retrospect, some of the survivors described their time in the satellite camps of Neuengamme 
+                    concentration camp as “luxury” or “paradise,” which only makes sense in the context of the entire interview and 
+                    against the background of their experiences in Auschwitz and Bergen-Belsen.<sup><a href=\"#endnote15\" id=\"footnote15\">15</a></sup>
+                    Only the survivors can report while the perspective of those murdered inevitably remains invisible. 
+                </p>
+            </div>
+            <div class=\"col-lg-4\">
+            </div>
+        </div>
+
+        <h3 class=\"mt-4\">Knowledge about deportees from Hungary in the Neuengamme and Bergen-Belsen concentration camps</h3>
+        <div class=\"row\">
+            <div class=\"col-lg-8\">
+                <p>
+                    The names, deportation routes, and perspectives of most of the deportees therefore remain unknown. The historian 
+                    Detlef Garbe estimates the number of prisoners from Hungary in the Neuengamme concentration camp and its satellite 
+                    camps at about 7,200.<sup><a href=\"#endnote16\" id=\"footnote16\">16</a></sup>
+                    Only the names of 2,105 of these internees could be documented in the project thanks to cooperation with the 
+                    Neuengamme Concentration Camp Memorial. The majority of these names come from the women liberated in Salzwedel; in 
+                    other satellite camps, only a few isolated names are known. At the same time, the available sources made it possible 
+                    to identify transports of around 6,300 deportees from Hungary to Neuengamme or Neuengamme satellite camps, but 
+                    without being able to determine their names. In addition, the biographical data that is available is not 
+                    representative of the prisoner group. While 85 percent of the deportees identified via transports were female, 
+                    only 63 percent of the surviving names belong to women. Due to their fragmentary composition, the data found 
+                    therefore only allows limited conclusions to be drawn about the group as a whole, both in terms of gender and other 
+                    categories such as age, regional origin, and chances of survival.
+                </p>
+                <p>
+                    There is no estimate of the total number of prisoners deported from Hungary to the Bergen-Belsen concentration camp 
+                    with its complex history of use. 15,391 names of concentration camp prisoners from Hungary in Bergen-Belsen are 
+                    listed in the Bergen-Belsen Memorial’s prisoner database and that number could be included in the project thanks to 
+                    the cooperation. Due to the poor availability of sources, this also represents only a fraction of the actual number. 
+                    The available data is not representative in this case either; in particular, the names of the released Jewish 
+                    hostages and many survivors are known without reflecting the deportees’ actual chances of survival.
+                </p>
+                <p>
+                    The majority of the names of those who were deported from Hungary and imprisoned in concentration camps in 
+                    northwestern Germany, as well as essential information, for example about dates and places of death, cannot be 
+                    determined. This leaves many questions unanswered, especially for relatives.
+                </p>
+            </div>
+            <div class=\"col-lg-4\">
+            </div>
+        </div>
+
+        <h3 class=\"mt-4\">Prospects and opportunities for research</h3>
+        <div class=\"row\">
+            <div class=\"col-lg-8\">
+                <p>
+                    Research into individual satellite camps, deportations from Hungary, the selections and living conditions in 
+                    Auschwitz and the Austrian camps has already produced a great deal of knowledge about concentration camp prisoners 
+                    from Hungary. In many cases, this information has yet to be linked, and the HUNGMEM project would like to make a 
+                    contribution in this respect. On the one hand, this would make it possible to gain overarching insights into the 
+                    numbers and living conditions of prisoners from Hungary in northwestern Germany. On the other hand, it could also 
+                    form the basis for a commemoration that focuses not only on isolated forced labor assignments or deportations, but 
+                    also on the barely known lives of the concentration camp inmates in their entirety. The disenfranchisement and 
+                    exclusion of Jews and their deportations from Hungary are part of German history due to the perpetrators and the 
+                    (deadly) forced labor in Germany.
+                </p>
+                <p>
+                    Every biographically oriented approach faces the challenge of also remembering the nameless victims and highlighting 
+                    blanks and gaps in knowledge. Even in the future, it will not be possible to determine the perspective of those 
+                    murdered and many of their names. In-depth presentations of group biographies are therefore often the only way to 
+                    commemorate these victims and make connections clear.
+                </p>
+            </div>
+            <div class=\"col-lg-4\">
+                <div class=\"infobox\">
+                    <h4>&#9432; More about the project</h4>
+                    <p>
+                        The transnational project entitled \"Digital Commemoration and Research Infrastructure – The Holocaust in 
+                        Hungary 80 Years Later” (HUNGMEM), funded by the EU Commission, aims at compiling the most comprehensive 
+                        data possible on the deportees from Hungary at the time and at commemorating their fate.
+                        <a href=\"{{ path('app_about') }}#zwangsarbeit\"
+                           title=\"More information about HUNGMEM\">
+                            &#10149; More information about HUNGMEM
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <h3 class=\"mt-4\">Bibliografie</h3>
+        <div class=\"row\">
+            <div class=\"col-lg-8\">
+                <ul class=\"bibliography\">
+                    <li>
+                        Marc Buggeln, Arbeit und Gewalt. Das Außenlagersystem des KZ Neuengamme, Göttingen 2009.
+                    </li>
+                    <li>
+                        Hans Ellger, “Salzwedel,” in: Wolfgang Benz / Barbara Diestel (eds.), Der Ort des Terrors.
+                        Geschichte der nationalsozialistischen Konzentrationslager, Vol. 5: Hinzert. Auschwitz.
+                        Neuengamme, München 2007, pp. 514-516.
+                    </li>
+                    <li>
+                        Hédi Fried, Fragmente meines Lebens. Ein Leben bis Auschwitz und ein Leben danach, 
+                        licensed edition Hamburg 2023, original British edition [Fragments of a Life: The Road 
+                        to Auschwitz] 1990.
+                    </li>
+                    <li>
+                        Regina Fritz, “Eine frühe Dokumentation des Holocaust in Ungarn. Die »Untersuchungskommission zur
+                        Erforschung und Bekanntmachung der von den Nationalsozialisten und Pfeilkreuzlern verübten
+                        Verbrechen« (1945),” in: Zeithistorische Forschungen / Studies in Contemporary History,
+                        online-edition, 14 (2017) 2, online at:
+                        <a href=\"https://zeithistorische-forschungen.de/2-2017/5496\"
+                           title=\"Website Zeithistorische Forschungen / Studies in Contemporary History\">
+                            https://zeithistorische-forschungen.de/2-2017/5496
+                        </a>(last accessed: July 26, 2024).
+                    </li>
+                    <li>
+                        Regina Fritz, “Einleitung,” in: Susanne Heim et al. (eds.), Die Verfolgung und Ermordung der
+                        europäischen Juden durch das nationalsozialistische Deutschland 1933–1945, Vol. 15. Ungarn
+                        1944-1945. Edited by Regina Fritz, Berlin / Boston 2021, pp. 13-84.
+                    </li>
+                    <li>
+                        Regina Fritz, “Zwischen Dokumentieren und Erforschen. Die Historiografie des Holocaust in Ungarn,”
+                        in: Einsicht. Bulletin des Fritz Bauer Instituts 11 (2014), pp. 24-30.
+                    </li>
+                    <li>
+                        Detlef Garbe, Neuengamme im System der Konzentrationslager: Studien zur Ereignis- und
+                        Rezeptionsgeschichte, Berlin 2015.
+                    </li>
+                    <li>
+                        Christian Gerlach / Götz Aly, Das letzte Kapitel. Der Mord an den ungarischen Juden, Stuttgart /
+                        München 2002.
+                    </li>
+                    <li>
+                        Katharina Hertz-Eichenrode, “Ein KZ wird geräumt – Häftlinge zwischen Vernichtung und Befreiung,
+                        Eine Wanderausstellung über die Auflösung des KZ Neuengamme und seiner Aussenlager durch die SS
+                        im Frühjahr 1945,” in: Gedenkstättenrundbrief 96 (2000), pp. 27-34.
+                    </li>
+                    <li>
+                        Johannes Meerwald, “The DEGOB Protocols and the Deportations of Jewish Prisoners to the Dachau
+                        Camp Complex,” in: Hennig Borggräfe / Akim Jah (eds.), Deportations in the Nazi Era: Sources and
+                        Research, Berlin / Boston, pp. 405-428.
+                    </li>
+                    <li>
+                        Christian Römmer, “Digitalisierung der WVHA-Häftlingskartei,” in: Gedenkstätten-Rundbrief 150
+                        (2009), pp. 20-25.
+                    </li>
+                    <li>
+                        Wilfried Wiedemann, “Das neue Dokumentationszentrum der Gedenkstätte Bergen-Belsen,” in: 
+                        Lower Saxony Memorials Foundation (ed.), Bergen-Belsen. Kriegsgefangenenlager 1940-1945.
+                        Konzentrationslager 1943-1945. Displaced Persons Camp 1945-1950, Celle 2009, pp. 13-19.
+                    </li>
+                    <li>
+                        Jenny Wüstenberg, Zivilgesellschaft und Erinnerungspolitik in Deutschland seit 1945, Berlin
+                        2020.
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <h3 class=\"mt-4\">Fußnoten</h3>
+        <div class=\"row\">
+            <div class=\"col-lg-8 caption\">
+                <ol>
+                    <li id=\"endnote1\">
+                        Cf. Johannes Meerwald, “The DEGOB Protocols and the Deportations of Jewish Prisoners to the Dachau
+                        Camp Complex,” in: Hennig Borggräfe / Akim Jah (eds.), Deportations in the Nazi Era:
+                        Sources and Research, Berlin / Boston, pp. 405-428, p. 407.
+                        <a href=\"#footnote1\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote2\">
+                        Cf. Regina Fritz, “Zwischen Dokumentieren und Erforschen. Die Historiografie des Holocaust in
+                        Ungarn,” in: Einsicht. Bulletin des Fritz Bauer Instituts 11 (2014), pp. 24-30, p. 25; Idem., “Eine
+                        frühe Dokumentation des Holocaust in Ungarn. Die »Untersuchungskommission zur Erforschung und
+                        Bekanntmachung der von den Nationalsozialisten und Pfeilkreuzlern verübten Verbrechen« (1945),”
+                        in: Zeithistorische Forschungen / Studies in Contemporary History, online-edition, 14 (2017) 2, 
+                        online at: <a href=\"https://zeithistorische-forschungen.de/2-2017/5496\" title=\"Website Zeithistorische Forschung / Studies in Contemporary History\">
+                            https://zeithistorische-forschungen.de/2-2017/5496</a> (last accessed: July 26, 2024).
+                        <a href=\"#footnote2\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote3\">
+                        Cf. Fritz, “Zwischen Dokumentieren und Erforschen,” p. 25.
+                        <a href=\"#footnote3\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote4\">
+                        Cf. Fritz, “Zwischen Dokumentieren und Erforschen,” p. 24.
+                        <a href=\"#footnote4\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote5\">
+                        Cf. Christian Gerlach / Götz Aly, Das letzte Kapitel. Der Mord an den ungarischen Juden,
+                        Stuttgart / München 2002, p. 409; Regina Fritz: “Einleitung,” in: Susanne Heim et al. (eds.), Die
+                        Verfolgung und Ermordung der europäischen Juden durch das nationalsozialistische Deutschland
+                        1933–1945, Vol. 15. Ungarn 1944-1945. Edited by Regina Fritz, Berlin / Boston 2021, pp.
+                        13-84, p. 84.
+                        <a href=\"#footnote5\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote6\">
+                        Cf. Meerwald, “The DEGOB Protocols,” p. 407.
+                        <a href=\"#footnote6\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote7\">
+                        Cf. Meerwald, “The DEGOB Protocols,” p. 407; sowie Gerlach / Aly, Das letzte Kapitel, pp. 11-15.
+                        <a href=\"#footnote7\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote8\">
+                        Cf. Katharina Hertz-Eichenrode, “Ein KZ wird geräumt – Häftlinge zwischen Vernichtung und
+                        Befreiung, Eine Wanderausstellung über die Auflösung des KZ Neuengamme und seiner Aussenlager
+                        durch die SS im Frühjahr 1945,” in: Gedenkstättenrundbrief 96 (2000), pp. 27-34, p. 27.
+                        <a href=\"#footnote8\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote9\">
+                        Cf. Marc Buggeln, Arbeit und Gewalt. Das Außenlagersystem des KZ Neuengamme, Göttingen 2009, pp.
+                        13-14.
+                        <a href=\"#footnote9\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote10\">
+                        Cf. Jenny Wüstenberg, Zivilgesellschaft und Erinnerungspolitik in Deutschland seit 1945, Berlin
+                        2020, pp. 105-106; Detlef Garbe, Neuengamme im System der Konzentrationslager: Studien zur
+                        Ereignis-
+                        und Rezeptionsgeschichte, Berlin 2015, pp. 373-418; Wilfried Wiedemann, “Das neue
+                        Dokumentationszentrum der Gedenkstätte Bergen-Belsen,” in: Lower Saxony Memorials Foundation (ed.), 
+                        Bergen-Belsen. Kriegsgefangenenlager 1940–1945. Konzentrationslager
+                        1943-1945. Displaced Persons Camp 1945-1950, Celle 2009, pp. 13-19, p. 13.
+                        <a href=\"#footnote10\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote11\">
+                        Cf. Buggeln, Arbeit und Gewalt, pp. 27-29.
+                        <a href=\"#footnote11\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote12\">
+                        Cf. Wiedemann, “Das neue Dokumentationszentrum.”
+                        <a href=\"#footnote12\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote13\">
+                        Cf. Hans Ellger, “Salzwedel,” in: Wolfgang Benz / Barbara Diestel (eds.), Der Ort des Terrors.
+                        Geschichte der nationalsozialistischen Konzentrationslager, Vol. 5: Hinzert. Auschwitz.
+                        Neuengamme, München 2007, pp. 514-516.
+                        <a href=\"#footnote13\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote14\">
+                        Cf. Christian Römmer, “Digitalisierung der WVHA-Häftlingskartei,“ in: Gedenkstätten-Rundbrief 150
+                        (2009), pp. 20-25.
+                        <a href=\"#footnote14\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote15\">
+                        Hédi Fried, Fragmente meines Lebens. Ein Leben bis Auschwitz und ein Leben danach, licensed edition Hamburg 2023, original British edition [Fragments of a Life: The Road 
+                        to Auschwitz] 1990, p. 116; Paula Herrmann, Unvergessliche Tage in Hamburg, HB 392 Archiv der Gedenkstätte Neuengamme.
+                        <a href=\"#footnote15\">&uarr;</a>
+                    </li>
+                    <li id=\"endnote16\">
+                        Cf. Garbe, Neuengamme, p. 101.
+                        <a href=\"#footnote16\">&uarr;</a>
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+        <h3 class=\"mt-4\">Citation reference</h3>
+        <div class=\"row\">
+            <div class=\"col-lg-8\">
+                <p>
+                    Louis Wörner, “Historischer Kontext: Ungarn und nationalsozialistische Zwangsarbeit,” 
+                    in: Der Holocaust in Ungarn und die Deportationen nach Norddeutschland. Biographien, Lager und Zwangsarbeit, 
+                    edited by the Institute for the History of the German Jews, URL: 
+                    https://holocaust-ungarn-norddeutschland.de{{ path('app_context') }}.
+                    License: <a href=\"https://creativecommons.org/licenses/by/4.0/\"
+                               title=\"License terms on the Creative Commons website\">CC BY 4.0</a>.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+{% endblock %}", "site/sources.en.html.twig", "/Users/Admin/Documents/dev/hungmem/templates/site/sources.en.html.twig");
+    }
+}

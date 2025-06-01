@@ -1,0 +1,764 @@
+<?php
+
+use Twig\Environment;
+use Twig\Error\LoaderError;
+use Twig\Error\RuntimeError;
+use Twig\Extension\CoreExtension;
+use Twig\Extension\SandboxExtension;
+use Twig\Markup;
+use Twig\Sandbox\SecurityError;
+use Twig\Sandbox\SecurityNotAllowedTagError;
+use Twig\Sandbox\SecurityNotAllowedFilterError;
+use Twig\Sandbox\SecurityNotAllowedFunctionError;
+use Twig\Source;
+use Twig\Template;
+use Twig\TemplateWrapper;
+
+/* site/map.en.html.twig */
+class __TwigTemplate_7f5850d3770698a2535441ccebe6d15d extends Template
+{
+    private Source $source;
+    /**
+     * @var array<string, Template>
+     */
+    private array $macros = [];
+
+    public function __construct(Environment $env)
+    {
+        parent::__construct($env);
+
+        $this->source = $this->getSourceContext();
+
+        $this->blocks = [
+            'title' => [$this, 'block_title'],
+            'body' => [$this, 'block_body'],
+        ];
+    }
+
+    protected function doGetParent(array $context): bool|string|Template|TemplateWrapper
+    {
+        // line 1
+        return "base-map.en.html.twig";
+    }
+
+    protected function doDisplay(array $context, array $blocks = []): iterable
+    {
+        $macros = $this->macros;
+        $__internal_5a27a8ba21ca79b61932376b2fa922d2 = $this->extensions["Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension"];
+        $__internal_5a27a8ba21ca79b61932376b2fa922d2->enter($__internal_5a27a8ba21ca79b61932376b2fa922d2_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "template", "site/map.en.html.twig"));
+
+        $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
+        $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "template", "site/map.en.html.twig"));
+
+        $this->parent = $this->load("base-map.en.html.twig", 1);
+        yield from $this->parent->unwrap()->yield($context, array_merge($this->blocks, $blocks));
+        
+        $__internal_5a27a8ba21ca79b61932376b2fa922d2->leave($__internal_5a27a8ba21ca79b61932376b2fa922d2_prof);
+
+        
+        $__internal_6f47bbe9983af81f1e7450e9a3e3768f->leave($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof);
+
+    }
+
+    // line 3
+    /**
+     * @return iterable<null|scalar|\Stringable>
+     */
+    public function block_title(array $context, array $blocks = []): iterable
+    {
+        $macros = $this->macros;
+        $__internal_5a27a8ba21ca79b61932376b2fa922d2 = $this->extensions["Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension"];
+        $__internal_5a27a8ba21ca79b61932376b2fa922d2->enter($__internal_5a27a8ba21ca79b61932376b2fa922d2_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "title"));
+
+        $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
+        $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "title"));
+
+        yield " Map view concentration camps | ";
+        yield from $this->yieldParentBlock("title", $context, $blocks);
+        yield " ";
+        
+        $__internal_6f47bbe9983af81f1e7450e9a3e3768f->leave($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof);
+
+        
+        $__internal_5a27a8ba21ca79b61932376b2fa922d2->leave($__internal_5a27a8ba21ca79b61932376b2fa922d2_prof);
+
+        yield from [];
+    }
+
+    // line 5
+    /**
+     * @return iterable<null|scalar|\Stringable>
+     */
+    public function block_body(array $context, array $blocks = []): iterable
+    {
+        $macros = $this->macros;
+        $__internal_5a27a8ba21ca79b61932376b2fa922d2 = $this->extensions["Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension"];
+        $__internal_5a27a8ba21ca79b61932376b2fa922d2->enter($__internal_5a27a8ba21ca79b61932376b2fa922d2_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
+
+        $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
+        $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
+
+        // line 6
+        yield "    
+    <div class=\"container g-4 py-5\">
+        <h2>Concentration camps with prisoners deported from Hungary</h2>
+
+        <div class=\"row\">
+            <div class=\"col-lg-6\">
+                <p>
+                    The map shows the locations of concentration camps in northern Germany where people deported from Hungary 
+                    were imprisoned from 1944 onward. The first place of detention in the region was initially the so-called 
+                    “exchange camp” of Bergen-Belsen. Starting in 1944, Jews who had previously been forcibly transported to 
+                    extermination camps were also deported to the German Reich to be used for forced labor. To that end, they were 
+                    housed in satellite camps, set up in the immediate vicinity of their places of work. Jews who had previously 
+                    been deported from Hungary to Auschwitz arrived in northern Germany from mid-1944 onward. Additional Jews from 
+                    Budapest reached the area at the end of 1944 via deportation routes through annexed Austria.
+            </div>
+            <div class=\"col-lg-6\">
+                <p>
+                    Due to new demands for forced labor and the advance of the Allies, the prisoners were sometimes relocated 
+                    to other camps several times.
+                    <br>
+                    After the evacuation of the satellite camps of Neuengamme concentration camp, many of the prisoners were sent to 
+                    Bergen-Belsen, which developed into a camp for dying prisoners [Sterbelager] due to the inhumane conditions and 
+                    acute overcrowding. The map shows the camps mentioned in the case studies presented here and those for which the 
+                    presence of persons deported from Hungary could be established as part of the project. An 
+                    <a href=\"https://www.kz-gedenkstaette-neuengamme.de/geschichte/kz-aussenlager/aussenlagerliste/\"
+                        title=\"Website of the Neuengamme Concentration Camp Memorial\">
+                        overview of all satellite camps of Neuengamme concentration camp can be found here</a>, further 
+                    <a href=\"https://bergen-belsen.stiftung-ng.de/de/geschichte/konzentrationslager-1943-1945/\"
+                        title=\"Website of the Neuengamme Concentration Camp Memorial\">
+                        information on Bergen-Belsen concentration camp can be found here</a>.<!--</p>-->
+                </p>
+            </div>
+        </div>
+
+        <div class=\"row\">
+            <div id=\"map\" class=\"mt-3\">
+            </div>
+        </div>
+
+    <div class=\"row\">
+        <div class=\"caption\">
+            The map shows the camps mentioned in the case studies presented here (blue) and those for which the presence of 
+            persons deported from Hungary could be established as part of the project (gray).
+        </div>
+    </div>
+
+        <div class=\"row mt-5\">
+            <h3>Information on select camps</h3>
+            <div class=\"col-lg-6\">
+                <h4 id=\"bergenbelsenMore\" class=\"mt-4\">Bergen-Belsen</h4>
+                <p>
+                    The Bergen-Belsen concentration camp was initially established in 1943 according to plans by the SS and the 
+                    Foreign Office to quarter Jewish hostages who were to be exchanged for German civilians in Allied custody. 
+                    From July to September 1944, the SS set up separate areas of the camp for various groups of prisoners, including 
+                    the so-called “Hungarian camp.” However, it was soon assigned further functions. At the end of March 1944, a section 
+                    of the camp was set up for male prisoners from other concentration camps who were too ill to continue performing 
+                    forced labor there. The SS did little to enable the sick prisoners to survive, with the result that the majority 
+                    of them perished in Bergen-Belsen. In August 1944, a section of the camp was set up for female detainees who were 
+                    to be forced to work in the German armaments industry. Within a few months, the SS deported some 9,000 prisoners 
+                    to the women’s camp. The prisoners initially came mainly from Poland, where they had been arrested as a result of 
+                    the Warsaw Uprising; later, they also included many Polish and Hungarian Jewish women. After a short time, the 
+                    majority of the women were deported to one of the satellite camps of the concentration camps located at the sites 
+                    of German armaments companies. From the end of 1944 onward, the Bergen-Belsen concentration camp became the 
+                    destination of many death marches and evacuation transports from the concentration camps near the front. 
+                    Between December 1944 and mid-April 1945 alone, an additional 85,000 inmates came to Bergen-Belsen, meaning that 
+                    the camp was quickly reaching complete overcrowding. The supply situation was also disastrous. Under these 
+                    circumstances, a typhus and typhoid fever epidemic broke out, which the SS did little to combat. The Bergen-Belsen 
+                    concentration camp became a camp for dying prisoners [Sterbelager]. Today a memorial is located at the site of the 
+                    former concentration camp. (See Stiftung niedersächsische Gedenkstätten: Bergen-Belsen. Kriegsgefangenenlager 
+                    1940–1945. Konzentrationslager 1943–1945. Displaced Persons Camp 1945–1950. Katalog der Dauerausstellung., 
+                    Celle 2009, pp.144–295).
+                </p>
+                <h4 id=\"fallerslebenMore\" class=\"mt-4\">Fallersleben (women)</h4>
+                <p>
+                    The Fallersleben satellite camp for women was set up in the late summer of 1944 in the VW factory as a satellite camp 
+                    of Neuengamme concentration camp. The women’s quarters had previously housed 300 Jewish men selected as skilled metal 
+                    workers. The first female prisoners were Jewish women who had been deported from Hungary to Auschwitz and selected 
+                    by the SS for forced labor detail. Further transports from Bergen-Belsen arrived later. The prisoners had to produce 
+                    anti-tank rocket launchers and anti-tank mines in the VW factory. In March 1945, around 200 additional women arrived 
+                    in Fallersleben from the Porta Westfalica-Hausberge satellite camp. Both groups were deported together to Salzwedel 
+                    on April 8, before Allied troops liberated the VW plant.
+                </p>
+                <h4 id=\"dessauerUferMore\" class=\"mt-4\">Hamburg-Dessauer Ufer</h4>
+                <p>
+                    The approximately 1,500 women in the Dessauer Ufer satellite camp (of Neuengamme concentration camp) arrived on two 
+                    transports from Auschwitz. Around half of the first transport in July 1944 included women persecuted as Jews who had 
+                    only recently arrived in Auschwitz from the Theresienstadt ghetto and were mainly from what was then Czechoslovakia. 
+                    The other half was comprised of Jewish women who had been deported from Hungary, which had recently been occupied by 
+                    the Germans. Some of the women from occupied Hungary came from areas that had only been occupied or annexed by 
+                    Hungary itself in 1943 and had previously belonged to Czechoslovakia and Romania. The second transport in August 1944 
+                    included mainly of Jewish women who had previously come to Auschwitz from the Litzmannstadt (Łódź) ghetto. Many of 
+                    them came from Poland, but some of them also originated from Germany. The women mainly had to clear rubble in the 
+                    port of Hamburg, which had become the target of Allied bombing raids.
+                </p>
+                <p>
+                    In September 1944, the women’s satellite camp on Dessauer Ufer was dissolved and the women were distributed to 
+                    several women’s satellite camps set up at the same time in Sasel, Wedel, and Neugraben. Shortly afterward, a men’s 
+                    satellite camp of Neuengamme concentration camp was set up at the same location. 
+                </p>
+                <h4 id=\"eidelstedtMore\" class=\"mt-4\">Hamburg-Eidelstedt</h4>
+                <p>
+                    On September 27, 1944, about 500 Hungarian and Czech Jewish women, previously imprisoned on Dessauer Ufer and in 
+                    Wedel, were deported to the Eidelstedt satellite camp of Neuengamme concentration camp. There they had to perform 
+                    forced labor building makeshift homes for Hamburg’s civilian population and clearing rubble and snow in the city. 
+                    At the beginning of April 1945, in anticipation of Hamburg’s imminent liberation, the Hamburg satellite camps were 
+                    evacuated and the prisoners deported from the city. The prisoners of the Eidelstedt satellite camp were deported 
+                    to Bergen-Belsen, where many of them perished.
+                </p>
+                <h4 id=\"ahlemMore\" class=\"mt-4\">Hannover-Ahlem</h4>
+                <p>
+                    The camp was built by concentration camp prisoners from the Hannover-Stöcken satellite camp on the site of the 
+                    Continental rubber works (Continental-Gummiwerke) in November 1944. It was part of the satellite camp system of 
+                    Neuengamme concentration camp. A total of about 840 mostly Jewish men were quartered there, most of whom had 
+                    previously been imprisoned in the Hannover-Stöcken satellite camp. The prisoners had to perform forced labor for 
+                    the construction of an underground tunnel for Continental-Gummiwerke, a rubber factory, and Maschinenfabrik 
+                    Niedersachsen Hannover, a mechanical engineering plant. On April 5, the majority of the prisoners were forcibly 
+                    driven to Bergen-Belsen. The remaining prisoners in the camp were liberated by American troops on April 10, 1945.
+                </p>
+                <h4 id=\"luebberstedtMore\" class=\"mt-4\">Lübberstedt</h4>
+                <p>
+                    During the Second World War, a German Air Force ammunition plant (Munitionsanstalt – Muna) was located in a forest 
+                    area on the Bremen – Bremerhaven railroad line. Ammunition plants were used to assemble and store ordnance and 
+                    ammunition from intermediate products. Eastern European forced laborers, prisoners of war, Italian military 
+                    internees, and concentration camp prisoners also had to work at the Lübberstedt-Bilohe munitions plant. 
+                    The latter arrived in the summer of 1944 from Auschwitz, where almost all of them had been deported from Hungary 
+                    shortly before. Until the end of April, 500 Jewish women had to perform forced labor in the production facilities 
+                    there. The Lübberstedt-Bilohe satellite camp (of Neuengamme concentration camp) was also evacuated before Allied 
+                    troops were able to liberate the camp. The women were forced into cattle cars, which wandered about northern 
+                    Germany for a week and a half until the surviving women were liberated after a British air raid near Eutin.
+                </p>
+                <h4 id=\"hausbergeMore\" class=\"mt-4\">Porta Westfalica-Hausberge</h4>
+                <p>
+                    The Porta Westfalica-Hausberge women’s satellite camp had only been established in February 1945. At this time, 
+                    there were already two men’s satellite camps of the Neuengamme concentration camp in Porta Westfalica; the prisoners 
+                    were to convert old miners’ tunnels into underground manufacturing facilities. In one of these tunnels, the 
+                    approximately 1,000 women from the new women’s satellite camp were to produce radio tubes for the Philipps Company 
+                    and its subsidiaries. The prisoners included mainly Jewish women who had been deported to Auschwitz from the 
+                    Netherlands and Hungary. Some of them had already been forced to produce radio tubes in a satellite camp of the 
+                    Gross-Rosen concentration camp until that production facility was evacuated in January 1945 as the Soviet army 
+                    approached.
+                </p>
+                <h4 id=\"salzwedelMore\" class=\"mt-4\">Salzwedel</h4>
+                <p>
+                    In Salzwedel, the Draht- und Metallwarenfabrik, wire and metal goods plant, was able to profit from the German 
+                    armaments boom; by 1937, it had grown into the largest industrial company in town, employing a staff of 600. 
+                    This operation also resorted to foreign forced laborers.  In 1944, a camp that had previously been used for Eastern 
+                    European forced laborers was converted into a satellite camp of Neuengamme concentration camp, and the first 
+                    transport of female concentration camp prisoners who had been selected for work in Auschwitz arrived there in the 
+                    late summer of 1944. The group included mainly Jewish women who had recently been deported from Hungary or from 
+                    territories annexed by Hungary. Additional female concentration camp prisoners were subsequently deported to the 
+                    new satellite camp. Unlike the first transport, however, they were not deported directly to Salzwedel, but first 
+                    to the Bergen-Belsen concentration camp, where they were selected for work in Salzwedel. The camp was liberated 
+                    by American troops on April 14, 1945. Just a few kilometers away, the SS, Wehrmacht, and Volksturm units as well 
+                    as Hitler Youth had burned to death 1,061 male concentration camp prisoners in a barn the day before during the 
+                    Gardelegen massacre.
+                </p>
+                <h4 id=\"vwWerkMore\" class=\"mt-4\">VW plant Halle1</h4>
+                <p>
+                    In 1938/1939, Volkswagen GmbH, which had been founded a year earlier, set up its plant near Fallersleben in what is 
+                    today Wolfsburg. After the start of the war, the plant did not produce cars for the German civilian population as 
+                    originally planned, but instead took on armament orders. The Volkswagen Group also made use of the various forms 
+                    of Nazi forced labor. By the end of 1944, forced laborers made up two thirds of the workforce; in total, some 
+                    200,000 persons had to perform forced labor at Volkswagen, many of whom did not survive the working conditions. 
+                    In addition to civilian forced laborers, Soviet prisoners of war, and Italian military internees, this also 
+                    included about 5,000 concentration camp prisoners overall. Among them, 300 had been selected as skilled metal workers 
+                    in the Auschwitz concentration camp from a group of Jews deported from Hungary to form the core workforce of an 
+                    underground rocket production facility operated by a VW subsidiary. They were initially trained at the VW plant, 
+                    where they were also quartered. After parts of the factory were destroyed by Allied bombing, the 300 men were 
+                    deported to Thil in northern France. 
+                </p>
+                <h4 id=\"wedelMore\" class=\"mt-4\">Wedel (women)</h4>
+                <p>
+                    From September 1944 onward, 500 Hungarian and Czech Jewish women, who had previously been at Dessauer Ufer and had 
+                    to perform forced labor in clearing work in the city, were interned in the Wedel satellite camp of Neuengamme 
+                    concentration camp. After two weeks, the camp was evacuated and the women were taken to the Eidelstedt satellite camp.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    ";
+        // line 188
+        yield "    <script>
+
+        var isStudyIcon = L.icon({
+            iconUrl: '";
+        // line 191
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/marker-icon.png"), "html", null, true);
+        yield "',
+            iconSize: [30, 48,6], // size of the icon
+            iconAnchor: [19, 88], // point of the icon which will correspond to marker's location
+            popupAnchor: [-3, -76] // point from which the popup should open relative to the iconAnchor
+        });
+        var isInDataIcon = L.icon({
+            iconUrl: '";
+        // line 197
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/marker-icon_grey.png"), "html", null, true);
+        yield "',
+            iconSize: [30, 48,6], // size of the icon
+            iconAnchor: [19, 88], // point of the icon which will correspond to marker's location
+            popupAnchor: [-3, -76] // point from which the popup should open relative to the iconAnchor
+        });
+
+
+        const BergenBelsen = L.marker([52.757778, 9.907778], {icon: isStudyIcon}).bindPopup('<strong>Bergen-Belsen</strong><p>The Bergen-Belsen concentration camp was initially founded in 1943 as an “exchange camp” to quarter Jewish hostages. However, it was quickly assigned other functions and a men’s and women’s camp was set up. From the end of 1944 onward, Bergen-Belsen became the destination of many death marches and evacuation transports, developing into a death camp due to the appalling conditions. After liberation, a Polish and a Jewish displaced persons camp were set up in Bergen-Belsen.</p>&#9656; <a href=\"#bergenbelsenMore\">More about Bergen-Belsen</a><br/>&#9656; <a href=\"";
+        // line 204
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_vw");
+        yield "\">Group study 300er-Gruppe</a><br/>&#9656; <a href=\"";
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_dessauerUfer");
+        yield "\">Group study Dessauer Ufer</a><br/>&#9656; <a href=\"";
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_salzwedel");
+        yield "\">Group study Salzwedel</a><br/>&#9656; <a href=\"";
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_bio_fuerst");
+        yield "\">Individual biography Gyula Fürst</a><br/>&#9656; <a href=\"";
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_bio_mereny");
+        yield "\">Individual biography Merényi sisters</a><br/>&#9656; <a href=\"";
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_bio_blum");
+        yield "\">Individual biography Yehuda Blum</a><br/>&#9656; <a href=\"";
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_bio_hardy");
+        yield "\">Individual biography Katharina Hardy</a><br/>');
+        const Boizenburg = L.marker([53.37507, 10.698472], {icon: isInDataIcon}).bindPopup('<strong>Boizenburg</strong><br/>');
+        const BraunschweigBuessingNAG = L.marker([52.256667, 10.541111], {icon: isInDataIcon}).bindPopup('<strong>Braunschweig (Büssing-NAG) </strong><br/>');
+        const BraunschweigVechelde = L.marker([52.260111, 10.376306], {icon: isInDataIcon}).bindPopup('<strong>Braunschweig-Vechelde</strong><br/>');
+        const BraunschweigSSReitschule = L.marker([52.243424, 10.536425], {icon: isInDataIcon}).bindPopup('<strong>Braunschweig (SS-Reitschule)</strong><br/>');
+        const BremenFarge = L.marker([53.217222, 8.533333], {icon: isInDataIcon}).bindPopup('<strong>Bremen-Farge</strong><br/>');
+        const BremenBlumenthal = L.marker([53.18146, 8.56473], {icon: isInDataIcon}).bindPopup('<strong>Bremen-Blumenthal</strong><br/>');
+        const BremenHindenburgkaserne = L.marker([53.057302350927216, 8.816555094621869], {icon: isInDataIcon}).bindPopup('<strong>Bremen-Hindenburgkaserne</strong><br/>');
+        const BremenObernheide = L.marker([53.00101850934623, 8.745048757476429], {icon: isInDataIcon}).bindPopup('<strong>Bremen-Obernheide</strong><br/>');
+        const BremenOsterort = L.marker([53.141951279652694, 8.691817452772783], {icon: isInDataIcon}).bindPopup('<strong>Bremen-Osterort</strong><br/>');
+        const BremenSchuetzenhof = L.marker([53.118994, 8.768726], {icon: isInDataIcon}).bindPopup('<strong>Bremen-Schützenhof</strong><br/>');
+        const FallerslebenFrauenVW = L.marker([52.4528305937707, 10.805762405280873], {icon: isStudyIcon}).bindPopup('<strong>VW-Werk Halle 1</strong><p>In addition to existing concentration camps and other forced labor camps, 300 jewish concentration camp prisoners were quartered directly at the VW plant in June 1944. They were to form the core workforce for an underground rocket production und be trained at the VW plant. After the bombing of the plant at the end of June, the prisoners were deported to the Thil satellite camp of Natzweiler concentration camp in France.</p>&#9656; <a href=\"#vwWerkMore\">More about VW-Werk Halle 1</a></br>&#9656; <a href=\"";
+        // line 215
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_vw");
+        yield "\">Group study 300er-Gruppe</a><br/><br/><strong>Fallersleben (women)</strong><p>The Fallersleben women’s camp was set up as a satellite camp of Neuengamme concentration camp in the late summer of 1944 in the VW factory. The approximately 650 prisoners had to produce anti-tank rocket launchers and anti-tank mines in the VW factory. On April 8, 1945, the women’s satellite camp was evacuated by the SS and the women were deported to Salzwedel.</p>&#9656; <a href=\"";
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_map");
+        yield "#fallerslebenMore\">More about Fallersleben</a><br/>&#9656; <a href=\"";
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_salzwedel");
+        yield "\">Group study Salzwedel</a>');
+        const HAhlem = L.marker([52.37835, 9.65748], {icon: isStudyIcon}).bindPopup('<strong>Hannover-Ahlem</strong><p>The Hannover-Ahlem men’s satellite camp was set up as satellite camp of Neuengamme concentration camp in November 1944. The approximately 840 prisoners had to construct an underground tunnel for Continental-Gummiwerke and Maschinenfabrik Niedersachsen. On April 5, the majority of the prisoners were forcibly driven to Bergen-Belsen.</p>&#9656; <a href=\"#ahlemMore\">More about Hannover-Ahlem</a><br/>&#9656; <a href=\"";
+        // line 216
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_bio_fuerst");
+        yield "\">Individual biography Gyula Fürst</a>');
+        const HelmstedtBeendorfFrauen = L.marker([52.23989233360328, 11.089496406413582], {icon: isInDataIcon}).bindPopup('<strong>Helmstedt-Beendorf (women)</strong><br/>');
+        const HHDessauerUfer = L.marker([53.525, 10.010556], {icon: isStudyIcon}).bindPopup('<strong>Hamburg-Dessauer Ufer</strong><p>The satellite camp of Neuengamme concentration camp on Dessauer Ufer was set up in July 1944, initially serving as a women’s camp for around 1,500 female prisoners and from September 1944 as a men’s camp for around 2,000 male prisoners. All prisoners had to perform forced labor, particularly in clearing rubble.</p>&#9656; <a href=\"";
+        // line 218
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_map");
+        yield "#dessauerUferMore\">More about Hamburg-Dessauer Ufer</a><br/>&#9656; <a href=\"";
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_dessauerUfer");
+        yield "\">Group study Dessauer Ufer</a>');
+        const HHEidelstedt = L.marker([53.60677, 9.87835], {icon: isStudyIcon}).bindPopup('<strong>Hamburg-Eidelstedt</strong><p>The satellite camp of Neuengamme concentration camp was established in September 1944. The approximately 500 prisoners had previously been imprisoned in the Wedel satellite camp and had to perform forced labor, particularly in the construction of makeshift residential homes. The prisoners were deported to Bergen-Belsen at the beginning of April 1945.</p>&#9656; <a href=\"#eidelstedtMore\">More about Hamburg-Eidelstedt</a></br>&#9656; <a href=\"";
+        // line 219
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_dessauerUfer");
+        yield "\">Group study Dessauer Ufer</a>');
+        const HHHammerbrook = L.marker([53.55075, 10.022389], {icon: isInDataIcon}).bindPopup('<strong>Hamburg-Hammerbrook (Spaldingstrasse)</strong><br/>');
+        const HHLangenhorn = L.marker([53.672192, 9.99293], {icon: isInDataIcon}).bindPopup('<strong>Hamburg-Langenhorn</strong><br/>');
+        const HHNeugraben = L.marker([53.460985, 9.868133], {icon: isInDataIcon}).bindPopup('<strong>Hamburg-Neugraben</strong><br/>');
+        const HHSasel = L.marker([53.664662, 10.104215], {icon: isInDataIcon}).bindPopup('<strong>Hamburg-Sasel</strong><br/>');
+        const HHSteinwerder = L.marker([53.534444, 9.957222], {icon: isInDataIcon}).bindPopup('<strong>Hamburg-Steinwerder (Stülckenwerft)</strong><br/>');
+        const HHTiefstack = L.marker([53.52316641100441, 10.07133832394324], {icon: isInDataIcon}).bindPopup('<strong>Hamburg-Tiefstack</strong><br/>');
+        const HHWandsbek = L.marker([53.582778, 10.108611], {icon: isInDataIcon}).bindPopup('<strong>Hamburg-Wandsbek</strong><br/>');
+        const HLangenhagen = L.marker([52.4181400953558, 9.722412926738725], {icon: isInDataIcon}).bindPopup('<strong>Hannover-Langenhagen</strong><br/>');
+        const HLimmer = L.marker([52.381435, 9.68499], {icon: isInDataIcon}).bindPopup('<strong>Hannover-Limmer</strong><br/>');
+        const Hildesheim = L.marker([52.157, 9.944], {icon: isInDataIcon}).bindPopup('<strong>Hildesheim</strong><br/>');
+        const HMuehlenberg = L.marker([52.3413, 9.696], {icon: isInDataIcon}).bindPopup('<strong>Hannover-Mühlenberg</strong><br/>');
+        const Horneburg = L.marker([53.509444, 9.575], {icon: isInDataIcon}).bindPopup('<strong>Horneburg</strong><br/>');
+        const Luebberstedt = L.marker([53.339065476033376, 8.807211550174749], {icon: isStudyIcon}).bindPopup('<strong>Lübberstedt</strong><p>From August 1944, the Lübberstedt-Bilohe munitions plant was home to a women’s satellite camp of Neuengamme concentration camp. Around 500 prisoners had to perform forced labor in armaments production. The camp was evacuated in April 1945. The majority of prisoners was then sent by train through northern Germany for days on end.</p>&#9656; <a href=\"#luebberstedtMore\">More about Lübberstedt</a><br/>&#9656; <a href=\"";
+        // line 232
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_luebberstedt");
+        yield "\">Group study Lübberstedt</a>');
+        const MeppenVersen = L.marker([52.724636, 7.183722], {icon: isInDataIcon}).bindPopup('<strong>Meppen-Versen</strong><br/>');
+        const NeuengammeStammlager = L.marker([53.430556, 10.233611], {icon: isInDataIcon}).bindPopup('<strong>Neuengamme main camp</strong><br/>');
+        const PortaWestfalicaHausberge = L.marker([52.246275, 8.912079], {icon: isStudyIcon}).bindPopup('<strong>Porta Westfalica-Hausberge</strong><p>The Porta Westfalica-Hausberge women’s satellite camp was established in February 1945. The approximately 1,000 prisoners had to produce radio tubes for the Philipps Company and its subsidiaries. The camp was evacuated in January 1945 and the prisoners were deported to various other satellite camps, including Fallersleben.</p>&#9656; <a href=\"#hausbergeMore\">More about Porta Westfalica-Hausberge</a><br/>&#9656; <a href=\"";
+        // line 235
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_salzwedel");
+        yield "\">Group study Salzwedel</a>');
+        const SalzgitterDruette = L.marker([52.158292, 10.418464], {icon: isInDataIcon}).bindPopup('<strong>Salzgitter-Drütte</strong><br/>');
+        const Salzwedel = L.marker([52.840299, 11.166065], {icon: isStudyIcon}).bindPopup('<strong>Salzwedel</strong><p>In 1944, a camp that had previously been used for Eastern European forced laborers was converted into a women’s satellite camp of the Neuengamme concentration camp. The approximately 1,500 prisoners had to perform forced labor in an armaments company. On April 14, 1945, American troops were able to liberate the camp to which prisoners from other satellite camps had previously been deported.</p>&#9656; <a href=\"#salzwedelMore\">More about Salzwedel</a></br>&#9656; <a href=\"";
+        // line 237
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_salzwedel");
+        yield "\">Group study Salzwedel</a>');
+        const Schandelah = L.marker([52.296205, 10.711765], {icon: isInDataIcon}).bindPopup('<strong>Schandelah</strong><p>1944 wurde ein Lager, das bis dahin für osteuropäische Zwangsarbeiterinnen genutzt worden war, zu einem Frauenaußenlager des KZ Neuengamme umgestaltet. Die etwa 1.500 Häftlinge mussten Zwangsarbeit in einem Rüstungsunternehmen leisten. Am 14. April 1945 konnten amerikanische Truppen das Lager befreien, in das zuvor noch Häftlinge anderer Außenlager deportiert worden waren.</p>&#9656; <a href=\"";
+        // line 238
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_salzwedel");
+        yield "\">Group study Salzwedel</a>');
+        const WatensteidtLeindeMen = L.marker([52.137516462553755, 10.436547953373374], {icon: isInDataIcon}).bindPopup('<strong>Salzgitter-Watenstedt/Leinde (men)</strong><br/>');
+        const WatensteidtLeindeFrauen = L.marker([52.13748315467425, 10.43655563535315], {icon: isInDataIcon}).bindPopup('<strong>Salzgitter-Watenstedt/Leinde (women)</strong><br/>');
+        const WedelFrauen = L.marker([53.58404849833425, 9.720774436136473], {icon: isStudyIcon}).bindPopup('<strong>Wedel (women)</strong><p>From September 1944, 500 Hungarian and Czech Jewish women, who had previously been at Dessauer Ufer and had to perform forced labor in clearing work in the city, were imprisoned in the Wedel satellite camp of Neuengamme concentration camp. After two weeks, the camp was evacuated and the women were taken to the Eidelstedt satellite camp.</p>&#9656; <a href=\"#wedelMore\">More about Wedel (women)</a></br>&#9656; <a href=\"";
+        // line 241
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_deportation_dessauerUfer");
+        yield "\">Group study Dessauer Ufer</a>');
+        const WilhelmshavenAlterBanterWeg = L.marker([53.515253, 8.086887], {icon: isInDataIcon}).bindPopup('<strong>Wilhelmshaven (Alter Banter Weg)</strong><br/>');
+        const Wittenberge = L.marker([52.992716, 11.771057], {icon: isInDataIcon}).bindPopup('<strong>Wittenberge</strong><br/>');
+        const Woebbelin = L.marker([53.366944, 11.491944], {icon: isInDataIcon}).bindPopup('<strong>Wöbbelin</strong><br/>');
+
+
+        const mbAttr = 'Map data &copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors, Imagery © <a href=\"https://www.mapbox.com/\">Mapbox</a>';
+        const mbUrl = 'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw';
+
+        const streets = L.tileLayer(mbUrl, {
+            id: 'mapbox/streets-v11',
+            tileSize: 512,
+            zoomOffset: -1,
+            attribution: mbAttr
+        });
+
+        const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 11,
+            attribution: '&copy; <a href=\"http://www.openstreetmap.org/copyright\">OpenStreetMap</a>'
+        });
+
+        const fallstudien = L.layerGroup([BergenBelsen, FallerslebenFrauenVW, HAhlem, HHDessauerUfer, HHEidelstedt, Luebberstedt, PortaWestfalicaHausberge, Salzwedel, WedelFrauen]);
+        const datenrecherche = L.layerGroup([Boizenburg, BraunschweigBuessingNAG, BraunschweigVechelde, BraunschweigSSReitschule, BremenFarge, BremenBlumenthal, BremenHindenburgkaserne, BremenObernheide, BremenOsterort, BremenSchuetzenhof, HelmstedtBeendorfFrauen, HHHammerbrook, HHLangenhorn, HHNeugraben, HHSasel, HHSteinwerder, HHTiefstack, HHWandsbek, HLangenhagen, HLimmer, Hildesheim, HMuehlenberg, Horneburg, MeppenVersen, NeuengammeStammlager, SalzgitterDruette, Schandelah, WatensteidtLeindeMen, WatensteidtLeindeFrauen, WilhelmshavenAlterBanterWeg, Wittenberge, Woebbelin]);
+
+        const overlays = {
+            'Examined and mentioned in case studies': fallstudien,
+            'Occurring in data research': datenrecherche,
+        };
+
+        const map = L.map('map', {
+            center: [53.23, 9.86],
+            zoom: 8,
+            layers: [osm,
+                fallstudien,
+                datenrecherche,
+            ]
+        });
+
+        const baseLayers = {
+            'OpenStreetMap': osm,
+        };
+
+
+        const layerControl = L.control.layers(baseLayers, overlays).addTo(map);
+
+    </script>
+
+";
+        
+        $__internal_6f47bbe9983af81f1e7450e9a3e3768f->leave($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof);
+
+        
+        $__internal_5a27a8ba21ca79b61932376b2fa922d2->leave($__internal_5a27a8ba21ca79b61932376b2fa922d2_prof);
+
+        yield from [];
+    }
+
+    /**
+     * @codeCoverageIgnore
+     */
+    public function getTemplateName(): string
+    {
+        return "site/map.en.html.twig";
+    }
+
+    /**
+     * @codeCoverageIgnore
+     */
+    public function isTraitable(): bool
+    {
+        return false;
+    }
+
+    /**
+     * @codeCoverageIgnore
+     */
+    public function getDebugInfo(): array
+    {
+        return array (  391 => 241,  385 => 238,  381 => 237,  376 => 235,  370 => 232,  354 => 219,  348 => 218,  343 => 216,  335 => 215,  309 => 204,  299 => 197,  290 => 191,  285 => 188,  102 => 6,  89 => 5,  64 => 3,  41 => 1,);
+    }
+
+    public function getSourceContext(): Source
+    {
+        return new Source("{% extends 'base-map.en.html.twig' %}
+
+{% block title %} Map view concentration camps | {{ parent() }} {% endblock %}
+
+{% block body %}
+    
+    <div class=\"container g-4 py-5\">
+        <h2>Concentration camps with prisoners deported from Hungary</h2>
+
+        <div class=\"row\">
+            <div class=\"col-lg-6\">
+                <p>
+                    The map shows the locations of concentration camps in northern Germany where people deported from Hungary 
+                    were imprisoned from 1944 onward. The first place of detention in the region was initially the so-called 
+                    “exchange camp” of Bergen-Belsen. Starting in 1944, Jews who had previously been forcibly transported to 
+                    extermination camps were also deported to the German Reich to be used for forced labor. To that end, they were 
+                    housed in satellite camps, set up in the immediate vicinity of their places of work. Jews who had previously 
+                    been deported from Hungary to Auschwitz arrived in northern Germany from mid-1944 onward. Additional Jews from 
+                    Budapest reached the area at the end of 1944 via deportation routes through annexed Austria.
+            </div>
+            <div class=\"col-lg-6\">
+                <p>
+                    Due to new demands for forced labor and the advance of the Allies, the prisoners were sometimes relocated 
+                    to other camps several times.
+                    <br>
+                    After the evacuation of the satellite camps of Neuengamme concentration camp, many of the prisoners were sent to 
+                    Bergen-Belsen, which developed into a camp for dying prisoners [Sterbelager] due to the inhumane conditions and 
+                    acute overcrowding. The map shows the camps mentioned in the case studies presented here and those for which the 
+                    presence of persons deported from Hungary could be established as part of the project. An 
+                    <a href=\"https://www.kz-gedenkstaette-neuengamme.de/geschichte/kz-aussenlager/aussenlagerliste/\"
+                        title=\"Website of the Neuengamme Concentration Camp Memorial\">
+                        overview of all satellite camps of Neuengamme concentration camp can be found here</a>, further 
+                    <a href=\"https://bergen-belsen.stiftung-ng.de/de/geschichte/konzentrationslager-1943-1945/\"
+                        title=\"Website of the Neuengamme Concentration Camp Memorial\">
+                        information on Bergen-Belsen concentration camp can be found here</a>.<!--</p>-->
+                </p>
+            </div>
+        </div>
+
+        <div class=\"row\">
+            <div id=\"map\" class=\"mt-3\">
+            </div>
+        </div>
+
+    <div class=\"row\">
+        <div class=\"caption\">
+            The map shows the camps mentioned in the case studies presented here (blue) and those for which the presence of 
+            persons deported from Hungary could be established as part of the project (gray).
+        </div>
+    </div>
+
+        <div class=\"row mt-5\">
+            <h3>Information on select camps</h3>
+            <div class=\"col-lg-6\">
+                <h4 id=\"bergenbelsenMore\" class=\"mt-4\">Bergen-Belsen</h4>
+                <p>
+                    The Bergen-Belsen concentration camp was initially established in 1943 according to plans by the SS and the 
+                    Foreign Office to quarter Jewish hostages who were to be exchanged for German civilians in Allied custody. 
+                    From July to September 1944, the SS set up separate areas of the camp for various groups of prisoners, including 
+                    the so-called “Hungarian camp.” However, it was soon assigned further functions. At the end of March 1944, a section 
+                    of the camp was set up for male prisoners from other concentration camps who were too ill to continue performing 
+                    forced labor there. The SS did little to enable the sick prisoners to survive, with the result that the majority 
+                    of them perished in Bergen-Belsen. In August 1944, a section of the camp was set up for female detainees who were 
+                    to be forced to work in the German armaments industry. Within a few months, the SS deported some 9,000 prisoners 
+                    to the women’s camp. The prisoners initially came mainly from Poland, where they had been arrested as a result of 
+                    the Warsaw Uprising; later, they also included many Polish and Hungarian Jewish women. After a short time, the 
+                    majority of the women were deported to one of the satellite camps of the concentration camps located at the sites 
+                    of German armaments companies. From the end of 1944 onward, the Bergen-Belsen concentration camp became the 
+                    destination of many death marches and evacuation transports from the concentration camps near the front. 
+                    Between December 1944 and mid-April 1945 alone, an additional 85,000 inmates came to Bergen-Belsen, meaning that 
+                    the camp was quickly reaching complete overcrowding. The supply situation was also disastrous. Under these 
+                    circumstances, a typhus and typhoid fever epidemic broke out, which the SS did little to combat. The Bergen-Belsen 
+                    concentration camp became a camp for dying prisoners [Sterbelager]. Today a memorial is located at the site of the 
+                    former concentration camp. (See Stiftung niedersächsische Gedenkstätten: Bergen-Belsen. Kriegsgefangenenlager 
+                    1940–1945. Konzentrationslager 1943–1945. Displaced Persons Camp 1945–1950. Katalog der Dauerausstellung., 
+                    Celle 2009, pp.144–295).
+                </p>
+                <h4 id=\"fallerslebenMore\" class=\"mt-4\">Fallersleben (women)</h4>
+                <p>
+                    The Fallersleben satellite camp for women was set up in the late summer of 1944 in the VW factory as a satellite camp 
+                    of Neuengamme concentration camp. The women’s quarters had previously housed 300 Jewish men selected as skilled metal 
+                    workers. The first female prisoners were Jewish women who had been deported from Hungary to Auschwitz and selected 
+                    by the SS for forced labor detail. Further transports from Bergen-Belsen arrived later. The prisoners had to produce 
+                    anti-tank rocket launchers and anti-tank mines in the VW factory. In March 1945, around 200 additional women arrived 
+                    in Fallersleben from the Porta Westfalica-Hausberge satellite camp. Both groups were deported together to Salzwedel 
+                    on April 8, before Allied troops liberated the VW plant.
+                </p>
+                <h4 id=\"dessauerUferMore\" class=\"mt-4\">Hamburg-Dessauer Ufer</h4>
+                <p>
+                    The approximately 1,500 women in the Dessauer Ufer satellite camp (of Neuengamme concentration camp) arrived on two 
+                    transports from Auschwitz. Around half of the first transport in July 1944 included women persecuted as Jews who had 
+                    only recently arrived in Auschwitz from the Theresienstadt ghetto and were mainly from what was then Czechoslovakia. 
+                    The other half was comprised of Jewish women who had been deported from Hungary, which had recently been occupied by 
+                    the Germans. Some of the women from occupied Hungary came from areas that had only been occupied or annexed by 
+                    Hungary itself in 1943 and had previously belonged to Czechoslovakia and Romania. The second transport in August 1944 
+                    included mainly of Jewish women who had previously come to Auschwitz from the Litzmannstadt (Łódź) ghetto. Many of 
+                    them came from Poland, but some of them also originated from Germany. The women mainly had to clear rubble in the 
+                    port of Hamburg, which had become the target of Allied bombing raids.
+                </p>
+                <p>
+                    In September 1944, the women’s satellite camp on Dessauer Ufer was dissolved and the women were distributed to 
+                    several women’s satellite camps set up at the same time in Sasel, Wedel, and Neugraben. Shortly afterward, a men’s 
+                    satellite camp of Neuengamme concentration camp was set up at the same location. 
+                </p>
+                <h4 id=\"eidelstedtMore\" class=\"mt-4\">Hamburg-Eidelstedt</h4>
+                <p>
+                    On September 27, 1944, about 500 Hungarian and Czech Jewish women, previously imprisoned on Dessauer Ufer and in 
+                    Wedel, were deported to the Eidelstedt satellite camp of Neuengamme concentration camp. There they had to perform 
+                    forced labor building makeshift homes for Hamburg’s civilian population and clearing rubble and snow in the city. 
+                    At the beginning of April 1945, in anticipation of Hamburg’s imminent liberation, the Hamburg satellite camps were 
+                    evacuated and the prisoners deported from the city. The prisoners of the Eidelstedt satellite camp were deported 
+                    to Bergen-Belsen, where many of them perished.
+                </p>
+                <h4 id=\"ahlemMore\" class=\"mt-4\">Hannover-Ahlem</h4>
+                <p>
+                    The camp was built by concentration camp prisoners from the Hannover-Stöcken satellite camp on the site of the 
+                    Continental rubber works (Continental-Gummiwerke) in November 1944. It was part of the satellite camp system of 
+                    Neuengamme concentration camp. A total of about 840 mostly Jewish men were quartered there, most of whom had 
+                    previously been imprisoned in the Hannover-Stöcken satellite camp. The prisoners had to perform forced labor for 
+                    the construction of an underground tunnel for Continental-Gummiwerke, a rubber factory, and Maschinenfabrik 
+                    Niedersachsen Hannover, a mechanical engineering plant. On April 5, the majority of the prisoners were forcibly 
+                    driven to Bergen-Belsen. The remaining prisoners in the camp were liberated by American troops on April 10, 1945.
+                </p>
+                <h4 id=\"luebberstedtMore\" class=\"mt-4\">Lübberstedt</h4>
+                <p>
+                    During the Second World War, a German Air Force ammunition plant (Munitionsanstalt – Muna) was located in a forest 
+                    area on the Bremen – Bremerhaven railroad line. Ammunition plants were used to assemble and store ordnance and 
+                    ammunition from intermediate products. Eastern European forced laborers, prisoners of war, Italian military 
+                    internees, and concentration camp prisoners also had to work at the Lübberstedt-Bilohe munitions plant. 
+                    The latter arrived in the summer of 1944 from Auschwitz, where almost all of them had been deported from Hungary 
+                    shortly before. Until the end of April, 500 Jewish women had to perform forced labor in the production facilities 
+                    there. The Lübberstedt-Bilohe satellite camp (of Neuengamme concentration camp) was also evacuated before Allied 
+                    troops were able to liberate the camp. The women were forced into cattle cars, which wandered about northern 
+                    Germany for a week and a half until the surviving women were liberated after a British air raid near Eutin.
+                </p>
+                <h4 id=\"hausbergeMore\" class=\"mt-4\">Porta Westfalica-Hausberge</h4>
+                <p>
+                    The Porta Westfalica-Hausberge women’s satellite camp had only been established in February 1945. At this time, 
+                    there were already two men’s satellite camps of the Neuengamme concentration camp in Porta Westfalica; the prisoners 
+                    were to convert old miners’ tunnels into underground manufacturing facilities. In one of these tunnels, the 
+                    approximately 1,000 women from the new women’s satellite camp were to produce radio tubes for the Philipps Company 
+                    and its subsidiaries. The prisoners included mainly Jewish women who had been deported to Auschwitz from the 
+                    Netherlands and Hungary. Some of them had already been forced to produce radio tubes in a satellite camp of the 
+                    Gross-Rosen concentration camp until that production facility was evacuated in January 1945 as the Soviet army 
+                    approached.
+                </p>
+                <h4 id=\"salzwedelMore\" class=\"mt-4\">Salzwedel</h4>
+                <p>
+                    In Salzwedel, the Draht- und Metallwarenfabrik, wire and metal goods plant, was able to profit from the German 
+                    armaments boom; by 1937, it had grown into the largest industrial company in town, employing a staff of 600. 
+                    This operation also resorted to foreign forced laborers.  In 1944, a camp that had previously been used for Eastern 
+                    European forced laborers was converted into a satellite camp of Neuengamme concentration camp, and the first 
+                    transport of female concentration camp prisoners who had been selected for work in Auschwitz arrived there in the 
+                    late summer of 1944. The group included mainly Jewish women who had recently been deported from Hungary or from 
+                    territories annexed by Hungary. Additional female concentration camp prisoners were subsequently deported to the 
+                    new satellite camp. Unlike the first transport, however, they were not deported directly to Salzwedel, but first 
+                    to the Bergen-Belsen concentration camp, where they were selected for work in Salzwedel. The camp was liberated 
+                    by American troops on April 14, 1945. Just a few kilometers away, the SS, Wehrmacht, and Volksturm units as well 
+                    as Hitler Youth had burned to death 1,061 male concentration camp prisoners in a barn the day before during the 
+                    Gardelegen massacre.
+                </p>
+                <h4 id=\"vwWerkMore\" class=\"mt-4\">VW plant Halle1</h4>
+                <p>
+                    In 1938/1939, Volkswagen GmbH, which had been founded a year earlier, set up its plant near Fallersleben in what is 
+                    today Wolfsburg. After the start of the war, the plant did not produce cars for the German civilian population as 
+                    originally planned, but instead took on armament orders. The Volkswagen Group also made use of the various forms 
+                    of Nazi forced labor. By the end of 1944, forced laborers made up two thirds of the workforce; in total, some 
+                    200,000 persons had to perform forced labor at Volkswagen, many of whom did not survive the working conditions. 
+                    In addition to civilian forced laborers, Soviet prisoners of war, and Italian military internees, this also 
+                    included about 5,000 concentration camp prisoners overall. Among them, 300 had been selected as skilled metal workers 
+                    in the Auschwitz concentration camp from a group of Jews deported from Hungary to form the core workforce of an 
+                    underground rocket production facility operated by a VW subsidiary. They were initially trained at the VW plant, 
+                    where they were also quartered. After parts of the factory were destroyed by Allied bombing, the 300 men were 
+                    deported to Thil in northern France. 
+                </p>
+                <h4 id=\"wedelMore\" class=\"mt-4\">Wedel (women)</h4>
+                <p>
+                    From September 1944 onward, 500 Hungarian and Czech Jewish women, who had previously been at Dessauer Ufer and had 
+                    to perform forced labor in clearing work in the city, were interned in the Wedel satellite camp of Neuengamme 
+                    concentration camp. After two weeks, the camp was evacuated and the women were taken to the Eidelstedt satellite camp.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    {# Coordinates set to Salzwedel [ 52.85, 11.15] as that allows to have a good overview of all camps #}
+    <script>
+
+        var isStudyIcon = L.icon({
+            iconUrl: '{{ asset('images/marker-icon.png') }}',
+            iconSize: [30, 48,6], // size of the icon
+            iconAnchor: [19, 88], // point of the icon which will correspond to marker's location
+            popupAnchor: [-3, -76] // point from which the popup should open relative to the iconAnchor
+        });
+        var isInDataIcon = L.icon({
+            iconUrl: '{{ asset('images/marker-icon_grey.png') }}',
+            iconSize: [30, 48,6], // size of the icon
+            iconAnchor: [19, 88], // point of the icon which will correspond to marker's location
+            popupAnchor: [-3, -76] // point from which the popup should open relative to the iconAnchor
+        });
+
+
+        const BergenBelsen = L.marker([52.757778, 9.907778], {icon: isStudyIcon}).bindPopup('<strong>Bergen-Belsen</strong><p>The Bergen-Belsen concentration camp was initially founded in 1943 as an “exchange camp” to quarter Jewish hostages. However, it was quickly assigned other functions and a men’s and women’s camp was set up. From the end of 1944 onward, Bergen-Belsen became the destination of many death marches and evacuation transports, developing into a death camp due to the appalling conditions. After liberation, a Polish and a Jewish displaced persons camp were set up in Bergen-Belsen.</p>&#9656; <a href=\"#bergenbelsenMore\">More about Bergen-Belsen</a><br/>&#9656; <a href=\"{{ path('app_deportation_vw') }}\">Group study 300er-Gruppe</a><br/>&#9656; <a href=\"{{ path('app_deportation_dessauerUfer') }}\">Group study Dessauer Ufer</a><br/>&#9656; <a href=\"{{ path('app_deportation_salzwedel') }}\">Group study Salzwedel</a><br/>&#9656; <a href=\"{{ path('app_bio_fuerst') }}\">Individual biography Gyula Fürst</a><br/>&#9656; <a href=\"{{ path('app_bio_mereny') }}\">Individual biography Merényi sisters</a><br/>&#9656; <a href=\"{{ path('app_bio_blum') }}\">Individual biography Yehuda Blum</a><br/>&#9656; <a href=\"{{ path('app_bio_hardy') }}\">Individual biography Katharina Hardy</a><br/>');
+        const Boizenburg = L.marker([53.37507, 10.698472], {icon: isInDataIcon}).bindPopup('<strong>Boizenburg</strong><br/>');
+        const BraunschweigBuessingNAG = L.marker([52.256667, 10.541111], {icon: isInDataIcon}).bindPopup('<strong>Braunschweig (Büssing-NAG) </strong><br/>');
+        const BraunschweigVechelde = L.marker([52.260111, 10.376306], {icon: isInDataIcon}).bindPopup('<strong>Braunschweig-Vechelde</strong><br/>');
+        const BraunschweigSSReitschule = L.marker([52.243424, 10.536425], {icon: isInDataIcon}).bindPopup('<strong>Braunschweig (SS-Reitschule)</strong><br/>');
+        const BremenFarge = L.marker([53.217222, 8.533333], {icon: isInDataIcon}).bindPopup('<strong>Bremen-Farge</strong><br/>');
+        const BremenBlumenthal = L.marker([53.18146, 8.56473], {icon: isInDataIcon}).bindPopup('<strong>Bremen-Blumenthal</strong><br/>');
+        const BremenHindenburgkaserne = L.marker([53.057302350927216, 8.816555094621869], {icon: isInDataIcon}).bindPopup('<strong>Bremen-Hindenburgkaserne</strong><br/>');
+        const BremenObernheide = L.marker([53.00101850934623, 8.745048757476429], {icon: isInDataIcon}).bindPopup('<strong>Bremen-Obernheide</strong><br/>');
+        const BremenOsterort = L.marker([53.141951279652694, 8.691817452772783], {icon: isInDataIcon}).bindPopup('<strong>Bremen-Osterort</strong><br/>');
+        const BremenSchuetzenhof = L.marker([53.118994, 8.768726], {icon: isInDataIcon}).bindPopup('<strong>Bremen-Schützenhof</strong><br/>');
+        const FallerslebenFrauenVW = L.marker([52.4528305937707, 10.805762405280873], {icon: isStudyIcon}).bindPopup('<strong>VW-Werk Halle 1</strong><p>In addition to existing concentration camps and other forced labor camps, 300 jewish concentration camp prisoners were quartered directly at the VW plant in June 1944. They were to form the core workforce for an underground rocket production und be trained at the VW plant. After the bombing of the plant at the end of June, the prisoners were deported to the Thil satellite camp of Natzweiler concentration camp in France.</p>&#9656; <a href=\"#vwWerkMore\">More about VW-Werk Halle 1</a></br>&#9656; <a href=\"{{ path('app_deportation_vw') }}\">Group study 300er-Gruppe</a><br/><br/><strong>Fallersleben (women)</strong><p>The Fallersleben women’s camp was set up as a satellite camp of Neuengamme concentration camp in the late summer of 1944 in the VW factory. The approximately 650 prisoners had to produce anti-tank rocket launchers and anti-tank mines in the VW factory. On April 8, 1945, the women’s satellite camp was evacuated by the SS and the women were deported to Salzwedel.</p>&#9656; <a href=\"{{ path('app_map') }}#fallerslebenMore\">More about Fallersleben</a><br/>&#9656; <a href=\"{{ path('app_deportation_salzwedel') }}\">Group study Salzwedel</a>');
+        const HAhlem = L.marker([52.37835, 9.65748], {icon: isStudyIcon}).bindPopup('<strong>Hannover-Ahlem</strong><p>The Hannover-Ahlem men’s satellite camp was set up as satellite camp of Neuengamme concentration camp in November 1944. The approximately 840 prisoners had to construct an underground tunnel for Continental-Gummiwerke and Maschinenfabrik Niedersachsen. On April 5, the majority of the prisoners were forcibly driven to Bergen-Belsen.</p>&#9656; <a href=\"#ahlemMore\">More about Hannover-Ahlem</a><br/>&#9656; <a href=\"{{ path('app_bio_fuerst') }}\">Individual biography Gyula Fürst</a>');
+        const HelmstedtBeendorfFrauen = L.marker([52.23989233360328, 11.089496406413582], {icon: isInDataIcon}).bindPopup('<strong>Helmstedt-Beendorf (women)</strong><br/>');
+        const HHDessauerUfer = L.marker([53.525, 10.010556], {icon: isStudyIcon}).bindPopup('<strong>Hamburg-Dessauer Ufer</strong><p>The satellite camp of Neuengamme concentration camp on Dessauer Ufer was set up in July 1944, initially serving as a women’s camp for around 1,500 female prisoners and from September 1944 as a men’s camp for around 2,000 male prisoners. All prisoners had to perform forced labor, particularly in clearing rubble.</p>&#9656; <a href=\"{{ path('app_map') }}#dessauerUferMore\">More about Hamburg-Dessauer Ufer</a><br/>&#9656; <a href=\"{{ path('app_deportation_dessauerUfer') }}\">Group study Dessauer Ufer</a>');
+        const HHEidelstedt = L.marker([53.60677, 9.87835], {icon: isStudyIcon}).bindPopup('<strong>Hamburg-Eidelstedt</strong><p>The satellite camp of Neuengamme concentration camp was established in September 1944. The approximately 500 prisoners had previously been imprisoned in the Wedel satellite camp and had to perform forced labor, particularly in the construction of makeshift residential homes. The prisoners were deported to Bergen-Belsen at the beginning of April 1945.</p>&#9656; <a href=\"#eidelstedtMore\">More about Hamburg-Eidelstedt</a></br>&#9656; <a href=\"{{ path('app_deportation_dessauerUfer') }}\">Group study Dessauer Ufer</a>');
+        const HHHammerbrook = L.marker([53.55075, 10.022389], {icon: isInDataIcon}).bindPopup('<strong>Hamburg-Hammerbrook (Spaldingstrasse)</strong><br/>');
+        const HHLangenhorn = L.marker([53.672192, 9.99293], {icon: isInDataIcon}).bindPopup('<strong>Hamburg-Langenhorn</strong><br/>');
+        const HHNeugraben = L.marker([53.460985, 9.868133], {icon: isInDataIcon}).bindPopup('<strong>Hamburg-Neugraben</strong><br/>');
+        const HHSasel = L.marker([53.664662, 10.104215], {icon: isInDataIcon}).bindPopup('<strong>Hamburg-Sasel</strong><br/>');
+        const HHSteinwerder = L.marker([53.534444, 9.957222], {icon: isInDataIcon}).bindPopup('<strong>Hamburg-Steinwerder (Stülckenwerft)</strong><br/>');
+        const HHTiefstack = L.marker([53.52316641100441, 10.07133832394324], {icon: isInDataIcon}).bindPopup('<strong>Hamburg-Tiefstack</strong><br/>');
+        const HHWandsbek = L.marker([53.582778, 10.108611], {icon: isInDataIcon}).bindPopup('<strong>Hamburg-Wandsbek</strong><br/>');
+        const HLangenhagen = L.marker([52.4181400953558, 9.722412926738725], {icon: isInDataIcon}).bindPopup('<strong>Hannover-Langenhagen</strong><br/>');
+        const HLimmer = L.marker([52.381435, 9.68499], {icon: isInDataIcon}).bindPopup('<strong>Hannover-Limmer</strong><br/>');
+        const Hildesheim = L.marker([52.157, 9.944], {icon: isInDataIcon}).bindPopup('<strong>Hildesheim</strong><br/>');
+        const HMuehlenberg = L.marker([52.3413, 9.696], {icon: isInDataIcon}).bindPopup('<strong>Hannover-Mühlenberg</strong><br/>');
+        const Horneburg = L.marker([53.509444, 9.575], {icon: isInDataIcon}).bindPopup('<strong>Horneburg</strong><br/>');
+        const Luebberstedt = L.marker([53.339065476033376, 8.807211550174749], {icon: isStudyIcon}).bindPopup('<strong>Lübberstedt</strong><p>From August 1944, the Lübberstedt-Bilohe munitions plant was home to a women’s satellite camp of Neuengamme concentration camp. Around 500 prisoners had to perform forced labor in armaments production. The camp was evacuated in April 1945. The majority of prisoners was then sent by train through northern Germany for days on end.</p>&#9656; <a href=\"#luebberstedtMore\">More about Lübberstedt</a><br/>&#9656; <a href=\"{{ path('app_deportation_luebberstedt') }}\">Group study Lübberstedt</a>');
+        const MeppenVersen = L.marker([52.724636, 7.183722], {icon: isInDataIcon}).bindPopup('<strong>Meppen-Versen</strong><br/>');
+        const NeuengammeStammlager = L.marker([53.430556, 10.233611], {icon: isInDataIcon}).bindPopup('<strong>Neuengamme main camp</strong><br/>');
+        const PortaWestfalicaHausberge = L.marker([52.246275, 8.912079], {icon: isStudyIcon}).bindPopup('<strong>Porta Westfalica-Hausberge</strong><p>The Porta Westfalica-Hausberge women’s satellite camp was established in February 1945. The approximately 1,000 prisoners had to produce radio tubes for the Philipps Company and its subsidiaries. The camp was evacuated in January 1945 and the prisoners were deported to various other satellite camps, including Fallersleben.</p>&#9656; <a href=\"#hausbergeMore\">More about Porta Westfalica-Hausberge</a><br/>&#9656; <a href=\"{{ path('app_deportation_salzwedel') }}\">Group study Salzwedel</a>');
+        const SalzgitterDruette = L.marker([52.158292, 10.418464], {icon: isInDataIcon}).bindPopup('<strong>Salzgitter-Drütte</strong><br/>');
+        const Salzwedel = L.marker([52.840299, 11.166065], {icon: isStudyIcon}).bindPopup('<strong>Salzwedel</strong><p>In 1944, a camp that had previously been used for Eastern European forced laborers was converted into a women’s satellite camp of the Neuengamme concentration camp. The approximately 1,500 prisoners had to perform forced labor in an armaments company. On April 14, 1945, American troops were able to liberate the camp to which prisoners from other satellite camps had previously been deported.</p>&#9656; <a href=\"#salzwedelMore\">More about Salzwedel</a></br>&#9656; <a href=\"{{ path('app_deportation_salzwedel') }}\">Group study Salzwedel</a>');
+        const Schandelah = L.marker([52.296205, 10.711765], {icon: isInDataIcon}).bindPopup('<strong>Schandelah</strong><p>1944 wurde ein Lager, das bis dahin für osteuropäische Zwangsarbeiterinnen genutzt worden war, zu einem Frauenaußenlager des KZ Neuengamme umgestaltet. Die etwa 1.500 Häftlinge mussten Zwangsarbeit in einem Rüstungsunternehmen leisten. Am 14. April 1945 konnten amerikanische Truppen das Lager befreien, in das zuvor noch Häftlinge anderer Außenlager deportiert worden waren.</p>&#9656; <a href=\"{{ path('app_deportation_salzwedel') }}\">Group study Salzwedel</a>');
+        const WatensteidtLeindeMen = L.marker([52.137516462553755, 10.436547953373374], {icon: isInDataIcon}).bindPopup('<strong>Salzgitter-Watenstedt/Leinde (men)</strong><br/>');
+        const WatensteidtLeindeFrauen = L.marker([52.13748315467425, 10.43655563535315], {icon: isInDataIcon}).bindPopup('<strong>Salzgitter-Watenstedt/Leinde (women)</strong><br/>');
+        const WedelFrauen = L.marker([53.58404849833425, 9.720774436136473], {icon: isStudyIcon}).bindPopup('<strong>Wedel (women)</strong><p>From September 1944, 500 Hungarian and Czech Jewish women, who had previously been at Dessauer Ufer and had to perform forced labor in clearing work in the city, were imprisoned in the Wedel satellite camp of Neuengamme concentration camp. After two weeks, the camp was evacuated and the women were taken to the Eidelstedt satellite camp.</p>&#9656; <a href=\"#wedelMore\">More about Wedel (women)</a></br>&#9656; <a href=\"{{ path('app_deportation_dessauerUfer') }}\">Group study Dessauer Ufer</a>');
+        const WilhelmshavenAlterBanterWeg = L.marker([53.515253, 8.086887], {icon: isInDataIcon}).bindPopup('<strong>Wilhelmshaven (Alter Banter Weg)</strong><br/>');
+        const Wittenberge = L.marker([52.992716, 11.771057], {icon: isInDataIcon}).bindPopup('<strong>Wittenberge</strong><br/>');
+        const Woebbelin = L.marker([53.366944, 11.491944], {icon: isInDataIcon}).bindPopup('<strong>Wöbbelin</strong><br/>');
+
+
+        const mbAttr = 'Map data &copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors, Imagery © <a href=\"https://www.mapbox.com/\">Mapbox</a>';
+        const mbUrl = 'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw';
+
+        const streets = L.tileLayer(mbUrl, {
+            id: 'mapbox/streets-v11',
+            tileSize: 512,
+            zoomOffset: -1,
+            attribution: mbAttr
+        });
+
+        const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 11,
+            attribution: '&copy; <a href=\"http://www.openstreetmap.org/copyright\">OpenStreetMap</a>'
+        });
+
+        const fallstudien = L.layerGroup([BergenBelsen, FallerslebenFrauenVW, HAhlem, HHDessauerUfer, HHEidelstedt, Luebberstedt, PortaWestfalicaHausberge, Salzwedel, WedelFrauen]);
+        const datenrecherche = L.layerGroup([Boizenburg, BraunschweigBuessingNAG, BraunschweigVechelde, BraunschweigSSReitschule, BremenFarge, BremenBlumenthal, BremenHindenburgkaserne, BremenObernheide, BremenOsterort, BremenSchuetzenhof, HelmstedtBeendorfFrauen, HHHammerbrook, HHLangenhorn, HHNeugraben, HHSasel, HHSteinwerder, HHTiefstack, HHWandsbek, HLangenhagen, HLimmer, Hildesheim, HMuehlenberg, Horneburg, MeppenVersen, NeuengammeStammlager, SalzgitterDruette, Schandelah, WatensteidtLeindeMen, WatensteidtLeindeFrauen, WilhelmshavenAlterBanterWeg, Wittenberge, Woebbelin]);
+
+        const overlays = {
+            'Examined and mentioned in case studies': fallstudien,
+            'Occurring in data research': datenrecherche,
+        };
+
+        const map = L.map('map', {
+            center: [53.23, 9.86],
+            zoom: 8,
+            layers: [osm,
+                fallstudien,
+                datenrecherche,
+            ]
+        });
+
+        const baseLayers = {
+            'OpenStreetMap': osm,
+        };
+
+
+        const layerControl = L.control.layers(baseLayers, overlays).addTo(map);
+
+    </script>
+
+{% endblock %}", "site/map.en.html.twig", "/Users/Admin/Documents/dev/hungmem/templates/site/map.en.html.twig");
+    }
+}
