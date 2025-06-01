@@ -1,0 +1,19 @@
+# ignore composer dependencies
+/vendor/
+
+# ignore symfony cache, logs, sessions
+/var/cache/
+/var/log/
+/var/sessions/
+
+# ignore configurations of local environment variables/.env.local
+.env.*.local
+
+# igbore IDE and editor files
+/.idea/
+/.vscode/
+
+# ignore system data
+.DS_Store
+Thumbs.db
+
