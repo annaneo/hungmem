@@ -34,12 +34,28 @@
                         <a href="{{ path('app_map') }}" class="nav-link"
                            title="Kartenansicht">Orte</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="{{ path('app_deportation') }}" class="nav-link" title="Lager und Zwangsarbeit">Lager und Zwangsarbeit</a>
+                    <li class="nav-item dropdown">
+                        <a href="{{ path('app_deportation') }}" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" title="Lager und Zwangsarbeit">
+                            Lager und Zwangsarbeit
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="{{ path('app_deportation') }}" title="Zur Übersicht der Fallstudien">Übersicht</a></li>
+                            <li><a class="dropdown-item" href="{{ path('app_deportation_vw') }}" title="Fallstudie Volkswagen">Volkswagen</a></li>
+                            <li><a class="dropdown-item" href="{{ path('app_deportation_dessauerUfer') }}" title="Fallstudie Dessauer Ufer">Dessauer Ufer</a></li>
+                            <li><a class="dropdown-item" href="{{ path('app_deportation_salzwedel') }}" title="Fallstudie Salzwedel">Salzwedel</a></li>
+                            <li><a class="dropdown-item" href="{{ path('app_deportation_luebberstedt') }}" title="Fallstudie Lübberstedt">Lübberstedt</a></li>
+                        </ul>
                     </li>
-                    <li class="nav-item">
-                        <a href="{{ path('app_biographies') }}" class="nav-link"
+                    <li class="nav-item dropdown">
+                        <a href="{{ path('app_biographies') }}" class="nav-link dropdown-toggle" id="biographiesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" 
                            title="Biografien">Biografien</a>
+                        <ul class="dropdown-menu" aria-labelledby="biographiesDropdown">
+                            <li><a class="dropdown-item" href="{{ path('app_biographies') }}" title="Übersicht der Biografien">Übersicht</a></li>
+                            <li><a class="dropdown-item" href="{{ path('app_bio_blum') }}" title="Biografie Yehuda Blum">Yehuda Blum</a></li>
+                            <li><a class="dropdown-item" href="{{ path('app_bio_fuerst') }}" title="Biografie Gyula Fürst">Gyula Fürst</a></li>
+                            <li><a class="dropdown-item" href="{{ path('app_bio_hardy') }}" title="Biografie Katharina Hardy">Katharina Hardy</a></li>
+                            <li><a class="dropdown-item" href="{{ path('app_bio_mereny') }}" title="Biografie Lea und Zsuzsa Merényi">Lea and Zsuzsa Merényi</a></li>
+                        </ul>
                     </li>
                     <li class="nav-item">
                         <a href="{{ path('app_sources') }}" class="nav-link" title="Was wir wissen und was wir nicht wissen">Quellen</a>
@@ -58,3 +74,26 @@
     </nav>
 
 </div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        // current URL without Domain (eg. /about or /contact)
+        let currentPath = window.location.pathname;
+
+        // select all navigation elements
+        let navLinks = document.querySelectorAll(".nav-link, .dropdown-item");
+
+        navLinks.forEach(link => {
+            // if href of links matches the current URL, selected-class is added; excludes footer
+            if (link.getAttribute("href") === currentPath && !link.classList.contains("footer-link")) {
+                link.classList.add("selected");
+
+                // if link is within a dropdown menu, the selected-class is added to the toggle-button 
+                let dropdown = link.closest(".dropdown-menu");
+                if (dropdown) {
+                    dropdown.previousElementSibling.classList.add("selected");
+                }
+            }
+        });
+    });
+</script>
