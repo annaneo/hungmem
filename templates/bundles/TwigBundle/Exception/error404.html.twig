@@ -2,10 +2,23 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
-    <h1>Page not found (404)</h1>
+    <h1>Fehler 404: Seite nicht gefunden</h1>
+
+    <p>
+        Die angegebene Seite konnte nicht gefunden werden. Überprüfen Sie die URL
+        auf Tippfehler oder <a href="{{ path('app_home', {_locale: 'de'}) }}">kehren Sie zur Startseite zurück</a>.
+    </p>
+    <p>
+        Bitte informieren Sie gegebenenfalls kontakt(at)igdj-hh.de
+    </p>
+
+    <h1>Error 404: page not found</h1>
 
     <p>
         The requested page couldn't be located. Checkout for any URL
-        misspelling or <a href="{{ path('homepage') }}">return to the homepage</a>.
+        misspelling or <a href="{{ path('app_home', {_locale: 'en'}) }}">return to the homepage</a>.
+    </p>
+    <p>
+        You might want to inform kontakt(at)igdj-hh.de
     </p>
 {% endblock %}

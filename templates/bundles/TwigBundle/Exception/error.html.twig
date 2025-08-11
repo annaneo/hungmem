@@ -2,10 +2,23 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
-    <h1>Page not found</h1>
+    <h1>Ein Fehler ist aufgetreten</h1>
 
     <p>
-        The requested page couldn't be located. Checkout for any URL
-        misspelling or <a href="{{ path('homepage') }}">return to the homepage</a>.
+        Überprüfen Sie die URL auf Tippfehler oder 
+        <a href="{{ path('app_home', {_locale: 'de'}) }}">kehren Sie zur Startseite zurück</a>.
+    </p>
+    <p>
+        Bitte informieren Sie gegebenenfalls kontakt(at)igdj-hh.de
+    </p>
+
+    <h1>An error occured</h1>
+
+    <p>
+        Checkout for any URL misspelling or 
+        <a href="{{ path('app_home', {_locale: 'en'}) }}">return to the homepage</a>.
+    </p>
+    <p>
+        You might want to inform kontakt(at)igdj-hh.de
     </p>
 {% endblock %}
