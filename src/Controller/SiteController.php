@@ -32,7 +32,7 @@ class SiteController extends AbstractController
         ]);
     }
 
-    #[Route('/{_locale<%app.supported_locales%>}/map', name: 'app_map')]
+    #[Route(['en' => '/{_locale<%app.supported_locales%>}/places', 'de' => '/{_locale<%app.supported_locales%>}/orte'], name: 'app_map')]
     public function map(string $_locale): Response
     {
         if ($_locale === 'en') {
@@ -44,7 +44,7 @@ class SiteController extends AbstractController
         return $this->render($template, []);
     }
 
-    #[Route('/{_locale<%app.supported_locales%>}/deportationen/', name: 'app_deportation')]
+    #[Route(['en' => '/{_locale<%app.supported_locales%>}/deportations', 'de' => '/{_locale<%app.supported_locales%>}/deportationen/'], name: 'app_deportation')]
     public function deportation(string $_locale): Response
     {
         if ($_locale === 'en') {
@@ -58,7 +58,7 @@ class SiteController extends AbstractController
         ]);
     }
 
-    #[Route('/{_locale<%app.supported_locales%>}/biografien/', name: 'app_biographies')]
+    #[Route(['en' => '/{_locale<%app.supported_locales%>}/biographies', 'de' => '/{_locale<%app.supported_locales%>}/biografien/'], name: 'app_biographies')]
     public function biographies(string $_locale): Response
     {
         if ($_locale === 'en') {
@@ -72,7 +72,7 @@ class SiteController extends AbstractController
         ]);
     }
 
-    #[Route('/{_locale<%app.supported_locales%>}/quellen', name: 'app_sources')]
+    #[Route(['en' => '/{_locale<%app.supported_locales%>}/sources', 'de' => '/{_locale<%app.supported_locales%>}/quellen'], name: 'app_sources')]
     public function sources(string $_locale): Response
     {
         if ($_locale === 'en') {
@@ -84,7 +84,7 @@ class SiteController extends AbstractController
         return $this->render($template);
     }
 
-    #[Route('/{_locale<%app.supported_locales%>}/context', name: 'app_context')]
+    #[Route(['en' => '/{_locale<%app.supported_locales%>}/context', 'de' => '/{_locale<%app.supported_locales%>}/kontext'], name: 'app_context')]
     public function context(string $_locale): Response
     {
         if ($_locale === 'en') {
@@ -108,7 +108,7 @@ class SiteController extends AbstractController
         return $this->render($template);
     }
 
-    #[Route('/{_locale<%app.supported_locales%>}/impressum', name: 'app_imprint')]
+    #[Route(['en' => '/{_locale<%app.supported_locales%>}/imprint', 'de' => '/{_locale<%app.supported_locales%>}/impressum'], name: 'app_imprint')]
     public function imprint(string $_locale): Response
     {
         if ($_locale === 'en') {
@@ -129,7 +129,7 @@ class SiteController extends AbstractController
 
     // SUBPAGES
 
-    #[Route('/{_locale<%app.supported_locales%>}/deportationen/gruppe-300', name: 'app_deportation_vw')]
+    #[Route(['en' => '/{_locale<%app.supported_locales%>}/deportations/group-300', 'de' => '/{_locale<%app.supported_locales%>}/deportationen/gruppe-300'], name: 'app_deportation_vw')]
     public function deportationVw(string $_locale): Response
     {
         if ($_locale === 'en') {
@@ -143,7 +143,7 @@ class SiteController extends AbstractController
         ]);
     }
 
-    #[Route('/{_locale<%app.supported_locales%>}/deportationen/frauen-dessauer-ufer', name: 'app_deportation_dessauerUfer')]
+    #[Route(['en' => '/{_locale<%app.supported_locales%>}/deportations/women-dessauer-ufer', 'de' => '/{_locale<%app.supported_locales%>}/deportationen/frauen-dessauer-ufer'], name: 'app_deportation_dessauerUfer')]
     public function deportationDessauerUfer(string $_locale): Response
     {
         if ($_locale === 'en') {
@@ -157,7 +157,7 @@ class SiteController extends AbstractController
         ]);
     }
 
-    #[Route('/{_locale<%app.supported_locales%>}/deportationen/zwangsarbeit-ruestungsindustrie', name: 'app_deportation_salzwedel')]
+    #[Route(['en' => '/{_locale<%app.supported_locales%>}/deportations/forced-labor-armaments-industry', 'de' => '/{_locale<%app.supported_locales%>}/deportationen/zwangsarbeit-ruestungsindustrie'], name: 'app_deportation_salzwedel')]
     public function deportationSalzwedel(string $_locale): Response
     {
         if ($_locale === 'en') {
@@ -171,7 +171,7 @@ class SiteController extends AbstractController
         ]);
     }
 
-    #[Route('/{_locale<%app.supported_locales%>}/deportationen/rauemung-luebberstedt', name: 'app_deportation_luebberstedt')]
+    #[Route(['en' => '/{_locale<%app.supported_locales%>}/deportations/evacuation-luebberstedt', 'de' => '/{_locale<%app.supported_locales%>}/deportationen/rauemung-luebberstedt'], name: 'app_deportation_luebberstedt')]
     public function deportationLuebberstedt(string $_locale): Response
     {
         if ($_locale === 'en') {
@@ -185,7 +185,7 @@ class SiteController extends AbstractController
         ]);
     }
 
-    #[Route('/{_locale<%app.supported_locales%>}/biografien/gyula-fuerst', name: 'app_bio_fuerst')]
+    #[Route(['en' => '/{_locale<%app.supported_locales%>}/biographies/gyula-fuerst', 'de' => '/{_locale<%app.supported_locales%>}/biografien/gyula-fuerst'], name: 'app_bio_fuerst')]
     public function biographyFuerst(string $_locale): Response
     {
         if ($_locale === 'en') {
@@ -199,7 +199,7 @@ class SiteController extends AbstractController
         ]);
     }
 
-    #[Route('/{_locale<%app.supported_locales%>}/biografien/schwestern-mereny', name: 'app_bio_mereny')]
+    #[Route(['en' => '/{_locale<%app.supported_locales%>}/biographies/sisters-mereny', 'de' => '/{_locale<%app.supported_locales%>}/biografien/schwestern-mereny'], name: 'app_bio_mereny')]
     public function biographyMereny(string $_locale): Response
     {
         if ($_locale === 'en') {
@@ -213,7 +213,7 @@ class SiteController extends AbstractController
         ]);
     }
 
-    #[Route('/{_locale<%app.supported_locales%>}/biografien/yehuda-blum', name: 'app_bio_blum')]
+    #[Route(['en' => '/{_locale<%app.supported_locales%>}/biographies/yehuda-blum', 'de' => '/{_locale<%app.supported_locales%>}/biografien/yehuda-blum'], name: 'app_bio_blum')]
     public function biographyBlum(string $_locale): Response
     {
         if ($_locale === 'en') {
@@ -227,7 +227,7 @@ class SiteController extends AbstractController
         ]);
     }
 
-    #[Route('/{_locale<%app.supported_locales%>}/biografien/katharina-hardy', name: 'app_bio_hardy')]
+    #[Route(['en' => '/{_locale<%app.supported_locales%>}/biographies/katharina-hardy', 'de' => '/{_locale<%app.supported_locales%>}/biografien/katharina-hardy'], name: 'app_bio_hardy')]
     public function biographyHardy(string $_locale): Response
     {
         if ($_locale === 'en') {
