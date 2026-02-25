@@ -25,4 +25,4 @@ This behaviour refers to deployment via Clever Cloud, but will probably be an is
 
 ## Citation
 
-Anna Neovesky, Helena Geibel. HUNGMEN: he Holocaust in Hungary and the Deportations to Northern German (Software). GitHub. (https://github.com/annaneo/hungmem[https://github.com/annaneo/hungmem]
+Anna Neovesky, Helena Geibel. HUNGMEN: The Holocaust in Hungary and the Deportations to Northern German (Software). GitHub. (https://github.com/annaneo/hungmem)[https://github.com/annaneo/hungmem]
