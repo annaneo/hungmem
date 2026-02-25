@@ -1,11 +1,23 @@
+{# aktuelle Route + Parameter holen #}
+{% set currentRoute = app.request.attributes.get('_route') %}
+{% set currentParams = app.request.attributes.get('_route_params') %}
+
 <span>
-    <a href="{{ path('app_home', {_locale: 'de'}) }}"
-       style="color: {{ app.request.locale == 'de' ? 'black' : 'grey' }}; text-decoration: none; font-weight: {{ app.request.locale == 'de' ? 'bold' : 'normal' }};">
+    <a href="{{ path(currentRoute, currentParams|merge({'_locale': 'de'})) }}"
+       style="
+            color: {{ app.request.locale == 'de' ? 'black' : 'grey' }};
+            text-decoration: none;
+            font-weight: {{ app.request.locale == 'de' ? 'bold' : 'normal' }};
+       ">
         DE
     </a>
-        |
-    <a href="{{ path('app_home', {_locale: 'en'}) }}"
-       style="color: {{ app.request.locale == 'en' ? 'black' : 'grey' }}; text-decoration: none; font-weight: {{ app.request.locale == 'en' ? 'bold' : 'normal' }};">
+    |
+    <a href="{{ path(currentRoute, currentParams|merge({'_locale': 'en'})) }}"
+       style="
+            color: {{ app.request.locale == 'en' ? 'black' : 'grey' }};
+            text-decoration: none;
+            font-weight: {{ app.request.locale == 'en' ? 'bold' : 'normal' }};
+       ">
         EN
     </a>
 </span>
